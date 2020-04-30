@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "87e44963-4335-4595-93b6-30e7b858ccf2",
+            "Value": {
+                "id": "b9671a50-b2c0-4dad-a673-5dc022a6a227",
+                "resourcePath": "objects\\ob_Sun\\ob_Sun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "888fd89b-433e-4417-ae6e-443597773cb1",
             "Value": {
                 "id": "c7e02092-9743-4d37-8716-f8fdc1a1ab52",
@@ -860,6 +868,14 @@
                 "id": "652f1eef-dbc2-4858-aa21-ce4b99928e05",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a757580c-a11c-4a04-b3d4-a08cc1b442ce",
+            "Value": {
+                "id": "b7d69e8f-08db-427d-9b72-a53cc5d3b9e7",
+                "resourcePath": "views\\a757580c-a11c-4a04-b3d4-a08cc1b442ce.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
