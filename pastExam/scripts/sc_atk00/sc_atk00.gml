@@ -4,8 +4,7 @@
 /////////////////////////////////////////////////////////
 xSpeed = 0;
 ySpeed = 0;
-if ( !isJump )	sprite_index = sp_playerAtk00;
-else			sprite_index = sp_playerAtk00j;
+sprite_index = sp_playerAtk00;
 atkProcess += 1;
 
 //1단계 공격
