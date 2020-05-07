@@ -12,6 +12,7 @@ beSpeed = xSpeed;
 ySpeed	= 0;				// 몬스터 점프량
 grav	= 0.12;
 
+mobHP = 20;
 frontSight		= 256;		// 앞쪽 시야
 backSight		= 128;		// 뒤쪽 시야
 maxTrack		= 450;		// 따라가는 최대 거리
@@ -22,6 +23,7 @@ attackLength	= 64 + abs(ob_player.bbox_left - ob_player.x);		// 몬스터 공격
 delay = room_speed;
 
 
+Attacked		= false;
 canAttack		= false;	// 공격 가능 여부
 isAttack		= false;	// 선공여부
 isPeace			= true;		// 평화상태

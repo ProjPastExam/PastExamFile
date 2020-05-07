@@ -6,8 +6,7 @@
     "children": [
         "5aae8d9a-70fe-4259-bef7-11a03d24df5f",
         "b454407d-79d6-4f77-9fb8-cdc5959a05d8",
-        "76633a29-08e4-458c-9e0a-e001fc5f4ebe",
-        "bda45c9c-99d4-473a-9729-19c34d45f0f2"
+        "76633a29-08e4-458c-9e0a-e001fc5f4ebe"
     ],
     "filterType": "GMScript",
     "folderName": "mob",

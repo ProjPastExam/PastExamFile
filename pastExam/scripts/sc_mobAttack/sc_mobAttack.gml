@@ -1,9 +1,9 @@
-//공격모션 실행
+// 몬스터 공격모션 실행
 sprite_index = sp_mobAtk;
-if(ob_player.hp >= mob_dmg) { 
-	ob_player.hp -= mob_dmg;
+if(global.hp >= mob_dmg) { 
+	global.hp -= mob_dmg;
 }
-else if(ob_player.hp < mob_dmg) { ob_player.hp = 0; }
+else if(global.hp < mob_dmg) { global.hp = 0; }
 
 
 // image_index = sp_mobAtk+1; // 지정 스프라이트

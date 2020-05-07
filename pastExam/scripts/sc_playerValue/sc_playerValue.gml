@@ -67,6 +67,8 @@ mp		= 100;
 mp_max	= mp;
 */
 
+playerDmg = 10;
+
 healthbar_width		= sprite_get_width(sp_healthbar)*global.hp_max/80;
 healthbar_height	= sprite_get_height(sp_healthbar);
 healthbar_x			= 100;

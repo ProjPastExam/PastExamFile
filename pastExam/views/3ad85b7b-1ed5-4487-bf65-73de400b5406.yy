@@ -6,7 +6,8 @@
     "children": [
         "879cb30f-a3ca-4569-b0a6-1487a8929cb3",
         "413d8e74-4ff3-4437-861e-3c02f8e0a8b7",
-        "6ef8c603-3342-4793-93ad-6f3f6ba631b2"
+        "6ef8c603-3342-4793-93ad-6f3f6ba631b2",
+        "890cc756-7e2d-4939-8915-bd66f0cdf538"
     ],
     "filterType": "GMScript",
     "folderName": "attack",
