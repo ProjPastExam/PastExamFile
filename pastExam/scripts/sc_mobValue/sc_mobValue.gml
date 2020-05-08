@@ -7,12 +7,11 @@
 
 xSpeed	= 3;				// 몬스터 스피드
 sSpeed	= xSpeed;
-beSpeed = xSpeed;
 
 ySpeed	= 0;				// 몬스터 점프량
 grav	= 0.12;
 
-mobHP = 20;
+mobHP = 100;
 frontSight		= 256;		// 앞쪽 시야
 backSight		= 128;		// 뒤쪽 시야
 maxTrack		= 450;		// 따라가는 최대 거리
@@ -20,12 +19,13 @@ runHP			= 0;		// 도망치는 HP(퍼센트)
 adversarial		= 0;		// 적대도
 mob_dmg			= 10;
 attackLength	= 64 + abs(ob_player.bbox_left - ob_player.x);		// 몬스터 공격거리
-delay = room_speed;
+Attack_delay = room_speed;
+Attacked_delay = 11;
 
 
-Attacked		= false;
+Attacked		= false;	// 공격 당하는 중(슈퍼 아머 등에 사용될 변수)
 canAttack		= false;	// 공격 가능 여부
-isAttack		= false;	// 선공여부
+isFirstAttack	= false;	// 선공여부
 isPeace			= true;		// 평화상태
 
 // 플레이어 트레킹 변수
