@@ -3,49 +3,40 @@
 
 /////////////////////////////////////////////////////////
 xSpeed = 0;
-ySpeed = 0;
 sprite_index = sp_playerAtk00;
 atkProcess += 1;
 
 //1단계 공격
-if ( atkProcess == 9 ) image_index = 1;
-
-if ( atkProcess == 12 ) image_index = 2;
-
-if ( atkProcess == 15 ) { image_index = 3;
+if ( atkProcess < 6 )			image_index = 0;
+else if ( atkProcess < 9 )	{	image_index = 1;	xSpeed = dir*8;	ySpeed = ySpeed / 1.5; }
+else if ( atkProcess < 11 ) {	image_index = 2;	xSpeed = dir*7;	ySpeed = ySpeed / 1.4; }
+else if ( atkProcess < 14 ) {	image_index = 3;	xSpeed = dir*6;	ySpeed = ySpeed / 1.3;
 		instance_create_depth( x, y, 0, ob_atkEffect );
 		ob_atkEffect.sprite_index = sp_atkEffect00;
 		ob_atkEffect.image_index = 0;
 }
+else if ( atkProcess < 16 )	{	image_index = 4;	xSpeed = dir*5;	ySpeed = ySpeed / 1.2; }
+else if ( atkProcess < 19 )		image_index = 5;
+else if ( atkProcess < 30 && keyAttack ) atkProcess = 40;
 
-if ( atkProcess == 18 ) image_index = 4;
-
-if ( atkProcess == 21 ) image_index = 5;
-
-if ( atkProcess > 21 && atkProcess < 35 && keyAttack ) atkProcess = 40;
-
-if ( atkProcess > 35 && atkProcess < 40 ) {
+if ( atkProcess > 30 && atkProcess < 40 ) {
 	atkProcess = 0;
 	canMove = 0;
 	canAtk = 30;
 }
 
 //2단계 공격
-if ( atkProcess == 43 ) image_index = 6;
-
-if ( atkProcess == 46 ) image_index = 7;
-
-if ( atkProcess == 49 ) { image_index = 8;
+if ( atkProcess < 40 ) {}
+else if ( atkProcess < 43 ) {	image_index = 6; }
+else if ( atkProcess < 45 )	{	image_index = 7;	xSpeed = dir*8;	ySpeed = ySpeed / 1.4; 
 		instance_create_depth( x, y, 0, ob_atkEffect );
 		ob_atkEffect.sprite_index = sp_atkEffect00;
-		ob_atkEffect.image_index = 1;
+		ob_atkEffect.image_index = 0;
 }
-
-if ( atkProcess == 52 ) image_index = 9;
-
-if ( atkProcess == 55 ) image_index = 10;
-
-if ( atkProcess > 55 && atkProcess < 70 && keyAttack ) atkProcess = 80;
+else if ( atkProcess < 48 ) {	image_index = 8;	xSpeed = dir*7;	ySpeed = ySpeed / 1.3; }
+else if ( atkProcess < 50 ) {	image_index = 9;	xSpeed = dir*6;	ySpeed = ySpeed / 1.2; }
+else if ( atkProcess < 53 ) {	image_index = 10; }
+else if ( atkProcess < 60 && keyAttack ) atkProcess = 80;
 
 if ( atkProcess > 70 && atkProcess < 75 ) {
 	atkProcess = 0;

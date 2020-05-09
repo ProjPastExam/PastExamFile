@@ -46,7 +46,7 @@ if ( keyJump ) {
 
 //중력
 if ( ySpeed > ob_game.gravmax ) ySpeed = ob_game.gravmax;
-if ( canMove != 1 ) y = y + ySpeed;
+y = y + ySpeed;
 ySpeed += ob_game.grav;
 
 //점프 스프라이트
