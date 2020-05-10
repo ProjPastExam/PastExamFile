@@ -1511,6 +1511,14 @@
             }
         },
         {
+            "Key": "9e6e9992-c672-483e-ae1d-ee1cf5e8a0ed",
+            "Value": {
+                "id": "8e37897b-bad9-48a5-aeba-b4d4c1ffada6",
+                "resourcePath": "scripts\\sc_cameraControl\\sc_cameraControl.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9ec52340-a94b-4782-be2a-4a94b837dd98",
             "Value": {
                 "id": "2db4440d-d37d-4be7-b128-0d01792bf631",
@@ -2253,6 +2261,7 @@
         "c1f167ac-4151-454a-9d9a-0941c8d3f448",
         "4c287714-bcd2-44f2-a2dd-92e03ea24b00",
         "88fd2f12-3a21-418d-8334-6a3d1560534b",
+        "9e6e9992-c672-483e-ae1d-ee1cf5e8a0ed",
         "879cb30f-a3ca-4569-b0a6-1487a8929cb3",
         "413d8e74-4ff3-4437-861e-3c02f8e0a8b7",
         "6ef8c603-3342-4793-93ad-6f3f6ba631b2",

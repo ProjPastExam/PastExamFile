@@ -40,6 +40,7 @@ isJump		= false;			//점프중인지
 isDash		= false;			//대쉬중인지
 xSpeed		= 0;				//X축 스피드
 ySpeed		= 0;				//Y축 스피드
+camFol		= true;				//카메라가 따라올지
 sprite_index = sp_playerStandSword;	//스프라이트
 
 

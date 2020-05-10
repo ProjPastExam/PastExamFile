@@ -22,6 +22,8 @@ right2	= tilemap_get_at_pixel(tileId, bbox_right, bbox_top + 16 );
 pbottom	= bbox_bottom;
 
 
+
+
 ///////////////
 //중력 및 점프//
 ///////////////
