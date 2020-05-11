@@ -55,20 +55,6 @@
             "value": "1280",
             "varName": "index",
             "varType": 1
-        },
-        {
-            "id": "23199a3a-3e18-4d8d-9771-4cd3174c1bab",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "col",
-            "varType": 3
         }
     ],
     "solid": false,

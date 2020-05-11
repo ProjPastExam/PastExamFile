@@ -2,3 +2,4 @@
 // You can write your code in this editor
 sc_keyCheck();
 sc_playerMove();
+sc_playerCamera();

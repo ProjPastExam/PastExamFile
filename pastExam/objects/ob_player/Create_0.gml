@@ -4,9 +4,10 @@
 sc_playerValue();
 instance_create_depth(x,y,0,Camera);
 uc_enable_room_bounds_enabled(true);
-uc_set_view_size(1280,720);
 uc_set_window_size(1280,720);
-uc_init_object_following(0.5);
+uc_init_object_following(camSpeed);
+uc_set_view_size(1280,720);
+uc_set_view_scale(1,0.03);
 uc_set_mode(1);
 uc_set_instance_following_list(id);
 

@@ -1,8 +1,8 @@
 {
-    "id": "9e6e9992-c672-483e-ae1d-ee1cf5e8a0ed",
+    "id": "e8743ce9-a04e-4e06-9f99-74e76585be64",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "sc_cameraControl",
+    "name": "sc_playerCamera",
     "IsCompatibility": false,
     "IsDnD": false
 }
