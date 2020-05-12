@@ -114,7 +114,17 @@ if ( canAtk > 0 ) canAtk -= 1;
 if ( keyAttack && ( canMove == 0 ) && ( canAtk <= 0 ) ) sc_atkKey();
 if ( canMove == 1 ) sc_atkBase();
 
-/////////
-//카메라//
-/////////
+////////
+//피격//
+////////
 
+if (hitAfter > 0) hitAfter--;
+else if (canMove == 2) canMove = 0;
+
+if (undie > 0) undie--;
+
+if ( canMove == 2 ) {
+	if ( xSpeed > accSpeed )		xSpeed -= 3;
+	else if ( xSpeed < -accSpeed )	xSpeed += 3;
+	else							xSpeed = 0;
+}
