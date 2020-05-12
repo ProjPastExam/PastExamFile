@@ -1847,6 +1847,14 @@
             }
         },
         {
+            "Key": "cd3b30ed-0bdc-4dee-a53d-605968c37209",
+            "Value": {
+                "id": "5e5cb6b7-a1cf-4c48-a26b-42fc7efc6b7f",
+                "resourcePath": "sprites\\sp_mobStern\\sp_mobStern.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cd44a41f-b8e4-4065-a77b-74965908153d",
             "Value": {
                 "id": "018e8df0-75dd-4458-be6b-b277f8dabbff",

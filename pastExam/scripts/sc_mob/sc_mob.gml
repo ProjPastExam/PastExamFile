@@ -72,7 +72,7 @@ if( !isPeace ) {
 		// 플레이어가 몬스터의 오른쪽에 있고, 거리가 시야 미만일 때
 		if( TargetX >= 0 && TargetX <= frontSight ) {
 			
-			var _targetX = sign(TargetX) * xSpeed /*/ 3*/;
+			var _targetX = sign(TargetX) * xSpeed * 1.1 /*/ 3*/;
 	
 			if ( place_meeting( x + _targetX, y, ob_player ) ) {
 			 while (!place_meeting(x + sign(_targetX), y, ob_player)) {
@@ -94,7 +94,7 @@ if( !isPeace ) {
 		}
 		// 플레이어가 몬스터의 왼쪽에 있고, 거리가 시야 미만일 때, 뒤로돌기
 		else if( TargetX < -64 && -TargetX <= backSight ) { xSpeed *= -1; }
-//		else if{ isPeace = true; }	// 거리에서 벗어나면 평화상태로 돌아감
+//		else { isPeace = true; }	// 거리에서 벗어나면 평화상태로 돌아감
 	}
 	
 	// 왼쪽으로 이동중일 때
@@ -103,7 +103,7 @@ if( !isPeace ) {
 		// 플레이어가 몬스터의 왼쪽에 있고, 거리가 시야 미만일 때
 		if( TargetX <= 0 && -TargetX <= frontSight ) {
 			
-			var _targetX = sign(TargetX) * -xSpeed/* / 3 */;
+			var _targetX = sign(TargetX) * -xSpeed * 1.1/* / 3 */;
 	
 			if ( place_meeting( x + _targetX, y, ob_player ) ) {
 			 while ( !place_meeting( x + sign(_targetX), y, ob_player ) ) {
@@ -128,18 +128,23 @@ if( !isPeace ) {
 //		else { isPeace = true; }	// 거리에서 벗어나면 평화상태로 돌아감
 	}
 }
-
-if ( isPeace ) { // 평화상태 시에 단순한 좌우 이동
+else { // 평화상태 시에 단순한 좌우 이동
 	//좌우 출돌 시 이동
 	if ( ( left == 3 || right == 3) )		{ xSpeed *= -1; }
 	// x축 이동
 	x += xSpeed;
 }
 
-// y축 이동
+// y축 이동(중력)
 if ( ySpeed > ob_game.gravmax ) ySpeed = ob_game.gravmax;
 y += ySpeed;
 ySpeed += grav;
+
+
+///////////////////////////////////
+//////// 몬스터 공격 & 피격 /////////
+///////////////////////////////////
+
 
 // 1초에 한 번씩 공격
 if ( canAttack ) {  
@@ -150,5 +155,21 @@ if ( canAttack ) {
 // 피격
 if ( place_meeting(x, y, ob_atkEffect) ) {  
 	Attacked_delay -= 1;
-	if ( !Attacked_delay ) { sc_playerAttack(); Attacked_delay = 11; }
+	if ( !Attacked_delay ) { sc_playerAttack(); Attacked_delay = 12; }
+}
+
+if( AttackedCount != 0 && AttackedCount % 5 == 0 ) { isStern = true; }
+
+// 스턴상태
+if ( isStern ) {  
+	image_index = sp_mobStern;
+	Stern_delay -= 1;
+	canAttack = false;
+	xSpeed = 0;
+	if ( !Stern_delay ) { 
+		if( image_xscale > 0 ) { xSpeed = sSpeed; }
+		else if ( image_xscale < 0 ) { xSpeed = -sSpeed; }
+		isStern = false;
+		Stern_delay = 30; 
+	}
 }
