@@ -16,6 +16,7 @@ keyLeftDash		= false;	//좌로대쉬
 keyRightDash	= false;	//우로대쉬
 keyDbClick		= -1;		//더블클릭 채크
 keyAttack		= false;
+keyDown			= false;	//특수기술 키
 
 
 ///////////////////
@@ -55,6 +56,7 @@ weaponR		= 0;				//주무기
 weaponL		= 0;				//보조무기
 atkKey		= 0;				//공격종류
 canAtk		= 0;				//공격 후딜
+rolling		= 0;				//구르기
 
 
 //////////////

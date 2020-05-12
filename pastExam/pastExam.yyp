@@ -1039,6 +1039,14 @@
             }
         },
         {
+            "Key": "6e13511b-c210-413d-9271-a8b471a50ef0",
+            "Value": {
+                "id": "ffc8ba5e-d551-4c34-9edd-7ec890f11aa4",
+                "resourcePath": "objects\\ob_leftButton\\ob_leftButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6e7bfd49-9129-4ad8-8e7d-f4faa066d007",
             "Value": {
                 "id": "9cccf912-1d90-4d75-9953-bd95235aebd7",
@@ -1447,6 +1455,14 @@
             }
         },
         {
+            "Key": "94f70ed5-3f1e-4f0f-98d1-92bb943f6829",
+            "Value": {
+                "id": "5f7bdb01-76d1-4466-9cc7-e53ef6b5f7f7",
+                "resourcePath": "sprites\\sprite27\\sprite27.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "956cf33b-46fb-45af-adf1-348d8fc9bc9f",
             "Value": {
                 "id": "6dfdf52f-d4c1-4351-8dd0-6288b6bd8883",
@@ -1759,6 +1775,14 @@
             }
         },
         {
+            "Key": "bef0c1e8-906a-4f8f-8707-58d4d6d76548",
+            "Value": {
+                "id": "00794b03-7957-437f-992f-4924e3b71d81",
+                "resourcePath": "objects\\ob_rightButton\\ob_rightButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bf6c8e62-2fdf-4abd-a628-2f3a15940b06",
             "Value": {
                 "id": "cc8390f9-a160-4dc6-8db0-9e7c59ca5cf3",
@@ -1804,6 +1828,14 @@
                 "id": "66af7ef0-cc65-46b9-92e0-75cf1805b8bd",
                 "resourcePath": "sprites\\sp_healthbar_bg\\sp_healthbar_bg.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c498e1c9-1e9f-4f26-920d-e605c9d7cf52",
+            "Value": {
+                "id": "1494a47f-c3c4-46e4-a67c-8a763481f2bd",
+                "resourcePath": "objects\\ob_middleButton\\ob_middleButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {

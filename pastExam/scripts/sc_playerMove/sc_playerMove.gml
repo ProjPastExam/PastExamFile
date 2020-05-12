@@ -41,7 +41,7 @@ if ( !isJump && ySpeed > 0 ) {
 if ( top = 3 ) { if ( ySpeed < 0 ) ySpeed = 5; }
 
 //점프
-if ( keyJump ) { 
+if ( keyJump && !keyDown ) { 
 	if ( !isJump && ( canMove == 0 ) ) { ySpeed = jumpSpeed; image_index = 0; }
 }
 
@@ -104,6 +104,21 @@ if ( !keyLeft && !keyRight && ( canMove == 0 ) ) {
 	else if ( xSpeed < -accSpeed )	xSpeed += accSpeed;
 	else							xSpeed = 0;
 }
+
+/////////
+//구르기//
+/////////
+if (rolling > -30) rolling -= 1;
+if ((rolling <= -30) && keyJump && keyDown && canMove == 0) {
+	rolling = 12;
+	canMove = 3;
+}
+if (rolling > 0) {
+	xSpeed = dir*rolling*3;
+	ySpeed = 0;
+}
+if (rolling == 0 && canMove == 3) canMove = 0;
+
 
 ////////
 //공격//

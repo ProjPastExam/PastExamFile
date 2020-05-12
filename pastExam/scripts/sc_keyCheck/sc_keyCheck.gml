@@ -9,13 +9,15 @@ keyLeft			= false;
 keyRight		= false;
 keyJump			= false;
 keyAttack		= false;
+keyDown			= false;
 
 if ( keyboard_check_released(vk_left) )		{ keyLeftDash = false; }
 if ( keyboard_check_released(vk_right) )	{ keyRightDash = false; }
 
 if ( keyboard_check(vk_left) )				{ keyLeft	= true; }
 if ( keyboard_check(vk_right) )				{ keyRight	= true; }
-if ( keyboard_check( ord("C") ) )			{ keyJump	= true; }
+if ( keyboard_check(vk_down) )				{ keyDown	= true; }
+if ( keyboard_check_pressed( ord("C") ) )	{ keyJump	= true; }
 if ( keyboard_check_pressed( ord("X") ) )	{ keyAttack = true; }
 
 /*
