@@ -10,3 +10,10 @@ if ( !place_meeting(x,y,ob_getCamera) ) {
 	
 	if (camSpeed < 0.5) { camSpeed += 0.001 }
 }
+
+layer_hspeed("Background",-(camX - uc_get_x())/5);
+
+camX		= uc_get_x();
+camY		= uc_get_y();
+
+uc_get_x();
