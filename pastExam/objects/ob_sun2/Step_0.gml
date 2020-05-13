@@ -5,5 +5,6 @@
 		//Animation
 		scr_light_animation();
 	}
-	x = uc_get_x();
+	
+	x = uc_get_x() - 500;
 	y = uc_get_y() - 700;
