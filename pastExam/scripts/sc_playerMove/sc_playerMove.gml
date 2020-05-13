@@ -114,7 +114,7 @@ if ((rolling <= -30) && keyJump && keyDown && canMove == 0) {
 	canMove = 3;
 }
 if (rolling > 0) {
-	xSpeed = dir*rolling*3;
+	xSpeed = dir*(rolling*2 + walkSpeed);
 	ySpeed = 0;
 }
 if (rolling == 0 && canMove == 3) canMove = 0;
