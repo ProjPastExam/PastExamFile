@@ -38,6 +38,7 @@ canMove		= 0;				//이동 스크립트 사용 가능한지
 // [ 0 기본값  1 공격  2 약한 피격  3 강한 피격  4 날라감 ]
 hitAfter	= 0;				//피격 후딜
 undie		= 0;				//무적시간
+undieEffect	= 0;				//무적시간 반짝이는데 쓸거
 
 isJump		= false;			//점프중인지
 isDash		= false;			//대쉬중인지

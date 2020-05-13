@@ -8,7 +8,7 @@ var impact	= argument1;	//플레이어가 받는 경직도
 
 if (ob_player.undie <= 0 ){
 	global.hp -= damage;
-	ob_player.undie = 100;
+	ob_player.undie = 60;
 
 	if (impact == 1) {
 		ob_player.hitAfter = 20;

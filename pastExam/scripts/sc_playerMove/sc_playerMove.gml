@@ -136,7 +136,18 @@ if ( canMove == 1 ) sc_atkBase();
 if (hitAfter > 0) hitAfter--;
 else if (canMove == 2) canMove = 0;
 
-if (undie > 0) undie--;
+if (undie > 0) {
+	undie--;
+	if (undieEffect <= 0) {
+		undieEffect = 8;
+		if (image_alpha == 1) image_alpha = 0.2;
+		else image_alpha = 1;
+	}
+	
+}
+else image_alpha = 1;
+
+if (undieEffect > 0) { undieEffect--; }
 
 if ( canMove == 2 ) {
 	if ( xSpeed > accSpeed )		xSpeed -= 3;
