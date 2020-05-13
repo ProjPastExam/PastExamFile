@@ -69,7 +69,7 @@
             "listItems": null,
             "multiselect": false,
             "rangeEnabled": true,
-            "rangeMax": 1024,
+            "rangeMax": 1800,
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "320",

@@ -5,7 +5,7 @@
 	
 	if( !surface_exists(surf_final_light) )
 	{
-		surf_final_light = surface_create( camera_get_view_width(cam_id), camera_get_view_height(cam_id));
+		surf_final_light = surface_create( camera_get_view_width(cam_id)+800, camera_get_view_height(cam_id)+500);
 	}
 	
 	//Draw
