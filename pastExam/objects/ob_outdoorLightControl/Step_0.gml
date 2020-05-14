@@ -12,7 +12,7 @@
 	}
 	
 	if (ob_player.indoor) {
-		if (image_alpha < 0.6) image_alpha += 0.02;
+		if (image_alpha < 0.8) image_alpha += 0.02;
 		array_shadow_color[3] = image_alpha;
 	}
 	else {
