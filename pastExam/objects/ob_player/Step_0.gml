@@ -3,3 +3,4 @@
 sc_keyCheck();
 sc_playerMove();
 sc_playerCamera();
+sc_playerLight();

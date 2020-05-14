@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "0df2a36a-38e4-4aa3-b4d4-187f114b6f6f",
+            "Value": {
+                "id": "a83ff170-3dce-4d86-bdd2-baf40fa6974d",
+                "resourcePath": "objects\\ob_outdoorLightControl\\ob_outdoorLightControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0fc39dc5-e07a-4516-aa41-0edf8c6c9e64",
             "Value": {
                 "id": "29f19d46-dd66-4e23-93df-5abb7c68c589",
@@ -220,14 +228,6 @@
                 "id": "f5482e11-51c0-471e-a964-85b40b5ef1a0",
                 "resourcePath": "scripts\\uc_get_scale_relative_to_mouse_enabled\\uc_get_scale_relative_to_mouse_enabled.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "1689b7a2-e2c7-4960-af34-190f6e83a13d",
-            "Value": {
-                "id": "9306fedb-0338-4f10-8612-c11ac664159b",
-                "resourcePath": "objects\\ob_sun2\\ob_sun2.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "31b2871d-be7d-4e81-bf3d-d90e5589f913",
+            "Value": {
+                "id": "457c1ca1-d7b4-4b0b-ab83-d61c52780eb8",
+                "resourcePath": "scripts\\sc_playerLight\\sc_playerLight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "31c53d55-eb99-4096-bc2c-65b5df66372e",
             "Value": {
                 "id": "85a97682-a7bc-4477-81f6-205fb9dc3841",
@@ -543,10 +551,26 @@
             }
         },
         {
+            "Key": "3c52ebf4-18b8-450b-bf6d-e49cd5f24257",
+            "Value": {
+                "id": "653827ad-550d-4634-9b5b-877383c35386",
+                "resourcePath": "sprites\\box_zu\\box_zu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3cd0a5e7-2b28-4a0f-b3f5-59902b9a46db",
             "Value": {
                 "id": "373842c8-68b8-495c-aed8-7255e74f51e6",
                 "resourcePath": "sprites\\spr_square\\spr_square.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3d3948b6-357b-4f9e-99b8-72b956bb8ef6",
+            "Value": {
+                "id": "5f5e15ed-b62e-4e2a-add8-842d290e0846",
+                "resourcePath": "sprites\\sp_nGround\\sp_nGround.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -911,14 +935,6 @@
             }
         },
         {
-            "Key": "5a1ae96a-5029-48cc-af91-8bedf80e4454",
-            "Value": {
-                "id": "b52ea541-76e1-482e-aca7-099da8381d92",
-                "resourcePath": "objects\\ob_sun3\\ob_sun3.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5aae8d9a-70fe-4259-bef7-11a03d24df5f",
             "Value": {
                 "id": "99e36fdf-5f7a-4fcd-9236-a1c49bb78489",
@@ -1108,6 +1124,14 @@
                 "id": "9f9617c4-1af8-4888-994f-650b8851cfbc",
                 "resourcePath": "views\\6fa99e4c-9665-41ab-b83b-fed3b7800f2a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6ff63f7d-b080-41b3-97ac-ad898bcd810e",
+            "Value": {
+                "id": "8f30f77c-7e02-4f72-a845-7c391f430858",
+                "resourcePath": "objects\\ob_isIndoor\\ob_isIndoor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1420,6 +1444,14 @@
                 "id": "ff0139ef-de7a-487e-a3c4-91f6906fc81f",
                 "resourcePath": "scripts\\uc_get_mouse_drag_button\\uc_get_mouse_drag_button.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "910e428c-2775-4c11-b60a-494d0e136885",
+            "Value": {
+                "id": "1d5f6e5f-6406-4c28-93ba-eda52b64901a",
+                "resourcePath": "views\\910e428c-2775-4c11-b60a-494d0e136885.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2335,6 +2367,7 @@
         "88fd2f12-3a21-418d-8334-6a3d1560534b",
         "e8743ce9-a04e-4e06-9f99-74e76585be64",
         "52d8d415-c4c2-419c-a35f-08491baf4f74",
+        "31b2871d-be7d-4e81-bf3d-d90e5589f913",
         "879cb30f-a3ca-4569-b0a6-1487a8929cb3",
         "413d8e74-4ff3-4437-861e-3c02f8e0a8b7",
         "6ef8c603-3342-4793-93ad-6f3f6ba631b2",

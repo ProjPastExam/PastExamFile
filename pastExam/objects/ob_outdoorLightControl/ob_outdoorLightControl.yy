@@ -1,32 +1,23 @@
 {
-    "id": "1689b7a2-e2c7-4960-af34-190f6e83a13d",
+    "id": "0df2a36a-38e4-4aa3-b4d4-187f114b6f6f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ob_sun2",
+    "name": "ob_outdoorLightControl",
     "eventList": [
         {
-            "id": "825407ac-2446-4ec1-b98f-f0db250e20b3",
+            "id": "8aa51726-ad28-425d-86b4-f980e4a0b790",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "1689b7a2-e2c7-4960-af34-190f6e83a13d"
+            "m_owner": "0df2a36a-38e4-4aa3-b4d4-187f114b6f6f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": [
-        {
-            "id": "c507966a-e2c7-4d67-b3a0-63816128b19d",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "554c7ae1-ce9e-4dcd-b03c-3fc06f694594",
-            "propertyId": "df211029-cb1d-4342-8e0d-0e1c3702c82b",
-            "value": "1200"
-        }
-    ],
-    "parentObjectId": "554c7ae1-ce9e-4dcd-b03c-3fc06f694594",
+    "overriddenProperties": null,
+    "parentObjectId": "0b349050-488b-4986-9b4d-f5e8aee5fb13",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

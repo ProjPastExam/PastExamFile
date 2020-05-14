@@ -7,3 +7,6 @@
 	}
 	x = uc_get_x();
 	y = uc_get_y() - 700;
+	
+	if (ob_player.indoor) visible = false;
+	else visible = true;
