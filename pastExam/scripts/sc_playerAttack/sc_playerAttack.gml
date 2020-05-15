@@ -8,7 +8,7 @@ Attacked = true;
 }*/
 
 if( mobHP >= ob_player.playerDmg ) { 
-	mobHP -= ob_player.playerDmg;
+	self.mobHP -= ob_player.playerDmg;
 	AttackedCount++;
 }
 else if( mobHP < ob_player.playerDmg ) { 

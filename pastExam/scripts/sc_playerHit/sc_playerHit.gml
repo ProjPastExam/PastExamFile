@@ -17,3 +17,4 @@ if (ob_player.undie <= 0 ){
 		uc_shake(5,0.5);
 	}
 }
+
