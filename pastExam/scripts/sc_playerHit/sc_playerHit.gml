@@ -13,7 +13,7 @@ if (ob_player.undie <= 0 ){
 	if (impact == 1) {
 		ob_player.hitAfter = 20;
 		ob_player.xSpeed += -ob_player.dir*18;
-		ob_player.canMove = 2
+		ob_player.canMove = 2;
 		uc_shake(5,0.5);
 	}
 }
