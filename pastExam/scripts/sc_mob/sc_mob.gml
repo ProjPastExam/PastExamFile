@@ -23,13 +23,6 @@ mbottom	= bbox_bottom;
 FarX = MobX - x;
 FarY = MobY - y;
 
-if(xSpeed < 0 ) { xSpeed = -sSpeed; }
-else if (xSpeed > 0 ) { xSpeed = sSpeed; }
-else { 
-	if( TargetX > 0 ) { xSpeed = sSpeed; }
-	else { xSpeed = -sSpeed; }
-}
-
 //2단계 타일과 몬스터 바닥의 충돌
 if ( bottom1 == 2 && bottom2 != 2  && ySpeed > 0 ) {
 	ySpeed = 0;
@@ -51,9 +44,6 @@ sprite_index = sp_mobAI;
 // 몬스터 방향 바꾸기
 image_xscale = orig_xscale * sign(xSpeed);
 
-// 선공 몬스터 처리
-if( isFirstAttack == true ) { isPeace = false; }
-
 // 플레이어 트렉킹 코드
 TargetX = ob_player.x - x;
 TargetY = ob_player.y - y;
@@ -61,8 +51,16 @@ TargetB = ob_player.pbottom - mbottom;
 TargetL = ob_player.x - mleft;
 TargetR = ob_player.x - mright;
 
+// y축 이동(중력)
+if ( ySpeed > ob_game.gravmax ) ySpeed = ob_game.gravmax;
+y += ySpeed;
+ySpeed += grav;
 
+// 선공 몬스터 처리
 if ( isFirstAttack ) { isPeace = false; }
+
+
+if( AttackedCount != 0 && AttackedCount % 5 == 0 ) { isStern = true; }
 
 // 평화상태가 아닐 경우 (전쟁상태)
 if( !isPeace ) {
@@ -128,17 +126,14 @@ if( !isPeace ) {
 //		else { isPeace = true; }	// 거리에서 벗어나면 평화상태로 돌아감
 	}
 }
-else { // 평화상태 시에 단순한 좌우 이동
+else if ( isPeace ) { // 평화상태 시에 단순한 좌우 이동
 	//좌우 출돌 시 이동
 	if ( ( left == 3 || right == 3) )		{ xSpeed *= -1; }
 	// x축 이동
 	x += xSpeed;
 }
 
-// y축 이동(중력)
-if ( ySpeed > ob_game.gravmax ) ySpeed = ob_game.gravmax;
-y += ySpeed;
-ySpeed += grav;
+
 
 
 ///////////////////////////////////
@@ -152,24 +147,34 @@ if ( canAttack ) {
 	if ( !Attack_delay ) { sc_mobAttack(); Attack_delay = room_speed; }
 }
 
-// 피격
-if ( place_meeting(x, y, ob_atkEffect) ) {  
-	Attacked_delay -= 1;
-	if ( !Attacked_delay ) { sc_playerAttack(); Attacked_delay = 12; }
-}
-
-if( AttackedCount != 0 && AttackedCount % 5 == 0 ) { isStern = true; }
-
 // 스턴상태
-if ( isStern ) {  
-	image_index = sp_mobStern;
-	Stern_delay -= 1;
+if ( isStern ) { 
+	isPeace = NULL; 
 	canAttack = false;
-	xSpeed = 0;
+	image_index = sp_mobStern;
+	image_xscale = orig_xscale * sign(xSpeed);
+	Stern_delay -= 1;
+	xSpeed = 0.1;			// xSpeed가 0이되면 몬스터 스프라이트가 사라짐
 	if ( !Stern_delay ) { 
 		if( image_xscale > 0 ) { xSpeed = sSpeed; }
 		else if ( image_xscale < 0 ) { xSpeed = -sSpeed; }
 		isStern = false;
-		Stern_delay = 30; 
+		Stern_delay = 60; 
+		isPeace = false;
+		AttackedCount = 0;
 	}
+}
+
+// 넉백 효과
+if ( isPushedBack ) { //오른쪽보고있으면 x좌표 -
+	if ( image_xscale > 0) { x -= 30; }
+	else { x += 30; }
+	isStern = true;
+	isPushedBack = false;
+}
+
+// 피격
+if ( place_meeting(x, y, ob_atkEffect) ) {  
+	Attacked_delay -= 1;
+	if ( !Attacked_delay ) { sc_playerAttack(); Attacked_delay = 12; }
 }

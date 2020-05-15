@@ -22,7 +22,7 @@ mob_dmg			= 10;
 attackLength	= 64 + abs(ob_player.bbox_left - ob_player.x);		// 몬스터 공격거리
 Attack_delay	= room_speed; // room_speed = 60 (1초)
 Attacked_delay	= 12;
-Stern_delay		= 1;		// 0.5초 스턴
+Stern_delay		= 60;		// 1초 스턴
 AttackedCount	= 0;		// 공격당한 횟수 저장
 
 
@@ -31,6 +31,8 @@ canAttack		= false;	// 공격 가능 여부
 isFirstAttack	= false;	// 선공여부
 isPeace			= true;		// 평화상태
 isStern			= false;	// 스턴상태
+isPushedBack	= false;	// 넉백상태
+isAngry			= false;	// 분노상태
 
 // 플레이어 트레킹 변수
 TargetX	= 0;				//플레이어 X축
