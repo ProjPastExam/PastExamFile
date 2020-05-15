@@ -1,5 +1,6 @@
 // 몬스터 공격모션 실행
 sprite_index = sp_mobAtk;
+
 if(global.hp >= mob_dmg) { 
 	global.hp -= mob_dmg;
 }
