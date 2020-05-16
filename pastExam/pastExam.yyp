@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "004dd4c9-477e-440c-b1b4-8b534da50925",
+            "Value": {
+                "id": "461f0c86-aaeb-430e-9e0c-187a7f2f5828",
+                "resourcePath": "sprites\\sp_buttonJump\\sp_buttonJump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "00e640f4-991d-4533-a144-0be238849b1e",
             "Value": {
                 "id": "9a6d2883-95c2-40b4-be4e-d67f655700cc",
@@ -68,6 +76,14 @@
                 "id": "f178084a-96e4-4496-a68d-60d454aae6c7",
                 "resourcePath": "scripts\\uc_get_mouse_borders_size\\uc_get_mouse_borders_size.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "062052f4-fb6d-4356-a1b7-2140ca54e12b",
+            "Value": {
+                "id": "e541cdd3-5078-4e3d-9677-668143a783a5",
+                "resourcePath": "sprites\\sp_buttonCircle\\sp_buttonCircle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -267,6 +283,14 @@
             "Value": {
                 "id": "adfbe070-d2ae-48a3-903c-a12f218369fb",
                 "resourcePath": "scripts\\uc_set_y\\uc_set_y.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1d55a90c-6447-4778-a565-4c7df1b1ea77",
+            "Value": {
+                "id": "2b40ac1f-effa-41ce-8d3a-d9537bdad05e",
+                "resourcePath": "scripts\\sc_playButton\\sc_playButton.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -911,6 +935,14 @@
             }
         },
         {
+            "Key": "558e5bbe-d6fa-4cd9-a143-27c2898e6470",
+            "Value": {
+                "id": "56ae4f31-c42d-48c8-a8dc-257b00cd1212",
+                "resourcePath": "sprites\\sp_buttonRight\\sp_buttonRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "560a0275-9522-4213-b729-6a486f2fb220",
             "Value": {
                 "id": "f8e8708d-2c10-4f3b-872f-a0198ae86656",
@@ -1180,6 +1212,14 @@
                 "id": "f441d0cd-ac40-4e71-b443-0fbe25738f78",
                 "resourcePath": "views\\71ef51e7-74a2-4942-97d2-a359346c1030.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "721f51a9-6c19-426c-825f-050d625fa724",
+            "Value": {
+                "id": "a92b21b5-932c-4559-888d-01d003cc106a",
+                "resourcePath": "sprites\\sp_buttonAttack\\sp_buttonAttack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2381,6 +2421,7 @@
         "c1f167ac-4151-454a-9d9a-0941c8d3f448",
         "4c287714-bcd2-44f2-a2dd-92e03ea24b00",
         "88fd2f12-3a21-418d-8334-6a3d1560534b",
+        "1d55a90c-6447-4778-a565-4c7df1b1ea77",
         "e8743ce9-a04e-4e06-9f99-74e76585be64",
         "52d8d415-c4c2-419c-a35f-08491baf4f74",
         "31b2871d-be7d-4e81-bf3d-d90e5589f913",
