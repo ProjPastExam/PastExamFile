@@ -1522,7 +1522,7 @@
             "Key": "94f70ed5-3f1e-4f0f-98d1-92bb943f6829",
             "Value": {
                 "id": "5f7bdb01-76d1-4466-9cc7-e53ef6b5f7f7",
-                "resourcePath": "sprites\\sprite27\\sprite27.yy",
+                "resourcePath": "sprites\\sp_buttonLeft\\sp_buttonLeft.yy",
                 "resourceType": "GMSprite"
             }
         },
