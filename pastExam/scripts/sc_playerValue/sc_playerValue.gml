@@ -14,7 +14,8 @@ keyRight		= false;	//우로이동
 keyJump			= false;	//점프
 keyLeftDash		= false;	//좌로대쉬
 keyRightDash	= false;	//우로대쉬
-keyDbClick		= -1;		//더블클릭 채크
+keyDbClickL		= -1;		//더블클릭 채크
+keyDbClickR		= -1;		//더블클릭 채크
 keyAttack		= false;
 keyDown			= false;	//특수기술 키
 

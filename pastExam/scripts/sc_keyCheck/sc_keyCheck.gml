@@ -24,22 +24,22 @@ if ( keyboard_check_pressed( ord("X") ) )	{ keyAttack = true; }
 
 
 if ( keyboard_check_pressed(vk_left) ) {
-	if ( keyDbClick >= 0 ) {
+	if ( keyDbClickL >= 0 ) {
 		keyLeftDash = true;
-		keyDbClick = -1;
+		keyDbClickL= -1;
 	}
 	else
-		keyDbClick = 15;
+		keyDbClickL = 15;
 }
 
 if ( keyboard_check_pressed(vk_right) ) {
-	if ( keyDbClick >= 0 ) {
+	if ( keyDbClickR >= 0 ) {
 		keyRightDash = true;
-		keyDbClick = -1;
+		keyDbClickR = -1;
 	}
 	else
-		keyDbClick = 15;
+		keyDbClickR = 15;
 }
 
-keyDbClick = max ( keyDbClick - 1, -1 );
-
+keyDbClickL = max ( keyDbClickL - 1, -1 );
+keyDbClickR = max ( keyDbClickR - 1, -1 );
