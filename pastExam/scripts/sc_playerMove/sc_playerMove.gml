@@ -41,7 +41,7 @@ if ( !isJump && ySpeed > 0 ) {
 if ( top = 3 ) { if ( ySpeed < 0 ) ySpeed = 5; }
 
 //점프
-if ( keyJump && !keyDown ) { 
+if ( keyJump ) { 
 	if ( !isJump && ( canMove == 0 ) ) { ySpeed = jumpSpeed; image_index = 0; }
 }
 
@@ -78,9 +78,6 @@ if ( canMove == 0 ) {
 			dir = 1;
 			sc_playerSprite(1);
 		}
-		//좌우 대쉬
-		if ( keyLeftDash )	{ xSpeed = -dashSpeed;	isDash = true;	dir = -1; }
-		if ( keyRightDash )	{ xSpeed = dashSpeed;	isDash = true;	dir = 1; }
 	}
 	//공중에서 이동
 	else {
@@ -109,15 +106,24 @@ if ( !keyLeft && !keyRight && ( canMove == 0 ) ) {
 //구르기//
 /////////
 if (rolling > -30) rolling -= 1;
-if ((rolling <= -30) && keyJump && keyDown && canMove == 0) {
-	rolling = 12;
-	canMove = 3;
+if ((rolling <= -30) && canMove == 0) {
+	if ( keyLeftDash ) {
+		dir = -1;
+		rolling = 12;
+		canMove = 3;
+	}
+	if ( keyRightDash ) {
+		dir = 1;
+		rolling = 12;
+		canMove = 3;
+	}
 }
 if (rolling > 0) {
-	xSpeed = dir*(rolling*2 + walkSpeed);
+	xSpeed = dir*(rolling*2.5 + walkSpeed);
 	ySpeed = 0;
 }
 if (rolling == 0 && canMove == 3) canMove = 0;
+//if (!isJump && rolling <= 0 && rolling >= -20) rolling = -30; 
 
 
 ////////

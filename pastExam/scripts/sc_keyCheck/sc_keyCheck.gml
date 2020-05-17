@@ -10,9 +10,11 @@ keyRight		= false;
 keyJump			= false;
 keyAttack		= false;
 keyDown			= false;
+keyLeftDash		= false;
+keyRightDash	= false;
 
-if ( keyboard_check_released(vk_left) )		{ keyLeftDash = false; }
-if ( keyboard_check_released(vk_right) )	{ keyRightDash = false; }
+//if ( keyboard_check_released(vk_left) )		{ keyLeftDash = false; }
+//if ( keyboard_check_released(vk_right) )	{ keyRightDash = false; }
 
 if ( keyboard_check(vk_left) )				{ keyLeft	= true; }
 if ( keyboard_check(vk_right) )				{ keyRight	= true; }
@@ -20,7 +22,7 @@ if ( keyboard_check(vk_down) )				{ keyDown	= true; }
 if ( keyboard_check_pressed( ord("C") ) )	{ keyJump	= true; }
 if ( keyboard_check_pressed( ord("X") ) )	{ keyAttack = true; }
 
-/*
+
 if ( keyboard_check_pressed(vk_left) ) {
 	if ( keyDbClick >= 0 ) {
 		keyLeftDash = true;
@@ -41,4 +43,3 @@ if ( keyboard_check_pressed(vk_right) ) {
 
 keyDbClick = max ( keyDbClick - 1, -1 );
 
-*/
