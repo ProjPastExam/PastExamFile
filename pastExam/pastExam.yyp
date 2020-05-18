@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "3fee8412-8402-4670-b0fc-586047190bb4",
+            "Value": {
+                "id": "963c364b-e9d7-4df4-8afd-7358c9fefc40",
+                "resourcePath": "scripts\\sc_mobArcher\\sc_mobArcher.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3ffdff8a-ecd5-429d-9566-0f914ef60cdb",
             "Value": {
                 "id": "934741db-8c64-4a34-a72c-ac14fd4f71d3",
@@ -956,6 +964,14 @@
                 "id": "910081ba-ae9d-4916-9eac-e07305f11a33",
                 "resourcePath": "views\\56992600-37d5-41e7-8dfb-021c7fbb9ac8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5776a166-b941-4f8a-853a-58a866d453ea",
+            "Value": {
+                "id": "ef9d5417-2506-411a-a2d8-5875c0186b4e",
+                "resourcePath": "scripts\\sc_mobArcherAttack\\sc_mobArcherAttack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2456,6 +2472,8 @@
         "5aae8d9a-70fe-4259-bef7-11a03d24df5f",
         "b454407d-79d6-4f77-9fb8-cdc5959a05d8",
         "76633a29-08e4-458c-9e0a-e001fc5f4ebe",
+        "3fee8412-8402-4670-b0fc-586047190bb4",
+        "5776a166-b941-4f8a-853a-58a866d453ea",
         "d3638d4f-f3fb-46f2-bae4-7df0cdb1efef",
         "3bbf80fb-7be0-4ba2-a130-5959c20bbedd",
         "d1700a78-5b78-4dd4-8b48-27a77e4d1949",
