@@ -39,10 +39,13 @@ if ( bottom1 == 3 ) {
 if ( top == 3 ) { if ( ySpeed < 0 ) ySpeed = 5; }
 
 // 몬스터 스프라이트
-sprite_index = sp_mobAI;
+// sprite_index = sp_mobAI;
 
 // 몬스터 방향 바꾸기
-image_xscale = orig_xscale * sign(xSpeed);
+var dir;
+if(xSpeed >= 0) { dir = 1; }
+else { dir = -1; }
+image_xscale = orig_xscale * dir;
 
 // 플레이어 트렉킹 코드
 TargetX = ob_player.x - x;
