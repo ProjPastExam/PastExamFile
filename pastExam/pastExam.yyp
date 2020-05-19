@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "31d61fe2-eea4-48fd-8d26-ebbc36339242",
+            "Value": {
+                "id": "e9a9cd73-c076-4e76-88b1-5c262f9a5622",
+                "resourcePath": "views\\31d61fe2-eea4-48fd-8d26-ebbc36339242.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3253a2eb-3d94-48c0-af54-8608080c5323",
             "Value": {
                 "id": "d4664c5c-4f43-4842-9679-a29629edf63f",
@@ -2103,6 +2111,14 @@
             }
         },
         {
+            "Key": "d395d4e7-1981-4247-87a9-34a01f2b563c",
+            "Value": {
+                "id": "95087b18-d38c-4ebb-9eaa-3906e5e4dc89",
+                "resourcePath": "sprites\\sp_boss01Atk00\\sp_boss01Atk00.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d3fafd9a-8c1a-4bbb-bfb6-4401bc7650ba",
             "Value": {
                 "id": "ee3b11f6-b068-469b-a311-eb78dfceaa8b",
@@ -2260,6 +2276,14 @@
                 "id": "2ee0565f-e167-44bc-9e2d-3c82ad5a8186",
                 "resourcePath": "scripts\\uls_set_light_animation\\uls_set_light_animation.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e815a086-b594-4401-8677-98d1fa6499ea",
+            "Value": {
+                "id": "e79df2ac-409b-4ecd-8f18-76f1beec5777",
+                "resourcePath": "sprites\\sp_boss01Stand\\sp_boss01Stand.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
