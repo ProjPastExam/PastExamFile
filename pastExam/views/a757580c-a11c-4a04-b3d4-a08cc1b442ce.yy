@@ -8,7 +8,8 @@
         "5258df4d-a8fc-4389-b186-6a85579dae9e",
         "97c278f7-efb9-4dd2-b1ef-85530dda808d",
         "e07f7960-de75-4fe7-9bcc-b0ce91a61bc2",
-        "f6065f8d-3290-4953-8725-f2170f0009f7"
+        "f6065f8d-3290-4953-8725-f2170f0009f7",
+        "84a0d820-69c2-4630-8708-4b9ef5352b94"
     ],
     "filterType": "GMObject",
     "folderName": "Light Object",
