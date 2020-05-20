@@ -26,7 +26,7 @@ keyDown			= false;	//특수기술 키
 
 dir			= 1;
 walkSpeed	= 6;
-dashSpeed	= 9;
+//dashSpeed	= 9;
 accSpeed	= 0.8;
 jumpSpeed	= -14.4;
 
@@ -45,7 +45,7 @@ isJump		= false;			//점프중인지
 isDash		= false;			//대쉬중인지
 xSpeed		= 0;				//X축 스피드
 ySpeed		= 0;				//Y축 스피드
-camFol		= true;				//카메라가 따라올지
+//camFol		= true;				//카메라가 따라올지
 indoor		= false;			//야외맵에서 실내인지
 sprite_index = sp_playerStandSword;	//스프라이트
 
@@ -92,7 +92,7 @@ healthbar_height	= sprite_get_height(sp_healthbar);
 healthbar_x			= 100;
 healthbar_y			= 0;
 
-energybar_width		= sprite_get_width(sp_energybar)*global.mp_max/80;
-energybar_height	= sprite_get_height(sp_energybar);
-energybar_x			= 100;
-energybar_y			= 50;
+//energybar_width		= sprite_get_width(sp_energybar)*global.mp_max/80;
+//energybar_height	= sprite_get_height(sp_energybar);
+//energybar_x			= 100;
+//energybar_y			= 50;
