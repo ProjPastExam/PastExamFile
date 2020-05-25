@@ -137,8 +137,6 @@ else if ( isPeace ) { // 평화상태 시에 단순한 좌우 이동
 }
 
 
-
-
 ///////////////////////////////////
 //////// 몬스터 공격 & 피격 /////////
 ///////////////////////////////////
@@ -151,30 +149,10 @@ if ( canAttack ) {
 }
 
 // 스턴상태
-if ( isStern ) { 
-	isPeace = NULL; 
-	canAttack = false;
-//	image_index = sp_mobStern;
-//	image_xscale = orig_xscale * sign(xSpeed);
-	Stern_delay -= 1;
-	xSpeed = 0;			// xSpeed가 0이되면 몬스터 스프라이트가 사라짐
-	if ( !Stern_delay ) { 
-		if( image_xscale > 0 ) { xSpeed = sSpeed; }
-		else if ( image_xscale < 0 ) { xSpeed = -sSpeed; }
-		isStern = false;
-		Stern_delay = 60; 
-		isPeace = false;
-		AttackedCount = 0;
-	}
-}
+if ( isStern ) { sc_stern(); }
 
 // 넉백 효과
-if ( isPushedBack ) { //오른쪽보고있으면 x좌표 -
-	if ( image_xscale > 0) { x -= 30; }
-	else { x += 30; }
-	isStern = true;
-	isPushedBack = false;
-}
+if ( isPushedBack ) { sc_pushedBack(); }
 
 // 피격
 if ( place_meeting(x, y, ob_atkEffect) ) {  

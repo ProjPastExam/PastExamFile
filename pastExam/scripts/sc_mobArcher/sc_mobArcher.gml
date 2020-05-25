@@ -63,3 +63,54 @@ ySpeed += grav;
 
 // 선공 몬스터 처리
 if ( isFirstAttack ) { isPeace = false; }
+
+// 평화상태가 아닐 경우 (전쟁상태)
+if( !isPeace ) {
+	// 오른쪽을 바라보고 있을 때
+	if( image_xscale > 0 ) {
+		// 플레이어가 몬스터의 오른쪽에 있고, 거리가 시야 미만일 때
+		if( TargetX >= 0 && TargetX <= frontSight ) {
+			// 플레이어가 사거리 내에 들어오면 공격
+			if ( TargetR >= 0 && TargetR <= attackLength ) {
+				if ( !canAttack ) { canAttack = true; }
+			}
+		}
+		// 플레이어가 몬스터의 왼쪽에 있고, 거리가 시야 미만일 때, 뒤로돌기
+		else if( TargetX < -64 && -TargetX <= backSight ) { xSpeed *= -1; }
+	}
+	// 왼쪽을 바라보고 있을 때
+	else if( image_xscale < 0 ) {
+		// 플레이어가 몬스터의 왼쪽에 있고, 거리가 시야 미만일 때
+		if( TargetX <= 0 && -TargetX <= frontSight ) {
+			// 플레이어가 사거리 내에 들어오면 공격
+			if ( TargetL <= 0 && -TargetL <= attackLength ) { 
+				if ( !canAttack ) { canAttack = true; }
+			}
+		}
+		// 플레이어가 몬스터의 오른쪽에 있고, 거리가 시야 미만일 때, 뒤로 돌기
+		else if( TargetX > 0 && TargetX <= backSight ) { xSpeed *= -1; }
+	}
+}
+
+///////////////////////////////////
+//////// 몬스터 공격 & 피격 /////////
+///////////////////////////////////
+
+
+// 1초에 한 번씩 공격
+if ( canAttack ) {  
+	Attack_delay -= 1;
+	if ( !Attack_delay ) { sc_mobAttack(); Attack_delay = room_speed; }
+}
+
+// 스턴상태
+if ( isStern ) { sc_stern(); }
+
+// 넉백 효과
+if ( isPushedBack ) { sc_pushedBack(); }
+
+// 피격
+if ( place_meeting(x, y, ob_atkEffect) ) {  
+	Attacked_delay -= 1;
+	if ( !Attacked_delay ) { sc_playerAttack(); Attacked_delay = 12; }
+}

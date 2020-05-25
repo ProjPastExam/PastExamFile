@@ -1,8 +1,8 @@
 {
-    "id": "5776a166-b941-4f8a-853a-58a866d453ea",
+    "id": "90788789-b391-4b3a-a2ac-1b33fb19168b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "sc_mobArcherAttack",
+    "name": "sc_pushedBack",
     "IsCompatibility": false,
     "IsDnD": false
 }
