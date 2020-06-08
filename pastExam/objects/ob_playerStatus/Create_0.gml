@@ -8,3 +8,6 @@ global.hp		= global.hp_max;
 
 global.playerLevel	= 0;
 global.playerWeapon = 0;
+
+
+global.isPause		= false;

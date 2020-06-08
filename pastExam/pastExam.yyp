@@ -954,7 +954,7 @@
             "Key": "55093529-24d2-4328-ac2a-ba3a900bdf8b",
             "Value": {
                 "id": "68edba0f-3491-4121-a0f6-9a51df6019c2",
-                "resourcePath": "objects\\ob_start\\ob_start.yy",
+                "resourcePath": "objects\\ob_startButton\\ob_startButton.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1060,14 +1060,6 @@
                 "id": "ad79248b-9f3d-44d9-aeaa-b7665f5de443",
                 "resourcePath": "scripts\\uc_hit\\uc_hit.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "5ceff78d-d250-41fa-b796-219292b372d4",
-            "Value": {
-                "id": "52f337c8-0d4b-4c5c-bc80-9e2aa7a85d4e",
-                "resourcePath": "rooms\\room0\\room0.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -2199,6 +2191,14 @@
             }
         },
         {
+            "Key": "d85211fb-8912-489c-b858-34f252102f64",
+            "Value": {
+                "id": "27bb63cd-efdd-4da4-acf7-8216806b04dd",
+                "resourcePath": "rooms\\room_start\\room_start.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d9284d16-edcd-48d0-9ae0-d7a9afb3f4c0",
             "Value": {
                 "id": "7008ed1a-70d6-4a7e-a140-160a04375443",
@@ -2428,6 +2428,14 @@
                 "id": "4b12d423-772d-4302-bc30-7dcb7586e0ef",
                 "resourcePath": "views\\f07a5de7-e8e8-4aac-a031-ade291dd1da6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f2d7af3d-a8ec-4f8e-ac40-0e82525a50b6",
+            "Value": {
+                "id": "c0fa6fb7-e184-4704-a47a-f9072ea3e561",
+                "resourcePath": "objects\\ob_gameStart\\ob_gameStart.yy",
+                "resourceType": "GMObject"
             }
         },
         {

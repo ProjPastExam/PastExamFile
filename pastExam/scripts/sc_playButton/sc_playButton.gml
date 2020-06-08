@@ -18,3 +18,8 @@ virtual_key_add(camX + 925, camY + buttonY, buttonSize, buttonSize, ord("X"));
 
 draw_sprite(sp_buttonJump,0,camX + 1100, camY + buttonY);
 virtual_key_add(camX + 1100, camY + buttonY, buttonSize, buttonSize, ord("C"));
+
+
+
+draw_sprite(sp_buttonJump,0,camX + 1100, camY + 50);
+virtual_key_add(camX + 1100, camY + 50, buttonSize, buttonSize, vk_escape);

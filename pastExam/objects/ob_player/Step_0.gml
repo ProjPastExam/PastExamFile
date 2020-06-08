@@ -1,6 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-sc_keyCheck();
-sc_playerMove();
-sc_playerCamera();
-sc_playerLight();
+
+if ( !global.isPause ) {
+	sc_keyCheck();
+	sc_playerMove();
+	sc_playerCamera();
+	sc_playerLight();
+	image_speed = 1;
+}
+else {
+	image_speed = 0;
+}
