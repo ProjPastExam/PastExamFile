@@ -1935,6 +1935,14 @@
             }
         },
         {
+            "Key": "ba0c3456-bb08-4051-8c5a-3f7a4b3adf57",
+            "Value": {
+                "id": "21d868ee-2178-46f5-815d-74f55193b32b",
+                "resourcePath": "sprites\\sp_pauseDark\\sp_pauseDark.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "baa2af34-1156-474f-ad29-a701b60fda18",
             "Value": {
                 "id": "35c379c3-affb-4677-99a9-fedb4d803e20",
@@ -2052,6 +2060,14 @@
                 "id": "aad1802e-bc3e-4a89-a162-0d877c8bdc60",
                 "resourcePath": "views\\c8ad4278-bc4b-4fbd-84b8-ed67e20c7e89.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c8be6f1d-bf80-445a-9f5b-dc17d31e0f84",
+            "Value": {
+                "id": "d1ec5912-c4ad-49b6-b977-e4b337a3c6d1",
+                "resourcePath": "sprites\\sp_buttonPause\\sp_buttonPause.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
