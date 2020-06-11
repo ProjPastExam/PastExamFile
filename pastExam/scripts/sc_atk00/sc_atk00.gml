@@ -6,14 +6,14 @@ xSpeed = 0;
 sprite_index = sp_playerAtk00;
 atkProcess += 1;
 image_xscale = dir;
-
+var deep = depth - 10;
 
 //1단계 공격
 if ( atkProcess < 6 )		{	image_index = 0; }
 else if ( atkProcess < 9 )	{	image_index = 1;	xSpeed = dir*7;	ySpeed = ySpeed / 2; }
 else if ( atkProcess < 11 ) {	image_index = 2;	xSpeed = dir*6;	ySpeed = ySpeed / 1.7; }
 else if ( atkProcess < 14 ) {	image_index = 3;	xSpeed = dir*5;	ySpeed = ySpeed / 1.4;
-		instance_create_depth( x, y, 0, ob_atkEffect );
+		instance_create_depth( x, y, deep, ob_atkEffect );
 		ob_atkEffect.sprite_index = sp_atkEffect00;
 		ob_atkEffect.image_index = 0;
 }
@@ -35,7 +35,7 @@ if ( atkProcess > 30 && atkProcess < 40 ) {
 if ( atkProcess < 40 ) {}
 else if ( atkProcess < 44 ) {	image_index = 6; }
 else if ( atkProcess < 47 )	{	image_index = 7;	xSpeed = dir*6;	ySpeed = ySpeed / 2; 
-		instance_create_depth( x, y, 0, ob_atkEffect );
+		instance_create_depth( x, y, deep, ob_atkEffect );
 		ob_atkEffect.sprite_index = sp_atkEffect00;
 		ob_atkEffect.image_index = 0;
 }
@@ -59,7 +59,7 @@ if ( atkProcess < 75 ) {}
 else if ( atkProcess < 81 ) {	image_index = 11; }
 else if ( atkProcess < 86 ) {	image_index = 12;	xSpeed = dir*7;	ySpeed = ySpeed / 2; }
 else if ( atkProcess < 89 ) {	image_index = 13;	xSpeed = dir*6;	ySpeed = ySpeed / 1.6; 
-		instance_create_depth( x, y, 0, ob_atkEffect );
+		instance_create_depth( x, y, deep, ob_atkEffect );
 		ob_atkEffect.sprite_index = sp_atkEffect00;
 		ob_atkEffect.image_index = 0;
 }
@@ -81,7 +81,7 @@ if ( atkProcess > 105 && atkProcess < 110 ) {
 if ( atkProcess < 110 ) {}
 else if ( atkProcess < 114 ) {	image_index = 15;	xSpeed = dir*6;	ySpeed = ySpeed / 2; }
 else if ( atkProcess < 120 ) {	image_index = 16;	xSpeed = dir*5;	ySpeed = ySpeed / 1.7;
-		instance_create_depth( x, y, 0, ob_atkEffect );
+		instance_create_depth( x, y, deep, ob_atkEffect );
 		ob_atkEffect.sprite_index = sp_atkEffect00;
 		ob_atkEffect.image_index = 0;
 }
