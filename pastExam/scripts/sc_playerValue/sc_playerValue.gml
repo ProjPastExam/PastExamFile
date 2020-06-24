@@ -66,6 +66,7 @@ rolling		= 0;				//구르기
 //카메라 제어//
 //////////////
 
+camMode		= 0;				//카메라 모드
 camSpeed	= 0.5;				//카메라 스피드
 camX		= uc_get_x();
 camY		= uc_get_y();

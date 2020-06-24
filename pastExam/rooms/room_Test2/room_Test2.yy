@@ -11,13 +11,11 @@
         "47803927-9c61-47b5-8802-855d09f68bed",
         "65e11681-7367-4361-9ad7-31b73bf6878e",
         "cc1e3d7c-da43-4908-b785-ba4d223c5783",
-        "d406ef3f-f15e-4f3d-8c28-3fcc0ed5da81",
         "05e02c3f-cfdd-4189-bb60-e9fb50828514",
         "f4a39e69-2c51-4f34-aff7-fd7c3d232199",
         "af7dd932-c43e-4e8a-94a9-51c4c637420c",
         "1be34547-7e7f-4b30-9f18-acced5edc368",
         "62dea953-6cca-4326-bba8-cad635129ff7",
-        "370a53b0-a24e-43cd-8f8a-8c8f8786503e",
         "a1363fed-1f2c-494e-82a2-d5d370155ea7",
         "df4ccd1b-564b-42d3-b8b7-98077003bde0"
     ],
@@ -63,8 +61,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_19E324FA","id": "d406ef3f-f15e-4f3d-8c28-3fcc0ed5da81","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_19E324FA","objId": "560a0275-9522-4213-b729-6a486f2fb220","properties": [{"id": "834b3e2a-17ec-41a8-b969-8a7e38494aff","modelName": "GMOverriddenProperty","objectId": "560a0275-9522-4213-b729-6a486f2fb220","propertyId": "454d4eee-8546-49ac-a9f5-efb5d0f8e0b1","mvc": "1.0","value": "1500"}],"rotation": 0,"scaleX": -14.5,"scaleY": 16.5,"mvc": "1.1","x": 2432,"y": 544},
-{"name": "inst_639BBB9F","id": "370a53b0-a24e-43cd-8f8a-8c8f8786503e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_639BBB9F","objId": "560a0275-9522-4213-b729-6a486f2fb220","properties": [{"id": "c51ddb7e-f27c-4c53-8c44-32a46063784a","modelName": "GMOverriddenProperty","objectId": "560a0275-9522-4213-b729-6a486f2fb220","propertyId": "454d4eee-8546-49ac-a9f5-efb5d0f8e0b1","mvc": "1.0","value": "1750"}],"rotation": 0,"scaleX": -25.5,"scaleY": 14.5,"mvc": "1.1","x": 5120,"y": 480}
+
             ],
             "layers": [
 

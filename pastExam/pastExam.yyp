@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "00bd8d95-e3a2-4d68-b369-197ace5ec1f5",
+            "Value": {
+                "id": "3d2398d6-2ed2-46a1-88cc-d206075e0227",
+                "resourcePath": "sprites\\sp_camMode0\\sp_camMode0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "00e640f4-991d-4533-a144-0be238849b1e",
             "Value": {
                 "id": "9a6d2883-95c2-40b4-be4e-d67f655700cc",
@@ -220,6 +228,14 @@
                 "id": "8c890ea6-2aaa-4e0c-892e-d4c7277be683",
                 "resourcePath": "views\\103c9538-0f76-40b8-8fc6-b0763fa8c543.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "10a0a285-da24-412c-9e4e-a0324677b0e6",
+            "Value": {
+                "id": "acb928a8-5634-4ada-b7a2-02101d5c5302",
+                "resourcePath": "objects\\ob_camMode0\\ob_camMode0.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -983,14 +999,6 @@
             }
         },
         {
-            "Key": "560a0275-9522-4213-b729-6a486f2fb220",
-            "Value": {
-                "id": "f8e8708d-2c10-4f3b-872f-a0198ae86656",
-                "resourcePath": "objects\\ob_getCamera\\ob_getCamera.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "56992600-37d5-41e7-8dfb-021c7fbb9ac8",
             "Value": {
                 "id": "910081ba-ae9d-4916-9eac-e07305f11a33",
@@ -1404,6 +1412,14 @@
                 "id": "c909cb3b-16be-47db-a14e-72bf7bc3f819",
                 "resourcePath": "scripts\\uc_get_mode\\uc_get_mode.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7d4a11b1-e375-4c22-be0e-1e8c9e298193",
+            "Value": {
+                "id": "989236ee-458c-43ed-9936-f709578d4f9d",
+                "resourcePath": "sprites\\sp_camMode1\\sp_camMode1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2063,6 +2079,14 @@
             }
         },
         {
+            "Key": "c87e3a07-6bd0-43fd-a8bc-ee4a76b4a435",
+            "Value": {
+                "id": "dc16ffcd-cfd8-4aa7-8d10-6944da0924b4",
+                "resourcePath": "views\\c87e3a07-6bd0-43fd-a8bc-ee4a76b4a435.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c8ad4278-bc4b-4fbd-84b8-ed67e20c7e89",
             "Value": {
                 "id": "aad1802e-bc3e-4a89-a162-0d877c8bdc60",
@@ -2343,6 +2367,14 @@
             }
         },
         {
+            "Key": "e2c7d8ec-972f-4231-832a-886f0a3748a4",
+            "Value": {
+                "id": "038d807a-c874-4eca-9435-37fd3edbdd7d",
+                "resourcePath": "objects\\ob_camMode1\\ob_camMode1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e2d295ca-8b51-4980-a1ac-33a24f7e11bc",
             "Value": {
                 "id": "c35c272a-555e-454d-90de-227e29785543",
@@ -2548,6 +2580,14 @@
                 "id": "4488de50-a2fe-40be-b53e-bf8ba8152c08",
                 "resourcePath": "scripts\\uc_set_position\\uc_set_position.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fb24badb-ca92-4f9d-b35c-da2308f77494",
+            "Value": {
+                "id": "3ba92570-1a87-4f72-a21b-069374672454",
+                "resourcePath": "views\\fb24badb-ca92-4f9d-b35c-da2308f77494.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
