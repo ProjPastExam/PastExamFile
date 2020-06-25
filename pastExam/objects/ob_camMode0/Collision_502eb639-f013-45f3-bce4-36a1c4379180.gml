@@ -3,5 +3,5 @@
 
 if ( ob_player.camMode != 0 ) {
 	ob_player.camMode = 0;
-	ob_player.camSpeed = 0.05;
+	ob_player.camSpeed = 0.02;
 }

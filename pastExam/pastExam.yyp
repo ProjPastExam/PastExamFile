@@ -210,7 +210,7 @@
             "Key": "0fc39dc5-e07a-4516-aa41-0edf8c6c9e64",
             "Value": {
                 "id": "29f19d46-dd66-4e23-93df-5abb7c68c589",
-                "resourcePath": "objects\\ob_playerStatus\\ob_playerStatus.yy",
+                "resourcePath": "objects\\ob_global\\ob_global.yy",
                 "resourceType": "GMObject"
             }
         },
