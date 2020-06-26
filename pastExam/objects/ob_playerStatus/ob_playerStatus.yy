@@ -2,7 +2,7 @@
     "id": "0fc39dc5-e07a-4516-aa41-0edf8c6c9e64",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ob_global",
+    "name": "ob_playerStatus",
     "eventList": [
         {
             "id": "7bed7baf-ecfa-4221-9fdb-8910698cbcdc",

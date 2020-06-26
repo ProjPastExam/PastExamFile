@@ -17,7 +17,7 @@ if ( camMode == 0 ) {
 if ( camMode == 1 ) {
 	uc_init_static(camSpeed);
 	uc_set_target_y(y);
-	if ( x > camX - 250 )	{ uc_set_target_x(x + 250); }
+	if ( x > camX - 200 )	{ uc_set_target_x(x + 200); }
 	if (camSpeed < 0.5) { camSpeed += 0.001 }
 }
 
