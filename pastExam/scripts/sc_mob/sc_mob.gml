@@ -67,26 +67,26 @@ ySpeed += grav;
 
 if(!global.isPause) {
 // Attack_delay마다 한 번씩 공격
-if ( canAttack ) {  
-	Attack_delay -= 1;
-	if ( !Attack_delay ) { 
-		sc_mobAttack(); 
-		Attack_delay = Attack_delay_MAX; 
+	if ( canAttack ) {  
+		Attack_delay -= 1;
+		if ( !Attack_delay ) { 
+			sc_mobAttack(); 
+			Attack_delay = Attack_delay_MAX; 
+		}
 	}
-}
 
-// 5번 맞으면 스턴
-if( AttackedCount != 0 && AttackedCount % 5 == 0 ) { isStern = true; }
+	// 5번 맞으면 스턴
+	if( AttackedCount != 0 && AttackedCount % 5 == 0 ) { isStern = true; }
 
-// 스턴상태
-if ( isStern ) { sc_stern(); }
+	// 스턴상태
+	if ( isStern ) { sc_stern(); }
 
-// 넉백 효과
-if ( isPushedBack ) { sc_pushedBack(); }
+	// 넉백 효과
+	if ( isPushedBack ) { sc_pushedBack(); }
 
-// 피격
-if ( place_meeting(x, y, ob_atkEffect) ) {  
-	Attacked_delay -= 1;
-	if ( !Attacked_delay ) { sc_playerAttack(); Attacked_delay = 12; }
-}
+	// 피격
+	if ( place_meeting(x, y, ob_atkEffect) ) {  
+		Attacked_delay -= 1;
+		if ( !Attacked_delay ) { sc_playerAttack(); Attacked_delay = 12; }
+	}
 }
