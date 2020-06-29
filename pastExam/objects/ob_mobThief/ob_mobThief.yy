@@ -1,28 +1,18 @@
 {
-    "id": "93ba1be1-1a1b-43d5-b963-c589f79e850a",
+    "id": "7854b85d-b06f-436b-85fe-622c75111d4b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ob_mobArcher",
+    "name": "ob_mobThief",
     "eventList": [
         {
-            "id": "adeef4a4-1c16-4c7f-8082-997349839ceb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "93ba1be1-1a1b-43d5-b963-c589f79e850a"
-        },
-        {
-            "id": "2504c215-1e32-426c-9cb3-d14e73ae3a82",
+            "id": "42cf21d4-7ad8-4d7a-994a-17533a4f0c68",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "93ba1be1-1a1b-43d5-b963-c589f79e850a"
+            "m_owner": "7854b85d-b06f-436b-85fe-622c75111d4b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "ada9cce7-d693-4499-a453-edfe5eb33a18",
+    "spriteId": "cfc1263c-d3a6-4d97-8259-1cacd5df59e4",
     "visible": true
 }

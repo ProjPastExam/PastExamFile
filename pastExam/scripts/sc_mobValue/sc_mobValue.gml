@@ -4,6 +4,8 @@
 //생성 실행 스크립트
 
 //////////////////////////////////////////////////
+/////////// 기본 근거리 몬스터 세팅 /////////////////
+//////////////////////////////////////////////////
 
 xSpeed	= 3;				// 몬스터 스피드
 sSpeed	= xSpeed;
@@ -14,13 +16,14 @@ grav	= 0.12;
 mobHP = 100;
 mobHP_MAX = mobHP;
 frontSight		= 384;		// 앞쪽 시야(6칸)
-backSight		= 192;		// 뒤쪽 시야(3칸)
-maxTrack		= 450;		// 따라가는 최대 거리
+backSight		= frontSight/2;		// 뒤쪽 시야(3칸)
+maxTrack		= 64*8;		// 따라가는 최대 거리
 runHP			= 0;		// 도망치는 HP(퍼센트)
 adversarial		= 0;		// 적대도
 mob_dmg			= 10;
 attackLength	= 64 + abs(ob_player.bbox_left - ob_player.x);		// 몬스터 공격거리
 Attack_delay	= room_speed; // room_speed = 60 (1초)
+Attack_delay_MAX	= Attack_delay;
 Attacked_delay	= 12;
 Stern_delay		= 60;		// 1초 스턴
 AttackedCount	= 0;		// 공격당한 횟수 저장

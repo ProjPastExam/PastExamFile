@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "05a14cdb-00e8-4d19-8f9c-f1c332e90463",
+            "Value": {
+                "id": "69940596-22da-4830-9d0a-a0fdb6125464",
+                "resourcePath": "views\\05a14cdb-00e8-4d19-8f9c-f1c332e90463.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0606c67d-31b8-4f1c-a1a0-d151424fd75e",
             "Value": {
                 "id": "f178084a-96e4-4496-a68d-60d454aae6c7",
@@ -1367,6 +1375,14 @@
             }
         },
         {
+            "Key": "7854b85d-b06f-436b-85fe-622c75111d4b",
+            "Value": {
+                "id": "e8de9528-2996-41cf-9320-656c3ab7da77",
+                "resourcePath": "objects\\ob_mobThief\\ob_mobThief.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7a21637b-fbd5-4d30-b577-d24687600a96",
             "Value": {
                 "id": "7375051e-ce7d-4176-9710-4f4b788dd989",
@@ -1764,6 +1780,14 @@
                 "id": "5f393e60-8fdc-497e-bed5-b129947da50b",
                 "resourcePath": "views\\a071d145-529d-4256-9d2a-6d7f163f4773.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a0b99ae1-66e3-4b7a-bd00-14fd9a8d0c96",
+            "Value": {
+                "id": "a0c6ba43-67a0-434d-ad16-e9a3f012fe80",
+                "resourcePath": "scripts\\sc_mobThief\\sc_mobThief.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2642,6 +2666,7 @@
         "76633a29-08e4-458c-9e0a-e001fc5f4ebe",
         "3fee8412-8402-4670-b0fc-586047190bb4",
         "5776a166-b941-4f8a-853a-58a866d453ea",
+        "a0b99ae1-66e3-4b7a-bd00-14fd9a8d0c96",
         "d3638d4f-f3fb-46f2-bae4-7df0cdb1efef",
         "3bbf80fb-7be0-4ba2-a130-5959c20bbedd",
         "d1700a78-5b78-4dd4-8b48-27a77e4d1949",
