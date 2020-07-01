@@ -17,3 +17,9 @@ else if( image_xscale < 0 ) {
 if ( arrowySpeed > ob_game.gravmax ) { arrowySpeed = ob_game.gravmax; }
 y += arrowySpeed;
 arrowySpeed += grav;
+
+if ( place_meeting(x, y, ob_player) ) {
+	sc_mobAttack();
+	// 플레이어 넉백 효과 추가
+	instance_destroy(self);
+}
