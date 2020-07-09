@@ -98,7 +98,7 @@ x = x + xSpeed;
 
 //이동 입력 없을시 정지
 if ( !keyLeft && !keyRight && ( canMove == 0 ) ) {
-	if ( !isJump ) sc_playerSprite(0);
+	if ( !isJump && canMove == 0 ) sc_playerSprite(0);
 	if ( xSpeed > accSpeed )		xSpeed -= accSpeed;
 	else if ( xSpeed < -accSpeed )	xSpeed += accSpeed;
 	else							xSpeed = 0;
@@ -121,6 +121,7 @@ if ((rolling <= -30) && canMove == 0) {
 	}
 }
 if (rolling > 0) {
+	sc_playerSprite(3);
 	xSpeed = dir*(rolling*2.5 + walkSpeed);
 	ySpeed = 0;
 }

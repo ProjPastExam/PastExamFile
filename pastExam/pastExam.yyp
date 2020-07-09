@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "1dce1620-0b08-4a33-8630-ea5b248b0322",
+            "Value": {
+                "id": "34d7df5a-6a97-44aa-a02e-495a8e075766",
+                "resourcePath": "sprites\\sp_playerHit1Sword\\sp_playerHit1Sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1e2509de-772c-47b8-91ce-f8b0f4c7537a",
             "Value": {
                 "id": "45197af6-c03a-4cc4-b0dd-f2decf05f603",
@@ -1596,6 +1604,14 @@
                 "id": "1d5f6e5f-6406-4c28-93ba-eda52b64901a",
                 "resourcePath": "views\\910e428c-2775-4c11-b60a-494d0e136885.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9149c040-746e-42e4-bbd5-e8b83242df7c",
+            "Value": {
+                "id": "bfd986f7-cf2e-466e-9700-f97c5ab2046b",
+                "resourcePath": "sprites\\sp_playerDashSword\\sp_playerDashSword.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

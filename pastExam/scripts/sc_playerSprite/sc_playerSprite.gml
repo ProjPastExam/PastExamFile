@@ -7,7 +7,9 @@
 /*
 0 : 정지
 1 : 걷기
+3 : 대쉬
 4 : 점프
+5 : 하강
 
 */
 image_xscale = dir;
@@ -22,11 +24,17 @@ switch ( argument0 ) {
 		sprite_index = sp_playerRunSword;
 		break;
 		
+	case 3:
+		sprite_index = sp_playerDashSword;
+		break;
+		
 	case 4:
 		sprite_index = sp_playerUpSword;
 		if ( image_index >= 2 ) image_speed = 0;
 		break;
 	case 5:
 		sprite_index = sp_playerDownSword;
+		if ( ySpeed < -1 ) image_index = 0;
+		if ( image_index >= 2 ) image_speed = 0;
 		break;
 }
