@@ -81,16 +81,17 @@ if ( atkProcess > 120 && atkProcess < 130 ) {
 
 //4단계 공격
 if ( atkProcess < 130 ) {}
-else if ( atkProcess < 134 ) {	image_index = 18;	xSpeed = dir*6;	ySpeed = ySpeed / 2; }
-else if ( atkProcess < 128 ) {	image_index = 19;	xSpeed = dir*5;	ySpeed = ySpeed / 1.7;
+else if ( atkProcess < 135 ) {	image_index = 18;	xSpeed = dir*6;	ySpeed = ySpeed / 2; }
+else if ( atkProcess < 140 ) {	image_index = 19;	xSpeed = dir*5;	ySpeed = ySpeed / 1.7;
 		instance_create_depth( x, y, deep, ob_atkEffect );
 		ob_atkEffect.sprite_index = sp_atkEffect00;
 		ob_atkEffect.image_index = 0;
 }
-else if ( atkProcess < 132 ) {	image_index = 20;	xSpeed = dir*4;	ySpeed = ySpeed / 1.4; }
-else if ( atkProcess < 136 ) {	image_index = 21;	xSpeed = dir*3;	ySpeed = ySpeed / 1.2; }
-else if ( atkProcess < 140 ) image_index = 22;
-if ( atkProcess > 138 ) {
+else if ( atkProcess < 145 ) {	image_index = 20;	xSpeed = dir*4;	ySpeed = ySpeed / 1.4; }
+else if ( atkProcess < 150 ) {	image_index = 21;	xSpeed = dir*3;	ySpeed = ySpeed / 1.2; }
+else if ( atkProcess < 155 ) image_index = 22;
+else if ( atkProcess < 160 ) image_index = 23;
+if ( atkProcess > 160 ) {
 	atkProcess = 0;
 	canMove = 0;
 	canAtk = 30;
