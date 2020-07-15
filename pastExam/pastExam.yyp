@@ -1810,7 +1810,7 @@
             "Key": "a0b99ae1-66e3-4b7a-bd00-14fd9a8d0c96",
             "Value": {
                 "id": "a0c6ba43-67a0-434d-ad16-e9a3f012fe80",
-                "resourcePath": "scripts\\sc_mobThief\\sc_mobThief.yy",
+                "resourcePath": "scripts\\sc_mobBandit\\sc_mobBandit.yy",
                 "resourceType": "GMScript"
             }
         },

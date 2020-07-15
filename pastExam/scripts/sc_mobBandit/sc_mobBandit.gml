@@ -2,11 +2,8 @@
 /////// 산적 몬스터 스크립트 //////////
 ////////////////////////////////////
 
-// 선공 몬스터 처리
-if ( isFirstAttack ) { isPeace = false; }
-
 // 움직임 & 공격
-if(!global.isPause) {
+if( !global.isPause ) {
 	// 평화상태가 아닐 경우 (전쟁상태)
 	if( !isPeace ) {
 		// 오른쪽으로 이동중일 때
@@ -37,9 +34,9 @@ if(!global.isPause) {
 			}
 			// 플레이어가 몬스터의 왼쪽에 있고, 거리가 시야 미만일 때, 뒤로돌기
 			else if( TargetX < -64 && -TargetX <= backSight ) { xSpeed *= -1; }
-//			else { isPeace = true; }	// 거리에서 벗어나면 평화상태로 돌아감
+			// 거리에서 벗어나면 평화상태로 돌아감
+			else { isPeace = true; }
 		}
-		
 		// 왼쪽으로 이동중일 때
 		else if( xSpeed < 0 ) {
 			if ( (left == 3) )		{ xSpeed *= -1; }
@@ -68,22 +65,24 @@ if(!global.isPause) {
 			}
 			// 플레이어가 몬스터의 오른쪽에 있고, 거리가 시야 미만일 때, 뒤로 돌기
 			else if( TargetX > 0 && TargetX <= backSight ) { xSpeed *= -1; }
-			//else { isPeace = true; }	// 거리에서 벗어나면 평화상태로 돌아감
+			// 거리에서 벗어나면 평화상태로 돌아감
+			else { isPeace = true; }
 		}
 	}
-	else if ( isPeace ) { // 평화상태 시에 단순한 좌우 이동
-		//좌우 출돌 시 이동
+	// 평화상태 시에 단순한 좌우 이동
+	else if ( isPeace ) {
 		if ( ( left == 3 || right == 3) )		{ xSpeed *= -1; }
-		// x축 이동
 		x += xSpeed;
 	}
 }
 
+// 공격
 if ( canAttack ) {  
 	Attack_delay -= 1;
 	if ( !Attack_delay ) {
-		sc_mobAttack();
+		sc_playerHit(10, 0);
 		Attack_delay = Attack_delay_MAX;
+		canAttack = false;
 	}
 }
 

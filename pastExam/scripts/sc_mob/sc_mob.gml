@@ -38,9 +38,6 @@ if ( bottom1 == 3 ) {
 //3단계 타일과 몬스터 머리의 충돌
 if ( top == 3 ) { if ( ySpeed < 0 ) ySpeed = 5; }
 
-// 몬스터 스프라이트
-// sprite_index = sp_mobAI;
-
 // 몬스터 방향 바꾸기
 var dir;
 if(xSpeed >= 0) { dir = -1; }
@@ -59,6 +56,8 @@ if ( ySpeed > ob_game.gravmax ) ySpeed = ob_game.gravmax;
 y += ySpeed;
 ySpeed += grav;
 
+// 선공 몬스터 처리
+if ( isFirstAttack ) { isPeace = false; }
 
 
 ///////////////////////////////////
