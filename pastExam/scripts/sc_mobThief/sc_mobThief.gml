@@ -9,7 +9,6 @@ if ( isFirstAttack ) { isPeace = false; }
 if(!global.isPause) {
 	// 평화상태가 아닐 경우 (전쟁상태)
 	if( !isPeace ) {
-		sprite_index = sp_mobBanditRun;
 		// 오른쪽으로 이동중일 때
 		if( xSpeed > 0 ) {
 			if ( (right == 3) )		{ xSpeed *= -1; }
@@ -73,7 +72,6 @@ if(!global.isPause) {
 		}
 	}
 	else if ( isPeace ) { // 평화상태 시에 단순한 좌우 이동
-		sprite_index = sp_mobBanditWalk;
 		//좌우 출돌 시 이동
 		if ( ( left == 3 || right == 3) )		{ xSpeed *= -1; }
 		// x축 이동
@@ -84,8 +82,11 @@ if(!global.isPause) {
 if ( canAttack ) {  
 	Attack_delay -= 1;
 	if ( !Attack_delay ) {
-		sprite_index = sp_mobBanditAttack;
-		sc_mobAttack(); 
+		sc_mobAttack();
 		Attack_delay = Attack_delay_MAX;
 	}
 }
+
+// 스프라이트
+if ( isPeace )						{ sprite_index = sp_mobBanditWalk; }
+else if ( !isPeace && !canAttack )	{ sprite_index = sp_mobBanditRun; }
