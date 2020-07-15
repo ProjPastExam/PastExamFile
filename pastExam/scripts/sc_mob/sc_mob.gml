@@ -43,8 +43,8 @@ if ( top == 3 ) { if ( ySpeed < 0 ) ySpeed = 5; }
 
 // 몬스터 방향 바꾸기
 var dir;
-if(xSpeed >= 0) { dir = 1; }
-else { dir = -1; }
+if(xSpeed >= 0) { dir = -1; }
+else { dir = 1; }
 image_xscale = orig_xscale * dir;
 
 // 플레이어 트렉킹 코드
@@ -66,14 +66,7 @@ ySpeed += grav;
 ///////////////////////////////////
 
 if(!global.isPause) {
-// Attack_delay마다 한 번씩 공격
-	if ( canAttack ) {  
-		Attack_delay -= 1;
-		if ( !Attack_delay ) { 
-			sc_mobAttack(); 
-			Attack_delay = Attack_delay_MAX; 
-		}
-	}
+	// Attack_delay마다 한 번씩 공격
 
 	// 5번 맞으면 스턴
 	if( AttackedCount != 0 && AttackedCount % 5 == 0 ) { isStern = true; }

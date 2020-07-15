@@ -2,7 +2,7 @@
     "id": "7854b85d-b06f-436b-85fe-622c75111d4b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ob_mobThief",
+    "name": "ob_mobBandit",
     "eventList": [
         {
             "id": "42cf21d4-7ad8-4d7a-994a-17533a4f0c68",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "cfc1263c-d3a6-4d97-8259-1cacd5df59e4",
+    "spriteId": "98a8c446-0e24-446f-87bb-1fa4946ac626",
     "visible": true
 }

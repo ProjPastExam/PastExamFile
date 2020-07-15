@@ -1386,7 +1386,7 @@
             "Key": "7854b85d-b06f-436b-85fe-622c75111d4b",
             "Value": {
                 "id": "e8de9528-2996-41cf-9320-656c3ab7da77",
-                "resourcePath": "objects\\ob_mobThief\\ob_mobThief.yy",
+                "resourcePath": "objects\\ob_mobBandit\\ob_mobBandit.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2548,6 +2548,14 @@
                 "id": "f821e428-91f4-4afe-af68-08d54096ef42",
                 "resourcePath": "scripts\\uc_get_flash_speed\\uc_get_flash_speed.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "efa2cc57-b83d-4643-a4a8-c6457617d671",
+            "Value": {
+                "id": "b840e550-bf61-4a71-aa64-1171eaddbbd2",
+                "resourcePath": "views\\efa2cc57-b83d-4643-a4a8-c6457617d671.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
