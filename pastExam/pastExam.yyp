@@ -1727,6 +1727,14 @@
             }
         },
         {
+            "Key": "98a8c446-0e24-446f-87bb-1fa4946ac626",
+            "Value": {
+                "id": "637fd7ce-5462-421c-931e-c7b41471d240",
+                "resourcePath": "sprites\\sp_mobBanditWalk\\sp_mobBanditWalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9904f9d0-1874-4643-8592-35ef46e6f6fe",
             "Value": {
                 "id": "6046e29f-e9f0-4b9b-87c2-2125957e5250",
@@ -2199,6 +2207,14 @@
             }
         },
         {
+            "Key": "d00e46cb-cb30-42ce-9033-267e67ebbfb2",
+            "Value": {
+                "id": "914de08a-dda3-4b65-9def-31675ab51457",
+                "resourcePath": "sprites\\sp_mobBanditAttack\\sp_mobBanditAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d05ebb47-b5d0-465d-8a74-c2545939220c",
             "Value": {
                 "id": "3b710975-557b-4fae-bdbe-1272601aaa88",
@@ -2436,6 +2452,14 @@
                 "id": "37ed9099-2a50-492e-8d87-555973d52ccc",
                 "resourcePath": "scripts\\scr_signtest\\scr_signtest.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e7d89a39-698f-403d-a458-d0db394948c2",
+            "Value": {
+                "id": "f70ecb2c-b2d4-4c0a-babd-6167776e8f8a",
+                "resourcePath": "sprites\\sp_mobBanditRun\\sp_mobBanditRun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
