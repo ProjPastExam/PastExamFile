@@ -90,3 +90,4 @@ if ( canAttack ) {
 // 스프라이트
 if ( isPeace )						{ sprite_index = sp_mobBanditWalk; }
 else if ( !isPeace && !canAttack )	{ sprite_index = sp_mobBanditRun; }
+else if ( !isPeace && canAttack && !Attack_delay )	{ sprite_index = sp_mobBanditAttack; }
