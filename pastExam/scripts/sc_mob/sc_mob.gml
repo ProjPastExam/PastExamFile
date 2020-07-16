@@ -39,7 +39,6 @@ if ( bottom1 == 3 ) {
 if ( top == 3 ) { if ( ySpeed < 0 ) ySpeed = 5; }
 
 // 몬스터 방향 바꾸기
-var dir;
 if(xSpeed >= 0) { dir = -1; }
 else { dir = 1; }
 image_xscale = orig_xscale * dir;
@@ -74,7 +73,7 @@ if(!global.isPause) {
 	if ( isStern ) { sc_stern(); }
 
 	// 넉백 효과
-	if ( isPushedBack ) { sc_pushedBack(); }
+	if ( isPushedBack ) { sc_pushedBack(0); }
 
 	// 피격
 	if ( place_meeting(x, y, ob_atkEffect) ) {  

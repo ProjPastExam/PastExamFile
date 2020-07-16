@@ -28,6 +28,7 @@ Attacked_delay	= 12;
 Stern_delay		= 60;		// 1초 스턴
 AttackedCount	= 0;		// 공격당한 횟수 저장
 mobatkProcess	= 0;
+dir				= 0;		// 몬스터가 보고 있는 방향 ( 1 왼쪽 )
 
 
 Attacked		= false;	// 공격 당하는 중(슈퍼 아머 등에 사용될 변수)

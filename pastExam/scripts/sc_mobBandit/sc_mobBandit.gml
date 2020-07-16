@@ -2,6 +2,7 @@
 /////// 산적 몬스터 스크립트 //////////
 ////////////////////////////////////
 
+
 // 움직임 & 공격
 if( !global.isPause ) {
 	// 평화상태가 아닐 경우 (전쟁상태)
@@ -80,13 +81,30 @@ if( !global.isPause ) {
 if ( canAttack ) {  
 	Attack_delay -= 1;
 	if ( !Attack_delay ) {
+		
 		sc_playerHit(10, 0);
 		Attack_delay = Attack_delay_MAX;
 		canAttack = false;
+		
 	}
 }
 
 // 스프라이트
 if ( isPeace )						{ sprite_index = sp_mobBanditWalk; }
-else if ( !isPeace && canAttack )	{ sprite_index = sp_mobBanditAttack; }
+else if ( !isPeace && canAttack )	{ 
+	xSpeed = 0;
+	mobatkProcess += 1;
+	sprite_index = sp_mobBanditAttack;
+	if ( mobatkProcess < 10 )		{	image_index = 1; }
+	else if ( mobatkProcess < 20 )	{	image_index = 2; }
+	else if ( mobatkProcess < 30 ) {	image_index = 3; }
+	else if ( mobatkProcess < 40 ) {	image_index = 4; }
+	else if ( mobatkProcess < 50 )	{	image_index = 5; }
+	else if ( mobatkProcess < 60 )	{	image_index = 6; }
+	else { mobatkProcess = 0; }
+	
+	// 방향에 따라 xSpeed 초기화
+	if(dir >= 0) { xSpeed = -sSpeed; }
+	else { xSpeed = sSpeed; }
+}
 else if ( !isPeace && !canAttack )	{ sprite_index = sp_mobBanditRun; }

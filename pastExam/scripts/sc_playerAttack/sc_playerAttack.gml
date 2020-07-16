@@ -18,6 +18,5 @@ else if( mobHP < ob_player.playerDmg ) {
 
 if ( mobHP == 0 ) { instance_destroy(self); }
 
-
 isPeace = false;
 Attacked = false;
