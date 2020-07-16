@@ -11,8 +11,8 @@ if( !global.isPause ) {
 			if ( (right == 3) )		{ xSpeed *= -1; }
 			// 플레이어가 몬스터의 오른쪽에 있고, 거리가 시야 미만일 때
 			if( TargetX >= 0 && TargetX <= frontSight ) {
-				
-				var _targetX = sign(TargetX) * xSpeed * 1.1 /*/ 3*/;
+				// 이동속도 1.2배속
+				var _targetX = sign(TargetX) * xSpeed * 1.2;
 		
 				if ( place_meeting( x + _targetX, y, ob_player ) ) {
 				 while (!place_meeting(x + sign(_targetX), y, ob_player)) {
@@ -42,8 +42,8 @@ if( !global.isPause ) {
 			if ( (left == 3) )		{ xSpeed *= -1; }
 			// 플레이어가 몬스터의 왼쪽에 있고, 거리가 시야 미만일 때
 			if( TargetX <= 0 && -TargetX <= frontSight ) {
-				
-				var _targetX = sign(TargetX) * -xSpeed * 1.1/* / 3 */;
+				// 이동속도 1.2배속
+				var _targetX = sign(TargetX) * -xSpeed * 1.2;
 		
 				if ( place_meeting( x + _targetX, y, ob_player ) ) {
 				 while ( !place_meeting( x + sign(_targetX), y, ob_player ) ) {
@@ -88,5 +88,5 @@ if ( canAttack ) {
 
 // 스프라이트
 if ( isPeace )						{ sprite_index = sp_mobBanditWalk; }
+else if ( !isPeace && canAttack )	{ sprite_index = sp_mobBanditAttack; }
 else if ( !isPeace && !canAttack )	{ sprite_index = sp_mobBanditRun; }
-else if ( !isPeace && canAttack && !Attack_delay )	{ sprite_index = sp_mobBanditAttack; }

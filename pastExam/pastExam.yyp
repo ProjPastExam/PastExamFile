@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "2b0391f6-e7c8-4e0e-9609-928720f7d786",
+            "Value": {
+                "id": "10a9c31f-0661-4860-ba39-b618e396de0e",
+                "resourcePath": "scripts\\sc_drawSprite\\sc_drawSprite.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2bda5c8b-40f9-4733-b934-6d0a0b59803b",
             "Value": {
                 "id": "bfdc461b-1d5c-459e-b484-c8e181febd99",
@@ -2715,6 +2723,7 @@
         "3fee8412-8402-4670-b0fc-586047190bb4",
         "5776a166-b941-4f8a-853a-58a866d453ea",
         "a0b99ae1-66e3-4b7a-bd00-14fd9a8d0c96",
+        "2b0391f6-e7c8-4e0e-9609-928720f7d786",
         "d3638d4f-f3fb-46f2-bae4-7df0cdb1efef",
         "3bbf80fb-7be0-4ba2-a130-5959c20bbedd",
         "d1700a78-5b78-4dd4-8b48-27a77e4d1949",
