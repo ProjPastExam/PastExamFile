@@ -21,7 +21,7 @@ if( !global.isPause ) {
 				  }
 				   _targetX = 0;
 				}
-				x += _targetX;			
+				x += _targetX;
 				// 플레이어가 몬스터의 위에 있으면, 점프
 				if ( TargetB < -16 && TargetB  > -256) {
 					if ( bottom1 == 2 && bottom2 != 2  && ySpeed > 0 || bottom1 == 3 ) {
@@ -36,11 +36,11 @@ if( !global.isPause ) {
 			// 플레이어가 몬스터의 왼쪽에 있고, 거리가 시야 미만일 때, 뒤로돌기
 			else if( TargetX < -64 && -TargetX <= backSight ) { xSpeed *= -1; }
 			// 거리에서 벗어나면 평화상태로 돌아감
-			else { isPeace = true; }
+//			else { isPeace = true; }
 		}
 		// 왼쪽으로 이동중일 때
 		else if( xSpeed < 0 ) {
-			if ( (left == 3) )		{ xSpeed *= -1; }
+			if ( left == 3 )		{ xSpeed *= -1; }
 			// 플레이어가 몬스터의 왼쪽에 있고, 거리가 시야 미만일 때
 			if( TargetX <= 0 && -TargetX <= frontSight ) {
 				// 이동속도 1.2배속

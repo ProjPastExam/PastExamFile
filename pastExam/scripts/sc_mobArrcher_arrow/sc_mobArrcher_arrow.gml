@@ -19,7 +19,7 @@ y += arrowySpeed;
 arrowySpeed += grav;
 
 if ( place_meeting(x, y, ob_player) ) {
-	sc_mobAttack();
+//	sc_mobAttack();
 	// 플레이어 넉백 효과 추가
 	instance_destroy(self);
 }

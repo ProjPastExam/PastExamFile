@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "29a893eb-0e56-4aa6-90f8-a2d702d51c28",
+            "Value": {
+                "id": "5e9c05bb-a461-44d9-bfe6-acf2540fd844",
+                "resourcePath": "objects\\ob_mobAtkEffect\\ob_mobAtkEffect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2a515e02-b8af-487b-b947-fb4a60c830c2",
             "Value": {
                 "id": "dce36a9e-4736-4eee-8da1-03a70c9ba4ab",
@@ -803,6 +811,14 @@
             "Value": {
                 "id": "108a88e1-1e65-4580-827d-8d6bf42a7ac3",
                 "resourcePath": "scripts\\uc_set_view_inclination\\uc_set_view_inclination.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "45bfbf2b-e810-4aeb-86a7-03c519e573ef",
+            "Value": {
+                "id": "cac8dcc4-41e8-4ecc-9d53-ff0e0e49057f",
+                "resourcePath": "scripts\\sc_mobRun\\sc_mobRun.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1343,6 +1359,14 @@
             }
         },
         {
+            "Key": "741b54db-6bd4-4474-a903-02539d757a3a",
+            "Value": {
+                "id": "bc4b6f74-fcf3-47cf-aa8b-4382b839096f",
+                "resourcePath": "scripts\\sc_mobWalk\\sc_mobWalk.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "749e2a33-9b7a-4e87-83ae-dae549941b91",
             "Value": {
                 "id": "326d6688-860f-4449-b400-f64282110a4b",
@@ -1716,6 +1740,14 @@
                 "id": "6dfdf52f-d4c1-4351-8dd0-6288b6bd8883",
                 "resourcePath": "views\\956cf33b-46fb-45af-adf1-348d8fc9bc9f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "957146d3-a76b-4170-b67a-64503816fdab",
+            "Value": {
+                "id": "aea722de-9e18-4c6c-a28a-ed115c1995fa",
+                "resourcePath": "sprites\\sp_mobAtkEffect\\sp_mobAtkEffect.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2725,6 +2757,8 @@
         "a0b99ae1-66e3-4b7a-bd00-14fd9a8d0c96",
         "2b0391f6-e7c8-4e0e-9609-928720f7d786",
         "7aec4f07-24e7-4005-bcd1-ddffeb387566",
+        "741b54db-6bd4-4474-a903-02539d757a3a",
+        "45bfbf2b-e810-4aeb-86a7-03c519e573ef",
         "d3638d4f-f3fb-46f2-bae4-7df0cdb1efef",
         "3bbf80fb-7be0-4ba2-a130-5959c20bbedd",
         "d1700a78-5b78-4dd4-8b48-27a77e4d1949",

@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Inherit the parent event
-event_inherited();
-
-state = 1;
+if ( !isHit ) { sc_playerHit(10, 0); }
+isHit = true;
