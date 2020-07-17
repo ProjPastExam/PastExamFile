@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "33737df4-0b4e-4adf-9922-3ec03c665b99",
+            "Value": {
+                "id": "f0a3431d-39eb-41d4-b988-3f09d3337180",
+                "resourcePath": "sprites\\sprite46\\sprite46.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3381c6f8-b801-47a8-9e73-d7fd43ef77d2",
             "Value": {
                 "id": "5baed0ae-d860-4fe2-806b-585b6417a9f5",
@@ -1431,6 +1439,14 @@
             }
         },
         {
+            "Key": "7aec4f07-24e7-4005-bcd1-ddffeb387566",
+            "Value": {
+                "id": "67dc81cd-7e99-4871-b37f-17ec8610e94c",
+                "resourcePath": "scripts\\sc_mobTest\\sc_mobTest.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7ba2702a-12ed-4c48-bdc4-26c732f052c8",
             "Value": {
                 "id": "07d8f578-ea36-4e58-a31c-c921e5d5e95f",
@@ -1666,7 +1682,7 @@
             "Key": "93ba1be1-1a1b-43d5-b963-c589f79e850a",
             "Value": {
                 "id": "d12ff821-4f7e-4261-830b-754c03de95fc",
-                "resourcePath": "objects\\ob_mobArcher\\ob_mobArcher.yy",
+                "resourcePath": "objects\\ob_mobTest\\ob_mobTest.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2051,6 +2067,14 @@
             "Value": {
                 "id": "e3657b38-8602-456a-96dc-3288b659ab76",
                 "resourcePath": "objects\\obj_slope\\obj_slope.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "be4e5076-d522-41fc-8f64-5cf7aac31bbe",
+            "Value": {
+                "id": "f6cc9dfc-a788-4f86-9ae6-b429255c2c3a",
+                "resourcePath": "objects\\ob_mobArcher\\ob_mobArcher.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2700,6 +2724,7 @@
         "5776a166-b941-4f8a-853a-58a866d453ea",
         "a0b99ae1-66e3-4b7a-bd00-14fd9a8d0c96",
         "2b0391f6-e7c8-4e0e-9609-928720f7d786",
+        "7aec4f07-24e7-4005-bcd1-ddffeb387566",
         "d3638d4f-f3fb-46f2-bae4-7df0cdb1efef",
         "3bbf80fb-7be0-4ba2-a130-5959c20bbedd",
         "d1700a78-5b78-4dd4-8b48-27a77e4d1949",
