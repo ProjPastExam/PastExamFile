@@ -426,7 +426,7 @@
             "Key": "2b0391f6-e7c8-4e0e-9609-928720f7d786",
             "Value": {
                 "id": "10a9c31f-0661-4860-ba39-b618e396de0e",
-                "resourcePath": "scripts\\sc_drawSprite\\sc_drawSprite.yy",
+                "resourcePath": "scripts\\sc_mobAtkSprite\\sc_mobAtkSprite.yy",
                 "resourceType": "GMScript"
             }
         },
