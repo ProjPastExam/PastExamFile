@@ -95,5 +95,5 @@ if ( canAttack ) {
 
 // 스프라이트
 if ( isPeace )						{ sprite_index = sp_mobBanditWalk; }
-else if ( !isPeace && canAttack )	{ sc_mobAtkSprite(sp_mobBanditAttack); }
+else if ( !isPeace && canAttack )	{ sc_mobAtkSprite(sp_mobBanditAttack, 2); }
 else if ( !isPeace && !canAttack )	{ sprite_index = sp_mobBanditRun; }

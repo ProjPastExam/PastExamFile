@@ -3,8 +3,9 @@
 // 0 평화상태
 // 1 전쟁상태
 // 2 공격모션
-// 3 스턴
-// 4 넉백
+// 3 뒤로도망
+// 4 스턴
+// 5 넉백
 
 /////////////////////////////////////
 /////// 산적 몬스터 스크립트 //////////
@@ -19,6 +20,9 @@ if( !global.isPause ) {
 			sc_mobRun(sp_mobBanditRun);
 			break;
 		case 2:
+			sc_mobAttack(sp_mobBanditAttack);
+			break;
+		case 3:
 			sc_mobAttack(sp_mobBanditAttack);
 			break;
 	}
