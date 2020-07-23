@@ -20,9 +20,9 @@ if ( !Attack_delay ) {
 		instance_create_depth( x-insx, y, depth-20, ob_mobAtkEffect );
 		xSpeed = sSpeed;
 	}
-		
 	Attack_delay = Attack_delay_MAX;
 	canAttack = false;
+	state = 3;
 }
 
 

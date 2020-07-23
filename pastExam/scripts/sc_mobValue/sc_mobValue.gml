@@ -30,6 +30,7 @@ AttackedCount	= 0;		// 공격당한 횟수 저장
 mobatkProcess	= 0;
 dir				= 0;		// 몬스터가 보고 있는 방향 ( 1 왼쪽 )
 state			= 0;
+runAwaycnt		= 60;
 
 
 Attacked		= false;	// 공격 당하는 중(슈퍼 아머 등에 사용될 변수)

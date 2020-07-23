@@ -23,7 +23,7 @@ if( !global.isPause ) {
 			sc_mobAttack(sp_mobBanditAttack);
 			break;
 		case 3:
-			sc_mobAttack(sp_mobBanditAttack);
+			sc_mobRunAway(sp_mobBanditRun);
 			break;
 	}
 }
