@@ -5,6 +5,18 @@
 
 sprite_index = argument0;
 var insx	 = dir * 145;
+/*
+if ( Attack_delay == 10 ) {
+	xSpeed = 0;
+	if(dir >= 0) { 
+		instance_create_depth( x-insx+15, y, depth-20, ob_mobAtkEffect );
+		xSpeed = -sSpeed;
+	}
+	else { 
+		instance_create_depth( x-insx, y, depth-20, ob_mobAtkEffect );
+		xSpeed = sSpeed;
+	}
+}*/
 
 Attack_delay -= 1;
 if ( !Attack_delay ) {
@@ -20,8 +32,9 @@ if ( !Attack_delay ) {
 		instance_create_depth( x-insx, y, depth-20, ob_mobAtkEffect );
 		xSpeed = sSpeed;
 	}
-	Attack_delay = Attack_delay_MAX;
 	canAttack = false;
+	Attack_delay = Attack_delay_MAX;
+//	state = 1;
 	state = 3;
 }
 

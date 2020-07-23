@@ -1,6 +1,6 @@
 // 몬스터 공격 스프라이트
 // argument0 : 공격 모션 
-// argument1 : 공격 스프라이트 재생 속도
+// argument1 : 공격 스프라이트 재생 속도 1:빠름 2:보통 3:느리게
 
 mobatkProcess += 1;
 sprite_index = argument0;

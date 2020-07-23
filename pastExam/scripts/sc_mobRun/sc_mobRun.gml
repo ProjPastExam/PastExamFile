@@ -1,3 +1,5 @@
+// state = 1
+// 분노상태의 몬스터(달리기)
 sprite_index = argument0;
 
 // 오른쪽으로 이동중일 때
@@ -63,5 +65,5 @@ else if( xSpeed < 0 ) {
 	else if ( TargetX < 0 && -TargetX > frontSight*2 ) { isPeace = true; }
 }
 
-if ( canAttack ) { state = 2; }
-if ( isPeace ) { state = 1; }
+if ( canAttack /*&& Attack_delay == Attack_delay_MAX*/ ) { state = 2; }
+if ( isPeace ) { state = 0; }
