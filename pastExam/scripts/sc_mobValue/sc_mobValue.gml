@@ -9,6 +9,7 @@
 
 xSpeed	= 3;				// 몬스터 스피드
 sSpeed	= xSpeed;
+runSpeed = 1.6;
 
 ySpeed	= 0;				// 몬스터 점프량
 grav	= 0.12;

@@ -4,7 +4,7 @@
 
 
 sprite_index = argument0;
-var insx	 = dir * 145;
+var insx	 = dir * 105;
 /*
 if ( Attack_delay == 10 ) {
 	xSpeed = 0;

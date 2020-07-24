@@ -2,7 +2,7 @@ sprite_index = argument0;
 
 
 if( runAwaycnt == 60 ) {
-	xSpeed *= -1.2;
+	xSpeed *= -runSpeed;
 }
 
 runAwaycnt--;
@@ -12,5 +12,5 @@ else { x += xSpeed; }
 if( runAwaycnt == 0 ) { 
 	state=1; 
 	runAwaycnt=60;
-	xSpeed /= 1.2;
+	xSpeed /= runSpeed;
 }
