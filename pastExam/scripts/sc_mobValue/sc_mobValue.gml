@@ -39,7 +39,13 @@ isFirstAttack	= false;	// 선공여부
 isPeace			= true;		// 평화상태
 isStern			= false;	// 스턴상태
 isPushedBack	= false;	// 넉백상태
-isAngry			= false;	// 분노상태
+
+
+
+healthbar_width		= sprite_get_width(sp_healthbar)*self.mobHP_MAX/80;
+healthbar_height	= sprite_get_height(sp_healthbar);
+healthbar_x			= self.x;
+healthbar_y			= self.y-80;
 
 // 플레이어 트레킹 변수
 TargetX	= 0;				//플레이어 X축

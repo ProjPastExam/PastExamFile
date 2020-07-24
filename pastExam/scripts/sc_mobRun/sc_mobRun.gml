@@ -29,7 +29,7 @@ if( xSpeed > 0 ) {
 		}
 	}
 	// 플레이어가 몬스터의 왼쪽에 있고, 거리가 시야 미만일 때, 뒤로돌기
-	else if( TargetX < -64 && -TargetX <= backSight ) { xSpeed *= -1; }
+	else if( TargetX < -64 /*&& -TargetX <= backSight*/ ) { xSpeed *= -1; }
 	// 거리에서 벗어나면 평화상태로 돌아감
 	else if( TargetX >= 0 && TargetX > frontSight*2 ) { isPeace = true; }
 }
@@ -60,7 +60,7 @@ else if( xSpeed < 0 ) {
 		}
 	}
 	// 플레이어가 몬스터의 오른쪽에 있고, 거리가 시야 미만일 때, 뒤로 돌기
-	else if( TargetX > 0 && TargetX <= backSight ) { xSpeed *= -1; }
+	else if( TargetX > 0 /*&& TargetX <= backSight*/ ) { xSpeed *= -1; }
 	// 거리에서 벗어나면 평화상태로 돌아감
 	else if ( TargetX < 0 && -TargetX > frontSight*2 ) { isPeace = true; }
 }

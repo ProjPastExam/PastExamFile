@@ -1,7 +1,16 @@
 sprite_index = argument0;
 
-runAwaycnt--;
-if( TargetX >= 0 ) { x -= (xSpeed * 1.2); }
-if( TargetX < 0 ) { x += (xSpeed * 1.2); }
 
-if( runAwaycnt == 0 ) { state=1; runAwaycnt=60; }
+if( runAwaycnt == 60 ) {
+	xSpeed *= -1.2;
+}
+
+runAwaycnt--;
+if ( ( left == 3 || right == 3) ) { if( runAwaycnt <= 3 ) { xSpeed *= -1; } }
+else { x += xSpeed; }
+
+if( runAwaycnt == 0 ) { 
+	state=1; 
+	runAwaycnt=60;
+	xSpeed /= 1.2;
+}

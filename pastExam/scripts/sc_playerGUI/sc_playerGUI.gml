@@ -11,6 +11,6 @@ draw_sprite_stretched(sp_healthbar_border , 0, healthbar_x, healthbar_y,healthba
 
 //draw_text(healthbar_x+8,healthbar_y, string(hp)+'/'+string(hp_max));
 //draw_text(energybar_x+12, energybar_y+80, string(mp));
-draw_text(healthbar_x+12, healthbar_y+80, string(global.hp));
+draw_text(healthbar_x+48, healthbar_y+92, string(global.hp));
 
 // x,y좌표 고정

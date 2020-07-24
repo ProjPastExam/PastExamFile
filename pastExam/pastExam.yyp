@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "163773c6-120d-41d1-b188-c4c69bef5575",
+            "Value": {
+                "id": "5c59a050-ee6a-4756-9fe5-ca80e478c11d",
+                "resourcePath": "scripts\\sc_mobGUI\\sc_mobGUI.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1708a8fe-38cb-46c8-8d02-de22c0d89e43",
             "Value": {
                 "id": "30034c1f-db91-4d91-9d02-8d30fd23a374",
@@ -2759,6 +2767,7 @@
         "890cc756-7e2d-4939-8915-bd66f0cdf538",
         "5aae8d9a-70fe-4259-bef7-11a03d24df5f",
         "b454407d-79d6-4f77-9fb8-cdc5959a05d8",
+        "163773c6-120d-41d1-b188-c4c69bef5575",
         "741b54db-6bd4-4474-a903-02539d757a3a",
         "45bfbf2b-e810-4aeb-86a7-03c519e573ef",
         "c02fcdf1-7142-4af0-b114-310121054046",
