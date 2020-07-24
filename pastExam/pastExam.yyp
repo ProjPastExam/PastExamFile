@@ -1023,6 +1023,14 @@
             }
         },
         {
+            "Key": "54ba3d53-5470-423d-b1a7-e2caecc7e5e9",
+            "Value": {
+                "id": "ba35c199-ceab-48b9-8f34-0454a0a7173f",
+                "resourcePath": "sprites\\sp_mobBanditWalk2\\sp_mobBanditWalk2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "55093529-24d2-4328-ac2a-ba3a900bdf8b",
             "Value": {
                 "id": "68edba0f-3491-4121-a0f6-9a51df6019c2",
@@ -1156,6 +1164,14 @@
                 "id": "bda77dd1-bb40-4307-854d-0e1168f9d3da",
                 "resourcePath": "views\\6093d122-154d-410f-8519-5ae017f88291.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6116694a-1ee8-48d8-b052-0f9e95c64469",
+            "Value": {
+                "id": "6456d71e-034c-498b-91ae-4c190687fb51",
+                "resourcePath": "sprites\\sp_mobBanditAttack2\\sp_mobBanditAttack2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1300,6 +1316,14 @@
                 "id": "98798436-9bee-46dc-9d99-507f4e8f7ab4",
                 "resourcePath": "scripts\\uc_set_scale_relative_to_mouse_enabled\\uc_set_scale_relative_to_mouse_enabled.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "70fdf88d-f65e-43f4-b436-c4ce533be1bf",
+            "Value": {
+                "id": "864da832-b3da-4ce2-8d89-1c0f975da134",
+                "resourcePath": "sprites\\sp_Axe\\sp_Axe.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1823,6 +1847,14 @@
             }
         },
         {
+            "Key": "9cd25544-8503-4876-bbfd-20a6c386f8cd",
+            "Value": {
+                "id": "05c49960-c86f-4771-ad9e-690ed3aa7265",
+                "resourcePath": "sprites\\sp_mobBanditRun2\\sp_mobBanditRun2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9d6d0dc6-929e-4523-a7cd-afdd16756efc",
             "Value": {
                 "id": "00de467e-ef5a-4bd4-b5c0-2c8cb23e688c",
@@ -2036,6 +2068,14 @@
                 "id": "c29cdf60-eafb-4eb2-8012-458431ebf2fc",
                 "resourcePath": "objects\\ob_boss01\\ob_boss01.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b647dc0e-0cbe-4906-90f7-e840ba170933",
+            "Value": {
+                "id": "664d6521-64fc-4fa7-9c38-3c6d98f3d202",
+                "resourcePath": "views\\b647dc0e-0cbe-4906-90f7-e840ba170933.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
