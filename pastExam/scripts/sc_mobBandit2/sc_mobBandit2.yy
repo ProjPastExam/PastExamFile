@@ -1,8 +1,8 @@
 {
-    "id": "5776a166-b941-4f8a-853a-58a866d453ea",
+    "id": "a0b99ae1-66e3-4b7a-bd00-14fd9a8d0c96",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "sc_mobArrcher_arrow",
+    "name": "sc_mobBandit2",
     "IsCompatibility": false,
     "IsDnD": false
 }

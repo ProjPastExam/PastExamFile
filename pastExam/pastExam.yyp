@@ -1074,7 +1074,7 @@
             "Key": "5776a166-b941-4f8a-853a-58a866d453ea",
             "Value": {
                 "id": "ef9d5417-2506-411a-a2d8-5875c0186b4e",
-                "resourcePath": "scripts\\sc_mobArrcher_arrow\\sc_mobArrcher_arrow.yy",
+                "resourcePath": "scripts\\sc_mobBandit_Axe\\sc_mobBandit_Axe.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1458,7 +1458,7 @@
             "Key": "7854b85d-b06f-436b-85fe-622c75111d4b",
             "Value": {
                 "id": "e8de9528-2996-41cf-9320-656c3ab7da77",
-                "resourcePath": "objects\\ob_mobBandit\\ob_mobBandit.yy",
+                "resourcePath": "objects\\ob_mobBandit2\\ob_mobBandit2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1498,7 +1498,7 @@
             "Key": "7aec4f07-24e7-4005-bcd1-ddffeb387566",
             "Value": {
                 "id": "67dc81cd-7e99-4871-b37f-17ec8610e94c",
-                "resourcePath": "scripts\\sc_mobTest\\sc_mobTest.yy",
+                "resourcePath": "scripts\\sc_mobBandit\\sc_mobBandit.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1738,7 +1738,7 @@
             "Key": "93ba1be1-1a1b-43d5-b963-c589f79e850a",
             "Value": {
                 "id": "d12ff821-4f7e-4261-830b-754c03de95fc",
-                "resourcePath": "objects\\ob_mobTest\\ob_mobTest.yy",
+                "resourcePath": "objects\\ob_mobBandit\\ob_mobBandit.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1906,7 +1906,7 @@
             "Key": "a0b99ae1-66e3-4b7a-bd00-14fd9a8d0c96",
             "Value": {
                 "id": "a0c6ba43-67a0-434d-ad16-e9a3f012fe80",
-                "resourcePath": "scripts\\sc_mobBandit\\sc_mobBandit.yy",
+                "resourcePath": "scripts\\sc_mobBandit2\\sc_mobBandit2.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2124,6 +2124,14 @@
                 "id": "c5c015d6-07b7-4c07-804f-b3ec88639840",
                 "resourcePath": "scripts\\uc_time\\uc_time.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bb607075-6f8e-443e-b5f8-677e41e34190",
+            "Value": {
+                "id": "6664c165-4728-4e14-83f9-f08e24812494",
+                "resourcePath": "sprites\\sprite52\\sprite52.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

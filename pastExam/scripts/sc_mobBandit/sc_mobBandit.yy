@@ -1,5 +1,5 @@
 {
-    "id": "a0b99ae1-66e3-4b7a-bd00-14fd9a8d0c96",
+    "id": "7aec4f07-24e7-4005-bcd1-ddffeb387566",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "sc_mobBandit",

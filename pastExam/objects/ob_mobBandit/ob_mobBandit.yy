@@ -1,28 +1,18 @@
 {
-    "id": "7854b85d-b06f-436b-85fe-622c75111d4b",
+    "id": "93ba1be1-1a1b-43d5-b963-c589f79e850a",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "ob_mobBandit",
     "eventList": [
         {
-            "id": "42cf21d4-7ad8-4d7a-994a-17533a4f0c68",
+            "id": "2504c215-1e32-426c-9cb3-d14e73ae3a82",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "7854b85d-b06f-436b-85fe-622c75111d4b"
-        },
-        {
-            "id": "48e22011-4250-4b83-82b3-989a9f18bbce",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "7854b85d-b06f-436b-85fe-622c75111d4b"
+            "m_owner": "93ba1be1-1a1b-43d5-b963-c589f79e850a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

@@ -15,16 +15,16 @@
 if( !global.isPause ) {
 	switch ( state ) {
 		case 0:
-			sc_mobWalk(sp_mobBanditWalk);
+			sc_mobWalk(sp_mobBanditWalk2);
 			break;
 		case 1:
-			sc_mobRun(sp_mobBanditRun);
+			sc_mobRun(sp_mobBanditRun2);
 			break;
 		case 2:
-			sc_mobAttack(sp_mobBanditAttack);
+			sc_mobAttack(sp_mobBanditAttack2);
 			break;
 		case 3:
-			sc_mobRunAway(sp_mobBanditRun);
+			sc_mobRunAway(sp_mobBanditRun2);
 			break;
 	}
 }

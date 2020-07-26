@@ -1,8 +1,8 @@
 {
-    "id": "7aec4f07-24e7-4005-bcd1-ddffeb387566",
+    "id": "5776a166-b941-4f8a-853a-58a866d453ea",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "sc_mobTest",
+    "name": "sc_mobBandit_Axe",
     "IsCompatibility": false,
     "IsDnD": false
 }
