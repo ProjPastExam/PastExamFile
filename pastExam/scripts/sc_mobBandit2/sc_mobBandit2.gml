@@ -21,7 +21,7 @@ if( !global.isPause ) {
 			sc_mobRun(sp_mobBanditRun2);
 			break;
 		case 2:
-			sc_mobAttack(sp_mobBanditAttack2);
+			sc_mobAttack2(sp_mobBanditAttack2);
 			break;
 		case 3:
 			sc_mobRunAway(sp_mobBanditRun2);

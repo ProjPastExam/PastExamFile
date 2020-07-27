@@ -5,3 +5,4 @@
 event_inherited();
 
 isFirstAttack = true;
+attackLength *= 3;
