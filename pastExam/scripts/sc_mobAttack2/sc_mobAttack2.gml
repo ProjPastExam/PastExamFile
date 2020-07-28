@@ -28,12 +28,9 @@ if ( !Attack_delay ) {
 // 공격 모션 스프라이트
 mobatkProcess += 1;
 if ( mobatkProcess < 8 )		{ image_index = 0; }
-else if ( mobatkProcess < 16 )	{ 
-	image_index = 1;
-	
-}
+else if ( mobatkProcess < 16 )	{ image_index = 1; }
 else if ( mobatkProcess < 32 )  { image_index = 2;
-	if(dir >= 0 && mobatkProcess == 30) {
+	if(dir >= 0 && mobatkProcess == 17) {
 		instance_create_depth( x-insx+15, y, depth-200, ob_mobAxe );
 		xSpeed = -sSpeed;
 	}

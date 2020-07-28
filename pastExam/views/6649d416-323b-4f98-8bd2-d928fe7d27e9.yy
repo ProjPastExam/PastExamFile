@@ -8,7 +8,8 @@
         "76633a29-08e4-458c-9e0a-e001fc5f4ebe",
         "a0b99ae1-66e3-4b7a-bd00-14fd9a8d0c96",
         "cc0b603b-c3dd-4815-aee3-78774e8abedc",
-        "5776a166-b941-4f8a-853a-58a866d453ea"
+        "5776a166-b941-4f8a-853a-58a866d453ea",
+        "673ba114-68fb-41cb-bb53-074b927f28ab"
     ],
     "filterType": "GMScript",
     "folderName": "Bandit",

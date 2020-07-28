@@ -1215,6 +1215,14 @@
             }
         },
         {
+            "Key": "673ba114-68fb-41cb-bb53-074b927f28ab",
+            "Value": {
+                "id": "a9cd5bcd-eaa3-4e27-8cf6-bd91e0236eda",
+                "resourcePath": "scripts\\sc_Axe\\sc_Axe.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "69860af8-b191-40e1-9c58-676db2fbc9f6",
             "Value": {
                 "id": "430fd3d9-03e3-4419-ae6b-4d7ed6e53663",
@@ -2858,6 +2866,7 @@
         "a0b99ae1-66e3-4b7a-bd00-14fd9a8d0c96",
         "cc0b603b-c3dd-4815-aee3-78774e8abedc",
         "5776a166-b941-4f8a-853a-58a866d453ea",
+        "673ba114-68fb-41cb-bb53-074b927f28ab",
         "d3638d4f-f3fb-46f2-bae4-7df0cdb1efef",
         "3bbf80fb-7be0-4ba2-a130-5959c20bbedd",
         "d1700a78-5b78-4dd4-8b48-27a77e4d1949",

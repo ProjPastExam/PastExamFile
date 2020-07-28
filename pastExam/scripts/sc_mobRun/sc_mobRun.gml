@@ -25,7 +25,7 @@ if( xSpeed > 0 ) {
 		}
 		// 플레이어가 사거리 내에 들어오면 공격
 		if ( TargetR >= 0 && TargetR <= attackLength ) { 
-			 if ( TargetB == 0 && !canAttack ) { canAttack = true;  }
+			 if ( TargetB <= 10 && TargetB >= -128 && !canAttack ) { canAttack = true;  }
 		}
 	}
 	// 플레이어가 몬스터의 왼쪽에 있고, 거리가 시야 미만일 때, 뒤로돌기
@@ -56,7 +56,7 @@ else if( xSpeed < 0 ) {
 		}
 		// 플레이어가 사거리 내에 들어오면 공격
 		if ( TargetL <= 0 && -TargetL <= attackLength ) { 
-			if ( TargetB <= 10 && !canAttack ) { canAttack = true; }
+			 if ( TargetB <= 10 && TargetB >= -128 && !canAttack ) { canAttack = true;  }
 		}
 	}
 	// 플레이어가 몬스터의 오른쪽에 있고, 거리가 시야 미만일 때, 뒤로 돌기
