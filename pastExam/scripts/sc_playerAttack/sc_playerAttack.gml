@@ -13,10 +13,11 @@ if( mobHP >= ob_player.playerDmg ) {
 }
 else if( mobHP < ob_player.playerDmg ) { 
 	mobHP = 0; 
+	state = 99;
 	AttackedCount++;
 }
 
-if ( mobHP == 0 ) { instance_destroy(self); }
+if ( mobHP <= 0 ) { state = 99; }
 
 isPeace = false;
 Attacked = false;

@@ -4,7 +4,7 @@ sprite_index = argument0;
 
 // 오른쪽으로 이동중일 때
 if( xSpeed > 0 ) {
-	if ( (right == 3) )		{ state=3; }
+	if ( (right == 3 && walkcnt == 5) )		{ state=3; walkcnt--; }
 	// 플레이어가 몬스터의 오른쪽에 있고, 거리가 시야 미만일 때
 	if( TargetX >= 0 && TargetX <= frontSight*2 ) {
 		// 이동속도 1.2배속
@@ -31,13 +31,13 @@ if( xSpeed > 0 ) {
 	// 플레이어가 몬스터의 왼쪽에 있고, 거리가 시야 미만일 때, 뒤로돌기
 	else if( TargetX < -32 /*&& -TargetX <= backSight*/ ) { xSpeed *= -1; }
 	// 거리에서 벗어나면 평화상태로 돌아감
-	else if( TargetX >= 0 && TargetX > frontSight*2 ) { isPeace = true; }
+	else if( TargetX >= 0  && TargetX > frontSight*2 ) { isPeace = true; }
 }
 // 왼쪽으로 이동중일 때
 else if( xSpeed < 0 ) {
-	if ( left == 3 )		{ state=3; }
+	if ( left == 3 && walkcnt == 5 )		{ state=3; walkcnt--; }
 	// 플레이어가 몬스터의 왼쪽에 있고, 거리가 시야 미만일 때
-	if( TargetX <= 0 && -TargetX <= frontSight*2 ) {
+	if( TargetX < 16 && -TargetX <= frontSight*2 ) {
 		// 이동속도 1.2배속
 		var _targetX = sign(TargetX) * -xSpeed * runSpeed;
 
@@ -60,10 +60,13 @@ else if( xSpeed < 0 ) {
 		}
 	}
 	// 플레이어가 몬스터의 오른쪽에 있고, 거리가 시야 미만일 때, 뒤로 돌기
-	else if( TargetX > 32 /*&& TargetX <= backSight*/ ) { xSpeed *= -1; }
+	else if( TargetX > 16 /*&& TargetX <= backSight*/ ) { xSpeed *= -1; }
 	// 거리에서 벗어나면 평화상태로 돌아감
 	else if ( TargetX < 0 && -TargetX > frontSight*2 ) { isPeace = true; }
 }
+if ( walkcnt <= 4 ) { walkcnt--; }
+if ( !walkcnt ) { walkcnt = 5; }
 
-if ( canAttack /*&& Attack_delay == Attack_delay_MAX*/ ) { state = 2; }
-if ( isPeace ) { state = 0; }
+// state 변경
+if ( canAttack ) { state = 2; }	// 공격
+if ( isPeace ) { state = 0; }	// 평화상태

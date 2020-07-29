@@ -3,7 +3,7 @@
 // 작성자 : 유연휘
 
 ///////////////////////////////
-/////	인간형 몬스터 AI	  /////
+/////	몬스터 Parent	  /////
 ///////////////////////////////
 
 //타일 충돌 감지를 위한 변수
@@ -64,13 +64,11 @@ if ( isFirstAttack ) { isPeace = false; }
 ///////////////////////////////////
 
 if(!global.isPause) {
-	// Attack_delay마다 한 번씩 공격
-
 	// 5번 맞으면 스턴
 	if( AttackedCount != 0 && AttackedCount % 5 == 0 ) { isStern = true; }
 
 	// 스턴상태
-	if ( isStern ) { sc_stern(); }
+//	if ( isStern ) { sc_stern(); }
 
 	// 넉백 효과
 	if ( isPushedBack ) { sc_pushedBack(0); }

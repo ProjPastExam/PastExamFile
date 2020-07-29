@@ -1,7 +1,8 @@
-sprite_index = argument0;
+sprite_index = argument0;		// 스프라이트 이름
+var runTime = 30*argument1;		// 1: 0.5초
 
 
-if( runAwaycnt == 60 ) {
+if( runAwaycnt == runTime ) {
 	xSpeed *= -runSpeed;
 }
 
@@ -11,6 +12,6 @@ else { x += xSpeed; }
 
 if( runAwaycnt == 0 ) { 
 	state=1; 
-	runAwaycnt=60;
+	runAwaycnt = runTime; 
 	xSpeed /= runSpeed;
 }

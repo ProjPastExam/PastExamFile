@@ -1,3 +1,5 @@
+sprite_index = argument0;
+
 isPeace = NULL; 
 canAttack = false;
 //	image_index = sp_mobStern;

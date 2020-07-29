@@ -3,10 +3,10 @@
 sprite_index = argument0;
 
 arrowxSpeed = 8;
-arrowySpeed = -3;
+arrowySpeed = -2.3;
 grav = 0.12;
 
-disappear = 60;
+disappear = room_speed;
 spriteProcess = 0;
 
 

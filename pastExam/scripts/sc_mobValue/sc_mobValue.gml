@@ -9,20 +9,20 @@
 
 xSpeed	= 3;				// 몬스터 스피드
 sSpeed	= xSpeed;
-runSpeed = 1.6;
+runSpeed = 1.7;
 
 ySpeed	= 0;				// 몬스터 점프량
 grav	= 0.12;
 
 mobHP = 100;
 mobHP_MAX = mobHP;
-frontSight		= 384;		// 앞쪽 시야(6칸)
+frontSight		= 320;		// 앞쪽 시야(6칸)
 backSight		= frontSight/2;		// 뒤쪽 시야(3칸)
 maxTrack		= frontSight*2;		// 따라가는 최대 거리
 runHP			= 0;		// 도망치는 HP(퍼센트)
 adversarial		= 0;		// 적대도
 mob_dmg			= 10;
-attackLength	= 64 + abs(ob_player.bbox_left - ob_player.x);		// 몬스터 공격거리
+attackLength	= 60 + abs(ob_player.bbox_left - ob_player.x);		// 몬스터 공격거리
 Attack_delay	= room_speed; // room_speed = 60 (1초)
 Attack_delay_MAX	= Attack_delay;
 Attacked_delay	= 12;
@@ -32,6 +32,7 @@ mobatkProcess	= 0;
 dir				= 0;		// 몬스터가 보고 있는 방향 ( 1 왼쪽 )
 state			= 0;
 runAwaycnt		= 60;
+walkcnt			= 5;
 
 
 Attacked		= false;	// 공격 당하는 중(슈퍼 아머 등에 사용될 변수)
@@ -42,7 +43,7 @@ isStern			= false;	// 스턴상태
 isPushedBack	= false;	// 넉백상태
 
 
-
+// 몬스터 체력바
 healthbar_width		= sprite_get_width(sp_healthbar)*self.mobHP_MAX/80;
 healthbar_height	= sprite_get_height(sp_healthbar);
 healthbar_x			= self.x;

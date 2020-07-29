@@ -24,7 +24,10 @@ if( !global.isPause ) {
 			sc_mobAttack(sp_mobBanditAttack);
 			break;
 		case 3:
-			sc_mobRunAway(sp_mobBanditRun);
+			sc_mobRunAway(sp_mobBanditRun, 1.4);
+			break;
+		case 99:
+			instance_destroy(self);
 			break;
 	}
 }
