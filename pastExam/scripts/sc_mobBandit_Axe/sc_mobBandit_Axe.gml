@@ -11,15 +11,22 @@ top		= tilemap_get_at_pixel(tileId, x, bbox_top);
 left	= tilemap_get_at_pixel(tileId, bbox_left, bbox_bottom - 16 );
 right	= tilemap_get_at_pixel(tileId, bbox_right, bbox_bottom - 16 );
 
-if( left == 3 || right == 3 || top == 3) {
-	if( left == 3 )	{ image_index = 0; }
-	if( right == 3 ) { 
+if( left == 3 || right == 3 || top == 3 || bottom1 == 3 ) {
+	if( left == 3 )	{ 
 		image_index = 0; 
+	}
+	if( right == 3 ) { 
+		image_index = 0;
 		if( image_xscale > 0 ) { image_xscale *= -1; }
 	}
 	if( top == 3 ) { 
 		image_index = 3;
 		if( image_xscale > 0 ) { image_xscale *= -1; }
+	}
+	if ( bottom1 == 3 ) {
+		image_index = 3;
+		if( !disappear ) { instance_destroy(self); }
+		if ( bbox_bottom % 64 > 0 ) y -= bbox_bottom % 64;
 	}
 	arrowxSpeed = 0;
 	arrowySpeed = 0;
@@ -28,7 +35,6 @@ if( left == 3 || right == 3 || top == 3) {
 }
 else {
 	arrowxSpeed = 8;
-	
 	// 도끼 스프라이트
 	spriteProcess += 1;
 /*	if ( spriteProcess < 2 )		{ image_index = 0; }
@@ -61,16 +67,6 @@ else {
 		sc_playerHit(15, 2);
 		instance_destroy(self);
 	}
-}
-
-//3단계 타일과 도끼 바닥의 충돌
-if ( bottom1 == 3 ) {
-	image_index = 3;
-	arrowySpeed = 0;
-	arrowxSpeed = 0;
-	disappear--;
-	if( !disappear ) { instance_destroy(self); }
-	if ( bbox_bottom % 64 > 0 ) y -= bbox_bottom % 64;
 }
 
 // x축 이동 오른쪽 방향
