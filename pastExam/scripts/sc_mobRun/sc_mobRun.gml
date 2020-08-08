@@ -20,7 +20,7 @@ if( xSpeed > 0 ) {
 		// 플레이어가 몬스터의 위에 있으면, 점프
 		if ( TargetB < -16 && TargetB  > -256) {
 			if ( bottom1 == 2 && bottom2 != 2  && ySpeed > 0 || bottom1 == 3 ) {
-				ySpeed = -5;
+			//	ySpeed = -5;
 			}
 		}
 		// 플레이어가 사거리 내에 들어오면 공격
@@ -51,7 +51,7 @@ else if( xSpeed < 0 ) {
 		// 플레이어가 몬스터보다 위에 있으면, 점프
 		if ( TargetB < -16 && TargetB  > -256) {
 			if ( bottom1 == 2 && bottom2 != 2  && ySpeed > 0 || bottom1 == 3 ) {
-				ySpeed = -5;
+			//	ySpeed = -5;
 			}
 		}
 		// 플레이어가 사거리 내에 들어오면 공격

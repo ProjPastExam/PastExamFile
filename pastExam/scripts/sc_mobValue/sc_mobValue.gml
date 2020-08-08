@@ -7,7 +7,7 @@
 /////////// 기본 근거리 몬스터 세팅 /////////////////
 //////////////////////////////////////////////////
 
-xSpeed	= 3;				// 몬스터 스피드
+xSpeed	= choose(2.8, 3, 3.2);				// 몬스터 스피드
 sSpeed	= xSpeed;
 runSpeed = 1.7;
 
@@ -22,7 +22,8 @@ maxTrack		= frontSight*2;		// 따라가는 최대 거리
 runHP			= 0;		// 도망치는 HP(퍼센트)
 adversarial		= 0;		// 적대도
 mob_dmg			= 10;
-attackLength	= 60 + abs(ob_player.bbox_left - ob_player.x);		// 몬스터 공격거리
+len				= abs(ob_player.bbox_left - ob_player.x);
+attackLength	= choose(50,60,70) + len;		// 몬스터 공격거리
 Attack_delay	= room_speed; // room_speed = 60 (1초)
 Attack_delay_MAX	= Attack_delay;
 Attacked_delay	= 12;
