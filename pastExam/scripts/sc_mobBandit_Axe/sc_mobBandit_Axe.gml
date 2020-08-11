@@ -82,4 +82,3 @@ else if( dir < 0 ) {
 if ( arrowySpeed > ob_game.gravmax ) arrowySpeed = ob_game.gravmax;
 y += arrowySpeed;
 arrowySpeed += grav;
-

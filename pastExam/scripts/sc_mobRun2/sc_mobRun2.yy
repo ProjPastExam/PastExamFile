@@ -1,8 +1,8 @@
 {
-    "id": "6fed6a51-24d8-42a0-aea3-9cb1e781ea58",
+    "id": "e7e2db53-482a-4f47-a32b-79607e162b92",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "sc_boss01main",
+    "name": "sc_mobRun2",
     "IsCompatibility": false,
     "IsDnD": false
 }

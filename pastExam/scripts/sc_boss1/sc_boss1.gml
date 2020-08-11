@@ -1,9 +1,7 @@
-
-// State 변수사용 case로 상태 분리
-// 0 평화상태
-// 1 전쟁상태
-// 2 공격모션
-// 3 뒤로도망
+// 0 플레이어 방향으로 걷기
+// 1 플레이어 방향으로 달리기
+// 2 공격
+// 3 플레이어 반대 방향으로 달리기
 // 4 스턴
 // 5 넉백
 // 99 사망
@@ -15,16 +13,16 @@
 if( !global.isPause ) {
 	switch ( state ) {
 		case 0:
-			sc_mobWalk(sp_mobBanditWalk2);
+			sc_bossWalk(sp_mobBanditWalk);
 			break;
 		case 1:
-			sc_mobRun2(sp_mobBanditRun2);
+			sc_bossRun(sp_mobBanditRun);
 			break;
 		case 2:
-			sc_mobAttack2(sp_mobBanditAttack2);
+			sc_mobAttack(sp_mobBanditAttack);
 			break;
 		case 3:
-			sc_mobRunAway(sp_mobBanditRun2, 1.8);
+			sc_bossRunAway(sp_mobBanditRun, 1.4);
 			break;
 		case 99:
 			instance_destroy(self);

@@ -1,16 +1,14 @@
 // argument0 : 스프라이트
 
 sprite_index = argument0;
+TargetB = bbox_bottom - ob_player.pbottom + 100;
 
-TargetB = bbox_bottom - ob_player.pbottom;
+if( TargetB > 150 ) { arrowySpeed = -7; arrowxSpeed = 3; }
+else if( TargetB > 80 ) { arrowySpeed = -5; arrowxSpeed = 4.5; }
+else if( TargetB > -10 ) { arrowySpeed = -3; arrowxSpeed = 7; }
+else { arrowySpeed = -2.3; arrowxSpeed = 8; }
 
-arrowxSpeed = choose(7.8, 8, 8.2);
-if( TargetB > 200 ) { arrowySpeed = -8; }
-else if( TargetB > 60 ) { arrowySpeed = 5; }
-else if( TargetB > 60 ) { arrowySpeed = -3.8; }
-else { arrowySpeed = -2.3; }
-
-grav = 0.12;
+grav = 0.2;
 
 disappear = room_speed;
 spriteProcess = 0;
@@ -20,3 +18,6 @@ spriteProcess = 0;
 TargetX = ob_player.x - x;
 if ( TargetX < 0 ) { dir = 1; }
 else { dir = -1; }
+
+
+draw_text(x, y-100, string(TargetB));
