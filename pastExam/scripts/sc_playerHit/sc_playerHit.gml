@@ -8,13 +8,38 @@ var impact	= argument1;	//플레이어가 받는 경직도
 
 if (ob_player.undie <= 0 ){
 	global.hp -= damage;
-	ob_player.undie = 60;
+
+	
+	if (impact == 0) {
+		ob_player.undie = 45;
+		uc_shake(2,0.5);
+	}
 
 	if (impact == 1) {
+		ob_player.undie = 60;
 		ob_player.sprite_index = sp_playerHit1Sword;
 		ob_player.hitAfter = 20;
 		ob_player.xSpeed += -ob_player.dir*18;
 		ob_player.canMove = 2;
 		uc_shake(5,0.5);
+	}
+	
+	if (impact == 2) {
+		ob_player.undie = 70;
+		ob_player.sprite_index = sp_playerHit2Sword;
+		ob_player.hitAfter = 30;
+		ob_player.xSpeed += -ob_player.dir*30;
+		ob_player.canMove = 2;
+		uc_shake(8,0.5);
+	}
+	
+		if (impact == 3) {
+		ob_player.undie = 80;
+		image_index = 0;
+		ob_player.sprite_index = sp_playerHit3Sword;
+		ob_player.hitAfter = 40;
+		ob_player.xSpeed += -ob_player.dir*40;
+		ob_player.canMove = 2;
+		uc_shake(10,0.5);
 	}
 }

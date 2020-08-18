@@ -815,6 +815,14 @@
             }
         },
         {
+            "Key": "4372ba32-4b36-4aba-920e-625b9dc99a56",
+            "Value": {
+                "id": "3823a64c-6028-4187-8083-0e7b03409403",
+                "resourcePath": "sprites\\sp_playerHit2Sword\\sp_playerHit2Sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "447aa2b5-6c19-4286-8bb7-34d374f4374c",
             "Value": {
                 "id": "ebdfeaba-cfd5-4aa2-bc7f-fc9421725848",
@@ -972,6 +980,14 @@
                 "id": "7b17050f-59f1-4927-ab00-9c4f7de5780e",
                 "resourcePath": "scripts\\uc_set_window_size\\uc_set_window_size.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4c4a1a80-ba1a-4f92-951c-c8028eb927bf",
+            "Value": {
+                "id": "5375a8f1-2730-406a-9a67-58d1fc047c76",
+                "resourcePath": "sprites\\sp_playerHit3Sword\\sp_playerHit3Sword.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

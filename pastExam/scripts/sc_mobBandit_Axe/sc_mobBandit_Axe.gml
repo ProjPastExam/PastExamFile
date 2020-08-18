@@ -64,7 +64,7 @@ else {
 	if( spriteProcess >= 11 ) { spriteProcess = 0; }
 	
 	if ( place_meeting(x, y, ob_player) ) {
-		sc_playerHit(15, 2);
+		sc_playerHit(15, 1);
 		instance_destroy(self);
 	}
 }
