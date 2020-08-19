@@ -1,8 +1,12 @@
 {
-    "id": "98148ed5-834e-416f-acae-ff0362973f91",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_set_target_y",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Movement and Behaviour",
+    "path": "folders/Scripts/Ultimate Camera/Movement and Behaviour.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_set_target_y",
+  "tags": [],
+  "resourceType": "GMScript",
 }

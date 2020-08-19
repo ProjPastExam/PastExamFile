@@ -1,202 +1,102 @@
 {
-    "id": "94b7b565-1f7d-4d07-be0a-a2892b706104",
-    "modelName": "GMSprite",
-    "mvc": "1.12",
-    "name": "sp_playerRunSword",
-    "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 180,
-    "bbox_left": 100,
-    "bbox_right": 140,
-    "bbox_top": 70,
-    "bboxmode": 2,
-    "colkind": 1,
-    "coltolerance": 0,
-    "edgeFiltering": false,
-    "frames": [
-        {
-            "id": "be74e26d-f860-4244-b8fb-19456190e42d",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "94b7b565-1f7d-4d07-be0a-a2892b706104",
-            "compositeImage": {
-                "id": "94fade12-c961-49c0-98aa-87814900ad6b",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "be74e26d-f860-4244-b8fb-19456190e42d",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "01e8f307-f2fa-4d69-bb85-901d133acc00",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "be74e26d-f860-4244-b8fb-19456190e42d",
-                    "LayerId": "a0af6a5e-043a-401f-b12a-4a822a0dff00"
-                }
-            ]
-        },
-        {
-            "id": "82545b44-eeb8-45f0-93d9-1f610fe602b1",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "94b7b565-1f7d-4d07-be0a-a2892b706104",
-            "compositeImage": {
-                "id": "abfea9ee-b06e-4812-9643-0abad105fba4",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "82545b44-eeb8-45f0-93d9-1f610fe602b1",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "45649d66-5377-4a8e-a989-aa30466233ea",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "82545b44-eeb8-45f0-93d9-1f610fe602b1",
-                    "LayerId": "a0af6a5e-043a-401f-b12a-4a822a0dff00"
-                }
-            ]
-        },
-        {
-            "id": "6bac088a-34e3-42bb-9077-a28939b8db7f",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "94b7b565-1f7d-4d07-be0a-a2892b706104",
-            "compositeImage": {
-                "id": "4529f357-0bcf-4fbb-b7ff-a0e53ad8b77a",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "6bac088a-34e3-42bb-9077-a28939b8db7f",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "d4538d66-e638-4fba-be25-abb4bf77dc34",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "6bac088a-34e3-42bb-9077-a28939b8db7f",
-                    "LayerId": "a0af6a5e-043a-401f-b12a-4a822a0dff00"
-                }
-            ]
-        },
-        {
-            "id": "bbd97a8d-91b1-4799-9a3a-4acbfe4a425a",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "94b7b565-1f7d-4d07-be0a-a2892b706104",
-            "compositeImage": {
-                "id": "20879655-fd73-4760-9809-42f119eb4361",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "bbd97a8d-91b1-4799-9a3a-4acbfe4a425a",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "33479268-9a64-4532-bb9b-7e4e429b8a15",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "bbd97a8d-91b1-4799-9a3a-4acbfe4a425a",
-                    "LayerId": "a0af6a5e-043a-401f-b12a-4a822a0dff00"
-                }
-            ]
-        },
-        {
-            "id": "a60744cb-f306-4203-a7a0-f82d602cca02",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "94b7b565-1f7d-4d07-be0a-a2892b706104",
-            "compositeImage": {
-                "id": "72794429-a4c8-4591-9b5f-5ff44456ebe5",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "a60744cb-f306-4203-a7a0-f82d602cca02",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "f55db226-fbda-4ea1-8500-8f25229aabb3",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "a60744cb-f306-4203-a7a0-f82d602cca02",
-                    "LayerId": "a0af6a5e-043a-401f-b12a-4a822a0dff00"
-                }
-            ]
-        },
-        {
-            "id": "d8e718f5-4b23-40f0-a97e-f71447b5d0be",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "94b7b565-1f7d-4d07-be0a-a2892b706104",
-            "compositeImage": {
-                "id": "e69029be-2eb0-423b-997d-747c880a61c3",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "d8e718f5-4b23-40f0-a97e-f71447b5d0be",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "03f8834c-9a8f-48d0-aa5d-8d1ceb238e46",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "d8e718f5-4b23-40f0-a97e-f71447b5d0be",
-                    "LayerId": "a0af6a5e-043a-401f-b12a-4a822a0dff00"
-                }
-            ]
-        },
-        {
-            "id": "679b37fd-d55d-4b4f-b879-51d7fe0c4135",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "94b7b565-1f7d-4d07-be0a-a2892b706104",
-            "compositeImage": {
-                "id": "bc6d1da3-1e6c-4183-beb9-4a3d3352c4ba",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "679b37fd-d55d-4b4f-b879-51d7fe0c4135",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "b95fa906-d361-4522-9b8e-320666e7ff49",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "679b37fd-d55d-4b4f-b879-51d7fe0c4135",
-                    "LayerId": "a0af6a5e-043a-401f-b12a-4a822a0dff00"
-                }
-            ]
-        }
-    ],
-    "gridX": 0,
-    "gridY": 0,
-    "height": 200,
-    "layers": [
-        {
-            "id": "a0af6a5e-043a-401f-b12a-4a822a0dff00",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "94b7b565-1f7d-4d07-be0a-a2892b706104",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "default",
-            "opacity": 100,
-            "visible": true
-        }
-    ],
-    "origin": 4,
-    "originLocked": true,
-    "playbackSpeed": 15,
+  "bboxMode": 2,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 4,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 100,
+  "bbox_right": 140,
+  "bbox_top": 70,
+  "bbox_bottom": 180,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 250,
+  "height": 200,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"be74e26d-f860-4244-b8fb-19456190e42d","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"be74e26d-f860-4244-b8fb-19456190e42d","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":{"name":"a0af6a5e-043a-401f-b12a-4a822a0dff00","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_playerRunSword","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"be74e26d-f860-4244-b8fb-19456190e42d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"82545b44-eeb8-45f0-93d9-1f610fe602b1","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"82545b44-eeb8-45f0-93d9-1f610fe602b1","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":{"name":"a0af6a5e-043a-401f-b12a-4a822a0dff00","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_playerRunSword","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"82545b44-eeb8-45f0-93d9-1f610fe602b1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6bac088a-34e3-42bb-9077-a28939b8db7f","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6bac088a-34e3-42bb-9077-a28939b8db7f","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":{"name":"a0af6a5e-043a-401f-b12a-4a822a0dff00","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_playerRunSword","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"6bac088a-34e3-42bb-9077-a28939b8db7f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bbd97a8d-91b1-4799-9a3a-4acbfe4a425a","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bbd97a8d-91b1-4799-9a3a-4acbfe4a425a","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":{"name":"a0af6a5e-043a-401f-b12a-4a822a0dff00","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_playerRunSword","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"bbd97a8d-91b1-4799-9a3a-4acbfe4a425a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a60744cb-f306-4203-a7a0-f82d602cca02","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a60744cb-f306-4203-a7a0-f82d602cca02","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":{"name":"a0af6a5e-043a-401f-b12a-4a822a0dff00","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_playerRunSword","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"a60744cb-f306-4203-a7a0-f82d602cca02","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d8e718f5-4b23-40f0-a97e-f71447b5d0be","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d8e718f5-4b23-40f0-a97e-f71447b5d0be","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":{"name":"a0af6a5e-043a-401f-b12a-4a822a0dff00","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_playerRunSword","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"d8e718f5-4b23-40f0-a97e-f71447b5d0be","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"679b37fd-d55d-4b4f-b879-51d7fe0c4135","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"679b37fd-d55d-4b4f-b879-51d7fe0c4135","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"LayerId":{"name":"a0af6a5e-043a-401f-b12a-4a822a0dff00","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_playerRunSword","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","name":"679b37fd-d55d-4b4f-b879-51d7fe0c4135","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"sp_playerRunSword","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
-    "premultiplyAlpha": false,
-    "sepmasks": false,
-    "swatchColours": null,
-    "swfPrecision": 2.525,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
-    "type": 0,
-    "width": 250,
-    "xorig": 125,
-    "yorig": 100
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 7.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"5857ebfa-11d4-4510-93c7-70c002d93b1f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"be74e26d-f860-4244-b8fb-19456190e42d","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7910450e-69a4-4920-9a03-d20ccc5e817a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"82545b44-eeb8-45f0-93d9-1f610fe602b1","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"039c35ec-386e-4f35-afea-4e927de1dca1","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6bac088a-34e3-42bb-9077-a28939b8db7f","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b0a54ad7-3dc2-4cca-83f4-a29dce43450f","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bbd97a8d-91b1-4799-9a3a-4acbfe4a425a","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f76156dd-b96b-4270-8794-92e9b1ac5214","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a60744cb-f306-4203-a7a0-f82d602cca02","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ae74710a-7814-4120-912e-195a2c585e5d","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d8e718f5-4b23-40f0-a97e-f71447b5d0be","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"36c2c654-1930-44d2-ad08-6c3e2cf8623f","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"679b37fd-d55d-4b4f-b879-51d7fe0c4135","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
+    "visibleRange": {"x":0.0,"y":0.0,},
+    "lockOrigin": true,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1920,
+    "backdropHeight": 1080,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 125,
+    "yorigin": 100,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"sp_playerRunSword","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},
+    "resourceVersion": "1.3",
+    "name": "",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a0af6a5e-043a-401f-b12a-4a822a0dff00","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "parent": {
+    "name": "pl_sword",
+    "path": "folders/Sprites/sp_player/pl_sword.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sp_playerRunSword",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,8 +1,12 @@
 {
-    "id": "3fee8412-8402-4670-b0fc-586047190bb4",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "sc_mobArcher",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "mob",
+    "path": "folders/Scripts/mob.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sc_mobArcher",
+  "tags": [],
+  "resourceType": "GMScript",
 }

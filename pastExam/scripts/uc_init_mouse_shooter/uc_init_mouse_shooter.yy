@@ -1,8 +1,12 @@
 {
-    "id": "dc57993c-30f8-4e6d-b07c-351dd64df222",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_init_mouse_shooter",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Mouse Shooter",
+    "path": "folders/Scripts/Ultimate Camera/Camera Modes/Mouse Shooter.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_init_mouse_shooter",
+  "tags": [],
+  "resourceType": "GMScript",
 }

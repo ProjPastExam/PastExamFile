@@ -1,8 +1,12 @@
 {
-    "id": "baf402e9-a60e-4469-a0af-5120b3ddd50f",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_time",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "System",
+    "path": "folders/Scripts/Ultimate Camera/System.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_time",
+  "tags": [],
+  "resourceType": "GMScript",
 }

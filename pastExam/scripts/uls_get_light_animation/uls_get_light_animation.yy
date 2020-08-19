@@ -1,8 +1,12 @@
 {
-    "id": "27d6a400-2096-4c07-92d5-cbc6c9e6fc50",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uls_get_light_animation",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Get Light",
+    "path": "folders/Scripts/Ultimate Light System/Scripts/Get Light.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uls_get_light_animation",
+  "tags": [],
+  "resourceType": "GMScript",
 }

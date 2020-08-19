@@ -1,8 +1,12 @@
 {
-    "id": "8fcb0a94-a663-4495-83ca-25370fca8b9f",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "sc_bossStep",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "BossParent",
+    "path": "folders/Scripts/boss/BossParent.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sc_bossStep",
+  "tags": [],
+  "resourceType": "GMScript",
 }

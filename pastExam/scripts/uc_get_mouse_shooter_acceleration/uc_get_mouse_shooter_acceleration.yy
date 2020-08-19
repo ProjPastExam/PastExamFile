@@ -1,8 +1,12 @@
 {
-    "id": "dbbb910e-80b7-410c-b617-8101d51f871b",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_get_mouse_shooter_acceleration",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Getters",
+    "path": "folders/Scripts/Ultimate Camera/Camera Modes/Mouse Shooter/Getters.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_get_mouse_shooter_acceleration",
+  "tags": [],
+  "resourceType": "GMScript",
 }

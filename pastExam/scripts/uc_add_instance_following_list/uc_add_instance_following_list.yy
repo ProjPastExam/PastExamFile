@@ -1,8 +1,12 @@
 {
-    "id": "c76e558a-9072-420d-8bec-85862a00c347",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_add_instance_following_list",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Object Following",
+    "path": "folders/Scripts/Ultimate Camera/Camera Modes/Object Following.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_add_instance_following_list",
+  "tags": [],
+  "resourceType": "GMScript",
 }

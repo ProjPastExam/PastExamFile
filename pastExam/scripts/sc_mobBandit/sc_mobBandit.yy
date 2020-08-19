@@ -1,8 +1,12 @@
 {
-    "id": "7aec4f07-24e7-4005-bcd1-ddffeb387566",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "sc_mobBandit",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Bandit",
+    "path": "folders/Scripts/mob/Bandit.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sc_mobBandit",
+  "tags": [],
+  "resourceType": "GMScript",
 }

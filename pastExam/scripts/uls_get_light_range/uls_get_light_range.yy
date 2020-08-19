@@ -1,8 +1,12 @@
 {
-    "id": "9a59a926-0c5f-47c6-9dbe-278e8e91ec86",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uls_get_light_range",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Get Light",
+    "path": "folders/Scripts/Ultimate Light System/Scripts/Get Light.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uls_get_light_range",
+  "tags": [],
+  "resourceType": "GMScript",
 }

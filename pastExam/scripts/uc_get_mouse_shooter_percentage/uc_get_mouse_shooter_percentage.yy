@@ -1,8 +1,12 @@
 {
-    "id": "18f72f39-e7b7-40b0-b9d3-ce7d00112d9e",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_get_mouse_shooter_percentage",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Getters",
+    "path": "folders/Scripts/Ultimate Camera/Camera Modes/Mouse Shooter/Getters.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_get_mouse_shooter_percentage",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -1,8 +1,12 @@
 {
-    "id": "fb3597f4-4b88-4237-b705-a7b7fb205790",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_set_mode",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Mode Management",
+    "path": "folders/Scripts/Ultimate Camera/Camera Modes/Mode Management.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_set_mode",
+  "tags": [],
+  "resourceType": "GMScript",
 }

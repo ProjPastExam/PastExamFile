@@ -1,7 +1,11 @@
 {
-    "id": "4bb7562f-bcac-44e7-b35a-1b20825cbd0a",
-    "modelName": "GMShader",
-    "mvc": "1.0",
-    "name": "sh_gaussian_blur_h",
-    "type": 1
+  "type": 1,
+  "parent": {
+    "name": "GaussianBlur",
+    "path": "folders/Shaders/UltimateLightSystem/GaussianBlur.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sh_gaussian_blur_h",
+  "tags": [],
+  "resourceType": "GMShader",
 }

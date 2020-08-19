@@ -1,8 +1,12 @@
 {
-    "id": "88fd2f12-3a21-418d-8334-6a3d1560534b",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "sc_playerGUI",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "player",
+    "path": "folders/Scripts/player.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sc_playerGUI",
+  "tags": [],
+  "resourceType": "GMScript",
 }

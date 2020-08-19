@@ -1,8 +1,12 @@
 {
-    "id": "6b02f2bd-f50a-4e1f-8947-e0db29884bc1",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_enable_room_bounds_enabled",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Room bounds",
+    "path": "folders/Scripts/Ultimate Camera/Camera General Settings/Room bounds.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_enable_room_bounds_enabled",
+  "tags": [],
+  "resourceType": "GMScript",
 }

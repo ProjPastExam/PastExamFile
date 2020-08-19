@@ -1,47 +1,38 @@
 {
-    "id": "97c278f7-efb9-4dd2-b1ef-85530dda808d",
-    "modelName": "GMObject",
-    "mvc": "1.0",
-    "name": "obj_light_torch",
-    "eventList": [
-        {
-            "id": "b3049206-d8aa-40c9-a3f0-c395b492e444",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "97c278f7-efb9-4dd2-b1ef-85530dda808d"
-        }
-    ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": [
-        {
-            "id": "00c6ee6a-0d5c-4149-9880-b2fe26930198",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "554c7ae1-ce9e-4dcd-b03c-3fc06f694594",
-            "propertyId": "df211029-cb1d-4342-8e0d-0e1c3702c82b",
-            "value": "200"
-        }
-    ],
-    "parentObjectId": "554c7ae1-ce9e-4dcd-b03c-3fc06f694594",
-    "persistent": false,
-    "physicsAngularDamping": 0.1,
-    "physicsDensity": 0.5,
-    "physicsFriction": 0.2,
-    "physicsGroup": 0,
-    "physicsKinematic": false,
-    "physicsLinearDamping": 0.1,
-    "physicsObject": false,
-    "physicsRestitution": 0.1,
-    "physicsSensor": false,
-    "physicsShape": 1,
-    "physicsShapePoints": null,
-    "physicsStartAwake": true,
-    "properties": null,
-    "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+  "spriteId": null,
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_uls_light",
+    "path": "objects/obj_uls_light/obj_uls_light.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 0,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_light_torch","path":"objects/obj_light_torch/obj_light_torch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"light_initial_radius","path":"objects/obj_uls_light/obj_uls_light.yy",},"objectId":{"name":"obj_uls_light","path":"objects/obj_uls_light/obj_uls_light.yy",},"value":"200","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "Light Object",
+    "path": "folders/Objects/Light Object.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_light_torch",
+  "tags": [],
+  "resourceType": "GMObject",
 }

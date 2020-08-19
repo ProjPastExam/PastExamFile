@@ -1,224 +1,106 @@
 {
-    "id": "6116694a-1ee8-48d8-b052-0f9e95c64469",
-    "modelName": "GMSprite",
-    "mvc": "1.12",
-    "name": "sp_mobBanditAttack2",
-    "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 191,
-    "bbox_left": 92,
-    "bbox_right": 163,
-    "bbox_top": 69,
-    "bboxmode": 2,
-    "colkind": 1,
-    "coltolerance": 0,
-    "edgeFiltering": false,
-    "frames": [
-        {
-            "id": "9e3b6bc5-bc10-4259-90a3-4a68d83c2856",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "6116694a-1ee8-48d8-b052-0f9e95c64469",
-            "compositeImage": {
-                "id": "c7064eda-7548-4667-acce-b7a630e8127e",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "9e3b6bc5-bc10-4259-90a3-4a68d83c2856",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "58e8f9a2-d8a4-4736-9908-c7232c7e376d",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "9e3b6bc5-bc10-4259-90a3-4a68d83c2856",
-                    "LayerId": "755d4a79-a355-4db5-bf0d-639bca753690"
-                }
-            ]
-        },
-        {
-            "id": "3f1d7531-2a80-4405-bc0c-14044eeebf56",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "6116694a-1ee8-48d8-b052-0f9e95c64469",
-            "compositeImage": {
-                "id": "6eb67a11-76b3-4aa1-88db-a4b08622656e",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "3f1d7531-2a80-4405-bc0c-14044eeebf56",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "92d3676f-4d1d-48dd-a772-667c754c34dc",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "3f1d7531-2a80-4405-bc0c-14044eeebf56",
-                    "LayerId": "755d4a79-a355-4db5-bf0d-639bca753690"
-                }
-            ]
-        },
-        {
-            "id": "ac2c9745-f187-41af-9104-189c76577a00",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "6116694a-1ee8-48d8-b052-0f9e95c64469",
-            "compositeImage": {
-                "id": "054be9da-4925-40e3-a1ae-a4e761b8c60c",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "ac2c9745-f187-41af-9104-189c76577a00",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "6336f8d9-3750-4279-9586-2fc4a4a2983e",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "ac2c9745-f187-41af-9104-189c76577a00",
-                    "LayerId": "755d4a79-a355-4db5-bf0d-639bca753690"
-                }
-            ]
-        },
-        {
-            "id": "76fdefe1-e37f-4c49-a9f7-7382959f43fb",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "6116694a-1ee8-48d8-b052-0f9e95c64469",
-            "compositeImage": {
-                "id": "03f3d1b8-6fdc-4ba2-bd55-5dab7686b5a5",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "76fdefe1-e37f-4c49-a9f7-7382959f43fb",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "8b0da6bd-b131-4f9f-98ed-f6b916fa7e5d",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "76fdefe1-e37f-4c49-a9f7-7382959f43fb",
-                    "LayerId": "755d4a79-a355-4db5-bf0d-639bca753690"
-                }
-            ]
-        },
-        {
-            "id": "7fe8ab01-87b9-4cf0-9f00-c4a21ee4fb0b",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "6116694a-1ee8-48d8-b052-0f9e95c64469",
-            "compositeImage": {
-                "id": "fb1b47ef-a2a3-4959-b490-75a2a9ac1e58",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "7fe8ab01-87b9-4cf0-9f00-c4a21ee4fb0b",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "263116de-9f4c-48b1-9c3d-3fdbf1808548",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "7fe8ab01-87b9-4cf0-9f00-c4a21ee4fb0b",
-                    "LayerId": "755d4a79-a355-4db5-bf0d-639bca753690"
-                }
-            ]
-        },
-        {
-            "id": "a6b5fc81-acc6-4aa2-8d43-e2c7b6734031",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "6116694a-1ee8-48d8-b052-0f9e95c64469",
-            "compositeImage": {
-                "id": "e1b91961-01cb-4034-965d-21cf1a181a8c",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "a6b5fc81-acc6-4aa2-8d43-e2c7b6734031",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "b7e61dbf-15bf-4dd3-91d9-2789efaf97bd",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "a6b5fc81-acc6-4aa2-8d43-e2c7b6734031",
-                    "LayerId": "755d4a79-a355-4db5-bf0d-639bca753690"
-                }
-            ]
-        },
-        {
-            "id": "31fc5edf-92bf-44e0-b417-f30d6be228d4",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "6116694a-1ee8-48d8-b052-0f9e95c64469",
-            "compositeImage": {
-                "id": "dcb3f605-63af-4f0c-8e46-969c420add97",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "31fc5edf-92bf-44e0-b417-f30d6be228d4",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "e1fbaff1-c759-40a8-8a75-2f70ec3dad20",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "31fc5edf-92bf-44e0-b417-f30d6be228d4",
-                    "LayerId": "755d4a79-a355-4db5-bf0d-639bca753690"
-                }
-            ]
-        },
-        {
-            "id": "749da8e5-1fb7-4c47-9aab-f2b1de497012",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "6116694a-1ee8-48d8-b052-0f9e95c64469",
-            "compositeImage": {
-                "id": "0d72c11f-3839-4746-809f-476c2489cf35",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "749da8e5-1fb7-4c47-9aab-f2b1de497012",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "bd77c811-05c8-4d5a-b51c-57bd4d77a815",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "749da8e5-1fb7-4c47-9aab-f2b1de497012",
-                    "LayerId": "755d4a79-a355-4db5-bf0d-639bca753690"
-                }
-            ]
-        }
-    ],
-    "gridX": 0,
-    "gridY": 0,
-    "height": 200,
-    "layers": [
-        {
-            "id": "755d4a79-a355-4db5-bf0d-639bca753690",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "6116694a-1ee8-48d8-b052-0f9e95c64469",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "default",
-            "opacity": 100,
-            "visible": true
-        }
-    ],
-    "origin": 4,
-    "originLocked": true,
-    "playbackSpeed": 15,
+  "bboxMode": 2,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 4,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 92,
+  "bbox_right": 163,
+  "bbox_top": 69,
+  "bbox_bottom": 191,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 250,
+  "height": 200,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"9e3b6bc5-bc10-4259-90a3-4a68d83c2856","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9e3b6bc5-bc10-4259-90a3-4a68d83c2856","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":{"name":"755d4a79-a355-4db5-bf0d-639bca753690","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditAttack2","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"9e3b6bc5-bc10-4259-90a3-4a68d83c2856","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3f1d7531-2a80-4405-bc0c-14044eeebf56","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3f1d7531-2a80-4405-bc0c-14044eeebf56","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":{"name":"755d4a79-a355-4db5-bf0d-639bca753690","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditAttack2","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"3f1d7531-2a80-4405-bc0c-14044eeebf56","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ac2c9745-f187-41af-9104-189c76577a00","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ac2c9745-f187-41af-9104-189c76577a00","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":{"name":"755d4a79-a355-4db5-bf0d-639bca753690","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditAttack2","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"ac2c9745-f187-41af-9104-189c76577a00","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"76fdefe1-e37f-4c49-a9f7-7382959f43fb","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"76fdefe1-e37f-4c49-a9f7-7382959f43fb","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":{"name":"755d4a79-a355-4db5-bf0d-639bca753690","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditAttack2","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"76fdefe1-e37f-4c49-a9f7-7382959f43fb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7fe8ab01-87b9-4cf0-9f00-c4a21ee4fb0b","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7fe8ab01-87b9-4cf0-9f00-c4a21ee4fb0b","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":{"name":"755d4a79-a355-4db5-bf0d-639bca753690","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditAttack2","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"7fe8ab01-87b9-4cf0-9f00-c4a21ee4fb0b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a6b5fc81-acc6-4aa2-8d43-e2c7b6734031","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a6b5fc81-acc6-4aa2-8d43-e2c7b6734031","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":{"name":"755d4a79-a355-4db5-bf0d-639bca753690","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditAttack2","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"a6b5fc81-acc6-4aa2-8d43-e2c7b6734031","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"31fc5edf-92bf-44e0-b417-f30d6be228d4","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"31fc5edf-92bf-44e0-b417-f30d6be228d4","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":{"name":"755d4a79-a355-4db5-bf0d-639bca753690","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditAttack2","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"31fc5edf-92bf-44e0-b417-f30d6be228d4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"749da8e5-1fb7-4c47-9aab-f2b1de497012","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"749da8e5-1fb7-4c47-9aab-f2b1de497012","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"LayerId":{"name":"755d4a79-a355-4db5-bf0d-639bca753690","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditAttack2","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","name":"749da8e5-1fb7-4c47-9aab-f2b1de497012","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"sp_mobBanditAttack2","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
-    "premultiplyAlpha": false,
-    "sepmasks": false,
-    "swatchColours": null,
-    "swfPrecision": 2.525,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
-    "type": 0,
-    "width": 250,
-    "xorig": 125,
-    "yorig": 100
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 8.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"86faccd2-0b47-4103-a865-5b0ec4a43a79","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9e3b6bc5-bc10-4259-90a3-4a68d83c2856","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"eb183788-54ba-482b-a509-cbc647d62c52","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3f1d7531-2a80-4405-bc0c-14044eeebf56","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"26d35da7-bd25-45ab-a903-a1fb2173e66b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ac2c9745-f187-41af-9104-189c76577a00","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b256a5d1-c070-43f2-84b6-3ac079c7ae6e","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"76fdefe1-e37f-4c49-a9f7-7382959f43fb","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"954efc3b-ee10-4731-97f1-a83cec81e735","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7fe8ab01-87b9-4cf0-9f00-c4a21ee4fb0b","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3b6f5736-9f1e-467b-8908-faef290ea824","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a6b5fc81-acc6-4aa2-8d43-e2c7b6734031","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bae77051-f624-45b5-93e1-96febde48dc2","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"31fc5edf-92bf-44e0-b417-f30d6be228d4","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"11f258d3-ec81-4502-85ac-0fb096f4d3aa","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"749da8e5-1fb7-4c47-9aab-f2b1de497012","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
+    "visibleRange": {"x":0.0,"y":0.0,},
+    "lockOrigin": true,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1920,
+    "backdropHeight": 1080,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 125,
+    "yorigin": 100,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"sp_mobBanditAttack2","path":"sprites/sp_mobBanditAttack2/sp_mobBanditAttack2.yy",},
+    "resourceVersion": "1.3",
+    "name": "",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"755d4a79-a355-4db5-bf0d-639bca753690","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "parent": {
+    "name": "mob_Bandit2",
+    "path": "folders/Sprites/sp_mob/mob_Bandit2.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sp_mobBanditAttack2",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

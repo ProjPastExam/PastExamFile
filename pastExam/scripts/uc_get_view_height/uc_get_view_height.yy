@@ -1,8 +1,12 @@
 {
-    "id": "5bdf0ce9-7e81-48da-94bf-8e0767106196",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_get_view_height",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Getters",
+    "path": "folders/Scripts/Ultimate Camera/Camera General Settings/View and Window Size/Getters.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_get_view_height",
+  "tags": [],
+  "resourceType": "GMScript",
 }

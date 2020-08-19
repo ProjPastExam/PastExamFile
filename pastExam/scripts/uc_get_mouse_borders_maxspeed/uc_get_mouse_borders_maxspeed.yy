@@ -1,8 +1,12 @@
 {
-    "id": "6ed94400-e3e6-41e0-aa9a-5f143f3843ac",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_get_mouse_borders_maxspeed",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Getters",
+    "path": "folders/Scripts/Ultimate Camera/Camera Modes/Mouse Borders/Getters.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_get_mouse_borders_maxspeed",
+  "tags": [],
+  "resourceType": "GMScript",
 }

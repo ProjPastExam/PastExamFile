@@ -1,8 +1,12 @@
 {
-    "id": "5f0fabad-d271-4a55-a5ed-0085e833f153",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_get_object_following_acceleration",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Getters",
+    "path": "folders/Scripts/Ultimate Camera/Camera Modes/Object Following/Getters.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_get_object_following_acceleration",
+  "tags": [],
+  "resourceType": "GMScript",
 }

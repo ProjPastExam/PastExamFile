@@ -1,8 +1,12 @@
 {
-    "id": "00e640f4-991d-4533-a144-0be238849b1e",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_get_bars_enabled",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Getters",
+    "path": "folders/Scripts/Ultimate Camera/Camera Effects/Bars/Getters.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_get_bars_enabled",
+  "tags": [],
+  "resourceType": "GMScript",
 }

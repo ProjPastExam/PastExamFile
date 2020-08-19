@@ -1,8 +1,12 @@
 {
-    "id": "90f9fdab-a5aa-43ba-aac2-affb1bcea223",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_get_mouse_drag_button",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Getters",
+    "path": "folders/Scripts/Ultimate Camera/Camera Modes/Mouse Drag/Getters.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_get_mouse_drag_button",
+  "tags": [],
+  "resourceType": "GMScript",
 }

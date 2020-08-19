@@ -1,8 +1,12 @@
 {
-    "id": "431696e0-5ecf-41e1-a02e-af63bf7c5392",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_get_view_scale",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Getters",
+    "path": "folders/Scripts/Ultimate Camera/Camera General Settings/Scale and Auto-Scale/Getters.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_get_view_scale",
+  "tags": [],
+  "resourceType": "GMScript",
 }

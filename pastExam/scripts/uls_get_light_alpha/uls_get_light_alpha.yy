@@ -1,8 +1,12 @@
 {
-    "id": "3af78811-f52a-45d1-9e13-aa8fce5245a1",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uls_get_light_alpha",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Get Light",
+    "path": "folders/Scripts/Ultimate Light System/Scripts/Get Light.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uls_get_light_alpha",
+  "tags": [],
+  "resourceType": "GMScript",
 }

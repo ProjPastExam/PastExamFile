@@ -1,8 +1,12 @@
 {
-    "id": "5af89e20-30f8-46c5-a7a8-227c63937678",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_get_shake_acceleration",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Getters",
+    "path": "folders/Scripts/Ultimate Camera/Camera Effects/Shake/Getters.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_get_shake_acceleration",
+  "tags": [],
+  "resourceType": "GMScript",
 }

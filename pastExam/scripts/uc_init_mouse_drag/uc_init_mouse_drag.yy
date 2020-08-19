@@ -1,8 +1,12 @@
 {
-    "id": "cd44a41f-b8e4-4065-a77b-74965908153d",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_init_mouse_drag",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Mouse Drag",
+    "path": "folders/Scripts/Ultimate Camera/Camera Modes/Mouse Drag.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_init_mouse_drag",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -1,8 +1,12 @@
 {
-    "id": "45bfbf2b-e810-4aeb-86a7-03c519e573ef",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "sc_mobRun",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Parent",
+    "path": "folders/Scripts/mob/Parent.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sc_mobRun",
+  "tags": [],
+  "resourceType": "GMScript",
 }

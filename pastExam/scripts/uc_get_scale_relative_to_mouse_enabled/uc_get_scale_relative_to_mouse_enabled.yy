@@ -1,8 +1,12 @@
 {
-    "id": "14abb1b9-b43a-42ed-9d70-29015221c9ed",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_get_scale_relative_to_mouse_enabled",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Getters",
+    "path": "folders/Scripts/Ultimate Camera/Camera General Settings/Scale and Auto-Scale/Getters.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_get_scale_relative_to_mouse_enabled",
+  "tags": [],
+  "resourceType": "GMScript",
 }

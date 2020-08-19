@@ -1,8 +1,12 @@
 {
-    "id": "5bc59224-e21e-4a0f-befd-54d467bafa8c",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uls_set_light_color",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Set Light",
+    "path": "folders/Scripts/Ultimate Light System/Scripts/Set Light.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uls_set_light_color",
+  "tags": [],
+  "resourceType": "GMScript",
 }

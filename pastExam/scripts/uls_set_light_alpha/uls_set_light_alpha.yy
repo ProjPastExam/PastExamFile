@@ -1,8 +1,12 @@
 {
-    "id": "deceeb79-0241-4ea8-b279-e9d5c9c10a69",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uls_set_light_alpha",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Set Light",
+    "path": "folders/Scripts/Ultimate Light System/Scripts/Set Light.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uls_set_light_alpha",
+  "tags": [],
+  "resourceType": "GMScript",
 }

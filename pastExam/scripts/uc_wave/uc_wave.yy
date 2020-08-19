@@ -1,8 +1,12 @@
 {
-    "id": "3f102f02-0639-40b1-8398-17cef1d82dac",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "uc_wave",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "System",
+    "path": "folders/Scripts/Ultimate Camera/System.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "uc_wave",
+  "tags": [],
+  "resourceType": "GMScript",
 }
