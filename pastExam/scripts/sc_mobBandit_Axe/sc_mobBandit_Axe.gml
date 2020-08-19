@@ -5,12 +5,12 @@ function sc_mobBandit_Axe() {
 
 
 	//타일 충돌 감지를 위한 변수
-	tileId	= layer_tilemap_get_id("Tile_Colision");
-	bottom1	= tilemap_get_at_pixel(tileId, x, bbox_bottom);
-	bottom2	= tilemap_get_at_pixel(tileId, x, bbox_bottom - 16 );
-	top		= tilemap_get_at_pixel(tileId, x, bbox_top);
-	left	= tilemap_get_at_pixel(tileId, bbox_left, bbox_bottom - 16 );
-	right	= tilemap_get_at_pixel(tileId, bbox_right, bbox_bottom - 16 );
+	var	tileId	= layer_tilemap_get_id("Tile_Colision");
+	var	bottom1	= tilemap_get_at_pixel(tileId, x, bbox_bottom);
+	var	bottom2	= tilemap_get_at_pixel(tileId, x, bbox_bottom - 16 );
+	var	top		= tilemap_get_at_pixel(tileId, x, bbox_top);
+	var	left	= tilemap_get_at_pixel(tileId, bbox_left, bbox_bottom - 16 );
+	var	right	= tilemap_get_at_pixel(tileId, bbox_right, bbox_bottom - 16 );
 
 	if( left == 3 || right == 3 || top == 3 || bottom1 == 3 ) {
 		if( left == 3 )	{ 

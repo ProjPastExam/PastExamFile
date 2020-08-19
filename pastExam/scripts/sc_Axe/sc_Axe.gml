@@ -2,7 +2,7 @@ function sc_Axe(argument0) {
 	// argument0 : 스프라이트
 
 	sprite_index = argument0;
-	TargetB = bbox_bottom - ob_player.pbottom + 100;
+	TargetB = bbox_bottom - sc_getPlayer("bbox_bottom") + 100;
 
 	if( TargetB > 150 ) { arrowySpeed = -7; arrowxSpeed = 3; }
 	else if( TargetB > 80 ) { arrowySpeed = -5; arrowxSpeed = 4.5; }
