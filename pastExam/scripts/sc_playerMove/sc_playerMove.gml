@@ -141,7 +141,7 @@ function sc_playerMove() {
 	//피격//
 	////////
 
-	if (hitAfter > 0) hitAfter--;
+	if (hitAfter > 0) { hitAfter--;	atkProcess = 0; }
 	else if (canMove == 2) canMove = 0;
 
 	if (undie > 0) {
