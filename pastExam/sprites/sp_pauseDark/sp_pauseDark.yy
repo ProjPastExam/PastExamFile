@@ -71,7 +71,7 @@
   ],
   "parent": {
     "name": "button",
-    "path": "folders/Sprites/button.yy",
+    "path": "folders/Animation Curves/Sprites/button.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_pauseDark",

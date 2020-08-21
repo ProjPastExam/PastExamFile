@@ -89,7 +89,7 @@
   ],
   "parent": {
     "name": "pl_gun",
-    "path": "folders/Sprites/sp_player/pl_gun.yy",
+    "path": "folders/Animation Curves/Sprites/sp_player/pl_gun.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_playerGun",

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Shapes",
-    "path": "folders/Sprites/Example/Shapes.yy",
+    "path": "folders/Animation Curves/Sprites/Example/Shapes.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_triangle",

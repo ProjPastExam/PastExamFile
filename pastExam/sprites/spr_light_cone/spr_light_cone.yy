@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Example",
-    "path": "folders/Sprites/Example.yy",
+    "path": "folders/Animation Curves/Sprites/Example.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_light_cone",

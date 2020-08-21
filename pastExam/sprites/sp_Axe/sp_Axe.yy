@@ -109,7 +109,7 @@
   ],
   "parent": {
     "name": "mob_Bandit2",
-    "path": "folders/Sprites/sp_mob/mob_Bandit2.yy",
+    "path": "folders/Animation Curves/Sprites/sp_mob/mob_Bandit2.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_Axe",

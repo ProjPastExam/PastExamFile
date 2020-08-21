@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "tileset",
-    "path": "folders/Sprites/tileset.yy",
+    "path": "folders/Animation Curves/Sprites/tileset.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_nGround",

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "sp_mob",
-    "path": "folders/Sprites/sp_mob.yy",
+    "path": "folders/Animation Curves/Sprites/sp_mob.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_mobAtkEffect",

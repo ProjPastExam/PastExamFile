@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "background",
-    "path": "folders/Sprites/background.yy",
+    "path": "folders/Animation Curves/Sprites/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_backg",
