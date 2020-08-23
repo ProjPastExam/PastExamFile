@@ -80,6 +80,7 @@
     {"id":{"name":"sc_mobRun2","path":"scripts/sc_mobRun2/sc_mobRun2.yy",},"order":5,},
     {"id":{"name":"sc_mobRunAway","path":"scripts/sc_mobRunAway/sc_mobRunAway.yy",},"order":6,},
     {"id":{"name":"sc_mobBandit","path":"scripts/sc_mobBandit/sc_mobBandit.yy",},"order":0,},
+    {"id":{"name":"sc_mobBackstep","path":"scripts/sc_mobBackstep/sc_mobBackstep.yy",},"order":7,},
     {"id":{"name":"sc_mobAttack","path":"scripts/sc_mobAttack/sc_mobAttack.yy",},"order":1,},
     {"id":{"name":"sc_mobBandit2","path":"scripts/sc_mobBandit2/sc_mobBandit2.yy",},"order":2,},
     {"id":{"name":"sc_mobAttack2","path":"scripts/sc_mobAttack2/sc_mobAttack2.yy",},"order":3,},
