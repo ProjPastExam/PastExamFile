@@ -19,9 +19,4 @@ function sc_Axe(argument0) {
 	TargetX = ob_player.x - x;
 	if ( TargetX < 0 ) { dir = 1; }
 	else { dir = -1; }
-
-
-	draw_text(x, y-100, string(TargetB));
-
-
 }

@@ -17,9 +17,9 @@ function sc_mobValue() {
 
 	mobHP = 100;
 	mobHP_MAX = mobHP;
-	frontSight		= 320;		// 앞쪽 시야(6칸)
+	frontSight		= 250;		// 앞쪽 시야(6칸)
 	backSight		= frontSight/2;		// 뒤쪽 시야(3칸)
-	maxTrack		= frontSight*2;		// 따라가는 최대 거리
+	maxTrack		= frontSight*1.5;		// 따라가는 최대 거리
 	runHP			= 0;		// 도망치는 HP(퍼센트)
 	adversarial		= 0;		// 적대도
 	mob_dmg			= 10;
@@ -34,6 +34,7 @@ function sc_mobValue() {
 	dir				= 0;		// 몬스터가 보고 있는 방향 ( 1 왼쪽 )
 	state			= 0;
 	runAwaycnt		= 60;
+	backStepcnt		= 30;
 	walkcnt			= 5;
 
 
