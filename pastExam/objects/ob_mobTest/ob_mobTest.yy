@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite56",
-    "path": "sprites/Sprite56/Sprite56.yy",
+    "name": "sp_hitEffect00",
+    "path": "sprites/sp_hitEffect00/sp_hitEffect00.yy",
   },
   "solid": false,
   "visible": true,
@@ -14,7 +14,7 @@
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsGroup": 0,
+  "physicsGroup": 1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -24,8 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"ob_mobBandit","path":"objects/ob_mobBandit/ob_mobBandit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"ob_mobBandit","path":"objects/ob_mobBandit/ob_mobBandit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"ob_mobTest","path":"objects/ob_mobTest/ob_mobTest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +33,7 @@
     "path": "folders/Objects/mob.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_mobBandit",
+  "name": "ob_mobTest",
   "tags": [],
   "resourceType": "GMObject",
 }

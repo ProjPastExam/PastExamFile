@@ -22,7 +22,7 @@ function sc_mobBandit2() {
 				sc_mobRun2(sp_mobBanditRun2);
 				break;
 			case 2:
-				sc_mobAttack2(sp_mobBanditAttack2);
+				sc_mobAttack2(sp_mobBanditAttack2, ob_mobAxe);
 				break;
 			case 3:
 				sc_mobRunAway(sp_mobBanditRun2, 1.8);
@@ -35,6 +35,4 @@ function sc_mobBandit2() {
 				break;
 		}
 	}
-
-
 }

@@ -1,10 +1,11 @@
 function sc_mobAttack2(argument0) {
 	// 몬스터 공격
-	// argument0 : 공격 모션 
-	// argument1 : 분노상태 모션
+	// argument0 : 공격 모션
+	// argument1 : 날아가는 오브젝트
 
 
 	sprite_index = argument0;
+	var obj		 = argument1;
 	var insx	 = dir * 5;
 	/*
 	if ( Attack_delay == 10 ) {
@@ -32,11 +33,11 @@ function sc_mobAttack2(argument0) {
 	else if ( mobatkProcess < 16 )	{ image_index = 1; }
 	else if ( mobatkProcess < 32 )  { image_index = 2;
 		if(dir >= 0 && mobatkProcess == 17) {
-			instance_create_depth( x-insx+15, y, depth-200, ob_mobAxe );
+			instance_create_depth( x-insx+15, y, depth-200, obj );
 			xSpeed = -sSpeed;
 		}
 		else if(dir < 0 && mobatkProcess == 30) {
-			instance_create_depth( x-insx, y, depth-200, ob_mobAxe );
+			instance_create_depth( x-insx, y, depth-200, obj );
 			xSpeed = sSpeed;
 		}
 	}

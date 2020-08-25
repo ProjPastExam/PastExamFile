@@ -71,6 +71,4 @@ function sc_mobRun2(argument0) {
 	// state 변경
 	if ( canAttack ) { state = 2; }	// 공격
 	if ( isPeace ) { state = 0; }	// 평화상태
-
-
 }
