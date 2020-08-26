@@ -19,6 +19,7 @@
     {"id":{"name":"sp_mobArcher","path":"sprites/sp_mobArcher/sp_mobArcher.yy",},"order":1,},
     {"id":{"name":"sp_mobBanditWalk","path":"sprites/sp_mobBanditWalk/sp_mobBanditWalk.yy",},"order":0,},
     {"id":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"order":1,},
+    {"id":{"name":"sc_mobHit","path":"scripts/sc_mobHit/sc_mobHit.yy",},"order":8,},
     {"id":{"name":"sp_mobBanditAttack","path":"sprites/sp_mobBanditAttack/sp_mobBanditAttack.yy",},"order":2,},
     {"id":{"name":"sp_mobBanditWalk2","path":"sprites/sp_mobBanditWalk2/sp_mobBanditWalk2.yy",},"order":0,},
     {"id":{"name":"sc_mobTest","path":"scripts/sc_mobTest/sc_mobTest.yy",},"order":4,},

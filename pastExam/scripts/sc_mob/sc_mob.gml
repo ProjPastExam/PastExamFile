@@ -77,7 +77,10 @@ function sc_mob() {
 		// 피격
 		if ( place_meeting(x, y, ob_atkEffect) ) {  
 			Attacked_delay -= 1;
-			if ( !Attacked_delay ) { sc_playerAttack(); Attacked_delay = 12; }
+			if ( !Attacked_delay ) { //sc_playerAttack();
+				sc_mobHit(sp_Axe, 2);
+				Attacked_delay = 12; 
+			}
 		}
 	}
 

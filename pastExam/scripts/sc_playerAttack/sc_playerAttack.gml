@@ -22,6 +22,4 @@ function sc_playerAttack() {
 
 	isPeace = false;
 	Attacked = false;
-
-
 }
