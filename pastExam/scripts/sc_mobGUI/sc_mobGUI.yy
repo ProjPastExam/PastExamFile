@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "mob",
-    "path": "folders/Scripts/mob.yy",
+    "name": "Test",
+    "path": "folders/Scripts/mob/Test.yy",
   },
   "resourceVersion": "1.0",
   "name": "sc_mobGUI",
