@@ -11,8 +11,7 @@ function sc_mobBackstep(argument0){
 	while ( backStepcnt ) {
 		if ( dir < 0 ) {
 			
-			if ( left == 3 || right == 3) { self.x -= 0 }
-			else { self.x -= 1.2; }
+			if ( left != 3 || right != 3) { self.x -= 1.2 }
 			
 			if (backStepcnt % 10 == 0 ) {
 				image_index = imgidx % 4;
@@ -20,8 +19,7 @@ function sc_mobBackstep(argument0){
 			}
 		}
 		else { 
-			if ( left == 3 || right == 3) { self.x += 0 }
-			else { self.x += 1.2; }
+			if ( left != 3 || right != 3) { self.x += 1.2; }
 				
 			if (backStepcnt % 10 == 0 ) {
 				image_index = imgidx % 4;

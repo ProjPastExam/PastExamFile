@@ -17,7 +17,7 @@ function sc_mobValue() {
 
 	mobHP = 100;
 	mobHP_MAX = mobHP;
-	frontSight		= 250;		// 앞쪽 시야(6칸)
+	frontSight		= 220;		// 앞쪽 시야(6칸)
 	backSight		= frontSight/2;		// 뒤쪽 시야(3칸)
 	maxTrack		= frontSight*1.5;		// 따라가는 최대 거리
 	runHP			= 0;		// 도망치는 HP(퍼센트)
