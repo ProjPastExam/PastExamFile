@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "gameControl",
-    "path": "folders/Animation Curves/Sprites/gameControl.yy",
+    "path": "folders/Sprites/gameControl.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_camMode1",

@@ -89,7 +89,7 @@
   ],
   "parent": {
     "name": "mob_Bandit",
-    "path": "folders/Animation Curves/Sprites/sp_mob/mob_Bandit.yy",
+    "path": "folders/Sprites/Sprites/sp_mob/mob_Bandit.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_mobBanditAttack",

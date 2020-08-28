@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "sp_bar",
-    "path": "folders/Animation Curves/Sprites/sp_bar.yy",
+    "path": "folders/Sprites/sp_bar.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_healthbar",

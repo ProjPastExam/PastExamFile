@@ -109,7 +109,7 @@
   ],
   "parent": {
     "name": "pl_sword",
-    "path": "folders/Animation Curves/Sprites/sp_player/pl_sword.yy",
+    "path": "folders/Sprites/Sprites/sp_player/pl_sword.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_playerAtk00j",

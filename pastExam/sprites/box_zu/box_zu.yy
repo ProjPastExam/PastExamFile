@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "box",
-    "path": "folders/Animation Curves/Sprites/box.yy",
+    "path": "folders/Sprites/box.yy",
   },
   "resourceVersion": "1.0",
   "name": "box_zu",

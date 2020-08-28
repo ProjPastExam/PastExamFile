@@ -71,7 +71,7 @@
   ],
   "parent": {
     "name": "Ultimate Camera",
-    "path": "folders/Animation Curves/Sprites/Ultimate Camera.yy",
+    "path": "folders/Sprites/Ultimate Camera.yy",
   },
   "resourceVersion": "1.0",
   "name": "uc_spr_Camera",

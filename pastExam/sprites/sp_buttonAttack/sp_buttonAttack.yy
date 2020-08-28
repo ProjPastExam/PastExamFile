@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "button",
-    "path": "folders/Animation Curves/Sprites/button.yy",
+    "path": "folders/Sprites/button.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_buttonAttack",

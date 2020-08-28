@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "boss01",
-    "path": "folders/Animation Curves/Sprites/boss01.yy",
+    "path": "folders/Sprites/boss01.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_boss01Stand",

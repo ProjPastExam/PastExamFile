@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Example",
-    "path": "folders/Animation Curves/Sprites/Example.yy",
+    "path": "folders/Sprites/Example.yy",
   },
   "resourceVersion": "1.0",
   "name": "background",
