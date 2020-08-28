@@ -6,7 +6,7 @@
 function sc_mobHit(argument0, argument1) {
 	image_index = argument0;
 	
-	sc_playerAttack();
 	sc_pushedBack(argument1);
+	sc_playerAttack();
 	state = 1;
 }

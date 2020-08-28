@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 82,
-  "bbox_right": 143,
-  "bbox_top": 80,
+  "bbox_left": 80,
+  "bbox_right": 158,
+  "bbox_top": 71,
   "bbox_bottom": 193,
   "HTile": false,
   "VTile": false,
@@ -24,27 +24,27 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a48a0f21-91ae-43f1-b529-11128e8b5a24","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a48a0f21-91ae-43f1-b529-11128e8b5a24","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"b4f0689e-4549-465e-a64d-ad8a6ace91c5","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"a48a0f21-91ae-43f1-b529-11128e8b5a24","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e5b88046-80a3-49fc-80a0-c78b3bd73fc8","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e5b88046-80a3-49fc-80a0-c78b3bd73fc8","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"b4f0689e-4549-465e-a64d-ad8a6ace91c5","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"e5b88046-80a3-49fc-80a0-c78b3bd73fc8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5e853b2b-b55d-4da3-b5f2-932fd29b864c","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5e853b2b-b55d-4da3-b5f2-932fd29b864c","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"b4f0689e-4549-465e-a64d-ad8a6ace91c5","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"5e853b2b-b55d-4da3-b5f2-932fd29b864c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"df81d603-2485-467e-ac04-5ed9d60a5197","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"df81d603-2485-467e-ac04-5ed9d60a5197","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"b4f0689e-4549-465e-a64d-ad8a6ace91c5","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"df81d603-2485-467e-ac04-5ed9d60a5197","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c8be9644-beba-46b2-a34e-89e04b913188","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c8be9644-beba-46b2-a34e-89e04b913188","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"b4f0689e-4549-465e-a64d-ad8a6ace91c5","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"c8be9644-beba-46b2-a34e-89e04b913188","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d3d857ed-9263-4d83-8718-1728795b5650","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d3d857ed-9263-4d83-8718-1728795b5650","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"b4f0689e-4549-465e-a64d-ad8a6ace91c5","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"d3d857ed-9263-4d83-8718-1728795b5650","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"627ed5ca-e2f9-483b-876d-134953ca1087","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"627ed5ca-e2f9-483b-876d-134953ca1087","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"b4f0689e-4549-465e-a64d-ad8a6ace91c5","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"627ed5ca-e2f9-483b-876d-134953ca1087","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"28125018-6dba-4839-9348-89e275637e8f","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"28125018-6dba-4839-9348-89e275637e8f","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"30a552ce-f969-4afb-a541-f7dae00bc782","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"28125018-6dba-4839-9348-89e275637e8f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"44a913ac-90b9-4af9-b6f0-d1b023c84124","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"44a913ac-90b9-4af9-b6f0-d1b023c84124","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"30a552ce-f969-4afb-a541-f7dae00bc782","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"44a913ac-90b9-4af9-b6f0-d1b023c84124","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bccea813-79a9-4089-9e06-42b18ff64031","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bccea813-79a9-4089-9e06-42b18ff64031","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"30a552ce-f969-4afb-a541-f7dae00bc782","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"bccea813-79a9-4089-9e06-42b18ff64031","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d4861656-4f71-4e0f-b811-308f6ebd4a68","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d4861656-4f71-4e0f-b811-308f6ebd4a68","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"30a552ce-f969-4afb-a541-f7dae00bc782","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"d4861656-4f71-4e0f-b811-308f6ebd4a68","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6197db3f-1cd2-434a-b97b-3682b3d3a592","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6197db3f-1cd2-434a-b97b-3682b3d3a592","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"30a552ce-f969-4afb-a541-f7dae00bc782","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"6197db3f-1cd2-434a-b97b-3682b3d3a592","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bb7c5f9d-c179-4d7e-bc16-81072a37aa3e","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bb7c5f9d-c179-4d7e-bc16-81072a37aa3e","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"30a552ce-f969-4afb-a541-f7dae00bc782","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"bb7c5f9d-c179-4d7e-bc16-81072a37aa3e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9be62a3f-a7ad-47cf-b04d-28983660caf1","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9be62a3f-a7ad-47cf-b04d-28983660caf1","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"LayerId":{"name":"30a552ce-f969-4afb-a541-f7dae00bc782","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","name":"9be62a3f-a7ad-47cf-b04d-28983660caf1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sp_mobBanditRun","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},
@@ -59,13 +59,13 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4a6ff1c5-440d-413d-b9fd-a73892f38d0d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a48a0f21-91ae-43f1-b529-11128e8b5a24","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"defb2d66-47bf-4c2b-a066-b7f6dfa40943","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e5b88046-80a3-49fc-80a0-c78b3bd73fc8","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"a88b893d-6ed1-4f1b-899c-4d25a09ed457","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5e853b2b-b55d-4da3-b5f2-932fd29b864c","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"a5f81087-210b-4720-be90-2db060d99386","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df81d603-2485-467e-ac04-5ed9d60a5197","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"9726b78b-418b-473e-a433-ef6b948a6e14","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c8be9644-beba-46b2-a34e-89e04b913188","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"43984c4d-cc90-4e93-a7ee-bfed19101713","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d3d857ed-9263-4d83-8718-1728795b5650","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"c33a8f27-0870-4235-9c0a-bb8c6bcbb704","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"627ed5ca-e2f9-483b-876d-134953ca1087","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cf1c2bef-1171-4e46-b9e8-d25538530cbf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28125018-6dba-4839-9348-89e275637e8f","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e24c75f5-e773-4843-8ea0-92206269c294","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"44a913ac-90b9-4af9-b6f0-d1b023c84124","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c1c377de-f879-4f8d-bce9-e3a3c03783e8","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bccea813-79a9-4089-9e06-42b18ff64031","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"734070c3-3c36-4a7c-94eb-1858d9bd9b95","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d4861656-4f71-4e0f-b811-308f6ebd4a68","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2483546a-e8c8-4943-bc45-74641dd58b6f","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6197db3f-1cd2-434a-b97b-3682b3d3a592","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"73d32994-e6f8-4439-b869-6ff2fec4332d","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bb7c5f9d-c179-4d7e-bc16-81072a37aa3e","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d0cb1dcc-6efd-465c-8772-09f1c4ae6fa8","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9be62a3f-a7ad-47cf-b04d-28983660caf1","path":"sprites/sp_mobBanditRun/sp_mobBanditRun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -89,11 +89,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b4f0689e-4549-465e-a64d-ad8a6ace91c5","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"30a552ce-f969-4afb-a541-f7dae00bc782","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "mob_Bandit",
-    "path": "folders/Sprites/Sprites/sp_mob/mob_Bandit.yy",
+    "path": "folders/Sprites/sp_mob/mob_Bandit.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_mobBanditRun",

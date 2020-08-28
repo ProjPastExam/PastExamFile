@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "tileset",
-    "path": "folders/Sprites/tileset.yy",
+    "path": "folders/Tile Sets/tileset.yy",
   },
   "resourceVersion": "1.0",
   "name": "sCollisions",

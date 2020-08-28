@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite56",
-    "path": "sprites/Sprite56/Sprite56.yy",
+    "name": "sp_mobBanditWalk",
+    "path": "sprites/sp_mobBanditWalk/sp_mobBanditWalk.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,4 +1,4 @@
-function sc_mobAttack2(argument0) {
+function sc_mobAttack2(argument0, argument1) {
 	// 몬스터 공격
 	// argument0 : 공격 모션
 	// argument1 : 날아가는 오브젝트
