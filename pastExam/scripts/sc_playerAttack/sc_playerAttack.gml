@@ -1,5 +1,6 @@
 function sc_playerAttack() {
 	Attacked = true;
+	var DMG = sc_getPlayer("playerDmg");
 
 	/*if( Attacked ) {
 		if( mobHP >= ob_player.playerDmg ) { 
@@ -8,11 +9,11 @@ function sc_playerAttack() {
 		else if( mobHP < ob_player.playerDmg ) { mobHP = 0; instance_destroy(self); }
 	}*/
 
-	if( mobHP >= ob_player.playerDmg ) { 
-		mobHP -= ob_player.playerDmg;
+	if( mobHP >= DMG ) { 
+		mobHP -= DMG;
 		AttackedCount++;
 	}
-	else if( mobHP < ob_player.playerDmg ) { 
+	else if( mobHP < DMG ) { 
 		mobHP = 0; 
 		state = 99;
 		AttackedCount++;

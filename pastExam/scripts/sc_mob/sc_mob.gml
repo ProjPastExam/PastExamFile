@@ -65,20 +65,12 @@ function sc_mob() {
 	///////////////////////////////////
 
 	if(!global.isPause) {
-		// 5번 맞으면 스턴
-		if( AttackedCount != 0 && AttackedCount % 5 == 0 ) { isStern = true; }
-
-		// 스턴상태
-	//	if ( isStern ) { sc_stern(); }
-
-		// 넉백 효과
-		if ( isPushedBack ) { sc_pushedBack(0); }
-
 		// 피격
-		if ( place_meeting(x, y, ob_atkEffect) ) {  
+		if ( place_meeting(x, y, ob_atkEffect) ) {
 			Attacked_delay -= 1;
-			if ( !Attacked_delay ) { //sc_playerAttack();
-				sc_mobHit(sp_Axe, 2);
+			if ( !Attacked_delay ) {
+				sc_playerAttack();
+//				sc_mobHit(sp_Axe, 2);
 				Attacked_delay = 12; 
 			}
 		}

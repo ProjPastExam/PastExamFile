@@ -15,4 +15,9 @@ function sc_getPlayer( argument0 ){
 		if ( ob_player.bbox_bottom != NULL ) return ob_player.bbox_bottom;
 		else return -1;
 	}
+	
+	if ( argument0 == "playerDmg" ) {
+		if ( ob_player.playerDmg != NULL ) return ob_player.playerDmg;
+		else return -1;
+	}
 }

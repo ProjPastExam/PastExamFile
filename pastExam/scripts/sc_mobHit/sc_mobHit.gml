@@ -5,8 +5,9 @@
 // argument1 : 경직도 0: 없음 1: 약간 2: 중간 3: 세게 
 function sc_mobHit(argument0, argument1) {
 	image_index = argument0;
+	var ss = argument1;
 	
-	sc_pushedBack(argument1);
+//	sc_pushedBack(argument1);
 	sc_playerAttack();
 	state = 1;
 }
