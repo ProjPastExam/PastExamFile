@@ -46,8 +46,5 @@ function sc_mobAttack(argument0) {
 	else if ( mobatkProcess < 40 )  { image_index = 3; }
 	else if ( mobatkProcess < 50 )	{ image_index = 4; }
 	else if ( mobatkProcess < 61 )	{ image_index = 5; }
-	else { state = 3; mobatkProcess = 0;  }
-
-
-
+	else { state = 4; mobatkProcess = 0;  }
 }

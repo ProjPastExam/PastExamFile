@@ -217,6 +217,7 @@
     {"id":{"name":"sh_gaussian_blur_v","path":"shaders/sh_gaussian_blur_v/sh_gaussian_blur_v.yy",},"order":1,},
     {"id":{"name":"font0","path":"fonts/font0/font0.yy",},"order":0,},
     {"id":{"name":"uc_fnt_dpcomic","path":"fonts/uc_fnt_dpcomic/uc_fnt_dpcomic.yy",},"order":0,},
+    {"id":{"name":"sc_mobStand","path":"scripts/sc_mobStand/sc_mobStand.yy",},"order":9,},
     {"id":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},"order":0,},
     {"id":{"name":"ob_atkEffect","path":"objects/ob_atkEffect/ob_atkEffect.yy",},"order":1,},
     {"id":{"name":"ob_atkHitEffect","path":"objects/ob_atkHitEffect/ob_atkHitEffect.yy",},"order":2,},

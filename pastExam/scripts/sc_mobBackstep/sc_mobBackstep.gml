@@ -3,34 +3,27 @@
 function sc_mobBackstep(argument0){
 	
 	sprite_index = argument0;
-	var imgidx = 0;
+	var spTime = 1;
 	
 	// 스프라이트 index 변형 코드
-	// 0.33초 동안 백스텝 실행
+	// 1초 동안 백스텝 실행
 	
-	while ( backStepcnt ) {
-		if ( dir < 0 ) {
-			
-			if ( left != 3 || right != 3) { self.x -= 1.2 }
-			
-			if (backStepcnt % 10 == 0 ) {
-				image_index = imgidx % 4;
-				imgidx++;
-			}
-		}
-		else { 
-			if ( left != 3 || right != 3) { self.x += 1.2; }
-				
-			if (backStepcnt % 10 == 0 ) {
-				image_index = imgidx % 4;
-				imgidx++;
-			}
-		}
-		backStepcnt--;
-	}
+	backStepcnt += 1;
+	if( backStepcnt < spTime*25 && dir < 0 ) { x -= 3.5; }
+	if( backStepcnt < spTime*25 && dir > 0 ) { x += 3.5; }
 	
-	if( backStepcnt == 0 ) { 
-		backStepcnt = 60;
-		state = 1;
+	if ( backStepcnt == 2 ) { ySpeed -= 1.8; }
+	if ( backStepcnt < spTime*5 )			{ image_index = 0; }
+	else if ( backStepcnt < spTime*10 )		{ image_index = 1; }
+	else if ( backStepcnt < spTime*15 )		{ image_index = 2; }
+	else if ( backStepcnt < spTime*20 )		{ image_index = 3; }
+	else if ( backStepcnt < spTime*25 )		{ image_index = 4; }
+	else if ( backStepcnt < spTime*30 )		{ image_index = 5; }
+	else if ( backStepcnt < spTime*35+1 )	{ image_index = 6; }
+	else { backStepcnt = 0; }
+	
+	if( backStepcnt == 35 ) { 
+		backStepcnt = 0;
+		state = 3;
 	}
 }

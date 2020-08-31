@@ -16,5 +16,4 @@ function sc_mobAtkSprite(argument0, argument1) {
 	else if ( mobatkProcess < spTime*30+1 )	{ image_index = 5; }
 	else { mobatkProcess = 0; }
 
-
 }

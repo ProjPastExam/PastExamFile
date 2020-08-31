@@ -6,7 +6,7 @@ function sc_mobBandit2() {
 	// 2 공격모션
 	// 3 뒤로도망
 	// 4 백스텝
-	// 5 넉백
+	// 5 스탠드
 	// 99 사망
 
 	/////////////////////////////////////
@@ -30,6 +30,8 @@ function sc_mobBandit2() {
 			case 4:
 				sc_mobBackstep(sp_mobBanditRun);
 				break;
+			case 5:
+				sc_mobStand(sp_mobBanditStand2);
 			case 99:
 				instance_destroy(self);
 				break;

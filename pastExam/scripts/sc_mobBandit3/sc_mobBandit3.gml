@@ -19,17 +19,19 @@ function sc_mobBandit3() {
 				sc_mobWalk(sp_mobBanditWalk3);
 				break;
 			case 1:
-				sc_mobRun2(sp_mobBanditWalk3);
+				sc_mobRun2(sp_mobBanditRun3);
 				break;
 			case 2:
-				sc_mobAttack(sp_mobBanditWalk3);
+				sc_mobAttack(sp_mobBanditAttack3);
 				break;
 			case 3:
-				sc_mobRunAway(sp_mobBanditWalk3, 1.8);
+				sc_mobRunAway(sp_mobBanditRun3, 1.8);
 				break;
 			case 4:
-				sc_mobBackstep(sp_mobBanditWalk3);
+				sc_mobBackstep(sp_mobBanditBackstep3);
 				break;
+			case 5:
+				sc_mobStand(sp_mobBanditStand3);
 			case 99:
 				instance_destroy(self);
 				break;

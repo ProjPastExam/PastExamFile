@@ -13,9 +13,7 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1024,"hview":768,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit3","path":"objects/ob_mobBandit3/ob_mobBandit3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1376.0,"y":576.0,"resourceVersion":"1.0","name":"inst_5BDB2174","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Button","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Button","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_camMode0","path":"objects/ob_camMode0/ob_camMode0.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.8828697,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":544.0,"resourceVersion":"1.0","name":"inst_503B29F0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit","path":"objects/ob_mobBandit/ob_mobBandit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3520.0,"y":672.0,"resourceVersion":"1.0","name":"inst_76AE2DDF","tags":[],"resourceType":"GMRInstance",},
@@ -34,7 +32,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_mob","path":"objects/ob_mob/ob_mob.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.1875,"scaleY":0.1875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2528.0,"y":704.0,"resourceVersion":"1.0","name":"inst_16A8C5ED","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_mob","path":"objects/ob_mob/ob_mob.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.1875,"scaleY":0.1875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2368.0,"y":704.0,"resourceVersion":"1.0","name":"inst_242EA0C2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit2","path":"objects/ob_mobBandit2/ob_mobBandit2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2624.0,"y":672.0,"resourceVersion":"1.0","name":"inst_2CFD080E","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit2","path":"objects/ob_mobBandit2/ob_mobBandit2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2048.0,"y":544.0,"resourceVersion":"1.0","name":"inst_23548D86","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit3","path":"objects/ob_mobBandit3/ob_mobBandit3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2208.0,"y":672.0,"resourceVersion":"1.0","name":"inst_5C78438C","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_sun","path":"objects/ob_sun/ob_sun.yy",},"inheritCode":false,"hasCreationCode":false,"colour":2021130239,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1184.0,"y":192.0,"resourceVersion":"1.0","name":"inst_65F84DE0","tags":[],"resourceType":"GMRInstance",},
@@ -114,7 +112,6 @@
     {"name":"inst_503B29F0","path":"rooms/room_Test/room_Test.yy",},
     {"name":"inst_A8C5C03","path":"rooms/room_Test/room_Test.yy",},
     {"name":"inst_2CFD080E","path":"rooms/room_Test/room_Test.yy",},
-    {"name":"inst_23548D86","path":"rooms/room_Test/room_Test.yy",},
     {"name":"inst_76AE2DDF","path":"rooms/room_Test/room_Test.yy",},
     {"name":"inst_75D7EA23","path":"rooms/room_Test/room_Test.yy",},
     {"name":"inst_5E32026A","path":"rooms/room_Test/room_Test.yy",},
@@ -122,7 +119,7 @@
     {"name":"inst_73C6697D","path":"rooms/room_Test/room_Test.yy",},
     {"name":"inst_368284E4","path":"rooms/room_Test/room_Test.yy",},
     {"name":"inst_37EE8F92","path":"rooms/room_Test/room_Test.yy",},
-    {"name":"inst_5BDB2174","path":"rooms/room_Test/room_Test.yy",},
+    {"name":"inst_5C78438C","path":"rooms/room_Test/room_Test.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

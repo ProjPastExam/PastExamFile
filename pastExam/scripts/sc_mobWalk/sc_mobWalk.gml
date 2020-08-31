@@ -24,6 +24,4 @@ function sc_mobWalk(argument0) {
 			state = 1;
 		}
 	}
-
-
 }

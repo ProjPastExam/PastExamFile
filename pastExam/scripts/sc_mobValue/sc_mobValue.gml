@@ -34,7 +34,7 @@ function sc_mobValue() {
 	dir				= 0;		// 몬스터가 보고 있는 방향 ( 1 왼쪽 )
 	state			= 0;
 	runAwaycnt		= 60;
-	backStepcnt		= 60;
+	backStepcnt		= 0;
 	walkcnt			= 5;
 
 
