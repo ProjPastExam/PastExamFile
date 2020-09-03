@@ -1,5 +1,6 @@
 function sc_playerAttack() {
 	Attacked = true;
+	state = 98;
 	var DMG = sc_getPlayer("playerDmg");
 
 	/*if( Attacked ) {

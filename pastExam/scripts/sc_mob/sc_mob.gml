@@ -66,7 +66,7 @@ function sc_mob() {
 
 	if(!global.isPause) {
 		// 피격
-		if ( place_meeting(x, y, ob_atkEffect) ) {
+		if ( state != 99 && place_meeting(x, y, ob_atkEffect) ) {
 			Attacked_delay -= 1;
 			if ( !Attacked_delay ) {
 				sc_playerAttack();
@@ -75,6 +75,4 @@ function sc_mob() {
 			}
 		}
 	}
-
-
 }

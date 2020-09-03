@@ -7,6 +7,7 @@ function sc_mobBandit3() {
 	// 3 뒤로도망
 	// 4 백스텝
 	// 5 넉백
+	// 98 피격
 	// 99 사망
 
 	/////////////////////////////////////
@@ -32,8 +33,10 @@ function sc_mobBandit3() {
 				break;
 			case 5:
 				sc_mobStand(sp_mobBanditStand3);
+			case 98:
+				sc_mobHit(sp_mobBanditHit3);
 			case 99:
-				instance_destroy(self);
+				sc_mobDead(sp_mobBanditDead3, 1);
 				break;
 		}
 	}

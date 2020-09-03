@@ -15,7 +15,7 @@ function sc_mobValue() {
 	ySpeed	= 0;				// 몬스터 점프량
 	grav	= 0.12;
 
-	mobHP = 100;
+	mobHP = 30;
 	mobHP_MAX = mobHP;
 	frontSight		= 220;		// 앞쪽 시야(6칸)
 	backSight		= frontSight/2;		// 뒤쪽 시야(3칸)
@@ -31,6 +31,8 @@ function sc_mobValue() {
 	Stern_delay		= 60;		// 1초 스턴
 	AttackedCount	= 0;		// 공격당한 횟수 저장
 	mobatkProcess	= 0;
+	mobDeadProcess	= 0;
+	mobHitProcess	= 0;
 	dir				= 0;		// 몬스터가 보고 있는 방향 ( 1 왼쪽 )
 	state			= 0;
 	runAwaycnt		= 60;
