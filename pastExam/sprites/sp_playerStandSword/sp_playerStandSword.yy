@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 250,
-  "height": 200,
+  "width": 256,
+  "height": 256,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,18 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"51f7c531-6c25-4b70-b698-3bb6672ef89c","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"51f7c531-6c25-4b70-b698-3bb6672ef89c","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":{"name":"a1114f04-5bcf-4e4a-8bec-0a8974232486","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_playerStandSword","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"51f7c531-6c25-4b70-b698-3bb6672ef89c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a4f489d1-3579-47d4-9a56-417f90c2c3d4","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a4f489d1-3579-47d4-9a56-417f90c2c3d4","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":{"name":"a1114f04-5bcf-4e4a-8bec-0a8974232486","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_playerStandSword","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"a4f489d1-3579-47d4-9a56-417f90c2c3d4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"55d7911f-c815-4b50-9793-f19789776ca0","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"55d7911f-c815-4b50-9793-f19789776ca0","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":{"name":"a1114f04-5bcf-4e4a-8bec-0a8974232486","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_playerStandSword","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"55d7911f-c815-4b50-9793-f19789776ca0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ea45a3e3-dadf-462f-9df9-23500940a975","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ea45a3e3-dadf-462f-9df9-23500940a975","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":{"name":"a1114f04-5bcf-4e4a-8bec-0a8974232486","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_playerStandSword","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"ea45a3e3-dadf-462f-9df9-23500940a975","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7a781e69-eb31-4185-93fc-8abe0114da6c","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7a781e69-eb31-4185-93fc-8abe0114da6c","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":{"name":"db8ca6b7-c6f3-42fb-9269-8158acd346dc","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_playerStandSword","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"7a781e69-eb31-4185-93fc-8abe0114da6c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c208e6a0-897f-49fe-a17e-9047010c6752","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c208e6a0-897f-49fe-a17e-9047010c6752","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":{"name":"db8ca6b7-c6f3-42fb-9269-8158acd346dc","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_playerStandSword","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"c208e6a0-897f-49fe-a17e-9047010c6752","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d802eb22-fb6f-47fb-9ee5-b6a13c6084f2","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d802eb22-fb6f-47fb-9ee5-b6a13c6084f2","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":{"name":"db8ca6b7-c6f3-42fb-9269-8158acd346dc","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_playerStandSword","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"d802eb22-fb6f-47fb-9ee5-b6a13c6084f2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"59f7083b-6875-4348-b19d-5a08fd9bd20b","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"59f7083b-6875-4348-b19d-5a08fd9bd20b","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"LayerId":{"name":"db8ca6b7-c6f3-42fb-9269-8158acd346dc","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_playerStandSword","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","name":"59f7083b-6875-4348-b19d-5a08fd9bd20b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sp_playerStandSword","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},
@@ -50,10 +50,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c13aaa6c-4316-4a93-a369-a2e8b097154a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"51f7c531-6c25-4b70-b698-3bb6672ef89c","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"1aa6650d-7fd0-46f9-b44b-613bd639b99b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a4f489d1-3579-47d4-9a56-417f90c2c3d4","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"3bf3ee70-4b50-4601-bcf9-ebec40168799","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"55d7911f-c815-4b50-9793-f19789776ca0","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"0d82c999-82e9-4ed1-ae80-b0d79148d970","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ea45a3e3-dadf-462f-9df9-23500940a975","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8c7bca82-df24-4607-b504-8f9eb25c0990","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7a781e69-eb31-4185-93fc-8abe0114da6c","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5b0e13ba-7c3f-4b80-956c-45a9b011c559","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c208e6a0-897f-49fe-a17e-9047010c6752","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f134d81a-fa86-49d8-a4ed-d39960880090","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d802eb22-fb6f-47fb-9ee5-b6a13c6084f2","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a54d542b-cea5-45e3-906d-231a337309da","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"59f7083b-6875-4348-b19d-5a08fd9bd20b","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -66,8 +66,8 @@
     "backdropHeight": 1080,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 125,
-    "yorigin": 100,
+    "xorigin": 128,
+    "yorigin": 128,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_playerStandSword","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},
@@ -77,7 +77,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a1114f04-5bcf-4e4a-8bec-0a8974232486","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"db8ca6b7-c6f3-42fb-9269-8158acd346dc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "pl_sword",
