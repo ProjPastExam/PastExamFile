@@ -33,7 +33,7 @@ function sc_playerSprite(argument0) {
 			sprite_index = sp_playerJumpSword;
 			if ( ySpeed < -10 )		image_index = 0;
 			else if ( ySpeed < -6 )	image_index = 1;
-			else if ( ySpeed < -2 )	image_index = 2;
+			else if ( ySpeed < 2 )	image_index = 2;
 			else if ( ySpeed < 6 )	image_index = 3;
 			else if ( ySpeed < 10 )	image_index = 4;
 			else					image_index = 5;
