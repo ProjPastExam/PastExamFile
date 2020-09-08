@@ -30,13 +30,13 @@ function sc_playerSprite(argument0) {
 			break;
 		
 		case 4:
-			sprite_index = sp_playerUpSword;
-			if ( image_index >= 2 ) image_speed = 0;
-			break;
-		case 5:
-			sprite_index = sp_playerDownSword;
-			if ( ySpeed < -1 ) image_index = 0;
-			if ( image_index >= 2 ) image_speed = 0;
+			sprite_index = sp_playerJumpSword;
+			if ( ySpeed < -10 )		image_index = 0;
+			else if ( ySpeed < -6 )	image_index = 1;
+			else if ( ySpeed < -2 )	image_index = 2;
+			else if ( ySpeed < 6 )	image_index = 3;
+			else if ( ySpeed < 10 )	image_index = 4;
+			else					image_index = 5;
 			break;
 	}
 

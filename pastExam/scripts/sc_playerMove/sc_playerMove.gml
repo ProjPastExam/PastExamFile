@@ -52,8 +52,7 @@ function sc_playerMove() {
 
 	//점프 스프라이트
 	if ( isJump && ( canMove == 0) ) {
-		if ( ySpeed < 0 ) sc_playerSprite(4);
-		else sc_playerSprite(5);
+		sc_playerSprite(4);
 	}
 
 

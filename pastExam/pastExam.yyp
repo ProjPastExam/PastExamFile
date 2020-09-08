@@ -2,8 +2,7 @@
   "resources": [
     {"id":{"name":"sp_playerStandSword","path":"sprites/sp_playerStandSword/sp_playerStandSword.yy",},"order":0,},
     {"id":{"name":"sp_playerRunSword","path":"sprites/sp_playerRunSword/sp_playerRunSword.yy",},"order":1,},
-    {"id":{"name":"sp_playerUpSword","path":"sprites/sp_playerUpSword/sp_playerUpSword.yy",},"order":2,},
-    {"id":{"name":"sp_playerDownSword","path":"sprites/sp_playerDownSword/sp_playerDownSword.yy",},"order":3,},
+    {"id":{"name":"sp_playerJumpSword","path":"sprites/sp_playerJumpSword/sp_playerJumpSword.yy",},"order":2,},
     {"id":{"name":"sp_playerDashSword","path":"sprites/sp_playerDashSword/sp_playerDashSword.yy",},"order":4,},
     {"id":{"name":"sp_playerHit1Sword","path":"sprites/sp_playerHit1Sword/sp_playerHit1Sword.yy",},"order":5,},
     {"id":{"name":"sp_playerHit2Sword","path":"sprites/sp_playerHit2Sword/sp_playerHit2Sword.yy",},"order":6,},
