@@ -13,7 +13,7 @@ function sc_playerHit(argument0, argument1) {
 	
 		if (impact == 0) {
 			ob_player.undie = 45;
-			uc_shake(2,0.5);
+			uc_shake(2,0.2);
 		}
 
 		if (impact == 1) {
@@ -22,7 +22,7 @@ function sc_playerHit(argument0, argument1) {
 			ob_player.hitAfter = 20;
 			ob_player.xSpeed += -ob_player.dir*18;
 			ob_player.canMove = 2;
-			uc_shake(5,0.5);
+			uc_shake(5,0.2);
 		}
 	
 		if (impact == 2) {
@@ -31,7 +31,7 @@ function sc_playerHit(argument0, argument1) {
 			ob_player.hitAfter = 30;
 			ob_player.xSpeed += -ob_player.dir*30;
 			ob_player.canMove = 2;
-			uc_shake(8,0.5);
+			uc_shake(8,0.2);
 		}
 	
 			if (impact == 3) {
@@ -41,7 +41,7 @@ function sc_playerHit(argument0, argument1) {
 			ob_player.hitAfter = 40;
 			ob_player.xSpeed += -ob_player.dir*40;
 			ob_player.canMove = 2;
-			uc_shake(10,0.5);
+			uc_shake(10,0.2);
 		}
 	}
 
