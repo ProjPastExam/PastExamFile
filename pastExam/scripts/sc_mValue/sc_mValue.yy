@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Parent",
-    "path": "folders/Scripts/mob/Parent.yy",
+    "name": "mBasic",
+    "path": "folders/Scripts/mob/mBasic.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Script148",
+  "name": "sc_mValue",
   "tags": [],
   "resourceType": "GMScript",
 }
