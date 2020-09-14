@@ -9,8 +9,8 @@ function sc_mobBackstep(argument0){
 	// 1초 동안 백스텝 실행
 	
 	backStepcnt += 1;
-	if( backStepcnt < spTime*25 && dir < 0 ) { x -= 3.5; }
-	if( backStepcnt < spTime*25 && dir > 0 ) { x += 3.5; }
+	if( backStepcnt < spTime*25 && dir < 0 && left != 3 && right != 3 ) { x -= 3.5; }
+	if( backStepcnt < spTime*25 && dir > 0 && left != 3 && right != 3 ) { x += 3.5; }
 	
 	if ( backStepcnt == 2 ) { ySpeed -= 1.8; }
 	if ( backStepcnt < spTime*5 )			{ image_index = 0; }
