@@ -17,7 +17,7 @@ function sc_mobRun2(argument0) {
 				}
 				_targetX = 0;
 			}
-			x += _targetX;
+			if ( right != 3) { x += _targetX; }
 			// 플레이어가 몬스터의 위에 있으면, 점프
 			if ( TargetB < -16 && TargetB  > -256) {
 				if ( bottom1 == 2 && bottom2 != 2  && ySpeed > 0 || bottom1 == 3 ) {
@@ -48,7 +48,7 @@ function sc_mobRun2(argument0) {
 				}
 				_targetX = 0;
 			}
-			x += _targetX;
+			if (left !=3 ) { x += _targetX; }
 			// 플레이어가 몬스터보다 위에 있으면, 점프
 			if ( TargetB < -16 && TargetB  > -256) {
 				if ( bottom1 == 2 && bottom2 != 2  && ySpeed > 0 || bottom1 == 3 ) {
