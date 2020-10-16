@@ -81,6 +81,7 @@
     {"id":{"name":"uc_set_debug_mode","path":"scripts/uc_set_debug_mode/uc_set_debug_mode.yy",},"order":3,},
     {"id":{"name":"scr_signtest","path":"scripts/scr_signtest/scr_signtest.yy",},"order":4,},
     {"id":{"name":"uc_get_y","path":"scripts/uc_get_y/uc_get_y.yy",},"order":3,},
+    {"id":{"name":"sp_pl_run","path":"sprites/sp_pl_run/sp_pl_run.yy",},"order":3,},
     {"id":{"name":"scr_update_corners","path":"scripts/scr_update_corners/scr_update_corners.yy",},"order":5,},
     {"id":{"name":"uc_set_view_scale","path":"scripts/uc_set_view_scale/uc_set_view_scale.yy",},"order":4,},
     {"id":{"name":"uls_set_light_color","path":"scripts/uls_set_light_color/uls_set_light_color.yy",},"order":2,},

@@ -10,7 +10,7 @@ function sc_pl_sprite(argument0) {
 			break;
 	
 		case 1:
-			sprite_index = sp_pl_stand;
+			sprite_index = sp_pl_run;
 			break;
 
 	}
