@@ -1,0 +1,87 @@
+function sc_pl_move() {
+
+	var jumpSpeed	= -17.5;
+	var last		= 30;
+	var	accSpeed	= 0.8;
+	var	walkSpeed	= 7;
+	
+	//점프
+	if ( jumpLast > 0 ) jumpLast--;
+
+	if ( keyJump ) { 
+		if ( !isJump && ( canMove == 0 ) ) { jumpLast = last; ySpeed = jumpSpeed; }
+	}
+	if ( (canMove != 5 && !keyJump2) || ySpeed >= 0 ) {
+		jumpLast = 0;
+	}
+	if ( jumpLast == 0 && ySpeed < 0 ) {
+		ySpeed += 1;
+	}
+
+	//if ( isJump && ( canMove == 0 ) ) { sc_pl_sprite(4); }
+
+	
+	if ( canMove == 0 ) {
+		//좌우 이동
+		if ( keyLeft )	{ 
+			if ( xSpeed > -walkSpeed )	xSpeed -= accSpeed;
+			else xSpeed = -walkSpeed;
+			dir = -1;
+			if ( !isJump && canMove == 0 ) sc_pl_sprite(1);
+		}
+		if ( keyRight )	{
+			if (( xSpeed < walkSpeed ))	xSpeed += accSpeed; 
+			else xSpeed = walkSpeed;
+			dir = 1;
+			if ( !isJump && canMove == 0 ) sc_pl_sprite(1);
+		}
+
+	}
+
+	//입력 없을시 정지
+	if ( !keyLeft && !keyRight && ( canMove == 0 ) ) {
+		if ( !isJump && canMove == 0 ) { sc_pl_sprite(0);	spIndex = false; }
+		if ( xSpeed > accSpeed )		xSpeed -= accSpeed;
+		else if ( xSpeed < -accSpeed )	xSpeed += accSpeed;
+		else							xSpeed = 0;
+	}
+	
+	
+	if ( atkProcess < -1 ) atkProcess++;
+	
+	if ( keyAttack && atkProcess == -1 ) {
+		atkProcess = 0;
+		canMove = 1;
+	}
+
+	if ( atkProcess > -1 && canMove == 1 ) sc_pl_atk();
+	if ( atkProcess > -1 && canMove == 2 ) sc_pl_atk2();
+	if ( atkProcess > -1 && canMove == 3 ) sc_pl_atkFront();
+	if ( atkProcess > -1 && canMove == 4 ) sc_pl_atkBack();
+	if ( atkProcess > -1 && canMove == 5 ) sc_pl_atkDown();
+	if ( atkProcess > -1 && canMove == 6 ) sc_pl_atkUp();
+	if ( atkProcess > -1 && canMove == 7 ) sc_pl_atkFront2();
+	
+/*
+	if ( canMove == 10 ) {
+		image_alpha = 0;
+		hitEffect = 8;
+		atkProcess = -1;
+		canMove = 0;
+	}
+	if ( hitAfter > 0 ) {
+		if ( hitEffect > 0 ) hitEffect--;
+		else {
+			if ( image_alpha == 1 ) image_alpha = 0.4;
+			else					image_alpha = 1;
+			hitEffect = 8;
+		}
+		hitAfter -= 1;
+	}
+	else {
+		image_alpha = 1;
+		hitEffect = 0;
+	}
+	*/
+	
+}
