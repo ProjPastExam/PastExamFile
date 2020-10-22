@@ -3,3 +3,6 @@
 pause = 0;
 slow = 0;
 alarm[0] = 1;
+
+GUIX = 50;
+GUIY = 50;
