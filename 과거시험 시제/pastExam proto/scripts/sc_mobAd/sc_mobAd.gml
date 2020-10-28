@@ -15,5 +15,6 @@ function sc_mobAd(){
 		state = 0;
 		delay = random_range(90,120);
 		ad = false;
+		process = 0;
 	}
 }
