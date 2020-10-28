@@ -19,6 +19,21 @@ function sc_pl_atk(){
 		ob_atkEf01.image_xscale = dir;
 	}
 	
+	//대쉬 제어
+	if ( (atkProcess > 38 && atkProcess < 58) || (atkProcess > 6 && atkProcess < 26) ) 
+		if ( keyDash ) nextAtk = 10;
+		
+	if ( (atkProcess > 49 && atkProcess < 58) || (atkProcess > 23 && atkProcess < 32) ) {
+		if ( nextAtk == 10 ) {
+			dProcess = 0;
+			nextAtk = 0;
+			canMove = 10;
+			atkProcess = -1;
+			if ( keyRight ) dir = 1;
+			if ( keyLeft ) dir = -1
+		}
+	}
+	
 	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; }
 	else if ( atkProcess < 14 )	{ image_index = 1; }
 	else if ( atkProcess < 20 )	{ image_index = 2; }

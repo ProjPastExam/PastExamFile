@@ -6,7 +6,7 @@ function sc_mobAd(){
 	
 	if (drX < 0) drX = drX* -1;
 	
-	if ( !ad && (drX < adDistance && (drY > -196) && (drY < 196)) ) {
+	if ( !ad && (drX < adDistance && (drY > -150) && (drY < 150)) ) {
 		state = 10;
 		delay = 0;
 		ad = true;

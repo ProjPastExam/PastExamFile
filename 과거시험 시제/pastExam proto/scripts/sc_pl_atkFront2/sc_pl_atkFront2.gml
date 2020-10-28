@@ -17,6 +17,21 @@ function sc_pl_atkFront2(){
 		ob_atkEf02.image_xscale = dir;
 	}
 	
+	//대쉬 제어
+	if ( (atkProcess > 40 && atkProcess < 60) ) 
+		if ( keyDash ) nextAtk = 10;
+		
+	if ( (atkProcess > 51 && atkProcess < 60) ) {
+		if ( nextAtk == 10 ) {
+			dProcess = 0;
+			nextAtk = 0;
+			canMove = 10;
+			atkProcess = -1;
+			if ( keyRight ) dir = 1;
+			if ( keyLeft ) dir = -1
+		}
+	}
+	
 	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; xSpeed = 10*dir; }
 	else if ( atkProcess < 9 )	{ image_index = 1; xSpeed = 12*dir; }
 	else if ( atkProcess < 15 )	{ image_index = 2; xSpeed = 10*dir; }

@@ -21,6 +21,21 @@ function sc_pl_atkUp(){
 		if ( dir == -1 )	ob_atkEf02.image_angle = 150;
 	}
 	
+	//대쉬 제어
+	if ( (atkProcess > 40 && atkProcess < 60) ) 
+		if ( keyDash ) nextAtk = 10;
+		
+	if ( (atkProcess > 51 && atkProcess < 60) ) {
+		if ( nextAtk == 10 ) {
+			dProcess = 0;
+			nextAtk = 0;
+			canMove = 10;
+			atkProcess = -1;
+			if ( keyRight ) dir = 1;
+			if ( keyLeft ) dir = -1
+		}
+	}
+	
 	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; }
 	else if ( atkProcess < 12 )	{ image_index = 1; xSpeed = -2*dir; }
 	else if ( atkProcess < 18 )	{ image_index = 2; xSpeed = -4*dir; }

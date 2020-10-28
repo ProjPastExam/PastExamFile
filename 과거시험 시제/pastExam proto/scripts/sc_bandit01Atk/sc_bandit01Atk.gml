@@ -1,6 +1,16 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_bandit01Atk(){
+	var tileId	= layer_tilemap_get_id("Tile_Collision");
+	var left1	= tilemap_get_at_pixel(tileId, bbox_left, bbox_bottom - 16 );
+	var left2	= tilemap_get_at_pixel(tileId, bbox_left, bbox_top + 16 );
+	var right1	= tilemap_get_at_pixel(tileId, bbox_right, bbox_bottom - 16 );
+	var right2	= tilemap_get_at_pixel(tileId, bbox_right, bbox_top + 16 );
+	
+	if ( delay > 0 ) delay--;
+	if ( delay < 0 ) delay = 0;
+	
+	
 	var plX = sc_pl_get("x");
 	if ( state == 10 ) {
 		if ( x > plX ) dir = -1;
@@ -8,6 +18,7 @@ function sc_bandit01Atk(){
 		if ( delay == 0 ) {
 			state = 11;
 		}
+		
 	}
 	if ( state == 11 ){
 		if ( plX > x + 180 ) {
@@ -21,6 +32,10 @@ function sc_bandit01Atk(){
 		else {
 			state = 12;
 		}
+		if ( !isJump && dir == -1 && (( left1 == 3 || left2 == 3)))	
+			{ ySpeed = -15; }
+		if ( !isJump && dir == 1 && (( right1 == 3 || right2 == 3 )))
+			{ ySpeed = -15; }
 	}
 	if ( state == 12 ) {
 		process++;
