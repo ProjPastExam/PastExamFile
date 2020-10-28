@@ -15,12 +15,12 @@ function sc_pl_Spawn() {
 	//window_set_fullscreen(true);
 	
 	jumpLast = 0;
-
+	
 	//0 : 평시  1 : 기본공격
 	canMove = 0;
 	
 	atkProcess = -1;
-
+	
 	spIndex = false;
 	
 	nextAtk = 0; //연격 변수
@@ -28,8 +28,10 @@ function sc_pl_Spawn() {
 	hitAfter = 0;
 	
 	hitEffect = 0;
-
+	
 	energy	= 0;
 	
 	isEnergy = false;
+	
+	dProcess = -1;
 }

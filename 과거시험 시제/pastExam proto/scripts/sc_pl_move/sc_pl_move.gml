@@ -48,10 +48,15 @@ function sc_pl_move() {
 	
 	
 	if ( atkProcess < -1 ) atkProcess++;
+	if ( dProcess < -1 ) dProcess++;
 	
-	if ( keyAttack && atkProcess == -1 ) {
+	if ( keyAttack && atkProcess == -1 && canMove == 0 ) {
 		atkProcess = 0;
 		canMove = 1;
+	}
+	if ( keyDash && dProcess == -1 && canMove == 0) {
+		dProcess = 0;
+		canMove = 10;
 	}
 
 	if ( atkProcess > -1 && canMove == 1 ) sc_pl_atk();
@@ -61,6 +66,8 @@ function sc_pl_move() {
 	if ( atkProcess > -1 && canMove == 5 ) sc_pl_atkDown();
 	if ( atkProcess > -1 && canMove == 6 ) sc_pl_atkUp();
 	if ( atkProcess > -1 && canMove == 7 ) sc_pl_atkFront2();
+	
+	if ( dProcess > -1 && canMove == 10 ) sc_pl_dash();
 	
 /*
 	if ( canMove == 10 ) {
