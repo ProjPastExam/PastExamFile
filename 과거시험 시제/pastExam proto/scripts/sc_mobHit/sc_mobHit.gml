@@ -29,6 +29,7 @@ function sc_mobHit( argument0 ){
 				hitDir = 1;
 			}
 			uc_shake(3, 0.15);
+			audio_play_sound(s_hit01, false, false);
 			part_type_scale( global.hitEf02T, 1, 1 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 15 );
 			part_type_orientation( global.hitEf02T, -30, 30, 0, 0, 0 );
@@ -54,6 +55,7 @@ function sc_mobHit( argument0 ){
 				hitDir = 1;
 			}
 			uc_shake(5, 0.2);
+			audio_play_sound(s_hit01, false, false);
 			part_type_scale( global.hitEf02T, 1.5, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 30 );
 			part_type_orientation( global.hitEf02T, -30, 30, 0, 0, 0 );
@@ -75,6 +77,7 @@ function sc_mobHit( argument0 ){
 				hitDir = 1;
 			}
 			uc_shake(5, 0.15);
+			audio_play_sound(s_hit01, false, false);
 			part_type_scale( global.hitEf02T, 1.5, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
 			part_type_orientation( global.hitEf02T, -30, 30, 0, 0, 0 );
@@ -96,6 +99,7 @@ function sc_mobHit( argument0 ){
 				hitDir = 1;
 			}
 			uc_shake(5, 0.2);
+			audio_play_sound(s_hit01, false, false);
 			part_type_scale( global.hitEf02T, 1.5, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
 			part_type_orientation( global.hitEf02T, -30, 30, 0, 0, 0 );

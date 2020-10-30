@@ -16,6 +16,7 @@ function sc_pl_atkBack(){
 	if ( atkProcess == 20 ) {
 		instance_create_layer(x, y+10, "effect", ob_atkEf01);
 		ob_atkEf01.image_xscale = dir;
+		audio_play_sound(s_arrow01, false, false);
 	}
 	
 	//대쉬 제어

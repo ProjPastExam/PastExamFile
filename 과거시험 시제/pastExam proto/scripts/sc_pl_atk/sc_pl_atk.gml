@@ -17,6 +17,7 @@ function sc_pl_atk(){
 	if ( atkProcess == 14 || (atkProcess == 32 && image_index == 5) ) {
 		instance_create_layer(x, y, "effect", ob_atkEf01);
 		ob_atkEf01.image_xscale = dir;
+		audio_play_sound(s_arrow01, false, false);
 	}
 	
 	//대쉬 제어
