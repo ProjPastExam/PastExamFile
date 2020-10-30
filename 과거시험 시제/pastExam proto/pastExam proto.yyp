@@ -42,6 +42,7 @@
     {"id":{"name":"uc_get_flash_speed","path":"scripts/uc_get_flash_speed/uc_get_flash_speed.yy",},"order":2,},
     {"id":{"name":"uc_get_object_borders_acceleration","path":"scripts/uc_get_object_borders_acceleration/uc_get_object_borders_acceleration.yy",},"order":0,},
     {"id":{"name":"uc_set_y","path":"scripts/uc_set_y/uc_set_y.yy",},"order":7,},
+    {"id":{"name":"s_dash01","path":"sounds/s_dash01/s_dash01.yy",},"order":2,},
     {"id":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"order":0,},
     {"id":{"name":"sp_hitEffect01","path":"sprites/sp_hitEffect01/sp_hitEffect01.yy",},"order":0,},
     {"id":{"name":"scr_define_corners","path":"scripts/scr_define_corners/scr_define_corners.yy",},"order":3,},
