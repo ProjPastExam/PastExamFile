@@ -12,3 +12,4 @@ delay : 순찰, 공격간 딜레이 조정
 */
 sc_obPValue();
 alarm[0] = 1;
+alarm[5] = 5;
