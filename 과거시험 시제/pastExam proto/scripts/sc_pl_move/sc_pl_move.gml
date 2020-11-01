@@ -9,7 +9,12 @@ function sc_pl_move() {
 	if ( jumpLast > 0 ) jumpLast--;
 
 	if ( keyJump ) { 
-		if ( !isJump && ( canMove == 0 ) ) { jumpLast = last; ySpeed = jumpSpeed; }
+		if ( keyDown ) { 
+			var tileId	= layer_tilemap_get_id("Tile_Collision");
+			var bottom	= tilemap_get_at_pixel(tileId, x, bbox_bottom);
+			if (bottom == 2) y += 16;
+			}
+		else if ( !isJump && ( canMove == 0 ) ) { jumpLast = last; ySpeed = jumpSpeed; }
 	}
 	if ( (canMove != 5 && !keyJump2) || ySpeed >= 0 ) {
 		jumpLast = 0;
