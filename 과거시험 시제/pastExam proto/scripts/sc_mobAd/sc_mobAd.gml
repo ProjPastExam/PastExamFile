@@ -11,7 +11,13 @@ function sc_mobAd(){
 		delay = 0;
 		ad = true;
 	}
-	if ( ad && (drX > adDistance * 1.5 || (drY < -320) || (drY > 320)) ) {
+	if ( ad && (drX > adDistance * 1.5) ) {
+		state = 0;
+		delay = random_range(90,120);
+		ad = false;
+		process = 0;
+	}
+	if ( ad && !sc_pl_get("isJump") && ((drY < -200) || (drY > 200)) ) {
 		state = 0;
 		delay = random_range(90,120);
 		ad = false;

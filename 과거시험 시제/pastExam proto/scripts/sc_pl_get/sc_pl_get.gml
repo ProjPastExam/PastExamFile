@@ -32,5 +32,9 @@ function sc_pl_get( argument0 ){
 			if ( ob_player.energy != NULL )	return ob_player.energy;
 			else						return -1;
 			break;
+		case "isJump":
+			if ( ob_player.isJump != NULL )	return ob_player.isJump;
+			else						return -1;
+			break;
 	}
 }

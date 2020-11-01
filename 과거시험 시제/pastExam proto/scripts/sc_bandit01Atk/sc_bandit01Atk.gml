@@ -12,6 +12,7 @@ function sc_bandit01Atk(){
 	
 	
 	var plX = sc_pl_get("x");
+	var plY = sc_pl_get("y");
 	if ( state == 10 ) {
 		if ( x > plX ) dir = -1;
 		else dir = 1;
@@ -36,6 +37,7 @@ function sc_bandit01Atk(){
 			{ ySpeed = -15; }
 		if ( !isJump && dir == 1 && (( right1 == 3 || right2 == 3 )))
 			{ ySpeed = -15; }
+		
 	}
 	if ( state == 12 ) {
 		process++;
