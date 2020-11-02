@@ -9,6 +9,8 @@ global.hp		= global.hpMax;
 global.mpMax	= 50;
 global.mp		= 0;
 
+global.itemNum	= 0;
+global.atkDmg	= array_create(6, 0);
 
 
 {
