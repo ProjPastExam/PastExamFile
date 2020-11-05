@@ -6,7 +6,6 @@ function sc_pl_atkFront2(){
 	image_xscale = dir;
 	sprite_index = sp_pl_atkFront2;
 	
-	
 	if ( atkProcess == 9 ) {
 		instance_create_layer(x, y, "effect", ob_atkEf03);
 		ob_atkEf03.image_xscale = dir;
