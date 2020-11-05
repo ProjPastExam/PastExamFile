@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"611805d6-c2f7-49ae-8a8d-e4baabb093b8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "playerBone",
-    "path": "folders/Sprites/playerBone.yy",
+    "name": "player",
+    "path": "folders/Sprites/player.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_pl_dash",

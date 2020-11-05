@@ -89,7 +89,7 @@
   ],
   "parent": {
     "name": "atkBone",
-    "path": "folders/Sprites/playerBone/atkBone.yy",
+    "path": "folders/Sprites/player/atkBone.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_pl_atkDown",

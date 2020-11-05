@@ -84,8 +84,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ed22b51e-df11-4d54-9d70-b3d56a9f8bd7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "playerBone",
-    "path": "folders/Sprites/playerBone.yy",
+    "name": "player",
+    "path": "folders/Sprites/player.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_pl_stand",

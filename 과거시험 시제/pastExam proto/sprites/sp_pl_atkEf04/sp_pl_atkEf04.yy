@@ -93,7 +93,7 @@
   ],
   "parent": {
     "name": "atkEffectBone",
-    "path": "folders/Sprites/playerBone/atkEffectBone.yy",
+    "path": "folders/Sprites/player/atkEffectBone.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_pl_atkEf04",
