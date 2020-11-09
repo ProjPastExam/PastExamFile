@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //particle 설정
-
+/*
 global.hpMax	= 5;
 global.hp		= global.hpMax;
 
@@ -105,5 +105,6 @@ var e09	= global.hitEf09T;
 
 part_type_sprite( e09, sp_loadEffect, true, true, false );
 part_type_life( e09, 20, 20 );
-*/
+
 }
+*/
