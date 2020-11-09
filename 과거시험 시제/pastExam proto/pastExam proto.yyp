@@ -136,6 +136,7 @@
     {"id":{"name":"uc_shake","path":"scripts/uc_shake/uc_shake.yy",},"order":2,},
     {"id":{"name":"obj_light_torch","path":"objects/obj_light_torch/obj_light_torch.yy",},"order":4,},
     {"id":{"name":"uc_enable_room_bounds_enabled","path":"scripts/uc_enable_room_bounds_enabled/uc_enable_room_bounds_enabled.yy",},"order":2,},
+    {"id":{"name":"Scr_VSLS","path":"scripts/Scr_VSLS/Scr_VSLS.yy",},"order":6,},
     {"id":{"name":"obj_light_lamp","path":"objects/obj_light_lamp/obj_light_lamp.yy",},"order":2,},
     {"id":{"name":"uls_get_light_color","path":"scripts/uls_get_light_color/uls_get_light_color.yy",},"order":2,},
     {"id":{"name":"uls_set_light_range","path":"scripts/uls_set_light_range/uls_set_light_range.yy",},"order":3,},

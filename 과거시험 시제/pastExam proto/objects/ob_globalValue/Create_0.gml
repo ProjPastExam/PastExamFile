@@ -12,6 +12,7 @@ global.mp		= 0;
 global.itemNum	= 0;
 global.atkDmg	= array_create(6, 0);
 
+global.atkDmg	= 10;
 
 {
 global.hitEf = part_system_create_layer("effect", true);

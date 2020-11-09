@@ -11,7 +11,7 @@ function sc_mobHit( argument0 ){
 		case 0:
 			if ( knockback ) state = 5;
 			hitAfter = 15;
-			hp -= 5;
+			hp -= global.atkDmg;
 			if ( ob_atkEf01.image_angle == 270 ) {
 				part_type_direction( global.hitEf01T, -235, 305, 0, 0 );
 				
@@ -39,7 +39,7 @@ function sc_mobHit( argument0 ){
 		case 1:
 			if ( knockback ) state = 5;
 			hitAfter = 15;
-			hp -= 15;
+			hp -= global.atkDmg * 2.5;
 			xSpeed = 0;
 			if ( ob_atkEf02.image_angle == 90 ) {
 				part_type_direction( global.hitEf01T, -235, 305, 0, 0 );
@@ -65,7 +65,7 @@ function sc_mobHit( argument0 ){
 		case 2:
 			if ( knockback ) state = 6;
 			hitAfter = 15;
-			hp -= 3;
+			hp -= global.atkDmg / 2;
 			xSpeed = 0;
 			
 			if ( plX > x )	{
@@ -87,7 +87,7 @@ function sc_mobHit( argument0 ){
 		case 3:
 			if ( knockback ) { ySpeed = -18;	state = 5; }
 			hitAfter = 15;
-			hp -= 3;
+			hp -= global.atkDmg / 2;
 			xSpeed = 0;
 			
 			if ( plX > x )	{
