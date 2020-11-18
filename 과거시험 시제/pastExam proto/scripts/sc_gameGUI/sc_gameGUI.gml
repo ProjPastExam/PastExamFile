@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_gameGUI(){
-	
+	draw_set_alpha(1);
 	var i = 1;
 	for ( i = 1; i < 10; i++ ) {
 		if ( global.hpMax >= i ) {

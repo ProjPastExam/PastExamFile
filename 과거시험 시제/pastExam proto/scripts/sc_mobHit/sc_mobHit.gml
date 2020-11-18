@@ -2,6 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_mobHit( argument0 ){
 	var plX = sc_pl_get("x");
+	var dmg = 0;
+	var dmgId;
 	//isHostile = true;
 	ad = true;
 	state = 10;
@@ -11,7 +13,10 @@ function sc_mobHit( argument0 ){
 		case 0:
 			if ( knockback ) state = 5;
 			hitAfter = 15;
-			hp -= global.atkDmg;
+			dmg = global.atkDmg;
+			hp -= dmg;
+			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
+			dmgId.dmg = dmg;
 			if ( ob_atkEf01.image_angle == 270 ) {
 				part_type_direction( global.hitEf01T, -235, 305, 0, 0 );
 				
@@ -39,7 +44,10 @@ function sc_mobHit( argument0 ){
 		case 1:
 			if ( knockback ) state = 5;
 			hitAfter = 15;
-			hp -= global.atkDmg * 2.5;
+			dmg = global.atkDmg * 2.5;
+			hp -= dmg;
+			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
+			dmgId.dmg = dmg;
 			xSpeed = 0;
 			if ( ob_atkEf02.image_angle == 90 ) {
 				part_type_direction( global.hitEf01T, -235, 305, 0, 0 );
@@ -65,7 +73,10 @@ function sc_mobHit( argument0 ){
 		case 2:
 			if ( knockback ) state = 6;
 			hitAfter = 15;
-			hp -= global.atkDmg / 2;
+			dmg = global.atkDmg / 2;
+			hp -= dmg;
+			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
+			dmgId.dmg = dmg;
 			xSpeed = 0;
 			
 			if ( plX > x )	{
@@ -87,7 +98,10 @@ function sc_mobHit( argument0 ){
 		case 3:
 			if ( knockback ) { ySpeed = -18;	state = 5; }
 			hitAfter = 15;
-			hp -= global.atkDmg / 2;
+			dmg = global.atkDmg / 2;
+			hp -= dmg;
+			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
+			dmgId.dmg = dmg;
 			xSpeed = 0;
 			
 			if ( plX > x )	{
