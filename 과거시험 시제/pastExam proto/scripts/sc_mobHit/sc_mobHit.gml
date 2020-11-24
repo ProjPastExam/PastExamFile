@@ -7,7 +7,7 @@ function sc_mobHit( argument0 ){
 	//isHostile = true;
 	ad = true;
 	state = 10;
-	process = 0;
+	if ( knockback ) process = 0;
 	switch ( argument0 ) {
 		
 		case 0:
