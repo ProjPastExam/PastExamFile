@@ -15,7 +15,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	sc_obPhysics();
 	if ( !isJump )	xSpeed = 0;
 	else xSpeed = xSpeed/1.1;
-	sc_badditBoss01Atk02();
+	sc_badditBoss01Atk01();
 }
 else {
 	image_speed = 0;
