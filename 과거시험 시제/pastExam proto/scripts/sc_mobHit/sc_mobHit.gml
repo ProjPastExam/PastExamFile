@@ -6,8 +6,8 @@ function sc_mobHit( argument0 ){
 	var dmgId;
 	//isHostile = true;
 	ad = true;
-	state = 10;
-	if ( knockback ) process = 0;
+	//state = 10;
+	if ( knockback ) { process = 0; }
 	switch ( argument0 ) {
 		
 		case 0:

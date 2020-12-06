@@ -10,13 +10,16 @@ else {
 }
 
 if ( sc_getRoomValue("pause") == 0 ) {
-	if ( hitAfter > 0 ) hitAfter--;
-	if ( knockback ) sc_mobKnockback();
+	if ( state != -1 ) {
+		if ( hitAfter > 0 ) hitAfter--;
+		if ( knockback ) sc_mobKnockback();
+		if ( !isJump )	xSpeed = 0;
+		else xSpeed = xSpeed/1.1;
+		if ( patrol ) sc_mobPatrol();
+		sc_mobAd();
+	}
 	sc_obPhysics();
-	if ( !isJump )	xSpeed = 0;
-	else xSpeed = xSpeed/1.1;
-	if ( patrol ) sc_mobPatrol();
-	sc_mobAd();
+	if ( hp <= 0 ) { state = -1; process = 0; }
 }
 else {
 	image_speed = 0;

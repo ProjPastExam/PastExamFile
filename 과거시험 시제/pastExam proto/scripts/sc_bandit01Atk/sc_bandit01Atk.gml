@@ -43,12 +43,11 @@ function sc_bandit01Atk(){
 		process++;
 		sprite_index = sp_bandit01_atk;
 		xSpeed = 0;
-		if ( process < 15 ) { image_index = 0; }
+		if ( process < 5 ) { image_index = 0; }
+		else if ( process < 15 ) { image_index = 1; }
 		else if ( process < 19 ) { image_index = 1; xSpeed = dir*24; }
 		else if ( process < 23 ) { image_index = 2; }
-		else if ( process < 27 ) { image_index = 3; }
-		else if ( process < 31 ) { image_index = 4; }
-		else if ( process < 40 ) { image_index = 5; }
+		else if ( process < 40 ) { image_index = 3; }
 		else { state = 10;	process = 0;	delay = random_range(50, 70); }
 	}
 }

@@ -9,6 +9,11 @@ function sc_bandit01Sprite(){
 	case 1:
 		sprite_index = sp_bandit01_walk;
 		break;
+	case 5:
+	case 6:
+	case 7:
+		sprite_index = sp_bandit01_pain;
+		break;
 	
 	case 10:
 		sprite_index = sp_bandit01_stand2;
