@@ -43,6 +43,13 @@ function sc_bandit01Atk(){
 		process++;
 		sprite_index = sp_bandit01_atk;
 		xSpeed = 0;
+
+		if ( process == 20 ) { 
+			var ob = instance_create_layer(x, y, "effect", ob_mobBandit01Atk);
+			ob.image_xscale = dir;
+		}
+		
+		
 		if ( process < 5 ) { image_index = 0; }
 		else if ( process < 15 ) { image_index = 1; }
 		else if ( process < 19 ) { image_index = 1; xSpeed = dir*24; }
