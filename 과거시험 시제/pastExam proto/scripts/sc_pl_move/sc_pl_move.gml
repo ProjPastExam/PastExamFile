@@ -74,13 +74,9 @@ function sc_pl_move() {
 	
 	if ( dProcess > -1 && canMove == 10 ) sc_pl_dash();
 	
-/*
-	if ( canMove == 10 ) {
-		image_alpha = 0;
-		hitEffect = 8;
-		atkProcess = -1;
-		canMove = 0;
-	}
+	
+
+	
 	if ( hitAfter > 0 ) {
 		if ( hitEffect > 0 ) hitEffect--;
 		else {
@@ -94,6 +90,6 @@ function sc_pl_move() {
 		image_alpha = 1;
 		hitEffect = 0;
 	}
-	*/
+	
 	
 }
