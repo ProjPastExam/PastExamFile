@@ -8,7 +8,7 @@ function sc_pl_hit(argument0){
 			uc_shake(10, 0.2);
 			if ( sc_getRoomValue("pause") == 0 ) { ob_roomControl.pause = 20; }
 			ob_player.hitAfter = 90;
-			ob_player.atkProcess = 0;
+			ob_player.atkProcess = -1;
 			ob_player.canMove = 0;
 			break;
 		}
