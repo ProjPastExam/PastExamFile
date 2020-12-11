@@ -150,6 +150,7 @@
     {"id":{"name":"sp_pl_atk","path":"sprites/sp_pl_atk/sp_pl_atk.yy",},"order":0,},
     {"id":{"name":"uc_get_view_auto_scale_factor","path":"scripts/uc_get_view_auto_scale_factor/uc_get_view_auto_scale_factor.yy",},"order":2,},
     {"id":{"name":"uc_get_bars_acceleration","path":"scripts/uc_get_bars_acceleration/uc_get_bars_acceleration.yy",},"order":0,},
+    {"id":{"name":"sp_bandit02_walk","path":"sprites/sp_bandit02_walk/sp_bandit02_walk.yy",},"order":5,},
     {"id":{"name":"uls_collider_define_shape_circle","path":"scripts/uls_collider_define_shape_circle/uls_collider_define_shape_circle.yy",},"order":0,},
     {"id":{"name":"sc_bandit01Atk","path":"scripts/sc_bandit01Atk/sc_bandit01Atk.yy",},"order":1,},
     {"id":{"name":"uc_shake","path":"scripts/uc_shake/uc_shake.yy",},"order":2,},
