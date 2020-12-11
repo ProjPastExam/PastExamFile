@@ -32,8 +32,8 @@
     {"propertyId":{"name":"hp","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"80","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "mob",
-    "path": "folders/Objects/mob.yy",
+    "name": "bandit",
+    "path": "folders/Objects/mob/bandit.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_mobBandit01",

@@ -30,8 +30,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "mob",
-    "path": "folders/Objects/mob.yy",
+    "name": "bandit",
+    "path": "folders/Objects/mob/bandit.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_mobBandit01Atk",
