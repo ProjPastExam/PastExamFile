@@ -16,6 +16,7 @@
     {"id":{"name":"obj_uls_light_renderer","path":"objects/obj_uls_light_renderer/obj_uls_light_renderer.yy",},"order":0,},
     {"id":{"name":"sc_pl_atkUp","path":"scripts/sc_pl_atkUp/sc_pl_atkUp.yy",},"order":5,},
     {"id":{"name":"sc_badditBoss01Atk02","path":"scripts/sc_badditBoss01Atk02/sc_badditBoss01Atk02.yy",},"order":2,},
+    {"id":{"name":"sp_bandit02_backStep","path":"sprites/sp_bandit02_backStep/sp_bandit02_backStep.yy",},"order":8,},
     {"id":{"name":"ob_mobBandit01","path":"objects/ob_mobBandit01/ob_mobBandit01.yy",},"order":0,},
     {"id":{"name":"uc_get_shake_intensity","path":"scripts/uc_get_shake_intensity/uc_get_shake_intensity.yy",},"order":1,},
     {"id":{"name":"uls_set_shadow_color","path":"scripts/uls_set_shadow_color/uls_set_shadow_color.yy",},"order":3,},
@@ -135,6 +136,7 @@
     {"id":{"name":"uc_bars","path":"scripts/uc_bars/uc_bars.yy",},"order":2,},
     {"id":{"name":"sp_bandit01_walk","path":"sprites/sp_bandit01_walk/sp_bandit01_walk.yy",},"order":1,},
     {"id":{"name":"uc_set_target_y","path":"scripts/uc_set_target_y/uc_set_target_y.yy",},"order":5,},
+    {"id":{"name":"sc_bandit02Sprite","path":"scripts/sc_bandit02Sprite/sc_bandit02Sprite.yy",},"order":3,},
     {"id":{"name":"uc_set_target_position","path":"scripts/uc_set_target_position/uc_set_target_position.yy",},"order":3,},
     {"id":{"name":"uc_set_scale_relative_to_mouse_enabled","path":"scripts/uc_set_scale_relative_to_mouse_enabled/uc_set_scale_relative_to_mouse_enabled.yy",},"order":3,},
     {"id":{"name":"uc_get_mode_name","path":"scripts/uc_get_mode_name/uc_get_mode_name.yy",},"order":1,},
@@ -225,6 +227,7 @@
     {"id":{"name":"uc_get_port_height","path":"scripts/uc_get_port_height/uc_get_port_height.yy",},"order":1,},
     {"id":{"name":"uls_set_blur_intensity","path":"scripts/uls_set_blur_intensity/uls_set_blur_intensity.yy",},"order":0,},
     {"id":{"name":"uls_get_light_animation","path":"scripts/uls_get_light_animation/uls_get_light_animation.yy",},"order":1,},
+    {"id":{"name":"ob_mobBandit02Atk","path":"objects/ob_mobBandit02Atk/ob_mobBandit02Atk.yy",},"order":4,},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},"order":0,},
   ],
   "Options": [

@@ -11,26 +11,25 @@ else {
 
 if ( sc_getRoomValue("pause") == 0 ) {
 	if ( state != -1 ) {
+		if ( !isJump )	xSpeed = 0;
 		if ( hitAfter > 0 ) hitAfter--;
 		if ( knockback ) sc_mobKnockback();
-		sc_obPhysics();
-		if ( !isJump )	xSpeed = 0;
 		else xSpeed = xSpeed/1.1;
 		if ( patrol ) sc_mobPatrol();
+		if ( hp <= 0 ) { state = -1; process = 0; }
 		sc_mobAd();
 		sc_bandit01Sprite();
 		if (ad) sc_bandit01Atk();
 	}
-	if ( hp <= 0 ) { state = -1; process = 0; }
-	if ( state == -1 ) {
+	else {
 		sprite_index = sp_bandit01_die;
-		sc_obPhysics();
 		if ( image_index == 0 ) xSpeed = -1 * dir * 15;
 		if ( image_index == 1 ) xSpeed = -1 * dir * 10;
 		if ( image_index == 2 ) xSpeed = -1 * dir * 5;
-		if ( image_index >= 3 ) { xSpeed = 0; image_speed = 0; }
-		
+		if ( image_index > 3 ) { xSpeed = 0; image_speed = 0; }
 	}
+	sc_obPhysics();
+
 }
 else {
 	image_speed = 0;

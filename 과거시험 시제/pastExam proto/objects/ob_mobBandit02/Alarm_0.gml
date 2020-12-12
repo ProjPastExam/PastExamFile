@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+/// @description Insert description here
+// You can write your code in this editor
 if ( sc_getRoomValue("slow") == 0 )	{
 	alarm[0] = 1;
 	image_speed = 1;
@@ -18,11 +20,15 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		if ( patrol ) sc_mobPatrol();
 		if ( hp <= 0 ) { state = -1; process = 0; }
 		sc_mobAd();
-		//이하 몹 개인 코드
-		
+		sc_bandit02Sprite();
+		if (ad) sc_bandit02Atk();
 	}
 	else {
-
+		sprite_index = sp_bandit02_die;
+		if ( image_index == 0 ) xSpeed = -1 * dir * 15;
+		if ( image_index == 1 ) xSpeed = -1 * dir * 10;
+		if ( image_index == 2 ) xSpeed = -1 * dir * 5;
+		if ( image_index > 3 ) { xSpeed = 0; image_speed = 0; }
 	}
 	sc_obPhysics();
 }

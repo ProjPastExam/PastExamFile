@@ -9,6 +9,7 @@ function sc_pl_hit(argument0){
 			if ( sc_getRoomValue("pause") == 0 ) { ob_roomControl.pause = 20; }
 			ob_player.hitAfter = 90;
 			ob_player.atkProcess = -1;
+			ob_player.dProcess = -1;
 			ob_player.canMove = 0;
 			break;
 		}

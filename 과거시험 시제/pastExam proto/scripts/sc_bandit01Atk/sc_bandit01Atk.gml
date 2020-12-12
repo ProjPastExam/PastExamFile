@@ -22,7 +22,10 @@ function sc_bandit01Atk(){
 		
 	}
 	if ( state == 11 ){
-		if ( plX > x + 180 ) {
+		if ( plX < x + 80 && plX > x - 80 && (left1 != 3 && right1 != 3)) {
+			state = 13;
+		}
+		else if ( plX > x + 180 ) {
 			dir = 1;
 			xSpeed = 6;
 		}
@@ -56,5 +59,17 @@ function sc_bandit01Atk(){
 		else if ( process < 23 ) { image_index = 2; }
 		else if ( process < 40 ) { image_index = 3; }
 		else { state = 10;	process = 0;	delay = random_range(50, 70); }
+	}
+	
+	if ( state == 13 ) {
+		process++;
+		sprite_index = sp_bandit01_backStep;
+		
+		if ( process < 4 ) { image_index = 0; }
+		else if ( process < 10 ) { image_index = 1; xSpeed = dir*15*-1; }
+		else if ( process < 14 ) { image_index = 2; xSpeed = dir*5*-1; }
+		else if ( process < 18 ) { image_index = 3; }
+		else if ( process < 20 ) { image_index = 4; }
+		else { state = 12;	process = 0;	delay = 0; }
 	}
 }
