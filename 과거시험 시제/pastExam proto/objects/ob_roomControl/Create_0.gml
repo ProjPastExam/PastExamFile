@@ -24,10 +24,12 @@ var e01	= global.hitEf01T;
 //몹 피격시 의지 날림 효과
 
 //part_type_color1( e01, c_red );
-part_type_shape( e01, pt_shape_disk );
-part_type_size( e01, 0.2, 0.4, -0.02, 0 );
-part_type_gravity( e01, 0.2, 270 );
+part_type_shape( e01, pt_shape_square );
+part_type_size( e01, 0.2, 0.2, -0.008, 0 );
+part_type_gravity( e01, 0.4, 270 );
 part_type_speed( e01, 15, 25, -0.5, 0 );
+part_type_color1(e01, c_red);
+
 
 
 global.hitEf02T = part_type_create();
