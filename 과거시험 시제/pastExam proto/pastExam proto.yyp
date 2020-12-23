@@ -217,6 +217,7 @@
     {"id":{"name":"sp_pl_atkUp","path":"sprites/sp_pl_atkUp/sp_pl_atkUp.yy",},"order":4,},
     {"id":{"name":"room_example","path":"rooms/room_example/room_example.yy",},"order":0,},
     {"id":{"name":"uc_init_mouse_shooter","path":"scripts/uc_init_mouse_shooter/uc_init_mouse_shooter.yy",},"order":2,},
+    {"id":{"name":"sp_bandit02_atkEffect2","path":"sprites/sp_bandit02_atkEffect2/sp_bandit02_atkEffect2.yy",},"order":9,},
     {"id":{"name":"sc_pl_atkBack","path":"scripts/sc_pl_atkBack/sc_pl_atkBack.yy",},"order":3,},
     {"id":{"name":"sc_pl_atk2","path":"scripts/sc_pl_atk2/sc_pl_atk2.yy",},"order":1,},
     {"id":{"name":"uc_macros","path":"scripts/uc_macros/uc_macros.yy",},"order":3,},

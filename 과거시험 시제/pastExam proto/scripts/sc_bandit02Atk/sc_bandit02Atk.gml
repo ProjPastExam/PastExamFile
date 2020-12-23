@@ -60,7 +60,7 @@ function sc_bandit02Atk(){
 		if ( process < 15 ) { image_index = 0; }
 		else if ( process < 20 ) { image_index = 1; }
 		else if ( process < 30 ) { image_index = 2; }
-		else { state = 10;	process = 0;	delay = random_range(100, 160); }
+		else { state = 10;	process = 0;	delay = random_range(120, 200); }
 	}
 	
 	if ( state == 13 ) {
