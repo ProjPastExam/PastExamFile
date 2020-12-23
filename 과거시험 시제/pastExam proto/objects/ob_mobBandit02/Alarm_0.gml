@@ -16,10 +16,9 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		if ( !isJump )	xSpeed = 0;
 		if ( hitAfter > 0 ) hitAfter--;
 		if ( knockback ) sc_mobKnockback();
-		else xSpeed = xSpeed/1.1;
 		if ( patrol ) sc_mobPatrol();
 		if ( hp <= 0 ) { state = -1; process = 0; }
-		sc_mobAd();
+		if (state != 5 && state != 6) sc_mobAd();
 		sc_bandit02Sprite();
 		if (ad) sc_bandit02Atk();
 	}
