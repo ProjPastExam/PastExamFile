@@ -18,10 +18,9 @@ global.hitEf = part_system_create_layer("effect", true);
 global.hitEf2 = part_system_create_layer("effect2", true);
 //플레이어 후면 이팩트
 
-
+//몹 피격시 의지 날림 효과
 global.hitEf01T = part_type_create();
 var e01	= global.hitEf01T;
-//몹 피격시 의지 날림 효과
 
 //part_type_color1( e01, c_red );
 part_type_shape( e01, pt_shape_square );
@@ -31,11 +30,18 @@ part_type_speed( e01, 15, 25, -0.5, 0 );
 part_type_color1(e01, c_red);
 
 
-
+//일반공격 피격시 타격감 효과
 global.hitEf02T = part_type_create();
 var e02	= global.hitEf02T;
-//일반공격 피격시 타격감 효과
 
 part_type_sprite( e02, sp_hitEffect01, true, true, false );
 part_type_life( e02, 20, 20 );
+
+
+//플레이어 피격시 타격감 효과
+global.hitEf04T = part_type_create();
+var e04	= global.hitEf04T;
+
+part_type_sprite( e04, sp_plHitEffect01, true, true, false );
+part_type_life( e04, 20, 20 );
 }
