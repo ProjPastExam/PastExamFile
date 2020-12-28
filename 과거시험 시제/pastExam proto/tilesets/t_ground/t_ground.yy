@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_ground",
-    "path": "sprites/sp_ground/sp_ground.yy",
+    "name": "sp_ground2",
+    "path": "sprites/sp_ground2/sp_ground2.yy",
   },
   "tileWidth": 64,
   "tileHeight": 64,
