@@ -47,6 +47,7 @@
     {"id":{"name":"ob_atkEf04","path":"objects/ob_atkEf04/ob_atkEf04.yy",},"order":4,},
     {"id":{"name":"uls_set_light_alpha","path":"scripts/uls_set_light_alpha/uls_set_light_alpha.yy",},"order":0,},
     {"id":{"name":"spr_light_cone","path":"sprites/spr_light_cone/spr_light_cone.yy",},"order":4,},
+    {"id":{"name":"sp_pl_jump","path":"sprites/sp_pl_jump/sp_pl_jump.yy",},"order":5,},
     {"id":{"name":"uc_get_flash_speed","path":"scripts/uc_get_flash_speed/uc_get_flash_speed.yy",},"order":2,},
     {"id":{"name":"uc_get_object_borders_acceleration","path":"scripts/uc_get_object_borders_acceleration/uc_get_object_borders_acceleration.yy",},"order":0,},
     {"id":{"name":"uc_set_y","path":"scripts/uc_set_y/uc_set_y.yy",},"order":7,},

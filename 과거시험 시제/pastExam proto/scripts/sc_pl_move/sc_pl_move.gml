@@ -23,7 +23,7 @@ function sc_pl_move() {
 		ySpeed += 1;
 	}
 
-	//if ( isJump && ( canMove == 0 ) ) { sc_pl_sprite(4); }
+	if ( isJump && ( canMove == 0 ) ) { sc_pl_sprite(2); }
 
 	
 	if ( canMove == 0 ) {
