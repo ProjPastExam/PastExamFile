@@ -13,6 +13,10 @@ function sc_pl_Spawn() {
 	uc_set_mode(0);
 	uc_set_target_position(x,y);
 	//window_set_fullscreen(true);
+	camX = uc_get_x();
+	camY = uc_get_y();
+	
+	//기본 변수
 	
 	jumpLast = 0;
 	
