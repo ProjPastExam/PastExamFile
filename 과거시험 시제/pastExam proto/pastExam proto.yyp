@@ -173,6 +173,7 @@
     {"id":{"name":"sp_pl_dash","path":"sprites/sp_pl_dash/sp_pl_dash.yy",},"order":4,},
     {"id":{"name":"s_arrow01","path":"sounds/s_arrow01/s_arrow01.yy",},"order":0,},
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},"order":8,},
+    {"id":{"name":"sp_bgTree01","path":"sprites/sp_bgTree01/sp_bgTree01.yy",},"order":0,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":5,},
     {"id":{"name":"uc_wave","path":"scripts/uc_wave/uc_wave.yy",},"order":5,},
     {"id":{"name":"obj_uls_controller","path":"objects/obj_uls_controller/obj_uls_controller.yy",},"order":3,},
@@ -359,6 +360,7 @@
     {"folderPath":"folders/Tile Sets/tileSprite.yy","order":2,"resourceVersion":"1.0","name":"tileSprite","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/mob/bandit/bandit02.yy","order":3,"resourceVersion":"1.0","name":"bandit02","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/mob/bandit.yy","order":6,"resourceVersion":"1.0","name":"bandit","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/background.yy","order":10,"resourceVersion":"1.0","name":"background","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
