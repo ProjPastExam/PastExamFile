@@ -14,7 +14,8 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	var bottom1	= tilemap_get_at_pixel(tileId, x, bbox_bottom);
 	var bottom2	= tilemap_get_at_pixel(tileId, x, bbox_bottom-16);
 	if ( bottom1 == 3 ) { 
-		xSpeed = 0; ySpeed = 0; sprite_index = sp_bandit02_atkEffect2; image_speed = 0; 
+		xSpeed = 0; ySpeed = 0; sprite_index = sp_bandit02_atkEffect2; image_speed = 0;
+		if (alarm[2] == -1) alarm[2] = 60;
 	}
 	if ( bottom1 == 2 && bottom2 != 2 && ySpeed > 0 ) { y += 16; }
 	sc_obPhysics();
