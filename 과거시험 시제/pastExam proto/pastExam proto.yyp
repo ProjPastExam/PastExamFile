@@ -18,6 +18,7 @@
     {"id":{"name":"sc_badditBoss01Atk02","path":"scripts/sc_badditBoss01Atk02/sc_badditBoss01Atk02.yy",},"order":2,},
     {"id":{"name":"sp_bandit02_backStep","path":"sprites/sp_bandit02_backStep/sp_bandit02_backStep.yy",},"order":8,},
     {"id":{"name":"ob_mobBandit01","path":"objects/ob_mobBandit01/ob_mobBandit01.yy",},"order":0,},
+    {"id":{"name":"tt","path":"rooms/tt/tt.yy",},"order":3,},
     {"id":{"name":"uc_get_shake_intensity","path":"scripts/uc_get_shake_intensity/uc_get_shake_intensity.yy",},"order":1,},
     {"id":{"name":"uls_set_shadow_color","path":"scripts/uls_set_shadow_color/uls_set_shadow_color.yy",},"order":3,},
     {"id":{"name":"uc_delete_instance_following_list","path":"scripts/uc_delete_instance_following_list/uc_delete_instance_following_list.yy",},"order":3,},
@@ -234,6 +235,7 @@
     {"id":{"name":"uc_get_port_height","path":"scripts/uc_get_port_height/uc_get_port_height.yy",},"order":1,},
     {"id":{"name":"uls_set_blur_intensity","path":"scripts/uls_set_blur_intensity/uls_set_blur_intensity.yy",},"order":0,},
     {"id":{"name":"uls_get_light_animation","path":"scripts/uls_get_light_animation/uls_get_light_animation.yy",},"order":1,},
+    {"id":{"name":"Object30","path":"objects/Object30/Object30.yy",},"order":7,},
     {"id":{"name":"ob_mobBandit02Atk","path":"objects/ob_mobBandit02Atk/ob_mobBandit02Atk.yy",},"order":4,},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},"order":0,},
   ],
@@ -257,6 +259,7 @@
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"roomId":{"name":"room_example","path":"rooms/room_example/room_example.yy",},},
     {"roomId":{"name":"room_example2","path":"rooms/room_example2/room_example2.yy",},},
+    {"roomId":{"name":"tt","path":"rooms/tt/tt.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
