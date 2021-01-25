@@ -22,6 +22,7 @@
     {"id":{"name":"uc_get_shake_intensity","path":"scripts/uc_get_shake_intensity/uc_get_shake_intensity.yy",},"order":1,},
     {"id":{"name":"uls_set_shadow_color","path":"scripts/uls_set_shadow_color/uls_set_shadow_color.yy",},"order":3,},
     {"id":{"name":"uc_delete_instance_following_list","path":"scripts/uc_delete_instance_following_list/uc_delete_instance_following_list.yy",},"order":3,},
+    {"id":{"name":"s_mr01","path":"sounds/s_mr01/s_mr01.yy",},"order":0,},
     {"id":{"name":"sp_bandit01_backStep","path":"sprites/sp_bandit01_backStep/sp_bandit01_backStep.yy",},"order":8,},
     {"id":{"name":"obj_triangle","path":"objects/obj_triangle/obj_triangle.yy",},"order":2,},
     {"id":{"name":"uc_get_flash_alpha","path":"scripts/uc_get_flash_alpha/uc_get_flash_alpha.yy",},"order":0,},
@@ -364,6 +365,7 @@
     {"folderPath":"folders/Sprites/mob/bandit/bandit02.yy","order":3,"resourceVersion":"1.0","name":"bandit02","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/mob/bandit.yy","order":6,"resourceVersion":"1.0","name":"bandit","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/background.yy","order":10,"resourceVersion":"1.0","name":"background","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/music.yy","order":3,"resourceVersion":"1.0","name":"music","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

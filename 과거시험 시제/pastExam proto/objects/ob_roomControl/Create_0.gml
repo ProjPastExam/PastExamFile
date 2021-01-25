@@ -4,6 +4,8 @@ pause = 0;
 slow = 0;
 alarm[0] = 1;
 
+audio_play_sound(s_mr01, 2, true);
+
 GUIX = 50;
 GUIY = 50;
 
