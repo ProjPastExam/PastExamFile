@@ -20,4 +20,5 @@ function sc_gameGUI(){
 				draw_sprite_stretched(sp_mana, 0, GUIX+(40*i), GUIY+80,32, 32);
 		}
 	}
+	
 }
