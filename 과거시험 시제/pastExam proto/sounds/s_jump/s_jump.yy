@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "s_dash01.wav",
-  "duration": 0.405204,
+  "soundFile": "s_jump.wav",
+  "duration": 0.566406,
   "parent": {
     "name": "player",
     "path": "folders/Sounds/player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_dash01",
+  "name": "s_jump",
   "tags": [],
   "resourceType": "GMSound",
 }

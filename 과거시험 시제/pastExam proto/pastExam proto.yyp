@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"uc_set_window_size","path":"scripts/uc_set_window_size/uc_set_window_size.yy",},"order":3,},
     {"id":{"name":"sc_pl_Spawn","path":"scripts/sc_pl_Spawn/sc_pl_Spawn.yy",},"order":0,},
+    {"id":{"name":"s_bandit01die4","path":"sounds/s_bandit01die4/s_bandit01die4.yy",},"order":7,},
     {"id":{"name":"t_collision","path":"tilesets/t_collision/t_collision.yy",},"order":0,},
     {"id":{"name":"uc_get_port_width","path":"scripts/uc_get_port_width/uc_get_port_width.yy",},"order":2,},
     {"id":{"name":"obj_uls_shadow_renderer","path":"objects/obj_uls_shadow_renderer/obj_uls_shadow_renderer.yy",},"order":1,},
@@ -49,6 +50,7 @@
     {"id":{"name":"sp_plHitEffect01","path":"sprites/sp_plHitEffect01/sp_plHitEffect01.yy",},"order":1,},
     {"id":{"name":"ob_atkEf04","path":"objects/ob_atkEf04/ob_atkEf04.yy",},"order":4,},
     {"id":{"name":"uls_set_light_alpha","path":"scripts/uls_set_light_alpha/uls_set_light_alpha.yy",},"order":0,},
+    {"id":{"name":"s_jump","path":"sounds/s_jump/s_jump.yy",},"order":4,},
     {"id":{"name":"spr_light_cone","path":"sprites/spr_light_cone/spr_light_cone.yy",},"order":4,},
     {"id":{"name":"sp_pl_jump","path":"sprites/sp_pl_jump/sp_pl_jump.yy",},"order":5,},
     {"id":{"name":"uc_get_flash_speed","path":"scripts/uc_get_flash_speed/uc_get_flash_speed.yy",},"order":2,},
@@ -103,6 +105,7 @@
     {"id":{"name":"sp_bandit02_stand2","path":"sprites/sp_bandit02_stand2/sp_bandit02_stand2.yy",},"order":7,},
     {"id":{"name":"sp_heart","path":"sprites/sp_heart/sp_heart.yy",},"order":0,},
     {"id":{"name":"uc_get_mouse_shooter_percentage","path":"scripts/uc_get_mouse_shooter_percentage/uc_get_mouse_shooter_percentage.yy",},"order":1,},
+    {"id":{"name":"s_bandit01die3","path":"sounds/s_bandit01die3/s_bandit01die3.yy",},"order":6,},
     {"id":{"name":"sp_bandit01_atkEffect","path":"sprites/sp_bandit01_atkEffect/sp_bandit01_atkEffect.yy",},"order":7,},
     {"id":{"name":"uc_get_aspect_ratio","path":"scripts/uc_get_aspect_ratio/uc_get_aspect_ratio.yy",},"order":0,},
     {"id":{"name":"sh_lighten","path":"shaders/sh_lighten/sh_lighten.yy",},"order":2,},
