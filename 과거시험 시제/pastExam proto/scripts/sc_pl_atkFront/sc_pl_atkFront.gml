@@ -16,12 +16,13 @@ function sc_pl_atkFront(){
 	if ( atkProcess == 6 ) {
 		instance_create_layer(x, y, "effect", ob_atkEf03);
 		ob_atkEf03.image_xscale = dir;
+		audio_play_sound(s_kick01, 5, false);
 	}
 	
 	if ( atkProcess == 24 ) {
 		instance_create_layer(x, y, "effect", ob_atkEf01);
 		ob_atkEf01.image_xscale = dir;
-		audio_play_sound(s_arrow01, false, false);
+		audio_play_sound(s_arrow01, 5, false);
 	}
 	
 	//대쉬 제어

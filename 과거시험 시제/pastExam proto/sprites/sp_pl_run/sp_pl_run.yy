@@ -53,7 +53,7 @@
     "spriteId": {"name":"sp_pl_run","path":"sprites/sp_pl_run/sp_pl_run.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 12.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

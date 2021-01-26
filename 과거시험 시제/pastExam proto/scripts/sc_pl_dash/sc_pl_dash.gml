@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_dash(){
-	if (dProcess == 0) audio_play_sound(s_dash01, false, false);
+	if (dProcess == 0) audio_play_sound(s_dash01, 5, false);
 	dProcess++;
 	sprite_index = sp_pl_dash;
 	image_xscale = dir;

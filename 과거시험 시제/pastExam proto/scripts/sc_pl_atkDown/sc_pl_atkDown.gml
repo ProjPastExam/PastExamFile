@@ -11,9 +11,9 @@ function sc_pl_atkDown(){
 	if ( atkProcess == 23 ) {
 		instance_create_layer(x, y, "effect", ob_atkEf02);
 		ob_atkEf02.image_angle = 270;
-		audio_play_sound(s_arrow02, false, false);
+		audio_play_sound(s_arrow02, 5, false);
 	}
-	
+	W
 	if ( atkProcess == 1 )		{ ySpeed = -19; jumpLast = 40; }
 	if ( atkProcess < 7 )		{ image_index = 0; nextAtk = 0; }
 	else if ( atkProcess < 16 )	{ image_index = 1; }

@@ -47,8 +47,9 @@ function sc_bandit01Atk(){
 		sprite_index = sp_bandit01_atk;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { audio_play_sound(s_bandit01atk, 8, false); }
+		if ( process == 1 ) { audio_play_sound(s_bandit01atk1, 8, false); }
 		if ( process == 20 ) { 
+			audio_play_sound(s_bandit01atk2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobBandit01Atk);
 			ob.image_xscale = dir;
 		}

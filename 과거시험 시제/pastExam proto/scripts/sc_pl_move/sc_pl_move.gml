@@ -3,7 +3,7 @@ function sc_pl_move() {
 	var jumpSpeed	= -17.5;
 	var last		= 30;
 	var	accSpeed	= 0.8;
-	var	walkSpeed	= 7;
+	var	walkSpeed	= 8.5;
 	
 	//점프
 	if ( jumpLast > 0 ) jumpLast--;
