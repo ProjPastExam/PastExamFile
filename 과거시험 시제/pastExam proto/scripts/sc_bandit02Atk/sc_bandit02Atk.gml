@@ -46,7 +46,9 @@ function sc_bandit02Atk(){
 		process++;
 		sprite_index = sp_bandit02_atk;
 		xSpeed = 0;
-
+		
+		if ( process == 1 ) { audio_play_sound(s_bandit02atk, 8, false); }
+		
 		if ( process == 16 ) { 
 			var axe = instance_create_layer(x, y, "effect", ob_mobBandit02Atk);
 			if ( x > plX ) axe.dir = -1; else axe.dir = 1;

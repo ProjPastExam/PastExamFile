@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.5,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "s_dash01.mp3",
-  "duration": 0.501292,
+  "soundFile": "s_dash01.wav",
+  "duration": 0.666769,
   "parent": {
     "name": "player",
     "path": "folders/Sounds/player.yy",
