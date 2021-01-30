@@ -33,10 +33,10 @@ function sc_pl_atkFront2(){
 		}
 	}
 	
-	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; xSpeed = 10*dir; }
-	else if ( atkProcess < 9 )	{ image_index = 1; xSpeed = 12*dir; }
-	else if ( atkProcess < 15 )	{ image_index = 2; xSpeed = 10*dir; }
-	else if ( atkProcess < 21 )	{ image_index = 3; xSpeed = 6*dir; }
+	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; xSpeed = 12*dir; }
+	else if ( atkProcess < 9 )	{ image_index = 1; xSpeed = 16*dir; }
+	else if ( atkProcess < 15 )	{ image_index = 2; xSpeed = 12*dir; }
+	else if ( atkProcess < 21 )	{ image_index = 3; xSpeed = 8*dir; }
 	else if ( atkProcess < 27 )	{ image_index = 4; xSpeed = 4*dir; }
 	else if ( atkProcess < 33 )	{ image_index = 5; }
 	else if ( atkProcess < 42 )	{ image_index = 6; }

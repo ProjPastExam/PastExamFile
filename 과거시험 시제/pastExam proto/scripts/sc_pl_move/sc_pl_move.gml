@@ -75,7 +75,6 @@ function sc_pl_move() {
 	
 	if ( dProcess > -1 && canMove == 10 ) sc_pl_dash();
 	
-	
 
 	
 	if ( hitAfter > 0 ) {
