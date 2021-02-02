@@ -218,6 +218,7 @@
     {"id":{"name":"sc_obPhysics","path":"scripts/sc_obPhysics/sc_obPhysics.yy",},"order":0,},
     {"id":{"name":"uc_set_position","path":"scripts/uc_set_position/uc_set_position.yy",},"order":2,},
     {"id":{"name":"sp_bandit01_stand","path":"sprites/sp_bandit01_stand/sp_bandit01_stand.yy",},"order":0,},
+    {"id":{"name":"Sprite58","path":"sprites/Sprite58/Sprite58.yy",},"order":11,},
     {"id":{"name":"s_kick01","path":"sounds/s_kick01/s_kick01.yy",},"order":3,},
     {"id":{"name":"obj_light_mouse","path":"objects/obj_light_mouse/obj_light_mouse.yy",},"order":3,},
     {"id":{"name":"uc_get_view_scale_acceleration","path":"scripts/uc_get_view_scale_acceleration/uc_get_view_scale_acceleration.yy",},"order":4,},
