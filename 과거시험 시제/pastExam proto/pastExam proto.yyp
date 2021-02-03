@@ -132,6 +132,7 @@
     {"id":{"name":"uc_time","path":"scripts/uc_time/uc_time.yy",},"order":4,},
     {"id":{"name":"sc_pl_atkDown","path":"scripts/sc_pl_atkDown/sc_pl_atkDown.yy",},"order":4,},
     {"id":{"name":"uc_get_mouse_drag_acceleration","path":"scripts/uc_get_mouse_drag_acceleration/uc_get_mouse_drag_acceleration.yy",},"order":0,},
+    {"id":{"name":"Sprite59","path":"sprites/Sprite59/Sprite59.yy",},"order":12,},
     {"id":{"name":"uc_get_mouse_borders_acceleration","path":"scripts/uc_get_mouse_borders_acceleration/uc_get_mouse_borders_acceleration.yy",},"order":0,},
     {"id":{"name":"uc_init_object_following","path":"scripts/uc_init_object_following/uc_init_object_following.yy",},"order":4,},
     {"id":{"name":"uls_get_light_alpha","path":"scripts/uls_get_light_alpha/uls_get_light_alpha.yy",},"order":0,},
