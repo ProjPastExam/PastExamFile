@@ -28,7 +28,7 @@ part_type_shape( e01, pt_shape_square );
 part_type_size( e01, 0.2, 0.2, -0.008, 0 );
 part_type_gravity( e01, 0.4, 270 );
 part_type_speed( e01, 15, 25, -0.5, 0 );
-part_type_color1(e01, c_red);
+part_type_color1(e01, c_white);
 
 
 //일반공격 피격시 타격감 효과
