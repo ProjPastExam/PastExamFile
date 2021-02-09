@@ -326,7 +326,11 @@ var cy = room_height - y;
 if (layer_exists("Background1")) {
 		layer_x("Background1", x - view_width/2);
 		layer_y("Background1", y - view_height/2);
-	}
+}
+if (layer_exists("cloud")) {
+	layer_x("cloud", x - view_width/2);
+	layer_y("cloud", y - view_height/2);
+}
 if (layer_exists("Background2")) {
 	var bg = layer_background_get_id(layer_get_id("Background2"));
 	var sp = sprite_get_height( layer_background_get_sprite(bg) );
