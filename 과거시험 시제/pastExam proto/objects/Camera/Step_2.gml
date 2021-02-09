@@ -19,6 +19,7 @@ switch (cam_mode) {
 		x = uc_fixed_lerp(x, target_x, cam_static_acceleration);
 		y = uc_fixed_lerp(y, target_y, cam_static_acceleration);
 		
+		
 		break; #endregion
 
 	#region Object Following
@@ -317,6 +318,22 @@ camera_set_view_pos(view, primitive_view_x, primitive_view_y);
 camera_set_view_size(view, view_width*view_total_scale, view_height*view_total_scale);
 camera_set_view_angle(view, view_inclination);
 
+#endregion
+
+
+#region background control
+var cy = room_height - y;
+if (layer_exists("Background1")) {
+		layer_x("Background1", x - view_width/2);
+		layer_y("Background1", y - view_height/2);
+	}
+if (layer_exists("Background2")) {
+	var bg = layer_background_get_id(layer_get_id("Background2"));
+	var sp = sprite_get_height( layer_background_get_sprite(bg) );
+	layer_x("Background2", 3*x/4 - view_width/2);
+	layer_y("Background2", room_height - sp - 3*cy/4 + view_height/2);
+}
+	
 #endregion
 
 // ==============================================================
