@@ -50,7 +50,7 @@
     "spriteId": {"name":"sp_hitEffect_kick01","path":"sprites/sp_hitEffect_kick01/sp_hitEffect_kick01.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 24.0,
+    "playbackSpeed": 18.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

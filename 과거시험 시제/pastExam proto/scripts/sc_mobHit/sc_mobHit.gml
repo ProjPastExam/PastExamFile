@@ -4,6 +4,7 @@ function sc_mobHit( argument0 ){
 	var plX = sc_pl_get("x");
 	var dmg = 0;
 	var dmgId;
+	var xs = 1;
 	//isHostile = true;
 	ad = true;
 	//state = 10;
@@ -25,19 +26,18 @@ function sc_mobHit( argument0 ){
 			}
 			else if ( plX > x )	{
 				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
-
+				xs = -1;
 				hitDir = -1;
 			}
 			else	{
 				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
-
+				xs = 1;
 				hitDir = 1;
 			}
 			uc_shake(3, 0.15);
 			audio_play_sound(s_hit01, 5, false);
-			part_type_scale( global.hitEf02T, 1, 1 );
+			part_type_scale( global.hitEf02T, xs, 1 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 15 );
-			part_type_orientation( global.hitEf02T, -30, 30, 0, 0, 0 );
 			part_particles_create( global.hitEf, x, y, global.hitEf02T, 1 );
 			break;
 
@@ -56,17 +56,19 @@ function sc_mobHit( argument0 ){
 			}
 			else if ( plX > x )	{
 				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
+				xs = -1.5;
 				hitDir = -1;
 			}
 			else			{
 				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
+				xs = 1.5;
 				hitDir = 1;
 			}
 			uc_shake(5, 0.2);
 			audio_play_sound(s_hit01, 5, false);
-			part_type_scale( global.hitEf02T, 1.5, 1.5 );
+			part_type_scale( global.hitEf02T, xs, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 30 );
-			part_type_orientation( global.hitEf02T, -30, 30, 0, 0, 0 );
+			//part_type_orientation( global.hitEf02T, -30, 30, 0, 0, 0 );
 			part_particles_create( global.hitEf, x, y, global.hitEf02T, 1 );
 			break;
 			
