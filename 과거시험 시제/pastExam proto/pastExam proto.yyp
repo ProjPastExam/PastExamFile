@@ -86,6 +86,7 @@
     {"id":{"name":"uc_get_view_auto_scale_enabled","path":"scripts/uc_get_view_auto_scale_enabled/uc_get_view_auto_scale_enabled.yy",},"order":1,},
     {"id":{"name":"sc_pl_camera","path":"scripts/sc_pl_camera/sc_pl_camera.yy",},"order":1,},
     {"id":{"name":"sp_st01_mon2","path":"sprites/sp_st01_mon2/sp_st01_mon2.yy",},"order":2,},
+    {"id":{"name":"sp_hitEffect_kick01","path":"sprites/sp_hitEffect_kick01/sp_hitEffect_kick01.yy",},"order":2,},
     {"id":{"name":"uls_collider_set_scale","path":"scripts/uls_collider_set_scale/uls_collider_set_scale.yy",},"order":3,},
     {"id":{"name":"sc_banditBoss01Fight","path":"scripts/sc_banditBoss01Fight/sc_banditBoss01Fight.yy",},"order":0,},
     {"id":{"name":"sp_bandit01_run","path":"sprites/sp_bandit01_run/sp_bandit01_run.yy",},"order":3,},
