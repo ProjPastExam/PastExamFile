@@ -322,7 +322,7 @@ camera_set_view_angle(view, view_inclination);
 
 
 #region background control
-var cy = room_height - y;
+var cy = room_height - y - (view_height/2);
 if (layer_exists("Background1")) {
 		layer_x("Background1", x - view_width/2);
 		layer_y("Background1", y - view_height/2);
@@ -335,7 +335,13 @@ if (layer_exists("Background2")) {
 	var bg = layer_background_get_id(layer_get_id("Background2"));
 	var sp = sprite_get_height( layer_background_get_sprite(bg) );
 	layer_x("Background2", 3*x/4 - view_width/2);
-	layer_y("Background2", room_height - sp - 3*cy/4 + view_height/2);
+	layer_y("Background2", room_height - sp - 3*cy/4);
+}
+if (layer_exists("Background3")) {
+	var bg = layer_background_get_id(layer_get_id("Background3"));
+	var sp = sprite_get_height( layer_background_get_sprite(bg) );
+	layer_x("Background3", x/2 - view_width/2);
+	layer_y("Background3", room_height - sp - cy/2);
 }
 	
 #endregion

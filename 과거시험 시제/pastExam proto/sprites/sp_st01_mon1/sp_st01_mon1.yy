@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9083ddc1-ea7e-4dd4-98bb-3ee80071310c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "background",
-    "path": "folders/Sprites/background.yy",
+    "name": "stage01",
+    "path": "folders/Sprites/background/stage01.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_st01_mon1",
