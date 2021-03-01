@@ -18,6 +18,7 @@ function sc_mobHit( argument0 ){
 			hp -= dmg;
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
+			global.mp += 10;
 			if ( ob_atkEf01.image_angle == 270 ) {
 				part_type_direction( global.hitEf01T, -235, 305, 0, 0 );
 				
@@ -48,6 +49,7 @@ function sc_mobHit( argument0 ){
 			hp -= dmg;
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
+			global.mp += 10;
 			xSpeed = 0;
 			if ( ob_atkEf02.image_angle == 90 ) {
 				part_type_direction( global.hitEf01T, -235, 305, 0, 0 );
@@ -79,6 +81,7 @@ function sc_mobHit( argument0 ){
 			hp -= dmg;
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
+			global.mp += 15;
 			xSpeed = 0;
 			
 			if ( plX > x )	{
@@ -103,6 +106,7 @@ function sc_mobHit( argument0 ){
 			hp -= dmg;
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
+			global.mp += 15;
 			xSpeed = 0;
 			
 			if ( plX > x )	{

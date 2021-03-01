@@ -7,6 +7,7 @@ function sc_pl_keyCheck() {
 	keyDown			= false;
 	keyDash			= false;
 	keyTop			= false;
+	keySk1			= false;
 
 	if ( keyboard_check(vk_left) )				{ keyLeft	= true; }
 	if ( keyboard_check(vk_right) )				{ keyRight	= true; }
@@ -16,6 +17,7 @@ function sc_pl_keyCheck() {
 	if ( keyboard_check_pressed( ord("C") ) )	{ keyJump	= true; }
 	if ( keyboard_check_pressed( ord("X") ) )	{ keyAttack = true; }
 	if ( keyboard_check_pressed( ord("Z") ) )	{ keyDash	= true; }
+	if ( keyboard_check_pressed( ord("A") ) )	{ keySk1	= true; }
 
 
 }

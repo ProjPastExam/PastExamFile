@@ -7,7 +7,7 @@ window_set_fullscreen(true);
 global.hpMax	= 5;
 global.hp		= global.hpMax;
 
-global.mpMax	= 50;
+global.mpMax	= 1000;
 global.mp		= 0;
 
 global.itemNum	= 0;

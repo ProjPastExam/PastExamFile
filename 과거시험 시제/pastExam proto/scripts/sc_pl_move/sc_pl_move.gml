@@ -64,6 +64,11 @@ function sc_pl_move() {
 		dProcess = 0;
 		canMove = 10;
 	}
+	if ( keySk1 && atkProcess == -1 && canMove == 0 && global.mp > 200 ) {
+		atkProcess = 0;
+		canMove = 100;
+		global.mp -= 200;
+	}
 
 	if ( atkProcess > -1 && canMove == 1 ) sc_pl_atk();
 	if ( atkProcess > -1 && canMove == 2 ) sc_pl_atk2();
@@ -75,7 +80,9 @@ function sc_pl_move() {
 	
 	if ( dProcess > -1 && canMove == 10 ) sc_pl_dash();
 	
-
+	
+	if ( atkProcess > -1 && canMove == 100 ) sc_pl_sk_baby();
+	
 	
 	if ( hitAfter > 0 ) {
 		if ( hitEffect > 0 ) hitEffect--;

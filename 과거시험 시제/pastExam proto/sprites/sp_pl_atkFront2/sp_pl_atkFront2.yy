@@ -104,8 +104,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d1c89313-680d-41b8-9805-1e1512c867d9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "atkBone",
-    "path": "folders/Sprites/player/atkBone.yy",
+    "name": "atkSprite",
+    "path": "folders/Sprites/player/atkSprite.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_pl_atkFront2",

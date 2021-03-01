@@ -88,8 +88,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"17328f3d-be2a-482a-9f03-269ca52616c7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "atkEffectBone",
-    "path": "folders/Sprites/player/atkEffectBone.yy",
+    "name": "atkEffectSprite",
+    "path": "folders/Sprites/player/atkEffectSprite.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_pl_atkEf03",
