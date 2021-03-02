@@ -11,7 +11,7 @@ global.mpMax	= 1000;
 global.mp		= 0;
 
 global.itemNum	= 0;
-global.atkDmg	= array_create(6, 0);
+global.item 	= array_create(6, 0);
 
 global.atkDmg	= 10;
 
