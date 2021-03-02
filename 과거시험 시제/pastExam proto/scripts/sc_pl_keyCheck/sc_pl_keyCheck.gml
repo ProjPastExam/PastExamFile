@@ -19,6 +19,6 @@ function sc_pl_keyCheck() {
 	if ( keyboard_check_pressed( ord("X") ) )	{ keyAttack = true; }
 	if ( keyboard_check_pressed( ord("Z") ) )	{ keyDash	= true; }
 	if ( keyboard_check_pressed( ord("A") ) )	{ keySk1	= true; }
-	if ( keyboard_check_pressed( ord("A") ) )	{ keySk2	= true; }
+	if ( keyboard_check_pressed( ord("S") ) )	{ keySk2	= true; }
 
 }
