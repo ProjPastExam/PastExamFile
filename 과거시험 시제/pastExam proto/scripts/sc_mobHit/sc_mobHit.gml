@@ -12,12 +12,18 @@ function sc_mobHit( argument0 ){
 	switch ( argument0 ) {
 		
 		case 0:
-			if ( knockback ) state = 5;
-			hitAfter = 15;
-			dmg = global.atkDmg;
+			if ( knockback ) { 
+				if ( ob_atkEf01.shock < 10) {}
+				else if (ob_atkEf01.shock < 20) { state = 5; }
+				else if (ob_atkEf01.shock < 30) { state = 6; }
+				else { state = 7; }
+			}
+			hitAfter = ob_atkEf01.hitAfter;
+			dmg = ob_atkEf01.damage;
 			hp -= dmg;
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
+			dmgId.colo = 0;
 			global.mp += 10;
 			if ( ob_atkEf01.image_angle == 270 ) {
 				part_type_direction( global.hitEf01T, -235, 305, 0, 0 );

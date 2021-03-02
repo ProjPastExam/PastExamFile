@@ -40,6 +40,8 @@ function sc_pl_Spawn() {
 	
 	//스킬 변수
 	{
+	isSin = false;
+		
 	skMp = array_create(600, 0);
 	
 	skMp[100] = 200;	//편전

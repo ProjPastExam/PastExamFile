@@ -3,8 +3,10 @@
 function sc_pl_atk2(){
 	atkProcess++;
 	xSpeed = 0;
+	var atk;
 	image_xscale = dir;
-	sprite_index = sp_pl_atk2;
+	if (isSin) sprite_index = sp_pl_atk2sin;
+	else sprite_index = sp_pl_atk2;
 	
 	if ( atkProcess > 30 && atkProcess < 50 && keyAttack) {
 		if ( keyDown )		nextAtk = 5;
@@ -12,11 +14,26 @@ function sc_pl_atk2(){
 	}
 	
 	if ( atkProcess == 26 ) {
-		//var ef = instance_create_layer(x, y, "effect", ob_atkEf02);
-		//ef.image_xscale = dir;
-		var ef = instance_create_layer(x, y, "effect", ob_sinEf01);
-		ef.dir = dir;
-		audio_play_sound(s_arrow02, 5, false);
+		if (isSin) {
+			atk = instance_create_layer(x, y, "effect", ob_sinEf01);
+			//atk.damage = 10;
+			//atk.shock = 10;
+			//atk.pene = 0;
+			//atk.hitAfter = 15;
+			atk.image_xscale = dir;
+			atk.dir = dir;
+			audio_play_sound(s_arrow02, 5, false);
+		}
+		else {
+			atk = instance_create_layer(x, y, "effect", ob_atkEf01);
+			atk.damage = 25;
+			atk.shock = 20;
+			atk.pene = 0;
+			atk.hitAfter = 15;
+			atk.sprite_index = sp_pl_atkEf02;
+			atk.image_xscale = dir;
+			audio_play_sound(s_arrow02, 5, false);
+		}
 	}
 	
 	//대쉬 제어

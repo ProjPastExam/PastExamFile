@@ -5,6 +5,7 @@ function sc_pl_atk(){
 	if (!isJump) xSpeed = 0;
 	image_xscale = dir;
 	sprite_index = sp_pl_atk;
+	var atk;
 	
 	if ( atkProcess > 6 && atkProcess < 24 && keyAttack ) nextAtk = 1;
 	if ( atkProcess > 36 && atkProcess < 54 && keyAttack ) {
@@ -15,8 +16,14 @@ function sc_pl_atk(){
 		else															nextAtk = 2;
 	}
 	if ( atkProcess == 12 || (atkProcess == 30 && image_index == 5) ) {
-		instance_create_layer(x, y, "effect", ob_atkEf01);
-		ob_atkEf01.image_xscale = dir;
+		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
+		atk.damage = 10;
+		atk.shock = 10;
+		atk.pene = 0;
+		atk.hitAfter = 15;
+		atk.sprite_index = sp_pl_atkEf01;
+		atk.image_xscale = dir;
+		
 		audio_play_sound(s_arrow01, 5, false);
 	}
 	

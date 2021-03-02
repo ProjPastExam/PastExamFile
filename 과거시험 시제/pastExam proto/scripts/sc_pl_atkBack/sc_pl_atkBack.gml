@@ -5,6 +5,7 @@ function sc_pl_atkBack(){
 	xSpeed = 0;
 	image_xscale = dir;
 	sprite_index = sp_pl_atkBack;
+	var atk;
 	
 	if ( atkProcess > 18 && atkProcess < 38 && keyAttack ) {
 		if ( keyDown ) 													nextAtk = 5;
@@ -14,8 +15,13 @@ function sc_pl_atkBack(){
 	}
 	
 	if ( atkProcess == 20 ) {
-		instance_create_layer(x, y+10, "effect", ob_atkEf01);
-		ob_atkEf01.image_xscale = dir;
+		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
+		atk.damage = 10;
+		atk.shock = 10;
+		atk.pene = 0;
+		atk.hitAfter = 15;
+		atk.sprite_index = sp_pl_atkEf01;
+		atk.image_xscale = dir;
 		audio_play_sound(s_arrow01, 5, false);
 	}
 	
