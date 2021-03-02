@@ -49,4 +49,14 @@ global.hitEf04T = part_type_create();
 
 part_type_sprite( global.hitEf04T, sp_plHitEffect01, true, true, false );
 part_type_life( global.hitEf04T, 20, 20 );
+
+
+global.sinEf01 = part_type_create();
+part_type_shape(global.sinEf01, pt_shape_cloud)
+//part_type_sprite(global.sinEf01, sp_smoge, true, false, false);
+part_type_size(global.sinEf01, 0.4, 0.4, 0.1, 0);
+part_type_alpha2(global.sinEf01, 0.05, 0);
+part_type_life(global.sinEf01, 20, 20);
+part_type_scale(global.sinEf01, 1.5, 1);
+//part_type_color2(global.sinEf01, c_red, c_white);
 }

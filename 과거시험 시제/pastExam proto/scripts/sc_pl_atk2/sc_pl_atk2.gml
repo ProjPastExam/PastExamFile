@@ -12,8 +12,10 @@ function sc_pl_atk2(){
 	}
 	
 	if ( atkProcess == 26 ) {
-		instance_create_layer(x, y, "effect", ob_atkEf02);
-		ob_atkEf02.image_xscale = dir;
+		//var ef = instance_create_layer(x, y, "effect", ob_atkEf02);
+		//ef.image_xscale = dir;
+		var ef = instance_create_layer(x, y, "effect", ob_sinEf01);
+		ef.dir = dir;
 		audio_play_sound(s_arrow02, 5, false);
 	}
 	
