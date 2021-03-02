@@ -1,8 +1,9 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_pl_sk_baby(){
+function sc_pl_sk100(){
+	
 	atkProcess++;
-	xSpeed = 0;
+	if (!isJump) xSpeed = 0;
 	image_xscale = dir;
 	sprite_index = sp_pl_sk_baby;
 	
@@ -16,6 +17,7 @@ function sc_pl_sk_baby(){
 		ob_atkEf02.image_xscale = dir;
 		audio_play_sound(s_arrow02, 5, false);
 		if (sc_getRoomValue("pause") != NULL) ob_roomControl.pause = 20;
+		global.mp -= 200;
 	}
 	
 	//대쉬 제어

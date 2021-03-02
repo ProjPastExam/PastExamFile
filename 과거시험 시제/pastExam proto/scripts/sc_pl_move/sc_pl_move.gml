@@ -64,10 +64,8 @@ function sc_pl_move() {
 		dProcess = 0;
 		canMove = 10;
 	}
-	if ( keySk1 && atkProcess == -1 && canMove == 0 && global.mp > 200 ) {
-		atkProcess = 0;
-		canMove = 100;
-		global.mp -= 200;
+	if ( keySk1 && atkProcess == -1 && canMove == 0 ) {
+		if ( global.mp >= skMp[global.sk1] ) { atkProcess = 0; canMove = global.sk1; }
 	}
 
 	if ( atkProcess > -1 && canMove == 1 ) sc_pl_atk();
@@ -80,9 +78,15 @@ function sc_pl_move() {
 	
 	if ( dProcess > -1 && canMove == 10 ) sc_pl_dash();
 	
-	
-	if ( atkProcess > -1 && canMove == 100 ) sc_pl_sk_baby();
-	
+	//스킬
+	{
+		if ( atkProcess > -1 ) {
+			switch (canMove) {
+			case 100:
+				sc_pl_sk100(); break;
+			}
+		}
+	}
 	
 	if ( hitAfter > 0 ) {
 		if ( hitEffect > 0 ) hitEffect--;

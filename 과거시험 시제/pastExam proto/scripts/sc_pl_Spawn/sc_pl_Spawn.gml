@@ -13,13 +13,6 @@ function sc_pl_Spawn() {
 	uc_set_mode(0);
 	uc_set_target_position(x,y);
 	
-	layer_x("Background1", 0);
-	layer_y("Background1", room_height - 1080);
-	layer_x("Background2", 0);
-	layer_y("Background2", room_height - 1080);
-	//window_set_fullscreen(true);
-	//camX = uc_get_x();
-	//camY = uc_get_y();
 	
 	//기본 변수
 	
@@ -43,4 +36,14 @@ function sc_pl_Spawn() {
 	isEnergy = false;
 	
 	dProcess = -1;
+	
+	
+	//스킬 변수
+	{
+	skMp = array_create(600, 0);
+	
+	skMp[100] = 200;	//편전
+	
+	}
+	
 }

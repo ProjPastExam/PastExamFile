@@ -15,3 +15,5 @@ global.atkDmg	= array_create(6, 0);
 
 global.atkDmg	= 10;
 
+global.sk1		= 100;
+global.sk2		= 100;

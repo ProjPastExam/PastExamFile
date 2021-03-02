@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_atk(){
 	atkProcess++;
-	xSpeed = 0;
+	if (!isJump) xSpeed = 0;
 	image_xscale = dir;
 	sprite_index = sp_pl_atk;
 	
