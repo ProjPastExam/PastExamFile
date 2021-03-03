@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.5,
+  "volume": 0.4,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -13,8 +13,8 @@
   "soundFile": "s_hit01.mp3",
   "duration": 0.344583,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "mob",
+    "path": "folders/Sounds/mob.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_hit01",

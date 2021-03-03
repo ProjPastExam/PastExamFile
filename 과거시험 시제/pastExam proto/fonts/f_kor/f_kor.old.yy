@@ -12,7 +12,7 @@
   "AntiAlias": 1,
   "first": 0,
   "last": 0,
-  "sampleText": "abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)",
+  "sampleText": "abcdef ABCDEF\r\n0123456789 .,<>\"'&!?\r\nthe quick brown fox jumps over the lazy dog\r\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\r\nDefault character: ▯ (9647)\r\n",
   "includeTTF": false,
   "TTFName": "",
   "textureGroupId": {
@@ -550,10 +550,7 @@
     {"first":121,"second":122,"amount":-1,},
     {"first":122,"second":101,"amount":-1,},
   ],
-  "ranges": [
-    {"lower":32,"upper":127,},
-    {"lower":9647,"upper":9647,},
-  ],
+  "ranges": [],
   "regenerateBitmap": false,
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
@@ -562,7 +559,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "f_dmg",
+  "name": "f_kor",
   "tags": [],
   "resourceType": "GMFont",
 }

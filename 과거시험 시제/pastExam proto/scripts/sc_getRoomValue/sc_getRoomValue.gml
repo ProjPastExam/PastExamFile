@@ -3,13 +3,14 @@
 function sc_getRoomValue(argument0){
 	switch (argument0) {
 	case "pause":
-		if ( ob_roomControl.pause != NULL )	return ob_roomControl.pause;
-		else								return 0;
+		if ( object_exists(ob_roomControl) )	return ob_roomControl.pause;
+		else									return 0;
 		break;
 	
 	case "slow":
-		if ( ob_roomControl.slow != NULL )	return ob_roomControl.slow;
-		else								return 0;
+		if ( object_exists(ob_roomControl) )	return ob_roomControl.slow;
+		else									return 0;
 		break;
 	}
+	
 }
