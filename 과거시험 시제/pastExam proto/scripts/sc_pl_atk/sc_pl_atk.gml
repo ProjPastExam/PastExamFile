@@ -69,6 +69,13 @@ function sc_pl_atk(){
 		if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
 		if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; }
 		if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
+		if ( nextAtk == 10 ) {
+			dProcess = 0;
+			canMove = 10;
+			atkProcess = -1;
+			if ( keyRight ) dir = 1;
+			if ( keyLeft ) dir = -1
+		}
 		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
 			{ nextAtk = 0; atkProcess = 0; canMove = global.sk1; }
 		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
