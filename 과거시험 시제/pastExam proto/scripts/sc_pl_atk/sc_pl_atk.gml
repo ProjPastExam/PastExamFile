@@ -8,12 +8,17 @@ function sc_pl_atk(){
 	var atk;
 	
 	if ( atkProcess > 6 && atkProcess < 24 && keyAttack ) nextAtk = 1;
-	if ( atkProcess > 36 && atkProcess < 54 && keyAttack ) {
-		if ( keyDown ) 													nextAtk = 5;
-		else if ( keyTop ) 												nextAtk = 6;
-		else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
-		else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
-		else															nextAtk = 2;
+	if ( atkProcess > 36 && atkProcess < 54 ) {
+		if ( keyAttack ) {
+			if ( keyDown ) 													nextAtk = 5;
+			else if ( keyTop ) 												nextAtk = 6;
+			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
+			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
+			else															nextAtk = 2;
+		}
+		if ( keySk1 ) nextAtk = -1;
+		if ( keySk2 ) nextAtk = -2;
+		if ( keySk3 ) nextAtk = -3;
 	}
 	if ( atkProcess == 12 || (atkProcess == 30 && image_index == 5) ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
@@ -64,6 +69,12 @@ function sc_pl_atk(){
 		if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
 		if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; }
 		if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
+		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
+			{ nextAtk = 0; atkProcess = 0; canMove = global.sk1; }
+		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
+			{ nextAtk = 0; atkProcess = 0; canMove = global.sk2; }
+		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
+			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
 	}
 	else { atkProcess = -5;	canMove = 0; }
 }

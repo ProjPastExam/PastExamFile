@@ -7,17 +7,27 @@ function sc_pl_atkDown(){
 	sprite_index = sp_pl_atkDown;
 	var atk;
 	
-	if ( atkProcess > 28 && atkProcess < 48 && keyAttack ) {
-		if ( keyTop ) 												nextAtk = 6;
-		else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
-		else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
-		else															nextAtk = 2;
+	if ( atkProcess > 28 && atkProcess < 48 ) {
+		if (keyAttack) {
+			if ( keyTop ) 													nextAtk = 6;
+			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
+			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
+			else															nextAtk = 2;
+		}
+		if ( keySk1 ) nextAtk = -1;
+		if ( keySk2 ) nextAtk = -2;
+		if ( keySk3 ) nextAtk = -3;
 	}
 	
 	
 	if ( atkProcess == 9 ) {
-		instance_create_layer(x - dir*50, y, "effect", ob_atkEf03);
-		ob_atkEf03.image_xscale = dir;
+		atk = instance_create_layer(x - dir*50, y, "effect", ob_atkEf03);
+		atk.damage = 5;
+		atk.shock = 20;
+		atk.pene = 0;
+		atk.hitAfter = 15;
+		atk.sprite_index = sp_pl_atkEf03;
+		atk.image_xscale = dir;
 		audio_play_sound(s_kick01, 5, false);
 	}
 	
@@ -62,6 +72,12 @@ function sc_pl_atkDown(){
 		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 		if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
 		if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
+		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
+			{ nextAtk = 0; atkProcess = 0; canMove = global.sk1; }
+		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
+			{ nextAtk = 0; atkProcess = 0; canMove = global.sk2; }
+		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
+			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
 	}
 	else	{ canMove = 0;	atkProcess = -5; }
 }

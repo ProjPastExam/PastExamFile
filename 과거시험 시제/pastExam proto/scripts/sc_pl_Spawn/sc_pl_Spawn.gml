@@ -38,14 +38,19 @@ function sc_pl_Spawn() {
 	dProcess = -1;
 	
 	
+	//아이템 변수 
+	{
+	itemCheck = true;
+	isSin = false;		//신기전
+	}
+	
 	//스킬 변수
 	{
-	isSin = false;
+	
 		
 	skMp = array_create(600, 0);
 	
 	skMp[100] = 200;	//편전
 	
 	}
-	
 }

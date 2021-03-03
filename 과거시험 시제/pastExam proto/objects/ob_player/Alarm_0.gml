@@ -10,6 +10,7 @@ else {
 }
 
 if ( sc_getRoomValue("pause") == 0 ) {
+	if (itemCheck) { sc_pl_checkItem(); itemCheck = false; }
 	sc_obPhysics();
 	sc_pl_keyCheck();
 	sc_pl_move();

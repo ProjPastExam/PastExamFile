@@ -5,21 +5,32 @@ function sc_pl_atkUp(){
 	xSpeed = 0;
 	image_xscale = dir;
 	sprite_index = sp_pl_atkUp;
+	var atk;
 	
 	if ( atkProcess > 38 && atkProcess < 58 && keyAttack ) {
 		if ( keyDown ) 	nextAtk = 5;
 	}
 	
 	if ( atkProcess == 6 ) {
-		instance_create_layer(x, y, "effect", ob_atkEf04);
-		ob_atkEf04.image_xscale = dir;
+		atk = instance_create_layer(x, y, "effect", ob_atkEf04);
+		atk.damage = 10;
+		atk.shock = 20;
+		atk.pene = 0;
+		atk.hitAfter = 10;
+		atk.sprite_index = sp_pl_atkEf04;
+		atk.image_xscale = dir;
 		audio_play_sound(s_kick01, 5, false);
 	}
 	
 	if ( atkProcess == 36 ) {
-		instance_create_layer(x, y, "effect", ob_atkEf02);
-		if ( dir == 1 )		ob_atkEf02.image_angle = 30;
-		if ( dir == -1 )	ob_atkEf02.image_angle = 150;
+		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
+		atk.damage = 25;
+		atk.shock = 10;
+		atk.pene = 0;
+		atk.hitAfter = 15;
+		atk.sprite_index = sp_pl_atkEf02;
+		if ( dir == 1 )		atk.image_angle = 20;
+		if ( dir == -1 )	atk.image_angle = 160;
 		audio_play_sound(s_arrow02, 5, false);
 	}
 	

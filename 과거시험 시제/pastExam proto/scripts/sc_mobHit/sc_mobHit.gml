@@ -43,12 +43,18 @@ function sc_mobHit( argument0 ){
 			}
 			uc_shake(3, 0.15);
 			audio_play_sound(s_hit01, 5, false);
-			part_type_scale( global.hitEf02T, xs * 0.8, 0.8 );
+			
+			if ( ob_atkEf01.shock < 10) part_type_scale( global.hitEf02T, xs * 0.6, 0.6 );
+			else if ( ob_atkEf01.shock < 20) part_type_scale( global.hitEf02T, xs * 0.8, 0.8 );
+			else if ( ob_atkEf01.shock < 30) part_type_scale( global.hitEf02T, xs * 1, 1 );
+			else part_type_scale( global.hitEf02T, xs * 1.2, 1.2 );
+			
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 15 );
 			part_particles_create( global.hitEf, x, y, global.hitEf02T, 1 );
 			break;
 
 		case 1:
+		/*
 			if ( knockback ) state = 5;
 			hitAfter = 15;
 			dmg = global.atkDmg * 2.5;
@@ -78,15 +84,22 @@ function sc_mobHit( argument0 ){
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 30 );
 			//part_type_orientation( global.hitEf02T, -30, 30, 0, 0, 0 );
 			part_particles_create( global.hitEf, x, y, global.hitEf02T, 1 );
+			*/
 			break;
 			
 		case 2:
-			if ( knockback ) state = 6;
-			hitAfter = 15;
-			dmg = global.atkDmg / 2;
+			if ( knockback ) { 
+				if ( ob_atkEf03.shock < 10) {}
+				else if (ob_atkEf03.shock < 20) { state = 5; }
+				else if (ob_atkEf03.shock < 30) { state = 6; }
+				else { state = 7; }
+			}
+			hitAfter = ob_atkEf03.hitAfter;
+			dmg = ob_atkEf03.damage;
 			hp -= dmg;
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
+			dmgId.colo = 0;
 			global.mp += 15;
 			xSpeed = 0;
 			
@@ -106,12 +119,18 @@ function sc_mobHit( argument0 ){
 			break;
 			
 		case 3:
-			if ( knockback ) { ySpeed = -18;	state = 5; }
-			hitAfter = 15;
-			dmg = global.atkDmg / 2;
+			if ( knockback ) { 
+				if ( ob_atkEf04.shock < 10) {}
+				else if (ob_atkEf04.shock < 20) { state = 5; ySpeed = -15; }
+				else if (ob_atkEf04.shock < 30) { state = 6; ySpeed = -18; }
+				else { state = 7; ySpeed = -20; }
+			}
+			hitAfter = ob_atkEf04.hitAfter;
+			dmg = ob_atkEf04.damage;
 			hp -= dmg;
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
+			dmgId.colo = 0;
 			global.mp += 15;
 			xSpeed = 0;
 			

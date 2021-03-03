@@ -190,6 +190,7 @@
     {"id":{"name":"spr_triangle","path":"sprites/spr_triangle/spr_triangle.yy",},"order":3,},
     {"id":{"name":"sc_mobPatrol","path":"scripts/sc_mobPatrol/sc_mobPatrol.yy",},"order":2,},
     {"id":{"name":"uc_fixed_lerp","path":"scripts/uc_fixed_lerp/uc_fixed_lerp.yy",},"order":2,},
+    {"id":{"name":"sc_pl_checkItem","path":"scripts/sc_pl_checkItem/sc_pl_checkItem.yy",},"order":8,},
     {"id":{"name":"sp_tCollision","path":"sprites/sp_tCollision/sp_tCollision.yy",},"order":0,},
     {"id":{"name":"sp_smoge","path":"sprites/sp_smoge/sp_smoge.yy",},"order":3,},
     {"id":{"name":"uc_set_target_x","path":"scripts/uc_set_target_x/uc_set_target_x.yy",},"order":4,},

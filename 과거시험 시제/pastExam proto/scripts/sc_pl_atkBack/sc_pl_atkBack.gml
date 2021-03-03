@@ -7,11 +7,16 @@ function sc_pl_atkBack(){
 	sprite_index = sp_pl_atkBack;
 	var atk;
 	
-	if ( atkProcess > 18 && atkProcess < 38 && keyAttack ) {
-		if ( keyDown ) 													nextAtk = 5;
-		else if ( keyTop ) 												nextAtk = 6;
-		else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
-		else															nextAtk = 2;
+	if ( atkProcess > 18 && atkProcess < 38 ) {
+		if (keyAttack) {
+			if ( keyDown ) 													nextAtk = 5;
+			else if ( keyTop ) 												nextAtk = 6;
+			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
+			else															nextAtk = 2;
+		}
+		if ( keySk1 ) nextAtk = -1;
+		if ( keySk2 ) nextAtk = -2;
+		if ( keySk3 ) nextAtk = -3;
 	}
 	
 	if ( atkProcess == 20 ) {
@@ -50,6 +55,12 @@ function sc_pl_atkBack(){
 		if ( nextAtk == 5 ) { atkProcess = 0;	canMove = 5; }
 		if ( nextAtk == 6 ) { atkProcess = 0;	canMove = 6; }
 		if ( nextAtk == 7 ) { atkProcess = 0;	canMove = 7; }
+		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
+			{ nextAtk = 0; atkProcess = 0; canMove = global.sk1; }
+		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
+			{ nextAtk = 0; atkProcess = 0; canMove = global.sk2; }
+		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
+			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
 	}
 	else { canMove = 0;	atkProcess = -5; }
 }
