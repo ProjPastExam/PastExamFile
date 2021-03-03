@@ -31,7 +31,7 @@
     {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"parent":{"name":"Camera","path":"objects/Camera/Camera.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":1,"value":"640","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
+    {"varType":1,"value":"1920","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
         "GMTileSet",
         "GMSprite",
         "GMSound",
@@ -43,7 +43,7 @@
         "GMObject",
         "GMRoom",
       ],"resourceVersion":"1.0","name":"view_width","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"360","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
+    {"varType":1,"value":"1080","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
         "GMTileSet",
         "GMSprite",
         "GMSound",
@@ -55,7 +55,7 @@
         "GMObject",
         "GMRoom",
       ],"resourceVersion":"1.0","name":"view_height","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"720","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
+    {"varType":0,"value":"1080","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
         "GMTileSet",
         "GMSprite",
         "GMSound",
