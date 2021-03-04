@@ -83,6 +83,10 @@ function sc_pl_move() {
 		if ( atkProcess > -1 ) {
 			switch (canMove) {
 			case 100:
+			case 101:
+			case 102:
+			case 103:
+			case 104:
 				sc_pl_sk100(); break;
 			}
 		}
