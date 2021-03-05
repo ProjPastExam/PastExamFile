@@ -12,7 +12,6 @@ function sc_bandit01Atk(){
 	
 	
 	var plX = sc_pl_get("x");
-	var plY = sc_pl_get("y");
 	if ( state == 10 ) {
 		if ( x > plX ) dir = -1;
 		else dir = 1;

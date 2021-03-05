@@ -6,4 +6,4 @@ else				draw_set_alpha(1);
 switch(colo) {
 case 0: draw_set_color(c_white); break;
 }
-draw_text(x, y + lifeTime*2, dmg);
+draw_text(x, y + lifeTime*2, int64(dmg));

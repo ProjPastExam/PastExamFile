@@ -13,13 +13,13 @@ function sc_mobHit( argument0 ){
 		
 		case 0:
 			if ( knockback ) { 
-				if ( ob_atkEf01.shock < 10) {}
-				else if (ob_atkEf01.shock < 20) { state = 5; }
-				else if (ob_atkEf01.shock < 30) { state = 6; }
+				if ( ob_atkEf01.shock - down < 10) {}
+				else if (ob_atkEf01.shock - down < 20) { state = 5; }
+				else if (ob_atkEf01.shock - down < 30) { state = 6; }
 				else { state = 7; }
 			}
 			hitAfter = ob_atkEf01.hitAfter;
-			dmg = ob_atkEf01.damage;
+			dmg = ob_atkEf01.damage * (100 - (defence * (100 - ob_atkEf01.pene)/100))/100;
 			hp -= dmg;
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
@@ -89,13 +89,13 @@ function sc_mobHit( argument0 ){
 			
 		case 2:
 			if ( knockback ) { 
-				if ( ob_atkEf03.shock < 10) {}
-				else if (ob_atkEf03.shock < 20) { state = 5; }
-				else if (ob_atkEf03.shock < 30) { state = 6; }
+				if ( ob_atkEf03.shock - down < 10) {}
+				else if (ob_atkEf03.shock - down < 20) { state = 5; }
+				else if (ob_atkEf03.shock - down < 30) { state = 6; }
 				else { state = 7; }
 			}
 			hitAfter = ob_atkEf03.hitAfter;
-			dmg = ob_atkEf03.damage;
+			dmg = ob_atkEf03.damage * (100 - (defence * (100 - ob_atkEf03.pene)/100))/100;
 			hp -= dmg;
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
@@ -120,13 +120,13 @@ function sc_mobHit( argument0 ){
 			
 		case 3:
 			if ( knockback ) { 
-				if ( ob_atkEf04.shock < 10) {}
-				else if (ob_atkEf04.shock < 20) { state = 5; ySpeed = -15; }
-				else if (ob_atkEf04.shock < 30) { state = 6; ySpeed = -18; }
+				if ( ob_atkEf04.shock - down < 10 ) {}
+				else if (ob_atkEf04.shock - down < 20) { state = 5; ySpeed = -15; }
+				else if (ob_atkEf04.shock - down < 30) { state = 6; ySpeed = -18; }
 				else { state = 7; ySpeed = -20; }
 			}
 			hitAfter = ob_atkEf04.hitAfter;
-			dmg = ob_atkEf04.damage;
+			dmg = ob_atkEf04.damage * (100 - (defence * (100 - ob_atkEf04.pene)/100))/100;
 			hp -= dmg;
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
