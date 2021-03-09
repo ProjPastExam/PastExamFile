@@ -10,12 +10,18 @@ else {
 }
 
 if ( sc_getRoomValue("pause") == 0 ) {
-	if ( hitAfter > 0 ) hitAfter--;
-	if ( knockback ) sc_mobKnockback();
+	if ( state != -1 ) {
+		if ( !isJump )	xSpeed = 0;
+		if ( hitAfter > 0 ) hitAfter--;
+		if ( knockback ) sc_mobKnockback();
+		if ( hp <= 0 ) { state = -1; process = 0; }
+		//이하 몹 개인 코드
+		
+	}
+	else {
+
+	}
 	sc_obPhysics();
-	if ( !isJump )	xSpeed = 0;
-	else xSpeed = xSpeed/1.1;
-	sc_badditBoss01Atk01();
 }
 else {
 	image_speed = 0;
