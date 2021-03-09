@@ -7,7 +7,7 @@ alarm[0] = 1;
 mobNum = 1;
 alarm[5] = 10;
 
-
+alarm[6] = 30;
 
 //파티클 시스템
 {

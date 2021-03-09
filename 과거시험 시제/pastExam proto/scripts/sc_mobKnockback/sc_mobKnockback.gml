@@ -13,5 +13,5 @@ function sc_mobKnockback(){
 	
 	if ( hitAfter == 0 && !isJump && (state == 5 || state == 6 || state == 7) ) 
 		{ state = 10;	delay = 15; } 
-	if ( hitAfter == 14 && isJump ) ySpeed = -8;
+	//if ( hitAfter == 14 && isJump ) ySpeed = -8;
 }

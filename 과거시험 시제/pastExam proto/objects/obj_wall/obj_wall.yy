@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_square",
-    "path": "sprites/spr_square/spr_square.yy",
+    "name": "sp_black",
+    "path": "sprites/sp_black/sp_black.yy",
   },
   "solid": true,
   "visible": true,

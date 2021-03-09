@@ -10,4 +10,5 @@ if ( pause == -2 ) {
 	instance_create_depth(x, y, 0, ob_demoMain);
 	pause = -1;
 }
+if (hpProcess > 0) hpProcess--;
 alarm[0] = 1;

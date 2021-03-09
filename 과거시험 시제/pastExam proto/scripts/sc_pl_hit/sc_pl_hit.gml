@@ -16,6 +16,7 @@ function sc_pl_hit(argument0){
 			ob_player.canMove = 0;
 			ob_player.sprite_index = sp_pl_hit;
 			ob_player.xSpeed = ob_player.dir * -15;
+			if (instance_exists(ob_roomControl)) ob_roomControl.hpProcess = 24;
 			part_particles_create( global.hitEf, plX, plY, global.hitEf04T, 1 );
 			break;
 		}
