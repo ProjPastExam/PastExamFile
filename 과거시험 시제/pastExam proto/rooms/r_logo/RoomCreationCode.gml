@@ -18,3 +18,4 @@ global.atkDmg	= 10;
 global.sk1		= 100;
 global.sk2		= 100;
 global.sk3		= 100;
+

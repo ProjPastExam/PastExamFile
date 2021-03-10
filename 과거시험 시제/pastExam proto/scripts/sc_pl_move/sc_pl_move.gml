@@ -106,5 +106,7 @@ function sc_pl_move() {
 		hitEffect = 0;
 	}
 	
+	if ( canMove == -1 ) { xSpeed = 0; ySpeed = 0; }
+	
 	
 }

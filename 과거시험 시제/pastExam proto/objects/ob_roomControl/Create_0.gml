@@ -3,13 +3,15 @@
 pause = 0;
 slow = 0;
 alarm[0] = 1;
+nextRoom = demo_stage01;
 
 mobNum = 1;
 alarm[5] = 10;
 
-alarm[6] = 30;
+alarm[6] = 1;
 
 //파티클 시스템
+
 {
 global.hitEf = part_system_create_layer("effect", true);
 //몹, 플레이어 피격 이팩트 파티클 시스템
@@ -57,4 +59,11 @@ part_type_alpha2(global.sinEf01, 0.05, 0);
 part_type_life(global.sinEf01, 20, 20);
 part_type_scale(global.sinEf01, 1.5, 1);
 //part_type_color2(global.sinEf01, c_red, c_white);
+
+
+global.dashEf = part_type_create();
+
+part_type_sprite(global.dashEf, sp_pl_dash, false, 1, false);
+part_type_life(global.dashEf, 12, 12);
+part_type_alpha2(global.dashEf, 0.8, 0);
 }

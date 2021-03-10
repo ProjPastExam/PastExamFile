@@ -219,6 +219,7 @@
     {"id":{"name":"sp_bandit02_walk","path":"sprites/sp_bandit02_walk/sp_bandit02_walk.yy",},"order":5,},
     {"id":{"name":"uls_collider_define_shape_circle","path":"scripts/uls_collider_define_shape_circle/uls_collider_define_shape_circle.yy",},"order":0,},
     {"id":{"name":"sc_bandit01Atk","path":"scripts/sc_bandit01Atk/sc_bandit01Atk.yy",},"order":1,},
+    {"id":{"name":"demo_stage02","path":"rooms/demo_stage02/demo_stage02.yy",},"order":2,},
     {"id":{"name":"uc_shake","path":"scripts/uc_shake/uc_shake.yy",},"order":2,},
     {"id":{"name":"obj_light_torch","path":"objects/obj_light_torch/obj_light_torch.yy",},"order":4,},
     {"id":{"name":"uc_enable_room_bounds_enabled","path":"scripts/uc_enable_room_bounds_enabled/uc_enable_room_bounds_enabled.yy",},"order":2,},
@@ -334,6 +335,7 @@
     {"roomId":{"name":"tt","path":"rooms/tt/tt.yy",},},
     {"roomId":{"name":"demo_stage01","path":"rooms/demo_stage01/demo_stage01.yy",},},
     {"roomId":{"name":"demo_main","path":"rooms/demo_main/demo_main.yy",},},
+    {"roomId":{"name":"demo_stage02","path":"rooms/demo_stage02/demo_stage02.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

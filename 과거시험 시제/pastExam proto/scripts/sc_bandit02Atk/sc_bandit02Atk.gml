@@ -17,7 +17,8 @@ function sc_bandit02Atk(){
 		if ( x > plX ) dir = -1;
 		else dir = 1;
 		if ( delay == 0 ) {
-			state = 11;
+			if (patrol) state = 11;
+			else if (plX < x + 650 && plX > x - 650 ) state = 12;
 		}
 		
 	}

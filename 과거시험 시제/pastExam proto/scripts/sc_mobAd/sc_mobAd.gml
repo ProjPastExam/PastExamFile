@@ -11,7 +11,7 @@ function sc_mobAd(){
 		delay = 0;
 		ad = true;
 	}
-	if ( ad && (drX > adDistance * 1.5) ) {
+	if ( ad && (drX > adDistance * 2) ) {
 		state = 0;
 		delay = random_range(90,120);
 		ad = false;

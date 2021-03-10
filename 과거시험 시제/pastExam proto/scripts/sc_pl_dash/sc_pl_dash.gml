@@ -11,6 +11,10 @@ function sc_pl_dash(){
 		if ( keySk2 ) nextAtk = -2;
 		if ( keySk3 ) nextAtk = -3;
 	}
+	if ( dProcess % 4 == 0 ) { 
+		part_type_scale( global.dashEf, dir, 1 );
+		part_particles_create( global.hitEf2, x, y, global.dashEf, 1 );
+	}
 	
 	if (dProcess == 0) audio_play_sound(s_dash01, 5, false);
 	dProcess++;
