@@ -10,18 +10,19 @@ function sc_badditBoss01Atk02(){
 		if ( x < plX )	dir = 1;
 		else			dir = -1;
 	}
-	if ( process == 11 ) {
-		ySpeed = -24;
-		xS = (plX - x - dir*180) / 60;
+	if ( process == 20 ) {
+		ySpeed = -16;
+		xS = (plX - x) / 40;
 	}
 	
-	if ( process < 10 )		{ image_index = 0; }
-	else if ( process < 16 )	{ image_index = 1; ySpeed += 0.2; }
-	else if ( process < 500 )	{ image_index = 2; ySpeed += 0.2; }
+	if ( process < 12 )		{ image_index = 0; }
+	else if ( process < 20 )	{ image_index = 1; }
+	else if ( process < 28 )	{ image_index = 2; ySpeed += 0.2; }
+	else if ( process < 500 )	{ image_index = (process/6)%2+3; ySpeed += 0.2; }
 	if ( isJump )				{ xSpeed = xS; }
-	else if ( process < 500 && process > 20 )	{ process = 500; }
-	if ( process < 505 ) { if ( process > 500 ) image_index = 3 }
-	else if ( process < 525 )	{ image_index = 4; }
+	else if ( process < 500 && process > 28 )	{ process = 500; }
+	if ( process < 505 ) { if ( process > 500 ) image_index = 5 }
+	else if ( process < 525 )	{ image_index = 6; }
 	else process = 0;
 	
 }

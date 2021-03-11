@@ -16,7 +16,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		if ( knockback ) sc_mobKnockback();
 		if ( hp <= 0 ) { state = -1; process = 0; }
 		//이하 몹 개인 코드
-		sc_badditBoss01Atk01();
+		sc_badditBoss01Atk02();
 	}
 	else {
 
