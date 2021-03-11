@@ -5,4 +5,5 @@ global.mp = 0;
 for (var i = 0; i < 6; i++) {
 	global.item[i] = 0;
 }
-room_goto(demo_stage01);
+//room_goto(demo_stage01);
+room_goto(TestRoom);
