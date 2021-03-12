@@ -12,7 +12,7 @@ function sc_badditBoss01Atk02(){
 	}
 	if ( process == 20 ) {
 		ySpeed = -16;
-		xS = (plX - x) / 40;
+		xS = (plX - x - 50*dir) / 40;
 	}
 	
 	if ( process < 12 )		{ image_index = 0; }
