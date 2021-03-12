@@ -15,6 +15,18 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	sc_pl_keyCheck();
 	sc_pl_move();
 	sc_pl_camera();
+	
+	if (global.hp <= 0 && canMove != -2) {
+		canMove = -2;
+		process = 0;
+		if (instance_exists(ob_roomControl)) ob_roomControl.slow = 90;
+		alarm[2] = 90;
+		uc_set_view_scale(0.6, 0.08);
+		hitAfter = 0;
+	}
+	if (canMove == -2) {
+		
+	}
 }
 else {
 	image_speed = 0;
