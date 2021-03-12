@@ -6,7 +6,7 @@
     "path": "folders/Scripts/mob/boss/banditBoss01.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sc_badditBoss01Atk03",
+  "name": "sc_banditBoss01Atk02",
   "tags": [],
   "resourceType": "GMScript",
 }

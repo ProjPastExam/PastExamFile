@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_badditBoss01Atk03(){
+function sc_banditBoss01Atk03(){
 	process++;
 	xSpeed = 0;
 	image_xscale = dir;
@@ -10,9 +10,10 @@ function sc_badditBoss01Atk03(){
 		if ( x < plX )	dir = 1;
 		else			dir = -1;
 	}
-	if ( process == 11 ) {
-		//ySpeed = -24;
-		//xS = (plX - x - dir*180) / 60;
+	if ( process == 48 ) {
+		var atk = instance_create_depth(x, y, depth-1, ob_BossBandit01Atk02);
+		atk.image_xscale = dir;
+		audio_play_sound(s_bandit02atk2, 8, false);
 	}
 	
 	if ( process < 6 )		{ image_index = 0; }
@@ -22,5 +23,5 @@ function sc_badditBoss01Atk03(){
 	else if ( process < 30 )	{ image_index = 4; }
 	else if ( process < 48 )	{ image_index = 5; }
 	else if ( process < 78 )	{ image_index = 6; xSpeed = dir * 1.5 * (78-process); }
-	else { process = 0; }
+	else { state = 10;	process = 0;	delay = random_range(50, 70); }
 }

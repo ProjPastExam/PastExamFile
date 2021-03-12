@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_badditBoss01Atk02(){
+function sc_banditBoss01Atk02(){
 	process++;
 	xSpeed = 0;
 	image_xscale = dir;
@@ -23,6 +23,6 @@ function sc_badditBoss01Atk02(){
 	else if ( process < 500 && process > 28 )	{ process = 500; }
 	if ( process < 505 ) { if ( process > 500 ) image_index = 5 }
 	else if ( process < 525 )	{ image_index = 6; }
-	else process = 0;
+	else { state = 10;	process = 0;	delay = random_range(50, 70); }
 	
 }
