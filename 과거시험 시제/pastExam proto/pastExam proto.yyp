@@ -358,7 +358,10 @@
     {"roomId":{"name":"demo_stage02","path":"rooms/demo_stage02/demo_stage02.yy",},},
     {"roomId":{"name":"demo_info","path":"rooms/demo_info/demo_info.yy",},},
     {"roomId":{"name":"demo_stage03","path":"rooms/demo_stage03/demo_stage03.yy",},},
+<<<<<<< HEAD
     {"roomId":{"name":"MakingGIF","path":"rooms/MakingGIF/MakingGIF.yy",},},
+=======
+>>>>>>> parent of b90f9d4 (보스 완성)
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
