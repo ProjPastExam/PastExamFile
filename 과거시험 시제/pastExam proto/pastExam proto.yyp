@@ -312,7 +312,6 @@
     {"id":{"name":"sp_bandit01_stand2","path":"sprites/sp_bandit01_stand2/sp_bandit01_stand2.yy",},"order":2,},
     {"id":{"name":"background_example","path":"sprites/background_example/background_example.yy",},"order":3,},
     {"id":{"name":"s_arrow02","path":"sounds/s_arrow02/s_arrow02.yy",},"order":1,},
-    {"id":{"name":"MakingGIF","path":"rooms/MakingGIF/MakingGIF.yy",},"order":6,},
     {"id":{"name":"sp_pl_atkUp","path":"sprites/sp_pl_atkUp/sp_pl_atkUp.yy",},"order":4,},
     {"id":{"name":"ob_mobBandit01G","path":"objects/ob_mobBandit01G/ob_mobBandit01G.yy",},"order":5,},
     {"id":{"name":"room_example","path":"rooms/room_example/room_example.yy",},"order":0,},
@@ -367,6 +366,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"roomId":{"name":"MakingGIF","path":"rooms/MakingGIF/MakingGIF.yy",},},
 =======
 >>>>>>> parent of b90f9d4 (보스 완성)
@@ -378,6 +378,8 @@
 >>>>>>> parent of b90f9d4 (보스 완성)
 =======
 >>>>>>> parent of 175e635 (보스룸 구현중)
+=======
+>>>>>>> parent of 9df85fe (Merge branch 'master' of https://github.com/ProjPastExam/PastExamFile)
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
