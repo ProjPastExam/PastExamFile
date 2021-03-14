@@ -55,37 +55,17 @@ function sc_mobHit( argument0 ){
 			break;
 
 		case 1:
-		/*
-			if ( knockback ) state = 5;
-			hitAfter = 15;
-			dmg = global.atkDmg * 2.5;
+			if (knockback) state = 10;
+			hitAfter = 30;
+			dmg = 40;
 			hp -= dmg;
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
-			global.mp += 10;
 			xSpeed = 0;
-			if ( ob_atkEf02.image_angle == 90 ) {
-				part_type_direction( global.hitEf01T, -235, 305, 0, 0 );
-				hitDir = 0;
-				
-			}
-			else if ( plX > x )	{
-				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
-				xs = -1;
-				hitDir = -1;
-			}
-			else			{
-				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
-				xs = 1;
-				hitDir = 1;
-			}
-			uc_shake(5, 0.2);
+			
 			audio_play_sound(s_hit01, 5, false);
-			part_type_scale( global.hitEf02T, xs*1.2, 1.2 );
-			part_particles_create( global.hitEf, x, y, global.hitEf01T, 30 );
-			//part_type_orientation( global.hitEf02T, -30, 30, 0, 0, 0 );
-			part_particles_create( global.hitEf, x, y, global.hitEf02T, 1 );
-			*/
+			part_particles_create( global.hitEf, x, y, global.hitEf_k01, 1 );
+			
 			break;
 			
 		case 2:

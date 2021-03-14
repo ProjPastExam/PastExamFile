@@ -25,7 +25,15 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		hitAfter = 0;
 	}
 	if (canMove == -2) {
-		
+		depth -= 100;
+		sprite_index = sp_pl_die;
+		process++;
+		xSpeed = 0;
+		if ( process < 24 ) image_index = 0;
+		else if ( process < 27 ) image_index = 1;
+		else if ( process < 30 ) image_index = 2;
+		else if ( process < 33 ) image_index = 3;
+		else image_index = 4;
 	}
 }
 else {

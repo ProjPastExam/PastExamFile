@@ -28,6 +28,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ob_atkEf03","path":"objects/ob_atkEf03/ob_atkEf03.yy",},"parent":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ob_atkEf04","path":"objects/ob_atkEf04/ob_atkEf04.yy",},"parent":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":5,"eventType":2,"collisionObjectId":null,"parent":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ob_trap01","path":"objects/ob_trap01/ob_trap01.yy",},"parent":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":3,"value":"True","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"knockback","tags":[],"resourceType":"GMObjectProperty",},

@@ -36,5 +36,9 @@ function sc_pl_get( argument0 ){
 			if ( object_exists(ob_player) )	return ob_player.isJump;
 			else							return -1;
 			break;
+		case "canMove":
+			if ( object_exists(ob_player) )	return ob_player.canMove;
+			else							return -1;
+			break;
 	}
 }

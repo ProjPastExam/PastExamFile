@@ -4,7 +4,7 @@ window_set_fullscreen(true);
 
 //particle 설정
 
-global.hpMax	= 1;
+global.hpMax	= 9;
 global.hp		= global.hpMax;
 
 global.mpMax	= 1000;
