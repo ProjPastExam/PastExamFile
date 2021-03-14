@@ -5,5 +5,10 @@ global.mp = 0;
 for (var i = 0; i < 6; i++) {
 	global.item[i] = 0;
 }
+<<<<<<< HEAD
 room_goto(demo_stage03);
 //room_goto(TestRoom);
+=======
+room_goto(demo_stage01);
+//room_goto(TestRoom);
+>>>>>>> parent of 175e635 (보스룸 구현중)

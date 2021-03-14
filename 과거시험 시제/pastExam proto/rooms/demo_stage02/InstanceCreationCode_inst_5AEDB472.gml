@@ -1,1 +1,0 @@
-nextRoom = demo_stage03;

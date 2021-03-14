@@ -42,7 +42,6 @@ function sc_banditBoss01Fight(){
 		
 	}
 	if ( state == 11 ){
-		sprite_index = sp_banditBoss01_run;
 		image_xscale = dir;
 		if ( plX > x + 180 ) {
 			dir = 1;
@@ -66,7 +65,6 @@ function sc_banditBoss01Fight(){
 	}
 	
 	if ( state == 13 ) {
-		sprite_index = sp_banditBoss01_run;
 		image_xscale = dir;
 		if ( plX > x + 1000 ) {
 			dir = 1;
@@ -84,7 +82,6 @@ function sc_banditBoss01Fight(){
 		sc_banditBoss01Atk02();
 	}
 	if ( state == 15 ) {
-		sprite_index = sp_banditBoss01_run;
 		image_xscale = dir;
 		if ( plX > x + 400 ) {
 			dir = 1;
