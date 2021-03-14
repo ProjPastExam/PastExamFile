@@ -373,11 +373,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"roomId":{"name":"MakingGIF","path":"rooms/MakingGIF/MakingGIF.yy",},},
 =======
     {"roomId":{"name":"demo_stageEnd","path":"rooms/demo_stageEnd/demo_stageEnd.yy",},},
 =======
 >>>>>>> parent of b90f9d4 (보스 완성)
+=======
+>>>>>>> parent of 9df85fe (Merge branch 'master' of https://github.com/ProjPastExam/PastExamFile)
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
