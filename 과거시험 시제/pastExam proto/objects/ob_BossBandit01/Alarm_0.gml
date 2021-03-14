@@ -20,7 +20,18 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		//sc_banditBoss01Atk03();
 	}
 	else {
-
+		sprite_index = sp_banditBoss01_die;
+		image_xscale = dir;
+		xSpeed = 0;
+		process++;
+		if (process < 8) image_index = 0;
+		else if (process < 16) image_index = 1;
+		else if (process < 24) image_index = 2;
+		else if (process < 80) image_index = 3;
+		else { 
+			if (instance_exists(ob_player)) ob_player.canMove = -1;
+			if (instance_exists(ob_roomControl)) ob_roomControl.alarm[7] = 1;
+		}
 	}
 	sc_obPhysics();
 }

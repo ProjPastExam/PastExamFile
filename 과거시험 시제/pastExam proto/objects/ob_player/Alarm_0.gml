@@ -35,6 +35,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		else if ( process < 33 ) image_index = 3;
 		else image_index = 4;
 	}
+	if (canMove == -10) { sprite_index = sp_pl_standPeace; }
 }
 else {
 	image_speed = 0;
