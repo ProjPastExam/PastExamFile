@@ -12,15 +12,7 @@ function sc_banditBoss01Atk02(){
 	}
 	if ( process == 20 ) {
 		ySpeed = -16;
-		xS = (plX - x + 100*dir) / 40;
-	}
-	if ( process == 501 ) {
-		var atk = instance_create_layer(x, y, "effect", ob_BossBandit01Atk03);
-		atk.image_xscale = dir;
-		audio_play_sound(s_bandit02atk2, 8, false);
-	}
-	if (process > 20 && process < 500) {
-		if (collision_rectangle(x-30,y-50, x+30, y+80, ob_player, true, false)) {sc_pl_hit(0);}
+		xS = (plX - x - 50*dir) / 40;
 	}
 	
 	if ( process < 12 )		{ image_index = 0; }
