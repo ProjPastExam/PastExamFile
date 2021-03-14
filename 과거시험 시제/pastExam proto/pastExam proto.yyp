@@ -82,9 +82,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     {"id":{"name":"sp_banditBoss01_die","path":"sprites/sp_banditBoss01_die/sp_banditBoss01_die.yy",},"order":9,},
+=======
+>>>>>>> parent of b90f9d4 (보스 완성)
     {"id":{"name":"sp_banditBoss01_run","path":"sprites/sp_banditBoss01_run/sp_banditBoss01_run.yy",},"order":8,},
 =======
     {"id":{"name":"sp_bandit01G_stand2","path":"sprites/sp_bandit01G_stand2/sp_bandit01G_stand2.yy",},"order":2,},
@@ -161,11 +164,9 @@
     {"id":{"name":"s_bandit01die3","path":"sounds/s_bandit01die3/s_bandit01die3.yy",},"order":6,},
     {"id":{"name":"sp_bandit01_atkEffect","path":"sprites/sp_bandit01_atkEffect/sp_bandit01_atkEffect.yy",},"order":7,},
     {"id":{"name":"ob_demoInfo4","path":"objects/ob_demoInfo4/ob_demoInfo4.yy",},"order":7,},
-    {"id":{"name":"sp_banditBoss01_atk03Ef","path":"sprites/sp_banditBoss01_atk03Ef/sp_banditBoss01_atk03Ef.yy",},"order":10,},
     {"id":{"name":"sp_bandit01G_backStep","path":"sprites/sp_bandit01G_backStep/sp_bandit01G_backStep.yy",},"order":6,},
     {"id":{"name":"sp_st01_mon3","path":"sprites/sp_st01_mon3/sp_st01_mon3.yy",},"order":4,},
     {"id":{"name":"sp_demoGameEnd","path":"sprites/sp_demoGameEnd/sp_demoGameEnd.yy",},"order":7,},
-    {"id":{"name":"demo_stageEnd","path":"rooms/demo_stageEnd/demo_stageEnd.yy",},"order":6,},
     {"id":{"name":"uc_get_aspect_ratio","path":"scripts/uc_get_aspect_ratio/uc_get_aspect_ratio.yy",},"order":0,},
     {"id":{"name":"sh_lighten","path":"shaders/sh_lighten/sh_lighten.yy",},"order":2,},
     {"id":{"name":"uls_get_light_range","path":"scripts/uls_get_light_range/uls_get_light_range.yy",},"order":3,},
@@ -268,7 +269,6 @@
     {"id":{"name":"uc_window_center","path":"scripts/uc_window_center/uc_window_center.yy",},"order":4,},
     {"id":{"name":"s_bandit01die1","path":"sounds/s_bandit01die1/s_bandit01die1.yy",},"order":2,},
     {"id":{"name":"uc_get_room_bounds_enabled","path":"scripts/uc_get_room_bounds_enabled/uc_get_room_bounds_enabled.yy",},"order":0,},
-    {"id":{"name":"sp_pl_standPeace","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"order":14,},
     {"id":{"name":"uc_get_mode","path":"scripts/uc_get_mode/uc_get_mode.yy",},"order":0,},
     {"id":{"name":"uls_set_light_animation","path":"scripts/uls_set_light_animation/uls_set_light_animation.yy",},"order":1,},
     {"id":{"name":"sp_st01_trap01","path":"sprites/sp_st01_trap01/sp_st01_trap01.yy",},"order":6,},
@@ -302,7 +302,6 @@
     {"id":{"name":"sp_bandit01_stand","path":"sprites/sp_bandit01_stand/sp_bandit01_stand.yy",},"order":0,},
     {"id":{"name":"sp_bandit01G_walk","path":"sprites/sp_bandit01G_walk/sp_bandit01G_walk.yy",},"order":0,},
     {"id":{"name":"Sprite58","path":"sprites/Sprite58/Sprite58.yy",},"order":11,},
-    {"id":{"name":"ob_BossBandit01Atk03","path":"objects/ob_BossBandit01Atk03/ob_BossBandit01Atk03.yy",},"order":8,},
     {"id":{"name":"s_kick01","path":"sounds/s_kick01/s_kick01.yy",},"order":3,},
     {"id":{"name":"obj_light_mouse","path":"objects/obj_light_mouse/obj_light_mouse.yy",},"order":3,},
     {"id":{"name":"sc_banditBoss01Atk03","path":"scripts/sc_banditBoss01Atk03/sc_banditBoss01Atk03.yy",},"order":3,},
@@ -373,9 +372,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"roomId":{"name":"MakingGIF","path":"rooms/MakingGIF/MakingGIF.yy",},},
 =======
     {"roomId":{"name":"demo_stageEnd","path":"rooms/demo_stageEnd/demo_stageEnd.yy",},},
+=======
+>>>>>>> parent of b90f9d4 (보스 완성)
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
