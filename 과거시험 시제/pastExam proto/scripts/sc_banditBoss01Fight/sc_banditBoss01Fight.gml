@@ -22,17 +22,18 @@ function sc_banditBoss01Fight(){
 			else if (abs(plX - x) < 600) {
 				var i = random_range(0, 10) ;
 				if (i < 5) state = 11;
-				else state = 15;
+				else if (i < 8) state = 15;
+				else state = 13;
 			}
 			else if (abs(plX - x) < 900) {
 				var i = random_range(0, 10) ;
 				if (i < 2) state = 11;
-				else if (i < 8) state = 15;
+				else if (i < 7) state = 15;
 				else state = 13;
 			}
 			else if (abs(plX - x) < 1200) {
 				var i = random_range(0, 10) ;
-				if (i < 5) state = 15;
+				if (i < 3) state = 15;
 				else state = 13;
 			}
 			else {

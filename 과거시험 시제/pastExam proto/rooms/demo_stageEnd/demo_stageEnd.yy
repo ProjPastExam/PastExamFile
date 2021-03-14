@@ -51,11 +51,10 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_globalValue","path":"objects/ob_globalValue/ob_globalValue.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1568.0,"y":256.0,"resourceVersion":"1.0","name":"inst_5E376E7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"effect","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"ob_roomControl","path":"objects/ob_roomControl/ob_roomControl.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":800.0,"resourceVersion":"1.0","name":"inst_5AEDB472","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_roomControl","path":"objects/ob_roomControl/ob_roomControl.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":800.0,"resourceVersion":"1.0","name":"inst_5AEDB472","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"roomControl","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":1632.0,"resourceVersion":"1.0","name":"inst_1E577C90","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"ob_BossBandit01","path":"objects/ob_BossBandit01/ob_BossBandit01.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":1600.0,"resourceVersion":"1.0","name":"inst_3DA6AFC1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":1632.0,"resourceVersion":"1.0","name":"inst_1E577C90","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"effect2","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"t_ground","path":"tilesets/t_ground/t_ground.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":40,"SerialiseHeight":32,"TileSerialiseData":[
@@ -109,10 +108,9 @@
   "creationCodeFile": "${project_dir}/rooms/demo_stage03/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_5E376E7","path":"rooms/demo_stage03/demo_stage03.yy",},
-    {"name":"inst_5AEDB472","path":"rooms/demo_stage03/demo_stage03.yy",},
-    {"name":"inst_1E577C90","path":"rooms/demo_stage03/demo_stage03.yy",},
-    {"name":"inst_3DA6AFC1","path":"rooms/demo_stage03/demo_stage03.yy",},
+    {"name":"inst_5E376E7","path":"rooms/demo_stageEnd/demo_stageEnd.yy",},
+    {"name":"inst_5AEDB472","path":"rooms/demo_stageEnd/demo_stageEnd.yy",},
+    {"name":"inst_1E577C90","path":"rooms/demo_stageEnd/demo_stageEnd.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -140,7 +138,7 @@
     "path": "folders/Rooms/demo room.yy",
   },
   "resourceVersion": "1.0",
-  "name": "demo_stage03",
+  "name": "demo_stageEnd",
   "tags": [],
   "resourceType": "GMRoom",
 }
