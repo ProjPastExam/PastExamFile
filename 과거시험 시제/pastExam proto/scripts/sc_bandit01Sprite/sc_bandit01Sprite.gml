@@ -22,5 +22,14 @@ function sc_bandit01Sprite(){
 	case 11:
 		sprite_index = sp_bandit01_run;
 		break;
+	case 30:
+		sprite_index = sp_bandit01_dig;
+		break;
+	case 31:
+		sprite_index = sp_bandit01_stand;
+		break;
+	case 32:
+		sprite_index = sp_bandit01_stand2;
+		break;
 	}
 }
