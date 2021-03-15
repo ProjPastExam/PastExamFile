@@ -20,7 +20,7 @@ function sc_banditBoss01Atk02(){
 		audio_play_sound(s_bandit02atk2, 8, false);
 	}
 	if (process > 20 && process < 500) {
-		if (collision_rectangle(x-30,y-50, x+30, y+80, ob_player, true, false)) {sc_pl_hit(0);}
+		if (collision_rectangle(x-30,y-50, x+30, y+60, ob_player, true, false)) {sc_pl_hit(0);}
 	}
 	
 	if ( process < 12 )		{ image_index = 0; }
