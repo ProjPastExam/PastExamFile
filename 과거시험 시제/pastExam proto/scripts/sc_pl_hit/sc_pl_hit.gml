@@ -1,7 +1,9 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_hit(argument0){
-	if ( sc_pl_get("hitAfter") == 0 && ob_player.canMove >= 0 ) {
+	var mor = ob_player.dProcess;
+	if ( sc_pl_get("hitAfter") == 0 && ob_player.canMove >= 0
+		&& !(mor >= 0 && mor <= 8 ) ) {
 		var plX = sc_pl_get("x");
 		var plY = sc_pl_get("y");
 		switch (argument0) {

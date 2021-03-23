@@ -20,7 +20,7 @@ function sc_pl_dash(){
 	dProcess++;
 	sprite_index = sp_pl_dash;
 	image_xscale = dir;
-	xSpeed = 30*dir*(18-dProcess)/14;
+	xSpeed = 30*dir*(20-dProcess)/14;
 	ySpeed = 0;
 	if ( dProcess > 16 ) { 
 		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; dProcess = -30; }
@@ -32,6 +32,6 @@ function sc_pl_dash(){
 			{ nextAtk = 0; atkProcess = 0; dProcess = -30; canMove = global.sk2; }
 		else if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
 			{ nextAtk = 0; atkProcess = 0; dProcess = -30; canMove = global.sk3; }
-		else { canMove = 0; dProcess = -30; }
+		else { canMove = 0; dProcess = -45; }
 	}
 }
