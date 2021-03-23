@@ -3,7 +3,7 @@
 function sc_pl_hit(argument0){
 	var mor = ob_player.dProcess;
 	if ( sc_pl_get("hitAfter") == 0 && ob_player.canMove >= 0
-		&& !(mor >= 0 && mor <= 8 ) ) {
+		&& !(mor >= 0 && mor <= 10 ) ) {
 		var plX = sc_pl_get("x");
 		var plY = sc_pl_get("y");
 		switch (argument0) {

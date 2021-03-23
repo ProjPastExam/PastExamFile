@@ -32,6 +32,6 @@ function sc_pl_dash(){
 			{ nextAtk = 0; atkProcess = 0; dProcess = -30; canMove = global.sk2; }
 		else if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
 			{ nextAtk = 0; atkProcess = 0; dProcess = -30; canMove = global.sk3; }
-		else { canMove = 0; dProcess = -45; }
+		else { canMove = 0; dProcess = -50; }
 	}
 }

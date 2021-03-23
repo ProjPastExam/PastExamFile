@@ -11,13 +11,15 @@ function sc_mobHit( argument0 ){
 	switch ( argument0 ) {
 		
 		case 0:
+			var shock = ob_atkEf01.shock - down;
 			if ( knockback ) { 
-				if ( ob_atkEf01.shock - down < 10) {}
-				else if (ob_atkEf01.shock - down < 20) { state = 5; process = 0; }
-				else if (ob_atkEf01.shock - down < 30) { state = 6; process = 0; }
-				else { state = 7; process = 0; }
-				if ( ob_atkEf01.shock - down >= 10 && isJump) { ySpeed = -8; }
+				if ( shock < 10) {}
+				else if (shock < 20) { state = 5; process = sqrt(shock)+12; }
+				else if (shock < 30) { state = 6; process = sqrt(shock)+12; }
+				else { state = 7; process = sqrt(shock)+12; }
+				if ( shock >= 10 && isJump) { ySpeed = -8; }
 			}
+			process = int64(process);
 			hitAfter = ob_atkEf01.hitAfter;
 			dmg = ob_atkEf01.damage * (100 - (defence * (100 - ob_atkEf01.pene)/100))/100;
 			hp -= dmg;
@@ -55,7 +57,7 @@ function sc_mobHit( argument0 ){
 			break;
 
 		case 1:
-			if (knockback) state = 10;
+			//if (knockback) state = 10;
 			hitAfter = 30;
 			dmg = 40;
 			hp -= dmg;
@@ -69,13 +71,15 @@ function sc_mobHit( argument0 ){
 			break;
 			
 		case 2:
+			var shock = ob_atkEf03.shock - down;
 			if ( knockback ) { 
-				if ( ob_atkEf03.shock - down < 10) {}
-				else if (ob_atkEf03.shock - down < 20) { state = 5; process = 0; }
-				else if (ob_atkEf03.shock - down < 30) { state = 6; process = 0; }
-				else { state = 7; process = 0; }
-				if ( ob_atkEf03.shock - down >= 10 && isJump) { ySpeed = -8; }
+				if ( shock < 10) {}
+				else if (shock < 20) { state = 5; process = sqrt(shock)+12;; }
+				else if (shock < 30) { state = 6; process = sqrt(shock)+12;; }
+				else { state = 7; process = sqrt(shock)+12;; }
+				if ( shock >= 10 && isJump) { ySpeed = -8; }
 			}
+			process = int64(process);
 			hitAfter = ob_atkEf03.hitAfter;
 			dmg = ob_atkEf03.damage * (100 - (defence * (100 - ob_atkEf03.pene)/100))/100;
 			hp -= dmg;
@@ -102,12 +106,14 @@ function sc_mobHit( argument0 ){
 			break;
 			
 		case 3:
+			var shock = ob_atkEf04.shock - down;
 			if ( knockback ) { 
-				if ( ob_atkEf04.shock - down < 10 ) {}
-				else if (ob_atkEf04.shock - down < 20) { state = 5; ySpeed = -15; process = 0; }
-				else if (ob_atkEf04.shock - down < 30) { state = 6; ySpeed = -18; process = 0; }
-				else { state = 7; ySpeed = -20; process = 0; }
+				if ( shock < 10 ) {}
+				else if (shock < 20) { state = 5; ySpeed = -15; process = sqrt(shock)+12; }
+				else if (shock < 30) { state = 6; ySpeed = -18; process = sqrt(shock)+12; }
+				else { state = 7; ySpeed = -20; process = sqrt(shock)+12; }
 			}
+			process = int64(process);
 			hitAfter = ob_atkEf04.hitAfter;
 			dmg = ob_atkEf04.damage * (100 - (defence * (100 - ob_atkEf04.pene)/100))/100;
 			hp -= dmg;
