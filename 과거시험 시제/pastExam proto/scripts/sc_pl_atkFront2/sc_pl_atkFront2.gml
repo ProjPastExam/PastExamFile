@@ -17,7 +17,7 @@ function sc_pl_atkFront2(){
 		atk.image_xscale = dir;
 		audio_play_sound(s_kick01, 5, false);
 	}
-	
+	/*
 	if ( atkProcess == 42 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
 		atk.damage = 25;
@@ -43,12 +43,14 @@ function sc_pl_atkFront2(){
 			if ( keyLeft ) dir = -1
 		}
 	}
-	
+	*/
 	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; xSpeed = 12*dir; }
 	else if ( atkProcess < 9 )	{ image_index = 1; xSpeed = 16*dir; }
 	else if ( atkProcess < 15 )	{ image_index = 2; xSpeed = 12*dir; }
 	else if ( atkProcess < 21 )	{ image_index = 3; xSpeed = 8*dir; }
-	else if ( atkProcess < 27 )	{ image_index = 4; xSpeed = 4*dir; }
+	else if ( atkProcess < 26 )	{ image_index = 4; xSpeed = 4*dir; }
+	else { canMove = 2; atkProcess = 6; }
+	/*
 	else if ( atkProcess < 33 )	{ image_index = 5; }
 	else if ( atkProcess < 42 )	{ image_index = 6; }
 	else if ( atkProcess < 48 )	{ image_index = 7; }
@@ -56,4 +58,5 @@ function sc_pl_atkFront2(){
 	else if ( atkProcess < 60 )	{ image_index = 9; }
 
 	else	{ canMove = 0;	atkProcess = -5; }
+	*/
 }
