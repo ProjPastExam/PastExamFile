@@ -56,7 +56,7 @@ function sc_pl_atkFront(){
 		}
 	}
 	
-	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; xSpeed = 12*dir; }
+	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; xSpeed = 16*dir; }
 	else if ( atkProcess < 12 )	{ image_index = 1; xSpeed = 8*dir; }
 	else if ( atkProcess < 18 )	{ image_index = 2; xSpeed = 4*dir; }
 	else if ( atkProcess < 24 )	{ image_index = 3; }
