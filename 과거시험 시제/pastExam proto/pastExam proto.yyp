@@ -506,7 +506,7 @@
     {"folderPath":"folders/Sprites/player/skillSprite.yy","order":9,"resourceVersion":"1.0","name":"skillSprite","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/player Script/skillScript.yy","order":7,"resourceVersion":"1.0","name":"skillScript","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/demo room.yy","order":4,"resourceVersion":"1.0","name":"demo room","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/demoSprite.yy","order":12,"resourceVersion":"1.0","name":"demoSprite","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/interface/demoSprite.yy","order":7,"resourceVersion":"1.0","name":"demoSprite","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/demo.yy","order":8,"resourceVersion":"1.0","name":"demo","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/mob/bandit/bandit03.yy","order":4,"resourceVersion":"1.0","name":"bandit03","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/mob/bandit/bandit01/bandit01G.yy","order":9,"resourceVersion":"1.0","name":"bandit01G","tags":[],"resourceType":"GMFolder",},

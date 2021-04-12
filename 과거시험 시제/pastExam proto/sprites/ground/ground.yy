@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6cf200e2-db63-4ab1-8210-866cad62d698","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "demoSprite",
-    "path": "folders/Sprites/demoSprite.yy",
+    "path": "folders/Sprites/interface/demoSprite.yy",
   },
   "resourceVersion": "1.0",
   "name": "ground",

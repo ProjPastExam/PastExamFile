@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7e0ca762-c729-4aa3-9b4a-15ce6945c4db","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "demoSprite",
-    "path": "folders/Sprites/demoSprite.yy",
+    "path": "folders/Sprites/interface/demoSprite.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_demoInfo",
