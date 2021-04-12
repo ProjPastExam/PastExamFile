@@ -33,8 +33,8 @@ function sc_pl_atkFrontKick(){
 	
 	if ( atkProcess == 6 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
-		atk.damage = 5;
-		atk.shock = 20;
+		atk.damage = 8;
+		atk.shock = 30;
 		atk.pene = 0;
 		atk.hitAfter = 15;
 		atk.sprite_index = sp_pl_atkEf03;
