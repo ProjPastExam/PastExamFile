@@ -70,7 +70,7 @@ function sc_pl_move() {
 
 	if ( atkProcess > -1 && canMove == 1 ) sc_pl_atk();
 	if ( atkProcess > -1 && canMove == 2 ) sc_pl_atk2();
-	if ( atkProcess > -1 && canMove == 3 ) sc_pl_atkFrontKick(); //sc_pl_atkFront();
+	if ( atkProcess > -1 && canMove == 3 ) sc_pl_atkFront(); //sc_pl_atkFrontKick();
 	if ( atkProcess > -1 && canMove == 4 ) sc_pl_atkBack();
 	if ( atkProcess > -1 && canMove == 5 ) sc_pl_atkDown();
 	if ( atkProcess > -1 && canMove == 6 ) sc_pl_atkUp();
