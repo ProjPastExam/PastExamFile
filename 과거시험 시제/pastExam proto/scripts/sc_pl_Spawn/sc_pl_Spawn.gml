@@ -41,7 +41,7 @@ function sc_pl_Spawn() {
 	//아이템 변수 
 	{
 	itemCheck = true;
-	isSin = false;		//신기전
+	isSin = true;		//신기전
 	}
 	
 	//스킬 변수

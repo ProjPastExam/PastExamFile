@@ -4,3 +4,4 @@ alarm[0] = 1;
 alarm[1] = 1;
 dir = 1;
 audio_play_sound(s_sin01, 5, false);
+global.sin = id;

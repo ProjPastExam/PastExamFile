@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 4,
@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 147,
-  "bbox_right": 563,
-  "bbox_top": 60,
-  "bbox_bottom": 116,
+  "bbox_left": 325,
+  "bbox_right": 530,
+  "bbox_top": 76,
+  "bbox_bottom": 100,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"426a3806-61b1-4bb3-9787-d27a0292a16c","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "atkEffectSprite",
     "path": "folders/Sprites/player/atkEffectSprite.yy",
