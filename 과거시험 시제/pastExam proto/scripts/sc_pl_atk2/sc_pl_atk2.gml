@@ -5,7 +5,7 @@ function sc_pl_atk2(){
 	xSpeed = 0;
 	var atk;
 	image_xscale = dir;
-	if (isSin) sprite_index = sp_pl_atk2sin;
+	if (isSin != -1) sprite_index = sp_pl_atk2sin;
 	else sprite_index = sp_pl_atk2;
 	
 	if ( atkProcess > 30 && atkProcess < 50 && keyAttack) {
@@ -14,7 +14,7 @@ function sc_pl_atk2(){
 	}
 	
 	if ( atkProcess == 26 ) {
-		if (isSin) {
+		if (isSin != -1) {
 			atk = instance_create_layer(x, y, "effect", ob_sinEf01);
 			//atk.damage = 10;
 			//atk.shock = 10;

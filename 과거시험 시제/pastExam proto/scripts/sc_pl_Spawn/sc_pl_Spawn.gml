@@ -40,8 +40,9 @@ function sc_pl_Spawn() {
 	
 	//아이템 변수 
 	{
-	itemCheck = true;
-	isSin = true;		//신기전
+	itemCheck	= true;
+	isSin		= -1;		//신기전
+	isFront		= -1;
 	}
 	
 	//스킬 변수
