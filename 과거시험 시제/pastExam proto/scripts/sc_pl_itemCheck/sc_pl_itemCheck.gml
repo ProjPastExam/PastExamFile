@@ -15,8 +15,9 @@ function sc_pl_itemCheck(){
 	for (var i = 0; i <= global.itemSum; i++) {
 		show_debug_message(i);
 		var item = global.itemGet[i];
+		var grade = global.itemGrade[i]
 		if (item == -1) { itemCheck = false;	return; }
-		
+		sc_item(item, grade);
 		
 	}
 	
