@@ -29,6 +29,10 @@ function sc_pl_atkDown(){
 		atk.sprite_index = sp_pl_atkEf03;
 		atk.image_xscale = dir;
 		audio_play_sound(s_kick01, 5, false);
+		
+		if (isJump && (itemJump != -1)) {
+			ySpeed = -7;
+		}
 	}
 	
 	if ( atkProcess == 36 ) {
@@ -40,6 +44,11 @@ function sc_pl_atkDown(){
 		atk.sprite_index = sp_pl_atkEf01;
 		atk.image_xscale = dir;
 		audio_play_sound(s_arrow01, 5, false);
+		
+		if (isJump && (itemJump != -1)) {
+			ySpeed = -7;
+			xSpeed = dir * -2;
+		}
 	}
 	
 	//대쉬 제어

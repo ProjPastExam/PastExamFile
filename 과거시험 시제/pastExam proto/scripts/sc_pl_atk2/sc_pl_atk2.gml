@@ -6,7 +6,10 @@ function sc_pl_atk2(){
 	var atk;
 	image_xscale = dir;
 	if (isSin != -1) sprite_index = sp_pl_atk2sin;
-	else sprite_index = sp_pl_atk2;
+	else {
+		if ( isJump ) sprite_index = sp_pl_jumpAtk2;
+		else sprite_index = sp_pl_atk2;
+	}
 	
 	if ( atkProcess > 30 && atkProcess < 50 && keyAttack) {
 		if ( keyDown )		nextAtk = 5;
@@ -33,6 +36,11 @@ function sc_pl_atk2(){
 			atk.sprite_index = sp_pl_atkEf02;
 			atk.image_xscale = dir;
 			audio_play_sound(s_arrow02, 5, false);
+		}
+		
+		if (isJump && (itemJump != -1)) {
+			ySpeed = -10;
+			xSpeed = dir * -2;
 		}
 	}
 	

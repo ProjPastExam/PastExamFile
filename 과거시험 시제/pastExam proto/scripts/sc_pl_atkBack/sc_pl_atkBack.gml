@@ -28,6 +28,10 @@ function sc_pl_atkBack(){
 		atk.sprite_index = sp_pl_atkEf01;
 		atk.image_xscale = dir;
 		audio_play_sound(s_arrow01, 5, false);
+		
+		if (isJump && (itemJump != -1)) {
+			ySpeed = -8;
+		}
 	}
 	
 	//대쉬 제어
@@ -45,7 +49,12 @@ function sc_pl_atkBack(){
 		}
 	}
 	
-	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; xSpeed = -16*dir; }
+	if ( atkProcess < 6 )		{ 
+		image_index = 0; nextAtk = 0; xSpeed = -16*dir;
+		if (isJump && (itemJump != -1)) {
+			ySpeed = -7;
+		}
+	}
 	else if ( atkProcess < 14 )	{ image_index = 1; xSpeed = -12*dir; }
 	else if ( atkProcess < 20 )	{ image_index = 2; xSpeed = -8*dir; }
 	else if ( atkProcess < 26 )	{ image_index = 3; xSpeed = -4*dir; }

@@ -4,7 +4,8 @@ function sc_pl_atk(){
 	atkProcess++;
 	if (!isJump) xSpeed = 0;
 	image_xscale = dir;
-	sprite_index = sp_pl_atk;
+	if (!isJump) sprite_index = sp_pl_atk;
+	else sprite_index = sp_pl_jumpAtk;
 	var atk;
 	
 	if ( atkProcess > 6 && atkProcess < 24 && keyAttack ) nextAtk = 1;
@@ -28,6 +29,11 @@ function sc_pl_atk(){
 		atk.hitAfter = 15;
 		atk.sprite_index = sp_pl_atkEf01;
 		atk.image_xscale = dir;
+		
+		if (isJump && (itemJump != -1)) {
+			ySpeed = -8;
+			xSpeed = dir * -2;
+		}
 		
 		audio_play_sound(s_arrow01, 5, false);
 	}

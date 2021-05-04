@@ -49,7 +49,12 @@ function sc_pl_atkUp(){
 		}
 	}
 	
-	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; }
+	if ( atkProcess < 6 )		{ 
+		image_index = 0; nextAtk = 0;
+		if (isJump && (itemJump != -1)) {
+			ySpeed = -5;
+		}
+	}
 	else if ( atkProcess < 12 )	{ image_index = 1; xSpeed = -2*dir; }
 	else if ( atkProcess < 18 )	{ image_index = 2; xSpeed = -4*dir; }
 	else if ( atkProcess < 24 )	{ image_index = 3; xSpeed = -2*dir }

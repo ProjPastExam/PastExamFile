@@ -5,7 +5,7 @@
 
 function sc_pl_itemCheck(){
 	isSin = -1;
-	isFront = -1;
+	//isFront = -1;
 	
 	if (global.itemSum == 0) {
 		itemCheck = false;

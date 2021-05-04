@@ -42,7 +42,8 @@ function sc_pl_Spawn() {
 	{
 	itemCheck	= true;
 	isSin		= -1;		//신기전
-	isFront		= -1;
+	isFront		= 0;		//전방 발차기 아이템
+	itemJump	= 0;		//점프 액션 아이템
 	}
 	
 	//스킬 변수
