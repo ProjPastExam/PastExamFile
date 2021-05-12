@@ -42,7 +42,7 @@ function sc_pl_atk(){
 	if ( (atkProcess > 34 && atkProcess < 54) || (atkProcess > 6 && atkProcess < 24) ) 
 		if ( keyDash ) nextAtk = 10;
 		
-	if ( (atkProcess > 45 && atkProcess < 54) || (atkProcess > 21 && atkProcess < 30) ) {
+	if ( (atkProcess > 38 && atkProcess < 54) || (atkProcess > 20 && atkProcess < 30) ) {
 		if ( nextAtk == 10 ) {
 			dProcess = 0;
 			nextAtk = 0;

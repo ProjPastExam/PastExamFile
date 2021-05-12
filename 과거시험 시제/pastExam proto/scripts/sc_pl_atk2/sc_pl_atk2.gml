@@ -2,10 +2,13 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_atk2(){
 	atkProcess++;
-	xSpeed = 0;
+	if (!isJump) xSpeed = 0;
 	var atk;
 	image_xscale = dir;
-	if (isSin != -1) sprite_index = sp_pl_atk2sin;
+	if (isSin != -1) {
+		if ( isJump ) sprite_index = sp_pl_jumpSin;
+		else sprite_index = sp_pl_atk2sin;
+	}
 	else {
 		if ( isJump ) sprite_index = sp_pl_jumpAtk2;
 		else sprite_index = sp_pl_atk2;
@@ -14,6 +17,13 @@ function sc_pl_atk2(){
 	if ( atkProcess > 30 && atkProcess < 50 && keyAttack) {
 		if ( keyDown )		nextAtk = 5;
 		else if ( keyTop ) 	nextAtk = 6;
+	}
+	
+	if ( atkProcess == 6 ) {
+		
+		if (isJump && (itemJump != -1)) {
+			ySpeed = -6;
+		}
 	}
 	
 	if ( atkProcess == 26 ) {
@@ -39,8 +49,8 @@ function sc_pl_atk2(){
 		}
 		
 		if (isJump && (itemJump != -1)) {
-			ySpeed = -10;
-			xSpeed = dir * -2;
+			ySpeed = -15;
+			xSpeed = dir * -4;
 		}
 	}
 	

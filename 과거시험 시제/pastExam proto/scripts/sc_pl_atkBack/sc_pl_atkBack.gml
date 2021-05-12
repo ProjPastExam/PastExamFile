@@ -38,7 +38,7 @@ function sc_pl_atkBack(){
 	if ( (atkProcess > 18 && atkProcess < 38) ) 
 		if ( keyDash ) nextAtk = 10;
 		
-	if ( (atkProcess > 35 && atkProcess < 44) ) {
+	if ( (atkProcess > 25 && atkProcess < 44) ) {
 		if ( nextAtk == 10 ) {
 			dProcess = 0;
 			nextAtk = 0;

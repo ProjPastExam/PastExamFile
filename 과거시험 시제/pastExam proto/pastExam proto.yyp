@@ -179,6 +179,7 @@
     {"id":{"name":"uls_get_light_range","path":"scripts/uls_get_light_range/uls_get_light_range.yy",},"order":3,},
     {"id":{"name":"uc_get_flash_color","path":"scripts/uc_get_flash_color/uc_get_flash_color.yy",},"order":1,},
     {"id":{"name":"uc_set_debug_mode","path":"scripts/uc_set_debug_mode/uc_set_debug_mode.yy",},"order":3,},
+    {"id":{"name":"sp_pl_jumpSin","path":"sprites/sp_pl_jumpSin/sp_pl_jumpSin.yy",},"order":2,},
     {"id":{"name":"f_dmg","path":"fonts/f_dmg/f_dmg.yy",},"order":2,},
     {"id":{"name":"scr_signtest","path":"scripts/scr_signtest/scr_signtest.yy",},"order":4,},
     {"id":{"name":"uc_get_y","path":"scripts/uc_get_y/uc_get_y.yy",},"order":3,},

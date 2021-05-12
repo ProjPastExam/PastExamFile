@@ -65,13 +65,13 @@ function sc_pl_atkFrontKick(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 24 && atkProcess < 44) ) 
+	if ( (atkProcess > 14 && atkProcess < 44) ) 
 		if ( keyDash ) nextAtk = 10;
 	
-	if ( (atkProcess > 57 && atkProcess < 77) ) 
+	if ( (atkProcess > 47 && atkProcess < 77) ) 
 		if ( keyDash ) nextAtk = 10;
 		
-	if ( (atkProcess > 62 && atkProcess < 77) || (atkProcess > 29 && atkProcess < 44) ) {
+	if ( (atkProcess > 62 && atkProcess < 77) || (atkProcess > 34 && atkProcess < 44) ) {
 		if ( nextAtk == 10 ) {
 			dProcess = 0;
 			nextAtk = 0;
