@@ -33,7 +33,7 @@ function sc_pl_Spawn() {
 	
 	energy	= 0;
 	
-	isEnergy = false;
+	isImort = false;
 	
 	dProcess = -1;
 	
@@ -42,17 +42,17 @@ function sc_pl_Spawn() {
 	{
 	itemCheck	= true;
 	isSin		= -1;		//신기전
-	isFront		= 0;		//전방 발차기 아이템
-	itemJump	= 0;		//점프 액션 아이템
+	isFront		= -1;		//전방 발차기 아이템
+	itemJump	= -1;		//점프 액션 아이템
+	itemRise	= -1;		//위키 점프 아이템
 	}
 	
 	//스킬 변수
 	{
-	
-		
 	skMp = array_create(600, 0);
 	
-	skMp[100] = 200;	//편전
+	skMp[0]		= 0;	//null	
+	skMp[100]	= 200;	//편전
 	
 	}
 }

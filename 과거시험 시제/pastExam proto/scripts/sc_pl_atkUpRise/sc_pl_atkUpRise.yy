@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "outScript",
-    "path": "folders/Scripts/player Script/outScript.yy",
+    "name": "itemMotion",
+    "path": "folders/Scripts/player Script/itemMotion.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sc_pl_keyCheck",
+  "name": "sc_pl_atkUpRise",
   "tags": [],
   "resourceType": "GMScript",
 }

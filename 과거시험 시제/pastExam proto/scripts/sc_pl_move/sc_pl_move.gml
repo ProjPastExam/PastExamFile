@@ -5,6 +5,9 @@ function sc_pl_move() {
 	var	accSpeed	= 0.8;
 	var	walkSpeed	= 8.5;
 	
+	isImort = false;
+	if ((dProcess >= 0 && dProcess <= 10)) isImort = true;
+	
 	//점프
 	if ( jumpLast > 0 ) jumpLast--;
 
@@ -67,7 +70,9 @@ function sc_pl_move() {
 	if ( keySk1 && atkProcess == -1 && canMove == 0 ) {
 		if ( global.mp >= skMp[global.sk1] ) { atkProcess = 0; canMove = global.sk1; }
 	}
-
+	
+	
+	if ( atkProcess > -1 && canMove == 0 ) atkProcess = -1;
 	if ( atkProcess > -1 && canMove == 1 ) sc_pl_atk();
 	if ( atkProcess > -1 && canMove == 2 ) sc_pl_atk2();
 	if ( atkProcess > -1 && canMove == 3 ) {
@@ -76,7 +81,10 @@ function sc_pl_move() {
 	}
 	if ( atkProcess > -1 && canMove == 4 ) sc_pl_atkBack();
 	if ( atkProcess > -1 && canMove == 5 ) sc_pl_atkDown();
-	if ( atkProcess > -1 && canMove == 6 ) sc_pl_atkUp();
+	if ( atkProcess > -1 && canMove == 6 ) {
+		if ( itemRise >= 0 ) sc_pl_atkUpRise(); 
+		else sc_pl_atkUp();
+	}
 	if ( atkProcess > -1 && canMove == 7 ) sc_pl_atkFront2();
 	
 	if ( dProcess > -1 && canMove == 10 ) sc_pl_dash();

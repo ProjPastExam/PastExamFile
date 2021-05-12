@@ -12,8 +12,8 @@ global.mp		= 0;
 
 global.atkDmg	= 10;
 
-global.sk1		= 100;
-global.sk2		= 100;
-global.sk3		= 100;
+global.sk1		= 0;
+global.sk2		= 0;
+global.sk3		= 0;
 
 sc_itemSet();
