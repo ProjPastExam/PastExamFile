@@ -37,7 +37,7 @@ function sc_pl_atkDown(){
 	
 	if ( atkProcess == 36 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
-		atk.damage = 10;
+		atk.damage = atkDmg;
 		atk.shock = 10;
 		atk.pene = 0;
 		atk.hitAfter = 15;

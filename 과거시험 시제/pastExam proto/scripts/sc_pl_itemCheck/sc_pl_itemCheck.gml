@@ -7,6 +7,8 @@ function sc_pl_itemCheck(){
 	isSin = -1;
 	//isFront = -1;
 	
+	dmgScale = 1;
+	
 	if (global.itemSum == 0) {
 		itemCheck = false;
 		return;
@@ -20,6 +22,6 @@ function sc_pl_itemCheck(){
 		sc_item(item, grade);
 		
 	}
-	
-	itemCheck = false;
+	atkDmg		= global.atkDmg * dmgScale;
+	itemCheck	= false;
 }

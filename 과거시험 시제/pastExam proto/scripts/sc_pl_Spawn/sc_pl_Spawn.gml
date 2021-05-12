@@ -37,6 +37,13 @@ function sc_pl_Spawn() {
 	
 	dProcess = -1;
 	
+	//공격력 변수
+	{
+	dmgScale	= 1;
+	dmgBuff		= 0;
+	dmgBuffT	= -1;
+	atkDmg		= global.atkDmg * dmgScale;
+	}
 	
 	//아이템 변수 
 	{

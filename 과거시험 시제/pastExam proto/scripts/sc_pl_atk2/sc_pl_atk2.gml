@@ -39,7 +39,7 @@ function sc_pl_atk2(){
 		}
 		else {
 			atk = instance_create_layer(x, y, "effect", ob_atkEf01);
-			atk.damage = 25;
+			atk.damage = atkDmg*2.5;
 			atk.shock = 20;
 			atk.pene = 0;
 			atk.hitAfter = 15;

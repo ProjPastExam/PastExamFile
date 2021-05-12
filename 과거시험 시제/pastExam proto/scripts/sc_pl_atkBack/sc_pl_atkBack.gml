@@ -21,7 +21,7 @@ function sc_pl_atkBack(){
 	
 	if ( atkProcess == 20 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
-		atk.damage = 10;
+		atk.damage = atkDmg;
 		atk.shock = 10;
 		atk.pene = 0;
 		atk.hitAfter = 15;
