@@ -8,8 +8,30 @@ function sc_item(num, grade) {
 		isSin = grade;
 		break;
 		
+	//전방 발차기 모션변경
+	case 1:
+		isFront = grade;
+		break;
 		
+	//위공격 점프
+	case 2:
+		itemRise = grade;
+		break;
 		
+	//점프공격 아이템
+	case 3:
+		itemJump = grade;
+		break;
+		
+	//
+	case 4:
+		
+		break;
+		
+	//공란
+	case 5:
+		
+		break;
 		
 	}
 }

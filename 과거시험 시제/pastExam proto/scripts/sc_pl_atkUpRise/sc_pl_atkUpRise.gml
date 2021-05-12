@@ -7,7 +7,9 @@ function sc_pl_atkUpRise(){
 	image_xscale = dir;
 	sprite_index = sp_pl_frontKick;
 	
-	if ( atkProcess > 1 && atkProcess < 30 ) {
+	if ( atkProcess == 1 && isJump ) { canMove = 0;	atkProcess = -5; }
+	
+	if ( atkProcess > 16 ) {
 		if ( keyAttack ) {
 			if ( keyDown ) 													nextAtk = 5;
 			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
@@ -21,11 +23,11 @@ function sc_pl_atkUpRise(){
 	
 	
 	//대쉬 제어
-	if ( (atkProcess > 1 && atkProcess < 30) ) 
+	if ( (atkProcess > 16) ) 
 		if ( keyDash ) nextAtk = 10;
 
 		
-	if ((atkProcess > 24 && atkProcess < 30) ) {
+	if ((atkProcess > 24) ) {
 		if ( nextAtk == 10 ) {
 			dProcess = 0;
 			nextAtk = 0;
@@ -40,7 +42,7 @@ function sc_pl_atkUpRise(){
 	else if ( atkProcess < 8 )	{ image_index = 1; isImort = true; }
 	else if ( atkProcess < 12 )	{ image_index = 2; isImort = true; ySpeed = -25; }
 	else if ( atkProcess < 18 )	{ image_index = 3; isImort = true; }
-	else if ( atkProcess < 24 )	{ image_index = 3; }
+	else if ( atkProcess < 24 )	{ image_index = 3; isImort = true; }
 	else if ( atkProcess < 36 )	{ image_index = 4;
 		if ( nextAtk == 2 ) { nextAtk = 0; atkProcess = 0; canMove = 2; }
 		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }

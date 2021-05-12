@@ -51,6 +51,8 @@ function sc_pl_Spawn() {
 	isSin		= -1;		//신기전
 	isFront		= -1;		//전방 발차기 아이템
 	itemJump	= -1;		//점프 액션 아이템
+	itemJumpS	= 10;		//위 아이템 데미지 배율
+	
 	itemRise	= -1;		//위키 점프 아이템
 	}
 	

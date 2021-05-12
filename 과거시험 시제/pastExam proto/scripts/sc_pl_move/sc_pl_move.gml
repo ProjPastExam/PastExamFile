@@ -38,7 +38,7 @@ function sc_pl_move() {
 			dir = -1;
 			if ( !isJump && canMove == 0 ) sc_pl_sprite(1);
 		}
-		if ( keyRight )	{
+		else if ( keyRight )	{
 			if (( xSpeed < walkSpeed ))	xSpeed += accSpeed; 
 			else xSpeed = walkSpeed;
 			dir = 1;

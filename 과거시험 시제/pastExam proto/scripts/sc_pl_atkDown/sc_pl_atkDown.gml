@@ -62,7 +62,7 @@ function sc_pl_atkDown(){
 			canMove = 10;
 			atkProcess = -1;
 			if ( keyRight ) dir = 1;
-			if ( keyLeft ) dir = -1
+			if ( keyLeft ) dir = -1;
 		}
 	}
 	

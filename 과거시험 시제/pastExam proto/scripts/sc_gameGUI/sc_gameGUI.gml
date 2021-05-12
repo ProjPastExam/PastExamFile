@@ -2,11 +2,11 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_gameGUI(){
 	var GUIX = 70;
-	var GUIY = 85;
+	var GUIY = 40;
 	draw_set_alpha(1);
 	var i = 1;
-	draw_sprite_stretched(sp_mpbar, 0, 0, 140, 900, 192);
-	draw_sprite_stretched(sp_healthbar, 0, -50, 70, 900, 192);
+	draw_sprite_stretched(sp_mpbar, 0, 0, GUIY+55, 900, 192);
+	draw_sprite_stretched(sp_healthbar, 0, -50, GUIY-15, 900, 192);
 	
 	for ( i = 1; i <= 10; i++ ) {
 		if ( global.hpMax >= i ) {

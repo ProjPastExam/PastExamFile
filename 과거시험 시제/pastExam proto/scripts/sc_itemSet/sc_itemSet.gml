@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_itemSet(){
-	global.itemMax		= 1;
+	global.itemMax		= 4;
 	global.itemSum		= 0;
 	global.itemNum		= 4;
 	global.itemGet 		= array_create(10, -1);

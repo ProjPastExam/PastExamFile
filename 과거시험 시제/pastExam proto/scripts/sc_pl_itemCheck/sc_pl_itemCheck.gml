@@ -4,8 +4,13 @@
 ////////////////////////////////////////////////////////////////////////
 
 function sc_pl_itemCheck(){
+	{
 	isSin = -1;
-	//isFront = -1;
+	isFront = -1;
+	itemJump = -1;
+	itemRise = -1;
+	}
+	
 	
 	dmgScale = 1;
 	
