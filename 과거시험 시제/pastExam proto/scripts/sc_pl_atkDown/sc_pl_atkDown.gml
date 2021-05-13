@@ -22,7 +22,7 @@ function sc_pl_atkDown(){
 	
 	if ( atkProcess == 9 ) {
 		atk = instance_create_layer(x - dir*50, y, "effect", ob_atkEf03);
-		atk.damage = 5;
+		atk.damage = sc_pl_kickDmg();
 		atk.shock = 20;
 		atk.pene = 0;
 		atk.hitAfter = 15;
@@ -37,7 +37,7 @@ function sc_pl_atkDown(){
 	
 	if ( atkProcess == 36 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
-		atk.damage = atkDmg;
+		atk.damage = sc_pl_atkDmg();
 		atk.shock = 10;
 		atk.pene = 0;
 		atk.hitAfter = 15;

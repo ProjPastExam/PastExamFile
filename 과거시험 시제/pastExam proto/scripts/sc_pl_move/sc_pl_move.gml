@@ -5,8 +5,12 @@ function sc_pl_move() {
 	var	accSpeed	= 0.8;
 	var	walkSpeed	= 8.5;
 	
+	//무적프래임 설정
 	isImort = false;
 	if ((dProcess >= 0 && dProcess <= 10)) isImort = true;
+	
+	//아이템 버프 시간 설정
+	if (dmgBuffT > -1) dmgBuffT--;
 	
 	//점프
 	if ( jumpLast > 0 ) jumpLast--;

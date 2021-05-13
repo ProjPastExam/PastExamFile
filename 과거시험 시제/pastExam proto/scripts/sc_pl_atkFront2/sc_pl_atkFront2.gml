@@ -9,7 +9,7 @@ function sc_pl_atkFront2(){
 	
 	if ( atkProcess == 9 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
-		atk.damage = 10;
+		atk.damage = 2 * sc_pl_kickDmg();
 		atk.shock = 30;
 		atk.pene = 0;
 		atk.hitAfter = 15;

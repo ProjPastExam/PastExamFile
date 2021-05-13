@@ -212,6 +212,7 @@
     {"id":{"name":"uls_get_light_alpha","path":"scripts/uls_get_light_alpha/uls_get_light_alpha.yy",},"order":0,},
     {"id":{"name":"ob_logo","path":"objects/ob_logo/ob_logo.yy",},"order":2,},
     {"id":{"name":"Sprite54","path":"sprites/Sprite54/Sprite54.yy",},"order":15,},
+    {"id":{"name":"sc_pl_atkDmg","path":"scripts/sc_pl_atkDmg/sc_pl_atkDmg.yy",},"order":0,},
     {"id":{"name":"sp_pl_atkFront1","path":"sprites/sp_pl_atkFront1/sp_pl_atkFront1.yy",},"order":1,},
     {"id":{"name":"uc_fnt_dpcomic","path":"fonts/uc_fnt_dpcomic/uc_fnt_dpcomic.yy",},"order":0,},
     {"id":{"name":"sp_pl_frontKick","path":"sprites/sp_pl_frontKick/sp_pl_frontKick.yy",},"order":1,},
@@ -302,6 +303,7 @@
     {"id":{"name":"sp_pl_standPeace","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"order":14,},
     {"id":{"name":"uc_get_mode","path":"scripts/uc_get_mode/uc_get_mode.yy",},"order":0,},
     {"id":{"name":"demo_stage03","path":"rooms/demo_stage03/demo_stage03.yy",},"order":5,},
+    {"id":{"name":"sc_pl_kickDmg","path":"scripts/sc_pl_kickDmg/sc_pl_kickDmg.yy",},"order":1,},
     {"id":{"name":"uls_set_light_animation","path":"scripts/uls_set_light_animation/uls_set_light_animation.yy",},"order":1,},
     {"id":{"name":"sp_st01_trap01","path":"sprites/sp_st01_trap01/sp_st01_trap01.yy",},"order":6,},
     {"id":{"name":"back_demo","path":"sprites/back_demo/back_demo.yy",},"order":1,},
@@ -530,6 +532,7 @@
     {"folderPath":"folders/Scripts/mob/jpSc.yy","order":3,"resourceVersion":"1.0","name":"jpSc","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/gameOb.yy","order":10,"resourceVersion":"1.0","name":"gameOb","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/player/jumpAtk.yy","order":16,"resourceVersion":"1.0","name":"jumpAtk","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/player Script/damageCalculator.yy","order":12,"resourceVersion":"1.0","name":"damageCalculator","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

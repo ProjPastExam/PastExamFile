@@ -23,7 +23,7 @@ function sc_pl_sk100(){
 	
 	if ( atkProcess == 40 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
-		atk.damage = 80;
+		atk.damage = 8 * sc_pl_atkDmg();
 		atk.shock = 40;
 		atk.pene = 40;
 		atk.hitAfter = 15;

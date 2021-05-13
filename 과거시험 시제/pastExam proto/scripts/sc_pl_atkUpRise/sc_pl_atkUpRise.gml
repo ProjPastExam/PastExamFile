@@ -21,6 +21,7 @@ function sc_pl_atkUpRise(){
 		if ( keySk3 ) nextAtk = -3;
 	}
 	
+	if (atkProcess == 12) { dmgBuff = (itemRise+5)/10; dmgBuffT = 90; }
 	
 	//대쉬 제어
 	if ( (atkProcess > 16) ) 

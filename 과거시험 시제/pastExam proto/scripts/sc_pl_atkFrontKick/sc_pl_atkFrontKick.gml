@@ -33,7 +33,7 @@ function sc_pl_atkFrontKick(){
 	
 	if ( atkProcess == 6 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
-		atk.damage = 8;
+		atk.damage = (1 + isFront/5) * sc_pl_kickDmg();
 		atk.shock = 30;
 		atk.pene = 0;
 		atk.hitAfter = 15;
@@ -44,7 +44,7 @@ function sc_pl_atkFrontKick(){
 	
 	if ( atkProcess == 27 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
-		atk.damage = 10;
+		atk.damage = (2 + isFront/5) * sc_pl_kickDmg();
 		atk.shock = 30;
 		atk.pene = 0;
 		atk.hitAfter = 15;
@@ -55,7 +55,7 @@ function sc_pl_atkFrontKick(){
 	
 	if ( atkProcess == 57 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
-		atk.damage = 10;
+		atk.damage = (2 + isFront/5) * sc_pl_kickDmg();
 		atk.shock = 30;
 		atk.pene = 0;
 		atk.hitAfter = 15;

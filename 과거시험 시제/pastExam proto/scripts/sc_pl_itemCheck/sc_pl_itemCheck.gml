@@ -27,6 +27,5 @@ function sc_pl_itemCheck(){
 		sc_item(item, grade);
 		
 	}
-	atkDmg		= global.atkDmg * dmgScale;
 	itemCheck	= false;
 }
