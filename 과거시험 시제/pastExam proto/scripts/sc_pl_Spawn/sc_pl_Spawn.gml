@@ -4,15 +4,14 @@ function sc_pl_Spawn() {
 
 
 	//카메라 생성--------------------------------------------------------------------------------------------
-
-	
+	{
 	instance_create_depth(x, y, 0, Camera);
 	uc_enable_room_bounds_enabled(true);
 	uc_set_window_size(1920, 1080);
 	uc_set_view_size(1920,1080);
 	uc_set_mode(0);
 	uc_set_target_position(x,y);
-	
+	}
 	
 	//기본 변수
 	
@@ -52,7 +51,6 @@ function sc_pl_Spawn() {
 	isSin		= -1;		//신기전
 	isFront		= -1;		//전방 발차기 아이템
 	itemJump	= -1;		//점프 액션 아이템
-	
 	itemRise	= -1;		//위키 점프 아이템
 	}
 	

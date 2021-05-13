@@ -95,16 +95,16 @@ function sc_pl_move() {
 	
 	//스킬
 	{
-		if ( atkProcess > -1 ) {
-			switch (canMove) {
-			case 100:
-			case 101:
-			case 102:
-			case 103:
-			case 104:
-				sc_pl_sk100(); break;
-			}
+	if ( atkProcess > -1 ) {
+		switch (canMove) {
+		case 100:
+		case 101:
+		case 102:
+		case 103:
+		case 104:
+			sc_pl_sk100(); break;
 		}
+	}
 	}
 	
 	if ( hitAfter > 0 ) {

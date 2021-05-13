@@ -12,7 +12,7 @@ function sc_pl_itemCheck(){
 	}
 	
 	
-	dmgScale = 1;
+	atkDmgScale = 1;
 	
 	if (global.itemSum == 0) {
 		itemCheck = false;
