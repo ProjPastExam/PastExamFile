@@ -26,7 +26,7 @@ function sc_pl_atkUp(){
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
 		atk.damage = 2.5 * sc_pl_atkDmg();
 		atk.shock = sc_pl_atkShock();
-		atk.pene = 0;
+		atk.pene = sc_pl_atkPene();
 		atk.hitAfter = 15;
 		atk.sprite_index = sp_pl_atkEf02;
 		if ( dir == 1 )		atk.image_angle = 20;

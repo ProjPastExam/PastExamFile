@@ -25,7 +25,7 @@ function sc_pl_sk100(){
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
 		atk.damage = 8 * sc_pl_atkDmg();
 		atk.shock = 2 * sc_pl_atkShock();
-		atk.pene = 40;
+		atk.pene = 40 + sc_pl_atkPene();
 		atk.hitAfter = 15;
 		atk.sprite_index = sp_pl_atkEf100;
 		atk.image_xscale = dir;
