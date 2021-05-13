@@ -33,7 +33,7 @@ function sc_pl_atkFront(){
 	if ( atkProcess == 24 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
 		atk.damage = sc_pl_atkDmg();
-		atk.shock = 10;
+		atk.shock = sc_pl_atkShock();
 		atk.pene = 0;
 		atk.hitAfter = 15;
 		atk.sprite_index = sp_pl_atkEf01;

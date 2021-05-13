@@ -177,6 +177,7 @@
     {"id":{"name":"demo_stageEnd","path":"rooms/demo_stageEnd/demo_stageEnd.yy",},"order":6,},
     {"id":{"name":"uc_get_aspect_ratio","path":"scripts/uc_get_aspect_ratio/uc_get_aspect_ratio.yy",},"order":0,},
     {"id":{"name":"sh_lighten","path":"shaders/sh_lighten/sh_lighten.yy",},"order":2,},
+    {"id":{"name":"sc_pl_atkShock","path":"scripts/sc_pl_atkShock/sc_pl_atkShock.yy",},"order":2,},
     {"id":{"name":"uls_get_light_range","path":"scripts/uls_get_light_range/uls_get_light_range.yy",},"order":3,},
     {"id":{"name":"uc_get_flash_color","path":"scripts/uc_get_flash_color/uc_get_flash_color.yy",},"order":1,},
     {"id":{"name":"uc_set_debug_mode","path":"scripts/uc_set_debug_mode/uc_set_debug_mode.yy",},"order":3,},

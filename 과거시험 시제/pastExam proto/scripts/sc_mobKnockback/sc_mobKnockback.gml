@@ -6,10 +6,10 @@ function sc_mobKnockback(){
 		if ( hitDir == 1 || hitDir == -1 ) xSpeed = hitDir*(process-5);
 	}
 	if ( state == 6 && process > 5 ) {
-		if ( hitDir == 1 || hitDir == -1 ) xSpeed = hitDir * 2.5*(process-5);
+		if ( hitDir == 1 || hitDir == -1 ) xSpeed = hitDir * 1.5*(process-5);
 	}
 	if ( state == 7 && process > 5 ) {
-		if ( hitDir == 1 || hitDir == -1 ) xSpeed = hitDir * 4*(process-5);
+		if ( hitDir == 1 || hitDir == -1 ) xSpeed = hitDir * 2*(process-5);
 	}
 	
 	if ( process <= 0 && !isJump && (state == 5 || state == 6 || state == 7) ) 

@@ -12,13 +12,15 @@ function sc_mobHit( argument0 ){
 		
 		case 0:
 			var shock = ob_atkEf01.shock - down;
+			var shVal = sqrt(shock)*3+6;
 			if ( knockback ) { 
 				if ( shock < 10) {}
-				else if (shock < 20) { state = 5; process = sqrt(shock)+12; }
-				else if (shock < 30) { state = 6; process = sqrt(shock)+12; }
-				else { state = 7; process = sqrt(shock)+12; }
+				else if (shock < 20) { state = 5; process = shVal; }
+				else if (shock < 30) { state = 6; process = shVal; }
+				else { state = 7; process = shVal; }
 				if ( shock >= 10 && isJump) { ySpeed = -8; }
 			}
+			else { stun += shock }
 			process = int64(process);
 			hitAfter = ob_atkEf01.hitAfter;
 			dmg = ob_atkEf01.damage * (100 - (defence * (100 - ob_atkEf01.pene)/100))/100;
@@ -72,11 +74,12 @@ function sc_mobHit( argument0 ){
 			
 		case 2:
 			var shock = ob_atkEf03.shock - down;
+			var shVal = sqrt(shock)*3+6;
 			if ( knockback ) { 
 				if ( shock < 10) {}
-				else if (shock < 20) { state = 5; process = sqrt(shock)+12;; }
-				else if (shock < 30) { state = 6; process = sqrt(shock)+12;; }
-				else { state = 7; process = sqrt(shock)+12;; }
+				else if (shock < 20) { state = 5; process = shVal; }
+				else if (shock < 30) { state = 6; process = shVal; }
+				else { state = 7; process = shVal; }
 				if ( shock >= 10 && isJump) { ySpeed = -8; }
 			}
 			process = int64(process);
@@ -107,11 +110,12 @@ function sc_mobHit( argument0 ){
 			
 		case 3:
 			var shock = ob_atkEf04.shock - down;
+			var shVal = sqrt(shock)*3+6;
 			if ( knockback ) { 
 				if ( shock < 10 ) {}
-				else if (shock < 20) { state = 5; ySpeed = -15; process = sqrt(shock)+12; }
-				else if (shock < 30) { state = 6; ySpeed = -18; process = sqrt(shock)+12; }
-				else { state = 7; ySpeed = -20; process = sqrt(shock)+12; }
+				else if (shock < 20) { state = 5; ySpeed = -15; process = shVal; }
+				else if (shock < 30) { state = 6; ySpeed = -18; process = shVal; }
+				else { state = 7; ySpeed = -20; process = shVal; }
 			}
 			process = int64(process);
 			hitAfter = ob_atkEf04.hitAfter;
@@ -142,11 +146,12 @@ function sc_mobHit( argument0 ){
 			
 		case 4:
 			var shock = ob_atkEf05.shock - down;
+			var shVal = sqrt(shock)*3+6;
 			if ( knockback ) { 
 				if ( shock < 10 ) {}
-				else if (shock < 20) { state = 5; ySpeed = -5; process = sqrt(shock)+12; }
-				else if (shock < 30) { state = 6; ySpeed = -8; process = sqrt(shock)+12; }
-				else { state = 7; ySpeed = -10; process = sqrt(shock)+12; }
+				else if (shock < 20) { state = 5; ySpeed = -5; process = shVal; }
+				else if (shock < 30) { state = 6; ySpeed = -8; process = shVal; }
+				else { state = 7; ySpeed = -10; process = shVal; }
 			}
 			process = int64(process);
 			hitAfter = ob_atkEf05.hitAfter;
