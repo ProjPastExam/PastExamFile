@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2e92debe-e187-49fd-8d3c-b505de51a8a4","path":"sprites/sp_jpSword_pain/sp_jpSword_pain.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2e92debe-e187-49fd-8d3c-b505de51a8a4","path":"sprites/sp_jpSword_pain/sp_jpSword_pain.yy",},"LayerId":{"name":"ccbb07f6-1df3-44b2-93e4-959c4d1bcbee","path":"sprites/sp_jpSword_pain/sp_jpSword_pain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_jpSword_pain","path":"sprites/sp_jpSword_pain/sp_jpSword_pain.yy",},"resourceVersion":"1.0","name":"2e92debe-e187-49fd-8d3c-b505de51a8a4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7b48e839-ed64-4823-b488-0579b4116758","path":"sprites/sp_jpSword_pain/sp_jpSword_pain.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7b48e839-ed64-4823-b488-0579b4116758","path":"sprites/sp_jpSword_pain/sp_jpSword_pain.yy",},"LayerId":{"name":"f8a21c89-50a7-4e24-b4dd-e7fa2cdbf2fc","path":"sprites/sp_jpSword_pain/sp_jpSword_pain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_jpSword_pain","path":"sprites/sp_jpSword_pain/sp_jpSword_pain.yy",},"resourceVersion":"1.0","name":"7b48e839-ed64-4823-b488-0579b4116758","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sp_jpSword_pain","path":"sprites/sp_jpSword_pain/sp_jpSword_pain.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ba286de9-50fc-49fd-a484-95a9edc5dd81","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2e92debe-e187-49fd-8d3c-b505de51a8a4","path":"sprites/sp_jpSword_pain/sp_jpSword_pain.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8c9d6b98-5608-45ed-82e9-eea0a942fd82","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b48e839-ed64-4823-b488-0579b4116758","path":"sprites/sp_jpSword_pain/sp_jpSword_pain.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ccbb07f6-1df3-44b2-93e4-959c4d1bcbee","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f8a21c89-50a7-4e24-b4dd-e7fa2cdbf2fc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

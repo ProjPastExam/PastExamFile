@@ -53,6 +53,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_roomControl","path":"objects/ob_roomControl/ob_roomControl.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1376.0,"y":544.0,"resourceVersion":"1.0","name":"inst_76146EC9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_jpSpear","path":"objects/ob_jpSpear/ob_jpSpear.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2176.0,"y":1632.0,"resourceVersion":"1.0","name":"inst_4C3C0814","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_jpSword","path":"objects/ob_jpSword/ob_jpSword.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1984.0,"y":1632.0,"resourceVersion":"1.0","name":"inst_466AD408","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"roomControl","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit01","path":"objects/ob_mobBandit01/ob_mobBandit01.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":9280.0,"y":1056.0,"resourceVersion":"1.0","name":"inst_22DB0894","tags":[],"resourceType":"GMRInstance",},
@@ -170,6 +171,7 @@
     {"name":"inst_78F3569","path":"rooms/demo_stage01/demo_stage01.yy",},
     {"name":"inst_1E4ED503","path":"rooms/demo_stage01/demo_stage01.yy",},
     {"name":"inst_4C3C0814","path":"rooms/demo_stage01/demo_stage01.yy",},
+    {"name":"inst_466AD408","path":"rooms/demo_stage01/demo_stage01.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
