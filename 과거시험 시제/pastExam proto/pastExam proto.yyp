@@ -232,6 +232,7 @@
     {"id":{"name":"sp_demoTalk","path":"sprites/sp_demoTalk/sp_demoTalk.yy",},"order":10,},
     {"id":{"name":"sp_pl_atk2","path":"sprites/sp_pl_atk2/sp_pl_atk2.yy",},"order":6,},
     {"id":{"name":"sp_mpbar","path":"sprites/sp_mpbar/sp_mpbar.yy",},"order":4,},
+    {"id":{"name":"sp_itemUI","path":"sprites/sp_itemUI/sp_itemUI.yy",},"order":8,},
     {"id":{"name":"uc_set_target_y","path":"scripts/uc_set_target_y/uc_set_target_y.yy",},"order":5,},
     {"id":{"name":"sp_bandit01G_die","path":"sprites/sp_bandit01G_die/sp_bandit01G_die.yy",},"order":5,},
     {"id":{"name":"sc_bandit02Sprite","path":"scripts/sc_bandit02Sprite/sc_bandit02Sprite.yy",},"order":3,},
