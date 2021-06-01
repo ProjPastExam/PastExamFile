@@ -27,4 +27,3 @@ global.sk1		= 100;
 global.sk2		= 0;
 global.sk3		= 0;
 
-sc_itemSet();

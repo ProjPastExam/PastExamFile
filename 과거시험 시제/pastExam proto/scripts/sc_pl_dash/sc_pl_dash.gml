@@ -3,7 +3,7 @@
 function sc_pl_dash(){
 	if ( dProcess > 0 && dProcess < 16 ) {
 		if (keyAttack) {
-			if ( keyDown ) 													nextAtk = 5;
+			if ( keyDown )													nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
 			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
 		}
@@ -32,6 +32,6 @@ function sc_pl_dash(){
 			{ nextAtk = 0; atkProcess = 0; dProcess = -30; canMove = global.sk2; }
 		else if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
 			{ nextAtk = 0; atkProcess = 0; dProcess = -30; canMove = global.sk3; }
-		else { canMove = 0; dProcess = -50; }
+		else { canMove = 0; dProcess = -30; }
 	}
 }

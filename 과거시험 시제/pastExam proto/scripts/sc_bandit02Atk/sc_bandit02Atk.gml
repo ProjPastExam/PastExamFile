@@ -50,7 +50,7 @@ function sc_bandit02Atk(){
 		
 		if ( process == 1 ) { audio_play_sound(s_bandit02atk1, 8, false); }
 		
-		if ( process == 16 ) { 
+		if ( process == 21 ) { 
 			audio_play_sound(s_bandit02atk2, 8, false);
 			var axe = instance_create_layer(x, y, "effect", ob_mobBandit02Atk);
 			if ( x > plX ) axe.dir = -1; else axe.dir = 1;
@@ -61,9 +61,9 @@ function sc_bandit02Atk(){
 		}
 		
 		
-		if ( process < 15 ) { image_index = 0; }
-		else if ( process < 20 ) { image_index = 1; }
-		else if ( process < 30 ) { image_index = 2; }
+		if ( process < 20 ) { image_index = 0; }
+		else if ( process < 25 ) { image_index = 1; }
+		else if ( process < 35 ) { image_index = 2; }
 		else { state = 10;	process = 0;	delay = random_range(120, 200); }
 	}
 	

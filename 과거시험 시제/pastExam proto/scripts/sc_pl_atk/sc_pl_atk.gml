@@ -8,8 +8,8 @@ function sc_pl_atk(){
 	else sprite_index = sp_pl_jumpAtk;
 	var atk;
 	
-	if ( atkProcess > 6 && atkProcess < 24 && keyAttack ) nextAtk = 1;
-	if ( atkProcess > 36 && atkProcess < 54 ) {
+	if ( atkProcess > 6 && atkProcess < 22 && keyAttack ) nextAtk = 1;
+	if ( atkProcess > 30 && atkProcess < 48 ) {
 		if ( keyAttack ) {
 			if ( keyDown ) 													nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
@@ -39,10 +39,10 @@ function sc_pl_atk(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 34 && atkProcess < 54) || (atkProcess > 6 && atkProcess < 24) ) 
+	if ( (atkProcess > 28 && atkProcess < 48) || (atkProcess > 6 && atkProcess < 24) ) 
 		if ( keyDash ) nextAtk = 10;
 		
-	if ( (atkProcess > 38 && atkProcess < 54) || (atkProcess > 20 && atkProcess < 30) ) {
+	if ( (atkProcess > 32 && atkProcess < 48) || (atkProcess > 20 && atkProcess < 30) ) {
 		if ( nextAtk == 10 ) {
 			dProcess = 0;
 			nextAtk = 0;
@@ -67,9 +67,9 @@ function sc_pl_atk(){
 		if ( image_index == 3 ) { atkProcess = -5; canMove = 0; }
 		else					{ image_index = 6; }
 		}
-	else if ( atkProcess < 42 )	{ image_index = 7; }
-	else if ( atkProcess < 48 )	{ image_index = 8; }
-	else if ( atkProcess < 54 ) { 
+	else if ( atkProcess < 40 )	{ image_index = 7; }
+	else if ( atkProcess < 44 )	{ image_index = 8; }
+	else if ( atkProcess < 48 ) { 
 		if ( nextAtk == 2 ) { nextAtk = 0; atkProcess = 0; canMove = 2; }
 		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 		if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }

@@ -55,10 +55,10 @@ function sc_pl_atk2(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 30 && atkProcess < 50) ) 
+	if ( (atkProcess > 20 && atkProcess < 50) ) 
 		if ( keyDash ) nextAtk = 10;
 		
-	if ( (atkProcess > 41 && atkProcess < 50) ) {
+	if ( (atkProcess > 30 && atkProcess < 50) ) {
 		if ( nextAtk == 10 ) {
 			dProcess = 0;
 			nextAtk = 0;

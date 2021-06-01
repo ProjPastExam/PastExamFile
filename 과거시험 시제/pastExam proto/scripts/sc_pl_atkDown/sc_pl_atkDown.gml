@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_atkDown(){
+	
 	atkProcess++;
 	xSpeed = 0;
 	image_xscale = dir;
@@ -20,7 +21,7 @@ function sc_pl_atkDown(){
 	}
 	
 	
-	if ( atkProcess == 9 ) {
+	if ( atkProcess == 6 ) {
 		atk = instance_create_layer(x - dir*50, y, "effect", ob_atkEf03);
 		atk.damage = sc_pl_kickDmg();
 		atk.shock = 20;
@@ -35,7 +36,7 @@ function sc_pl_atkDown(){
 		}
 	}
 	
-	if ( atkProcess == 36 ) {
+	if ( atkProcess == 27 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
 		atk.damage = sc_pl_atkDmg();
 		atk.shock = sc_pl_atkShock();
@@ -52,10 +53,10 @@ function sc_pl_atkDown(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 25 && atkProcess < 54) ) 
+	if ( (atkProcess > 20 && atkProcess < 54) ) 
 		if ( keyDash ) nextAtk = 10;
 		
-	if ( (atkProcess > 41 && atkProcess < 54) ) {
+	if ( (atkProcess > 30 && atkProcess < 54) ) {
 		if ( nextAtk == 10 ) {
 			dProcess = 0;
 			nextAtk = 0;
@@ -67,16 +68,16 @@ function sc_pl_atkDown(){
 	}
 	
 	if ( atkProcess == 1 )		{ dir = dir * -1; }
-	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; xSpeed = -4*dir; }
-	else if ( atkProcess < 9 )	{ image_index = 1; xSpeed = -8*dir; }
-	else if ( atkProcess < 14 )	{ image_index = 2; xSpeed = -12*dir; }
-	else if ( atkProcess < 19 )	{ image_index = 3; xSpeed = -8*dir; }
-	else if ( atkProcess < 24 )	{ image_index = 4; xSpeed = -4*dir; }
-	else if ( atkProcess < 30 )	{ image_index = 5; }
-	else if ( atkProcess < 36 )	{ image_index = 6; }
-	else if ( atkProcess < 42 )	{ image_index = 7; }
-	else if ( atkProcess < 48 )	{ image_index = 8; }
-	else if ( atkProcess < 54 ) { 
+	if ( atkProcess < 3 )		{ image_index = 0; nextAtk = 0; xSpeed = -4*dir; }
+	else if ( atkProcess < 6 )	{ image_index = 1; xSpeed = -8*dir; }
+	else if ( atkProcess < 11 )	{ image_index = 2; xSpeed = -12*dir; }
+	else if ( atkProcess < 16 )	{ image_index = 3; xSpeed = -8*dir; }
+	else if ( atkProcess < 19 )	{ image_index = 4; xSpeed = -4*dir; }
+	else if ( atkProcess < 23 )	{ image_index = 5; }
+	else if ( atkProcess < 27 )	{ image_index = 6; }
+	else if ( atkProcess < 33 )	{ image_index = 7; }
+	else if ( atkProcess < 39 )	{ image_index = 8; }
+	else if ( atkProcess < 45 ) { 
 		if ( nextAtk == 2 ) { nextAtk = 0; atkProcess = 0; canMove = 2; }
 		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 		if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
@@ -89,4 +90,5 @@ function sc_pl_atkDown(){
 			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
 	}
 	else	{ canMove = 0;	atkProcess = -5; }
+	
 }

@@ -9,9 +9,10 @@ function sc_pl_atkFront(){
 	
 	if ( atkProcess > 28 && atkProcess < 48 ) {
 		if (keyAttack) {
-			if ( keyDown ) 		nextAtk = 5;
+			if ( keyDown )													nextAtk = 5;
 			else if ( keyTop ) 	nextAtk = 6;
 			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
+			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
 			else nextAtk = 2;
 		}
 		if ( keySk1 ) nextAtk = -1;
@@ -75,6 +76,7 @@ function sc_pl_atkFront(){
 	else if ( atkProcess < 42 )	{ image_index = 5; }
 	else if ( atkProcess < 48 ) { 
 		if (nextAtk == 2)	{ canMove = 2;	atkProcess = 0; }
+		if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
 		if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
 		if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
 		if (nextAtk == 7)	{ canMove = 7;	atkProcess = 0; }

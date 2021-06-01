@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_atkBack(){
-	atkProcess++;
+atkProcess++;
 	xSpeed = 0;
 	image_xscale = dir;
 	sprite_index = sp_pl_atkBack;
@@ -9,7 +9,7 @@ function sc_pl_atkBack(){
 	
 	if ( atkProcess > 18 && atkProcess < 38 ) {
 		if (keyAttack) {
-			if ( keyDown ) 													nextAtk = 5;
+			if ( keyDown )													nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
 			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
 			else															nextAtk = 2;
@@ -72,4 +72,5 @@ function sc_pl_atkBack(){
 			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
 	}
 	else { canMove = 0;	atkProcess = -5; }
+	
 }
