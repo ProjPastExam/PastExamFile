@@ -11,12 +11,12 @@ function sc_gameGUI(){
 	for ( i = 1; i <= 10; i++ ) {
 		if ( global.hpMax >= i ) {
 			if ( global.hp >= i )
-				draw_sprite_stretched(sp_heart, 0, GUIX+50+(50*i), GUIY-(i%2-1)*15,120, 120);
+				draw_sprite_stretched(sp_heart, 0, GUIX+70+(50*i), GUIY+15-(i%2-1)*25,80, 80);
 			else {
 				if ( global.hp == i - 1 && hpProcess > 0)
-					draw_sprite_stretched(sp_heart, 1+(24-hpProcess)/3, GUIX+50+(50*i), GUIY-(i%2-1)*15,120, 120);
+					draw_sprite_stretched(sp_heart, 1+(24-hpProcess)/6, GUIX+70+(50*i), GUIY+15-(i%2-1)*25,80, 80);
 				else
-					draw_sprite_stretched(sp_heart, 9, GUIX+50+(50*i), GUIY-(i%2-1)*15,120, 120);
+					draw_sprite_stretched(sp_heart, 4, GUIX+70+(50*i), GUIY+15-(i%2-1)*25,80, 80);
 			}
 		}
 	}
