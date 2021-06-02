@@ -20,7 +20,7 @@ function sc_pl_dash(){
 	dProcess++;
 	sprite_index = sp_pl_dash;
 	image_xscale = dir;
-	xSpeed = 30*dir*(20-dProcess)/14;
+	xSpeed = 27*dir*(20-dProcess)/14;
 	ySpeed = 0;
 	if ( dProcess > 16 ) { 
 		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; dProcess = -30; }

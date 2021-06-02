@@ -39,10 +39,22 @@ function sc_pl_atk(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 28 && atkProcess < 48) || (atkProcess > 6 && atkProcess < 24) ) 
+	if ( (atkProcess > 28 && atkProcess < 48) || (atkProcess > 6 && atkProcess < 24) ) {
 		if ( keyDash ) nextAtk = 10;
+		if ( keyJump ) nextAtk = 9;
+	}
 		
 	if ( (atkProcess > 32 && atkProcess < 48) || (atkProcess > 20 && atkProcess < 30) ) {
+		if ( nextAtk == 9 ) {
+			canMove = 0;
+			if (!isJump) {
+				ySpeed = -17.5;
+				jumpLast = 30;
+				if (keyLeft) xSpeed = -8.5;
+				if (keyRight) xSpeed = 8.5;
+			}
+			audio_play_sound(s_jump, 5, false);
+		}
 		if ( nextAtk == 10 ) {
 			dProcess = 0;
 			nextAtk = 0;

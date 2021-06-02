@@ -55,10 +55,22 @@ function sc_pl_atk2(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 20 && atkProcess < 50) ) 
+	if ( (atkProcess > 20 && atkProcess < 50) ) {
 		if ( keyDash ) nextAtk = 10;
+		if ( keyJump ) nextAtk = 9;
+	}
 		
 	if ( (atkProcess > 30 && atkProcess < 50) ) {
+		if ( nextAtk == 9 ) {
+			canMove = 0;
+			if (!isJump) {
+				ySpeed = -17.5;
+				jumpLast = 30;
+				if (keyLeft) xSpeed = -8.5;
+				if (keyRight) xSpeed = 8.5;
+			}
+			audio_play_sound(s_jump, 5, false);
+		}
 		if ( nextAtk == 10 ) {
 			dProcess = 0;
 			nextAtk = 0;
