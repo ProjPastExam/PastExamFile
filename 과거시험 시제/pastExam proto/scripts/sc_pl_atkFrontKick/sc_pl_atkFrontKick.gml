@@ -86,6 +86,7 @@ function sc_pl_atkFrontKick(){
 	if ( (atkProcess > 60 && atkProcess < 77) || (atkProcess > 31 && atkProcess < 44) ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
+			nextAtk = 0;
 			if (!isJump) {
 				ySpeed = -17.5;
 				jumpLast = 30;

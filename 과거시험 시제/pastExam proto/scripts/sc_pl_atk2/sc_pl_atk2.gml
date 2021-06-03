@@ -63,6 +63,7 @@ function sc_pl_atk2(){
 	if ( (atkProcess > 30 && atkProcess < 50) ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
+			nextAtk = 0;
 			if (!isJump) {
 				ySpeed = -17.5;
 				jumpLast = 30;

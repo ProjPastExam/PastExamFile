@@ -56,6 +56,7 @@ function sc_pl_atkFront(){
 	if ( (atkProcess > 29 && atkProcess < 48) ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
+			nextAtk = 0;
 			if (!isJump) {
 				ySpeed = -17.5;
 				jumpLast = 30;
