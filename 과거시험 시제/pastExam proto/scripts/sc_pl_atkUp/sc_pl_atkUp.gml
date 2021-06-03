@@ -29,8 +29,8 @@ function sc_pl_atkUp(){
 		atk.pene = sc_pl_atkPene();
 		atk.hitAfter = 15;
 		atk.sprite_index = sp_pl_atkEf02;
-		if ( dir == 1 )		atk.image_angle = 20;
-		if ( dir == -1 )	atk.image_angle = 160;
+		if ( dir == 1 )		atk.image_angle = 35;
+		if ( dir == -1 )	atk.image_angle = 145;
 		audio_play_sound(s_arrow02, 5, false);
 	}
 	

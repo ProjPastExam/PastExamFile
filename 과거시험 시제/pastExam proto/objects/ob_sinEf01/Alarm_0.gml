@@ -16,12 +16,22 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	var tileId	= layer_tilemap_get_id("Tile_Collision");
 	var center	= tilemap_get_at_pixel(tileId, x, y);
 	
-	if (center == 3) {
-	var ex = instance_create_layer(x, y, "effect", ob_atkEf05);
-	ex.sprite_index = sp_hitEffect_sin;
-	ex.damage = 60;
-	ex.shock = 30;
-	instance_destroy();
+	if (center == 3) act = true;
+	
+	if (act) {
+		var ex = instance_create_layer(x, y, "effect", ob_atkEf05);
+		var dmg = 0;
+		var sck = 0;
+
+		if (instance_exists(ob_player)) {
+			dmg = 40 + (4 * ob_player.isSin);
+			sck = 20 + (3 * ob_player.isSin);
+		}
+
+		ex.sprite_index = sp_hitEffect_sin;
+		ex.damage = dmg;
+		ex.shock = sck;
+		instance_destroy();
 	}
 }
 else {
