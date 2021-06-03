@@ -7,8 +7,8 @@ if ( sc_getRoomValue("slow") == 0 )	{
 	image_speed = 1;
 }
 else {
-	alarm[0] = 2;
-	image_speed = 0.5;
+	alarm[0] = 4;
+	image_speed = 0.25;
 }
 
 if ( sc_getRoomValue("pause") == 0 ) {

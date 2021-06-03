@@ -1,9 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_dash(){
-	if ( dProcess > 0 && dProcess < 16 ) {
+	if ( dProcess > 0 && dProcess < 17 ) {
+		if ( keyJump ) nextAtk = 9;
 		if (keyAttack) {
-			if ( keyDown )													nextAtk = 5;
+			if ( keyDown )												nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
 			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
 		}
@@ -14,6 +15,20 @@ function sc_pl_dash(){
 	if ( dProcess % 4 == 0 ) { 
 		part_type_scale( global.dashEf, dir, 1 );
 		part_particles_create( global.hitEf2, x, y, global.dashEf, 1 );
+	}
+		
+	if ( (dProcess > 14 && dProcess < 17) ) {
+		if ( nextAtk == 9 && !isJump ) {
+			canMove = 0;
+			dProcess = -30;
+			nextAtk = 0;
+			ySpeed = -17.5;
+			jumpLast = 30;
+			//if (keyLeft) xSpeed = -8.5;
+			//if (keyRight) xSpeed = 8.5;
+			audio_play_sound(s_jump, 5, false);
+			return;
+		}
 	}
 	
 	if (dProcess == 0) audio_play_sound(s_dash01, 5, false);
