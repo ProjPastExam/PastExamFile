@@ -46,7 +46,7 @@ function sc_mobHit( argument0 ){
 				xs = 1;
 				hitDir = 1;
 			}
-			uc_shake(3, 0.15);
+			uc_shake(sqrt(shock), 0.15);
 			audio_play_sound(s_hit01, 5, false);
 			
 			if ( ob_atkEf01.shock < 10) part_type_scale( global.hitEf02T, xs * 0.6, 0.6 );
@@ -101,7 +101,7 @@ function sc_mobHit( argument0 ){
 				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
 				hitDir = 1;
 			}
-			uc_shake(5, 0.15);
+			uc_shake(sqrt(shock)+1, 0.15);
 			audio_play_sound(s_hit01, 5, false);
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
 			part_type_orientation( global.hitEf_k01, 0, 360, 0, 0, 0 );
@@ -136,7 +136,7 @@ function sc_mobHit( argument0 ){
 				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
 				hitDir = 1;
 			}
-			uc_shake(5, 0.2);
+			uc_shake(sqrt(shock)+2, 0.2);
 			audio_play_sound(s_hit01, 5, false);
 			part_type_scale( global.hitEf02T, 1.5, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
@@ -172,7 +172,7 @@ function sc_mobHit( argument0 ){
 				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
 				hitDir = 1;
 			}
-			uc_shake(5, 0.2);
+			uc_shake(sqrt(shock)+2, 0.2);
 			audio_play_sound(s_hit01, 5, false);
 			part_type_scale( global.hitEf02T, 1.5, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
