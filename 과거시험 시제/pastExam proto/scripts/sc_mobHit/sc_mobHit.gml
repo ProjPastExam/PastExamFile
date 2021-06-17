@@ -12,7 +12,9 @@ function sc_mobHit( argument0 ){
 		
 		case 0:
 			var shock = ob_atkEf01.shock - down;
+			if (shock < 0) shock = 0;
 			var shVal = sqrt(shock)*3+6;
+			
 			if ( knockback ) { 
 				if ( shock < 10) {}
 				else if (shock < 20) { state = 5; process = shVal; }

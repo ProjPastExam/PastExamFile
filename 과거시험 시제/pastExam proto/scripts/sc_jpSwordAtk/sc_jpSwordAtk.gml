@@ -26,11 +26,11 @@ function sc_jpSwordAtk(){
 		}
 		else if ( plX > x + 270 ) {
 			dir = 1;
-			xSpeed = 6;
+			xSpeed = 8;
 		}
 		else if ( plX < x - 270 ) {
 			dir = -1;
-			xSpeed = -6;
+			xSpeed = -8;
 		}
 		else {
 			//state = 12;

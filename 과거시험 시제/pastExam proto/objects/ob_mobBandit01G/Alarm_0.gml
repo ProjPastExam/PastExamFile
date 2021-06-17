@@ -11,15 +11,9 @@ else {
 
 if ( sc_getRoomValue("pause") == 0 ) {
 	if ( state != -1 ) {
-		if ( !isJump )	xSpeed = 0;
-		if ( hitAfter > 0 ) hitAfter--;
+		sc_mobMain();
 		
-		//넉백과 기절
-		if ( knockback ) sc_mobKnockback();
-		
-		if ( patrol ) sc_mobPatrol();
-		if ( hp <= 0 ) { state = -1; process = 0; }
-		if (state != 5 && state != 6) sc_mobAd();
+		//이하 몹 개인코드
 		sc_bandit01GSprite();
 		if (ad) sc_bandit01GAtk();
 		
