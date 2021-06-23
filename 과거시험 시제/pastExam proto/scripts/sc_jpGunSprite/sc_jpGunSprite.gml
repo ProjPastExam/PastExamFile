@@ -16,7 +16,7 @@ function sc_jpGunSprite(){
 		break;
 	
 	case 10:
-		sprite_index = sp_jpSpear_stand2;
+		sprite_index = sp_jpGun_stand2;
 		break;
 	
 	case 11:
@@ -26,7 +26,7 @@ function sc_jpGunSprite(){
 		sprite_index = sp_jpGun_stand;
 		break;
 	case 32:
-		sprite_index = sp_jpSpear_stand2;
+		sprite_index = sp_jpGun_stand2;
 		break;
 	}
 }

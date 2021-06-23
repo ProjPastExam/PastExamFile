@@ -61,6 +61,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_jpSwordS","path":"objects/ob_jpSwordS/ob_jpSwordS.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5824.0,"y":1568.0,"resourceVersion":"1.0","name":"inst_72A1BC74","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_jpSpearS","path":"objects/ob_jpSpearS/ob_jpSpearS.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5568.0,"y":1568.0,"resourceVersion":"1.0","name":"inst_2DA26B1C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_jpSpearS","path":"objects/ob_jpSpearS/ob_jpSpearS.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":8672.0,"y":1184.0,"resourceVersion":"1.0","name":"inst_5EB3E006","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_jpGun","path":"objects/ob_jpGun/ob_jpGun.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2560.0,"y":1504.0,"resourceVersion":"1.0","name":"inst_7F385922","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"effect2","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"t_stage2","path":"tilesets/t_stage2/t_stage2.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":375,"SerialiseHeight":32,"TileSerialiseData":[
@@ -138,6 +139,7 @@
     {"name":"inst_72A1BC74","path":"rooms/demo_stage04/demo_stage04.yy",},
     {"name":"inst_2DA26B1C","path":"rooms/demo_stage04/demo_stage04.yy",},
     {"name":"inst_5EB3E006","path":"rooms/demo_stage04/demo_stage04.yy",},
+    {"name":"inst_7F385922","path":"rooms/demo_stage04/demo_stage04.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
