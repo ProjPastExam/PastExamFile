@@ -32,7 +32,7 @@ function sc_pl_atkFrontKick(){
 		if ( keySk3 ) nextAtk = -3;
 	}
 	
-	if ( atkProcess > 57 && atkProcess < 77 ) {
+	if ( atkProcess > 47 && atkProcess < 77 ) {
 		if (keyAttack) {
 			if ( keyDown ) 		nextAtk = 5;
 			else if ( keyTop ) 	nextAtk = 6;
@@ -55,7 +55,7 @@ function sc_pl_atkFrontKick(){
 		audio_play_sound(s_kick01, 5, false);
 	}
 	
-	if ( atkProcess == 27 ) {
+	if ( atkProcess == 25 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
 		atk.damage = (2 + isFront/5) * sc_pl_kickDmg();
 		atk.shock = 30;
@@ -66,7 +66,7 @@ function sc_pl_atkFrontKick(){
 		audio_play_sound(s_kick01, 5, false);
 	}
 	
-	if ( atkProcess == 57 ) {
+	if ( atkProcess == 47 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
 		atk.damage = (2 + isFront/5) * sc_pl_kickDmg();
 		atk.shock = 30;
@@ -83,7 +83,7 @@ function sc_pl_atkFrontKick(){
 		if ( keyJump ) nextAtk = 9;
 	}
 		
-	if ( (atkProcess > 60 && atkProcess < 77) || (atkProcess > 31 && atkProcess < 44) ) {
+	if ( (atkProcess > 52 && atkProcess < 77) || (atkProcess > 29 && atkProcess < 44) ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
 			nextAtk = 0;
@@ -111,9 +111,9 @@ function sc_pl_atkFrontKick(){
 			ySpeed = -7;
 		}
 	}
-	else if ( atkProcess < 12 )	{ image_index = 1; xSpeed = 8*dir; }
-	else if ( atkProcess < 18 )	{ image_index = 2; xSpeed = 4*dir; }
-	else if ( atkProcess < 22 )	{ image_index = 3; xSpeed = 0;
+	else if ( atkProcess < 12 )	{ image_index = 1; xSpeed = 10*dir; }
+	else if ( atkProcess < 16 )	{ image_index = 2; xSpeed = 8*dir; }
+	else if ( atkProcess < 20 )	{ image_index = 3; xSpeed = 0;
 		if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
 		if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
 		if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
@@ -125,16 +125,16 @@ function sc_pl_atkFrontKick(){
 			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
 		if (nextAtk == 0)	{ canMove = 0;	atkProcess = -5; }
 	}
-	else if ( atkProcess < 24 )	{ image_index = 3; nextAtk = 0; xSpeed = 12*dir; nextAtk = 0;}
-	else if ( atkProcess < 27 )	{ 
+	else if ( atkProcess < 22 )	{ image_index = 3; nextAtk = 0; xSpeed = 12*dir; nextAtk = 0;}
+	else if ( atkProcess < 25 )	{ 
 		image_index = 4; xSpeed = 16*dir;
 		if (isJump && (itemJump != -1)) {
 			ySpeed = -7;
 		}
 	}
-	else if ( atkProcess < 33 )	{ image_index = 5; xSpeed = 12*dir; }
-	else if ( atkProcess < 39 )	{ image_index = 6; xSpeed = 8*dir; }
-	else if ( atkProcess < 44 )	{ image_index = 7; xSpeed = 4*dir; 
+	else if ( atkProcess < 30 )	{ image_index = 5; xSpeed = 12*dir; }
+	else if ( atkProcess < 36 )	{ image_index = 6; xSpeed = 10*dir; }
+	else if ( atkProcess < 40 )	{ image_index = 7; xSpeed = 8*dir; 
 		if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
 		if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
 		if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
@@ -146,16 +146,16 @@ function sc_pl_atkFrontKick(){
 			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
 		if (nextAtk == 0)	{ canMove = 0;	atkProcess = -5; }
 	}
-	else if ( atkProcess < 51 )	{ image_index = 8; }
-	else if ( atkProcess < 57 )	{ 
+	else if ( atkProcess < 43 )	{ image_index = 8; }
+	else if ( atkProcess < 47 )	{ 
 		image_index = 9; xSpeed = 16*dir;
 		if (isJump && (itemJump != -1)) {
 			ySpeed = -7;
 		}
 	}
-	else if ( atkProcess < 63 )	{ image_index = 9; xSpeed = 8*dir; }
-	else if ( atkProcess < 69 )	{ image_index = 9; xSpeed = 4*dir; }
-	else if ( atkProcess < 77 ) {
+	else if ( atkProcess < 52 )	{ image_index = 9; xSpeed = 12*dir; }
+	else if ( atkProcess < 56 )	{ image_index = 9; xSpeed = 10*dir; }
+	else if ( atkProcess < 64 ) {
 		if (nextAtk == 2)	{ canMove = 2;	atkProcess = 3; }
 		if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
 		if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }

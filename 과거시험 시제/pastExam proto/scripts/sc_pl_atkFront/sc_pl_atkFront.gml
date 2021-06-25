@@ -20,7 +20,7 @@ function sc_pl_atkFront(){
 		if ( keySk3 ) nextAtk = -3;
 	}
 	
-	if ( atkProcess == 5 ) {
+	if ( atkProcess == 6 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
 		atk.damage = sc_pl_kickDmg();
 		atk.shock = 20;
@@ -82,7 +82,7 @@ function sc_pl_atkFront(){
 			xSpeed = 20*dir;
 		}
 	}
-	else if ( atkProcess < 11 )	{ image_index = 1; xSpeed = 9*dir; }
+	else if ( atkProcess < 12 )	{ image_index = 1; xSpeed = 9*dir; }
 	else if ( atkProcess < 17 )	{ image_index = 2; xSpeed = 4*dir; }
 	else if ( atkProcess < 21 )	{ image_index = 3; }
 	else if ( atkProcess < 27 )	{ image_index = 4; }

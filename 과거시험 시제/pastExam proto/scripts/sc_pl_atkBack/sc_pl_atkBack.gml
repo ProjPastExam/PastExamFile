@@ -12,7 +12,7 @@ atkProcess++;
 			if ( keyDown )													nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
 			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
-			else															nextAtk = 1;
+			else															nextAtk = 2;
 		}
 		if ( keySk1 ) nextAtk = -1;
 		if ( keySk2 ) nextAtk = -2;
@@ -73,7 +73,7 @@ atkProcess++;
 	else if ( atkProcess < 27 )	{ image_index = 3; xSpeed = -4*dir; }
 	else if ( atkProcess < 35 )	{ image_index = 4; }
 	else if ( atkProcess < 42 ) { 
-		if ( nextAtk == 1 ) { atkProcess = 0;	canMove = 1; }
+		if ( nextAtk == 2 ) { atkProcess = 0;	canMove = 2; }
 		if ( nextAtk == 5 ) { atkProcess = 0;	canMove = 5; }
 		if ( nextAtk == 6 ) { atkProcess = 0;	canMove = 6; }
 		if ( nextAtk == 7 ) { atkProcess = 0;	canMove = 7; }
