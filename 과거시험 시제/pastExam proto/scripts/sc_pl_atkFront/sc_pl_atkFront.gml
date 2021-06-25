@@ -7,7 +7,7 @@ function sc_pl_atkFront(){
 	sprite_index = sp_pl_atkFront1;
 	var atk;
 	
-	if ( atkProcess > 28 && atkProcess < 48 ) {
+	if ( atkProcess > 21 && atkProcess < 48 ) {
 		if (keyAttack) {
 			if ( keyDown )													nextAtk = 5;
 			else if ( keyTop ) 	nextAtk = 6;
@@ -20,7 +20,7 @@ function sc_pl_atkFront(){
 		if ( keySk3 ) nextAtk = -3;
 	}
 	
-	if ( atkProcess == 6 ) {
+	if ( atkProcess == 5 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
 		atk.damage = sc_pl_kickDmg();
 		atk.shock = 20;
@@ -31,7 +31,7 @@ function sc_pl_atkFront(){
 		audio_play_sound(s_kick01, 5, false);
 	}
 	
-	if ( atkProcess == 24 ) {
+	if ( atkProcess == 21 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
 		atk.damage = sc_pl_atkDmg();
 		atk.shock = sc_pl_atkShock();
@@ -48,12 +48,12 @@ function sc_pl_atkFront(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 18 && atkProcess < 48) ) {
+	if ( (atkProcess > 16 && atkProcess < 48) ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
 	}
 		
-	if ( (atkProcess > 29 && atkProcess < 48) ) {
+	if ( (atkProcess > 25 && atkProcess < 48) ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
 			nextAtk = 0;
@@ -82,12 +82,12 @@ function sc_pl_atkFront(){
 			xSpeed = 20*dir;
 		}
 	}
-	else if ( atkProcess < 12 )	{ image_index = 1; xSpeed = 8*dir; }
-	else if ( atkProcess < 18 )	{ image_index = 2; xSpeed = 4*dir; }
-	else if ( atkProcess < 24 )	{ image_index = 3; }
-	else if ( atkProcess < 36 )	{ image_index = 4; }
-	else if ( atkProcess < 42 )	{ image_index = 5; }
-	else if ( atkProcess < 48 ) { 
+	else if ( atkProcess < 11 )	{ image_index = 1; xSpeed = 9*dir; }
+	else if ( atkProcess < 17 )	{ image_index = 2; xSpeed = 4*dir; }
+	else if ( atkProcess < 21 )	{ image_index = 3; }
+	else if ( atkProcess < 27 )	{ image_index = 4; }
+	else if ( atkProcess < 31 )	{ image_index = 5; }
+	else if ( atkProcess < 41 ) { 
 		if (nextAtk == 2)	{ canMove = 2;	atkProcess = 0; }
 		if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
 		if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }

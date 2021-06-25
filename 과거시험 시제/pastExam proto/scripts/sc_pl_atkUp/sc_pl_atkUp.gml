@@ -22,7 +22,7 @@ function sc_pl_atkUp(){
 		audio_play_sound(s_kick01, 5, false);
 	}
 	
-	if ( atkProcess == 36 ) {
+	if ( atkProcess == 32 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
 		atk.damage = 2.5 * sc_pl_atkDmg();
 		atk.shock = sc_pl_atkShock()*2;
@@ -35,12 +35,12 @@ function sc_pl_atkUp(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 30 && atkProcess < 60) ) {
+	if ( (atkProcess > 25) ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
 	}
 		
-	if ( (atkProcess > 40 && atkProcess < 60) ) {
+	if ( (atkProcess > 36) ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
 			nextAtk = 0;
@@ -68,14 +68,14 @@ function sc_pl_atkUp(){
 			ySpeed = -5;
 		}
 	}
-	else if ( atkProcess < 12 )	{ image_index = 1; xSpeed = -2*dir; }
-	else if ( atkProcess < 18 )	{ image_index = 2; xSpeed = -4*dir; }
-	else if ( atkProcess < 24 )	{ image_index = 3; xSpeed = -2*dir }
-	else if ( atkProcess < 36 )	{ image_index = 4; }
-	else if ( atkProcess < 42 )	{ image_index = 5; }
-	else if ( atkProcess < 48 )	{ image_index = 6; }
-	else if ( atkProcess < 52 )	{ image_index = 7; }
-	else if ( atkProcess < 60 ) { 
+	else if ( atkProcess < 12 )	{ image_index = 1; xSpeed = -1*dir; }
+	else if ( atkProcess < 16 )	{ image_index = 2; xSpeed = -3*dir; }
+	else if ( atkProcess < 21 )	{ image_index = 3; xSpeed = -1*dir }
+	else if ( atkProcess < 32 )	{ image_index = 4; }
+	else if ( atkProcess < 38 )	{ image_index = 5; }
+	else if ( atkProcess < 42 )	{ image_index = 6; }
+	else if ( atkProcess < 46 )	{ image_index = 7; }
+	else if ( atkProcess < 50 ) { 
 		if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
 	}
 	else	{ canMove = 0;	atkProcess = -5; }

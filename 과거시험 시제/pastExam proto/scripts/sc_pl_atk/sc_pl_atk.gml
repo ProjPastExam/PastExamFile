@@ -8,8 +8,8 @@ function sc_pl_atk(){
 	else sprite_index = sp_pl_jumpAtk;
 	var atk;
 	
-	if ( atkProcess > 6 && atkProcess < 22 && keyAttack ) nextAtk = 1;
-	if ( atkProcess > 30 && atkProcess < 48 ) {
+	if ( atkProcess > 0 && atkProcess < 20 && keyAttack ) nextAtk = 1;
+	if ( atkProcess > 24 && atkProcess < 44 ) {
 		if ( keyAttack ) {
 			if ( keyDown ) 													nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
@@ -21,7 +21,7 @@ function sc_pl_atk(){
 		if ( keySk2 ) nextAtk = -2;
 		if ( keySk3 ) nextAtk = -3;
 	}
-	if ( atkProcess == 12 || (atkProcess == 30 && image_index == 5) ) {
+	if ( atkProcess == 10 || atkProcess == 28 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
 		atk.damage = sc_pl_atkDmg();
 		atk.shock = sc_pl_atkShock();
@@ -39,12 +39,12 @@ function sc_pl_atk(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 28 && atkProcess < 48) || (atkProcess > 6 && atkProcess < 24) ) {
+	//if ( (atkProcess > 16 && atkProcess < 36) || (atkProcess > 0 && atkProcess < 16) ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
-	}
+	//}
 		
-	if ( (atkProcess > 32 && atkProcess < 48) || (atkProcess > 20 && atkProcess < 30) ) {
+	if ( (atkProcess > 32 && atkProcess < 40) || (atkProcess > 15 && atkProcess < 20) ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
 			nextAtk = 0;
@@ -66,23 +66,24 @@ function sc_pl_atk(){
 		}
 	}
 	
-	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; }
-	else if ( atkProcess < 12 )	{ image_index = 1; }
-	else if ( atkProcess < 18 )	{ image_index = 2; }
-	else if ( atkProcess < 24 )	{
+	if ( atkProcess < 5 )		{ image_index = 0; nextAtk = 0; }
+	else if ( atkProcess < 10 )	{ image_index = 1; }
+	else if ( atkProcess < 15 )	{ image_index = 2; }
+	else if ( atkProcess < 20 )	{
 		if ( nextAtk != 1 ) { image_index = 3; }
 		else				{ image_index = 4; }
 	}
-	else if ( atkProcess < 30 )	{ 
+	else if ( atkProcess < 24 )	{ 
 		if ( image_index != 3 )	{ image_index = 5; nextAtk = 0; }
 		}
-	else if ( atkProcess < 36 )	{ 
+	else if ( atkProcess < 28 )	{ 
 		if ( image_index == 3 ) { atkProcess = -5; canMove = 0; }
 		else					{ image_index = 6; }
-		}
-	else if ( atkProcess < 40 )	{ image_index = 7; }
-	else if ( atkProcess < 44 )	{ image_index = 8; }
-	else if ( atkProcess < 48 ) { 
+	}
+		
+	else if ( atkProcess < 32 )	{ image_index = 7; }
+	else if ( atkProcess < 40 ) { 
+		image_index = 8;
 		if ( nextAtk == 2 ) { nextAtk = 0; atkProcess = 0; canMove = 2; }
 		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 		if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
@@ -102,5 +103,5 @@ function sc_pl_atk(){
 		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
 			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
 	}
-	else { atkProcess = -5;	canMove = 0; }
+	else { atkProcess = -15;	canMove = 0; }
 }

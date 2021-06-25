@@ -14,9 +14,12 @@ function sc_pl_atk2(){
 		else sprite_index = sp_pl_atk2;
 	}
 	
-	if ( atkProcess > 30 && atkProcess < 50 && keyAttack) {
+
+	
+	if ( atkProcess > 18 && atkProcess < 50 && keyAttack) {
 		if ( keyDown )		nextAtk = 5;
 		else if ( keyTop ) 	nextAtk = 6;
+		else				nextAtk = 1;
 	}
 	
 	if ( atkProcess == 6 ) {
@@ -26,7 +29,7 @@ function sc_pl_atk2(){
 		}
 	}
 	
-	if ( atkProcess == 26 ) {
+	if ( atkProcess == 24 ) {
 		if (isSin != -1) {
 			atk = instance_create_layer(x, y, "effect", ob_sinEf01);
 			//atk.damage = 10;
@@ -60,7 +63,7 @@ function sc_pl_atk2(){
 		if ( keyJump ) nextAtk = 9;
 	}
 		
-	if ( (atkProcess > 30 && atkProcess < 50) ) {
+	if ( (atkProcess > 27 && atkProcess < 50) ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
 			nextAtk = 0;
@@ -83,12 +86,13 @@ function sc_pl_atk2(){
 	}
 	
 	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; }
-	else if ( atkProcess < 14 )	{ image_index = 1; }
-	else if ( atkProcess < 26 )	{ image_index = 2; }
-	else if ( atkProcess < 32 )	{ image_index = 3; }
-	else if ( atkProcess < 38 )	{ image_index = 4; }
-	else if ( atkProcess < 44 )	{ image_index = 5; }
+	else if ( atkProcess < 15 )	{ image_index = 1; }
+	else if ( atkProcess < 24 )	{ image_index = 2; }
+	else if ( atkProcess < 30 )	{ image_index = 3; }
+	else if ( atkProcess < 36 )	{ image_index = 4; }
+	else if ( atkProcess < 45 )	{ image_index = 5; }
 	else if ( atkProcess < 50 )	{
+		if ( nextAtk == 1 )	{ canMove = 1;	atkProcess = 0; }
 		if ( nextAtk == 5 )	{ canMove = 5;	atkProcess = 0; }
 		if ( nextAtk == 6 )	{ canMove = 6;	atkProcess = 0; }
 		if ( nextAtk == 10 ) {

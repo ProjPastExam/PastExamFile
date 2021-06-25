@@ -7,7 +7,7 @@ function sc_pl_atkFront2(){
 	sprite_index = sp_pl_atkFront2;
 	var atk;
 	
-	if ( atkProcess == 9 ) {
+	if ( atkProcess == 8 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
 		atk.damage = 2 * sc_pl_kickDmg();
 		atk.shock = 30;
@@ -49,23 +49,23 @@ function sc_pl_atkFront2(){
 		}
 	}
 	*/
-	if ( atkProcess < 6 )		{ 
-		image_index = 0; nextAtk = 0; xSpeed = 12*dir;
+	if ( atkProcess < 3 )		{ 
+		image_index = 0; nextAtk = 0; xSpeed = 14*dir;
 		if (isJump && (itemJump != -1)) {
 			ySpeed = -4;
 			xSpeed = 16*dir;
 		}
 	}
-	else if ( atkProcess < 9 )	{ 
+	else if ( atkProcess < 8 )	{ 
 		image_index = 1; xSpeed = 16*dir;
 		if (isJump && (itemJump != -1)) {
 			ySpeed = -5;
 			xSpeed = 20*dir;
 		}
 	}
-	else if ( atkProcess < 15 )	{ image_index = 2; xSpeed = 12*dir; }
-	else if ( atkProcess < 21 )	{ image_index = 3; xSpeed = 8*dir; }
-	else if ( atkProcess < 26 )	{ image_index = 4; xSpeed = 4*dir; }
+	else if ( atkProcess < 13 )	{ image_index = 2; xSpeed = 12*dir; }
+	else if ( atkProcess < 19 )	{ image_index = 3; xSpeed = 8*dir; }
+	else if ( atkProcess < 24 )	{ image_index = 4; xSpeed = 4*dir; }
 	else { canMove = 2; atkProcess = 6; }
 	/*
 	else if ( atkProcess < 33 )	{ image_index = 5; }
