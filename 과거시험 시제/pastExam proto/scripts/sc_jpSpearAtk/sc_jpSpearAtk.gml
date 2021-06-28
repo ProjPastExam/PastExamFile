@@ -9,7 +9,10 @@ function sc_jpSpearAtk(){
 	
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
-	if ( state == 12 ) { down = 10; }
+	if ( state == 12 ) { 
+		if (process > 40)	down = 12;
+		else				down = 10;
+	}
 	else { down = 2; }
 	
 	
