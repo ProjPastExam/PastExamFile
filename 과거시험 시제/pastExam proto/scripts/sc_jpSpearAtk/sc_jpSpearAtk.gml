@@ -9,6 +9,9 @@ function sc_jpSpearAtk(){
 	
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
+	if ( state == 12 ) { down = 10; }
+	else { down = 2; }
+	
 	
 	
 	var plX = sc_pl_get("x");
@@ -20,20 +23,20 @@ function sc_jpSpearAtk(){
 		}
 		
 	}
-	if ( state == 11 ){
+	else if ( state == 11 ){
 		if ( plX < x + 80 && plX > x - 80 && (left1 != 3 && right1 != 3)) {
 			//state = 13;
 		}
-		else if ( plX > x + 270 ) {
+		else if ( plX > x + 520 ) {
 			dir = 1;
 			xSpeed = 6;
 		}
-		else if ( plX < x - 270 ) {
+		else if ( plX < x - 520 ) {
 			dir = -1;
 			xSpeed = -6;
 		}
 		else {
-			//state = 12;
+			state = 12;
 		}
 		if ( !isJump && dir == -1 && (( left1 == 3 || left2 == 3)))	
 			{ ySpeed = -15; }
@@ -41,28 +44,31 @@ function sc_jpSpearAtk(){
 			{ ySpeed = -15; }
 		
 	}
-	if ( state == 12 ) {
+	else if ( state == 12 ) {
 		process++;
-		sprite_index = sp_bandit01_atk;
+		sprite_index = sp_jpSpear_atk;
 		xSpeed = 0;
 		
 		if ( process == 1 ) { audio_play_sound(s_bandit01atk1, 8, false); }
-		if ( process == 20 ) { 
+		if ( process == 40 ) { 
 			audio_play_sound(s_bandit01atk2, 8, false);
-			var ob = instance_create_layer(x, y, "effect", ob_mobBandit01Atk);
+			ob = instance_create_layer(x, y, "effect", ob_jpSpearAtk);
 			ob.image_xscale = dir;
 		}
+		if (process > 40 && process < 65 && instance_exists(ob)) {
+			ob.x = x;
+			ob.y = y;
+		}
 		
-		
-		if ( process < 5 ) { image_index = 0; }
-		else if ( process < 15 ) { image_index = 1; }
-		else if ( process < 19 ) { image_index = 1; xSpeed = dir*24; }
-		else if ( process < 23 ) { image_index = 2; }
-		else if ( process < 40 ) { image_index = 3; }
-		else { state = 10;	process = 0;	delay = random_range(50, 70); }
+		if ( process < 25 ) { image_index = 0; }
+		else if ( process < 40 ) { image_index = 1; }
+		else if ( process < 55 ) { image_index = 2; xSpeed = dir*24; }
+		else if ( process < 65 ) { image_index = 2; xSpeed = dir*8; }
+		else if ( process < 75 ) { image_index = 3; xSpeed = dir*4; }
+		else { state = 10;	process = 0;	delay = random_range(120, 180); }
 	}
 	
-	if ( state == 13 ) {
+	else if ( state == 13 ) {
 		process++;
 		sprite_index = sp_bandit01_backStep;
 		
