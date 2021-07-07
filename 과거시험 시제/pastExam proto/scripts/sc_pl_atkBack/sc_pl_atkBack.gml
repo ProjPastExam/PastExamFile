@@ -24,7 +24,7 @@ atkProcess++;
 		atk.damage = sc_pl_atkDmg();
 		atk.shock = sc_pl_atkShock();
 		atk.pene = sc_pl_atkPene();
-		atk.hitAfter = 15;
+		atk.hitAfter = 10;
 		atk.sprite_index = sp_pl_atkEf01;
 		atk.image_xscale = dir;
 		audio_play_sound(s_arrow01, 5, false);

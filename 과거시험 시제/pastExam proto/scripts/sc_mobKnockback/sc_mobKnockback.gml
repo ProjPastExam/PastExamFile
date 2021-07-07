@@ -13,6 +13,6 @@ function sc_mobKnockback(){
 	}
 	
 	if ( process <= 0 && !isJump && (state == 5 || state == 6 || state == 7) ) 
-		{ state = 10;	delay = 25; } 
+		{ state = 10;	delay = hitDelay; } 
 	//if ( hitAfter == 14 && isJump ) ySpeed = -8;
 }

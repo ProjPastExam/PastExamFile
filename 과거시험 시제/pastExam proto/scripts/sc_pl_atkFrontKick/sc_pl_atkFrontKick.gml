@@ -49,7 +49,7 @@ function sc_pl_atkFrontKick(){
 		atk.damage = (1 + isFront/5) * sc_pl_kickDmg();
 		atk.shock = 30;
 		atk.pene = 0;
-		atk.hitAfter = 15;
+		atk.hitAfter = 10;
 		atk.sprite_index = sp_pl_atkEf03;
 		atk.image_xscale = dir;
 		audio_play_sound(s_kick01, 5, false);
@@ -60,7 +60,7 @@ function sc_pl_atkFrontKick(){
 		atk.damage = (2 + isFront/5) * sc_pl_kickDmg();
 		atk.shock = 30;
 		atk.pene = 0;
-		atk.hitAfter = 15;
+		atk.hitAfter = 10;
 		atk.sprite_index = sp_pl_atkEf03;
 		atk.image_xscale = dir;
 		audio_play_sound(s_kick01, 5, false);
@@ -71,7 +71,7 @@ function sc_pl_atkFrontKick(){
 		atk.damage = (2 + isFront/5) * sc_pl_kickDmg();
 		atk.shock = 30;
 		atk.pene = 0;
-		atk.hitAfter = 15;
+		atk.hitAfter = 10;
 		atk.sprite_index = sp_pl_atkEf03;
 		atk.image_xscale = dir;
 		audio_play_sound(s_kick01, 5, false);

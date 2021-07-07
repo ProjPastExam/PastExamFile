@@ -1,1 +1,1 @@
-nextRoom = demo_stageEnd;
+nextRoom = demo_stage04;

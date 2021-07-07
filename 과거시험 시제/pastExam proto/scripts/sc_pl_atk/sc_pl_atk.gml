@@ -26,7 +26,7 @@ function sc_pl_atk(){
 		atk.damage = sc_pl_atkDmg();
 		atk.shock = sc_pl_atkShock();
 		atk.pene = sc_pl_atkPene();
-		atk.hitAfter = 15;
+		atk.hitAfter = 10;
 		atk.sprite_index = sp_pl_atkEf01;
 		atk.image_xscale = dir;
 		
@@ -44,7 +44,7 @@ function sc_pl_atk(){
 		if ( keyJump ) nextAtk = 9;
 	//}
 		
-	if ( (atkProcess > 32 && atkProcess < 40) || (atkProcess > 15 && atkProcess < 20) ) {
+	if ( (atkProcess > 28) || (atkProcess > 10 && atkProcess < 20) ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
 			nextAtk = 0;
@@ -81,8 +81,8 @@ function sc_pl_atk(){
 		else					{ image_index = 6; }
 	}
 		
-	else if ( atkProcess < 32 )	{ image_index = 7; }
-	else if ( atkProcess < 40 ) { 
+	else if ( atkProcess < 36 )	{ image_index = 7; }
+	else if ( atkProcess < 44 ) { 
 		image_index = 8;
 		if ( nextAtk == 2 ) { nextAtk = 0; atkProcess = 0; canMove = 2; }
 		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }

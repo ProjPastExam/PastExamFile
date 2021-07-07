@@ -115,7 +115,7 @@ function sc_mobHit( argument0 ){
 			var shVal = sqrt(shock)*3+6;
 			if ( knockback ) { 
 				if ( shock < 10 ) {}
-				else if (shock < 20) { state = 5; ySpeed = -15; process = shVal; }
+				else if (shock < 20) { state = 5; ySpeed = -16; process = shVal; }
 				else if (shock < 30) { state = 6; ySpeed = -18; process = shVal; }
 				else { state = 7; ySpeed = -20; process = shVal; }
 			}
@@ -142,8 +142,8 @@ function sc_mobHit( argument0 ){
 			audio_play_sound(s_hit01, 5, false);
 			part_type_scale( global.hitEf02T, 1.5, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
-			part_type_orientation( global.hitEf02T, -30, 30, 0, 0, 0 );
-			part_particles_create( global.hitEf, x, y, global.hitEf02T, 1 );
+			part_type_orientation( global.hitEf_k01, 0, 360, 0, 0, 0 );
+			part_particles_create( global.hitEf, x, y, global.hitEf_k01, 1 );
 			break;
 			
 		case 4:

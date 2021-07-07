@@ -45,7 +45,7 @@ function sc_pl_atk2(){
 			atk.damage = 2.5 * sc_pl_atkDmg();
 			atk.shock = 1.5 * sc_pl_atkShock();
 			atk.pene = sc_pl_atkPene();
-			atk.hitAfter = 15;
+			atk.hitAfter = 10;
 			atk.sprite_index = sp_pl_atkEf02;
 			atk.image_xscale = dir;
 			audio_play_sound(s_arrow02, 5, false);
@@ -58,12 +58,12 @@ function sc_pl_atk2(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 20 && atkProcess < 50) ) {
+	if ( (atkProcess > 16 && atkProcess < 50) ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
 	}
 		
-	if ( (atkProcess > 27 && atkProcess < 50) ) {
+	if ( (atkProcess > 24 && atkProcess < 50) ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
 			nextAtk = 0;

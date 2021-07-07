@@ -12,7 +12,7 @@ function sc_pl_atkFront2(){
 		atk.damage = 2 * sc_pl_kickDmg();
 		atk.shock = 30;
 		atk.pene = 0;
-		atk.hitAfter = 15;
+		atk.hitAfter = 10;
 		atk.sprite_index = sp_pl_atkEf03;
 		atk.image_xscale = dir;
 		audio_play_sound(s_kick01, 5, false);
