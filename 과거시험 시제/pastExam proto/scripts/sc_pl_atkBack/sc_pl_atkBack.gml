@@ -35,12 +35,12 @@ atkProcess++;
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 18 && atkProcess < 30) ) {
+	if ( atkProcess > 15 ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
 	}
 		
-	if ( (atkProcess > 21 && atkProcess < 30) ) {
+	if ( atkProcess > 21 ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
 			nextAtk = 0;

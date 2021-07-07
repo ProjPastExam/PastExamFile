@@ -32,13 +32,17 @@ function sc_mobHit( argument0 ){
 			dmgId.colo = 0;
 			global.mp += 10;
 			if (global.mp > global.mpMax) global.mp = global.mpMax;
-			if ( ob_atkEf01.image_angle == 270 ) {
-				part_type_direction( global.hitEf01T, -235, 305, 0, 0 );
-				
-				hitDir = 0;
+			if ( ob_atkEf01.image_angle == 35 ) {
+				part_type_direction( global.hitEf01T, 0, 70, 0, 0 );
+				hitDir = 1;
 				
 			}
-			else if ( plX > x )	{
+			else if ( ob_atkEf01.image_angle == 145 ) {
+				part_type_direction( global.hitEf01T, 110, 180, 0, 0 );
+				hitDir = -1;
+				
+			}
+			else if ( ob_atkEf01.image_xscale == -1 )	{
 				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
 				xs = -1;
 				hitDir = -1;
@@ -95,7 +99,7 @@ function sc_mobHit( argument0 ){
 			if (global.mp > global.mpMax) global.mp = global.mpMax;
 			xSpeed = 0;
 			
-			if ( plX > x )	{
+			if ( ob_atkEf03.image_xscale == -1 )	{
 				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
 				hitDir = -1;
 			}
@@ -130,7 +134,7 @@ function sc_mobHit( argument0 ){
 			if (global.mp > global.mpMax) global.mp = global.mpMax;
 			xSpeed = 0;
 			
-			if ( plX > x )	{
+			if ( ob_atkEf04.image_xscale == -1 )	{
 				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
 				hitDir = -1;
 			}
@@ -166,7 +170,7 @@ function sc_mobHit( argument0 ){
 			if (global.mp > global.mpMax) global.mp = global.mpMax;
 			xSpeed = 0;
 			
-			if ( plX > x )	{
+			if ( ob_atkEf05.image_xscale == -1 )	{
 				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
 				hitDir = -1;
 			}

@@ -53,12 +53,12 @@ function sc_pl_atkDown(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 20 && atkProcess < 54) ) {
+	if ( atkProcess > 20 ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
 	}
 		
-	if ( (atkProcess > 30 && atkProcess < 54) ) {
+	if ( atkProcess > 27 ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
 			nextAtk = 0;

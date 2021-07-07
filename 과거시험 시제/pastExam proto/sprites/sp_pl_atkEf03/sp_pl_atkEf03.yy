@@ -44,7 +44,7 @@
     "spriteId": {"name":"sp_pl_atkEf03","path":"sprites/sp_pl_atkEf03/sp_pl_atkEf03.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 22.0,
+    "playbackSpeed": 24.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

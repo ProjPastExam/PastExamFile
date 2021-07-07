@@ -45,7 +45,7 @@ function sc_pl_atk2(){
 			atk.damage = 2.5 * sc_pl_atkDmg();
 			atk.shock = 1.5 * sc_pl_atkShock();
 			atk.pene = sc_pl_atkPene();
-			atk.hitAfter = 10;
+			atk.hitAfter = 12;
 			atk.sprite_index = sp_pl_atkEf02;
 			atk.image_xscale = dir;
 			audio_play_sound(s_arrow02, 5, false);

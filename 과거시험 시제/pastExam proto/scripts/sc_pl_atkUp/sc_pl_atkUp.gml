@@ -27,7 +27,7 @@ function sc_pl_atkUp(){
 		atk.damage = 2.5 * sc_pl_atkDmg();
 		atk.shock = sc_pl_atkShock()*2;
 		atk.pene = sc_pl_atkPene();
-		atk.hitAfter = 10;
+		atk.hitAfter = 12;
 		atk.sprite_index = sp_pl_atkEf02;
 		if ( dir == 1 )		atk.image_angle = 35;
 		if ( dir == -1 )	atk.image_angle = 145;
@@ -40,7 +40,7 @@ function sc_pl_atkUp(){
 		if ( keyJump ) nextAtk = 9;
 	}
 		
-	if ( (atkProcess > 36) ) {
+	if ( (atkProcess > 32) ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
 			nextAtk = 0;
