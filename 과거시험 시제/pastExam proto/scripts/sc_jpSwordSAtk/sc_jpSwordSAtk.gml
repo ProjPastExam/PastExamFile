@@ -2,10 +2,10 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_jpSwordSAtk(){
 	var tileId	= layer_tilemap_get_id("Tile_Collision");
-	var left1	= tilemap_get_at_pixel(tileId, bbox_left, bbox_bottom - 16 );
-	var left2	= tilemap_get_at_pixel(tileId, bbox_left, bbox_top + 16 );
-	var right1	= tilemap_get_at_pixel(tileId, bbox_right, bbox_bottom - 16 );
-	var right2	= tilemap_get_at_pixel(tileId, bbox_right, bbox_top + 16 );
+	var left1	= tilemap_get_at_pixel(tileId, bbox_left-96, bbox_bottom - 16 );
+	var left2	= tilemap_get_at_pixel(tileId, bbox_left-96, bbox_top + 16 );
+	var right1	= tilemap_get_at_pixel(tileId, bbox_right+96, bbox_bottom - 16 );
+	var right2	= tilemap_get_at_pixel(tileId, bbox_right+96, bbox_top + 16 );
 	
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;

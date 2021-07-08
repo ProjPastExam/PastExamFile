@@ -4,7 +4,7 @@ function sc_pl_dash(){
 	if ( dProcess > 0 && dProcess < 17 ) {
 		if ( keyJump ) nextAtk = 9;
 		if (keyAttack) {
-			if ( keyDown )												nextAtk = 5;
+			if ( keyDown )													nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
 			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
 		}
@@ -38,15 +38,18 @@ function sc_pl_dash(){
 	xSpeed = 27*dir*(20-dProcess)/14;
 	ySpeed = 0;
 	if ( dProcess > 16 ) { 
-		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; dProcess = -30; }
-		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; dProcess = -30; }
-		else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; dProcess = -30; }
+		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; dProcess = -10; }
+		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; dProcess = -10; }
+		else if ( nextAtk == 6 ) { 
+			if (isJump) {nextAtk = 0; atkProcess = 0; canMove = 8; dProcess = -10; xSpeed = dir*6;}
+			else {nextAtk = 0; atkProcess = 0; canMove = 6; dProcess = -10;}
+			}
 		else if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
-			{ nextAtk = 0; atkProcess = 0; dProcess = -30; canMove = global.sk1; }
+			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk1; }
 		else if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
-			{ nextAtk = 0; atkProcess = 0; dProcess = -30; canMove = global.sk2; }
+			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk2; }
 		else if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
-			{ nextAtk = 0; atkProcess = 0; dProcess = -30; canMove = global.sk3; }
+			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk3; }
 		else { canMove = 0; dProcess = -30; }
 	}
 }

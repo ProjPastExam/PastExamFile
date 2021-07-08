@@ -64,8 +64,9 @@ function sc_pl_move() {
 	if ( dProcess < -1 ) dProcess++;
 	
 	if ( keyAttack && atkProcess == -1 && canMove == 0 ) {
+		if (keyTop && isJump) canMove = 8; 
+		else canMove = 1;
 		atkProcess = 0;
-		canMove = 1;
 	}
 	if ( keyDash && dProcess == -1 && canMove == 0) {
 		dProcess = 0;
@@ -90,6 +91,7 @@ function sc_pl_move() {
 		else sc_pl_atkUp();
 	}
 	if ( atkProcess > -1 && canMove == 7 ) sc_pl_atkFront2();
+	if ( atkProcess > -1 && canMove == 8 ) sc_pl_atkJumpUp();
 	
 	if ( dProcess > -1 && canMove == 10 ) sc_pl_dash();
 	

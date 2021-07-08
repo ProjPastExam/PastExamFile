@@ -10,17 +10,12 @@ function sc_mobAd(){
 		state = 10;
 		delay = 0;
 		ad = true;
+		if (alarm[1] > 0) alarm[1] = -1;
 	}
 	if ( ad && (drX > adDistance * 2) ) {
-		state = 0;
-		delay = random_range(90,120);
-		ad = false;
-		process = 0;
+		if (alarm[1] < 0) alarm[1] = 60;
 	}
 	if ( ad && !sc_pl_get("isJump") && ((drY < adHeight * -1.3) || (drY > adHeight * 1.3)) ) {
-		state = 0;
-		delay = random_range(90,120);
-		ad = false;
-		process = 0;
+		if (alarm[1] < 0) alarm[1] = 60;
 	}
 }

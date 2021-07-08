@@ -2,15 +2,15 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_jpSpearAtk(){
 	var tileId	= layer_tilemap_get_id("Tile_Collision");
-	var left1	= tilemap_get_at_pixel(tileId, bbox_left, bbox_bottom - 16 );
-	var left2	= tilemap_get_at_pixel(tileId, bbox_left, bbox_top + 16 );
-	var right1	= tilemap_get_at_pixel(tileId, bbox_right, bbox_bottom - 16 );
-	var right2	= tilemap_get_at_pixel(tileId, bbox_right, bbox_top + 16 );
+	var left1	= tilemap_get_at_pixel(tileId, bbox_left-96, bbox_bottom - 16 );
+	var left2	= tilemap_get_at_pixel(tileId, bbox_left-96, bbox_top + 16 );
+	var right1	= tilemap_get_at_pixel(tileId, bbox_right+96, bbox_bottom - 16 );
+	var right2	= tilemap_get_at_pixel(tileId, bbox_right+96, bbox_top + 16 );
 	
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
 	if ( state == 12 ) { down = 10; }
-	else { down = 2; }
+	else { down = 2; if (object_exists(ob)) instance_destroy(ob); }
 	
 	
 	
@@ -60,8 +60,8 @@ function sc_jpSpearAtk(){
 			ob.y = y;
 		}
 		
-		if ( process < 25 ) { image_index = 0; }
-		else if ( process < 50 ) { image_index = 1; }
+		if ( process < 25 ) { image_index = 0; if (isJump) xSpeed = dir*6; }
+		else if ( process < 50 ) { image_index = 1; if (isJump) xSpeed = dir*6; }
 		else if ( process < 65 ) { image_index = 2; xSpeed = dir*24; }
 		else if ( process < 75 ) { image_index = 2; xSpeed = dir*8; }
 		else if ( process < 85 ) { image_index = 3; xSpeed = dir*4; }

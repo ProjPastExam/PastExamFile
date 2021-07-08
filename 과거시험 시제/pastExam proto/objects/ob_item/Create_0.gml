@@ -8,9 +8,12 @@ itemSp[2] = sp_Item_kick;
 itemSp[3] = sp_Item_jump;
 }
 
+sprite_index = itemSp[itemNum];
+
 {
 itemIn = array_create(global.itemMax);
 itemIn[0] = sp_ItemInfo_sin;
 itemIn[1] = sp_ItemInfo_kick;
 }
 //alarm[5] = 10;
+alarm[0] = 1;

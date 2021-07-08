@@ -68,9 +68,9 @@ function sc_pl_atkUp(){
 			ySpeed = -5;
 		}
 	}
-	else if ( atkProcess < 12 )	{ image_index = 1; xSpeed = -1*dir; }
-	else if ( atkProcess < 16 )	{ image_index = 2; xSpeed = -3*dir; }
-	else if ( atkProcess < 21 )	{ image_index = 3; xSpeed = -1*dir }
+	else if ( atkProcess < 12 )	{ image_index = 1; }
+	else if ( atkProcess < 16 )	{ image_index = 2; xSpeed = -1*dir; }
+	else if ( atkProcess < 21 )	{ image_index = 3;}
 	else if ( atkProcess < 32 )	{ image_index = 4; }
 	else if ( atkProcess < 38 )	{ image_index = 5; }
 	else if ( atkProcess < 42 )	{ image_index = 6; }

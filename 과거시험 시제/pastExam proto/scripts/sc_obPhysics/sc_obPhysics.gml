@@ -15,6 +15,7 @@ function sc_obPhysics() {
 	var left2	= tilemap_get_at_pixel(tileId, bbox_left, bbox_top + 16 );
 	var right1	= tilemap_get_at_pixel(tileId, bbox_right, bbox_bottom - 16 );
 	var right2	= tilemap_get_at_pixel(tileId, bbox_right, bbox_top + 16 );
+	var middle	= tilemap_get_at_pixel(tileId, x, y );
 
 	//오브젝트와 바닥 충돌
 	if ( ( bottom1 == 2 && bottom2 != 2 ) || bottom1 == 3 ) isJump = false;
@@ -34,8 +35,14 @@ function sc_obPhysics() {
 	ySpeed += grav;
 
 	//3단계 블록과의 좌우 충돌
-	if ( ( left1 == 3 || left2 == 3) )		{ if ( xSpeed < 0 ) xSpeed = 0; }
-	if ( ( right1 == 3 || right2 == 3 ) )	{ if ( xSpeed > 0 ) xSpeed = 0; }
+	if ( ( left1 == 3 || left2 == 3) )		{ 
+		if ( xSpeed < 0 ) xSpeed = 0;
+		if (middle == 3) x += 10;
+	}
+	if ( ( right1 == 3 || right2 == 3 ) )	{ 
+		if ( xSpeed > 0 ) xSpeed = 0; 
+		if (middle == 3 ) x -= 10;
+	}
 
 	//실제 좌표 이동
 	x = x + xSpeed;
