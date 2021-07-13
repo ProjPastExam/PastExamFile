@@ -16,11 +16,11 @@ function sc_mobHit( argument0 ){
 			var shVal = sqrt(shock)*3+4;
 			
 			if ( knockback ) { 
-				if ( shock < 10) {}
+				if ( state == 8 ) { process = 16; ySpeed = -11; }
+				else if ( shock < 10) {}
 				else if (shock < 20) { state = 5; process = shVal; }
 				else if (shock < 30) { state = 6; process = shVal; }
 				else { state = 7; process = shVal; }
-				if ( isJump && (state == 5 || state == 6 || state == 7) ) { ySpeed = -12; }
 			}
 			else { stun += shock }
 			process = int64(process);
@@ -82,11 +82,11 @@ function sc_mobHit( argument0 ){
 			var shock = ob_atkEf03.shock - down;
 			var shVal = sqrt(shock)*3+6;
 			if ( knockback ) { 
-				if ( shock < 10) {}
+				if ( state == 8 ) { process = 20; ySpeed = -11; }
+				else if ( shock < 10) {}
 				else if (shock < 20) { state = 5; process = shVal; }
 				else if (shock < 30) { state = 6; process = shVal; }
 				else { state = 7; process = shVal; }
-				if ( isJump && (state == 5 || state == 6 || state == 7) ) { ySpeed = -12; }
 			}
 			process = int64(process);
 			hitAfter = ob_atkEf03.hitAfter;
@@ -117,13 +117,10 @@ function sc_mobHit( argument0 ){
 		case 3:
 			var shock = ob_atkEf04.shock - down;
 			var shVal = sqrt(shock)*3+6;
-			var up = -16;
-			if (isJump) up = -10;
 			if ( knockback ) { 
-				if ( shock < 10 ) {}
-				else if (shock < 20) { state = 5; ySpeed = up; process = shVal; }
-				else if (shock < 30) { state = 6; ySpeed = up - 2; process = shVal; }
-				else { state = 7; ySpeed = up - 4; process = shVal; }
+				if ( state == 8 ) { ySpeed = -12; process = 18; }
+				else if ( shock < 10 ) {}
+				else { state = 7; ySpeed = -18; process = 18; }
 			}
 			process = int64(process);
 			hitAfter = ob_atkEf04.hitAfter;
@@ -156,7 +153,8 @@ function sc_mobHit( argument0 ){
 			var shock = ob_atkEf05.shock - down;
 			var shVal = sqrt(shock)*3+6;
 			if ( knockback ) { 
-				if ( shock < 10 ) {}
+				if ( state == 8 ) { process = 25; ySpeed = -12; }
+				else if ( shock < 10 ) {}
 				else if (shock < 20) { state = 5; ySpeed = -5; process = shVal; }
 				else if (shock < 30) { state = 6; ySpeed = -8; process = shVal; }
 				else { state = 7; ySpeed = -10; process = shVal; }

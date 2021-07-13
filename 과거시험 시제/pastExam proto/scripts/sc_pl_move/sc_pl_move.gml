@@ -22,7 +22,10 @@ function sc_pl_move() {
 			if (bottom == 2) { y += 16; audio_play_sound(s_jump, 5, false); }
 			}
 		else if ( !isJump && ( canMove == 0 ) ) { 
-			jumpLast = last; ySpeed = jumpSpeed; audio_play_sound(s_jump, 5, false); }
+			jumpLast = last; ySpeed = jumpSpeed; audio_play_sound(s_jump, 5, false);
+			if (keyRight) xSpeed = walkSpeed;
+			if (keyLeft) xSpeed = -walkSpeed;
+		}
 	}
 	if ( (canMove != 5 && !keyJump2) || ySpeed >= 0 ) {
 		jumpLast = 0;

@@ -40,10 +40,7 @@ function sc_pl_dash(){
 	if ( dProcess > 16 ) { 
 		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; dProcess = -10; }
 		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; dProcess = -10; }
-		else if ( nextAtk == 6 ) { 
-			if (isJump) {nextAtk = 0; atkProcess = 0; canMove = 8; dProcess = -10; xSpeed = dir*6;}
-			else {nextAtk = 0; atkProcess = 0; canMove = 6; dProcess = -10;}
-			}
+		else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; dProcess = -10; }
 		else if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
 			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk1; }
 		else if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
