@@ -95,8 +95,11 @@ function sc_pl_move() {
 	}
 	if ( atkProcess > -1 && canMove == 7 ) sc_pl_atkFront2();
 	if ( atkProcess > -1 && canMove == 8 ) sc_pl_atkJumpUp();
+	if ( atkProcess > -1 && canMove == 9 ) sc_pl_atkJumpFront();
 	
 	if ( dProcess > -1 && canMove == 10 ) sc_pl_dash();
+	
+	if ( atkProcess > -1 && canMove == 11 ) sc_pl_atkJump2();
 	
 	//스킬
 	{

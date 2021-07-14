@@ -5,8 +5,8 @@ function sc_gameGUI(){
 	var GUIY = 40;
 	draw_set_alpha(1);
 	var i = 1;
-	draw_sprite_stretched(sp_mpbar, 0, 0, GUIY+55, 900, 192);
 	draw_sprite_stretched(sp_healthbar, 0, -50, GUIY-15, 900, 192);
+	draw_sprite_stretched(sp_mpbar, 0, GUIX-10, GUIY+105, 720, 96);
 	
 	for ( i = 1; i <= 10; i++ ) {
 		if ( global.hpMax >= i ) {
@@ -21,18 +21,18 @@ function sc_gameGUI(){
 		}
 	}
 	
-	for ( i = 0; i < 10; i++ ) {
+	for ( i = 9; i >= 0; i-- ) {
 		if ( global.mpMax >= i * 100 ) {
 			if ( global.mp >= i * 100 + 100) {
 				if (i%2 == 1)
-					draw_sprite_stretched(sp_mana, 10, GUIX+(60*i), GUIY+110,96, 96);
+					draw_sprite_stretched(sp_mana, 10, GUIX+(66*i), GUIY+105,96, 96);
 				else
-					draw_sprite_stretched(sp_mana, 11, GUIX+(60*i), GUIY+110,96, 96);
+					draw_sprite_stretched(sp_mana, 11, GUIX+(66*i), GUIY+105,96, 96);
 			}
 			else if ( global.mp >= i * 100)
-				draw_sprite_stretched(sp_mana, (global.mp - i*100) / 10, GUIX+(60*i), GUIY+110,96, 96);
+				draw_sprite_stretched(sp_mana, (global.mp - i*100) / 10, GUIX+(66*i), GUIY+105,96, 96);
 			else
-				draw_sprite_stretched(sp_mana, 0, GUIX+(60*i), GUIY+110,96, 96);
+				draw_sprite_stretched(sp_mana, 0, GUIX+(66*i), GUIY+105,96, 96);
 		}
 	}
 	

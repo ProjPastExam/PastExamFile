@@ -50,9 +50,9 @@ function sc_pl_atkFront2(){
 		}
 	}
 	*/
-	if ( atkProcess < 3 )	{ image_index = 0; nextAtk = 0; xSpeed = 14*dir; if (isJump) { ySpeed = -5; } }
-	else if ( atkProcess < 8 )	{ image_index = 1; xSpeed = 16*dir; if (isJump) { ySpeed = -3; } }
-	else if ( atkProcess < 13 )	{ image_index = 2; xSpeed = 12*dir; if (isJump) { ySpeed = -1; } }
+	if ( atkProcess < 3 )	{ image_index = 0; nextAtk = 0; xSpeed = 14*dir; }
+	else if ( atkProcess < 8 )	{ image_index = 1; xSpeed = 16*dir; }
+	else if ( atkProcess < 13 )	{ image_index = 2; xSpeed = 12*dir; }
 	else if ( atkProcess < 19 )	{ image_index = 3; xSpeed = 8*dir; }
 	else if ( atkProcess < 24 )	{ image_index = 4; xSpeed = 4*dir; }
 	else { 

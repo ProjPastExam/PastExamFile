@@ -55,8 +55,8 @@ function sc_pl_atkJumpUp(){
 	else if ( atkProcess < 16 )	{ image_index = 2; if (isJump) { ySpeed = -5; } }
 	else if ( atkProcess < 21 )	{ image_index = 3; }
 	else if ( atkProcess < 28 ) { 
-		if (nextAtk == 2)	{ canMove = 2;	atkProcess = 15; }
-		if (nextAtk == 7)	{ canMove = 7;	atkProcess = 0; }
+		if (nextAtk == 2)	{ canMove = 11;	atkProcess = 15; }
+		if (nextAtk == 7)	{ canMove = 9;	atkProcess = 0; }
 	}
 	else	{ canMove = 0;	atkProcess = -5; }
 }

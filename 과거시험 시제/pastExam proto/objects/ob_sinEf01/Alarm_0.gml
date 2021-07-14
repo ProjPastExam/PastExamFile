@@ -31,6 +31,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		ex.sprite_index = sp_hitEffect_sin;
 		ex.damage = dmg;
 		ex.shock = sck;
+		ex.image_xscale = dir;
 		instance_destroy();
 	}
 }

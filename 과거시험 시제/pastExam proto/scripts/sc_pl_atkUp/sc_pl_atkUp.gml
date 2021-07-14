@@ -64,12 +64,10 @@ function sc_pl_atkUp(){
 	
 	if ( atkProcess < 6 )		{ 
 		image_index = 0; nextAtk = 0;
-		if (isJump && (itemJump != -1)) {
-			ySpeed = -5;
-		}
+		xSpeed = 4*dir;
 	}
 	else if ( atkProcess < 12 )	{ image_index = 1; }
-	else if ( atkProcess < 16 )	{ image_index = 2; xSpeed = -1*dir; }
+	else if ( atkProcess < 16 )	{ image_index = 2; }
 	else if ( atkProcess < 21 )	{ image_index = 3;}
 	else if ( atkProcess < 32 )	{ image_index = 4; }
 	else if ( atkProcess < 38 )	{ image_index = 5; }

@@ -37,11 +37,11 @@ function sc_obPhysics() {
 	//3단계 블록과의 좌우 충돌
 	if ( ( left1 == 3 || left2 == 3) )		{ 
 		if ( xSpeed < 0 ) xSpeed = 0;
-		if (middle == 3) x += 10;
+		if (middle == 3) x += 5;
 	}
 	if ( ( right1 == 3 || right2 == 3 ) )	{ 
 		if ( xSpeed > 0 ) xSpeed = 0; 
-		if (middle == 3 ) x -= 10;
+		if (middle == 3 ) x -= 5;
 	}
 
 	//실제 좌표 이동

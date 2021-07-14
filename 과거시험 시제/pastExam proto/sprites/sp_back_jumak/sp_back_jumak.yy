@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "background",
-    "path": "folders/Sprites/background.yy",
+    "name": "village",
+    "path": "folders/Sprites/background/village.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_back_jumak",
