@@ -107,6 +107,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a8da5390-aace-4f96-a089-f840089dfbe7","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "banditBoss01",
     "path": "folders/Sprites/mob/bandit/banditBoss01.yy",

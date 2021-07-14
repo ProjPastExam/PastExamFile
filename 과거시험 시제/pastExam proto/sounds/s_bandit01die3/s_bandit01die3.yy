@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_bandit01die3.wav",
-  "duration": 0.328129,
+  "duration": 0.323129,
   "parent": {
     "name": "bandit",
     "path": "folders/Sounds/mob/bandit.yy",

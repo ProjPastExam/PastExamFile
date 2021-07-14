@@ -95,6 +95,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1750cedb-58cb-4b6e-a930-bd466ffc792d","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "atkEffectSprite",
     "path": "folders/Sprites/player/atkEffectSprite.yy",

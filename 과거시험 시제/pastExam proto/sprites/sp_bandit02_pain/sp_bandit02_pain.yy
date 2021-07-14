@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5425d26f-b9c0-400b-9705-e39df4d49743","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "bandit02",
     "path": "folders/Sprites/mob/bandit/bandit02.yy",

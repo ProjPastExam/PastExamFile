@@ -25,8 +25,8 @@
   "gridY": 1,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"d5b77381-6088-425c-9a0e-ee9cc18981e0","path":"sprites/uc_spr_Camera/uc_spr_Camera.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d5b77381-6088-425c-9a0e-ee9cc18981e0","path":"sprites/uc_spr_Camera/uc_spr_Camera.yy",},"LayerId":{"name":"66f6b706-c302-4306-9dcb-933415fa3dcd","path":"sprites/uc_spr_Camera/uc_spr_Camera.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"d5b77381-6088-425c-9a0e-ee9cc18981e0","path":"sprites/uc_spr_Camera/uc_spr_Camera.yy",},"LayerId":{"name":"9a2a1911-6232-4732-95c2-1d240aeb0e18","path":"sprites/uc_spr_Camera/uc_spr_Camera.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"d5b77381-6088-425c-9a0e-ee9cc18981e0","path":"sprites/uc_spr_Camera/uc_spr_Camera.yy",},"LayerId":{"name":"66f6b706-c302-4306-9dcb-933415fa3dcd","path":"sprites/uc_spr_Camera/uc_spr_Camera.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"uc_spr_Camera","path":"sprites/uc_spr_Camera/uc_spr_Camera.yy",},"resourceVersion":"1.0","name":"d5b77381-6088-425c-9a0e-ee9cc18981e0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -69,6 +69,7 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"9a2a1911-6232-4732-95c2-1d240aeb0e18","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"66f6b706-c302-4306-9dcb-933415fa3dcd","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Ultimate Camera",
     "path": "folders/Sprites/Ultimate Camera.yy",

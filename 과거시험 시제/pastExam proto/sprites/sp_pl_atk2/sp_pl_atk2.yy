@@ -87,6 +87,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2a1de74a-c276-4e2f-ad59-c624ac39ca59","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "atkSprite",
     "path": "folders/Sprites/player/atkSprite.yy",

@@ -87,6 +87,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"319188a2-a3cb-4df6-aa66-b36f8015b8b8","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "skillSprite",
     "path": "folders/Sprites/player/skillSprite.yy",

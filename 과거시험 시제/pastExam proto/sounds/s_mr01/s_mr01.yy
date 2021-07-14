@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_mr01.wav",
-  "duration": 37.6520767,
+  "duration": 37.6470757,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",

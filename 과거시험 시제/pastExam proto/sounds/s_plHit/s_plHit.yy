@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_plHit.wav",
-  "duration": 1.061,
+  "duration": 1.056,
   "parent": {
     "name": "player",
     "path": "folders/Sounds/player.yy",

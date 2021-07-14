@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_hit01.mp3",
-  "duration": 0.344583,
+  "duration": 0.339583,
   "parent": {
     "name": "mob",
     "path": "folders/Sounds/mob.yy",

@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_arrow01.wav",
-  "duration": 0.418061,
+  "duration": 0.413061,
   "parent": {
     "name": "player",
     "path": "folders/Sounds/player.yy",

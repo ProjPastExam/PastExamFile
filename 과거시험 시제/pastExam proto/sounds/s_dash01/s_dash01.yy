@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_dash01.wav",
-  "duration": 0.405204,
+  "duration": 0.400204,
   "parent": {
     "name": "player",
     "path": "folders/Sounds/player.yy",

@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_kick01.wav",
-  "duration": 0.694252,
+  "duration": 0.689252,
   "parent": {
     "name": "player",
     "path": "folders/Sounds/player.yy",
