@@ -21,8 +21,8 @@ function sc_jpSpearSAtk(){
 		
 	}
 	else if ( state == 11 ){
-		if ( plX < x + 80 && plX > x - 80 && (left1 != 3 && right1 != 3)) {
-			//state = 13;
+		if ( plX < x + 300 && plX > x - 300 && (left1 != 3 && right1 != 3)) {
+			state = 13;
 		}
 		else if ( plX > x + 500 ) {
 			dir = 1;
@@ -65,13 +65,13 @@ function sc_jpSpearSAtk(){
 	
 	else if ( state == 13 ) {
 		process++;
-		sprite_index = sp_bandit01_backStep;
+		sprite_index = sp_jpSpearS_backstep;
 		
 		if ( process < 4 ) { image_index = 0; }
-		else if ( process < 10 ) { image_index = 1; xSpeed = dir*15*-1; }
-		else if ( process < 14 ) { image_index = 2; xSpeed = dir*5*-1; }
-		else if ( process < 18 ) { image_index = 3; }
-		else if ( process < 20 ) { image_index = 4; }
+		else if ( process < 15 ) { image_index = 1; xSpeed = dir*16*-1; }
+		else if ( process < 19 ) { image_index = 2; xSpeed = dir*8*-1; }
+		else if ( process < 23 ) { image_index = 3; }
+		else if ( process < 25 ) { image_index = 4; }
 		else { state = 12;	process = 0;	delay = 0; }
 	}
 	

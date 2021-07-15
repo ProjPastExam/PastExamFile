@@ -21,7 +21,7 @@ function sc_bandit01Atk(){
 		
 	}
 	if ( state == 11 ){
-		if ( plX < x + 80 && plX > x - 80 && (left1 != 3 && right1 != 3)) {
+		if ( plX < x + 150 && plX > x - 150 && (left1 != 3 && right1 != 3)) {
 			state = 13;
 		}
 		else if ( plX > x + 240 ) {

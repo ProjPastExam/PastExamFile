@@ -21,8 +21,8 @@ function sc_jpSwordAtk(){
 		
 	}
 	if ( state == 11 ){
-		if ( plX < x + 80 && plX > x - 80 && (left1 != 3 && right1 != 3)) {
-			//state = 13;
+		if ( plX < x + 150 && plX > x - 150 && (left1 != 3 && right1 != 3)) {
+			state = 13;
 		}
 		else if ( plX > x + 210 ) {
 			dir = 1;
@@ -65,7 +65,7 @@ function sc_jpSwordAtk(){
 	
 	if ( state == 13 ) {
 		process++;
-		sprite_index = sp_bandit01_backStep;
+		sprite_index = sp_jpSword_backstep;
 		
 		if ( process < 4 ) { image_index = 0; }
 		else if ( process < 10 ) { image_index = 1; xSpeed = dir*15*-1; }
