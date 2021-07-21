@@ -11,6 +11,11 @@ alarm[5] = 10;
 alarm[6] = 1;
 room_speed = 60;
 
+nameS = "";
+talkArray = array_create(20);
+talkNum = 0;
+talkCnt = 0;
+
 //파티클 시스템
 
 {
