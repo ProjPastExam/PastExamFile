@@ -43,7 +43,7 @@ function sc_obPhysics() {
 		if ( xSpeed > 0 ) xSpeed = 0; 
 		if (middle == 3 ) x -= 5;
 	}
-
+	
 	//실제 좌표 이동
 	x = x + xSpeed;
 
