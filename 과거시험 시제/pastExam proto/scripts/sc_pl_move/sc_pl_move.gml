@@ -78,7 +78,10 @@ function sc_pl_move() {
 	if ( keySk1 && atkProcess == -1 && canMove == 0 ) {
 		if ( global.mp >= skMp[global.sk1] ) { atkProcess = 0; canMove = global.sk1; }
 	}
-	
+	if ( keySk2 && atkProcess == -1 && canMove == 0 ) {
+		if ( global.mp >= skMp[global.sk2] ) { atkProcess = 0; canMove = global.sk2; }
+	}
+	if ( global.mp < 0 ) global.mp = 0;
 	
 	if ( atkProcess > -1 && canMove == 0 ) atkProcess = -1;
 	if ( atkProcess > -1 && canMove == 1 ) sc_pl_atk();
@@ -102,18 +105,14 @@ function sc_pl_move() {
 	if ( atkProcess > -1 && canMove == 11 ) sc_pl_atkJump2();
 	
 	//스킬
-	{
+	
 	if ( atkProcess > -1 ) {
 		switch (canMove) {
-		case 100:
-		case 101:
-		case 102:
-		case 103:
-		case 104:
-			sc_pl_sk100(); break;
+		case 100:	sc_pl_sk100(); break;
+		case 101:	sc_pl_sk101(); break;
 		}
 	}
-	}
+	
 	
 	if ( hitAfter > 0 ) {
 		if ( hitEffect > 0 ) hitEffect--;

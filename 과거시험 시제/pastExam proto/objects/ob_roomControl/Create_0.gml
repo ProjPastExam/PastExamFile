@@ -72,4 +72,11 @@ global.dashEf = part_type_create();
 part_type_sprite(global.dashEf, sp_pl_dash, false, 1, false);
 part_type_life(global.dashEf, 12, 12);
 part_type_alpha2(global.dashEf, 0.8, 0);
+
+
+//플레이어 총 스킬이팩트
+global.gunEf = part_type_create();
+
+part_type_sprite(global.gunEf, sp_pl_sk_gunEf, true, 1, false);
+part_type_life(global.gunEf, 25, 25);
 }
