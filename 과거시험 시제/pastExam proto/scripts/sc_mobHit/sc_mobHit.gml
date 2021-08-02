@@ -8,6 +8,7 @@ function sc_mobHit( argument0 ){
 	//isHostile = true;
 	ad = true;
 	//state = 10;
+	patrol = true;
 	switch ( argument0 ) {
 		
 		case 0:

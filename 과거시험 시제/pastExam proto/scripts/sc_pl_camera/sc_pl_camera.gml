@@ -18,5 +18,7 @@ function sc_pl_camera() {
 	//layer_vspeed("Background1",-(camY - uc_get_y()));
 	
 	
-	uc_set_target_position(x,y-60);
+	if (instance_exists(ob_roomControl) && ob_roomControl.cmMode == 0) {
+		uc_set_target_position(x,y-60);
+	}
 }

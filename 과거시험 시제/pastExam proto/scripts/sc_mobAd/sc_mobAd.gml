@@ -13,9 +13,9 @@ function sc_mobAd(){
 		if (alarm[1] > 0) alarm[1] = -1;
 	}
 	if ( ad && (drX > adDistance * 2) ) {
-		if (alarm[1] < 0) alarm[1] = 60;
+		if (alarm[1] < 0) alarm[1] = 210;
 	}
 	if ( ad && !sc_pl_get("isJump") && ((drY < adHeight * -1.3) || (drY > adHeight * 1.3)) ) {
-		if (alarm[1] < 0) alarm[1] = 60;
+		if (alarm[1] < 0) alarm[1] = 210;
 	}
 }

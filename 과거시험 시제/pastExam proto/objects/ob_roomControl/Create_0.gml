@@ -16,6 +16,8 @@ talkArray = array_create(20);
 talkNum = 0;
 talkCnt = 0;
 
+cmMode = 0;
+
 //파티클 시스템
 
 {
