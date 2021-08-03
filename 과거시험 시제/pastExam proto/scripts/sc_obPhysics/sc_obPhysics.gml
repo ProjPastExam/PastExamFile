@@ -44,6 +44,13 @@ function sc_obPhysics() {
 		if (middle == 3 ) x -= 5;
 	}
 	
+	if (instance_exists(ob_roomControl) && ob_roomControl.cmMode == 1) {
+		var i = uc_get_x();
+		var j = uc_get_view_width()/2 - 50;
+		if (x > i+j && xSpeed > 0) xSpeed = 0;
+		if (x < i-j && xSpeed < 0) xSpeed = 0;
+	}
+	
 	//실제 좌표 이동
 	x = x + xSpeed;
 

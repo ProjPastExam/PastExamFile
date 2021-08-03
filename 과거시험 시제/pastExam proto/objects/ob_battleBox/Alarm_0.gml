@@ -8,7 +8,9 @@ else {
 }
 
 if ( sc_getRoomValue("pause") == 0 ) {
-	
+	if (isActive) {
+		
+	}
 }
 else {
 	image_speed = 0;
