@@ -24,18 +24,18 @@ function sc_jpGunAtk(){
 	}
 	if ( state == 11 ){
 		if ( plX < x + 300 && plX > x - 300 && (left1 != 3 && right1 != 3) ) {
-			//state = 13;
+			state = 13;
 		}
-		else if ( plX > x + 550 ) {
+		else if ( plX > x + 650 ) {
 			dir = 1;
 			xSpeed = 6;
 		}
-		else if ( plX < x - 550 ) {
+		else if ( plX < x - 650 ) {
 			dir = -1;
 			xSpeed = -6;
 		}
 		else {
-			//state = 12;
+			state = 12;
 		}
 		if ( !isJump && dir == -1 && (( left1 == 3 || left2 == 3)))	
 			{ ySpeed = -15; }
@@ -45,31 +45,33 @@ function sc_jpGunAtk(){
 	}
 	if ( state == 12 ) {
 		process++;
-		sprite_index = sp_bandit02_atk;
+		sprite_index = sp_jpGun_atk;
 		xSpeed = 0;
 		
 		if ( process == 1 ) { audio_play_sound(s_bandit02atk1, 8, false); }
 		
-		if ( process == 30 ) { 
+		if ( process == 40 ) { 
 			audio_play_sound(s_bandit02atk2, 8, false);
-			var axe = instance_create_layer(x, y, "effect", ob_mobBandit02Atk);
-			if ( x > plX ) axe.dir = -1; else axe.dir = 1;
-			var xs = (plX-x)/60;
-			if (xs*dir > 0) axe.xSpeed = xs;
-			else axe.xSpeed = 5 * dir;
-			axe.ySpeed = abs(xs) - 26 + (plY - y)/80;
+			var fr = instance_create_layer(x, y, "effect", ob_jpGunEf);
+			fr.image_xscale = dir;
+
 		}
 		
 		
-		if ( process < 29 ) { image_index = 0; }
-		else if ( process < 34 ) { image_index = 1; }
-		else if ( process < 44 ) { image_index = 2; }
+		if ( process < 8 ) { image_index = 0; }
+		else if ( process < 16 ) { image_index = 1; }
+		else if ( process < 40 ) { image_index = 2; }
+		else if ( process < 46 ) { image_index = 3; xSpeed = dir * -8; }
+		else if ( process < 52 ) { image_index = 4; xSpeed = dir * -6; }
+		else if ( process < 58 ) { image_index = 5; xSpeed = dir * -4; }
+		else if ( process < 64 ) { image_index = 6; xSpeed = dir * -2; }
+		else if ( process < 80 ) { image_index = 7; }
 		else { state = 10;	process = 0;	delay = random_range(120, 200); }
 	}
 	
 	if ( state == 13 ) {
 		process++;
-		sprite_index = sp_bandit02_backStep;
+		sprite_index = sp_jpGun_backstep;
 		
 		if ( process < 4 ) { image_index = 0; }
 		else if ( process < 12 ) { image_index = 1; xSpeed = dir*18*-1; }
