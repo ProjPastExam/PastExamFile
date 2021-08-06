@@ -60,7 +60,7 @@ function sc_pl_Spawn() {
 	
 	skMp[0]		= 0;	//null	
 	skMp[100]	= 200;	//편전
-	skMp[101]	= 0;	//총
+	skMp[101]	= 200;	//총
 	
 	}
 }

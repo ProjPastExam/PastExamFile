@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+alarm[1] = 30;
+xSpeed = 0;
+ySpeed = 0;
+
 {
 itemSp = array_create(global.itemMax);
 itemSp[0] = sp_Item_sin;
