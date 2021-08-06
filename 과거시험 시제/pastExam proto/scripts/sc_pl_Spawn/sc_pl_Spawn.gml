@@ -6,11 +6,14 @@ function sc_pl_Spawn() {
 	//카메라 생성--------------------------------------------------------------------------------------------
 	{
 	instance_create_depth(x, y, 0, Camera);
-	uc_enable_room_bounds_enabled(true);
-	uc_set_window_size(1920, 1080);
-	uc_set_view_size(1920,1080);
+	//uc_enable_room_bounds_enabled(true);
+	//uc_set_window_size(1920, 1080);
+	//uc_set_view_size(1920,1080);
+	//uc_set_window_size();
 	uc_set_mode(0);
 	uc_set_target_position(x,y);
+	//uc_set_auto_scale_enabled();
+	
 	}
 	
 	//기본 변수

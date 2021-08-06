@@ -1,6 +1,6 @@
 VSLS_Init();
 
-window_set_fullscreen(true);
+//window_set_fullscreen(true);
 
 //particle 설정
 
