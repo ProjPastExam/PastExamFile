@@ -22,12 +22,12 @@ function sc_pl_sk101(){
 
 	
 	if ( atkProcess == 28 ) {
-		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
-		atk.damage = 8 * sc_pl_atkDmg();
-		atk.shock = 2 * sc_pl_atkShock();
-		atk.pene = 40 + sc_pl_atkPene();
-		atk.hitAfter = 10;
-		atk.sprite_index = sp_pl_atkEf100;
+		atk = instance_create_layer(x+ dir * 80, y-30, "effect", ob_atkEf06);
+		atk.damage = 30;
+		atk.shock = 30;
+		atk.pene = 0;
+		atk.hitAfter = 5;
+		atk.sprite_index = sp_pl_atkEf101;
 		atk.image_xscale = dir;
 		audio_play_sound(s_arrow02, 5, false);
 		part_type_scale(global.gunEf, dir, 1);
