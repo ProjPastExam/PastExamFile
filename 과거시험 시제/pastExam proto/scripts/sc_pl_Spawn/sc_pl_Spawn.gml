@@ -13,7 +13,6 @@ function sc_pl_Spawn() {
 	uc_set_mode(0);
 	uc_set_target_position(x,y);
 	//uc_set_auto_scale_enabled();
-	
 	}
 	
 	//기본 변수

@@ -19,6 +19,7 @@ function sc_pl_atkUp(){
 		atk.hitAfter = 10;
 		atk.sprite_index = sp_pl_atkEf04;
 		atk.image_xscale = dir;
+		atk.mpUp = 30;
 		audio_play_sound(s_kick01, 5, false);
 	}
 	
@@ -29,6 +30,7 @@ function sc_pl_atkUp(){
 		atk.pene = sc_pl_atkPene();
 		atk.hitAfter = 12;
 		atk.sprite_index = sp_pl_atkEf02;
+		atk.mpUp = 12;
 		if ( dir == 1 )		atk.image_angle = 35;
 		if ( dir == -1 )	atk.image_angle = 145;
 		audio_play_sound(s_arrow02, 5, false);

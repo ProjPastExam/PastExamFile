@@ -28,6 +28,7 @@ function sc_pl_atkFront(){
 		atk.hitAfter = 10;
 		atk.sprite_index = sp_pl_atkEf03;
 		atk.image_xscale = dir;
+		atk.mpUp = 30;
 		audio_play_sound(s_kick01, 5, false);
 	}
 	
@@ -39,6 +40,7 @@ function sc_pl_atkFront(){
 		atk.hitAfter = 10;
 		atk.sprite_index = sp_pl_atkEf01;
 		atk.image_xscale = dir;
+		atk.mpUp = 12;
 		audio_play_sound(s_arrow01, 5, false);
 		
 		if (isJump && (itemJump != -1)) {

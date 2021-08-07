@@ -19,6 +19,7 @@ function sc_pl_atkJumpUp(){
 		atk.hitAfter = 10;
 		atk.sprite_index = sp_pl_atkEf04;
 		atk.image_xscale = dir;
+		atk.mpUp = 30;
 		audio_play_sound(s_kick01, 5, false);
 	}
 	
@@ -54,9 +55,9 @@ function sc_pl_atkJumpUp(){
 	else if ( atkProcess < 12 )	{ image_index = 1; if (isJump) { ySpeed = -10; } }
 	else if ( atkProcess < 16 )	{ image_index = 2; if (isJump) { ySpeed = -5; } }
 	else if ( atkProcess < 21 )	{ image_index = 3; }
-	else if ( atkProcess < 28 ) { 
+	else if ( atkProcess < 35 ) { 
 		if (nextAtk == 2)	{ canMove = 11;	atkProcess = 15; }
 		if (nextAtk == 7)	{ canMove = 9;	atkProcess = 0; }
 	}
-	else	{ canMove = 0;	atkProcess = -5; }
+	else	{ canMove = 0;	atkProcess = -10; }
 }

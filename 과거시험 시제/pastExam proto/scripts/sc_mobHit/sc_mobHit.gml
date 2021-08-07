@@ -13,6 +13,7 @@ function sc_mobHit( argument0 ){
 		
 		case 0:
 			var shock = ob_atkEf01.shock - down;
+			var mpUp = ob_atkEf01.mpUp;
 			if (shock < 0) shock = 0;
 			var shVal = sqrt(shock)*3+4;
 			
@@ -31,7 +32,7 @@ function sc_mobHit( argument0 ){
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
 			dmgId.colo = 0;
-			global.mp += 10;
+			global.mp += mpUp;
 			if (global.mp > global.mpMax) global.mp = global.mpMax;
 			if ( ob_atkEf01.image_angle == 35 ) {
 				part_type_direction( global.hitEf01T, 0, 70, 0, 0 );
@@ -80,6 +81,7 @@ function sc_mobHit( argument0 ){
 			break;
 			
 		case 2:
+			var mpUp = ob_atkEf03.mpUp;
 			var shock = ob_atkEf03.shock - down;
 			var shVal = sqrt(shock)*3+6;
 			if ( knockback ) { 
@@ -96,7 +98,7 @@ function sc_mobHit( argument0 ){
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
 			dmgId.colo = 0;
-			global.mp += 15;
+			global.mp += mpUp;
 			if (global.mp > global.mpMax) global.mp = global.mpMax;
 			xSpeed = 0;
 			
@@ -116,6 +118,7 @@ function sc_mobHit( argument0 ){
 			break;
 			
 		case 3:
+			var mpUp = ob_atkEf04.mpUp;
 			var shock = ob_atkEf04.shock - down;
 			var shVal = sqrt(shock)*3+6;
 			if ( knockback ) { 
@@ -130,7 +133,7 @@ function sc_mobHit( argument0 ){
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
 			dmgId.colo = 0;
-			global.mp += 15;
+			global.mp += mpUp;
 			if (global.mp > global.mpMax) global.mp = global.mpMax;
 			xSpeed = 0;
 			
@@ -151,6 +154,7 @@ function sc_mobHit( argument0 ){
 			break;
 			
 		case 4:
+			var mpUp = ob_atkEf05.mpUp;
 			var shock = ob_atkEf05.shock - down;
 			var shVal = sqrt(shock)*3+6;
 			if ( knockback ) { 
@@ -167,7 +171,7 @@ function sc_mobHit( argument0 ){
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
 			dmgId.colo = 0;
-			global.mp += 15;
+			global.mp += mpUp;
 			if (global.mp > global.mpMax) global.mp = global.mpMax;
 			xSpeed = 0;
 			
@@ -188,6 +192,7 @@ function sc_mobHit( argument0 ){
 			break;
 			
 		case 5:
+			var mpUp = ob_atkEf06.mpUp;
 			var shock = ob_atkEf06.shock - down;
 			var shVal = sqrt(shock)*3+6;
 			if ( knockback ) { 
@@ -204,7 +209,7 @@ function sc_mobHit( argument0 ){
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
 			dmgId.colo = 0;
-			global.mp += 15;
+			global.mp += mpUp;
 			if (global.mp > global.mpMax) global.mp = global.mpMax;
 			xSpeed = 0;
 			

@@ -4,6 +4,7 @@
 // ------------------------------------	CAMERA MAIN PARAMETERS	-------------------------------
 // ==============================================================
 #region Set all the camera main parameters
+port_height = window_get_height();
 
 window_set_fullscreen(false);
 // view_width --> Width of the portion of room we will be seeing
@@ -13,7 +14,8 @@ aspect_ratio = view_width/view_height; // Relation between the windows size and 
 port_width = port_height*aspect_ratio; // Width of the window where the game will be drawn
 // port_height --> Height of the window where the game will be drawn
 
-display_set_gui_size(port_width, port_height); //  < ------------------------ THIS LINE IS TOTALLY OPTIONAL
+//display_set_gui_size(port_width, port_height); //  < ------------------------ THIS LINE IS TOTALLY OPTIONAL
+display_set_gui_size(1920, 1080);
 
 x = view_width/2; // Adjust the camera to the top left corner
 y = view_height/2;

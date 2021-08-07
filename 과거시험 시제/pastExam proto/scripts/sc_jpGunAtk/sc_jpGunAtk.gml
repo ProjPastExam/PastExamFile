@@ -50,7 +50,7 @@ function sc_jpGunAtk(){
 		
 		if ( process == 1 ) { audio_play_sound(s_bandit02atk1, 8, false); }
 		
-		if ( process == 40 ) { 
+		if ( process == 50 ) { 
 			audio_play_sound(s_bandit02atk2, 8, false);
 			var fr = instance_create_layer(x, y, "effect", ob_jpGunEf);
 			fr.image_xscale = dir;
@@ -60,12 +60,12 @@ function sc_jpGunAtk(){
 		
 		if ( process < 8 ) { image_index = 0; }
 		else if ( process < 16 ) { image_index = 1; }
-		else if ( process < 40 ) { image_index = 2; }
-		else if ( process < 46 ) { image_index = 3; xSpeed = dir * -8; }
-		else if ( process < 52 ) { image_index = 4; xSpeed = dir * -6; }
-		else if ( process < 58 ) { image_index = 5; xSpeed = dir * -4; }
-		else if ( process < 64 ) { image_index = 6; xSpeed = dir * -2; }
-		else if ( process < 80 ) { image_index = 7; }
+		else if ( process < 50 ) { image_index = 2; }
+		else if ( process < 56 ) { image_index = 3; xSpeed = dir * -8; }
+		else if ( process < 62 ) { image_index = 4; xSpeed = dir * -6; }
+		else if ( process < 68 ) { image_index = 5; xSpeed = dir * -4; }
+		else if ( process < 74 ) { image_index = 6; xSpeed = dir * -2; }
+		else if ( process < 90 ) { image_index = 7; }
 		else { state = 10;	process = 0;	delay = random_range(120, 200); }
 	}
 	

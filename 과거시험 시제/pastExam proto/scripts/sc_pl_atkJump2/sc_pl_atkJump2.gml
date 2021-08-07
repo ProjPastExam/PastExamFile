@@ -47,6 +47,7 @@ function sc_pl_atkJump2(){
 			atk.hitAfter = 12;
 			atk.sprite_index = sp_pl_atkEf02;
 			atk.image_xscale = dir;
+			atk.mpUp = 12;
 			audio_play_sound(s_arrow02, 5, false);
 		}
 		

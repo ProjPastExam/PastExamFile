@@ -16,6 +16,7 @@ function sc_pl_atkFront2(){
 		atk.hitAfter = 10;
 		atk.sprite_index = sp_pl_atkEf03;
 		atk.image_xscale = dir;
+		atk.mpUp = 30;
 		audio_play_sound(s_kick01, 5, false);
 		
 		if (isJump && (itemJump != -1)) {
