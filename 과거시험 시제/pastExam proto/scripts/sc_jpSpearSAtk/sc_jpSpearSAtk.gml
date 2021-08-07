@@ -47,7 +47,7 @@ function sc_jpSpearSAtk(){
 		xSpeed = 0;
 		
 		if ( process == 1 ) { audio_play_sound(s_bandit01atk1, 8, false); }
-		if ( process == 26 ) { 
+		if ( process == 36 ) { 
 			audio_play_sound(s_bandit01atk2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
@@ -55,11 +55,11 @@ function sc_jpSpearSAtk(){
 		}
 		
 		
-		if ( process < 10 ) { image_index = 0; }
-		else if ( process < 18 ) { image_index = 1; xSpeed = dir*10; }
-		else if ( process < 26 ) { image_index = 1; xSpeed = dir*18; }
-		else if ( process < 32 ) { image_index = 2; }
-		else if ( process < 36 ) { image_index = 3; }
+		if ( process < 20 ) { image_index = 0; }
+		else if ( process < 28 ) { image_index = 1; xSpeed = dir*10; }
+		else if ( process < 36 ) { image_index = 1; xSpeed = dir*18; }
+		else if ( process < 42 ) { image_index = 2; }
+		else if ( process < 46 ) { image_index = 3; }
 		else { state = 14;	process = 0; }
 	}
 	

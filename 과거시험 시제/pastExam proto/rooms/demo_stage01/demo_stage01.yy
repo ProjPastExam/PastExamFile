@@ -74,6 +74,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit01G","path":"objects/ob_mobBandit01G/ob_mobBandit01G.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":8992.0,"y":1536.0,"resourceVersion":"1.0","name":"inst_5E0F519E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit02","path":"objects/ob_mobBandit02/ob_mobBandit02.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":9184.0,"y":1568.0,"resourceVersion":"1.0","name":"inst_6AC9404","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit02","path":"objects/ob_mobBandit02/ob_mobBandit02.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":9472.0,"y":1568.0,"resourceVersion":"1.0","name":"inst_6309DF29","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_jpSpearS","path":"objects/ob_jpSpearS/ob_jpSpearS.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1856.0,"y":1440.0,"resourceVersion":"1.0","name":"inst_3ACE6207","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_jpSwordS","path":"objects/ob_jpSwordS/ob_jpSwordS.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3296.0,"y":1696.0,"resourceVersion":"1.0","name":"inst_71DA685D","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"effect2","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"t_stage1","path":"tilesets/t_stage1/t_stage1.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":250,"SerialiseHeight":32,"TileSerialiseData":[
@@ -152,6 +154,8 @@
     {"name":"inst_5E0F519E","path":"rooms/demo_stage01/demo_stage01.yy",},
     {"name":"inst_6AC9404","path":"rooms/demo_stage01/demo_stage01.yy",},
     {"name":"inst_6309DF29","path":"rooms/demo_stage01/demo_stage01.yy",},
+    {"name":"inst_3ACE6207","path":"rooms/demo_stage01/demo_stage01.yy",},
+    {"name":"inst_71DA685D","path":"rooms/demo_stage01/demo_stage01.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
