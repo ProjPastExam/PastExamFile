@@ -23,33 +23,6 @@ function sc_pl_atkJumpUp(){
 		audio_play_sound(s_kick01, 5, false);
 	}
 	
-	//대쉬 제어
-	if ( (atkProcess > 4) ) {
-		if ( keyDash ) nextAtk = 10;
-		if ( keyJump ) nextAtk = 9;
-	}
-		
-	if ( (atkProcess > 8) ) {
-		if ( nextAtk == 9 ) {
-			canMove = 0;
-			nextAtk = 0;
-			if (!isJump) {
-				ySpeed = -17.5;
-				jumpLast = 30;
-				if (keyLeft) xSpeed = -8.5;
-				if (keyRight) xSpeed = 8.5;
-			}
-			audio_play_sound(s_jump, 5, false);
-		}
-		if ( nextAtk == 10 ) {
-			dProcess = 0;
-			nextAtk = 0;
-			canMove = 10;
-			atkProcess = -1;
-			if ( keyRight ) dir = 1;
-			if ( keyLeft ) dir = -1
-		}
-	}
 	
 	if ( atkProcess < 8 )		{ image_index = 0; nextAtk = 0; if (isJump) { ySpeed = -5; } }
 	else if ( atkProcess < 12 )	{ image_index = 1; if (isJump) { ySpeed = -10; } }
