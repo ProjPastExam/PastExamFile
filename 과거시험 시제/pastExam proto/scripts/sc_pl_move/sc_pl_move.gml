@@ -93,8 +93,9 @@ function sc_pl_move() {
 	if ( atkProcess > -1 && canMove == 4 ) sc_pl_atkBack();
 	if ( atkProcess > -1 && canMove == 5 ) sc_pl_atkDown();
 	if ( atkProcess > -1 && canMove == 6 ) {
-		if ( itemRise >= 0 ) sc_pl_atkUpRise(); 
-		else sc_pl_atkUp();
+		//if ( itemRise >= 0 ) sc_pl_atkUpRise(); 
+		//else sc_pl_atkUp();
+		sc_pl_atkUp();
 	}
 	if ( atkProcess > -1 && canMove == 7 ) sc_pl_atkFront2();
 	if ( atkProcess > -1 && canMove == 8 ) sc_pl_atkJumpUp();

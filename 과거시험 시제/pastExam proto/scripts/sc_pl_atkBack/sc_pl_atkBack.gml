@@ -29,10 +29,6 @@ atkProcess++;
 		atk.image_xscale = dir;
 		atk.mpUp = 12;
 		audio_play_sound(s_arrow01, 5, false);
-		
-		if (isJump && (itemJump != -1)) {
-			ySpeed = -8;
-		}
 	}
 	
 	//대쉬 제어

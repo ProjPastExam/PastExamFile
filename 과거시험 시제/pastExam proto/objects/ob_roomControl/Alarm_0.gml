@@ -24,6 +24,10 @@ else if ( isTalk == 2) {
 		if (talkCnt < talkNum -1) talkCnt++;
 		else { isTalk = 3; talkCnt = 0; talkNum = 0; }
 	}
+	if ( keyboard_check_pressed(vk_escape) ) {
+		isTalk = 3; talkCnt = 0; talkNum = 0;
+	}
+	
 }
 else if ( isTalk == 3 )	{ 
 	isGUI = true; isTalk = 0;

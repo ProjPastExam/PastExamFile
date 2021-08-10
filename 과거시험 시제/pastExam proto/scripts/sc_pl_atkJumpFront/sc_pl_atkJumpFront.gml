@@ -18,11 +18,6 @@ function sc_pl_atkJumpFront(){
 		atk.image_xscale = dir;
 		atk.mpUp = 30;
 		audio_play_sound(s_kick01, 5, false);
-		
-		if (isJump && (itemJump != -1)) {
-			ySpeed = -10;
-			xSpeed = -2*dir;
-		}
 	}
 	/*
 	if ( atkProcess == 42 ) {

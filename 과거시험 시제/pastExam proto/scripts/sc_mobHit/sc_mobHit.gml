@@ -27,8 +27,9 @@ function sc_mobHit( argument0 ){
 			else { stun += shock }
 			process = int64(process);
 			hitAfter = ob_atkEf01.hitAfter;
-			dmg = ob_atkEf01.damage * (100 - (defence * (100 - ob_atkEf01.pene)/100))/100;
-			hp -= dmg;
+			
+			dmg = sc_mobDmg(ob_atkEf01.damage, ob_atkEf01.pene);
+
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
 			dmgId.colo = 0;
@@ -93,8 +94,9 @@ function sc_mobHit( argument0 ){
 			}
 			process = int64(process);
 			hitAfter = ob_atkEf03.hitAfter;
-			dmg = ob_atkEf03.damage * (100 - (defence * (100 - ob_atkEf03.pene)/100))/100;
-			hp -= dmg;
+			
+			dmg = sc_mobDmg(ob_atkEf03.damage, ob_atkEf03.pene);
+			
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
 			dmgId.colo = 0;
@@ -128,8 +130,9 @@ function sc_mobHit( argument0 ){
 			}
 			process = int64(process);
 			hitAfter = ob_atkEf04.hitAfter;
-			dmg = ob_atkEf04.damage * (100 - (defence * (100 - ob_atkEf04.pene)/100))/100;
-			hp -= dmg;
+			
+			dmg = sc_mobDmg(ob_atkEf04.damage, ob_atkEf04.pene);
+			
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
 			dmgId.colo = 0;
@@ -166,8 +169,9 @@ function sc_mobHit( argument0 ){
 			}
 			process = int64(process);
 			hitAfter = ob_atkEf05.hitAfter;
-			dmg = ob_atkEf05.damage * (100 - (defence * (100 - ob_atkEf05.pene)/100))/100;
-			hp -= dmg;
+			
+			dmg = sc_mobDmg(ob_atkEf05.damage, ob_atkEf05.pene);
+			
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
 			dmgId.colo = 0;
@@ -204,8 +208,9 @@ function sc_mobHit( argument0 ){
 			}
 			process = int64(process);
 			hitAfter = ob_atkEf06.hitAfter;
-			dmg = ob_atkEf06.damage * (100 - (defence * (100 - ob_atkEf06.pene)/100))/100;
-			hp -= dmg;
+			
+			dmg = sc_mobDmg(ob_atkEf06.damage, ob_atkEf06.pene);
+			
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;
 			dmgId.colo = 0;

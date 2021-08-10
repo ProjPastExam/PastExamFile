@@ -51,11 +51,6 @@ function sc_pl_atk2(){
 			atk.mpUp = 12;
 			audio_play_sound(s_arrow02, 5, false);
 		}
-		
-		if (isJump && (itemJump != -1)) {
-			ySpeed = -15;
-			xSpeed = dir * -4;
-		}
 	}
 	
 	//대쉬 제어

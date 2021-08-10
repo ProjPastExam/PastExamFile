@@ -31,10 +31,6 @@ function sc_pl_atkDown(){
 		atk.image_xscale = dir;
 		atk.mpUp = 30;
 		audio_play_sound(s_kick01, 5, false);
-		
-		if (isJump && (itemJump != -1)) {
-			ySpeed = -7;
-		}
 	}
 	
 	if ( atkProcess == 27 ) {

@@ -31,11 +31,6 @@ function sc_pl_atk(){
 		atk.image_xscale = dir;
 		atk.mpUp = 12;
 		
-		if (isJump && (itemJump != -1)) {
-			ySpeed = -8;
-			xSpeed = dir * -2;
-		}
-		
 		audio_play_sound(s_arrow01, 5, false);
 	}
 	

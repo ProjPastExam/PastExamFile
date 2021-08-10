@@ -18,7 +18,7 @@ function sc_item(num, grade) {
 		itemRise = grade;
 		break;
 		
-	//점프공격 아이템
+	//공중 적 공격시 추뎀
 	case 3:
 		itemJump = grade;
 		break;
