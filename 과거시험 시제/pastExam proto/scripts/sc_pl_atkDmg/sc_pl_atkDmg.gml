@@ -11,10 +11,11 @@ function sc_pl_atkDmg(){
 	}
 	
 	//점프 아이템 적용
+	/*
 	if (itemJump > -1 && isJump) {
 		atkDmg += global.atkDmg * (itemJump/5);
 	}
-	
+	*/
 	
 	return atkDmg;
 }
