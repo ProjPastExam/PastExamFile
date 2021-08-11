@@ -30,7 +30,7 @@ function sc_pl_sk100(){
 		atk.sprite_index = sp_pl_atkEf100;
 		atk.image_xscale = dir;
 		uc_shake(4, 0.1);
-		audio_play_sound(s_arrow02, 5, false);
+		audio_play_sound(s_pl_sk100, 5, false);
 		//if (instance_exists(ob_roomControl)) ob_roomControl.pause = 20;
 		global.mp -= 200;
 	}
