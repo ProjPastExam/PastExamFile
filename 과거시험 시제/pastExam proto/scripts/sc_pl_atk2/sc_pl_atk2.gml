@@ -22,13 +22,6 @@ function sc_pl_atk2(){
 		else				nextAtk = 1;
 	}
 	
-	if ( atkProcess == 6 ) {
-		
-		if (isJump && (itemJump != -1)) {
-			ySpeed = -6;
-		}
-	}
-	
 	if ( atkProcess == 24 ) {
 		if (isSin != -1) {
 			atk = instance_create_layer(x, y, "effect", ob_sinEf01);

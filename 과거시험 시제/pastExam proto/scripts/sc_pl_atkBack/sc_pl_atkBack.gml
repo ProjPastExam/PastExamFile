@@ -59,12 +59,7 @@ atkProcess++;
 		}
 	}
 	
-	if ( atkProcess < 6 )		{ 
-		image_index = 0; nextAtk = 0; xSpeed = -16*dir;
-		if (isJump && (itemJump != -1)) {
-			ySpeed = -7;
-		}
-	}
+	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; xSpeed = -16*dir; }
 	else if ( atkProcess < 15 )	{ image_index = 1; xSpeed = -12*dir; }
 	else if ( atkProcess < 21 )	{ image_index = 2; xSpeed = -8*dir; }
 	else if ( atkProcess < 27 )	{ image_index = 3; xSpeed = -4*dir; }

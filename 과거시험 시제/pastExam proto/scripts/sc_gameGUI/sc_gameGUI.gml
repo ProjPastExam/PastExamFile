@@ -21,6 +21,25 @@ function sc_gameGUI(){
 		}
 	}
 	
+	//스킬 UI 표시
+	{
+	var en = 1;
+	
+	if (instance_exists(ob_player) && ob_player.skMp[global.sk1] < global.mp) en = 0;
+	draw_sprite(skUi[global.sk1], en, 50, GUIY+180);
+	
+	if (instance_exists(ob_player) && ob_player.skMp[global.sk2] < global.mp) en = 0;
+	draw_sprite(skUi[global.sk2], en, 200, GUIY+180);
+	
+	if (instance_exists(ob_player) && ob_player.skMp[global.sk3] < global.mp) en = 0;
+	draw_sprite(skUi[global.sk3], en, 350, GUIY+180);
+	
+	draw_sprite(sp_skillUi_outline, 0, 50, GUIY+180);
+	draw_sprite(sp_skillUi_outline, 1, 200, GUIY+180);
+	draw_sprite(sp_skillUi_outline, 2, 350, GUIY+180);
+	
+	}
+	
 	for ( i = 9; i >= 0; i-- ) {
 		if ( global.mpMax >= i * 100 ) {
 			if ( global.mp >= i * 100 + 100) {
@@ -35,5 +54,6 @@ function sc_gameGUI(){
 				draw_sprite_stretched(sp_mana, 0, GUIX+(66*i), GUIY+105,96, 96);
 		}
 	}
+	
 	
 }

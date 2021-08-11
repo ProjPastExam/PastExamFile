@@ -18,6 +18,12 @@ talkCnt = 0;
 
 cmMode = 0;
 
+//스킬 UI 설정
+{
+skUi = array_create(300, sp_skillUi_0);
+skUi[100] = sp_skillUi_100;
+
+}
 //파티클 시스템
 
 {
