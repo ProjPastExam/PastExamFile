@@ -38,6 +38,8 @@ function sc_pl_Spawn() {
 	
 	dProcess = -1;
 	
+	isDash = true;
+	
 	//공격력 변수
 	{
 	atkDmgScale	= 1.0;

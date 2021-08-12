@@ -35,6 +35,7 @@ function sc_pl_move() {
 	}
 
 	if ( isJump && ( canMove == 0 ) ) { sc_pl_sprite(2); }
+	if ( !isJump ) isDash = true;
 
 	
 	if ( canMove == 0 ) {

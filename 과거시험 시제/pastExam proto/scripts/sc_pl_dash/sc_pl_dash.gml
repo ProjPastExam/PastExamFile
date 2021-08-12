@@ -12,6 +12,8 @@ function sc_pl_dash(){
 		if ( keySk2 ) nextAtk = -2;
 		if ( keySk3 ) nextAtk = -3;
 	}
+	if ( !isDash ) { canMove = 0; dProcess = -1; return; }
+	
 	if ( dProcess % 4 == 0 ) { 
 		part_type_scale( global.dashEf, dir, 1 );
 		part_particles_create( global.hitEf2, x, y, global.dashEf, 1 );
@@ -38,15 +40,15 @@ function sc_pl_dash(){
 	xSpeed = 27*dir*(20-dProcess)/14;
 	ySpeed = 0;
 	if ( dProcess > 16 ) { 
-		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; dProcess = -10; }
-		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; dProcess = -10; }
-		else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; dProcess = -10; }
+		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; dProcess = -10; isDash = false; }
+		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; dProcess = -10; isDash = false; }
+		else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; dProcess = -10; isDash = false; }
 		else if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
-			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk1; }
+			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk1; isDash = false; }
 		else if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
-			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk2; }
+			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk2; isDash = false; }
 		else if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
-			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk3; }
-		else { canMove = 0; dProcess = -30; }
+			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk3; isDash = false; }
+		else { canMove = 0; dProcess = -30; isDash = false; }
 	}
 }
