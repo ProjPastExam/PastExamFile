@@ -22,7 +22,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		var sck = 0;
 
 		if (instance_exists(ob_player)) {
-			dmg = 40 + (4 * ob_player.isSin);
+			dmg = 45 + (5 * ob_player.isSin);
 			sck = 20 + (3 * ob_player.isSin);
 		}
 
