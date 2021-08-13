@@ -24,6 +24,7 @@ function sc_jpGunAtk(){
 	}
 	if ( state == 11 ){
 		if ( plX < x + 300 && plX > x - 300 && (left1 != 3 && right1 != 3) ) {
+			process = 0;
 			state = 13;
 		}
 		else if ( plX > x + 650 ) {
@@ -35,6 +36,7 @@ function sc_jpGunAtk(){
 			xSpeed = -6;
 		}
 		else {
+			process = 0;
 			state = 12;
 		}
 		if ( !isJump && dir == -1 && (( left1 == 3 || left2 == 3)))	

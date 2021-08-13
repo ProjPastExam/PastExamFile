@@ -22,6 +22,7 @@ function sc_jpSwordAtk(){
 	}
 	if ( state == 11 ){
 		if ( plX < x + 150 && plX > x - 150 && (left1 != 3 && right1 != 3)) {
+			process = 0;
 			state = 13;
 		}
 		else if ( plX > x + 210 ) {
@@ -33,6 +34,7 @@ function sc_jpSwordAtk(){
 			xSpeed = -8;
 		}
 		else {
+			process = 0;
 			state = 12;
 		}
 		if ( !isJump && dir == -1 && (( left1 == 3 || left2 == 3)))	
