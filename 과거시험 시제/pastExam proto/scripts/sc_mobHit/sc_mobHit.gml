@@ -189,10 +189,10 @@ function sc_mobHit( argument0 ){
 			}
 			uc_shake(sqrt(shock)+2, 0.2);
 			audio_play_sound(s_hit01, 5, false);
-			part_type_scale( global.hitEf02T, 1.5, 1.5 );
+			//part_type_scale( global.hitEf02T, 1.5, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
-			part_type_orientation( global.hitEf02T, -30, 30, 0, 0, 0 );
-			part_particles_create( global.hitEf, x, y, global.hitEf02T, 1 );
+			part_type_orientation( global.hitEf_f01, -30, 30, 0, 0, 0 );
+			part_particles_create( global.hitEf, x, y, global.hitEf_f01, 1 );
 			break;
 			
 		case 5:
@@ -228,10 +228,10 @@ function sc_mobHit( argument0 ){
 			}
 			uc_shake(sqrt(shock)+2, 0.2);
 			audio_play_sound(s_hit01, 5, false);
-			part_type_scale( global.hitEf02T, 1.5, 1.5 );
+			//part_type_scale( global.hitEf02T, 1.5, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
-			part_type_orientation( global.hitEf02T, -30, 30, 0, 0, 0 );
-			part_particles_create( global.hitEf, x, y, global.hitEf02T, 1 );
+			part_type_orientation( global.hitEf_f01, -30, 30, 0, 0, 0 );
+			part_particles_create( global.hitEf, x, y, global.hitEf_f01, 1 );
 			break;
 	}
 	
