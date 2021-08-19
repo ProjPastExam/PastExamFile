@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_tile_stage1",
-    "path": "sprites/sp_tile_stage1/sp_tile_stage1.yy",
+    "name": "sp_tile_stage2",
+    "path": "sprites/sp_tile_stage2/sp_tile_stage2.yy",
   },
   "tileWidth": 64,
   "tileHeight": 64,
@@ -535,7 +535,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "t_stage1",
+  "name": "t_stage2",
   "tags": [],
   "resourceType": "GMTileSet",
 }
