@@ -38,23 +38,27 @@ function sc_mobHit( argument0 ){
 			if ( ob_atkEf01.image_angle == 35 ) {
 				part_type_direction( global.hitEf01T, 0, 70, 0, 0 );
 				hitDir = 1;
-				
+				//dir = -1;
 			}
 			else if ( ob_atkEf01.image_angle == 145 ) {
 				part_type_direction( global.hitEf01T, 110, 180, 0, 0 );
 				hitDir = -1;
-				
+				//dir = 1;
 			}
 			else if ( ob_atkEf01.image_xscale == -1 )	{
 				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
 				xs = -1;
 				hitDir = -1;
+				//dir = 1;
 			}
 			else	{
 				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
 				xs = 1;
 				hitDir = 1;
+				//dir = -1;
 			}
+			//part_type_color_rgb(global.hitEf01T, 180, 180, 180, 180, 255, 255);
+			part_type_color3(global.hitEf01T, c_white, c_blue, c_black);
 			uc_shake(sqrt(shock), 0.15);
 			audio_play_sound(s_hit01, 5, false);
 			
@@ -107,11 +111,15 @@ function sc_mobHit( argument0 ){
 			if ( ob_atkEf03.image_xscale == -1 )	{
 				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
 				hitDir = -1;
+				//dir = 1;
 			}
 			else			{
 				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
 				hitDir = 1;
+				//dir = -1;
 			}
+			part_type_color3(global.hitEf01T, c_white, c_yellow, c_black);
+			
 			uc_shake(sqrt(shock)+1, 0.15);
 			audio_play_sound(s_hit01, 5, false);
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
@@ -143,11 +151,15 @@ function sc_mobHit( argument0 ){
 			if ( ob_atkEf04.image_xscale == -1 )	{
 				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
 				hitDir = -1;
+				//dir = 1;
 			}
 			else			{
 				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
 				hitDir = 1;
+				//dir = -1;
 			}
+			part_type_color3(global.hitEf01T, c_white, c_yellow, c_black);
+			
 			uc_shake(sqrt(shock)+2, 0.2);
 			audio_play_sound(s_hit01, 5, false);
 			part_type_scale( global.hitEf02T, 1.5, 1.5 );
@@ -182,11 +194,15 @@ function sc_mobHit( argument0 ){
 			if ( ob_atkEf05.image_xscale == -1 )	{
 				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
 				hitDir = -1;
+				//dir = 1;
 			}
 			else			{
 				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
 				hitDir = 1;
+				//dir = -1;
 			}
+			part_type_color3(global.hitEf01T, c_white, c_red, c_black);
+			
 			uc_shake(sqrt(shock)+2, 0.2);
 			audio_play_sound(s_hit01, 5, false);
 			//part_type_scale( global.hitEf02T, 1.5, 1.5 );
@@ -221,11 +237,15 @@ function sc_mobHit( argument0 ){
 			if ( ob_atkEf06.image_xscale == -1 )	{
 				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
 				hitDir = -1;
+				//dir = 1;
 			}
 			else			{
 				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
 				hitDir = 1;
+				//dir = -1;
 			}
+			part_type_color3(global.hitEf01T, c_white, c_red, c_black);
+			
 			uc_shake(sqrt(shock)+2, 0.2);
 			audio_play_sound(s_hit01, 5, false);
 			//part_type_scale( global.hitEf02T, 1.5, 1.5 );

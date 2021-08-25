@@ -38,7 +38,7 @@ global.hitEf01T = part_type_create();
 
 //part_type_color1( e01, c_red );
 part_type_shape( global.hitEf01T, pt_shape_square );
-part_type_size( global.hitEf01T, 0.2, 0.2, -0.008, 0 );
+part_type_size( global.hitEf01T, 0.15, 0.15, -0.006, 0 );
 part_type_gravity( global.hitEf01T, 0.4, 270 );
 part_type_speed( global.hitEf01T, 15, 25, -0.5, 0 );
 part_type_color1(global.hitEf01T, c_white);
