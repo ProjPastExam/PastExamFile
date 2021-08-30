@@ -83,6 +83,7 @@
     {"id":{"name":"sc_pl_atkJump2","path":"scripts/sc_pl_atkJump2/sc_pl_atkJump2.yy",},"order":10,},
     {"id":{"name":"uls_collider_define_shape_custom","path":"scripts/uls_collider_define_shape_custom/uls_collider_define_shape_custom.yy",},"order":1,},
     {"id":{"name":"sp_ItemInfo_kick","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"order":1,},
+    {"id":{"name":"sp_title","path":"sprites/sp_title/sp_title.yy",},"order":12,},
     {"id":{"name":"sp_jpSpearS_stand","path":"sprites/sp_jpSpearS_stand/sp_jpSpearS_stand.yy",},"order":0,},
     {"id":{"name":"sp_demoSpeak","path":"sprites/sp_demoSpeak/sp_demoSpeak.yy",},"order":12,},
     {"id":{"name":"ob_atkEf05","path":"objects/ob_atkEf05/ob_atkEf05.yy",},"order":9,},
