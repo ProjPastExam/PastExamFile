@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sp_demoInfoD",
-    "path": "sprites/sp_demoInfoD/sp_demoInfoD.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,17 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":27,"eventType":5,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "demo",
-    "path": "folders/Objects/demo.yy",
+    "name": "gameControl",
+    "path": "folders/Objects/gameControl.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_demoInfo1",
+  "name": "ob_nxtR",
   "tags": [],
   "resourceType": "GMObject",
 }
