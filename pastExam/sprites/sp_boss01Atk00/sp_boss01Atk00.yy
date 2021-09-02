@@ -83,6 +83,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ddf0369e-27f0-4d91-924b-d7cf89345ea3","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "boss01",
     "path": "folders/Sprites/boss01.yy",

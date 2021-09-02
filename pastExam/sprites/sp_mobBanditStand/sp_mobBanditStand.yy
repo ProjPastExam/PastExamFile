@@ -87,6 +87,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"30656e01-7a11-49d0-9ef9-239e5bbf46a2","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "mob_Bandit",
     "path": "folders/Sprites/sp_mob/mob_Bandit.yy",

@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0acd7759-5397-4b0f-a69f-8c4dae514977","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Shapes",
     "path": "folders/Sprites/Sprites/Example/Shapes.yy",

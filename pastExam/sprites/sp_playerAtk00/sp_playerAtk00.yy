@@ -159,6 +159,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"233a3136-94b4-4fcf-a064-9d8a5612b6a6","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "pl_sword",
     "path": "folders/Sprites/sp_player/pl_sword.yy",
