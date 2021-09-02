@@ -11,10 +11,10 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_mr01.wav",
-  "duration": 37.6470757,
+  "duration": 89.14288,
   "parent": {
-    "name": "music",
-    "path": "folders/Sounds/music.yy",
+    "name": "stage01",
+    "path": "folders/Sounds/music/stage01.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_mr01",
