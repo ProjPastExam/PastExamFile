@@ -50,10 +50,10 @@ function sc_jpGunAtk(){
 		sprite_index = sp_jpGun_atk;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { audio_play_sound(s_bandit02atk1, 8, false); }
+		if ( process == 1 ) { audio_play_sound(s_jp_bAtk, 8, false); }
 		
 		if ( process == 50 ) { 
-			audio_play_sound(s_bandit02atk2, 8, false);
+			audio_play_sound(s_jp_bAtk2, 8, false);
 			var fr = instance_create_layer(x, y, "effect", ob_jpGunEf);
 			fr.image_xscale = dir;
 

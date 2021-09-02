@@ -30,7 +30,7 @@ function sc_pl_sk101(){
 		atk.sprite_index = sp_pl_atkEf101;
 		atk.image_xscale = dir;
 		uc_shake(8, 0.1);
-		audio_play_sound(s_arrow02, 5, false);
+		audio_play_sound(s_pl_sk101, 5, false);
 		part_type_scale(global.gunEf, dir, 1);
 		part_particles_create( global.hitEf, x, y, global.gunEf, 1 );
 		//if (sc_getRoomValue("pause") != NULL) ob_roomControl.pause = 20;

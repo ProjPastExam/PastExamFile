@@ -6,6 +6,6 @@ for (var i = 0; i < 6; i++) {
 	global.item[i] = 0;
 }
 room_goto(demo_text);
-//room_goto(demo_stage01);
+//room_goto(demo_stage04);
 //room_goto(demo_stageEnd);
 //room_goto(TestRoom);

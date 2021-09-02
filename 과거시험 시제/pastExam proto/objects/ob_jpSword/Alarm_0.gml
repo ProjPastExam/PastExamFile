@@ -21,11 +21,10 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		sprite_index = sp_jpSword_die;
 		if ( process < 24 ) process++;
 		if ( process == 1 ) { 
-			//var han = irandom_range(0, 3);
-			//if (han == 0) audio_play_sound(s_bandit01die1, 8, false);
-			//else if (han == 1) audio_play_sound(s_bandit01die2, 8, false);
-			//else if (han == 2) audio_play_sound(s_bandit01die3, 8, false);
-			//else audio_play_sound(s_bandit01die4, 8, false)
+			var han = irandom_range(0, 2);
+			if (han == 0) audio_play_sound(s_jpAdie1, 8, false);
+			else if (han == 1) audio_play_sound(s_jpAdie2, 8, false);
+			else audio_play_sound(s_jpAdie3, 8, false)
 		}
 		if ( process < 8 ) { image_index = 0; xSpeed = -1 * dir * 15; }
 		else if ( process < 16 ) { image_index = 1; xSpeed = -1 * dir * 10; }

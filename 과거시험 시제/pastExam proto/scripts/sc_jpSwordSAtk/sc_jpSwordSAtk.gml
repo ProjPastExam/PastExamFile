@@ -48,9 +48,9 @@ function sc_jpSwordSAtk(){
 		sprite_index = sp_jpSwordS_atk1;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { audio_play_sound(s_bandit01atk1, 8, false); }
+		if ( process == 1 ) { audio_play_sound(s_jp_eAtk, 8, false); }
 		if ( process == 32 ) { 
-			audio_play_sound(s_bandit01atk2, 8, false);
+			audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_jpSwordS_atk1Ef;
@@ -84,7 +84,7 @@ function sc_jpSwordSAtk(){
 		xSpeed = 0;
 		
 		if ( process == 10 ) { 
-			audio_play_sound(s_bandit01atk2, 8, false);
+			audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_jpSwordS_atk2Ef;
