@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_swing_b2.wav",
-  "duration": 0.659728,
+  "duration": 1.223039,
   "parent": {
     "name": "atk",
     "path": "folders/Sounds/mob/atk.yy",

@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_jpAdie2.wav",
-  "duration": 0.81,
+  "duration": 0.758776,
   "parent": {
     "name": "jp",
     "path": "folders/Sounds/mob/jp.yy",

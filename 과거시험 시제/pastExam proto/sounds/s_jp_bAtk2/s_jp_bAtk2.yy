@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_jp_bAtk2.wav",
-  "duration": 0.628844,
+  "duration": 0.909569,
   "parent": {
     "name": "jp",
     "path": "folders/Sounds/mob/jp.yy",
