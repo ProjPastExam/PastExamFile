@@ -1,3 +1,3 @@
-audio_stop_sound(s_mr01);
+audio_stop_all();
 sc_itemSet();
 room_speed = 60;

@@ -305,6 +305,7 @@
     {"id":{"name":"sp_jumo_face","path":"sprites/sp_jumo_face/sp_jumo_face.yy",},"order":1,},
     {"id":{"name":"uc_fnt_dpcomic","path":"fonts/uc_fnt_dpcomic/uc_fnt_dpcomic.yy",},"order":0,},
     {"id":{"name":"sp_pl_frontKick","path":"sprites/sp_pl_frontKick/sp_pl_frontKick.yy",},"order":1,},
+    {"id":{"name":"sc_pl_atkDnJ","path":"scripts/sc_pl_atkDnJ/sc_pl_atkDnJ.yy",},"order":11,},
     {"id":{"name":"sp_bandit02_die","path":"sprites/sp_bandit02_die/sp_bandit02_die.yy",},"order":2,},
     {"id":{"name":"sc_obPValue","path":"scripts/sc_obPValue/sc_obPValue.yy",},"order":1,},
     {"id":{"name":"sp_bandit03_pain","path":"sprites/sp_bandit03_pain/sp_bandit03_pain.yy",},"order":3,},

@@ -72,7 +72,7 @@ function sc_pl_move() {
 		else canMove = 1;
 		atkProcess = 0;
 	}
-	if ( keyDash && dProcess == -1 && canMove == 0) {
+	if ( keyDash && dProcess == -1 && canMove == 0 && isDash) {
 		dProcess = 0;
 		canMove = 10;
 	}

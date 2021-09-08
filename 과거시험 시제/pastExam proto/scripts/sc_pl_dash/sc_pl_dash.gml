@@ -12,7 +12,7 @@ function sc_pl_dash(){
 		if ( keySk2 ) nextAtk = -2;
 		if ( keySk3 ) nextAtk = -3;
 	}
-	if ( !isDash ) { canMove = 0; dProcess = -1; return; }
+	//if ( !isDash ) { canMove = 0; dProcess = -1; return; }
 	
 	if ( dProcess % 4 == 0 ) { 
 		part_type_scale( global.dashEf, dir, 1 );

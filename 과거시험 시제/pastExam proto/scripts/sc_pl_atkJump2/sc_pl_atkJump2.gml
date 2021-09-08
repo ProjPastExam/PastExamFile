@@ -59,25 +59,7 @@ function sc_pl_atkJump2(){
 	}
 		
 	if ( (atkProcess > 24 && atkProcess < 50) ) {
-		if ( nextAtk == 9 && !isJump ) {
-			canMove = 0;
-			nextAtk = 0;
-			//if (!isJump) {
-				ySpeed = -17.5;
-				jumpLast = 30;
-				if (keyLeft) xSpeed = -8.5;
-				if (keyRight) xSpeed = 8.5;
-			//}
-			audio_play_sound(s_jump, 5, false);
-		}
-		if ( nextAtk == 10 ) {
-			dProcess = 0;
-			nextAtk = 0;
-			canMove = 10;
-			atkProcess = -1;
-			if ( keyRight ) dir = 1;
-			if ( keyLeft ) dir = -1
-		}
+		sc_pl_atkDnJ();
 	}
 	
 	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0;  ySpeed = -1; }
@@ -89,13 +71,13 @@ function sc_pl_atkJump2(){
 	else if ( atkProcess < 50 )	{
 		if ( nextAtk == 1 )	{ canMove = 1;	atkProcess = 0; }
 		if ( nextAtk == 5 )	{ canMove = 5;	atkProcess = 0; }
-		if ( nextAtk == 10 ) {
+		/*if ( nextAtk == 10 ) {
 			dProcess = 0;
 			canMove = 10;
 			atkProcess = -1;
 			if ( keyRight ) dir = 1;
 			if ( keyLeft ) dir = -1
-		}
+		}*/
 	}
 	else { canMove = 0;	atkProcess = -5; }
 }

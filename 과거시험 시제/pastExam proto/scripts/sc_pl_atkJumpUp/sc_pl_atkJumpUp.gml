@@ -29,14 +29,7 @@ function sc_pl_atkJumpUp(){
 	}
 		
 	if ( (atkProcess > 16) ) {
-		if ( nextAtk == 10 ) {
-			dProcess = 0;
-			nextAtk = 0;
-			canMove = 10;
-			atkProcess = -1;
-			if ( keyRight ) dir = 1;
-			if ( keyLeft ) dir = -1
-		}
+		sc_pl_atkDnJ(2);
 	}
 	
 	if ( atkProcess < 8 )		{ image_index = 0; nextAtk = 0; if (isJump) { ySpeed = -5; } }
