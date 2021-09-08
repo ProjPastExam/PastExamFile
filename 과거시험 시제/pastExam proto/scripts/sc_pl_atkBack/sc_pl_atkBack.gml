@@ -37,16 +37,16 @@ atkProcess++;
 		if ( keyJump ) nextAtk = 9;
 	}
 		
-	if ( atkProcess > 21 ) {
+	if ( atkProcess > 21 && !isJump ) {
 		if ( nextAtk == 9 ) {
 			canMove = 0;
 			nextAtk = 0;
-			if (!isJump) {
+			//if (!isJump) {
 				ySpeed = -17.5;
 				jumpLast = 30;
 				if (keyLeft) xSpeed = -8.5;
 				if (keyRight) xSpeed = 8.5;
-			}
+			//}
 			audio_play_sound(s_jump, 5, false);
 		}
 		if ( nextAtk == 10 ) {
