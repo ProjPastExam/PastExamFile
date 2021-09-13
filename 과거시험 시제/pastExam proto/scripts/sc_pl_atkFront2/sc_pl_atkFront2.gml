@@ -8,6 +8,18 @@ function sc_pl_atkFront2(){
 	sprite_index = sp_pl_atkFront2;
 	var atk;
 	
+	if ( atkProcess > 4 ) {
+		if (keyAttack) {
+			if ( keyDown )		nextAtk = 5;
+			else if ( keyTop ) 	nextAtk = 6;
+			else				nextAtk = 2;
+		}
+		if ( keySk1 ) nextAtk = -1;
+		if ( keySk2 ) nextAtk = -2;
+		if ( keySk3 ) nextAtk = -3;
+	}
+	
+	
 	if ( atkProcess == 8 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
 		atk.damage = 2 * sc_pl_kickDmg();
@@ -19,50 +31,32 @@ function sc_pl_atkFront2(){
 		atk.mpUp = 30;
 		audio_play_sound(s_kick01, 5, false);
 	}
-	/*
-	if ( atkProcess == 42 ) {
-		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
-		atk.damage = 25;
-		atk.shock = 20;
-		atk.pene = 0;
-		atk.hitAfter = 15;
-		atk.sprite_index = sp_pl_atkEf02;
-		atk.image_xscale = dir;
-		audio_play_sound(s_arrow02, 5, false);
-	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 40 && atkProcess < 60) ) 
+	if ( (atkProcess > 4) ) {
 		if ( keyDash ) nextAtk = 10;
-		
-	if ( (atkProcess > 51 && atkProcess < 60) ) {
-		if ( nextAtk == 10 ) {
-			dProcess = 0;
-			nextAtk = 0;
-			canMove = 10;
-			atkProcess = -1;
-			if ( keyRight ) dir = 1;
-			if ( keyLeft ) dir = -1
-		}
+		if ( keyJump ) nextAtk = 9;
 	}
-	*/
+		
+	if ( atkProcess > 10 ) {
+		sc_pl_atkDnJ();
+	}
+	
 	if ( atkProcess < 3 )	{ image_index = 0; nextAtk = 0; xSpeed = 14*dir; }
 	else if ( atkProcess < 8 )	{ image_index = 1; xSpeed = 16*dir; }
 	else if ( atkProcess < 13 )	{ image_index = 2; xSpeed = 12*dir; }
 	else if ( atkProcess < 19 )	{ image_index = 3; xSpeed = 8*dir; }
 	else if ( atkProcess < 24 )	{ image_index = 4; xSpeed = 4*dir; }
 	else { 
-		canMove = 2; 
-		if (isJump) atkProcess = 15; 
-		else atkProcess = 6; 
+		{ canMove = 2;	atkProcess = 8; }
+		if ( nextAtk == 5 )	{ canMove = 5;	atkProcess = 0; }
+		if ( nextAtk == 6 )	{ canMove = 6;	atkProcess = 0; }
+		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
+			{ nextAtk = 0; atkProcess = 0; canMove = global.sk1; }
+		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
+			{ nextAtk = 0; atkProcess = 0; canMove = global.sk2; }
+		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
+			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
 	}
-	/*
-	else if ( atkProcess < 33 )	{ image_index = 5; }
-	else if ( atkProcess < 42 )	{ image_index = 6; }
-	else if ( atkProcess < 48 )	{ image_index = 7; }
-	else if ( atkProcess < 54 )	{ image_index = 8; }
-	else if ( atkProcess < 60 )	{ image_index = 9; }
 
-	else	{ canMove = 0;	atkProcess = -5; }
-	*/
 }
