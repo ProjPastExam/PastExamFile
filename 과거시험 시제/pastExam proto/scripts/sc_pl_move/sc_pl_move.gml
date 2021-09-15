@@ -82,6 +82,9 @@ function sc_pl_move() {
 	if ( keySk2 && atkProcess == -1 && canMove == 0 ) {
 		if ( global.mp >= skMp[global.sk2] ) { atkProcess = 0; canMove = global.sk2; }
 	}
+	if ( keySk3 && atkProcess == -1 && canMove == 0 ) {
+		if ( global.mp >= skMp[global.sk3] ) { atkProcess = 0; canMove = global.sk3; }
+	}
 	if ( global.mp < 0 ) global.mp = 0;
 	
 	if ( atkProcess > -1 && canMove == 0 ) atkProcess = -1;
@@ -112,6 +115,7 @@ function sc_pl_move() {
 		switch (canMove) {
 		case 100:	sc_pl_sk100(); break;
 		case 101:	sc_pl_sk101(); break;
+		case 102:	sc_pl_sk102(); break;
 		}
 	}
 	
