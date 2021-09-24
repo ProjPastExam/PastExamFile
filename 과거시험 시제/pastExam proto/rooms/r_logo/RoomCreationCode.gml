@@ -23,7 +23,7 @@ global.kickShock	= 20;
 global.kickMana		= 20;
 }
 
-global.sk1		= 100;
-global.sk2		= 101;
-global.sk3		= 102;
+global.sk1		= 103;
+global.sk2		= 102;
+global.sk3		= 101;
 
