@@ -28,7 +28,7 @@ function sc_pl_sk103(){
 	*/
 	if ( atkProcess == 8 || atkProcess == 48 || atkProcess == 88 ) {
 		audio_play_sound(s_swing_c1, 5, false);
-		atk = instance_create_layer(x + dir*50, y-20, "effect", ob_atkEf07);
+		atk = instance_create_layer(x + dir*50, y, "effect", ob_atkEf07);
 		atk.damage = 20;
 		atk.shock = 10;
 		atk.pene = 0;
@@ -37,6 +37,8 @@ function sc_pl_sk103(){
 	}
 	
 	if ( atkProcess == 8 ) { atk.sprite_index = sp_pl_atkEf103_1; }
+	if ( atkProcess == 48 ) { atk.sprite_index = sp_pl_atkEf103_2; }
+	if ( atkProcess == 88 ) { atk.sprite_index = sp_pl_atkEf103_3; }
 	
 	//대쉬 제어
 	if ( (atkProcess > 10 ) ) {
@@ -44,9 +46,7 @@ function sc_pl_sk103(){
 		if ( keyJump ) nextAtk = 9;
 	}
 		
-	if ( (atkProcess > 24 ) ) {
-		sc_pl_atkDnJ();
-	}
+	if ( (atkProcess > 24 ) ) { sc_pl_atkDnJ(); }
 	
 	
 	if ( atkProcess < 4 )		{ image_index = 0; nextAtk = 0; xSpeed = dir * 8; }
