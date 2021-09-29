@@ -28,21 +28,16 @@ function sc_pl_sk103(){
 	*/
 	if ( atkProcess == 8 || atkProcess == 48 || atkProcess == 88 ) {
 		audio_play_sound(s_swing_c1, 5, false);
-	}
-	/*
-	if ( atkProcess == 14 ) {
-		atk = instance_create_layer(x+ dir * -200, y, "effect", ob_atkEf03);
-		atk.damage = 40;
-		atk.shock = 50;
-		atk.pene = 40;
+		atk = instance_create_layer(x + dir*50, y-20, "effect", ob_atkEf07);
+		atk.damage = 20;
+		atk.shock = 10;
+		atk.pene = 0;
 		atk.hitAfter = 15;
-		atk.sprite_index = sp_pl_atkEf102;
 		atk.image_xscale = dir;
-		audio_play_sound(s_bandit02atk2, 5, false);
-		//if (sc_getRoomValue("pause") != NULL) ob_roomControl.pause = 20;
-		//global.mp -= 200;
 	}
-	*/
+	
+	if ( atkProcess == 8 ) { atk.sprite_index = sp_pl_atkEf103_1; }
+	
 	//대쉬 제어
 	if ( (atkProcess > 10 ) ) {
 		if ( keyDash ) nextAtk = 10;

@@ -253,6 +253,48 @@ function sc_mobHit( argument0 ){
 			part_type_orientation( global.hitEf_f01, -30, 30, 0, 0, 0 );
 			part_particles_create( global.hitEf, x, y, global.hitEf_f01, 1 );
 			break;
+			
+		case 6:
+			var mpUp = ob_atkEf07.mpUp;
+			var shock = ob_atkEf07.shock - down;
+			var shVal = sqrt(shock)*3+6;
+			if ( knockback ) { 
+				if ( state == 8 ) { process = 20; ySpeed = -11; }
+				else if ( shock < 10) {}
+				else if (shock < 20) { state = 5; process = shVal; }
+				else if (shock < 30) { state = 6; process = shVal; }
+				else { state = 7; process = shVal; }
+			}
+			process = int64(process);
+			hitAfter = ob_atkEf07.hitAfter;
+			
+			dmg = sc_mobDmg(ob_atkEf07.damage, ob_atkEf07.pene);
+			
+			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
+			dmgId.dmg = dmg;
+			dmgId.colo = 0;
+			global.mp += mpUp;
+			if (global.mp > global.mpMax) global.mp = global.mpMax;
+			xSpeed = 0;
+			
+			if ( ob_atkEf07.image_xscale == -1 )	{
+				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
+				hitDir = -1;
+				//dir = 1;
+			}
+			else			{
+				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
+				hitDir = 1;
+				//dir = -1;
+			}
+			part_type_color3(global.hitEf01T, c_white, c_yellow, c_black);
+			
+			uc_shake(sqrt(shock)+1, 0.15);
+			audio_play_sound(s_hit01, 5, false);
+			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
+			part_type_orientation( global.hitEf_k01, 0, 360, 0, 0, 0 );
+			part_particles_create( global.hitEf, x, y, global.hitEf_k01, 1 );
+			break;
 	}
 	
 }
