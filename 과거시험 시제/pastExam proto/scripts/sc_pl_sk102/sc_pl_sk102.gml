@@ -31,7 +31,7 @@ function sc_pl_sk102(){
 	}
 	
 	if ( atkProcess == 14 ) {
-		atk = instance_create_layer(x+ dir * -200, y, "effect", ob_atkEf03);
+		atk = instance_create_layer(x+ dir * -300, y+20, "effect", ob_atkEf03);
 		atk.damage = 40;
 		atk.shock = 50;
 		atk.pene = 40;
