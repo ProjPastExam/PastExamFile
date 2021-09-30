@@ -12,6 +12,13 @@ function sc_pl_move() {
 	//아이템 버프 시간 설정
 	if (dmgBuffT > -1) dmgBuffT--;
 	
+	if (keyAttack2) {
+		if (isAtk3 < 20) isAtk3++;
+	}
+	else {
+		isAtk3 = 0;
+	}
+	
 	//점프
 	if ( jumpLast > 0 ) jumpLast--;
 
@@ -87,6 +94,12 @@ function sc_pl_move() {
 	}
 	if ( global.mp < 0 ) global.mp = 0;
 	
+	if ( isAtk3 == 20 && canMove == 0) {
+		canMove = 12;
+		isAtk3 = 0;
+		atkProcess = 0;
+	}
+	
 	if ( atkProcess > -1 && canMove == 0 ) atkProcess = -1;
 	if ( atkProcess > -1 && canMove == 1 ) sc_pl_atk();
 	if ( atkProcess > -1 && canMove == 2 ) sc_pl_atk2();
@@ -109,11 +122,13 @@ function sc_pl_move() {
 	
 	if ( atkProcess > -1 && canMove == 11 ) sc_pl_atkJump2();
 	
+	if ( atkProcess > -1 && canMove == 12 ) sc_pl_atk3();
+	
 	//스킬
 	
 	if ( atkProcess > -1 ) {
 		switch (canMove) {
-		case 100:	sc_pl_sk100(); break;
+		//case 100:	sc_pl_sk100(); break;
 		case 101:	sc_pl_sk101(); break;
 		case 102:	sc_pl_sk102(); break;
 		case 103:	sc_pl_sk103(); break;

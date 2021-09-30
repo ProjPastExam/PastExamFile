@@ -40,6 +40,8 @@ function sc_pl_Spawn() {
 	
 	isDash = true;
 	
+	isAtk3	= 0;
+	
 	//공격력 변수
 	{
 	atkDmgScale	= 1.0;

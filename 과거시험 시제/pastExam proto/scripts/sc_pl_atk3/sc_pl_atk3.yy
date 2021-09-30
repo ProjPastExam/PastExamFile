@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "skillScript",
-    "path": "folders/Scripts/player Script/skillScript.yy",
+    "name": "atkScript",
+    "path": "folders/Scripts/player Script/atkScript.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sc_pl_sk100",
+  "name": "sc_pl_atk3",
   "tags": [],
   "resourceType": "GMScript",
 }

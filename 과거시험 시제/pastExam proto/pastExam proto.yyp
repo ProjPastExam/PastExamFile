@@ -157,7 +157,7 @@
     {"id":{"name":"t_stage2","path":"tilesets/t_stage2/t_stage2.yy",},"order":3,},
     {"id":{"name":"sp_jpSword_stand2","path":"sprites/sp_jpSword_stand2/sp_jpSword_stand2.yy",},"order":0,},
     {"id":{"name":"sp_pl_atkBack","path":"sprites/sp_pl_atkBack/sp_pl_atkBack.yy",},"order":2,},
-    {"id":{"name":"sc_pl_sk100","path":"scripts/sc_pl_sk100/sc_pl_sk100.yy",},"order":0,},
+    {"id":{"name":"sc_pl_atk3","path":"scripts/sc_pl_atk3/sc_pl_atk3.yy",},"order":12,},
     {"id":{"name":"sp_bobu1_face","path":"sprites/sp_bobu1_face/sp_bobu1_face.yy",},"order":4,},
     {"id":{"name":"sp_demoInfoD","path":"sprites/sp_demoInfoD/sp_demoInfoD.yy",},"order":9,},
     {"id":{"name":"sp_npc_blank","path":"sprites/sp_npc_blank/sp_npc_blank.yy",},"order":2,},

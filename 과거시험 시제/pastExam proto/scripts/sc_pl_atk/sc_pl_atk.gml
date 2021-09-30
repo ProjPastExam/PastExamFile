@@ -33,7 +33,13 @@ function sc_pl_atk(){
 		
 		audio_play_sound(s_arrow01, 5, false);
 	}
-	
+	/*
+	if ( atkProcess == 20 && isAtk3 == 20 ) {
+		canMove = 12;
+		isAtk3 = 0;
+		atkProcess = 0;
+	}
+	*/
 	//대쉬 제어
 	//if ( (atkProcess > 16 && atkProcess < 36) || (atkProcess > 0 && atkProcess < 16) ) {
 		if ( keyDash ) nextAtk = 10;
