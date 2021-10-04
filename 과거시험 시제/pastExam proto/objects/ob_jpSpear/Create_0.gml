@@ -11,6 +11,7 @@ hitDir : 스크립트로 조정
 delay : 순찰, 공격간 딜레이 조정
 */
 sc_obPValue();
+sc_mobSpawn();
 alarm[0] = 1;
 alarm[5] = 5;
 ob = NULL;

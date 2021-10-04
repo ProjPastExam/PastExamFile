@@ -10,7 +10,7 @@ function sc_jpSpearAtk(){
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
 	if ( state == 12 ) { down = 10; }
-	else { down = 2; if (object_exists(ob)) instance_destroy(ob); }
+	else { down = 2; if (ob != NULL) { instance_destroy(ob); ob = NULL; } }
 	
 	
 	
@@ -57,7 +57,7 @@ function sc_jpSpearAtk(){
 			ob = instance_create_layer(x, y, "effect", ob_jpSpearAtk);
 			ob.image_xscale = dir;
 		}
-		if (process > 40 && process < 65 && instance_exists(ob)) {
+		if (process > 50 && process < 65 && instance_exists(ob)) {
 			ob.x = x;
 			ob.y = y;
 		}
