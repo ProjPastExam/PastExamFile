@@ -66,9 +66,9 @@ function sc_pl_Spawn() {
 	
 	skMp[0]		= 0;	//null	
 	skMp[100]	= 200;	//편전
-	skMp[101]	= 200;	//총
-	skMp[102]	= 0;
-	skMp[103]	= 0;
+	skMp[101]	= 300;	//총
+	skMp[102]	= 200;
+	skMp[103]	= 100;
 	
 	}
 }

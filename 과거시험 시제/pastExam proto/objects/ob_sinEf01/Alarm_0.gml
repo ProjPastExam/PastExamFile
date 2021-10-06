@@ -23,7 +23,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 
 		if (instance_exists(ob_player)) {
 			dmg = 45 + (5 * ob_player.isSin);
-			sck = 20 + (3 * ob_player.isSin);
+			sck = 150 + (30 * ob_player.isSin);
 		}
 
 		ex.sprite_index = sp_hitEffect_sin;

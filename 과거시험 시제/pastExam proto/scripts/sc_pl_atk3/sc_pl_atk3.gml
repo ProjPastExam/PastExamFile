@@ -25,8 +25,9 @@ function sc_pl_atk3(){
 	if ( atkProcess == 42 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
 		atk.damage = 4 * sc_pl_atkDmg();
-		atk.shock = 2 * sc_pl_atkShock();
+		atk.shock = sc_pl_atkShock()+75;
 		atk.pene = 60 + sc_pl_atkPene();
+		atk.mpUp = sc_pl_atkMana();
 		atk.hitAfter = 15;
 		atk.sprite_index = sp_pl_atkEf100;
 		atk.image_xscale = dir;

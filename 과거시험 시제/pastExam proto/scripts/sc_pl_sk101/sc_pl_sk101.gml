@@ -23,8 +23,8 @@ function sc_pl_sk101(){
 	
 	if ( atkProcess == 18 ) {
 		atk = instance_create_layer(x+ dir * 80, y-30, "effect", ob_atkEf06);
-		atk.damage = 40;
-		atk.shock = 30;
+		atk.damage = 50;
+		atk.shock = 300;
 		atk.pene = 0;
 		atk.hitAfter = 5;
 		atk.sprite_index = sp_pl_atkEf101;
@@ -34,7 +34,7 @@ function sc_pl_sk101(){
 		part_type_scale(global.gunEf, dir, 1);
 		part_particles_create( global.hitEf, x, y, global.gunEf, 1 );
 		//if (sc_getRoomValue("pause") != NULL) ob_roomControl.pause = 20;
-		global.mp -= 200;
+		global.mp -= skMp[101];
 	}
 	
 	//대쉬 제어

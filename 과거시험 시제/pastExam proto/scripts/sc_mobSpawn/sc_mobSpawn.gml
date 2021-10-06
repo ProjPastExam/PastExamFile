@@ -7,4 +7,8 @@ function sc_mobSpawn(){
 	delay		= 0;
 	ad			= false;
 	process		= 0;
+	
+	isDA		= false;
+	isDK		= false;
+	isDF		= false;
 }

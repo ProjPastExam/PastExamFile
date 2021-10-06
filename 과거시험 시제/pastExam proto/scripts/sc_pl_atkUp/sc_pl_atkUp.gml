@@ -14,12 +14,12 @@ function sc_pl_atkUp(){
 	if ( atkProcess == 6 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf04);
 		atk.damage = 2 * sc_pl_kickDmg();
-		atk.shock = 20;
-		atk.pene = 0;
+		atk.shock = sc_pl_kickShock();
+		atk.pene = sc_pl_kickPene();
 		atk.hitAfter = 10;
 		atk.sprite_index = sp_pl_atkEf04;
 		atk.image_xscale = dir;
-		atk.mpUp = 30;
+		atk.mpUp = sc_pl_kickMana();
 		audio_play_sound(s_kick01, 5, false);
 	}
 	
@@ -28,7 +28,7 @@ function sc_pl_atkUp(){
 		atk.damage = 2.5 * sc_pl_atkDmg();
 		atk.shock = sc_pl_atkShock()*2;
 		atk.pene = sc_pl_atkPene();
-		atk.hitAfter = 12;
+		atk.hitAfter = sc_pl_atkMana();
 		atk.sprite_index = sp_pl_atkEf02;
 		atk.mpUp = 12;
 		if ( dir == 1 )		atk.image_angle = 35;

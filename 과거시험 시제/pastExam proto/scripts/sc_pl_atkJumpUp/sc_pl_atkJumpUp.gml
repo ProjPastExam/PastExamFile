@@ -14,12 +14,12 @@ function sc_pl_atkJumpUp(){
 	if ( atkProcess == 8 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf04);
 		atk.damage = 2 * sc_pl_kickDmg();
-		atk.shock = 20;
-		atk.pene = 0;
+		atk.shock = sc_pl_kickShock();
+		atk.pene = sc_pl_kickPene();
 		atk.hitAfter = 10;
 		atk.sprite_index = sp_pl_atkEf04;
 		atk.image_xscale = dir;
-		atk.mpUp = 30;
+		atk.mpUp = sc_pl_kickMana();
 		audio_play_sound(s_kick01, 5, false);
 	}
 	

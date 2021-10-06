@@ -32,13 +32,14 @@ function sc_pl_sk102(){
 	
 	if ( atkProcess == 14 ) {
 		atk = instance_create_layer(x+ dir * -300, y+20, "effect", ob_atkEf03);
-		atk.damage = 40;
-		atk.shock = 50;
-		atk.pene = 40;
+		atk.damage = sc_pl_kickDmg()*8;
+		atk.shock = sc_pl_kickShock()+100;
+		atk.pene = sc_pl_kickPene()+40;
 		atk.hitAfter = 15;
 		atk.sprite_index = sp_pl_atkEf102;
 		atk.image_xscale = dir;
 		audio_play_sound(s_bandit02atk2, 5, false);
+		global.mp -= skMp[102];
 		//if (sc_getRoomValue("pause") != NULL) ob_roomControl.pause = 20;
 		//global.mp -= 200;
 	}

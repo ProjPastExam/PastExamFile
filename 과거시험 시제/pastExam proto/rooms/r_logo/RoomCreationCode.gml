@@ -14,13 +14,18 @@ global.mp		= 0;
 {
 global.atkDmg		= 16;	//공격력
 global.atkPene		= 0;	//관통력
-global.atkShock		= 10;	//충격력
-global.atkMana		= 10;	//마나회복
+global.atkShock		= 150;	//충격력
+global.atkMana		= 20;	//마나회복
 
 global.kickDmg		= 5;
 global.kickPene		= 0;
-global.kickShock	= 20;
-global.kickMana		= 20;
+global.kickShock	= 210;
+global.kickMana		= 50;
+
+global.fireDmg		= 10;
+global.firePene		= 0;
+global.fireShock	= 300;
+global.fireMana		= 0;
 }
 
 global.sk1		= 103;
