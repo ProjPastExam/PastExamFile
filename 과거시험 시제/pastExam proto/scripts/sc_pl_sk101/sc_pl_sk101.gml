@@ -24,7 +24,7 @@ function sc_pl_sk101(){
 	if ( atkProcess == 18 ) {
 		atk = instance_create_layer(x+ dir * 80, y-30, "effect", ob_atkEf06);
 		atk.damage = 50;
-		atk.shock = 300;
+		atk.shock = 200;
 		atk.pene = 0;
 		atk.hitAfter = 5;
 		atk.sprite_index = sp_pl_atkEf101;

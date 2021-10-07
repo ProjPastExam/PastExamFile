@@ -29,11 +29,11 @@ function sc_bandit03Atk(){
 			process = 0;
 			state = 13;
 		}
-		else if ( plX > x + 550 ) {
+		else if ( plX > x + 450 ) {
 			dir = 1;
 			xSpeed = 6;
 		}
-		else if ( plX < x - 550 ) {
+		else if ( plX < x - 450 ) {
 			dir = -1;
 			xSpeed = -6;
 		}
@@ -62,11 +62,11 @@ function sc_bandit03Atk(){
 		
 		
 		if ( process < 30 ) { image_index = 0; }
-		else if ( process < 40 ) { image_index = 1; xSpeed = dir*12; }
-		else if ( process < 46 ) { image_index = 1; xSpeed = dir*18; }
-		else if ( process < 50 ) { image_index = 2; xSpeed = dir*24; }
-		else if ( process < 56 ) { image_index = 3; }
-		else if ( process < 68 ) { image_index = 4; }
+		else if ( process < 40 ) { image_index = 1; xSpeed = dir*10; }
+		else if ( process < 46 ) { image_index = 1; xSpeed = dir*15; }
+		else if ( process < 50 ) { image_index = 2; xSpeed = dir*20; }
+		else if ( process < 54 ) { image_index = 3; }
+		else if ( process < 60 ) { image_index = 4; }
 		else { state = 14;	process = 0; }
 	}
 	
@@ -95,10 +95,10 @@ function sc_bandit03Atk(){
 		}
 		
 		
-		if ( process < 10 ) { image_index = 5; xSpeed = dir*12;}
-		else if ( process < 16 ) { image_index = 5; xSpeed = dir*18; }
-		else if ( process < 20 ) { image_index = 6; xSpeed = dir*24; }
-		else if ( process < 26 ) { image_index = 7; }
+		if ( process < 10 ) { image_index = 5; xSpeed = dir*10;}
+		else if ( process < 16 ) { image_index = 5; xSpeed = dir*15; }
+		else if ( process < 20 ) { image_index = 6; xSpeed = dir*20; }
+		else if ( process < 24 ) { image_index = 7; }
 		else if ( process < 38 ) { image_index = 8; }
 		else { state = 10;	process = 0;	delay = random_range(120, 180); }
 	}

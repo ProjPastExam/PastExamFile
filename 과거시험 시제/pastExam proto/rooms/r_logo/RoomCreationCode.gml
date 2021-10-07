@@ -24,7 +24,7 @@ global.kickMana		= 50;
 
 global.fireDmg		= 10;
 global.firePene		= 0;
-global.fireShock	= 300;
+global.fireShock	= 200;
 global.fireMana		= 0;
 }
 

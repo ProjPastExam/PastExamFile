@@ -42,7 +42,7 @@ function sc_pl_atkJump2(){
 		else {
 			atk = instance_create_layer(x, y, "effect", ob_atkEf01);
 			atk.damage = 2.5 * sc_pl_atkDmg();
-			atk.shock = 1.5 * sc_pl_atkShock();
+			atk.shock = sc_pl_atkShock()+40;
 			atk.pene = sc_pl_atkPene();
 			atk.hitAfter = 12;
 			atk.sprite_index = sp_pl_atkEf02;
