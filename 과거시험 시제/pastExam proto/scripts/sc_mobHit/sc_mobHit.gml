@@ -127,7 +127,7 @@ function sc_mobHit( argument0 ){
 			var shVal = (shock - down)/10;
 			if ( knockback ) { 
 				if ( state == 8 ) { ySpeed = -12; process = 18; }
-				else if (!isDK) {state = 7; ySpeed = -18; process = 18;}
+				else if (!isDK) {state = 7; ySpeed = -16; process = 18;}
 			}
 			process = int64(process);
 			hitAfter = ob_atkEf04.hitAfter;
