@@ -11,4 +11,6 @@ function sc_mobSpawn(){
 	isDA		= false;
 	isDK		= false;
 	isDF		= false;
+	
+	bsPt		= 0;
 }

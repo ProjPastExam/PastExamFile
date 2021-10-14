@@ -50,26 +50,26 @@ function sc_pl_sk103(){
 	
 	
 	if ( atkProcess < 4 )		{ image_index = 0; nextAtk = 0; xSpeed = dir * 8; ySpeed = 0; }
-	else if ( atkProcess < 8 )	{ image_index = 1; xSpeed = dir * 16; }
-	else if ( atkProcess < 12 )	{ image_index = 2; xSpeed = dir * 8; }
-	else if ( atkProcess < 16 )	{ image_index = 3; xSpeed = dir * 4; }
+	else if ( atkProcess < 8 )	{ image_index = 1; xSpeed = dir * 12; }
+	else if ( atkProcess < 12 )	{ image_index = 2; xSpeed = dir * 6; }
+	else if ( atkProcess < 16 )	{ image_index = 3; xSpeed = dir * 2; }
 	else if ( atkProcess < 30 )	{ image_index = 3; sc_pl_sk103_com();}
 	else if ( atkProcess < 39 ) { canMove = 0;	atkProcess = -5; }
 	
 	if ( atkProcess < 40 )		{ }
-	else if ( atkProcess < 44 )	{ image_index = 4; xSpeed = dir * 8; ySpeed = 0; }
-	else if ( atkProcess < 48 )	{ image_index = 5; xSpeed = dir * 16; }
-	else if ( atkProcess < 52 )	{ image_index = 6; xSpeed = dir * 8; }
-	else if ( atkProcess < 56 )	{ image_index = 7; xSpeed = dir * 4; }
+	else if ( atkProcess < 44 )	{ image_index = 4; xSpeed = dir * 6; ySpeed = 0; }
+	else if ( atkProcess < 48 )	{ image_index = 5; xSpeed = dir * 12; }
+	else if ( atkProcess < 52 )	{ image_index = 6; xSpeed = dir * 6; }
+	else if ( atkProcess < 56 )	{ image_index = 7; xSpeed = dir * 2; }
 	else if ( atkProcess < 70 ) { image_index = 7; sc_pl_sk103_com();}
 	else if ( atkProcess < 79 ) { canMove = 0;	atkProcess = -5; }
 	
 	
 	if ( atkProcess < 80 )		{ }
-	else if ( atkProcess < 84 )	{ image_index = 8; xSpeed = dir * 8; ySpeed = 0; }
-	else if ( atkProcess < 88 )	{ image_index = 9; xSpeed = dir * 16; }
-	else if ( atkProcess < 92 )	{ image_index = 10; xSpeed = dir * 8; }
-	else if ( atkProcess < 96 )	{ image_index = 11; xSpeed = dir * 4; }
+	else if ( atkProcess < 84 )	{ image_index = 8; xSpeed = dir * 6; ySpeed = 0; }
+	else if ( atkProcess < 88 )	{ image_index = 9; xSpeed = dir * 12; }
+	else if ( atkProcess < 92 )	{ image_index = 10; xSpeed = dir * 6; }
+	else if ( atkProcess < 96 )	{ image_index = 11; xSpeed = dir * 2; }
 	else if ( atkProcess < 110 ){ image_index = 11; sc_pl_sk103_com();}
 	else						{ canMove = 0;	atkProcess = -5; }
 }
