@@ -19,7 +19,7 @@ function sc_pl_dash(){
 		part_particles_create( global.hitEf2, x, y, global.dashEf, 1 );
 	}
 		
-	if ( (dProcess > 14 && dProcess < 17) ) {
+	if ( (dProcess > 10 ) ) {
 		if ( nextAtk == 9 && !isJump ) {
 			canMove = 0;
 			dProcess = -30;
@@ -39,7 +39,7 @@ function sc_pl_dash(){
 	image_xscale = dir;
 	xSpeed = 27*dir*(20-dProcess)/14;
 	ySpeed = 0;
-	if ( dProcess > 16 ) { 
+	if ( dProcess > 10 ) { 
 		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; dProcess = -10; isDash = false; }
 		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; dProcess = -10; isDash = false; }
 		else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; dProcess = -10; isDash = false; }
@@ -49,6 +49,6 @@ function sc_pl_dash(){
 			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk2; isDash = false; }
 		else if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
 			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk3; isDash = false; }
-		else { canMove = 0; dProcess = -30; isDash = false; }
 	}
+	if ( dProcess > 18 ) { canMove = 0; dProcess = -30; isDash = false; }
 }

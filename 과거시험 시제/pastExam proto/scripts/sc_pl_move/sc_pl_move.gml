@@ -65,8 +65,11 @@ function sc_pl_move() {
 	//입력 없을시 정지
 	if ( !keyLeft && !keyRight && ( canMove == 0 ) ) {
 		if ( !isJump && canMove == 0 ) { sc_pl_sprite(0);	spIndex = false; }
+		if ( xSpeed > 15 )				xSpeed = 15;
+		else if ( xSpeed < -15 )		xSpeed = -15;
 		if ( xSpeed > accSpeed )		xSpeed -= accSpeed;
 		else if ( xSpeed < -accSpeed )	xSpeed += accSpeed;
+		//if (xSpeed > 1 && xSpeed < -1)	xSpeed = xSpeed / 1.1;
 		else							xSpeed = 0;
 	}
 	
