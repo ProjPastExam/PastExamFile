@@ -1,3 +1,3 @@
 nextRoom = demo_stage04;
 audio_stop_all();
-//audio_play_sound(s_village, 1, true);
+audio_play_sound(s_village, 1, true);
