@@ -178,6 +178,7 @@
     {"id":{"name":"ob_nxtR","path":"objects/ob_nxtR/ob_nxtR.yy",},"order":6,},
     {"id":{"name":"uc_get_x","path":"scripts/uc_get_x/uc_get_x.yy",},"order":2,},
     {"id":{"name":"sp_demoMain","path":"sprites/sp_demoMain/sp_demoMain.yy",},"order":5,},
+    {"id":{"name":"sp_banditBoss_atk3","path":"sprites/sp_banditBoss_atk3/sp_banditBoss_atk3.yy",},"order":8,},
     {"id":{"name":"uc_set_mouse_drag_button","path":"scripts/uc_set_mouse_drag_button/uc_set_mouse_drag_button.yy",},"order":3,},
     {"id":{"name":"sp_jpSpear_run","path":"sprites/sp_jpSpear_run/sp_jpSpear_run.yy",},"order":2,},
     {"id":{"name":"ob_demoEndb","path":"objects/ob_demoEndb/ob_demoEndb.yy",},"order":10,},

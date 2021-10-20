@@ -27,7 +27,7 @@ function sc_jpMbAtk(){
 		if ( delay == 0 ) {
 			var ran = random_range(0, 10);
 			if (bsPt == 0) {
-				if (ran < 3) { state = 11; bsPt = 0; }
+				if (ran < 2) { state = 11; bsPt = 0; }
 				else if (ran < 7) { state = 15; bsPt = 1; }
 				else { state = 17; bsPt = 2; }
 			}
