@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_dash(){
-	if ( dProcess > 0 && dProcess < 17 ) {
+	if ( dProcess > 0 ) {
 		if ( keyJump ) nextAtk = 9;
 		if (keyAttack) {
 			if ( keyDown )													nextAtk = 5;
@@ -50,5 +50,5 @@ function sc_pl_dash(){
 		else if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
 			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk3; isDash = false; }
 	}
-	if ( dProcess > 18 ) { canMove = 0; dProcess = -30; isDash = false; }
+	if ( dProcess > 17 ) { canMove = 0; dProcess = -30; isDash = false; }
 }

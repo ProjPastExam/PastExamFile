@@ -54,12 +54,12 @@ function sc_bandit02Atk(){
 		
 		if ( process == 35 ) { 
 			audio_play_sound(s_bandit02atk2, 8, false);
-			var axe = instance_create_layer(x, y, "effect", ob_mobBandit02Atk);
+			var axe = instance_create_layer(x-(10*dir), y, "effect", ob_mobBandit02Atk);
 			if ( x > plX ) axe.dir = -1; else axe.dir = 1;
-			var xs = (plX-x)/60;
+			var xs = (plX-x)/80;
 			if (xs*dir > 0) axe.xSpeed = xs;
 			else axe.xSpeed = 5 * dir;
-			axe.ySpeed = abs(xs) - 26 + (plY - y)/80;
+			axe.ySpeed = abs(xs) - 30 + (plY - y)/80;
 		}
 		
 		
