@@ -20,8 +20,5 @@ function sc_banditBossSprite(){
 		sprite_index = sp_banditBoss_stand2;
 		break;
 	
-	case 11:
-		sprite_index = sp_banditBoss_run;
-		break;
 	}
 }
