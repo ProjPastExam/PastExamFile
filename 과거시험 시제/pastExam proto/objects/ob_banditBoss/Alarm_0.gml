@@ -19,7 +19,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	}
 	else {
 		sprite_index = sp_banditBoss_die;
-		if ( process < 24 ) process++;
+		if ( process < 40 ) process++;
 		if ( process == 1 ) { 
 			var han = irandom_range(0, 2);
 			if (han == 0) audio_play_sound(s_jpBdie1, 8, false);
@@ -28,9 +28,11 @@ if ( sc_getRoomValue("pause") == 0 ) {
 			alarm[4] = 120;
 		}
 		if ( process < 8 ) { image_index = 0; xSpeed = -1 * dir * 15; }
-		else if ( process < 16 ) { image_index = 1; xSpeed = -1 * dir * 10; }
-		else if ( process < 24 ) { image_index = 2; xSpeed = -1 * dir * 5; }
-		else if (!isJump) { image_index = 3; xSpeed = 0;   }
+		else if ( process < 16 ) { image_index = 1; xSpeed = -1 * dir * 13; }
+		else if ( process < 24 ) { image_index = 2; xSpeed = -1 * dir * 11; }
+		else if ( process < 32 ) { image_index = 3; xSpeed = -1 * dir * 9; }
+		else if ( process < 40 ) { image_index = 4; xSpeed = -1 * dir * 7; }
+		else if (!isJump) { image_index = 5; xSpeed = 0;   }
 	}
 	sc_obPhysics();
 }

@@ -17,6 +17,8 @@ function sc_pl_Spawn() {
 	
 	//기본 변수
 	
+	mobAcc	= 0;
+	
 	jumpLast = 0;
 	
 	//0 : 평시  1 : 기본공격

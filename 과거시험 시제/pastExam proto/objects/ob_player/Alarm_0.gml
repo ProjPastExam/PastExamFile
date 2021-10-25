@@ -9,6 +9,10 @@ else {
 
 if ( sc_getRoomValue("pause") == 0 ) {
 	if (itemCheck) { sc_pl_itemCheck(); itemCheck = false; }
+	if (mobAcc != 0) {	//몹 충돌
+		xSpeed = mobAcc;
+		mobAcc = 0;
+	}
 	sc_obPhysics();
 	sc_pl_keyCheck();
 	sc_pl_move();
