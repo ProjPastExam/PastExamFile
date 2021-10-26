@@ -124,8 +124,8 @@ function sc_banditBossAtk(){
 		if ( process < 4 ) { image_index = 0; }
 		else if ( process < 16 ) { image_index = 1; xSpeed = dir*18*-1; }
 		else if ( process < 28 ) { image_index = 2; xSpeed = dir*12*-1; }
-		else if ( process < 31 ) { image_index = 3; }
-		else if ( process < 34 ) { image_index = 4; }
+		else if ( process < 32 ) { image_index = 3; }
+		else if ( process < 36 ) { image_index = 4; }
 		else { state = 12;	process = 0;	delay = 0; }
 	}
 	
@@ -144,7 +144,7 @@ function sc_banditBossAtk(){
 		}
 		
 		
-		if ( process < 60 ) { image_index = 0; isDK = false; isDF = false; }
+		if ( process < 50 ) { image_index = 0; }
 		else if ( process < 90 ) { 
 			xSpeed = dir * 24;
 			if (process % 6 == 0) {
@@ -244,8 +244,8 @@ function sc_banditBossAtk(){
 		if ( process < 4 ) { image_index = 0; }
 		else if ( process < 14 ) { image_index = 1; xSpeed = dir*18*-1; }
 		else if ( process < 22 ) { image_index = 2; xSpeed = dir*12*-1; }
-		else if ( process < 25 ) { image_index = 3; }
-		else if ( process < 28 ) { image_index = 4; }
+		else if ( process < 26 ) { image_index = 3; }
+		else if ( process < 30 ) { image_index = 4; }
 		else { state = 16;	process = 0;	delay = 0; }
 	}
 	
@@ -282,37 +282,37 @@ function sc_banditBossAtk(){
 		
 		if ( process == 1 ) { audio_play_sound(s_jp_dAtk, 8, false); }
 		
-		if ( process == 55 || process == 85 || process == 115 || process == 145) { 
+		if ( process == 65 || process == 95 || process == 125 || process == 155) { 
 			audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
-			if (process == 55) ob.sprite_index = sp_banditBoss_atk4Ef1;
-			else if (process == 85) ob.sprite_index = sp_banditBoss_atk4Ef2;
-			else if (process == 115) ob.sprite_index = sp_banditBoss_atk4Ef3;
-			else if (process == 145) ob.sprite_index = sp_banditBoss_atk4Ef4;
+			if (process == 65) ob.sprite_index = sp_banditBoss_atk4Ef1;
+			else if (process == 95) ob.sprite_index = sp_banditBoss_atk4Ef2;
+			else if (process == 125) ob.sprite_index = sp_banditBoss_atk4Ef3;
+			else if (process == 155) ob.sprite_index = sp_banditBoss_atk4Ef4;
 		}
 		
 		
-		if ( process < 40 ) { image_index = 0; }
-		else if ( process < 50 ) { image_index = 0; xSpeed = dir*6; }
-		else if ( process < 55 ) { image_index = 1; xSpeed = dir*12; }
-		else if ( process < 60 ) { image_index = 2; xSpeed = dir*6 }
-		else if ( process < 70 ) { image_index = 3; }
+		if ( process < 50 ) { image_index = 0; }
+		else if ( process < 60 ) { image_index = 0; xSpeed = dir*6; }
+		else if ( process < 65 ) { image_index = 1; xSpeed = dir*12; }
+		else if ( process < 70 ) { image_index = 2; xSpeed = dir*6 }
+		else if ( process < 80 ) { image_index = 3; }
 		
-		else if ( process < 80 ) { image_index = 4; xSpeed = dir*6; }
-		else if ( process < 85 ) { image_index = 5; xSpeed = dir*12; }
-		else if ( process < 90) { image_index = 6; xSpeed = dir*6; }
-		else if ( process < 100 ) { image_index = 7; }
+		else if ( process < 90 ) { image_index = 4; xSpeed = dir*6; }
+		else if ( process < 95 ) { image_index = 5; xSpeed = dir*12; }
+		else if ( process < 100) { image_index = 6; xSpeed = dir*6; }
+		else if ( process < 110 ) { image_index = 7; }
 		
-		else if ( process < 110 ) { image_index = 8; xSpeed = dir*6; }
-		else if ( process < 115) { image_index = 9; xSpeed = dir*12; }
-		else if ( process < 120 ) { image_index = 10; xSpeed = dir*6; }
-		else if ( process < 130 ) { image_index = 11; }
+		else if ( process < 120 ) { image_index = 8; xSpeed = dir*6; }
+		else if ( process < 125) { image_index = 9; xSpeed = dir*12; }
+		else if ( process < 130 ) { image_index = 10; xSpeed = dir*6; }
+		else if ( process < 140 ) { image_index = 11; }
 		
-		else if ( process < 140 ) { image_index = 12; xSpeed = dir*6; }
-		else if ( process < 145 ) { image_index = 13; xSpeed = dir*12; }
-		else if ( process < 150 ) { image_index = 14; xSpeed = dir*6; }
-		else if ( process < 165 ) { image_index = 15; }
+		else if ( process < 150 ) { image_index = 12; xSpeed = dir*6; }
+		else if ( process < 155 ) { image_index = 13; xSpeed = dir*12; }
+		else if ( process < 160 ) { image_index = 14; xSpeed = dir*6; }
+		else if ( process < 175 ) { image_index = 15; }
 		else { state = 10;	process = 0; delay = random_range(50, 80); }
 	}
 	
@@ -325,8 +325,8 @@ function sc_banditBossAtk(){
 		if ( process < 4 ) { image_index = 0; }
 		else if ( process < 10 ) { image_index = 1; xSpeed = dir*18*-1; }
 		else if ( process < 16 ) { image_index = 2; xSpeed = dir*12*-1; }
-		else if ( process < 20 ) { image_index = 3; }
-		else if ( process < 23 ) { image_index = 4; }
+		else if ( process < 21 ) { image_index = 3; }
+		else if ( process < 25 ) { image_index = 4; }
 		else { state = 19;	process = 0;	delay = 0; }
 	}
 }

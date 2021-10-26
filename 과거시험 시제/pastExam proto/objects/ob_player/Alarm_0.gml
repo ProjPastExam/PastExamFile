@@ -14,6 +14,8 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		mobAcc = 0;
 	}
 	sc_obPhysics();
+	if (xSpeed > 15)		xSpeed = 15;
+	else if (xSpeed < -15)	xSpeed = -15;
 	sc_pl_keyCheck();
 	sc_pl_move();
 	sc_pl_camera();
