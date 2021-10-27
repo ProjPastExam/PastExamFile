@@ -12,7 +12,7 @@ function sc_banditBossAtk(){
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
 	
-	if (isJump) ySpeed += 0.3;
+	if (isJump) ySpeed += 0.5;
 	
 	isDA = true;	isDK = false;	isDF = false;
 	
@@ -27,7 +27,7 @@ function sc_banditBossAtk(){
 			// 11 14 15 18
 			var ran = random_range(0, 10);
 			if (bsPt == 0) {
-				if (ran < 5) { state = 12; bsPt = 1; }
+				if (ran < 5) { state = 11; bsPt = 1; }
 				else { state = 14; bsPt = 2; }
 			}
 			else if (bsPt == 1) {
@@ -122,10 +122,10 @@ function sc_banditBossAtk(){
 		isDK = true;	isDF = true;
 		
 		if ( process < 4 ) { image_index = 0; }
-		else if ( process < 16 ) { image_index = 1; xSpeed = dir*18*-1; }
-		else if ( process < 28 ) { image_index = 2; xSpeed = dir*12*-1; }
-		else if ( process < 32 ) { image_index = 3; }
-		else if ( process < 36 ) { image_index = 4; }
+		else if ( process < 18 ) { image_index = 1; xSpeed = dir*24*-1; }
+		else if ( process < 24 ) { image_index = 2; xSpeed = dir*15*-1; }
+		else if ( process < 27 ) { image_index = 3; }
+		else if ( process < 30 ) { image_index = 4; }
 		else { state = 12;	process = 0;	delay = 0; }
 	}
 	

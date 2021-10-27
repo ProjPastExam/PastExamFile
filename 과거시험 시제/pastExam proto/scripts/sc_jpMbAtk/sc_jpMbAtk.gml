@@ -12,9 +12,9 @@ function sc_jpMbAtk(){
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
 	
-	if (isJump) ySpeed += 0.3;
+	if (isJump) ySpeed += 0.5;
 	
-	isDA = true;	isDK = true;	isDF = true;
+	isDA = true;	isDK = false;	isDF = false;
 	
 	//if ( state == 12 || state == 14 ) { isDA = true; isDK = true; }
 	//else { isDA = false; isDK = false; }
@@ -73,8 +73,10 @@ function sc_jpMbAtk(){
 		sprite_index = sp_jpMb_atk1_1;
 		xSpeed = 0;
 		
+		isDK = true;	isDF = true;
+		
 		if ( process == 1 ) { audio_play_sound(s_jp_eAtk, 8, false); }
-		if ( process == 37 ) { 
+		if ( process == 52 ) { 
 			audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
@@ -82,18 +84,20 @@ function sc_jpMbAtk(){
 		}
 		
 		
-		if ( process < 25 ) { image_index = 0; }
-		else if ( process < 29 ) { image_index = 1; xSpeed = dir*15; }
-		else if ( process < 33 ) { image_index = 1; xSpeed = dir*20; }
-		else if ( process < 37 ) { image_index = 1; xSpeed = dir*24; }
-		else if ( process < 42 ) { image_index = 2; }
-		else if ( process < 50 ) { image_index = 3; }
+		if ( process < 40 ) { image_index = 0; }
+		else if ( process < 44 ) { image_index = 1; xSpeed = dir*15; }
+		else if ( process < 48 ) { image_index = 1; xSpeed = dir*20; }
+		else if ( process < 52 ) { image_index = 1; xSpeed = dir*24; }
+		else if ( process < 57 ) { image_index = 2; }
+		else if ( process < 65 ) { image_index = 3; }
 		else { state = 14;	process = 0; }
 	}
 	
 	else if ( state == 13 ) {
 		process++;
 		sprite_index = sp_jpMb_backStep;
+		
+		isDK = true;	isDF = true;
 		
 		if ( process < 4 ) { image_index = 0; }
 		else if ( process < 10 ) { image_index = 1; xSpeed = dir*16*-1; }
@@ -107,6 +111,8 @@ function sc_jpMbAtk(){
 		process++;
 		sprite_index = sp_jpMb_atk1_2;
 		xSpeed = 0;
+		
+		isDK = true;	isDF = true;
 		
 		if ( process == 10 ) { 
 			audio_play_sound(s_swing_a1, 8, false);
@@ -148,16 +154,18 @@ function sc_jpMbAtk(){
 		sprite_index = sp_jpMb_atk2;
 		xSpeed = 0;
 		
+		isDK = true;
+		
 		if ( process == 1 ) { audio_play_sound(s_jp_dAtk, 8, false); }
 		
-		if ( process == 55 ) { 
+		if ( process == 65 ) { 
 			audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_jpMb_atk2_1Ef;
 		}
 		
-		if ( process == 90 ) { 
+		if ( process == 100 ) { 
 			audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
@@ -165,15 +173,15 @@ function sc_jpMbAtk(){
 		}
 		
 		
-		if ( process < 40 ) { image_index = 0; isDF = false; }
-		else if ( process < 55 ) { image_index = 1; xSpeed = dir * 16; isDF = false;}
-		else if ( process < 60 ) { image_index = 2; xSpeed = dir * 12;}
-		else if ( process < 65 ) { image_index = 3; xSpeed = dir * 6;}
-		else if ( process < 75 ) { image_index = 4; xSpeed = dir * 12;}
-		else if ( process < 85 ) { image_index = 5; xSpeed = dir * 16;}
-		else if ( process < 90 ) { image_index = 6; xSpeed = dir * 12;}
-		else if ( process < 95 ) { image_index = 7; xSpeed = dir * 6;}
-		else if ( process < 115 ) { image_index = 8; }
+		if ( process < 50 ) { image_index = 0; }
+		else if ( process < 65 ) { image_index = 1; xSpeed = dir * 16; }
+		else if ( process < 70 ) { image_index = 2; xSpeed = dir * 12;}
+		else if ( process < 75 ) { image_index = 3; xSpeed = dir * 6;}
+		else if ( process < 85 ) { image_index = 4; xSpeed = dir * 12;}
+		else if ( process < 95 ) { image_index = 5; xSpeed = dir * 16;}
+		else if ( process < 100 ) { image_index = 6; xSpeed = dir * 12;}
+		else if ( process < 105 ) { image_index = 7; xSpeed = dir * 6;}
+		else if ( process < 125 ) { image_index = 8; }
 		else { state = 10;	process = 0;	delay = random_range(75, 105); }
 	}
 	
@@ -208,7 +216,7 @@ function sc_jpMbAtk(){
 		
 		if ( process == 1 ) { audio_play_sound(s_jp_dAtk, 8, false); }
 		
-		if ( process == 62 ) { 
+		if ( process == 72 ) { 
 			audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
@@ -216,12 +224,12 @@ function sc_jpMbAtk(){
 		}
 		
 		
-		if ( process < 50 ) { image_index = 0; isDF = false; isDK = false; }
-		else if ( process < 54 ) { image_index = 1; xSpeed = dir*12; isDF = false; isDK = false; }
-		else if ( process < 59 ) { image_index = 1; xSpeed = dir*15 isDF = false; isDK = false;; }
-		else if ( process < 62 ) { image_index = 1; xSpeed = dir*20; isDF = false; isDK = false; }
-		else if ( process < 66 ) { image_index = 2; xSpeed = dir*12; }
-		else if ( process < 69 ) { image_index = 3; xSpeed = dir*6; }
+		if ( process < 60 ) { image_index = 0; isDF = false; isDK = false; }
+		else if ( process < 64 ) { image_index = 1; xSpeed = dir*12; isDF = false; isDK = false; }
+		else if ( process < 69 ) { image_index = 1; xSpeed = dir*15 isDF = false; isDK = false;; }
+		else if ( process < 72 ) { image_index = 1; xSpeed = dir*20; isDF = false; isDK = false; }
+		else if ( process < 76 ) { image_index = 2; xSpeed = dir*12; }
+		else if ( process < 79 ) { image_index = 3; xSpeed = dir*6; }
 		else { state = 19;	process = 0; }
 	}
 	
@@ -253,6 +261,8 @@ function sc_jpMbAtk(){
 	else if ( state == 20 ) {
 		process++;
 		sprite_index = sp_jpMb_backStep;
+		
+		isDK = true;	isDF = true;
 		
 		if ( process < 4 ) { image_index = 0; }
 		else if ( process < 12 ) { image_index = 1; xSpeed = dir*20*-1; }
