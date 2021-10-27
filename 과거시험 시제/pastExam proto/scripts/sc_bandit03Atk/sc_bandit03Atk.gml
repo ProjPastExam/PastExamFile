@@ -73,12 +73,13 @@ function sc_bandit03Atk(){
 	if ( state == 13 ) {
 		process++;
 		sprite_index = sp_bandit03_backStep;
+		isDA = true;
 		
 		if ( process < 4 ) { image_index = 0; }
-		else if ( process < 12 ) { image_index = 1; xSpeed = dir*18*-1; }
-		else if ( process < 18 ) { image_index = 2; xSpeed = dir*7*-1; }
-		else if ( process < 22 ) { image_index = 3; }
-		else if ( process < 24 ) { image_index = 4; }
+		else if ( process < 15 ) { image_index = 1; xSpeed = dir*18*-1; }
+		else if ( process < 24 ) { image_index = 2; xSpeed = dir*12*-1; }
+		else if ( process < 27 ) { image_index = 3; }
+		else if ( process < 30 ) { image_index = 4; }
 		else { state = 12;	process = 0;	delay = 0; }
 	}
 	

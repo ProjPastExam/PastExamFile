@@ -12,8 +12,8 @@ if ( pause == -2 ) {
 }
 if (hpProcess > 0) hpProcess--;
 
-if (slow == 0) room_speed = 60;
-else room_speed = 15;
+//if (slow == 0) room_speed = 60;
+//else room_speed = 15;
 
 if ( isTalk == 1 )		{ 
 	isGUI = false; isTalk = 2;

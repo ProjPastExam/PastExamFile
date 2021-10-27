@@ -117,7 +117,7 @@ function sc_banditBossAtk(){
 	
 	else if ( state == 13 ) {
 		process++;
-		sprite_index = sp_banditBoss_stand1;
+		sprite_index = sp_banditBoss_backStep;
 		
 		isDK = true;	isDF = true;
 		
@@ -237,7 +237,7 @@ function sc_banditBossAtk(){
 	
 	else if ( state == 17 ) {
 		process++;
-		sprite_index = sp_banditBoss_stand1;
+		sprite_index = sp_banditBoss_backStep;
 		
 		isDK = true;	isDF = true;
 		
@@ -318,7 +318,7 @@ function sc_banditBossAtk(){
 	
 	else if ( state == 20 ) {
 		process++;
-		sprite_index = sp_banditBoss_stand1;
+		sprite_index = sp_banditBoss_backStep;
 		
 		isDK = true;	isDF = true;
 		

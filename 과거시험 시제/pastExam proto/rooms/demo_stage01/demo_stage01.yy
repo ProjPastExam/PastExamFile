@@ -61,7 +61,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit01","path":"objects/ob_mobBandit01/ob_mobBandit01.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":12768.0,"y":1312.0,"resourceVersion":"1.0","name":"inst_7CE50CD3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit02","path":"objects/ob_mobBandit02/ob_mobBandit02.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":13536.0,"y":1120.0,"resourceVersion":"1.0","name":"inst_365E30B0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit01","path":"objects/ob_mobBandit01/ob_mobBandit01.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":14496.0,"y":1120.0,"resourceVersion":"1.0","name":"inst_287EBDAD","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit01","path":"objects/ob_mobBandit01/ob_mobBandit01.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":15360.0,"y":1184.0,"resourceVersion":"1.0","name":"inst_48F19C8E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit01","path":"objects/ob_mobBandit01/ob_mobBandit01.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7072.0,"y":1568.0,"resourceVersion":"1.0","name":"inst_514C120F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"patrol","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -141,7 +140,6 @@
     {"name":"inst_7CE50CD3","path":"rooms/demo_stage01/demo_stage01.yy",},
     {"name":"inst_365E30B0","path":"rooms/demo_stage01/demo_stage01.yy",},
     {"name":"inst_287EBDAD","path":"rooms/demo_stage01/demo_stage01.yy",},
-    {"name":"inst_48F19C8E","path":"rooms/demo_stage01/demo_stage01.yy",},
     {"name":"inst_514C120F","path":"rooms/demo_stage01/demo_stage01.yy",},
     {"name":"inst_1A70CD2F","path":"rooms/demo_stage01/demo_stage01.yy",},
     {"name":"inst_1E577C90","path":"rooms/demo_stage01/demo_stage01.yy",},

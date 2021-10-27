@@ -18,5 +18,5 @@ function sc_mobKnockback(){
 	}
 	
 	if ( process <= 0 && !isJump && (state == 5 || state == 6 || state == 7 || state == 8) ) 
-		{ state = 10;	delay = hitDelay; } 
+		{ state = 10;	delay = hitDelay*(counter-ctCount)/counter; } 
 }
