@@ -296,7 +296,6 @@
     {"id":{"name":"sh_lighten","path":"shaders/sh_lighten/sh_lighten.yy",},"order":2,},
     {"id":{"name":"sc_pl_atkShock","path":"scripts/sc_pl_atkShock/sc_pl_atkShock.yy",},"order":2,},
     {"id":{"name":"sc_pl_atkJumpFront","path":"scripts/sc_pl_atkJumpFront/sc_pl_atkJumpFront.yy",},"order":9,},
-    {"id":{"name":"sc_mobCmMode","path":"scripts/sc_mobCmMode/sc_mobCmMode.yy",},"order":7,},
     {"id":{"name":"sp_jpMb_atk3_2","path":"sprites/sp_jpMb_atk3_2/sp_jpMb_atk3_2.yy",},"order":10,},
     {"id":{"name":"sp_skillUi_0","path":"sprites/sp_skillUi_0/sp_skillUi_0.yy",},"order":1,},
     {"id":{"name":"uls_get_light_range","path":"scripts/uls_get_light_range/uls_get_light_range.yy",},"order":3,},
@@ -342,7 +341,6 @@
     {"id":{"name":"sp_jpMb_atk2_1Ef","path":"sprites/sp_jpMb_atk2_1Ef/sp_jpMb_atk2_1Ef.yy",},"order":15,},
     {"id":{"name":"uc_time","path":"scripts/uc_time/uc_time.yy",},"order":4,},
     {"id":{"name":"sc_pl_atkDown","path":"scripts/sc_pl_atkDown/sc_pl_atkDown.yy",},"order":4,},
-    {"id":{"name":"demo_stage02_2","path":"rooms/demo_stage02_2/demo_stage02_2.yy",},"order":14,},
     {"id":{"name":"sp_jpSpear_stand","path":"sprites/sp_jpSpear_stand/sp_jpSpear_stand.yy",},"order":0,},
     {"id":{"name":"sp_banditBoss_atk4Ef3","path":"sprites/sp_banditBoss_atk4Ef3/sp_banditBoss_atk4Ef3.yy",},"order":16,},
     {"id":{"name":"uc_get_mouse_drag_acceleration","path":"scripts/uc_get_mouse_drag_acceleration/uc_get_mouse_drag_acceleration.yy",},"order":0,},
@@ -640,7 +638,6 @@
     {"roomId":{"name":"demo_stage04c","path":"rooms/demo_stage04c/demo_stage04c.yy",},},
     {"roomId":{"name":"r_tutorial","path":"rooms/r_tutorial/r_tutorial.yy",},},
     {"roomId":{"name":"demo_stage06","path":"rooms/demo_stage06/demo_stage06.yy",},},
-    {"roomId":{"name":"demo_stage02_2","path":"rooms/demo_stage02_2/demo_stage02_2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -797,7 +794,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.6.595",
   },
   "resourceVersion": "1.4",
   "name": "pastExam proto",
