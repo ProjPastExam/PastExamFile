@@ -18,6 +18,8 @@ talkCnt = 0;
 
 cmMode = 0;
 
+if (isCt) isTalk = 4;
+
 //스킬 UI 설정
 {
 skUi = array_create(300, sp_skillUi_0);

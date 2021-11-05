@@ -5,6 +5,8 @@ function sc_pl_move() {
 	var	accSpeed	= 0.8;
 	var	walkSpeed	= 8.5;
 	
+	if (canMove == -100 && isJump) ySpeed = 5; 
+	
 	//무적프래임 설정
 	isImort = false;
 	if ((dProcess >= 0 && dProcess <= 10)) isImort = true;

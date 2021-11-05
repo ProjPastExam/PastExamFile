@@ -89,8 +89,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "csSprite",
-    "path": "folders/Sprites/csSprite.yy",
+    "name": "cs01",
+    "path": "folders/Sprites/csSprite/cs01.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_cs1_people",

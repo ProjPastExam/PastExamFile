@@ -1,2 +1,2 @@
 visible = false;
-canMove = -10;
+canMove = -100;
