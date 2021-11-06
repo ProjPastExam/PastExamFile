@@ -7,6 +7,7 @@ nextRoom = demo_stage01;
 
 talkX	= 0;
 talkY	= 0;
+talkZ	= 0;
 
 mobNum = 1;
 alarm[5] = 10;

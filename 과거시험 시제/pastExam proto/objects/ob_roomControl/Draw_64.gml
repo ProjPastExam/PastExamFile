@@ -39,3 +39,11 @@ if ( isTalk == 5) {
 	draw_text(250, 230, talkArray[0]);
 	
 }
+
+if (isTalk == 6) {
+	draw_sprite(sp_talkMul, talkZ, talkX, talkY);
+}
+
+if (isTalk == 7) {
+	draw_sprite(sp_talkNug, talkZ, talkX, talkY);
+}
