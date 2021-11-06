@@ -27,11 +27,17 @@ function sc_cs01(){
 		case 3:
 			ob_roomControl.isTalk = 7;
 			sc_csBase2(1530, 590);
-			isTalk = 6;
+			isTalk = 5;
 			alarm[1] = 150;
 			break;
 			
 		case 4:
+			var name = "주모"
+			var text = "";
+			sc_csBase(name, sp_cs01_face2, text, 1280, 550);
+			break;
+			
+		case 5:
 			//ob_roomControl.isTalk = 7;
 			isTalk = 5;
 			sc_csBase2(1280, 550);
