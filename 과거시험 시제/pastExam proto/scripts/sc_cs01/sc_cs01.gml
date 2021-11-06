@@ -14,13 +14,13 @@ function sc_cs01(){
 			
 		case 1:
 			var name = "행인 1"
-			var text = "반갑소\n";
+			var text = "그럼, 다음 길은 어디로 갑니까\?\"";
 			sc_csBase(name, sp_cs01_face1, text, 1030, 540);
 			break;
 			
 		case 2:
 			var name = "행인 2"
-			var text = "안녕하시오\n";
+			var text = "이 앞길을 따라 가다보면 백마산이 나오지,, \n산길을 따라가면 다음 마을에 도착할거요.";
 			sc_csBase(name, sp_cs01_face2, text, 1280, 550);
 			break;
 			
@@ -33,21 +33,46 @@ function sc_cs01(){
 			
 		case 4:
 			var name = "주모"
-			var text = "";
-			sc_csBase(name, sp_cs01_face2, text, 1280, 550);
+			var text = "아이고, 아직 소식도 못들었어요?? \n백마산길은 피해가는게 좋을거에요!";
+			sc_csBase(name, sp_jumo_face, text, 1530, 590);
 			break;
 			
 		case 5:
-			//ob_roomControl.isTalk = 7;
+			ob_roomControl.isTalk = 6;
 			isTalk = 5;
 			sc_csBase2(1280, 550);
 			alarm[1] = 150;
 			break;
 		
+		case 6:
+			var name = "행인 2"
+			var text = "백마산에 무슨 일이라도 있소"+"?";
+			sc_csBase(name, sp_cs01_face2, text, 1280, 550);
+			break;
 		
+		case 7:
+			var name = "주모"
+			var text = "왜란때 들어왔던 왜놈 몇몇이 백마산이 제 집인양 들어앉았지 뭐에요!";
+			sc_csBase(name, sp_jumo_face, text, 1530, 590);
+			break;
+			
+		case 8:
+			var name = "주모"
+			var text = "행인들이 보이면 모조리 약탈하고 있는데도\, \n관청에서는 그냥 작은 산적때라면서 손을 놓아버렸어요.";
+			sc_csBase(name, sp_jumo_face, text, 1530, 590);
+			break;
+			
+		case 9:
+			var name = "주모"
+			var text = "괜히 초상이나 치르지 말고,, 여기서 하루 묵고 큰 길로 돌아가셔요.";
+			sc_csBase(name, sp_jumo_face, text, 1530, 590);
+			break;
 		
-		
-		
+		case 10:
+			var name = "행인 1"
+			var text = "그럼 그렇게 하는게 좋겠습니다.";
+			sc_csBase(name, sp_cs01_face1, text, 1030, 540);
+			break;
 		}
 	}
 }
