@@ -15,13 +15,26 @@ function sc_cs01(){
 			ob_roomControl.nameS = "행인 1"
 			ob_roomControl.npcFace = sp_cs01_face1;
 			ob_roomControl.talkArray[0] = "반갑소.\n"
+			ob_roomControl.talkX = 1030;
+			ob_roomControl.talkY = 540;
 			break;
 			
 		case 2:
 			ob_roomControl.nameS = "행인 2"
 			ob_roomControl.npcFace = sp_cs01_face2;
 			ob_roomControl.talkArray[0] = "안녕하시오."
+			ob_roomControl.talkX = 1280;
+			ob_roomControl.talkY = 550;
 			break;
+		
+		case 3:
+			
+			break;
+		
+		
+		
+		
+		
 		}
 	}
 }

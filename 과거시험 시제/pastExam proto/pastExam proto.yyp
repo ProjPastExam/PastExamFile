@@ -26,6 +26,7 @@
     {"id":{"name":"sp_bandit02_stand","path":"sprites/sp_bandit02_stand/sp_bandit02_stand.yy",},"order":0,},
     {"id":{"name":"sp_bandit02_run","path":"sprites/sp_bandit02_run/sp_bandit02_run.yy",},"order":6,},
     {"id":{"name":"sp_pl_atkEf01","path":"sprites/sp_pl_atkEf01/sp_pl_atkEf01.yy",},"order":0,},
+    {"id":{"name":"sp_talk","path":"sprites/sp_talk/sp_talk.yy",},"order":5,},
     {"id":{"name":"sp_bandit01G_run","path":"sprites/sp_bandit01G_run/sp_bandit01G_run.yy",},"order":3,},
     {"id":{"name":"obj_uls_light_renderer","path":"objects/obj_uls_light_renderer/obj_uls_light_renderer.yy",},"order":0,},
     {"id":{"name":"sc_pl_atkUp","path":"scripts/sc_pl_atkUp/sc_pl_atkUp.yy",},"order":5,},
