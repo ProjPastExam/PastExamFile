@@ -47,3 +47,7 @@ if (isTalk == 6) {
 if (isTalk == 7) {
 	draw_sprite(sp_talkNug, talkZ, talkX, talkY);
 }
+
+if (isTalk == 8) {
+	draw_sprite(sp_talk2, talkZ, talkX, talkY);
+}

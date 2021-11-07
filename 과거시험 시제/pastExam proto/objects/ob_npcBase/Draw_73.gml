@@ -5,5 +5,5 @@ if (isCollision) {
 }
 
 if (ob_roomControl.isTalk == 2) {
-	draw_sprite(sp_talk, 0, x, bbox_top - 80);
+	draw_sprite(sp_talk, 0, x, bbox_top - 90);
 }
