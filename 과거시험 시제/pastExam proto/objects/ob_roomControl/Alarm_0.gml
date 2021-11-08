@@ -42,5 +42,5 @@ else if ( isTalk == 5) {
 		talkCnt++;
 	}
 }
-if ((isTalk < 4 || isTalk > 7) && !isCt ) alarm[7] = 1;
+//if ((isTalk < 4 || isTalk > 7) && !isCt ) alarm[7] = 1;
 alarm[0] = 1;
