@@ -33,10 +33,14 @@ else if ( isTalk == 3 )	{
 	isGUI = true; isTalk = 0;
 	if (instance_exists(ob_player)) ob_player.canMove = 0;
 }
+else if ( isTalk == 4 ) {
+	isGUI = false;
+}
 else if ( isTalk == 5) {
+	isGUI = false;
 	if ( keyboard_check_pressed(ord("X")) ) {
 		talkCnt++;
 	}
 }
-if ((isTalk == 5 || isTalk == 4) && !isCt ) alarm[7] = 1;
+if ((isTalk < 4 || isTalk > 7) && !isCt ) alarm[7] = 1;
 alarm[0] = 1;

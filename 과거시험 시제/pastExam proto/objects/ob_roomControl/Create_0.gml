@@ -5,6 +5,10 @@ slow = 0;
 alarm[0] = 1;
 nextRoom = demo_stage01;
 
+talkX	= 0;
+talkY	= 0;
+talkZ	= 0;
+
 mobNum = 1;
 alarm[5] = 10;
 
@@ -17,6 +21,8 @@ talkNum = 0;
 talkCnt = 0;
 
 cmMode = 0;
+
+if (isCt) isTalk = 4;
 
 //스킬 UI 설정
 {
