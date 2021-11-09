@@ -38,19 +38,20 @@ function sc_cs02(){
 			break;
 			
 		case 4:
-			
+			isTalk = 4;
+			alarm[1] = 210;
+			break;
 			
 		case 5:
-			ob_roomControl.isTalk = 6;
+			
 			isTalk = 5;
-			sc_csBase2(hang2, 540);
-			alarm[1] = 150;
+			alarm[1] = 120;
 			break;
 		
 		case 6:
-			var name = "행인 2"
-			var text = "백마산에 무슨 일이라도 있소?";
-			sc_csBase(name, sp_cs01_face2, text, hang2, 540);
+			var name = "어린아이"
+			var text = "ㅁㅁㅁㅁㅁㅁ";
+			sc_csBase(name, sp_cs02_face, text, hang2, 540);
 			break;
 		
 		case 7:
