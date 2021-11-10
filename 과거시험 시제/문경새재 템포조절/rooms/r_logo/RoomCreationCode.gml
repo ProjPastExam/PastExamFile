@@ -1,0 +1,34 @@
+VSLS_Init();
+
+//window_set_fullscreen(true);
+
+//particle 설정
+
+global.hpMax	= 9;
+global.hp		= global.hpMax;
+
+global.mpMax	= 1000;
+global.mp		= 0;
+
+//공격 관련 수치
+{
+global.atkDmg		= 16;	//공격력
+global.atkPene		= 0;	//관통력
+global.atkShock		= 150;	//충격력
+global.atkMana		= 20;	//마나회복
+
+global.kickDmg		= 5;
+global.kickPene		= 0;
+global.kickShock	= 210;
+global.kickMana		= 50;
+
+global.fireDmg		= 10;
+global.firePene		= 0;
+global.fireShock	= 200;
+global.fireMana		= 0;
+}
+
+global.sk1		= 104;
+global.sk2		= 102;
+global.sk3		= 101;
+

@@ -1,0 +1,1 @@
+nextRoom = demo_stage02_2;
