@@ -5,7 +5,7 @@ function sc_gameGUI(){
 	var GUIY = 40;
 	draw_set_alpha(1);
 	var i = 1;
-	draw_sprite_stretched(sp_healthbar, 0, -50, GUIY-15, 900, 192);
+	draw_sprite_stretched(sp_healthbar, global.hp, -50, GUIY-15, 900, 192);
 	draw_sprite_stretched(sp_mpbar, 0, GUIX-10, GUIY+105, 720, 96);
 	
 	for ( i = 1; i <= 10; i++ ) {
