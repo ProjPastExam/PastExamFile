@@ -3,12 +3,11 @@
 function sc_cs02(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
-	if (state == 1) x = x + 3;
+	if (state == 1 || state == 18 || state == 19) x = x + 3;
 	
-	var pl = 400;
-	var jumo = 992;
-	var hang1 = 505;
-	var hang2 = 775;
+	var ii = 720;
+	var iy = 640
+
 	
 	if (((isT == 4 || isT == 6 || isT == 7) && active == true) || isT == 5) {
 		active = false;
@@ -31,15 +30,15 @@ function sc_cs02(){
 			break;
 			
 		case 3:
-			ob_roomControl.isTalk = 6;
+			ob_roomControl.isTalk = 7;
 			sc_csBase2(x, 560);
 			isTalk = 4;
-			alarm[1] = 150;
+			alarm[1] = 120;
 			break;
 			
 		case 4:
 			isTalk = 4;
-			alarm[1] = 210;
+			alarm[1] = 185;
 			break;
 			
 		case 5:
@@ -50,61 +49,92 @@ function sc_cs02(){
 		
 		case 6:
 			var name = "어린아이"
-			var text = "ㅁㅁㅁㅁㅁㅁ";
-			sc_csBase(name, sp_cs02_face, text, hang2, 540);
+			var text = "제발..저좀 도와주세요.. 엉엉";
+			sc_csBase(name, sp_cs02_face, text, ii, iy);
 			break;
-		
+			
 		case 7:
-			var name = "주모"
-			var text = "왜란때 들어왔던 왜놈 몇몇이 백마산이 제 집인양 들어앉았지 뭐에요!";
-			sc_csBase(name, sp_jumo_face, text, jumo, 580);
+			ob_roomControl.isTalk = 6;
+			sc_csBase2(x, 560);
+			isTalk = 4;
+			alarm[1] = 120;
 			break;
 			
 		case 8:
-			var name = "주모"
-			var text = "행인들이 보이면 모조리 약탈하고 있는데도, \n관청에서는 그냥 작은 산적때라면서 손을 놓아버렸어요.";
-			sc_csBase(name, sp_jumo_face, text, jumo, 580);
+			image_index = 0;
+			sprite_index = sp_cs02_plSit;
+			isTalk = 4;
+			alarm[1] = 60;
 			break;
-			
+		
 		case 9:
-			var name = "주모"
-			var text = "괜히 초상이나 치르지 말고, 여기서 하루 묵고 큰 길로 돌아가셔요.";
-			sc_csBase(name, sp_jumo_face, text, jumo, 580);
-			break;
-			
-		case 10:
-			ob_roomControl.isTalk = 8;
+			sprite_index = sp_cs02_plSitDown;
 			isTalk = 5;
-			sc_csBase2(hang1, 530);
-			alarm[1] = 150;
+			alarm[1] = 100;
+			break;
+		
+		case 10:
+			var name = "어린아이"
+			var text = "저희 가족들이.. 다른 마을에 볼일이 있어.. \n백마산 길을 지나는데..";
+			sc_csBase(name, sp_cs02_face, text, ii, iy);
 			break;
 		
 		case 11:
-			var name = "행인 1"
-			var text = "그럼 그렇게 하는게 좋겠습니다.";
-			sc_csBase(name, sp_cs01_face1, text, hang1, 530);
+			var name = "어린아이"
+			var text = "갑자기 왜놈들이 나타나서.. 가족과 일행을 다 잡아갔어요!..";
+			sc_csBase(name, sp_cs02_face, text, ii, iy);
 			break;
 			
 		case 12:
-			ob_roomControl.isTalk = 4;
-			isTalk = 4;
-			alarm[1] = 90;
+			var name = "어린아이"
+			var text = "어떻게 저만 간신히 도망쳤는데...";
+			sc_csBase(name, sp_cs02_face, text, ii, iy);
 			break;
-			
+		
 		case 13:
+			ob_roomControl.isTalk = 8;
+			sc_csBase2(ii, iy);
+			isTalk = 5;
 			alarm[1] = 150;
-			image_index = 0;
-			sprite_index = sp_cs1_pl2;
 			break;
 		
 		case 14:
-			alarm[1] = 120;
-			sprite_index = sp_pl_walk;
+			var name = "어린아이"
+			var text = "저희 가족들좀 구해주세요!.. 엉엉..";
+			sc_csBase(name, sp_cs02_face, text, ii, iy);
 			break;
 			
 		case 15:
+			ob_roomControl.isTalk = 8;
+			sc_csBase2(x, 560);
+			isTalk = 4;
+			alarm[1] = 150;
+			break;
+			
+		case 16:
+			image_index = 0;
+			sprite_index = sp_cs02_plStand;
+			isTalk = 4;
+			alarm[1] = 60;
+			break;
+			
+		case 17:
+			image_index = 0;
+			sprite_index = sp_pl_standPeace;
+			isTalk = 4;
+			alarm[1] = 60;
+			break;
+			
+		case 18:
+			sprite_index = sp_pl_walk;
+			isTalk = 4;
+			alarm[1] = 210;
+			break;
+			
+		case 19:
 			ob_roomControl.alarm[7] = 1;
 			break;
+		
 		}
 	}
 }

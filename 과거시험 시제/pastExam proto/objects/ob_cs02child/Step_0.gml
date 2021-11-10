@@ -3,7 +3,7 @@
 
 var state = ob_roomControl.talkCnt;
 var isT = ob_roomControl.isTalk;
-if (state == 4) x = x - 6;
+if (state == 4) x = x - 7;
 
 
 switch (state) {
@@ -14,6 +14,19 @@ case 4:
 		
 case 5:
 	sprite_index = sp_cs02_IStandCry;
+	break;
+
+case 10:
+	sprite_index = sp_cs02_IStand;
+	break;
+	
+case 14:
+	sprite_index = sp_cs02_IStandCry;
+	break;
+	
+case 15:
+	sprite_index = sp_cs02_IStand;
+	break;
 	
 }
 	

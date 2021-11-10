@@ -63,7 +63,7 @@ function sc_cs01(){
 			
 		case 8:
 			var name = "주모"
-			var text = "행인들이 보이면 모조리 약탈하고 있는데도, \n관청에서는 그냥 작은 산적때라면서 손을 놓아버렸어요.";
+			var text = "행인들이 보이면 모조리 약탈하고 있는데도, \n관청에서는 그냥 작은 산적떼라면서 손을 놓아버렸어요.";
 			sc_csBase(name, sp_jumo_face, text, jumo, 580);
 			break;
 			
