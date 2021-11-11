@@ -618,6 +618,7 @@
     {"id":{"name":"s_swing_b2","path":"sounds/s_swing_b2/s_swing_b2.yy",},"order":3,},
     {"id":{"name":"sp_pl_atkUp","path":"sprites/sp_pl_atkUp/sp_pl_atkUp.yy",},"order":4,},
     {"id":{"name":"s_swing_c2","path":"sounds/s_swing_c2/s_swing_c2.yy",},"order":5,},
+    {"id":{"name":"sp_skillUi_101","path":"sprites/sp_skillUi_101/sp_skillUi_101.yy",},"order":3,},
     {"id":{"name":"ob_mobBandit01G","path":"objects/ob_mobBandit01G/ob_mobBandit01G.yy",},"order":4,},
     {"id":{"name":"room_example","path":"rooms/room_example/room_example.yy",},"order":0,},
     {"id":{"name":"sp_pl_atkEf103_3","path":"sprites/sp_pl_atkEf103_3/sp_pl_atkEf103_3.yy",},"order":11,},

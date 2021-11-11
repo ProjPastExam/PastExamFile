@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d7ece3f5-398b-471c-a78c-9685dd8e568b","path":"sprites/sp_skillUi_0/sp_skillUi_0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d7ece3f5-398b-471c-a78c-9685dd8e568b","path":"sprites/sp_skillUi_0/sp_skillUi_0.yy",},"LayerId":{"name":"d25d07c3-3048-4a36-8e09-3131f1553fc3","path":"sprites/sp_skillUi_0/sp_skillUi_0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_skillUi_0","path":"sprites/sp_skillUi_0/sp_skillUi_0.yy",},"resourceVersion":"1.0","name":"d7ece3f5-398b-471c-a78c-9685dd8e568b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"498b2db5-4d3c-41ef-b7cf-263e4ad91b14","path":"sprites/sp_skillUi_101/sp_skillUi_101.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"498b2db5-4d3c-41ef-b7cf-263e4ad91b14","path":"sprites/sp_skillUi_101/sp_skillUi_101.yy",},"LayerId":{"name":"d2278b4e-7f3c-494e-9692-8192112a4ae5","path":"sprites/sp_skillUi_101/sp_skillUi_101.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_skillUi_101","path":"sprites/sp_skillUi_101/sp_skillUi_101.yy",},"resourceVersion":"1.0","name":"498b2db5-4d3c-41ef-b7cf-263e4ad91b14","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_skillUi_0","path":"sprites/sp_skillUi_0/sp_skillUi_0.yy",},
+    "spriteId": {"name":"sp_skillUi_101","path":"sprites/sp_skillUi_101/sp_skillUi_101.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c72f3fd9-7b7e-41fc-b198-4079caf0f9d4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d7ece3f5-398b-471c-a78c-9685dd8e568b","path":"sprites/sp_skillUi_0/sp_skillUi_0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c20041d8-5ed4-43f1-b078-2fd1617a6935","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"498b2db5-4d3c-41ef-b7cf-263e4ad91b14","path":"sprites/sp_skillUi_101/sp_skillUi_101.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_skillUi_0","path":"sprites/sp_skillUi_0/sp_skillUi_0.yy",},
+    "parent": {"name":"sp_skillUi_101","path":"sprites/sp_skillUi_101/sp_skillUi_101.yy",},
     "resourceVersion": "1.3",
-    "name": "sp_skillUi_0",
+    "name": "sp_skillUi_101",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d25d07c3-3048-4a36-8e09-3131f1553fc3","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d2278b4e-7f3c-494e-9692-8192112a4ae5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/interface/skillUi.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sp_skillUi_0",
+  "name": "sp_skillUi_101",
   "tags": [],
   "resourceType": "GMSprite",
 }

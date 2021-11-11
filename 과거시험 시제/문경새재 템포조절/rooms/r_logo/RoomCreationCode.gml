@@ -28,7 +28,7 @@ global.fireShock	= 200;
 global.fireMana		= 0;
 }
 
-global.sk1		= 103;
+global.sk1		= 101;
 global.sk2		= 102;
-global.sk3		= 101;
+global.sk3		= 103;
 

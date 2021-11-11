@@ -7,7 +7,7 @@ function sc_gameGUI(){
 	var i = 1;
 	draw_sprite_stretched(sp_mpbar, 0, GUIX-10, GUIY+100, 720, 96);
 	draw_sprite_stretched(sp_healthbar, global.hp, -50, GUIY-15, 900, 192);
-	
+	draw_sprite(sp_skillBoxOut, 0, GUIX+213, GUIY+235);
 	
 	for ( i = 1; i <= 10; i++ ) {
 		if ( global.hpMax >= i ) {
@@ -22,15 +22,7 @@ function sc_gameGUI(){
 		}
 	}
 	
-	//스킬 UI 표시
-	{
-	var en = 1;
-	draw_sprite(sp_skillBoxOut, 0, GUIX+213, GUIY+232);
 	
-	draw_sprite(sp_skillBox, 0, GUIX+70, GUIY+232);
-	draw_sprite(sp_skillBox, 1, GUIX+210, GUIY+232);
-	draw_sprite(sp_skillBox, 2, GUIX+350, GUIY+232);
-	}
 	
 	for ( i = 9; i >= 0; i-- ) {
 		if ( global.mpMax >= i * 100 ) {
@@ -47,6 +39,26 @@ function sc_gameGUI(){
 		}
 	}
 	
+	//스킬 UI 표시
+	{
+	var en = c_white;
+	if (ob_player.skMp[global.sk1] > global.mp) en = c_gray;
+	draw_sprite_ext(skUi[global.sk1], 0, GUIX-2, GUIY+163, 1, 1, 0, en, 1);
+	
+	en = c_white;
+	if (ob_player.skMp[global.sk2] > global.mp) en = c_gray;
+	draw_sprite_ext(skUi[global.sk2], 0, GUIX+135, GUIY+163, 1, 1, 0, en, 1);
+	
+	en = c_white;
+	if (ob_player.skMp[global.sk3] > global.mp) en = c_gray;
+	draw_sprite_ext(skUi[global.sk3], 0, GUIX+275, GUIY+163, 1, 1, 0, en, 1);
+	
+	draw_sprite(sp_skillBox, 0, GUIX+70, GUIY+235);
+	draw_sprite(sp_skillBox, 1, GUIX+210, GUIY+235);
+	draw_sprite(sp_skillBox, 2, GUIX+350, GUIY+235);
+	
+	
+	}
 	
 	
 }
