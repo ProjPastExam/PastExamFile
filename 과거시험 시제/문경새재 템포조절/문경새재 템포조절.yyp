@@ -504,6 +504,7 @@
     {"id":{"name":"uls_get_light_color","path":"scripts/uls_get_light_color/uls_get_light_color.yy",},"order":2,},
     {"id":{"name":"demo_stage01","path":"rooms/demo_stage01/demo_stage01.yy",},"order":0,},
     {"id":{"name":"sp_jpSpear_atk","path":"sprites/sp_jpSpear_atk/sp_jpSpear_atk.yy",},"order":6,},
+    {"id":{"name":"s_talk","path":"sounds/s_talk/s_talk.yy",},"order":0,},
     {"id":{"name":"uls_set_light_range","path":"scripts/uls_set_light_range/uls_set_light_range.yy",},"order":3,},
     {"id":{"name":"sp_pl_dash","path":"sprites/sp_pl_dash/sp_pl_dash.yy",},"order":4,},
     {"id":{"name":"sp_bandit03_atkEf1","path":"sprites/sp_bandit03_atkEf1/sp_bandit03_atkEf1.yy",},"order":8,},
@@ -842,6 +843,7 @@
     {"folderPath":"folders/Sprites/csSprite/cs01.yy","order":5,"resourceVersion":"1.0","name":"cs01","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/csSprite/cs02.yy","order":6,"resourceVersion":"1.0","name":"cs02","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/background/stage03.yy","order":8,"resourceVersion":"1.0","name":"stage03","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/ui.yy","order":5,"resourceVersion":"1.0","name":"ui","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

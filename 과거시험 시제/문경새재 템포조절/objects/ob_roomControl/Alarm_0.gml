@@ -18,11 +18,15 @@ if (hpProcess > 0) hpProcess--;
 
 if ( isTalk == 1 )		{ 
 	isGUI = false; isTalk = 2;
+	audio_play_sound(s_talk, 4, false);
 	if (instance_exists(ob_player)) ob_player.canMove = -10;
 }
 else if ( isTalk == 2) {
 	if ( keyboard_check_pressed(ord("X")) ) {
-		if (talkCnt < talkNum -1) talkCnt++;
+		if (talkCnt < talkNum -1) {
+			talkCnt++;
+			audio_play_sound(s_talk, 4, false);
+		}
 		else { isTalk = 3; talkCnt = 0; talkNum = 0; }
 	}
 	if ( keyboard_check_pressed(vk_escape) ) {
