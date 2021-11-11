@@ -25,7 +25,7 @@ function sc_pl_sk104(){
 			atkProcess == 50) {
 		audio_play_sound(s_arrow01, 5, false);
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
-		atk.damage = sc_pl_atkDmg();
+		atk.damage = sc_pl_atkDmg()*1.2;
 		atk.shock = sc_pl_atkShock();
 		atk.pene = sc_pl_atkPene();
 		atk.hitAfter = 10;

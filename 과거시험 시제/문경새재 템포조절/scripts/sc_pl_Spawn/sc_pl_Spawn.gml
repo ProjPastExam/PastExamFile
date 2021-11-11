@@ -71,6 +71,7 @@ function sc_pl_Spawn() {
 	skMp[101]	= 300;	//총
 	skMp[102]	= 200;
 	skMp[103]	= 100;
+	skMp[104]	= 300;
 	
 	}
 }
