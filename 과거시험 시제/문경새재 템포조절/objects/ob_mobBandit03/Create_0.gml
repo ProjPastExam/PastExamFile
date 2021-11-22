@@ -15,8 +15,8 @@ sc_mobSpawn();
 alarm[0] = 1;
 alarm[5] = 5;
 
-standSp = sp_ybox;
-stand2Sp = sp_ybox;
-walkSp = sp_ybox;
-runSp = sp_ybox;
-painSp = sp_ybox;
+standSp = sp_bandit03_stand;
+stand2Sp = sp_bandit03_stand2;
+walkSp = sp_bandit03_walk;
+runSp = sp_bandit03_run;
+painSp = sp_bandit03_pain;

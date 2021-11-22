@@ -19,9 +19,11 @@ function sc_mobPatrol(){
 	
 	if ( state == 1 ) {
 		xSpeed = 3 * dir;
+		sprite_index = walkSp;
 		if ( delay == 0 ) {
 			delay = random_range(60,90);
 			state = 0;
+			sprite_index = standSp;
 		}
 	}
 	else if ( state == 0 && delay == 0 ) {

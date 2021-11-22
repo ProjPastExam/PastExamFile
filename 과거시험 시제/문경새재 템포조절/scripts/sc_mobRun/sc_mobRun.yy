@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "bandit",
-    "path": "folders/Scripts/mob/bandit.yy",
+    "name": "parent",
+    "path": "folders/Scripts/mob/parent.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sc_bandit03Sprite",
+  "name": "sc_mobRun",
   "tags": [],
   "resourceType": "GMScript",
 }

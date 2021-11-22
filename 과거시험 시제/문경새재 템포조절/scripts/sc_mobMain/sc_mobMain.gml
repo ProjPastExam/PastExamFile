@@ -3,12 +3,7 @@
 function sc_mobMain(){
 	if ( !isJump )	xSpeed = 0;
 	if ( hitAfter > 0 ) hitAfter--;
-		
-	//넉백과 기절
-	if ( knockback ) sc_mobKnockback();
-	else {
-		if ( stun > 0 ) stun--;
-	}
+	image_xscale = dir;
 		
 	if ( patrol ) sc_mobPatrol();
 	if ( hp <= 0 ) { state = -1; process = 0; }
@@ -16,6 +11,7 @@ function sc_mobMain(){
 	
 	if (state == 5 || state == 6 || state == 7 || state == 8) {
 		if (ctCount < counter) ctCount++;
+		sc_mobKnockback();
 	}
 	else {
 		if (ctCount > 0) ctCount = ctCount - 2;

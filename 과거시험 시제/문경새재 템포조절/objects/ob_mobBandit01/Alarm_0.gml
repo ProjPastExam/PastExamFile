@@ -12,7 +12,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		sc_mobMain();
 		
 		//이하 몹 개인코드
-		sc_bandit01Sprite();
+		//sc_bandit01Sprite();
 		if (ad) sc_bandit01Atk();
 		
 	}
