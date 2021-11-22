@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description 몹 변수 선언
 // You can write your code in this editor
 
 /*
@@ -14,10 +14,9 @@ sc_obPValue();
 sc_mobSpawn();
 alarm[0] = 1;
 alarm[5] = 5;
-ob = NULL;
 
-standSp = sp_jpSpear_stand;
-stand2Sp = sp_jpSpear_stand2;
-walkSp = sp_jpSpear_walk;
-runSp = sp_jpSpear_run;
-painSp = sp_jpSpear_pain;
+standSp = sp_jpGun_stand;
+stand2Sp = sp_jpGun_stand2;
+walkSp = sp_jpGun_walk;
+runSp = sp_jpGun_run;
+painSp = sp_jpGun_pain;

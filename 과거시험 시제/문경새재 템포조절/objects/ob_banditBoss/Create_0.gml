@@ -15,3 +15,9 @@ sc_mobSpawn();
 alarm[0] = 1;
 alarm[5] = 5;
 dir = -1;
+
+standSp = sp_banditBoss_stand1;
+stand2Sp = sp_banditBoss_stand2;
+walkSp = sp_banditBoss_walk;
+runSp = sp_banditBoss_run;
+painSp = sp_banditBoss_pain;

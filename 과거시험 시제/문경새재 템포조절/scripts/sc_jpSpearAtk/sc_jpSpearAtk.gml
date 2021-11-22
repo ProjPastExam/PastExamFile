@@ -18,6 +18,7 @@ function sc_jpSpearAtk(){
 	
 	var plX = sc_pl_get("x");
 	if ( state == 10 ) {
+		sprite_index = stand2Sp;
 		if ( x > plX ) dir = -1;
 		else dir = 1;
 		if ( delay == 0 ) {
@@ -26,27 +27,7 @@ function sc_jpSpearAtk(){
 		
 	}
 	else if ( state == 11 ){
-		if ( plX < x + 240 && plX > x - 240 && (left1 != 3 && right1 != 3)) {
-			process = 0;
-			state = 13;
-		}
-		else if ( plX > x + 520 ) {
-			dir = 1;
-			xSpeed = 6;
-		}
-		else if ( plX < x - 520 ) {
-			dir = -1;
-			xSpeed = -6;
-		}
-		else {
-			process = 0;
-			state = 12;
-		}
-		if ( !isJump && dir == -1 && (( left1 == 3 || left2 == 3)))	
-			{ ySpeed = -15; }
-		if ( !isJump && dir == 1 && (( right1 == 3 || right2 == 3 )))
-			{ ySpeed = -15; }
-		
+		sc_mobRun(6, 520, 240, 13, 12, plX, left1, left2, right1, right2);		
 	}
 	else if ( state == 12 ) {
 		process++;
