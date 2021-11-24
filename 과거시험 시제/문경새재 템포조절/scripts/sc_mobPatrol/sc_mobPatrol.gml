@@ -18,16 +18,16 @@ function sc_mobPatrol(){
 		{ dir = -1;	delay = random_range(150, 210); }
 	
 	if ( state == 1 ) {
-		xSpeed = 3 * dir;
+		xSpeed = walkSpd * dir;
 		sprite_index = walkSp;
 		if ( delay == 0 ) {
-			delay = random_range(60,90);
+			delay = random_range(60, 90);
 			state = 0;
 			sprite_index = standSp;
 		}
 	}
 	else if ( state == 0 && delay == 0 ) {
-		delay = random_range(120,180);
+		delay = random_range(walkDelay,walkDelay+60);
 		state = 1;
 		dir = dir * -1;
 	}

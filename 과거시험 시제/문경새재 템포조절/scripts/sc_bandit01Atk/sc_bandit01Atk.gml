@@ -43,7 +43,7 @@ function sc_bandit01Atk(){
 		else if ( process < 37 ) { image_index = 1; xSpeed = dir*24; }
 		else if ( process < 42 ) { image_index = 2; }
 		else if ( process < 58 ) { image_index = 3; }
-		else { state = 10;	process = 0;	delay = random_range(50, 70); }
+		else { state = 10;	process = 0;	delay = random_range(100, 150); }
 	}
 	
 	if ( state == 13 ) {
