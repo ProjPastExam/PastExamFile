@@ -105,4 +105,11 @@ global.gunEf = part_type_create();
 
 part_type_sprite(global.gunEf, sp_pl_sk_gunEf, true, 1, false);
 part_type_life(global.gunEf, 25, 25);
+
+
+//몬스터 어그로 이팩트
+global.mobAdEf = part_type_create();
+
+part_type_sprite(global.mobAdEf, sp_mob_adEf, true, 1, false);
+part_type_life(global.mobAdEf, 45, 45);
 }
