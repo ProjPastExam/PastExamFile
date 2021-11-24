@@ -117,7 +117,6 @@ function sc_pl_move() {
 		case 7:		sc_pl_atkFront2();		break;
 		case 8:		sc_pl_atkJumpUp();		break;
 		case 9:		sc_pl_atkJumpFront();	break;
-		case 10:	sc_pl_dash();			break;
 		case 11:	sc_pl_atkJump2();		break;
 		case 12:	sc_pl_atk3();			break;
 		
@@ -128,6 +127,7 @@ function sc_pl_move() {
 		case 104:	sc_pl_sk104();			break;
 		}
 	}
+	if (dProcess > -1 && canMove == 10) sc_pl_dash();
 
 	
 	
