@@ -8,6 +8,8 @@ if (hp > 0 && ob_player.ySpeed >= 0 && ob_player.bbox_bottom > y) {
 	var vol = abs(bbox_right - bbox_left)/2;
 	var plVol = abs(ob_player.bbox_right - ob_player.bbox_left)/2;
 	
+	if ((vol + plVol) < abs(x - plX)) return;
+	
 	var spd = ((vol + plVol) - abs(x - plX)) + 1;
 
 	var sqd = spd;
