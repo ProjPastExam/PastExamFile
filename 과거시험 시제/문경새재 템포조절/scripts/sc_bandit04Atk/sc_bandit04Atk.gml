@@ -21,10 +21,10 @@ function sc_bandit04Atk(){
 		}
 		
 	}
-	if ( state == 11 ){
+	else if ( state == 11 ){
 		sc_mobRun(6, 300, 200, 13, 12, plX, left1, left2, right1, right2);
 	}
-	if ( state == 12 ) {
+	else if ( state == 12 ) {
 		process++;
 		sprite_index = sp_bandit04_atk;
 		xSpeed = 0;
@@ -47,7 +47,7 @@ function sc_bandit04Atk(){
 		else { state = 10;	process = 0;	delay = random_range(50, 70); }
 	}
 	
-	if ( state == 13 ) {
+	else if ( state == 13 ) {
 		process++;
 		sprite_index = sp_bandit04_backStep;
 		isDA = true;	isDK = true;

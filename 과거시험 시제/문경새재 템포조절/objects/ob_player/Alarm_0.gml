@@ -30,7 +30,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		if (isJump) ySpeed = -8;
 	}
 	if (canMove == -2) {
-		depth -= 100;
+		depth = 200;
 		sprite_index = sp_pl_die;
 		process++;
 		xSpeed = 0;

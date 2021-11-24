@@ -22,15 +22,15 @@ function sc_chang02Atk(){
 		}
 		
 	}
-	if ( state == 11 ){
+	else if ( state == 11 ){
 		sc_mobRun(7.5, 650, 0, 12, 12, plX, left1, left2, right1, right2);
 	}
-	if ( state == 12 ) {
+	else if ( state == 12 ) {
 		process++;
 		sprite_index = sp_chang02_atk;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { audio_play_sound(s_bandit02atk1, 8, false); }
+		//if ( process == 1 ) { audio_play_sound(s_bandit02atk1, 8, false); }
 		
 		if ( process == 36 ) { 
 			audio_play_sound(s_bandit02atk2, 8, false);

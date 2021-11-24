@@ -21,15 +21,15 @@ function sc_chang01Atk(){
 		}
 		
 	}
-	if ( state == 11 ){
+	else if ( state == 11 ){
 		sc_mobRun(7.5, 240, 0, 12, 12, plX, left1, left2, right1, right2);
 	}
-	if ( state == 12 ) {
+	else if ( state == 12 ) {
 		process++;
 		sprite_index = sp_chang01_atk;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { audio_play_sound(s_bandit01atk1, 8, false); }
+		//if ( process == 1 ) { audio_play_sound(s_bandit01atk1, 8, false); }
 		if ( process == 37 ) { 
 			audio_play_sound(s_bandit01atk2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);

@@ -43,8 +43,8 @@ function sc_pl_move() {
 		ySpeed += 1;
 	}
 
-	if ( isJump && ( canMove == 0 ) ) { sc_pl_sprite(2); }
 	if ( !isJump ) isDash = true;
+	else if (canMove == 0) { sc_pl_sprite(2); }
 
 	
 	if ( canMove == 0 ) {
@@ -102,41 +102,33 @@ function sc_pl_move() {
 		atkProcess = 0;
 	}
 	
-	if ( atkProcess > -1 && canMove == 0 ) atkProcess = -1;
-	if ( atkProcess > -1 && canMove == 1 ) sc_pl_atk();
-	if ( atkProcess > -1 && canMove == 2 ) sc_pl_atk2();
-	if ( atkProcess > -1 && canMove == 3 ) {
-		if ( isFront >= 0 ) sc_pl_atkFrontKick();
-		else sc_pl_atkFront();
-	}
-	if ( atkProcess > -1 && canMove == 4 ) sc_pl_atkBack();
-	if ( atkProcess > -1 && canMove == 5 ) sc_pl_atkDown();
-	if ( atkProcess > -1 && canMove == 6 ) {
-		//if ( itemRise >= 0 ) sc_pl_atkUpRise(); 
-		//else sc_pl_atkUp();
-		sc_pl_atkUp();
-	}
-	if ( atkProcess > -1 && canMove == 7 ) sc_pl_atkFront2();
-	if ( atkProcess > -1 && canMove == 8 ) sc_pl_atkJumpUp();
-	if ( atkProcess > -1 && canMove == 9 ) sc_pl_atkJumpFront();
-	
-	if ( dProcess > -1 && canMove == 10 ) sc_pl_dash();
-	
-	if ( atkProcess > -1 && canMove == 11 ) sc_pl_atkJump2();
-	
-	if ( atkProcess > -1 && canMove == 12 ) sc_pl_atk3();
-	
-	//스킬
-	
 	if ( atkProcess > -1 ) {
-		switch (canMove) {
-		//case 100:	sc_pl_sk100(); break;
-		case 101:	sc_pl_sk101(); break;
-		case 102:	sc_pl_sk102(); break;
-		case 103:	sc_pl_sk103(); break;
-		case 104:	sc_pl_sk104(); break;
+		switch(canMove) {
+		case 0:		atkProcess = -1;		break;
+		case 1:		sc_pl_atk();			break;
+		case 2:		sc_pl_atk2();			break;
+		case 3:
+			if (isFront >= 0)	sc_pl_atkFrontKick();
+			else				sc_pl_atkFront();
+			break;
+		case 4:		sc_pl_atkBack();		break;
+		case 5:		sc_pl_atkDown();		break;
+		case 6:		sc_pl_atkUp();			break;
+		case 7:		sc_pl_atkFront2();		break;
+		case 8:		sc_pl_atkJumpUp();		break;
+		case 9:		sc_pl_atkJumpFront();	break;
+		case 10:	sc_pl_dash();			break;
+		case 11:	sc_pl_atkJump2();		break;
+		case 12:	sc_pl_atk3();			break;
+		
+		//스킬
+		case 101:	sc_pl_sk101();			break;
+		case 102:	sc_pl_sk102();			break;
+		case 103:	sc_pl_sk103();			break;
+		case 104:	sc_pl_sk104();			break;
 		}
 	}
+
 	
 	
 	if ( hitAfter > 0 ) {

@@ -14,7 +14,6 @@ function sc_bandit03Atk(){
 	
 	
 	var plX = sc_pl_get("x");
-	var plY = sc_pl_get("y");
 	if ( state == 10 ) {
 		sprite_index = stand2Sp;
 		if ( x > plX ) dir = -1;
@@ -25,10 +24,10 @@ function sc_bandit03Atk(){
 		}
 		
 	}
-	if ( state == 11 ){
+	else if ( state == 11 ){
 		sc_mobRun(6, 450, 300, 13, 12, plX, left1, left2, right1, right2);
 	}
-	if ( state == 12 ) {
+	else if ( state == 12 ) {
 		process++;
 		sprite_index = sp_bandit03_atk;
 		xSpeed = 0;
@@ -51,7 +50,7 @@ function sc_bandit03Atk(){
 		else { state = 14;	process = 0; }
 	}
 	
-	if ( state == 13 ) {
+	else if ( state == 13 ) {
 		process++;
 		sprite_index = sp_bandit03_backStep;
 		isDA = true;
@@ -64,7 +63,7 @@ function sc_bandit03Atk(){
 		else { state = 12;	process = 0;	delay = 0; }
 	}
 	
-	if ( state == 14 ) {
+	else if ( state == 14 ) {
 		process++;
 		sprite_index = sp_bandit03_atk;
 		xSpeed = 0;
