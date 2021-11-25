@@ -3,7 +3,6 @@
 pause = 0;
 slow = 0;
 alarm[0] = 1;
-nextRoom = demo_stage01;
 
 talkX	= 0;
 talkY	= 0;
