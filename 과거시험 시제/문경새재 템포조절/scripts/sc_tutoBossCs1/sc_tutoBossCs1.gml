@@ -3,7 +3,7 @@
 function sc_tutoBossCs1(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
-	if (state == 3) x = x + 8;
+	if (state == 5) x = x + 8;
 	
 	var ii = 720;
 	var iy = 640
@@ -17,6 +17,18 @@ function sc_tutoBossCs1(){
 			break;
 			
 		case 1:
+			alarm[1] = 10;
+			uc_shake(6, 0.05);
+			audio_play_sound(s_hit01, 1, false);
+			break;
+			
+		case 2:
+			alarm[1] = 30;
+			uc_shake(6, 0.05);
+			audio_play_sound(s_hit01, 1, false);
+			break;
+			
+		case 3:
 			alarm[1] = 8;
 			isTalk = 4;
 			jp = instance_create_layer(100, 1620, "Instances", ob_jpSword);
@@ -24,7 +36,7 @@ function sc_tutoBossCs1(){
 			jp.dir = -1;
 			break;
 			
-		case 2:
+		case 4:
 			alarm[1] = 80;
 			uc_shake(10, 0.05);
 			audio_play_sound(s_hit01, 1, false);
@@ -33,41 +45,58 @@ function sc_tutoBossCs1(){
 			jp.hp = 0;
 			break;
 			
-		case 3:
+		case 5:
 			alarm[1] = 80;
 			sprite_index = sp_pl_run;
 			break;
 			
-		case 4:
-			alarm[1] = 120;
+		case 6:
+			alarm[1] = 1;
 			sprite_index = sp_pl_stand;
 			isTalk = 5;
 			break;
 			
-		case 5:
+		case 7:
 			var name = "????";
-			var text = "????";
+			var text = "거기까지다!";
 			sc_csBase(name, sp_npc_blank, text, -50, -50);
 			break;
 			
-		case 6:
+		case 8:
 			ob_roomControl.isTalk = 7;
 			sc_csBase2(x-130, 560);
 			isTalk = 4;
 			alarm[1] = 120;
 			break;
 			
-		case 7:
+		case 9:
 			alarm[1] = 210;
 			isTalk = 4;
 			break;
 			
-		case 8:
-			alarm[1] = 160;
+		case 10:
+			alarm[1] = 60;
 			isTalk = 4;
 			break;
 			
-		case 9:
+		case 11:
+			alarm[1] = 36;
+			isTalk = 4;
+			break;
+			
+		case 12:
+			alarm[1] = 60;
+			uc_shake(10, 0.05);
+			audio_play_sound(s_swing_a1, 1, false);
+			isTalk = 4;
+			break;
+			
+		case 13:
+			alarm[1] = 150;
+			isTalk = 4;
+			break;
+			
+		case 14:
 			ob_roomControl.alarm[7] = 1;
 			break;
 		}
