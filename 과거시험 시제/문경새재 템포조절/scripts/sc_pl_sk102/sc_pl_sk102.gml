@@ -32,7 +32,7 @@ function sc_pl_sk102(){
 	
 	if ( atkProcess == 14 ) {
 		atk = instance_create_layer(x+ dir * -300, y+20, "effect", ob_atkEf03);
-		atk.damage = sc_pl_kickDmg()*8;
+		atk.damage = sc_pl_kickDmg()*12;
 		atk.shock = sc_pl_kickShock()+100;
 		atk.pene = sc_pl_kickPene()+40;
 		atk.hitAfter = 15;

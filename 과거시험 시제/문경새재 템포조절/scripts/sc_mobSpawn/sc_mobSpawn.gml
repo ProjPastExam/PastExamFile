@@ -3,6 +3,7 @@
 function sc_mobSpawn(){
 	state		= 0;
 	hitAfter	= 0;
+	hitAfter2	= 0;
 	hitDir		= 0;
 	delay		= 0;
 	ad			= false;

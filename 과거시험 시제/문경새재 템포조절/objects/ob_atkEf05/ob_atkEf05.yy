@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_hitEffect_sin",
-    "path": "sprites/sp_hitEffect_sin/sp_hitEffect_sin.yy",
+    "name": "sp_pl_atkEf101",
+    "path": "sprites/sp_pl_atkEf101/sp_pl_atkEf101.yy",
   },
   "solid": false,
   "visible": true,

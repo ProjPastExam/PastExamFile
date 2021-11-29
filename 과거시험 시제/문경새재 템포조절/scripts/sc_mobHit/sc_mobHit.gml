@@ -166,8 +166,8 @@ function sc_mobHit( argument0 ){
 			var shock = ob_atkEf05.shock;
 			var shVal = (shock - down)/10;
 			if ( knockback ) { 
-				if ( state == 8 ) { process = 25; ySpeed = -12; }
-				else if ( !isDF ) {state = 7; ySpeed = -10; process = shVal;}
+				if ( state == 8 ) { process = 15; ySpeed = -9; }
+				else if ( !isDF ) {state = 7; ySpeed = -9; process = shVal;}
 			}
 			process = int64(process);
 			hitAfter = ob_atkEf05.hitAfter;
@@ -210,7 +210,7 @@ function sc_mobHit( argument0 ){
 				else if ( !isDF ) {state = 7; ySpeed = -9; process = shVal;}
 			}
 			process = int64(process);
-			hitAfter = ob_atkEf06.hitAfter;
+			hitAfter2 = ob_atkEf06.hitAfter;
 			
 			dmg = sc_mobDmg(ob_atkEf06.damage, ob_atkEf06.pene);
 			

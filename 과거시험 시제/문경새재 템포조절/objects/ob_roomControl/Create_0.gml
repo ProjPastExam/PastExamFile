@@ -29,8 +29,9 @@ skUi = array_create(300, sp_skillUi_0);
 skUi[0] = sp_skillUi_0;
 skUi[100] = sp_skillUi_101;
 skUi[101] = sp_skillUi_101;
-skUi[102] = sp_skillUi_101;
-skUi[103] = sp_skillUi_101;
+skUi[102] = sp_skillUi_102;
+skUi[103] = sp_skillUi_103;
+skUi[104] = sp_skillUi_104;
 
 }
 //파티클 시스템

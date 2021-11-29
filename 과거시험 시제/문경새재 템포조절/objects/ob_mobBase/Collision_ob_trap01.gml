@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-if ( hitAfter == 0 ) sc_mobHit(1);
+if ( hitAfter2 == 0 ) sc_mobHit(1);

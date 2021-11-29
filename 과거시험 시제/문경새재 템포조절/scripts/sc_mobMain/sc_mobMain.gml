@@ -1,8 +1,9 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_mobMain(){
-	if ( !isJump )	xSpeed = 0;
-	if ( hitAfter > 0 ) hitAfter--;
+	if ( !isJump )			xSpeed = 0;
+	if ( hitAfter > 0 )		hitAfter--;
+	if ( hitAfter2 > 0 )	hitAfter2--;
 	image_xscale = dir;
 		
 	if ( patrol ) sc_mobPatrol();
