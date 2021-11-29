@@ -46,6 +46,7 @@ else if ( isTalk == 5) {
 	isGUI = false;
 	if ( keyboard_check_pressed(ord("X")) ) {
 		talkCnt++;
+		ob_csParent.active = true;
 	}
 }
 //if ((isTalk < 4 || isTalk > 7) && !isCt ) alarm[7] = 1;

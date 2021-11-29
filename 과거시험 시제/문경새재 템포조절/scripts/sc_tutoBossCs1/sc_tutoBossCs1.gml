@@ -5,10 +5,8 @@ function sc_tutoBossCs1(){
 	var isT = ob_roomControl.isTalk;
 	if (state == 5) x = x + 8;
 	
-	var ii = 720;
-	var iy = 640
 	
-	if (((isT == 4 || isT == 6 || isT == 7) && active == true) || isT == 5) {
+	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
 		active = false;
 		switch (state) {
 		case 0:
@@ -57,6 +55,7 @@ function sc_tutoBossCs1(){
 			break;
 			
 		case 7:
+			audio_play_sound(s_talk, 1, false);
 			var name = "????";
 			var text = "거기까지다!";
 			sc_csBase(name, sp_npc_blank, text, -50, -50);

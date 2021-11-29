@@ -50,7 +50,7 @@
     "spriteId": {"name":"sp_jpBoss_atk1_1","path":"sprites/sp_jpBoss_atk1_1/sp_jpBoss_atk1_1.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 10.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
