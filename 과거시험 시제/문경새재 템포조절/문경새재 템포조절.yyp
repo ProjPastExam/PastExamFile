@@ -547,6 +547,7 @@
     {"id":{"name":"sp_banditBoss01_atk01Ef","path":"sprites/sp_banditBoss01_atk01Ef/sp_banditBoss01_atk01Ef.yy",},"order":5,},
     {"id":{"name":"obj_light_torch","path":"objects/obj_light_torch/obj_light_torch.yy",},"order":4,},
     {"id":{"name":"sp_white","path":"sprites/sp_white/sp_white.yy",},"order":15,},
+    {"id":{"name":"sc_tutoChunCs1","path":"scripts/sc_tutoChunCs1/sc_tutoChunCs1.yy",},"order":6,},
     {"id":{"name":"uc_enable_room_bounds_enabled","path":"scripts/uc_enable_room_bounds_enabled/uc_enable_room_bounds_enabled.yy",},"order":2,},
     {"id":{"name":"ob_banditBoss","path":"objects/ob_banditBoss/ob_banditBoss.yy",},"order":7,},
     {"id":{"name":"ob_demoEnd","path":"objects/ob_demoEnd/ob_demoEnd.yy",},"order":3,},
@@ -596,6 +597,7 @@
     {"id":{"name":"s_bandit01die1","path":"sounds/s_bandit01die1/s_bandit01die1.yy",},"order":2,},
     {"id":{"name":"uc_get_room_bounds_enabled","path":"scripts/uc_get_room_bounds_enabled/uc_get_room_bounds_enabled.yy",},"order":0,},
     {"id":{"name":"sp_jpMb_pain","path":"sprites/sp_jpMb_pain/sp_jpMb_pain.yy",},"order":4,},
+    {"id":{"name":"r_tutorialChunCs1","path":"rooms/r_tutorialChunCs1/r_tutorialChunCs1.yy",},"order":6,},
     {"id":{"name":"sp_pl_standPeace","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"order":14,},
     {"id":{"name":"uc_get_mode","path":"scripts/uc_get_mode/uc_get_mode.yy",},"order":0,},
     {"id":{"name":"demo_stage03","path":"rooms/demo_stage03/demo_stage03.yy",},"order":5,},
@@ -761,6 +763,7 @@
     {"roomId":{"name":"r_tutorialBossCs1","path":"rooms/r_tutorialBossCs1/r_tutorialBossCs1.yy",},},
     {"roomId":{"name":"r_tutorialBoss","path":"rooms/r_tutorialBoss/r_tutorialBoss.yy",},},
     {"roomId":{"name":"r_tutorialBossCs2","path":"rooms/r_tutorialBossCs2/r_tutorialBossCs2.yy",},},
+    {"roomId":{"name":"r_tutorialChunCs1","path":"rooms/r_tutorialChunCs1/r_tutorialChunCs1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
