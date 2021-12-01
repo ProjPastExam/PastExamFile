@@ -7,9 +7,9 @@ for (var i = 0; i < 6; i++) {
 }
 
 //room_goto(demo_text);
-room_goto(demo_stage05);
+//room_goto(demo_stage05);
 //room_goto(r_tutorialBossCs2);
 //room_goto(r_tutorialChunCs1);
-//room_goto(r_tutorialCs3);
+room_goto(r_tutorialCs1);
 //room_goto(TestRoom);
 //room_goto(r_start);
