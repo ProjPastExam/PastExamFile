@@ -31,7 +31,8 @@ function sc_pl_atk2(){
 			//atk.hitAfter = 15;
 			atk.image_xscale = dir;
 			atk.dir = dir;
-			audio_play_sound(s_arrow02, 5, false);
+			SE_Play(s_arrow02, global.vol);
+			//audio_play_sound(s_arrow02, 5, false);
 		}
 		else {
 			atk = instance_create_layer(x, y, "effect", ob_atkEf01);
@@ -42,7 +43,8 @@ function sc_pl_atk2(){
 			atk.sprite_index = sp_pl_atkEf02;
 			atk.image_xscale = dir;
 			atk.mpUp = sc_pl_atkMana();
-			audio_play_sound(s_arrow02, 5, false);
+			SE_Play(s_arrow02, global.vol);
+			//audio_play_sound(s_arrow02, 5, false);
 		}
 	}
 	

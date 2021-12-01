@@ -32,9 +32,10 @@ function sc_bandit03Atk(){
 		sprite_index = sp_bandit03_atk;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { audio_play_sound(s_bandit01atk1, 8, false); }
+		if ( process == 1 ) { SE_Play(s_bandit01atk1, global.vol); }
 		if ( process == 65 ) { 
-			audio_play_sound(s_swing_b1, 8, false);
+			SE_Play(s_swing_b1, global.vol);
+			//audio_play_sound(s_swing_b1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_bandit03_atkEf1;
@@ -69,7 +70,8 @@ function sc_bandit03Atk(){
 		xSpeed = 0;
 		
 		if ( process == 20 ) { 
-			audio_play_sound(s_swing_b2, 8, false);
+			SE_Play(s_swing_b2, global.vol);
+			//audio_play_sound(s_swing_b2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_bandit03_atkEf2;

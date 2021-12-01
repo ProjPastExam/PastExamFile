@@ -21,6 +21,7 @@ function sc_banditBossAtk(){
 	var plX = sc_pl_get("x");
 	var plY = sc_pl_get("y");
 	if ( state == 10 ) {
+		sprite_index = stand2Sp;
 		if ( x > plX ) dir = -1;
 		else dir = 1;
 		if ( delay == 0 ) {
@@ -80,10 +81,11 @@ function sc_banditBossAtk(){
 		sprite_index = sp_banditBoss_atk1;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { audio_play_sound(s_bandit02atk1, 8, false); }
+		if ( process == 1 ) { SE_Play(s_bandit02atk1, global.vol); }
 		
 		if ( process == 30 ) { 
-			audio_play_sound(s_bandit02atk2, 8, false);
+			SE_Play(s_bandit02atk2, global.vol);
+			//audio_play_sound(s_bandit02atk2, 8, false);
 			var axe = array_create(3);
 			
 			axe[1] = instance_create_layer(x-(10*dir), y, "effect", ob_mobBandit02Atk);
@@ -134,10 +136,11 @@ function sc_banditBossAtk(){
 		sprite_index = sp_banditBoss_atk2;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { audio_play_sound(s_jp_dAtk, 8, false); }
+		if ( process == 1 ) { SE_Play(s_jp_dAtk, global.vol); }
 		
 		if ( process == 100 ) { 
-			audio_play_sound(s_swing_a1, 8, false);
+			SE_Play(s_swing_a1, global.vol);
+			//audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_banditBoss_atk2Ef;
@@ -192,24 +195,27 @@ function sc_banditBossAtk(){
 		
 		isDK = true;
 		
-		if ( process == 1 ) { audio_play_sound(s_jp_dAtk, 8, false); }
+		if ( process == 1 ) { SE_Play(s_jp_dAtk, global.vol); }
 		
 		if ( process == 55 ) { 
-			audio_play_sound(s_swing_a2, 8, false);
+			SE_Play(s_swing_a2, global.vol);
+			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_banditBoss_atk3Ef1;
 		}
 		
 		if ( process == 90 ) { 
-			audio_play_sound(s_swing_a2, 8, false);
+			SE_Play(s_swing_a2, global.vol);
+			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_banditBoss_atk3Ef1;
 		}
 		
 		if ( process == 140 ) { 
-			audio_play_sound(s_swing_a2, 8, false);
+			SE_Play(s_swing_a2, global.vol);
+			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_banditBoss_atk3Ef3;
@@ -280,10 +286,11 @@ function sc_banditBossAtk(){
 		
 		isDK = true;	isDF = true;
 		
-		if ( process == 1 ) { audio_play_sound(s_jp_dAtk, 8, false); }
+		if ( process == 1 ) { SE_Play(s_jp_dAtk, global.vol); }
 		
 		if ( process == 65 || process == 95 || process == 125 || process == 155) { 
-			audio_play_sound(s_swing_a1, 8, false);
+			SE_Play(s_swing_a1, global.vol);
+			//audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			if (process == 65) ob.sprite_index = sp_banditBoss_atk4Ef1;

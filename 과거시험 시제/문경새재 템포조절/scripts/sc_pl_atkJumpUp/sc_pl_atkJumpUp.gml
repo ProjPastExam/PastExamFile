@@ -27,7 +27,8 @@ function sc_pl_atkJumpUp(){
 		atk.sprite_index = sp_pl_atkEf04;
 		atk.image_xscale = dir;
 		atk.mpUp = sc_pl_kickMana();
-		audio_play_sound(s_kick01, 5, false);
+		SE_Play(s_kick01, global.vol);
+		//audio_play_sound(s_kick01, 5, false);
 	}
 	
 	//대쉬 제어

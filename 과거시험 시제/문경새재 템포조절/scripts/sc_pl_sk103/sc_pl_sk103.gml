@@ -26,7 +26,8 @@ function sc_pl_sk103(){
 	}
 	*/
 	if ( atkProcess == 8 || atkProcess == 48 || atkProcess == 88 ) {
-		audio_play_sound(s_swing_c1, 5, false);
+		SE_Play(s_swing_c1, global.vol);
+		//audio_play_sound(s_swing_c1, 5, false);
 		atk = instance_create_layer(x + dir*50, y, "effect", ob_atkEf07);
 		atk.damage = sc_pl_kickDmg()*8;
 		atk.shock = sc_pl_kickShock();

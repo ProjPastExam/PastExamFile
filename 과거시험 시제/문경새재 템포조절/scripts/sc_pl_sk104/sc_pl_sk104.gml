@@ -23,7 +23,8 @@ function sc_pl_sk104(){
 	
 	if ( atkProcess == 10 || atkProcess == 20 ||atkProcess == 30 ||atkProcess == 40 ||
 			atkProcess == 50) {
-		audio_play_sound(s_arrow01, 5, false);
+		SE_Play(s_arrow01, global.vol);
+		//audio_play_sound(s_arrow01, 5, false);
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
 		atk.damage = sc_pl_atkDmg()*1.2;
 		atk.shock = sc_pl_atkShock();

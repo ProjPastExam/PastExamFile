@@ -28,12 +28,13 @@ function sc_pl_dash(){
 			jumpLast = 30;
 			//if (keyLeft) xSpeed = -8.5;
 			//if (keyRight) xSpeed = 8.5;
-			audio_play_sound(s_jump, 5, false);
+			SE_Play(s_jump, global.vol);
+			//audio_play_sound(s_jump, 5, false);
 			return;
 		}
 	}
 	
-	if (dProcess == 0) audio_play_sound(s_dash01, 5, false);
+	if (dProcess == 0) SE_Play(s_dash01, global.vol);//audio_play_sound(s_dash01, 5, false);
 	dProcess++;
 	sprite_index = sp_pl_dash;
 	image_xscale = dir;

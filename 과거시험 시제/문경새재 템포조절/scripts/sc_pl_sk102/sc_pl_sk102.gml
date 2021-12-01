@@ -27,7 +27,8 @@ function sc_pl_sk102(){
 	}
 	*/
 	if ( atkProcess == 1 ) {
-		audio_play_sound(s_dash01, 5, false);
+		SE_Play(s_dash01, global.vol);
+		//audio_play_sound(s_dash01, 5, false);
 	}
 	
 	if ( atkProcess == 14 ) {
@@ -38,7 +39,8 @@ function sc_pl_sk102(){
 		atk.hitAfter = 15;
 		atk.sprite_index = sp_pl_atkEf102;
 		atk.image_xscale = dir;
-		audio_play_sound(s_bandit02atk2, 5, false);
+		SE_Play(s_bandit02atk2, global.vol);
+		//audio_play_sound(s_bandit02atk2, 5, false);
 		global.mp -= skMp[102];
 		//if (sc_getRoomValue("pause") != NULL) ob_roomControl.pause = 20;
 		//global.mp -= 200;

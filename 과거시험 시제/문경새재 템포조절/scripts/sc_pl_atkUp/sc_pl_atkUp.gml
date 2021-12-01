@@ -20,7 +20,8 @@ function sc_pl_atkUp(){
 		atk.sprite_index = sp_pl_atkEf04;
 		atk.image_xscale = dir;
 		atk.mpUp = sc_pl_kickMana();
-		audio_play_sound(s_kick01, 5, false);
+		SE_Play(s_kick01, global.vol);
+		//audio_play_sound(s_kick01, 5, false);
 	}
 	
 	if ( atkProcess == 32 ) {
@@ -33,6 +34,7 @@ function sc_pl_atkUp(){
 		atk.mpUp = 12;
 		if ( dir == 1 )		atk.image_angle = 35;
 		if ( dir == -1 )	atk.image_angle = 145;
+		SE_Play(s_arrow02, global.vol);
 		audio_play_sound(s_arrow02, 5, false);
 	}
 	
