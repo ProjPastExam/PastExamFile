@@ -10,6 +10,9 @@ global.hp		= global.hpMax;
 global.mpMax	= 1000;
 global.mp		= 0;
 
+global.vol		= 50;
+global.volBgm	= 50;
+
 //공격 관련 수치
 {
 global.atkDmg		= 16;	//공격력

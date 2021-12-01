@@ -1,12 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-if ( sc_getRoomValue("slow") == 0 )	{
-	image_speed = 1;
-}
-else {
-	image_speed = room_speed/60;
-}
-
 if ( sc_getRoomValue("pause") == 0 ) {
 	if (itemCheck) { sc_pl_itemCheck(); itemCheck = false; }
 	if (mobAcc != 0) {	//몹 충돌
@@ -45,6 +38,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		else if ( !isJump ) image_index = 6;
 	}
 	if (canMove == -10) { sprite_index = sp_pl_standPeace; xSpeed = 0; }
+	image_speed = 1;
 }
 else {
 	image_speed = 0;

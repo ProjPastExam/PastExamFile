@@ -1,14 +1,9 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_tutoBossCs2(){
+function sc_tutoChunCs1(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
-	if (state == 12) x = x - 10;
-	if (state == 13) x = x - 10;
-	if (state == 14) x = x - 8;
-	if (state == 15) x = x - 6;
-	if (state == 16) x = x - 4;
-	if (state == 17) x = x - 2;
+	if (state == 0) y = y + 2;
 	
 	var ix = 1700;
 	var iy = 480;
@@ -16,6 +11,13 @@ function sc_tutoBossCs2(){
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7 || isT == 8) && active == true)) {
 		active = false;
 		switch (state) {
+			
+		case 0:
+			alarm[1] = 300;
+			isTalk = 4;
+			break;
+			
+		/*
 		case 0:
 			alarm[1] = 160;
 			isTalk = 8;
@@ -129,7 +131,7 @@ function sc_tutoBossCs2(){
 		case 19:
 			ob_roomControl.alarm[7] = 1;
 			break;
-		
+		*/
 		}
 	}
 }

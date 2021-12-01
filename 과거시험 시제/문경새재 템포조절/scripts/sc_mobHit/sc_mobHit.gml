@@ -70,8 +70,8 @@ function sc_mobHit( argument0 ){
 
 		case 1:
 			//if (knockback) state = 10;
-			hitAfter = 30;
-			dmg = 40;
+			hitAfter2 = 30;
+			dmg = 50;
 			hp -= dmg;
 			dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 			dmgId.dmg = dmg;

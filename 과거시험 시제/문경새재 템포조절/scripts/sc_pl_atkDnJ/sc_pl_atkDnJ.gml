@@ -9,7 +9,8 @@ function sc_pl_atkDnJ( index = 0 ){
 			jumpLast = 30;
 			if (keyLeft) xSpeed = -8.5;
 			if (keyRight) xSpeed = 8.5;
-			audio_play_sound(s_jump, 5, false);
+			SE_Play(s_jump, global.vol);
+			//audio_play_sound(s_jump, 5, false);
 		}
 		
 	}

@@ -1,11 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-if ( sc_getRoomValue("slow") == 0 )	{
-	image_speed = 1;
-}
-else {
-	image_speed = room_speed/60;
-}
 
 if ( sc_getRoomValue("pause") == 0 ) {
 	var tileId	= layer_tilemap_get_id("Tile_Collision");
@@ -18,6 +12,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	if ( bottom1 == 2 && bottom2 != 2 && ySpeed > 0 ) { y += 16; }
 	sc_obPhysics();
 	image_xscale = dir;
+	image_speed = 1;
 }
 else {
 	image_speed = 0;
