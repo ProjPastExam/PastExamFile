@@ -23,7 +23,7 @@ function sc_cs02(){
 			break;
 			
 		case 2:
-			audio_play_sound(s_talk, 1, false);
+			SE_Play(s_talk, global.vol);
 			sprite_index = sp_pl_standPeace;
 			var name = "???"
 			var text = "으아앙!";
@@ -49,7 +49,6 @@ function sc_cs02(){
 			break;
 		
 		case 6:
-			audio_play_sound(s_talk, 1, false);
 			var name = "어린아이"
 			var text = "제발..저좀 도와주세요.. 엉엉";
 			sc_csBase(name, sp_cs02_face, text, ii, iy);
@@ -76,21 +75,18 @@ function sc_cs02(){
 			break;
 		
 		case 10:
-			audio_play_sound(s_talk, 1, false);
 			var name = "어린아이"
 			var text = "저희 가족들이.. 다른 마을에 볼일이 있어.. \n백마산 길을 지나는데..";
 			sc_csBase(name, sp_cs02_face, text, ii, iy);
 			break;
 		
 		case 11:
-			audio_play_sound(s_talk, 1, false);
 			var name = "어린아이"
 			var text = "갑자기 왜놈들이 나타나서.. 가족과 일행을 다 잡아갔어요!..";
 			sc_csBase(name, sp_cs02_face, text, ii, iy);
 			break;
 			
 		case 12:
-			audio_play_sound(s_talk, 1, false);
 			var name = "어린아이"
 			var text = "어떻게 저만 간신히 도망쳤는데...";
 			sc_csBase(name, sp_cs02_face, text, ii, iy);
@@ -104,7 +100,6 @@ function sc_cs02(){
 			break;
 		
 		case 14:
-			audio_play_sound(s_talk, 1, false);
 			var name = "어린아이"
 			var text = "저희 가족들좀 구해주세요!.. 엉엉..";
 			sc_csBase(name, sp_cs02_face, text, ii, iy);

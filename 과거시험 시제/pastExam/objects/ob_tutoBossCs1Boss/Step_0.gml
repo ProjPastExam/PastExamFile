@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 var state = ob_roomControl.talkCnt;
-var isT = ob_roomControl.isTalk;
 if (state == 9) x = x - 3;
 
 

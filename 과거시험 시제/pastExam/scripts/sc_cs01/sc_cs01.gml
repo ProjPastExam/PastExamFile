@@ -18,14 +18,12 @@ function sc_cs01(){
 			break;
 			
 		case 1:
-			audio_play_sound(s_talk, 1, false);
 			var name = "행인 1"
 			var text = "그럼, 다음 길은 어디로 갑니까?";
 			sc_csBase(name, sp_cs01_face1, text, hang1, 530);
 			break;
 			
 		case 2:
-			audio_play_sound(s_talk, 1, false);
 			var name = "행인 2"
 			var text = "이 앞길을 따라 가다보면 백마산이 나오지, \n산길을 따라가면 다음 마을에 도착할거요.";
 			sc_csBase(name, sp_cs01_face2, text, hang2, 540);
@@ -39,7 +37,6 @@ function sc_cs01(){
 			break;
 			
 		case 4:
-			audio_play_sound(s_talk, 1, false);
 			var name = "주모"
 			var text = "아이고, 아직 소식도 못들었어요? \n백마산길은 피해가는게 좋을거에요!";
 			sc_csBase(name, sp_jumo_face, text, jumo, 580);
@@ -53,28 +50,24 @@ function sc_cs01(){
 			break;
 		
 		case 6:
-			audio_play_sound(s_talk, 1, false);
 			var name = "행인 2"
 			var text = "백마산에 무슨 일이라도 있소?";
 			sc_csBase(name, sp_cs01_face2, text, hang2, 540);
 			break;
 		
 		case 7:
-			audio_play_sound(s_talk, 1, false);
 			var name = "주모"
 			var text = "왜란때 들어왔던 왜놈 몇몇이 백마산이 제 집인양 들어앉았지 뭐에요!";
 			sc_csBase(name, sp_jumo_face, text, jumo, 580);
 			break;
 			
 		case 8:
-			audio_play_sound(s_talk, 1, false);
 			var name = "주모"
 			var text = "행인들이 보이면 모조리 약탈하고 있는데도, \n관청에서는 그냥 작은 산적떼라면서 손을 놓아버렸어요.";
 			sc_csBase(name, sp_jumo_face, text, jumo, 580);
 			break;
 			
 		case 9:
-			audio_play_sound(s_talk, 1, false);
 			var name = "주모"
 			var text = "괜히 초상이나 치르지 말고, 여기서 하루 묵고 큰 길로 돌아가셔요.";
 			sc_csBase(name, sp_jumo_face, text, jumo, 580);
@@ -88,7 +81,6 @@ function sc_cs01(){
 			break;
 		
 		case 11:
-			audio_play_sound(s_talk, 1, false);
 			var name = "행인 1"
 			var text = "그럼 그렇게 하는게 좋겠습니다.";
 			sc_csBase(name, sp_cs01_face1, text, hang1, 530);

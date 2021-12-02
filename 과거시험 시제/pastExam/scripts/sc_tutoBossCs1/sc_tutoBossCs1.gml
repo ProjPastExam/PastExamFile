@@ -17,13 +17,13 @@ function sc_tutoBossCs1(){
 		case 1:
 			alarm[1] = 10;
 			uc_shake(6, 0.05);
-			audio_play_sound(s_hit01, 1, false);
+			SE_Play(s_hit01, global.vol);
 			break;
 			
 		case 2:
 			alarm[1] = 30;
 			uc_shake(6, 0.05);
-			audio_play_sound(s_hit01, 1, false);
+			SE_Play(s_hit01, global.vol);
 			break;
 			
 		case 3:
@@ -37,7 +37,7 @@ function sc_tutoBossCs1(){
 		case 4:
 			alarm[1] = 80;
 			uc_shake(10, 0.05);
-			audio_play_sound(s_hit01, 1, false);
+			SE_Play(s_hit01, global.vol);
 			jp.ySpeed = -10;
 			isTalk = 4;
 			jp.hp = 0;
@@ -55,7 +55,6 @@ function sc_tutoBossCs1(){
 			break;
 			
 		case 7:
-			audio_play_sound(s_talk, 1, false);
 			var name = "????";
 			var text = "거기까지다!";
 			sc_csBase(name, sp_npc_blank, text, -50, -50);
@@ -86,7 +85,7 @@ function sc_tutoBossCs1(){
 		case 12:
 			alarm[1] = 60;
 			uc_shake(10, 0.05);
-			audio_play_sound(s_swing_a1, 1, false);
+			SE_Play(s_swing_a1, global.vol);
 			isTalk = 4;
 			break;
 			

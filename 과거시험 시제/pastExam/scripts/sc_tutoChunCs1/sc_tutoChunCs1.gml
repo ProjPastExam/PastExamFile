@@ -14,7 +14,44 @@ function sc_tutoChunCs1(){
 			
 		case 0:
 			alarm[1] = 300;
+			isTalk = 5;
+			break;
+			
+		case 1:
+			var name = "????";
+			var text = "......";
+			sc_csBase(name, sp_chun_face, text, -50, -50);
+			break;
+			
+		case 2:
+			ob_roomControl.isTalk = 4;
 			isTalk = 4;
+			alarm[1] = 70;
+			break;
+		
+		case 3:
+			alarm[1] = 1;
+			break;
+			
+		case 4:
+			alarm[1] = 120;
+			break;
+			
+		case 5:
+			alarm[1] = 1;
+			break;
+			
+		case 6:
+			alarm[1] = 40;
+			break;
+			
+		case 7:
+			alarm[1] = 120;
+			instance_create_layer(uc_get_x(), uc_get_y(), "effect", ob_whiteOut);
+			break;
+		
+		case 8:
+			ob_roomControl.alarm[7] = 1;
 			break;
 			
 		/*

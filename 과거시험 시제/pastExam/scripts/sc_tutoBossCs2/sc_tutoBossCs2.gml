@@ -37,7 +37,6 @@ function sc_tutoBossCs2(){
 			break;
 			
 		case 3:
-			audio_play_sound(s_talk, 2, false);
 			var name = "????";
 			var text = "......";
 			sc_csBase(name, sp_jpBoss_face, text, -50, -50);
@@ -48,13 +47,12 @@ function sc_tutoBossCs2(){
 			ob_roomControl.isTalk = 4;
 			sprite_index = sp_pl_stand;
 			alarm[1] = 160;
-			audio_play_sound(s_thun, 1, false);
+			SE_Play(s_thun, global.vol);
 			uc_shake(15, 0.05);
 			instance_create_layer(uc_get_x(), uc_get_y(), "effect", ob_whiteIn);
 			break;
 		
 		case 5:
-			audio_play_sound(s_talk, 2, false);
 			var name = "사무라이";
 			var text = "......";
 			sc_csBase(name, sp_jpBoss_face, text, ix, iy);
@@ -68,12 +66,12 @@ function sc_tutoBossCs2(){
 			
 		case 7:
 			uc_shake(5, 0.05);
-			audio_play_sound(s_swing_c2, 1, false);
+			SE_Play(s_swing_c2, global.vol);
 			alarm[1] = 80;
 			break;
 			
 		case 8:
-			audio_play_sound(s_dash01, 1, false);
+			SE_Play(s_dash01, global.vol);
 			alarm[1] = 18;
 			break;
 			
@@ -88,8 +86,8 @@ function sc_tutoBossCs2(){
 		case 11:
 			alarm[1] = 5;
 			uc_shake(10, 0.05);
-			audio_play_sound(s_swing_c1, 1, false);
-			audio_play_sound(s_plHit, 1, false);
+			SE_Play(s_swing_c1, global.vol);
+			SE_Play(s_plHit, global.vol);
 			part_particles_create( global.hitEf, x, y, global.hitEf04T, 1 );
 			sprite_index = sp_pl_die;
 			image_index = 0;
