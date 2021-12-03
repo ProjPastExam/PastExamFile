@@ -68,7 +68,7 @@ function sc_tutoChunCs2(){
 			
 		case 9:
 			var name = "성춘향";
-			var text = "백마산에서 파해쳐진 제 묫자리를 수습해 주신 걸 보고, \n당신을 몰래 따라다녔어요.";
+			var text = "백마산에서 파헤쳐진 제 묫자리를 수습해 주신 걸 보고, \n당신을 몰래 따라다녔어요.";
 			sc_csBase(name, sp_chun_face, text, ix, iy);
 			break;
 			
@@ -170,7 +170,7 @@ function sc_tutoChunCs2(){
 			
 		case 26:
 			var name = "성춘향";
-			var text = "방금처럼 당신이 위험에 빠지면 제가 도와드릴수도 있고, \n서로에게 남는 장사죠.";
+			var text = "방금처럼 당신이 위험에 빠지면 제가 도와드릴 수 있으니, \n서로에게 남는 장사죠.";
 			sc_csBase(name, sp_chun_face, text, ix, iy);
 			break;
 			
