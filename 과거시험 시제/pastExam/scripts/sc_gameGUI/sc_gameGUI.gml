@@ -1,13 +1,13 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_gameGUI(){
-	var GUIX = 70;
-	var GUIY = 30;
+	var GUIX = 50;
+	var GUIY = 20;
 	draw_set_alpha(1);
 	var i = 1;
 	draw_sprite_stretched(sp_mpbar, 0, GUIX-10, GUIY+100, 720, 96);
 	draw_sprite_stretched(sp_healthbar, global.hp, -50, GUIY-15, 900, 192);
-	draw_sprite(sp_skillBoxOut, 0, GUIX+213, GUIY+245);
+	draw_sprite(sp_skillBoxOut, 0, GUIX+203, GUIY+245);
 	
 	for ( i = 1; i <= 10; i++ ) {
 		if ( global.hpMax >= i ) {
@@ -43,28 +43,35 @@ function sc_gameGUI(){
 	{
 	var en = c_white;
 	if (ob_player.skMp[global.sk1] > global.mp) en = c_gray;
-	draw_sprite_ext(skUi[global.sk1], 0, GUIX-2, GUIY+173, 1, 1, 0, en, 1);
+	draw_sprite_ext(skUi[global.sk1], 0, GUIX-12, GUIY+173, 1, 1, 0, en, 1);
 	
 	en = c_white;
 	if (ob_player.skMp[global.sk2] > global.mp) en = c_gray;
-	draw_sprite_ext(skUi[global.sk2], 0, GUIX+135, GUIY+173, 1, 1, 0, en, 1);
+	draw_sprite_ext(skUi[global.sk2], 0, GUIX+125, GUIY+173, 1, 1, 0, en, 1);
 	
 	en = c_white;
 	if (ob_player.skMp[global.sk3] > global.mp) en = c_gray;
-	draw_sprite_ext(skUi[global.sk3], 0, GUIX+275, GUIY+173, 1, 1, 0, en, 1);
+	draw_sprite_ext(skUi[global.sk3], 0, GUIX+265, GUIY+173, 1, 1, 0, en, 1);
 	
 	var skMpVar = 0;
 	
 	skMpVar = (ob_player.skMp[global.sk1]/100);
-	draw_sprite(sp_skillBox, skMpVar, GUIX+70, GUIY+245);
+	draw_sprite(sp_skillBox, skMpVar, GUIX+60, GUIY+245);
 	
 	skMpVar = (ob_player.skMp[global.sk2]/100);
-	draw_sprite(sp_skillBox, skMpVar, GUIX+210, GUIY+245);
+	draw_sprite(sp_skillBox, skMpVar, GUIX+200, GUIY+245);
 	
 	skMpVar = (ob_player.skMp[global.sk3]/100);
-	draw_sprite(sp_skillBox, skMpVar, GUIX+350, GUIY+245);
+	draw_sprite(sp_skillBox, skMpVar, GUIX+340, GUIY+245);
 	
 	
+	}
+	
+	//아이템 UI 표시
+	{
+		for (i = 0; i < global.itemMax; i++) {
+			draw_sprite(sp_itemRing, 0, 120 + 130*i, 1000);
+		}
 	}
 	
 	
