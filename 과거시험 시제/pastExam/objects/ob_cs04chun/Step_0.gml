@@ -2,15 +2,6 @@
 // You can write your code in this editor
 
 var state = ob_roomControl.talkCnt;
-//if (state == 8) x = x - 36;
+if (state == 7 && image_alpha < 1) image_alpha += 0.01;
 
 
-
-switch (state) {
-	
-case 6:
-	
-	break;
-	
-}
-	

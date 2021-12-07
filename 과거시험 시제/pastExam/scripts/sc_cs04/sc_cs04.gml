@@ -3,6 +3,9 @@
 function sc_cs04(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
+	
+	if (state == 3) ob_player.x += 4;
+	if (state == 5) x += 8;
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
@@ -20,8 +23,33 @@ function sc_cs04(){
 			break;
 			
 		case 2:
-			alarm[1] = 120;
+			alarm[1] = 20;
 			sprite_index = sp_pl_standPeace;
+			break;
+			
+		case 3:
+			alarm[1] = 240;
+			break;
+			
+		case 4:
+			alarm[1] = 80;
+			break;
+			
+		case 5:
+			alarm[1] = 240;
+			sprite_index = sp_pl_run;
+			break;
+			
+		case 6:
+			alarm[1] = 30;
+			break;
+			
+		case 7:
+			alarm[1] = 240;
+			break;
+			
+		case 8:
+			ob_roomControl.alarm[7] = 1;
 			break;
 			
 			/*

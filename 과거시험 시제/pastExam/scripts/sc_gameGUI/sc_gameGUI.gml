@@ -70,7 +70,7 @@ function sc_gameGUI(){
 	//아이템 UI 표시
 	{
 		for (i = 0; i < global.itemMax; i++) {
-			draw_sprite(sp_itemRing, 0, 120 + 130*i, 1000);
+			draw_sprite(sp_itemRing, 0, 90 + 130*i, 1000);
 		}
 	}
 	

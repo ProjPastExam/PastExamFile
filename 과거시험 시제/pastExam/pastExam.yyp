@@ -557,6 +557,7 @@
     {"id":{"name":"sp_jpSpear_stand2","path":"sprites/sp_jpSpear_stand2/sp_jpSpear_stand2.yy",},"order":1,},
     {"id":{"name":"demo_stageEnd","path":"rooms/demo_stageEnd/demo_stageEnd.yy",},"order":25,},
     {"id":{"name":"sc_bandit04Atk","path":"scripts/sc_bandit04Atk/sc_bandit04Atk.yy",},"order":11,},
+    {"id":{"name":"ob_cs04chun","path":"objects/ob_cs04chun/ob_cs04chun.yy",},"order":16,},
     {"id":{"name":"sp_bandit02_walk","path":"sprites/sp_bandit02_walk/sp_bandit02_walk.yy",},"order":5,},
     {"id":{"name":"ob_jpSword","path":"objects/ob_jpSword/ob_jpSword.yy",},"order":1,},
     {"id":{"name":"sc_tutoBossCs2","path":"scripts/sc_tutoBossCs2/sc_tutoBossCs2.yy",},"order":5,},

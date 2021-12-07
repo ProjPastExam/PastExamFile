@@ -55,6 +55,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":1440.0,"resourceVersion":"1.0","name":"inst_1E577C90_5_1_1_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_cs04pl","path":"objects/ob_cs04pl/ob_cs04pl.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":1440.0,"resourceVersion":"1.0","name":"inst_2E4E4BF8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_cs04chun","path":"objects/ob_cs04chun/ob_cs04chun.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1280.0,"y":1376.0,"resourceVersion":"1.0","name":"inst_4271FE1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"effect2","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"t_stage2","path":"tilesets/t_stage2/t_stage2.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":44,"SerialiseHeight":29,"TileSerialiseData":[
@@ -107,6 +108,7 @@
     {"name":"inst_76146EC9_3_1_1_1","path":"rooms/r_tutorialCs4/r_tutorialCs4.yy",},
     {"name":"inst_1E577C90_5_1_1_1","path":"rooms/r_tutorialCs4/r_tutorialCs4.yy",},
     {"name":"inst_2E4E4BF8","path":"rooms/r_tutorialCs4/r_tutorialCs4.yy",},
+    {"name":"inst_4271FE1","path":"rooms/r_tutorialCs4/r_tutorialCs4.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
