@@ -1,80 +1,27 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_cs03(){
+function sc_cs04(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
-	if (state == 1 ) x = x + 8;
-	if (state == 7 ) x = x + 3;
-	
-	var ii = 720;
-	var iy = 640
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
 		active = false;
 		switch (state) {
 		case 0:
-			alarm[1] = 300;
+			alarm[1] = 210;
 			isTalk = 4;
 			break;
 			
 		case 1:
-			alarm[1] = 90;
-			isTalk = 4;
+			alarm[1] = 50;
+			image_index = 0;
+			sprite_index = sp_cs02_plStand;
 			break;
 			
 		case 2:
-			alarm[1] = 5;
-			sprite_index = sp_pl_stand;
-			isTalk = 7;
-			break;
-			
-		case 3:
-			ob_roomControl.isTalk = 7;
-			sc_csBase2(x, 560);
-			isTalk = 4;
 			alarm[1] = 120;
-			break;
-			
-		case 4:
-			alarm[1] = 8;
-			SE_Play(s_hit01, global.vol);
-			instance_create_layer(uc_get_x(), uc_get_y(), "effect", ob_whiteIn);
-			break;
-			
-		case 5:
-			alarm[1] = 8;
-			SE_Play(s_hit01, global.vol);
-			instance_create_layer(uc_get_x(), uc_get_y(), "effect", ob_whiteIn);
-			break;
-			
-		case 6:
-			alarm[1] = 210;
 			sprite_index = sp_pl_standPeace;
-			SE_Play(s_hit01, global.vol);
-			instance_create_layer(uc_get_x(), uc_get_y(), "effect", ob_whiteIn);
-			break;
-			
-		case 7:
-			alarm[1] = 140;
-			sprite_index = sp_pl_walk;
-			break;
-			
-		case 8:
-			image_index = 0;
-			sprite_index = sp_cs02_plSit;
-			isTalk = 4;
-			alarm[1] = 60;
-			break;
-			
-		case 9:
-			sprite_index = sp_cs02_plSitDown;
-			isTalk = 4;
-			alarm[1] = 150;
-			break;
-			
-		case 10:
-			ob_roomControl.alarm[7] = 1;
 			break;
 			
 			/*
