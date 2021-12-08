@@ -69,8 +69,18 @@ function sc_gameGUI(){
 	
 	//아이템 UI 표시
 	{
-		for (i = 0; i < global.itemMax; i++) {
-			draw_sprite(sp_itemRing, 0, 90 + 130*i, 1000);
+		for (i = 0; i < global.itemNum; i++) {
+			
+			var gd = 0;
+			if (global.itemGet[i] != -1) 
+			{
+				gd = global.itemGrade[i] + 1;
+				draw_sprite_ext(sp_itemOut, gd, 80 + 140*i, 1000, 1, 1, 0, c_white, 0.5);
+				draw_sprite_ext(itemSp[global.itemGet[i]], gd-1, 80 + 140*i, 1000, 1, 1, 0, c_white, 0.5);
+			}
+			else draw_sprite_ext(sp_itemOut, gd, 80 + 140*i, 1000, 1, 1, 0, c_white, 0.5);
+			
+			draw_sprite_ext(sp_itemRing, 0, 80 + 140*i, 1000, 1, 1, 0, c_white, 0.5);
 		}
 	}
 	
