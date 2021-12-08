@@ -23,6 +23,8 @@ cmMode = 0;
 
 if (isCt) isTalk = 4;
 
+BGM_Play(roomBgm, global.volBgm, 0);
+
 //스킬 UI 설정
 {
 skUi = array_create(300, sp_skillUi_0);

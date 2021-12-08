@@ -12,6 +12,8 @@ global.mp		= 0;
 
 global.vol		= 50;
 global.volBgm	= 50;
+global.SM_BGM	= -1;
+global.SM_BGM_SOUND = NULL;
 
 //공격 관련 수치
 {
@@ -31,7 +33,7 @@ global.fireShock	= 200;
 global.fireMana		= 0;
 }
 
-global.sk1		= 0;
-global.sk2		= 0;
-global.sk3		= 0;
+global.sk1		= 103;
+global.sk2		= 102;
+global.sk3		= 101;
 

@@ -116,14 +116,16 @@
 
 	function BGM_Play( sound , vol , fade_step )
 	{
+		if (sound == global.SM_BGM_SOUND) return;
+		audio_stop_sound( global.SM_BGM );
 		//기존 브금 재생 종료
 		with( Obj_BGM_Manager )
-		{
+		{		
 			if ( SM_BGM_Destroy == false )
 			{
 				//페이드 후 재생 종료하기
 				SM_BGM_Destroy = true;
-			
+
 			
 				//시작볼륨과 끝 볼륨 설정
 				SM_BGM_Vol_Start = SM_BGM_Vol;
@@ -140,8 +142,9 @@
 		with( instance_create_depth( -50 , -50 , -100 , Obj_BGM_Manager ) )
 		{
 			//브금 재생 후 볼륨값 초기화
-			SM_BGM = audio_play_sound( sound , 1 , true );
-			audio_sound_gain( SM_BGM , 0 , 0 );
+			global.SM_BGM = audio_play_sound( sound , 1 , true );
+			global.SM_BGM_SOUND = sound;
+			audio_sound_gain( global.SM_BGM , 0 , 0 );
 		
 		
 			//시작볼륨과 끝 볼륨
