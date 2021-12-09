@@ -15,6 +15,12 @@ global.volBgm	= 50;
 global.SM_BGM	= -1;
 global.SM_BGM_SOUND = NULL;
 
+global.itemMax		= 4;
+global.itemSum		= 0;
+global.itemNum		= 4;
+global.itemGet 		= array_create(10, -1);
+global.itemGrade	= array_create(10, -1);
+
 //공격 관련 수치
 {
 global.atkDmg		= 16;	//공격력
