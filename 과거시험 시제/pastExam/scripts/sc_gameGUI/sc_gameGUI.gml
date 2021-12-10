@@ -66,7 +66,7 @@ function sc_gameGUI(){
 	
 	
 	}
-	
+	/*
 	//아이템 UI 표시
 	{
 		for (i = 0; i < global.itemNum; i++) {
@@ -84,5 +84,5 @@ function sc_gameGUI(){
 		}
 	}
 	
-	
+	*/
 }

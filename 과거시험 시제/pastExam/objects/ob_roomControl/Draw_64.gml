@@ -10,7 +10,7 @@ draw_sprite_stretched_ext(sp_black, 0, 0, 0, 1920, 1080, 0 ,dark/30);
 if (pause == -1) {
 	draw_sprite(sp_demoPause, 0, 0, 0);
 }
-if (pause == -10) {
+else if (pause == -10 || pause == -21) {
 	draw_sprite(sp_black2, 0, 0, 0);
 }
 
@@ -26,8 +26,7 @@ if (isTalk == 2) {
 	draw_text(250, 140, nameS);
 	draw_text(250, 230, talkArray[talkCnt]);
 }
-
-if ( isTalk == 5) {
+else if ( isTalk == 5) {
 	draw_sprite(sp_talk, 0, talkX, talkY);
 	draw_sprite(sp_black2, 0, 0, 0);
 	draw_sprite(npcFace, 0, 1455, 110);
@@ -41,16 +40,13 @@ if ( isTalk == 5) {
 	draw_text(250, 140, nameS);
 	draw_text(250, 230, talkArray[0]);
 }
-
-if (isTalk == 6) {
+else if (isTalk == 6) {
 	draw_sprite(sp_talkMul, talkZ, talkX, talkY);
 }
-
-if (isTalk == 7) {
+else if (isTalk == 7) {
 	draw_sprite(sp_talkNug, talkZ, talkX, talkY);
 }
-
-if (isTalk == 8) {
+else if (isTalk == 8) {
 	draw_sprite(sp_talk2, talkZ, talkX, talkY);
 }
 

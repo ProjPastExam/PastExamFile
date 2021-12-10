@@ -2,16 +2,15 @@
 // You can write your code in this editor
 
 if ( pause > 0 ) pause--;
-if ( slow > 0 )	slow--;
-if ( keyboard_check_pressed(vk_escape) && global.hp > 0 && pause >= -2 ) {
-	if ( pause == -1 )		pause = 0;
-	else if ( isTalk == 0 )	pause = -2;
-}
+//if ( slow > 0 )	slow--;
+
 if ( pause == -2 ) {
 	instance_create_depth(x, y, 0, ob_demoMain);
 	pause = -1;
 }
-if (pause == -9) { pause = 0; }
+else if (pause == -9) { pause = 0; }
+else if (pause == -20) { pause = -21; }
+
 if (hpProcess > 0) hpProcess--;
 
 //if (slow == 0) room_speed = 60;
