@@ -727,6 +727,7 @@
     {"id":{"name":"s_bandit01die2","path":"sounds/s_bandit01die2/s_bandit01die2.yy",},"order":3,},
     {"id":{"name":"s_bandit02atk1","path":"sounds/s_bandit02atk1/s_bandit02atk1.yy",},"order":1,},
     {"id":{"name":"uc_init_mouse_shooter","path":"scripts/uc_init_mouse_shooter/uc_init_mouse_shooter.yy",},"order":2,},
+    {"id":{"name":"sc_globalLoad","path":"scripts/sc_globalLoad/sc_globalLoad.yy",},"order":5,},
     {"id":{"name":"sp_mob_adEf","path":"sprites/sp_mob_adEf/sp_mob_adEf.yy",},"order":5,},
     {"id":{"name":"sp_bandit02_atkEffect2","path":"sprites/sp_bandit02_atkEffect2/sp_bandit02_atkEffect2.yy",},"order":9,},
     {"id":{"name":"ob_jpSwordS","path":"objects/ob_jpSwordS/ob_jpSwordS.yy",},"order":2,},
