@@ -238,6 +238,7 @@
     {"id":{"name":"ob_csParent","path":"objects/ob_csParent/ob_csParent.yy",},"order":1,},
     {"id":{"name":"uc_set_mouse_drag_button","path":"scripts/uc_set_mouse_drag_button/uc_set_mouse_drag_button.yy",},"order":3,},
     {"id":{"name":"sp_jpSpear_run","path":"sprites/sp_jpSpear_run/sp_jpSpear_run.yy",},"order":2,},
+    {"id":{"name":"sp_infoBack","path":"sprites/sp_infoBack/sp_infoBack.yy",},"order":1,},
     {"id":{"name":"ob_tutoBossCs1Boss","path":"objects/ob_tutoBossCs1Boss/ob_tutoBossCs1Boss.yy",},"order":5,},
     {"id":{"name":"ob_demoEndb","path":"objects/ob_demoEndb/ob_demoEndb.yy",},"order":10,},
     {"id":{"name":"sc_gameGUI","path":"scripts/sc_gameGUI/sc_gameGUI.yy",},"order":0,},
@@ -317,6 +318,7 @@
     {"id":{"name":"uc_get_target_x","path":"scripts/uc_get_target_x/uc_get_target_x.yy",},"order":0,},
     {"id":{"name":"s_pl_sk101","path":"sounds/s_pl_sk101/s_pl_sk101.yy",},"order":8,},
     {"id":{"name":"ob_demoInfo2","path":"objects/ob_demoInfo2/ob_demoInfo2.yy",},"order":5,},
+    {"id":{"name":"sp_infoSkillBox","path":"sprites/sp_infoSkillBox/sp_infoSkillBox.yy",},"order":0,},
     {"id":{"name":"sc_chang02Atk","path":"scripts/sc_chang02Atk/sc_chang02Atk.yy",},"order":1,},
     {"id":{"name":"sp_jpSword_atk","path":"sprites/sp_jpSword_atk/sp_jpSword_atk.yy",},"order":6,},
     {"id":{"name":"ob_jpGunEf","path":"objects/ob_jpGunEf/ob_jpGunEf.yy",},"order":7,},
@@ -975,6 +977,7 @@
     {"folderPath":"folders/Sounds/cs.yy","order":6,"resourceVersion":"1.0","name":"cs","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sound_Manager.yy","order":15,"resourceVersion":"1.0","name":"Sound_Manager","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/csSprite/csChun.yy","order":8,"resourceVersion":"1.0","name":"csChun","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/interface/tapInfo.yy","order":17,"resourceVersion":"1.0","name":"tapInfo","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
