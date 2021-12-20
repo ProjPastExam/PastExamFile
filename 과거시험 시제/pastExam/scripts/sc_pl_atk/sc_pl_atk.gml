@@ -21,6 +21,7 @@ function sc_pl_atk(){
 		if ( keySk2 ) nextAtk = -2;
 		if ( keySk3 ) nextAtk = -3;
 	}
+	
 	if ( atkProcess == 12 || atkProcess == 30 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
 		atk.damage = sc_pl_atkDmg();

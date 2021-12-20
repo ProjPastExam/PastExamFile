@@ -22,5 +22,25 @@ function sc_globalLoad(){
 	global.firePene		= VSLS_Get("firePene");
 	global.fireShock	= VSLS_Get("fireShock");
 	global.fireMana		= VSLS_Get("fireMana");
+	
+
+	
+	}
+	
+	//키 입력 수치
+	{
+	global.btLeft		= VSLS_Get("btLeft");
+	global.btRight		= VSLS_Get("btRight");
+	global.btUp			= VSLS_Get("btUp");
+	global.btDown		= VSLS_Get("btDown");
+	global.btAtk		= VSLS_Get("btAtk");
+	global.btDash		= VSLS_Get("btDash");
+	global.btJump		= VSLS_Get("btJump");
+	global.btSk1		= VSLS_Get("btSk1");
+	global.btSk2		= VSLS_Get("btSk2");
+	global.btSk3		= VSLS_Get("btSk3");
+	global.btInter		= VSLS_Get("btInter");
+	global.btEsc		= VSLS_Get("btEsc");
+	global.btTap		= VSLS_Get("btTap");
 	}
 }

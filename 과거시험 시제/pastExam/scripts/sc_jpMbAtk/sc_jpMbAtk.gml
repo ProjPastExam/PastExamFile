@@ -75,9 +75,10 @@ function sc_jpMbAtk(){
 		
 		isDK = true;	isDF = true;
 		
-		if ( process == 1 ) { audio_play_sound(s_jp_eAtk, 8, false); }
+		if ( process == 1 ) { SE_Play(s_jp_eAtk, global.vol); }
 		if ( process == 57 ) { 
-			audio_play_sound(s_swing_a1, 8, false);
+			SE_Play(s_swing_a1, global.vol);
+			//audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_jpMb_atk1_1Ef;
@@ -115,7 +116,8 @@ function sc_jpMbAtk(){
 		isDK = true;	isDF = true;
 		
 		if ( process == 10 ) { 
-			audio_play_sound(s_swing_a1, 8, false);
+			SE_Play(s_swing_a1, global.vol);
+			//audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_jpMb_atk1_2Ef;
@@ -159,14 +161,16 @@ function sc_jpMbAtk(){
 		if ( process == 1 ) { audio_play_sound(s_jp_dAtk, 8, false); }
 		
 		if ( process == 75 ) { 
-			audio_play_sound(s_swing_a2, 8, false);
+			SE_Play(s_swing_a2, global.vol);
+			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_jpMb_atk2_1Ef;
 		}
 		
 		if ( process == 110 ) { 
-			audio_play_sound(s_swing_a2, 8, false);
+			SE_Play(s_swing_a2, global.vol);
+			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_jpMb_atk2_2Ef;
@@ -214,9 +218,10 @@ function sc_jpMbAtk(){
 		sprite_index = sp_jpMb_atk3_1;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { audio_play_sound(s_jp_dAtk, 8, false); }
+		if ( process == 1 ) { SE_Play(s_jp_dAtk, global.vol); }
 		
 		if ( process == 82 ) { 
+			SE_Play(s_swing_a1, global.vol);
 			audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
@@ -241,7 +246,8 @@ function sc_jpMbAtk(){
 		//if ( process == 1 ) { audio_play_sound(s_jp_dAtk, 8, false); }
 		
 		if ( process == 24 ) { 
-			audio_play_sound(s_swing_a2, 8, false);
+			SE_Play(s_swing_a2, global.vol);
+			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_jpMb_atk3Ef;

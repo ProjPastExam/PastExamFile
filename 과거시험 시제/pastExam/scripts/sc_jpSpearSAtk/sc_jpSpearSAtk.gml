@@ -32,9 +32,10 @@ function sc_jpSpearSAtk(){
 		sprite_index = sp_jpSpearS_atk1;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { audio_play_sound(s_jp_dAtk, 8, false); }
-		if ( process == 61 ) { 
-			audio_play_sound(s_swing_a1, 8, false);
+		if ( process == 1 ) { SE_Play(s_jp_dAtk, global.vol); }
+		if ( process == 61 ) {
+			SE_Play(s_swing_a1, global.vol);
+			//audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_jpSpearS_atk1Ef;
@@ -67,7 +68,8 @@ function sc_jpSpearSAtk(){
 		xSpeed = 0;
 
 		if ( process == 24 ) { 
-			audio_play_sound(s_swing_a2, 8, false);
+			SE_Play(s_swing_a2, global.vol);
+			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_jpSpearS_atk2Ef;

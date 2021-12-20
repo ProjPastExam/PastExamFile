@@ -34,9 +34,10 @@ function sc_jpSpearAtk(){
 		sprite_index = sp_jpSpear_atk;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { audio_play_sound(s_jp_aAtk, 8, false); }
+		if ( process == 1 ) { SE_Play(s_jp_aAtk, global.vol); }
 		if ( process == 55 ) { 
-			audio_play_sound(s_bandit01atk2, 8, false);
+			SE_Play(s_bandit01atk2, global.vol);
+			//audio_play_sound(s_bandit01atk2, 8, false);
 			ob = instance_create_layer(x, y, "effect", ob_jpSpearAtk);
 			ob.image_xscale = dir;
 		}

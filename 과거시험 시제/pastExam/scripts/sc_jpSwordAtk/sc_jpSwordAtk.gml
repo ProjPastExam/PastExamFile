@@ -29,9 +29,10 @@ function sc_jpSwordAtk(){
 		sprite_index = sp_jpSword_atk;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { audio_play_sound(s_jp_cAtk, 8, false); }
+		if ( process == 1 ) { SE_Play(s_jp_cAtk, global.vol); }
 		if ( process == 40 ) { 
-			audio_play_sound(s_swing_c1, 8, false);
+			SE_Play(s_swing_c1, global.vol);
+			//audio_play_sound(s_swing_c1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_jpSword_atkEf;

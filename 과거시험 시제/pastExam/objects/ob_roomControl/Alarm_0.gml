@@ -18,35 +18,47 @@ if (hpProcess > 0) hpProcess--;
 
 if ( isTalk == 1 )		{ 
 	isGUI = false; isTalk = 2;
-	audio_play_sound(s_talk, 4, false);
+	SE_Play(s_talk, global.vol);
 	if (instance_exists(ob_player)) ob_player.canMove = -10;
 }
 else if ( isTalk == 2) {
-	if ( keyboard_check_pressed(ord("X")) ) {
+	if ( keyboard_check_pressed(global.btAtk) ) {
 		if (talkCnt < talkNum -1) {
 			talkCnt++;
-			audio_play_sound(s_talk, 4, false);
+			SE_Play(s_talk, global.vol);
 		}
 		else { isTalk = 3; talkCnt = 0; talkNum = 0; }
 	}
-	if ( keyboard_check_pressed(vk_escape) ) {
+	if ( keyboard_check_pressed(global.btEsc) ) {
 		isTalk = 3; talkCnt = 0; talkNum = 0;
 	}
 	
 }
 else if ( isTalk == 3 )	{ 
 	isGUI = true; isTalk = 0;
-	if (instance_exists(ob_player)) ob_player.canMove = 0;
+	with (ob_player) {canMove = 0;}
+	//if (instance_exists(ob_player)) ob_player.canMove = 0;
 }
 else if ( isTalk == 4 ) {
 	isGUI = false;
 }
 else if ( isTalk == 5) {
 	isGUI = false;
-	if ( keyboard_check_pressed(ord("X")) ) {
+	if ( keyboard_check_pressed(global.btAtk) ) {
 		talkCnt++;
 		ob_csParent.active = true;
 	}
 }
+
+if ( keyboard_check_pressed(global.btEsc) && global.hp > 0 ) {
+	if ( pause == -1 )		pause = 0;
+	else if ( isTalk == 0 )	pause = -2;
+}
+
+if ( keyboard_check_pressed(global.btTap) && global.hp > 0 ) {
+	if ( pause == -21 )		pause = 0;
+	else if ( pause == 0 )	pause = -20;
+}
+
 //if ((isTalk < 4 || isTalk > 7) && !isCt ) alarm[7] = 1;
 alarm[0] = 1;

@@ -23,6 +23,22 @@ if (!VSLS_File_Load("saveFile")) {
 	VSLS_Set("fireDmg", 0);
 	VSLS_Set("fireDmg", 200);
 	VSLS_Set("fireDmg", 0);
+	
+	VSLS_Set("btLeft", vk_left);
+	VSLS_Set("btRight", vk_right);
+	VSLS_Set("btUp", vk_up);
+	VSLS_Set("btDown", vk_down);
+	VSLS_Set("btAtk", ord("X"));
+	VSLS_Set("btDash", ord("Z"));
+	VSLS_Set("btJump", ord("C"));
+	VSLS_Set("btSk1", ord("A"));
+	VSLS_Set("btSk2", ord("S"));
+	VSLS_Set("btSk3", ord("D"));
+	VSLS_Set("btInter", ord("F"));
+	VSLS_Set("btEsc", vk_escape);
+	VSLS_Set("btTap", vk_tab);
+	
+	VSLS_File_Save("saveFile");
 }
 
 //불러오기 전역

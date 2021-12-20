@@ -12,18 +12,18 @@ function sc_pl_keyCheck() {
 	keySk2			= false;
 	keySk3			= false;
 
-	if ( keyboard_check(vk_left) )				{ keyLeft	= true; }
-	if ( keyboard_check(vk_right) )				{ keyRight	= true; }
-	if ( keyboard_check(vk_down) )				{ keyDown	= true; }
-	if ( keyboard_check(vk_up) )				{ keyTop	= true; }
-	if ( keyboard_check( ord("C") ) )			{ keyJump2	= true; }
-	if ( keyboard_check_pressed( ord("C") ) )	{ keyJump	= true; }
-	if ( keyboard_check_pressed( ord("X") ) )	{ keyAttack = true; }
-	if ( keyboard_check( ord("X") ) )			{ keyAttack2 = true; }
-	if ( keyboard_check_pressed( ord("Z") ) )	{ keyDash	= true; }
-	if ( keyboard_check_pressed( ord("A") ) )	{ keySk1	= true; }
-	if ( keyboard_check_pressed( ord("S") ) )	{ keySk2	= true; }
-	if ( keyboard_check_pressed( ord("D") ) )	{ keySk3	= true; }
+	if ( keyboard_check(global.btLeft) )			{ keyLeft	= true; }
+	if ( keyboard_check(global.btRight) )			{ keyRight	= true; }
+	if ( keyboard_check(global.btDown) )			{ keyDown	= true; }
+	if ( keyboard_check(global.btUp) )				{ keyTop	= true; }
+	if ( keyboard_check(global.btJump) )			{ keyJump2	= true; }
+	if ( keyboard_check_pressed(global.btJump) )	{ keyJump	= true; }
+	if ( keyboard_check_pressed(global.btAtk) )		{ keyAttack = true; }
+	if ( keyboard_check(global.btAtk) )				{ keyAttack2 = true; }
+	if ( keyboard_check_pressed(global.btDash) )	{ keyDash	= true; }
+	if ( keyboard_check_pressed(global.btSk1) )		{ keySk1	= true; }
+	if ( keyboard_check_pressed(global.btSk2) )		{ keySk2	= true; }
+	if ( keyboard_check_pressed(global.btSk3) )		{ keySk3	= true; }
 	
 	
 }

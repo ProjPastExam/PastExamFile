@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_mobHit( argument0 ){
-	var plX = sc_pl_get("x");
+	//var plX = sc_pl_get("x");
 	var dmg = 0;
 	var dmgId;
 	var xs = 1;
@@ -57,7 +57,8 @@ function sc_mobHit( argument0 ){
 			//part_type_color_rgb(global.hitEf01T, 180, 180, 180, 180, 255, 255);
 			part_type_color3(global.hitEf01T, c_white, c_blue, c_black);
 			uc_shake(sqrt(shock)/2.5, 0.15);
-			audio_play_sound(s_hit01, 5, false);
+			SE_Play(s_hit01, global.vol);
+			//audio_play_sound(s_hit01, 5, false);
 			
 			if ( shock < 150 ) part_type_scale( global.hitEf02T, xs * 0.6, 0.6 );
 			else if ( shock < 200 ) part_type_scale( global.hitEf02T, xs * 0.8, 0.8 );
@@ -77,7 +78,7 @@ function sc_mobHit( argument0 ){
 			dmgId.dmg = dmg;
 			xSpeed = 0;
 			
-			audio_play_sound(s_hit01, 5, false);
+			SE_Play(s_hit01, global.vol);
 			part_particles_create( global.hitEf, x, y, global.hitEf_k01, 1 );
 			
 			break;
@@ -115,7 +116,7 @@ function sc_mobHit( argument0 ){
 			part_type_color3(global.hitEf01T, c_white, c_yellow, c_black);
 			
 			uc_shake(sqrt(shock)/2.5, 0.15);
-			audio_play_sound(s_hit01, 5, false);
+			SE_Play(s_hit01, global.vol);
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
 			part_type_orientation( global.hitEf_k01, 0, 360, 0, 0, 0 );
 			part_particles_create( global.hitEf, x, y, global.hitEf_k01, 1 );
@@ -154,7 +155,7 @@ function sc_mobHit( argument0 ){
 			part_type_color3(global.hitEf01T, c_white, c_yellow, c_black);
 			
 			uc_shake(sqrt(shock)/2.5, 0.15);
-			audio_play_sound(s_hit01, 5, false);
+			SE_Play(s_hit01, global.vol);
 			part_type_scale( global.hitEf02T, 1.5, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
 			part_type_orientation( global.hitEf_k01, 0, 360, 0, 0, 0 );
@@ -194,7 +195,7 @@ function sc_mobHit( argument0 ){
 			part_type_color3(global.hitEf01T, c_white, c_red, c_black);
 			
 			uc_shake(sqrt(shock)/2.5, 0.15);
-			audio_play_sound(s_hit01, 5, false);
+			SE_Play(s_hit01, global.vol);
 			//part_type_scale( global.hitEf02T, 1.5, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
 			part_type_orientation( global.hitEf_f01, -30, 30, 0, 0, 0 );
@@ -234,7 +235,7 @@ function sc_mobHit( argument0 ){
 			part_type_color3(global.hitEf01T, c_white, c_red, c_black);
 			
 			uc_shake(sqrt(shock)/2.5, 0.15);
-			audio_play_sound(s_hit01, 5, false);
+			SE_Play(s_hit01, global.vol);
 			//part_type_scale( global.hitEf02T, 1.5, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
 			part_type_orientation( global.hitEf_f01, -30, 30, 0, 0, 0 );
@@ -274,7 +275,7 @@ function sc_mobHit( argument0 ){
 			part_type_color3(global.hitEf01T, c_white, c_yellow, c_black);
 			
 			uc_shake(sqrt(shock)/2.5, 0.15);
-			audio_play_sound(s_hit01, 5, false);
+			SE_Play(s_hit01, global.vol);
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
 			part_type_orientation( global.hitEf_k01, 0, 360, 0, 0, 0 );
 			part_particles_create( global.hitEf, x, y, global.hitEf_k01, 1 );

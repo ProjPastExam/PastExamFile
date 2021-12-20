@@ -34,7 +34,8 @@ function sc_jpGunAtk(){
 		if ( process == 1 ) { audio_play_sound(s_jp_bAtk, 8, false); }
 		
 		if ( process == 60 ) { 
-			audio_play_sound(s_jp_bAtk2, 8, false);
+			SE_Play(s_jp_bAtk2, global.vol);
+			//audio_play_sound(s_jp_bAtk2, 8, false);
 			var fr = instance_create_layer(x, y, "effect", ob_jpGunEf);
 			fr.image_xscale = dir;
 

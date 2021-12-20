@@ -33,7 +33,7 @@ function sc_chang02Atk(){
 		//if ( process == 1 ) { audio_play_sound(s_bandit02atk1, 8, false); }
 		
 		if ( process == 36 ) { 
-			audio_play_sound(s_bandit02atk2, 8, false);
+			//audio_play_sound(s_bandit02atk2, 8, false);
 			var axe = instance_create_layer(x-(10*dir), y, "effect", ob_mobBandit02Atk);
 			if ( x > plX ) axe.dir = -1; else axe.dir = 1;
 			var xs = (plX-x)/80;
