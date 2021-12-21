@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-with (ob_keySet) {
-	state = 0;
+
+if (state = 0) {
+	with (ob_keySet) {
+		state = 0;
+	}
+	state = 1;
 }
-state = 1;
+else { state = 0; }

@@ -65,4 +65,8 @@ global.itemGrade	= array_create(10, -1);
 global.sk1		= 103;
 global.sk2		= 102;
 global.sk3		= 101;
+
+global.roomBuffer	= NULL;
+global.camBufferX	= NULL;
+global.camBufferY	= NULL;
 }

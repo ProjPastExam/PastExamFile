@@ -19,7 +19,7 @@ function sc_pl_camera() {
 	
 	
 	if (instance_exists(ob_roomControl) && ob_roomControl.cmMode == 0) {
-		uc_set_target_position(x,y-40);
+		uc_set_target_position(x,y-90);
 
 	}
 	

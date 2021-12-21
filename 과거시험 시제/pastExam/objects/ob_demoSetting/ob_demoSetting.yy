@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_key_0",
-    "path": "sprites/sp_key_0/sp_key_0.yy",
+    "name": "sp_demoGameStart",
+    "path": "sprites/sp_demoGameStart/sp_demoGameStart.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,21 +21,19 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [
-    {"varType":2,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"keyIndex","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "gameControl",
-    "path": "folders/Objects/gameControl.yy",
+    "name": "demo",
+    "path": "folders/Objects/demo.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_keySet",
+  "name": "ob_demoSetting",
   "tags": [],
   "resourceType": "GMObject",
 }

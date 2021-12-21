@@ -3,9 +3,21 @@
 
 if ( pause > 0 ) pause--;
 //if ( slow > 0 )	slow--;
+if (room_persistent) {
+	room_persistent = false;
+	if (global.camBufferX != NULL) {
+		uc_set_x(global.camBufferX);
+		uc_set_y(global.camBufferY);
+		uc_set_target_position(global.camBufferX, global.camBufferY);
+		global.camBufferX = NULL
+		global.camBufferY = NULL
+		global.roomBuffer = NULL;
+	}
+}
 
 if ( pause == -2 ) {
 	instance_create_depth(x, y, 0, ob_demoMain);
+	instance_create_depth(x, y, 0, ob_demoSetting);
 	pause = -1;
 }
 else if (pause == -9) { pause = 0; }
