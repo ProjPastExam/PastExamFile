@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "gameControl",
-    "path": "folders/Objects/gameControl.yy",
+    "name": "setting",
+    "path": "folders/Objects/gameControl/setting.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_settingControl",

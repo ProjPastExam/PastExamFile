@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "keySprite",
-    "path": "folders/Sprites/keySprite.yy",
+    "path": "folders/Sprites/interface/setting/keySprite.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_key_0",

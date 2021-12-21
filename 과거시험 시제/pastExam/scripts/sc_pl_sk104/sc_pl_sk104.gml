@@ -32,7 +32,7 @@ function sc_pl_sk104(){
 		atk.hitAfter = 10;
 		atk.image_xscale = dir;
 		atk.sprite_index = sp_pl_atkEf104;
-		global.mp -= skMp[104]/5;
+		global.mp -= global.skMp[104]/5;
 	}
 	
 	if ( atkProcess == 10 || atkProcess == 40 ) 

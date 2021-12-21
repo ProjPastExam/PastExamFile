@@ -67,6 +67,20 @@ global.sk2		= 102;
 global.sk3		= 101;
 
 global.roomBuffer	= NULL;
+global.screenBuffer	= NULL;
 global.camBufferX	= NULL;
 global.camBufferY	= NULL;
+
+//스킬 변수
+{
+global.skMp = array_create(600, 0);
+	
+global.skMp[0]		= 0;	//null	
+global.skMp[100]	= 200;	//편전
+global.skMp[101]	= 300;	//총
+global.skMp[102]	= 200;
+global.skMp[103]	= 100;
+global.skMp[104]	= 300;
+	
+	}
 }

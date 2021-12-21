@@ -116,8 +116,10 @@
 
 	function BGM_Play( sound , vol , fade_step )
 	{
-		if (sound == global.SM_BGM_SOUND) return;
-		audio_stop_sound( global.SM_BGM );
+		if (sound != global.SM_BGM_SOUND) {
+			//BGM_Set(global.volBgm, 0);
+			//return;
+		}
 		//기존 브금 재생 종료
 		with( Obj_BGM_Manager )
 		{		
@@ -141,9 +143,14 @@
 		//새로운 브금 생성
 		with( instance_create_depth( -50 , -50 , -100 , Obj_BGM_Manager ) )
 		{
-			//브금 재생 후 볼륨값 초기화
+			if (sound != global.SM_BGM_SOUND) {
+			audio_stop_sound(global.SM_BGM);
 			global.SM_BGM = audio_play_sound( sound , 1 , true );
 			global.SM_BGM_SOUND = sound;
+		}
+			//브금 재생 후 볼륨값 초기화
+			SM_BGM = global.SM_BGM;
+			SM_BGM_SOUND = global.SM_BGM_SOUND;
 			audio_sound_gain( global.SM_BGM , 0 , 0 );
 		
 		

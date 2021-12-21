@@ -28,16 +28,8 @@ BGM_Play(roomBgm, global.volBgm, 0);
 sc_itemSprite();
 
 //스킬 UI 설정
-{
-skUi = array_create(300, sp_skillUi_0);
-skUi[0] = sp_skillUi_0;
-skUi[100] = sp_skillUi_101;
-skUi[101] = sp_skillUi_101;
-skUi[102] = sp_skillUi_102;
-skUi[103] = sp_skillUi_103;
-skUi[104] = sp_skillUi_104;
+sc_skillUi();
 
-}
 //파티클 시스템
 
 {

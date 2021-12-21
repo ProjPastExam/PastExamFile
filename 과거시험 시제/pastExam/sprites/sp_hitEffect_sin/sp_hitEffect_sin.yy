@@ -47,7 +47,7 @@
     "spriteId": {"name":"sp_hitEffect_sin","path":"sprites/sp_hitEffect_sin/sp_hitEffect_sin.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 15.0,
+    "playbackSpeed": 20.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

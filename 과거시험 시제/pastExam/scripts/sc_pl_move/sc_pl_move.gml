@@ -28,10 +28,10 @@ function sc_pl_move() {
 		if ( keyDown ) { 
 			var tileId	= layer_tilemap_get_id("Tile_Collision");
 			var bottom	= tilemap_get_at_pixel(tileId, x, bbox_bottom);
-			if (bottom == 2) { y += 16; audio_play_sound(s_jump, 5, false); }
+			if (bottom == 2) { y += 16; SE_Play(s_jump, global.vol);}
 			}
 		else if ( !isJump && ( canMove == 0 ) ) { 
-			jumpLast = last; ySpeed = jumpSpeed; audio_play_sound(s_jump, 5, false);
+			jumpLast = last; ySpeed = jumpSpeed; SE_Play(s_jump, global.vol);;
 			if (keyRight) xSpeed = walkSpeed;
 			if (keyLeft) xSpeed = -walkSpeed;
 		}
@@ -86,13 +86,13 @@ function sc_pl_move() {
 		canMove = 10;
 	}
 	if ( keySk1 && atkProcess == -1 && canMove == 0 ) {
-		if ( global.mp >= skMp[global.sk1] ) { atkProcess = 0; canMove = global.sk1; }
+		if ( global.mp >= global.skMp[global.sk1] ) { atkProcess = 0; canMove = global.sk1; }
 	}
 	if ( keySk2 && atkProcess == -1 && canMove == 0 ) {
-		if ( global.mp >= skMp[global.sk2] ) { atkProcess = 0; canMove = global.sk2; }
+		if ( global.mp >= global.skMp[global.sk2] ) { atkProcess = 0; canMove = global.sk2; }
 	}
 	if ( keySk3 && atkProcess == -1 && canMove == 0 ) {
-		if ( global.mp >= skMp[global.sk3] ) { atkProcess = 0; canMove = global.sk3; }
+		if ( global.mp >= global.skMp[global.sk3] ) { atkProcess = 0; canMove = global.sk3; }
 	}
 	if ( global.mp < 0 ) global.mp = 0;
 	

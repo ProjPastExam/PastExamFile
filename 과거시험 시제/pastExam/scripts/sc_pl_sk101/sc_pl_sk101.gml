@@ -35,7 +35,7 @@ function sc_pl_sk101(){
 		part_type_scale(global.gunEf, dir, 1);
 		part_particles_create( global.hitEf, x, y, global.gunEf, 1 );
 		//if (sc_getRoomValue("pause") != NULL) ob_roomControl.pause = 20;
-		global.mp -= skMp[101];
+		global.mp -= global.skMp[101];
 	}
 	
 	//대쉬 제어

@@ -34,7 +34,7 @@ function sc_pl_sk103(){
 		atk.pene = sc_pl_kickPene();
 		atk.hitAfter = 15;
 		atk.image_xscale = dir;
-		global.mp -= skMp[103];
+		global.mp -= global.skMp[103];
 	}
 	
 	if ( atkProcess == 8 ) { atk.sprite_index = sp_pl_atkEf103_1; }
@@ -82,15 +82,15 @@ function sc_pl_sk103_com() {
 	if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
 	if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; }
 	if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
-	if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) {
+	if ( nextAtk == -1 && global.mp >= global.skMp[global.sk1]) {
 		if (global.sk1 == 103)	{com = true;}
 		else					{nextAtk = 0; atkProcess = 0; canMove = global.sk1;}
 	}
-	if ( nextAtk == -2 && global.mp >= skMp[global.sk2] ) {
+	if ( nextAtk == -2 && global.mp >= global.skMp[global.sk2] ) {
 		if (global.sk2 == 103)	{com = true;}
 		else					{nextAtk = 0; atkProcess = 0; canMove = global.sk2;}
 	}
-	if ( nextAtk == -3 && global.mp >= skMp[global.sk3])  {
+	if ( nextAtk == -3 && global.mp >= global.skMp[global.sk3])  {
 		if (global.sk3 == 103)	{com = true;}
 		else					{nextAtk = 0; atkProcess = 0; canMove = global.sk3;}
 	}

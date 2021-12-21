@@ -42,26 +42,27 @@ function sc_gameGUI(){
 	//스킬 UI 표시
 	{
 	var en = c_white;
-	if (ob_player.skMp[global.sk1] > global.mp) en = c_gray;
+	if (global.skMp[global.sk1] > global.mp) en = c_gray;
 	draw_sprite_ext(skUi[global.sk1], 0, GUIX-12, GUIY+173, 1, 1, 0, en, 1);
 	
 	en = c_white;
-	if (ob_player.skMp[global.sk2] > global.mp) en = c_gray;
+	if (global.skMp[global.sk2] > global.mp) en = c_gray;
 	draw_sprite_ext(skUi[global.sk2], 0, GUIX+125, GUIY+173, 1, 1, 0, en, 1);
 	
 	en = c_white;
-	if (ob_player.skMp[global.sk3] > global.mp) en = c_gray;
+	if (global.skMp[global.sk3] > global.mp) en = c_gray;
 	draw_sprite_ext(skUi[global.sk3], 0, GUIX+265, GUIY+173, 1, 1, 0, en, 1);
 	
 	var skMpVar = 0;
 	
-	skMpVar = (ob_player.skMp[global.sk1]/100);
+	
+	skMpVar = (global.skMp[global.sk1]/100);
 	draw_sprite(sp_skillBox, skMpVar, GUIX+60, GUIY+245);
 	
-	skMpVar = (ob_player.skMp[global.sk2]/100);
+	skMpVar = (global.skMp[global.sk2]/100);
 	draw_sprite(sp_skillBox, skMpVar, GUIX+200, GUIY+245);
 	
-	skMpVar = (ob_player.skMp[global.sk3]/100);
+	skMpVar = (global.skMp[global.sk3]/100);
 	draw_sprite(sp_skillBox, skMpVar, GUIX+340, GUIY+245);
 	
 	

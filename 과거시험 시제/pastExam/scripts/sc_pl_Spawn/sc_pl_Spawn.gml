@@ -62,16 +62,5 @@ function sc_pl_Spawn() {
 	itemRise	= -1;		//위키 점프 아이템
 	}
 	
-	//스킬 변수
-	{
-	skMp = array_create(600, 0);
 	
-	skMp[0]		= 0;	//null	
-	skMp[100]	= 200;	//편전
-	skMp[101]	= 300;	//총
-	skMp[102]	= 200;
-	skMp[103]	= 100;
-	skMp[104]	= 300;
-	
-	}
 }

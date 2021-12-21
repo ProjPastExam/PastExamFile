@@ -5,6 +5,8 @@ if ( pause > 0 ) pause--;
 //if ( slow > 0 )	slow--;
 if (room_persistent) {
 	room_persistent = false;
+	//application_surface_draw_enable(true);
+	BGM_Set(global.volBgm, 0);
 	if (global.camBufferX != NULL) {
 		uc_set_x(global.camBufferX);
 		uc_set_y(global.camBufferY);
@@ -68,8 +70,19 @@ if ( keyboard_check_pressed(global.btEsc) && global.hp > 0 ) {
 }
 
 if ( keyboard_check_pressed(global.btTap) && global.hp > 0 ) {
-	if ( pause == -21 )		pause = 0;
-	else if ( pause == 0 )	pause = -20;
+	//if ( pause == -21 )		pause = 0;
+	//else if ( pause == 0 )	pause = -20;
+	room_persistent = true;
+	global.roomBuffer = room;
+	global.camBufferX = uc_get_x();
+	global.camBufferY = uc_get_y();
+	
+	if (!surface_exists(global.screenBuffer))	global.screenBuffer = surface_create(display_get_width(), display_get_height());
+	surface_copy(global.screenBuffer,0,0,application_surface);
+	//application_surface_draw_enable(false);
+
+	room_goto(r_tab);
+
 }
 
 //if ((isTalk < 4 || isTalk > 7) && !isCt ) alarm[7] = 1;
