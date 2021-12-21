@@ -36,6 +36,8 @@ function sc_keySprite(keyIndex){
 	case ord("N"):	sprite_index = sp_key_n;		break;
 	case ord("O"):	sprite_index = sp_key_o;		break;
 	case ord("P"):	sprite_index = sp_key_p;		break;
+	case ord("Q"):	sprite_index = sp_key_q;		break;
+	case ord("R"):	sprite_index = sp_key_r;		break;
 	case ord("S"):	sprite_index = sp_key_s;		break;
 	case ord("T"):	sprite_index = sp_key_t;		break;
 	case ord("U"):	sprite_index = sp_key_u;		break;

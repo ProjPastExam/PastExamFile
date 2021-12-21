@@ -51,23 +51,73 @@ function sc_keySet(){
 	if (keySet != 10) {
 		state = 0;
 		switch (keyIndex) {
-		case global.btAtk:
+		case "btAtk":
 			global.btAtk = keySet;
 			VSLS_Set("btAtk", keySet);
 			break;
 			
-		case global.btDash:
+		case "btDash":
 			global.btDash = keySet;
 			VSLS_Set("btDash", keySet);
 			break;
 			
-		case global.btJump:
+		case "btJump":
 			global.btJump = keySet;
 			VSLS_Set("btJump", keySet);
 			break;
+		
+		case "btSk1":
+			global.btSk1 = keySet;
+			VSLS_Set("btSk1", keySet);
+			break;
+		
+		case "btSk2":
+			global.btSk2 = keySet;
+			VSLS_Set("btSk2", keySet);
+			break;
+		
+		case "btSk3":
+			global.btSk3 = keySet;
+			VSLS_Set("btSk3", keySet);
+			break;
+			
+		case "btUp":
+			global.btUp = keySet;
+			VSLS_Set("btUp", keySet);
+			break;
+		
+		case "btDown":
+			global.btDown = keySet;
+			VSLS_Set("btDown", keySet);
+			break;
+		
+		case "btLeft":
+			global.btLeft = keySet;
+			VSLS_Set("btLeft", keySet);
+			break;
+		
+		case "btRight":
+			global.btRight = keySet;
+			VSLS_Set("btRight", keySet);
+			break;
+			
+		case "btTap":
+			global.btTap = keySet;
+			VSLS_Set("btTap", keySet);
+			break;
+		
+		case "btEsc":
+			global.btEsc = keySet;
+			VSLS_Set("btEsc", keySet);
+			break;
+		
+		case "btInter":
+			global.btInter = keySet;
+			VSLS_Set("btInter", keySet);
+			break;
 		}
 		VSLS_File_Save("saveFile");
-		selfIndex = keyIndex;
+		selfIndex = keySet;
 		sc_keySprite(selfIndex);
 
 	}
