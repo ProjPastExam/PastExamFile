@@ -44,12 +44,12 @@ function sc_pl_dash(){
 		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; dProcess = -10; isDash = false; }
 		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; dProcess = -10; isDash = false; }
 		else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; dProcess = -10; isDash = false; }
-		else if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
-			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk1; isDash = false; }
-		else if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
-			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk2; isDash = false; }
-		else if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
-			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk3; isDash = false; }
+		else if ( nextAtk == -1 && global.mp >= global.skMp[global.sk1] && global.skKul[0] == 0) 
+			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk1; isDash = false; skState = 0; }
+		else if ( nextAtk == -2 && global.mp >= global.skMp[global.sk2] && global.skKul[1] == 0) 
+			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk2; isDash = false; skState = 1; }
+		else if ( nextAtk == -3 && global.mp >= global.skMp[global.sk3] && global.skKul[2] == 0) 
+			{ nextAtk = 0; atkProcess = 0; dProcess = -10; canMove = global.sk3; isDash = false; skState = 2; }
 	}
 	if ( dProcess > 20 ) { canMove = 0; dProcess = -30; isDash = false; }
 }

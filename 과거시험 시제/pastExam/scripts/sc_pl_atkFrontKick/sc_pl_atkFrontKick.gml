@@ -102,11 +102,11 @@ function sc_pl_atkFrontKick(){
 		if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
 		if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
 		if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
-		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
+		if ( nextAtk == -1 && global.mp >= global.skMp[global.sk1]) 
 			{ atkProcess = 0; canMove = global.sk1; }
-		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
+		if ( nextAtk == -2 && global.mp >= global.skMp[global.sk2]) 
 			{ atkProcess = 0; canMove = global.sk2; }
-		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
+		if ( nextAtk == -3 && global.mp >= global.skMp[global.sk3]) 
 			{ atkProcess = 0; canMove = global.sk3; }
 	}
 	else if (atkProcess < 38) { canMove = 0;	atkProcess = -5;}
@@ -122,11 +122,11 @@ function sc_pl_atkFrontKick(){
 		if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
 		if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
 		if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
-		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
+		if ( nextAtk == -1 && global.mp >= global.skMp[global.sk1]) 
 			{ atkProcess = 0; canMove = global.sk1; }
-		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
+		if ( nextAtk == -2 && global.mp >= global.skMp[global.sk2]) 
 			{ atkProcess = 0; canMove = global.sk2; }
-		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
+		if ( nextAtk == -3 && global.mp >= global.skMp[global.sk3]) 
 			{ atkProcess = 0; canMove = global.sk3; }
 	}
 	else if (atkProcess < 78) { canMove = 0;	atkProcess = -5;}
@@ -141,11 +141,11 @@ function sc_pl_atkFrontKick(){
 		if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
 		if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
 		if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
-		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
+		if ( nextAtk == -1 && global.mp >= global.skMp[global.sk1]) 
 			{ nextAtk = 0; atkProcess = 0; canMove = global.sk1; }
-		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
+		if ( nextAtk == -2 && global.mp >= global.skMp[global.sk2]) 
 			{ nextAtk = 0; atkProcess = 0; canMove = global.sk2; }
-		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
+		if ( nextAtk == -3 && global.mp >= global.skMp[global.sk3]) 
 			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
 	}
 	else	{ canMove = 0;	atkProcess = -5; }

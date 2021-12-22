@@ -64,16 +64,11 @@ function sc_pl_atkFront(){
 	else if ( atkProcess < 34 )	{ image_index = 5; }
 	else if ( atkProcess < 45 ) { 
 		if (nextAtk == 2)	{ canMove = 2;	atkProcess = 0; }
-		if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
-		if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
-		if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
-		if (nextAtk == 7)	{ canMove = 7;	atkProcess = 0; }
-		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk1; }
-		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk2; }
-		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
+		else if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
+		else if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
+		else if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
+		else if (nextAtk == 7)	{ canMove = 7;	atkProcess = 0; }
+		sc_pl_skComb();
 	}
 	else	{ canMove = 0;	atkProcess = -5; }
 }

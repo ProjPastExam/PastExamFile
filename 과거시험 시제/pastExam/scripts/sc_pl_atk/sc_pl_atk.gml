@@ -70,23 +70,18 @@ function sc_pl_atk(){
 	else if ( atkProcess < 46 ) { 
 		image_index = 8;
 		if ( nextAtk == 2 ) { nextAtk = 0; atkProcess = 0; canMove = 2; }
-		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
-		if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
-		if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; }
-		if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
-		if ( nextAtk == 10 ) {
+		else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
+		else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
+		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; }
+		else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
+		else if ( nextAtk == 10 ) {
 			dProcess = 0;
 			canMove = 10;
 			atkProcess = -1;
 			if ( keyRight ) dir = 1;
 			if ( keyLeft ) dir = -1
 		}
-		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk1; }
-		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk2; }
-		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
+		sc_pl_skComb();
 	}
 	else { atkProcess = -15;	canMove = 0; }
 }

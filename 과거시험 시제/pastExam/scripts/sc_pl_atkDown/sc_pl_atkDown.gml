@@ -74,15 +74,10 @@ function sc_pl_atkDown(){
 	else if ( atkProcess < 39 )	{ image_index = 8; }
 	else if ( atkProcess < 45 ) { 
 		if ( nextAtk == 2 ) { nextAtk = 0; atkProcess = 0; canMove = 2; }
-		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
-		if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
-		if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
-		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk1; }
-		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk2; }
-		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
+		else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
+		else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
+		else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
+		sc_pl_skComb();
 	}
 	else	{ canMove = 0;	atkProcess = -5; }
 	

@@ -6,6 +6,9 @@ function sc_pl_move() {
 	var	walkSpeed	= 8.5;
 	
 	if (canMove == -100 && isJump) ySpeed = 5; 
+	if (global.skKul[0] > 0) global.skKul[0]--;
+	if (global.skKul[1] > 0) global.skKul[1]--;
+	if (global.skKul[2] > 0) global.skKul[2]--;
 	
 	//무적프래임 설정
 	isImort = false;
@@ -85,14 +88,14 @@ function sc_pl_move() {
 		dProcess = 0;
 		canMove = 10;
 	}
-	if ( keySk1 && atkProcess == -1 && canMove == 0 ) {
-		if ( global.mp >= global.skMp[global.sk1] ) { atkProcess = 0; canMove = global.sk1; }
+	if ( keySk1 && atkProcess == -1 && canMove == 0 && global.mp >= global.skMp[global.sk1] && global.skKul[0] == 0 ) {
+		{ atkProcess = 0; canMove = global.sk1; skState = 0; }
 	}
-	if ( keySk2 && atkProcess == -1 && canMove == 0 ) {
-		if ( global.mp >= global.skMp[global.sk2] ) { atkProcess = 0; canMove = global.sk2; }
+	if ( keySk2 && atkProcess == -1 && canMove == 0 && global.mp >= global.skMp[global.sk2] && global.skKul[1] == 0 ) {
+		{ atkProcess = 0; canMove = global.sk2; skState = 1; }
 	}
-	if ( keySk3 && atkProcess == -1 && canMove == 0 ) {
-		if ( global.mp >= global.skMp[global.sk3] ) { atkProcess = 0; canMove = global.sk3; }
+	if ( keySk3 && atkProcess == -1 && canMove == 0 && global.mp >= global.skMp[global.sk3] && global.skKul[2] == 0 ) {
+		 { atkProcess = 0; canMove = global.sk3; skState = 2; }
 	}
 	if ( global.mp < 0 ) global.mp = 0;
 	

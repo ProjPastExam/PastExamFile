@@ -47,13 +47,8 @@ function sc_pl_atkJumpUp(){
 	else if ( atkProcess < 35 ) { 
 		if (!isJump)		{ canMove = 0;	atkProcess = -10; }
 		if (nextAtk == 2)	{ canMove = 11;	atkProcess = 15; }
-		if (nextAtk == 7)	{ canMove = 9;	atkProcess = 0; }
-		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk1; }
-		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk2; }
-		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
+		else if (nextAtk == 7)	{ canMove = 9;	atkProcess = 0; }
+		sc_pl_skComb();
 	}
 	else	{ canMove = 0;	atkProcess = -10; }
 }

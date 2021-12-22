@@ -82,5 +82,6 @@ global.skMp[102]	= 200;
 global.skMp[103]	= 100;
 global.skMp[104]	= 300;
 	
-	}
+global.skKul	= array_create(3, 0);
+}
 }

@@ -72,7 +72,7 @@ function sc_pl_atkJump2(){
 	else if ( atkProcess < 45 )	{ image_index = 5; }
 	else if ( atkProcess < 50 )	{
 		if ( nextAtk == 1 )	{ canMove = 1;	atkProcess = 0; }
-		if ( nextAtk == 5 )	{ canMove = 5;	atkProcess = 0; }
+		else if ( nextAtk == 5 )	{ canMove = 5;	atkProcess = 0; }
 		/*if ( nextAtk == 10 ) {
 			dProcess = 0;
 			canMove = 10;

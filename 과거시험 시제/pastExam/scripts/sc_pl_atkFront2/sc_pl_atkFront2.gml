@@ -57,13 +57,8 @@ function sc_pl_atkFront2(){
 	else if ( atkProcess < 35 ) { image_index = 4; xSpeed = 0;
 		{ canMove = 2;	atkProcess = 8; }
 		if ( nextAtk == 5 )	{ canMove = 5;	atkProcess = 0; }
-		if ( nextAtk == 6 )	{ canMove = 6;	atkProcess = 0; }
-		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk1; }
-		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk2; }
-		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
+		else if ( nextAtk == 6 )	{ canMove = 6;	atkProcess = 0; }
+		sc_pl_skComb();
 	}
 	else { canMove = 0; atkProcess = -15; }
 

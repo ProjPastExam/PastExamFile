@@ -66,9 +66,9 @@ function sc_pl_atk2(){
 	else if ( atkProcess < 47 )	{ image_index = 5; }
 	else if ( atkProcess < 55 )	{
 		if ( nextAtk == 1 )	{ canMove = 1;	atkProcess = 0; }
-		if ( nextAtk == 5 )	{ canMove = 5;	atkProcess = 0; }
-		if ( nextAtk == 6 )	{ canMove = 6;	atkProcess = 0; }
-		if ( nextAtk == 10 ) {
+		else if ( nextAtk == 5 )	{ canMove = 5;	atkProcess = 0; }
+		else if ( nextAtk == 6 )	{ canMove = 6;	atkProcess = 0; }
+		else if ( nextAtk == 10 ) {
 			dProcess = 0;
 			canMove = 10;
 			atkProcess = -1;

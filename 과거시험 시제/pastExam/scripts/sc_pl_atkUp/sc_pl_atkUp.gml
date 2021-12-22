@@ -35,7 +35,7 @@ function sc_pl_atkUp(){
 		if ( dir == 1 )		atk.image_angle = 35;
 		if ( dir == -1 )	atk.image_angle = 145;
 		SE_Play(s_arrow02, global.vol);
-		audio_play_sound(s_arrow02, 5, false);
+		//audio_play_sound(s_arrow02, 5, false);
 	}
 	
 	//대쉬 제어

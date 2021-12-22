@@ -36,6 +36,7 @@ function sc_pl_sk101(){
 		part_particles_create( global.hitEf, x, y, global.gunEf, 1 );
 		//if (sc_getRoomValue("pause") != NULL) ob_roomControl.pause = 20;
 		global.mp -= global.skMp[101];
+		global.skKul[skState] = 120;
 	}
 	
 	//대쉬 제어
@@ -56,23 +57,18 @@ function sc_pl_sk101(){
 	else if ( atkProcess < 34 )	{ image_index = 5; xSpeed = dir * -4; }
 	else if ( atkProcess < 42 )	{
 		if ( nextAtk == 1 ) { nextAtk = 0; atkProcess = 0; canMove = 1; }
-		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
-		if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
-		if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; }
-		if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
-		if ( nextAtk == 10 ) {
+		else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
+		else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
+		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; }
+		else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
+		else if ( nextAtk == 10 ) {
 			dProcess = 0;
 			canMove = 10;
 			atkProcess = -1;
 			if ( keyRight ) dir = 1;
 			if ( keyLeft ) dir = -1
 		}
-		if ( nextAtk == -1 && global.mp >= skMp[global.sk1]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk1; }
-		if ( nextAtk == -2 && global.mp >= skMp[global.sk2]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk2; }
-		if ( nextAtk == -3 && global.mp >= skMp[global.sk3]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
+		sc_pl_skComb();
 	}
 	else { canMove = 0;	atkProcess = -5; }
 }

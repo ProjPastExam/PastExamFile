@@ -53,8 +53,14 @@ function sc_gameGUI(){
 	if (global.skMp[global.sk3] > global.mp) en = c_gray;
 	draw_sprite_ext(skUi[global.sk3], 0, GUIX+265, GUIY+173, 1, 1, 0, en, 1);
 	
-	var skMpVar = 0;
 	
+	draw_sprite_ext(sp_skillUi_black, 0, GUIX-12, GUIY+191, 1, global.skKul[0]/120, 0, c_white, 0.5);
+	draw_sprite_ext(sp_skillUi_black, 0, GUIX+125, GUIY+191, 1, global.skKul[1]/120, 0, c_white, 0.5);
+	draw_sprite_ext(sp_skillUi_black, 0, GUIX+265, GUIY+191, 1, global.skKul[2]/120, 0, c_white, 0.5);
+	
+	
+	
+	var skMpVar = 0;
 	
 	skMpVar = (global.skMp[global.sk1]/100);
 	draw_sprite(sp_skillBox, skMpVar, GUIX+60, GUIY+245);

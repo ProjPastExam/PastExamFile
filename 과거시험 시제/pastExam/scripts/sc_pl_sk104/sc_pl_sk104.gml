@@ -62,6 +62,22 @@ function sc_pl_sk104(){
 	else if ( atkProcess < 45 )	{ image_index = 8; }
 	else if ( atkProcess < 50 )	{ image_index = 9; }
 	else if ( atkProcess < 55 )	{ image_index = 10; }
-	else if ( atkProcess < 70 )	{ image_index = 11; }
-	else						{ canMove = 0;	atkProcess = -5; }
+	else if ( atkProcess < 60 )	{ image_index = 11; }
+	else if ( atkProcess < 75 ) {
+		global.skKul[skState] = 120;
+		if ( nextAtk == 1 ) { nextAtk = 0; atkProcess = 0; canMove = 1; }
+		else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
+		else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
+		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; }
+		else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
+		else if ( nextAtk == 10 ) {
+			dProcess = 0;
+			canMove = 10;
+			atkProcess = -1;
+			if ( keyRight ) dir = 1;
+			if ( keyLeft ) dir = -1
+		}
+		sc_pl_skComb();
+	}
+	else	{ canMove = 0;	atkProcess = -5; }
 }

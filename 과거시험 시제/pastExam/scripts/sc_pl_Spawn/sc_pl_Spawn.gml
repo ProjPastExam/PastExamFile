@@ -44,6 +44,12 @@ function sc_pl_Spawn() {
 	
 	isAtk3	= 0;
 	
+	skState = 0;
+	
+	global.skKul[0] = 0;
+	global.skKul[1] = 0;
+	global.skKul[2] = 0;
+	
 	//공격력 변수
 	{
 	atkDmgScale	= 1.0;
