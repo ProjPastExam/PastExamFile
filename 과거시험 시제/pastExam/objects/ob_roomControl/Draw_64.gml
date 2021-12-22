@@ -18,6 +18,10 @@ if (isTalk == 2) {
 	draw_sprite(sp_black2, 0, 0, 0);
 	draw_sprite(npcFace, 0, 1455, 110);
 	draw_sprite(sp_demoTalk, 0, 960, 350);
+	draw_sprite(sc_keySprite(global.btAtk), 0, 240, 540);
+	draw_sprite(sp_text_next, 0, 350, 540);
+	draw_sprite(sc_keySprite(global.btEsc), 0, 480, 540);
+	draw_sprite(sp_text_quite, 0, 610, 540);
 	
 	draw_set_font(f_kor);
 	draw_set_color(c_black);

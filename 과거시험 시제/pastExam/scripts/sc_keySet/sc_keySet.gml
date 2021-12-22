@@ -118,7 +118,7 @@ function sc_keySet(){
 		}
 		VSLS_File_Save("saveFile");
 		selfIndex = keySet;
-		sc_keySprite(selfIndex);
+		sprite_index = sc_keySprite(selfIndex);
 
 	}
 }

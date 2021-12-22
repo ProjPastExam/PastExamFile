@@ -18,6 +18,7 @@ if (room_persistent) {
 }
 
 if ( pause == -2 ) {
+	instance_create_depth(x, y, 0, ob_demoUnpause);
 	instance_create_depth(x, y, 0, ob_demoMain);
 	instance_create_depth(x, y, 0, ob_demoSetting);
 	pause = -1;

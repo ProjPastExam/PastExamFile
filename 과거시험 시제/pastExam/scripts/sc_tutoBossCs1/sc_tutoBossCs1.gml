@@ -57,7 +57,7 @@ function sc_tutoBossCs1(){
 		case 7:
 			var name = "????";
 			var text = "거기까지다!";
-			sc_csBase(name, sp_npc_blank, text, -50, -50);
+			sc_csBase(name, sp_jpMb_face, text, -50, -50);
 			break;
 			
 		case 8:

@@ -18,4 +18,4 @@ switch (keyIndex) {
 
 state = 0;
 
-sc_keySprite(selfIndex);
+sprite_index = sc_keySprite(selfIndex);
