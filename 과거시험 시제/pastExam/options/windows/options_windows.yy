@@ -1,11 +1,11 @@
 {
-  "option_windows_display_name": "문경새재",
+  "option_windows_display_name": "문경새재 데모",
   "option_windows_executable_name": "${문경새재}.exe",
   "option_windows_version": "1.0.2.2",
   "option_windows_company_info": "Team Ettu",
   "option_windows_product_info": "문경새재",
   "option_windows_copyright_info": "Team Ettu",
-  "option_windows_description_info": "A GameMaker Studio 2 Game",
+  "option_windows_description_info": "조선 설화를 바탕으로 한 횡스크롤 액션 게임 문경새재",
   "option_windows_display_cursor": true,
   "option_windows_icon": "icons/icon.ico",
   "option_windows_save_location": 0,

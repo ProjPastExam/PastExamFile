@@ -4,13 +4,14 @@
 if (hp > 0 && ob_player.ySpeed >= 0 && ob_player.bbox_bottom > y) {
 	
 	var plX = ob_player.x;
+	var spd = 0;
 
 	var vol = abs(bbox_right - bbox_left)/2;
 	var plVol = abs(ob_player.bbox_right - ob_player.bbox_left)/2;
 	
 	if ((vol + plVol) < abs(x - plX)) return;
-	
-	var spd = ((vol + plVol) - abs(x - plX)) + 1;
+	else if (((vol + plVol) - abs(x - plX)) < 5) spd = 0;
+	else spd = ((vol + plVol) - abs(x - plX)) - 5;
 
 	var sqd = spd;
 	if (sqd > 10) sqd = 10;
