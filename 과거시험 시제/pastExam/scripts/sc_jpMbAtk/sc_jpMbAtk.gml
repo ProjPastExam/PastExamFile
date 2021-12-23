@@ -222,7 +222,7 @@ function sc_jpMbAtk(){
 		
 		if ( process == 82 ) { 
 			SE_Play(s_swing_a1, global.vol);
-			audio_play_sound(s_swing_a1, 8, false);
+			//audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_jpMb_atk1_1Ef;

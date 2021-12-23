@@ -21,7 +21,7 @@ function sc_pl_sk101(){
 	}
 
 	
-	if ( atkProcess == 18 ) {
+	if ( atkProcess == 21 ) {
 		atk = instance_create_layer(x+ dir * 80, y-30, "effect", ob_atkEf05);
 		atk.damage = 50;
 		atk.shock = 200;
@@ -49,13 +49,13 @@ function sc_pl_sk101(){
 		sc_pl_atkDnJ();
 	}
 	
-	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; }
-	else if ( atkProcess < 12 )	{ image_index = 1; }
-	else if ( atkProcess < 18 )	{ image_index = 2; }
-	else if ( atkProcess < 24 )	{ image_index = 3; xSpeed = dir * -16; }
-	else if ( atkProcess < 29 )	{ image_index = 4; xSpeed = dir * -10; }
-	else if ( atkProcess < 34 )	{ image_index = 5; xSpeed = dir * -4; }
-	else if ( atkProcess < 42 )	{
+	if ( atkProcess < 7 )		{ image_index = 0; nextAtk = 0; }
+	else if ( atkProcess < 14 )	{ image_index = 1; }
+	else if ( atkProcess < 21 )	{ image_index = 2; }
+	else if ( atkProcess < 27 )	{ image_index = 3; xSpeed = dir * -16; }
+	else if ( atkProcess < 32 )	{ image_index = 4; xSpeed = dir * -10; }
+	else if ( atkProcess < 37 )	{ image_index = 5; xSpeed = dir * -4; }
+	else if ( atkProcess < 52 )	{
 		if ( nextAtk == 1 ) { nextAtk = 0; atkProcess = 0; canMove = 1; }
 		else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 		else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }

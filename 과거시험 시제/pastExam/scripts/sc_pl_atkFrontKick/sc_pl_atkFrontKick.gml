@@ -99,15 +99,10 @@ function sc_pl_atkFrontKick(){
 	else if ( atkProcess < 20 )	{ image_index = 2; xSpeed = 0; }
 	else if ( atkProcess < 30 )	{ image_index = 2; xSpeed = 0;
 		if (nextAtk == 2)	{ atkProcess = 40;}
-		if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
-		if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
-		if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
-		if ( nextAtk == -1 && global.mp >= global.skMp[global.sk1]) 
-			{ atkProcess = 0; canMove = global.sk1; }
-		if ( nextAtk == -2 && global.mp >= global.skMp[global.sk2]) 
-			{ atkProcess = 0; canMove = global.sk2; }
-		if ( nextAtk == -3 && global.mp >= global.skMp[global.sk3]) 
-			{ atkProcess = 0; canMove = global.sk3; }
+		else if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
+		else if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
+		else if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
+		sc_pl_skComb();
 	}
 	else if (atkProcess < 38) { canMove = 0;	atkProcess = -5;}
 	
@@ -119,15 +114,10 @@ function sc_pl_atkFrontKick(){
 	else if ( atkProcess < 60 )	{ image_index = 6; xSpeed = 8*dir; }
 	else if ( atkProcess < 70 )	{ image_index = 6; xSpeed = 0; 
 		if (nextAtk == 2)	{ atkProcess = 80;}
-		if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
-		if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
-		if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
-		if ( nextAtk == -1 && global.mp >= global.skMp[global.sk1]) 
-			{ atkProcess = 0; canMove = global.sk1; }
-		if ( nextAtk == -2 && global.mp >= global.skMp[global.sk2]) 
-			{ atkProcess = 0; canMove = global.sk2; }
-		if ( nextAtk == -3 && global.mp >= global.skMp[global.sk3]) 
-			{ atkProcess = 0; canMove = global.sk3; }
+		else if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
+		else if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
+		else if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
+		sc_pl_skComb();
 	}
 	else if (atkProcess < 78) { canMove = 0;	atkProcess = -5;}
 	
@@ -138,15 +128,10 @@ function sc_pl_atkFrontKick(){
 	else if ( atkProcess < 96 )	{ image_index = 9; xSpeed = 10*dir; }
 	else if ( atkProcess < 104 ) {
 		if (nextAtk == 2)	{ canMove = 2;	atkProcess = 3; }
-		if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
-		if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
-		if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
-		if ( nextAtk == -1 && global.mp >= global.skMp[global.sk1]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk1; }
-		if ( nextAtk == -2 && global.mp >= global.skMp[global.sk2]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk2; }
-		if ( nextAtk == -3 && global.mp >= global.skMp[global.sk3]) 
-			{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; }
+		else if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
+		else if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
+		else if (nextAtk == 4)	{ canMove = 4;	atkProcess = 0; }
+		sc_pl_skComb();
 	}
 	else	{ canMove = 0;	atkProcess = -5; }
 	

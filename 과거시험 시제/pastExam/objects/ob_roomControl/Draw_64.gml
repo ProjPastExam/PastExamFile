@@ -3,6 +3,8 @@
 if (isCt) {
 	draw_sprite_stretched_ext(sp_black, 0, 0, 0, 1920, 150, 0, 1);
 	draw_sprite_stretched_ext(sp_black, 0, 0, 930, 1920, 150, 0, 1);
+	draw_sprite(sp_text_quite, 0, 1820, 100);
+	draw_sprite(sc_keySprite(global.btEsc), 0, 1780, 100);
 }
 
 if (isGUI) sc_gameGUI();

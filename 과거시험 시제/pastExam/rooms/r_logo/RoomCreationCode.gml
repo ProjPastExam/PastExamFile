@@ -62,9 +62,9 @@ global.itemSum		= 0;
 global.itemGet 		= array_create(10, -1);
 global.itemGrade	= array_create(10, -1);
 
-global.sk1		= 103;
-global.sk2		= 102;
-global.sk3		= 101;
+global.sk1		= 0;
+global.sk2		= 0;
+global.sk3		= 0;
 
 global.roomBuffer	= NULL;
 global.screenBuffer	= NULL;
@@ -81,6 +81,7 @@ global.skMp[101]	= 300;	//총
 global.skMp[102]	= 200;
 global.skMp[103]	= 100;
 global.skMp[104]	= 300;
+global.skMp[105]	= 200;
 	
 global.skKul	= array_create(3, 0);
 }

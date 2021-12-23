@@ -56,7 +56,7 @@ function sc_mobHit( argument0 ){
 			}
 			//part_type_color_rgb(global.hitEf01T, 180, 180, 180, 180, 255, 255);
 			part_type_color3(global.hitEf01T, c_white, c_blue, c_black);
-			uc_shake(sqrt(shock)/2.5, 0.15);
+			uc_shake(sqrt(shock)/2.5, 0.1);
 			SE_Play(s_hit01, global.vol);
 			//audio_play_sound(s_hit01, 5, false);
 			
@@ -115,7 +115,7 @@ function sc_mobHit( argument0 ){
 			}
 			part_type_color3(global.hitEf01T, c_white, c_yellow, c_black);
 			
-			uc_shake(sqrt(shock)/2.5, 0.15);
+			uc_shake(sqrt(shock)/2.5, 0.1);
 			SE_Play(s_hit01, global.vol);
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
 			part_type_orientation( global.hitEf_k01, 0, 360, 0, 0, 0 );
@@ -194,7 +194,7 @@ function sc_mobHit( argument0 ){
 			}
 			part_type_color3(global.hitEf01T, c_white, c_red, c_black);
 			
-			uc_shake(sqrt(shock)/2.5, 0.15);
+			uc_shake(sqrt(shock)/2, 0.1);
 			SE_Play(s_hit01, global.vol);
 			//part_type_scale( global.hitEf02T, 1.5, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
@@ -234,7 +234,7 @@ function sc_mobHit( argument0 ){
 			}
 			part_type_color3(global.hitEf01T, c_white, c_red, c_black);
 			
-			uc_shake(sqrt(shock)/2.5, 0.15);
+			uc_shake(sqrt(shock)/2, 0.1);
 			SE_Play(s_hit01, global.vol);
 			//part_type_scale( global.hitEf02T, 1.5, 1.5 );
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
@@ -274,7 +274,7 @@ function sc_mobHit( argument0 ){
 			}
 			part_type_color3(global.hitEf01T, c_white, c_yellow, c_black);
 			
-			uc_shake(sqrt(shock)/2.5, 0.15);
+			uc_shake(sqrt(shock)/2.5, 0.1);
 			SE_Play(s_hit01, global.vol);
 			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
 			part_type_orientation( global.hitEf_k01, 0, 360, 0, 0, 0 );
