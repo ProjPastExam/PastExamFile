@@ -3,8 +3,8 @@
 if (isCt) {
 	draw_sprite_stretched_ext(sp_black, 0, 0, 0, 1920, 150, 0, 1);
 	draw_sprite_stretched_ext(sp_black, 0, 0, 930, 1920, 150, 0, 1);
-	draw_sprite(sp_text_quite, 0, 1820, 100);
-	draw_sprite(sc_keySprite(global.btEsc), 0, 1780, 100);
+	draw_sprite(sp_text_quite, 0, 1820, 1020);
+	draw_sprite(sc_keySprite(global.btEsc), 0, 1680, 1020);
 }
 
 if (isGUI) sc_gameGUI();
@@ -37,6 +37,8 @@ else if ( isTalk == 5) {
 	draw_sprite(sp_black2, 0, 0, 0);
 	draw_sprite(npcFace, 0, 1455, 110);
 	draw_sprite(sp_demoTalk, 0, 960, 350);
+	draw_sprite(sc_keySprite(global.btAtk), 0, 240, 540);
+	draw_sprite(sp_text_next, 0, 350, 540);
 	
 	
 	draw_set_font(f_kor);

@@ -21,7 +21,25 @@ if (plX > 3400 && isTuto[1]) {
 	alarm[1] = 1;
 }
 
-if (keyboard_check_pressed(vk_escape) && isDisp) {
+if (plX > 11550 && isTuto[2]) {
+	ob_roomControl.pause = -10;
+	tutoSp = sp_tuto_sam;
+	isTuto[2] = false;
+	disp = 0;
+	isDisp = true;
+	alarm[1] = 1;
+}
+
+if (plX > 13500 && isTuto[3]) {
+	ob_roomControl.pause = -10;
+	tutoSp = sp_tuto_sk;
+	isTuto[3] = false;
+	disp = 0;
+	isDisp = true;
+	alarm[1] = 1;
+}
+
+if (keyboard_check_pressed(global.btEsc) && isDisp) {
 	alarm[2] = 1;
 	isDisp = false;
 	ob_roomControl.pause = -9;

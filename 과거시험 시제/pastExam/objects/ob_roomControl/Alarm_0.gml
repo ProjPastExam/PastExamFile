@@ -1,6 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if ( keyboard_check_pressed(global.btEsc) && global.hp > 0 ) {
+	if ( pause == -1 )		pause = 0;
+	else if ( isTalk == 0 && pause == 0 )	pause = -2;
+	
+	if (isCt) {alarm[7] = 1;}
+}
+
 if ( pause > 0 ) pause--;
 //if ( slow > 0 )	slow--;
 if (room_persistent) {
@@ -65,10 +72,7 @@ else if ( isTalk == 5) {
 	}
 }
 
-if ( keyboard_check_pressed(global.btEsc) && global.hp > 0 ) {
-	if ( pause == -1 )		pause = 0;
-	else if ( isTalk == 0 )	pause = -2;
-}
+
 
 if ( keyboard_check_pressed(global.btTap) && global.hp > 0 ) {
 	//if ( pause == -21 )		pause = 0;

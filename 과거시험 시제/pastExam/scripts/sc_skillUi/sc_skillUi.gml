@@ -11,7 +11,7 @@ skUi[104] = sp_skillUi_104;
 skUi[105] = sp_skillUi_105;
 
 skInfo = array_create(300, sp_skillUi_0);
-skInfo[0] = sp_skillUi_101Info;
+skInfo[0] = sp_skillUi_0Info;
 skInfo[100] = sp_skillUi_101Info;
 skInfo[101] = sp_skillUi_101Info;
 skInfo[102] = sp_skillUi_102Info;
