@@ -5,6 +5,8 @@ function sc_globalLoad(){
 	global.volBgm	= VSLS_Get("volBgm");
 	
 	global.itemNum		= VSLS_Get("itemNum");
+	
+	global.language		= VSLS_Get("language");
 
 	//공격 관련 수치
 	{

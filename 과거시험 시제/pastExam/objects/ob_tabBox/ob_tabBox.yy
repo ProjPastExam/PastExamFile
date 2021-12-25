@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_skillUi_0Info",
-    "path": "sprites/sp_skillUi_0Info/sp_skillUi_0Info.yy",
+    "name": "sp_tabBox",
+    "path": "sprites/sp_tabBox/sp_tabBox.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects/gameControl/tab.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_tabSkInfo",
+  "name": "ob_tabBox",
   "tags": [],
   "resourceType": "GMObject",
 }

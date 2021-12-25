@@ -31,7 +31,7 @@ function sc_jpGunAtk(){
 		sprite_index = sp_jpGun_atk;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { audio_play_sound(s_jp_bAtk, 8, false); }
+		if ( process == 1 ) { SE_Play(s_jp_bAtk, global.vol); }
 		
 		if ( process == 60 ) { 
 			SE_Play(s_jp_bAtk2, global.vol);

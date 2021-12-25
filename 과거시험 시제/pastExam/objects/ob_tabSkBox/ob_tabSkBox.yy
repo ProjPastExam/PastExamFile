@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_infoSkillBox",
-    "path": "sprites/sp_infoSkillBox/sp_infoSkillBox.yy",
+    "name": "sp_tabRing",
+    "path": "sprites/sp_tabRing/sp_tabRing.yy",
   },
   "solid": false,
   "visible": true,

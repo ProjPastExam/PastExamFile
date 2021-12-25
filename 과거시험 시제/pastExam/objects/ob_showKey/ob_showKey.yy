@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_skillUi_0Info",
-    "path": "sprites/sp_skillUi_0Info/sp_skillUi_0Info.yy",
+    "name": "sp_key_0",
+    "path": "sprites/sp_key_0/sp_key_0.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
+  "properties": [
+    {"varType":5,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"keyIndex","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
-    "name": "tab",
-    "path": "folders/Objects/gameControl/tab.yy",
+    "name": "gameControl",
+    "path": "folders/Objects/gameControl.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_tabSkInfo",
+  "name": "ob_showKey",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -38,6 +38,8 @@ if (!VSLS_File_Load("saveFile")) {
 	VSLS_Set("btEsc", vk_escape);
 	VSLS_Set("btTap", vk_tab);
 	
+	VSLS_Set("language", "korean");
+	
 	VSLS_File_Save("saveFile");
 }
 
