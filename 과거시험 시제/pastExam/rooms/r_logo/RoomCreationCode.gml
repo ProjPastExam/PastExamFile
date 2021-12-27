@@ -20,9 +20,9 @@ if (!VSLS_File_Load("saveFile")) {
 	VSLS_Set("kickMana", 50);
 	
 	VSLS_Set("fireDmg", 20);
-	VSLS_Set("fireDmg", 0);
-	VSLS_Set("fireDmg", 200);
-	VSLS_Set("fireDmg", 0);
+	VSLS_Set("firePene", 0);
+	VSLS_Set("fireShock", 200);
+	VSLS_Set("fireMana", 0);
 	
 	VSLS_Set("btLeft", vk_left);
 	VSLS_Set("btRight", vk_right);
