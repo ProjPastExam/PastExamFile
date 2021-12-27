@@ -255,6 +255,7 @@
     {"id":{"name":"r_tab","path":"rooms/r_tab/r_tab.yy",},"order":7,},
     {"id":{"name":"sp_jpSword_stand2","path":"sprites/sp_jpSword_stand2/sp_jpSword_stand2.yy",},"order":0,},
     {"id":{"name":"sp_keySellect","path":"sprites/sp_keySellect/sp_keySellect.yy",},"order":44,},
+    {"id":{"name":"itemScript","path":"scripts/itemScript/itemScript.yy",},"order":10,},
     {"id":{"name":"sp_pl_atkBack","path":"sprites/sp_pl_atkBack/sp_pl_atkBack.yy",},"order":2,},
     {"id":{"name":"sc_pl_atk3","path":"scripts/sc_pl_atk3/sc_pl_atk3.yy",},"order":12,},
     {"id":{"name":"sp_skillUi_102","path":"sprites/sp_skillUi_102/sp_skillUi_102.yy",},"order":4,},

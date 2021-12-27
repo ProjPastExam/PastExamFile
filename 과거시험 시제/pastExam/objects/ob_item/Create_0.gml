@@ -40,9 +40,9 @@ for (p = 0; p < statNum; p++) {
 }
 
 
-//sc_itemSprite();
-sprite_index = global.itemData[itemNum].itemSprite;
-infoSprite	= global.itemData[itemNum].itemInfo;
+sc_itemSprite();
+//sprite_index = global.itemData[itemNum].itemSprite;
+//infoSprite	= global.itemData[itemNum].itemInfo;
 
 
 //alarm[5] = 10;
