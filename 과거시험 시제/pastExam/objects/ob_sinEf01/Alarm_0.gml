@@ -17,20 +17,14 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	if (center == 3) act = true;
 	
 	if (act) {
-		var ex = instance_create_layer(x, y, "effect", ob_atkEf05);
-		var dmg = 0;
-		var sck = 0;
-
-		if (instance_exists(ob_player)) {
-			dmg = 45 + (5 * ob_player.isSin);
-			sck = 150 + (30 * ob_player.isSin);
+		with (instance_create_layer(x, y, "effect", ob_atkEf05)) {
+			sprite_index = sp_hitEffect_sin;
+			damage = global.fireDmg*3;
+			shock = global.fireShock;
+			pene = global.firePene;
+			hitAfter = 20;
+			image_xscale = dir;
 		}
-
-		ex.sprite_index = sp_hitEffect_sin;
-		ex.damage = dmg;
-		ex.shock = sck;
-		ex.hitAfter = 20;
-		ex.image_xscale = dir;
 		instance_destroy();
 	}
 }

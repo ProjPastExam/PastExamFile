@@ -158,7 +158,7 @@ function sc_jpMbAtk(){
 		
 		isDK = true;
 		
-		if ( process == 1 ) { audio_play_sound(s_jp_dAtk, 8, false); }
+		if ( process == 1 ) { SE_Play(s_jp_dAtk, global.vol); }
 		
 		if ( process == 75 ) { 
 			SE_Play(s_swing_a2, global.vol);

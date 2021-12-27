@@ -46,7 +46,7 @@ function sc_pl_atkFrontKick(){
 	
 	if ( atkProcess == 6 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
-		atk.damage = (1 + isFront/5) * sc_pl_kickDmg();
+		atk.damage = 1.5*sc_pl_kickDmg();
 		atk.shock = sc_pl_kickShock()+30;
 		atk.pene = sc_pl_kickPene();
 		atk.hitAfter = 10;
@@ -59,7 +59,7 @@ function sc_pl_atkFrontKick(){
 	
 	if ( atkProcess == 45 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
-		atk.damage = (2 + isFront/5) * sc_pl_kickDmg();
+		atk.damage = 1.5*sc_pl_kickDmg();
 		atk.shock = sc_pl_kickShock()+30;
 		atk.pene = sc_pl_kickPene();
 		atk.hitAfter = 10;
@@ -72,7 +72,7 @@ function sc_pl_atkFrontKick(){
 	
 	if ( atkProcess == 87 ) {
 		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
-		atk.damage = (2 + isFront/5) * sc_pl_kickDmg();
+		atk.damage = 2* sc_pl_kickDmg();
 		atk.shock = sc_pl_kickShock()+30;
 		atk.pene = sc_pl_kickPene();
 		atk.hitAfter = 10;

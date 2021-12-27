@@ -59,10 +59,24 @@ global.mp		= 0;
 global.SM_BGM	= -1;
 global.SM_BGM_SOUND = NULL;
 
+//아이템 관련 변수
+{
 global.itemMax		= 4;	//아이템 종류, 패치값
 global.itemSum		= 0;
-global.itemGet 		= array_create(10, -1);
+global.itemGet 		= array_create(10, NULL);
 global.itemGrade	= array_create(10, -1);
+
+global.itemData		= array_create(global.itemMax, NULL);
+
+//아이템 랜덤 스텟 = {공격, 관통, 마나, 돈}
+
+global.itemData[0]	= {	//신기전 아이템
+	itemSprite	: sp_Item_sin,
+	itemInfo	: sp_ItemInfo_sin,
+	itemKind	: 2,
+	itemFunc	: function() { other.isSin = true; },
+}
+}
 
 global.sk1		= 0;
 global.sk2		= 0;

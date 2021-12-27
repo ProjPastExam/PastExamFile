@@ -111,7 +111,7 @@ function sc_pl_move() {
 		case 1:		sc_pl_atk();			break;
 		case 2:		sc_pl_atk2();			break;
 		case 3:
-			if (isFront >= 0)	sc_pl_atkFrontKick();
+			if (isFront)	sc_pl_atkFrontKick();
 			else				sc_pl_atkFront();
 			break;
 		case 4:		sc_pl_atkBack();		break;
