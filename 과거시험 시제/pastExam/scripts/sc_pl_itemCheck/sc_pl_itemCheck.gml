@@ -5,10 +5,10 @@
 
 function sc_pl_itemCheck(){
 	{
-	isSin = -1;
-	isFront = -1;
-	itemJump = -1;
-	itemRise = -1;
+	isSin = false;
+	isFront = false;
+	itemJump = false;
+	itemRise = false;
 	}
 	
 	
@@ -20,11 +20,13 @@ function sc_pl_itemCheck(){
 	}
 	
 	for (var i = 0; i <= global.itemSum; i++) {
-		show_debug_message(i);
-		var item = global.itemGet[i];
-		var grade = global.itemGrade[i]
-		if (item == -1) { itemCheck = false;	return; }
-		sc_item(item, grade);
+		//show_debug_message(i);
+		if (global.itemGet[i] == NULL) { itemCheck = false;	return; }
+		global.itemGet[i].itemFunc();
+		//var item = global.itemGet[i];
+		//var grade = global.itemGrade[i]
+		//if (item == -1) { itemCheck = false;	return; }
+		//sc_item(item, grade);
 		
 	}
 	itemCheck	= false;

@@ -22,9 +22,23 @@ if ( sc_getRoomValue("pause") == 0 ) {
 			damage = global.fireDmg*3;
 			shock = global.fireShock;
 			pene = global.firePene;
+			mpUp = global.fireMana;
 			hitAfter = 20;
-			image_xscale = dir;
+			
+			image_xscale = other.dir;
 		}
+		
+		/*
+		var atk = instance_create_layer(x, y, "effect", ob_atkEf05)
+		atk.sprite_index = sp_hitEffect_sin;
+		atk.damage = global.fireDmg*3;
+		atk.shock = global.fireShock;
+		atk.pene = global.firePene;
+		atk.mpUp = global.fireMana;
+		atk.hitAfter = 20;
+		atk.image_xscale = dir;
+		
+		*/
 		instance_destroy();
 	}
 }

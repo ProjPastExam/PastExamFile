@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 32,
-  "bbox_right": 351,
-  "bbox_top": 32,
-  "bbox_bottom": 415,
+  "bbox_left": 116,
+  "bbox_right": 673,
+  "bbox_top": 118,
+  "bbox_bottom": 795,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 384,
-  "height": 512,
+  "width": 768,
+  "height": 1024,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2adc7bc8-c391-427d-8a0f-b5b40707e982","path":"sprites/sp_skillUi_105Info/sp_skillUi_105Info.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2adc7bc8-c391-427d-8a0f-b5b40707e982","path":"sprites/sp_skillUi_105Info/sp_skillUi_105Info.yy",},"LayerId":{"name":"a92874a4-ffae-44f5-9f6e-9fe1efc269f8","path":"sprites/sp_skillUi_105Info/sp_skillUi_105Info.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_skillUi_105Info","path":"sprites/sp_skillUi_105Info/sp_skillUi_105Info.yy",},"resourceVersion":"1.0","name":"2adc7bc8-c391-427d-8a0f-b5b40707e982","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"81f31717-d346-4276-9dac-a0ef05e9ba59","path":"sprites/sp_skillUi_105Info/sp_skillUi_105Info.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"81f31717-d346-4276-9dac-a0ef05e9ba59","path":"sprites/sp_skillUi_105Info/sp_skillUi_105Info.yy",},"LayerId":{"name":"0480cd27-087e-43a6-a463-e0ea2adf0d2c","path":"sprites/sp_skillUi_105Info/sp_skillUi_105Info.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_skillUi_105Info","path":"sprites/sp_skillUi_105Info/sp_skillUi_105Info.yy",},"resourceVersion":"1.0","name":"81f31717-d346-4276-9dac-a0ef05e9ba59","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sp_skillUi_105Info","path":"sprites/sp_skillUi_105Info/sp_skillUi_105Info.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"706da2ab-3432-4895-aa6a-d08c28bc129c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2adc7bc8-c391-427d-8a0f-b5b40707e982","path":"sprites/sp_skillUi_105Info/sp_skillUi_105Info.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"22020eed-ed32-4865-bf1d-a77dd9e04322","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"81f31717-d346-4276-9dac-a0ef05e9ba59","path":"sprites/sp_skillUi_105Info/sp_skillUi_105Info.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 192,
-    "yorigin": 256,
+    "xorigin": 384,
+    "yorigin": 512,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_skillUi_105Info","path":"sprites/sp_skillUi_105Info/sp_skillUi_105Info.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a92874a4-ffae-44f5-9f6e-9fe1efc269f8","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0480cd27-087e-43a6-a463-e0ea2adf0d2c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

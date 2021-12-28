@@ -6,5 +6,5 @@ alarm[2] = 8;
 
 act = false;
 dir = 1;
-audio_play_sound(s_sin01, 5, false);
+SE_Play(s_sin01, global.vol);
 global.sin = id;

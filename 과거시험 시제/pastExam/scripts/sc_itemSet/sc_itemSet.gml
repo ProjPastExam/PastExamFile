@@ -7,7 +7,7 @@ function sc_itemSet(){
 	var i = 0;
 	for (i = 0; i < 10; i++) {
 		global.itemGet[i] = -1;
-		global.itemGrade[i] = -1;
+		//global.itemGrade[i] = -1;
 	}
 	
 

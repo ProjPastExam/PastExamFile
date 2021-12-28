@@ -3,13 +3,13 @@
 touch = true;
 
 
-if (keyboard_check(vk_up)) {
+if (keyboard_check(global.btInter)) {
 	if (global.itemSum < global.itemNum) {
-		global.itemGet[global.itemSum] = itemNum;
-		global.itemGrade[global.itemSum] = itemGrade;
+		global.itemGet[global.itemSum] = global.itemData[itemNum];
 		global.itemSum++;
-		if ( object_exists(ob_player) )
-			ob_player.itemCheck = true;
+		with ( ob_player ) {
+			itemCheck = true;
+		}
 	
 		instance_destroy();
 	}
