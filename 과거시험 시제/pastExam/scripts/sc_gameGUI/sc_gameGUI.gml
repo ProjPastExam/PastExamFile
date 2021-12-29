@@ -54,9 +54,9 @@ function sc_gameGUI(){
 	draw_sprite_ext(skUi[global.sk3], 0, GUIX+265, GUIY+173, 1, 1, 0, en, 1);
 	
 	
-	draw_sprite_ext(sp_skillUi_black, 0, GUIX-12, GUIY+191, 1, global.skKul[0]/120, 0, c_white, 0.5);
-	draw_sprite_ext(sp_skillUi_black, 0, GUIX+125, GUIY+191, 1, global.skKul[1]/120, 0, c_white, 0.5);
-	draw_sprite_ext(sp_skillUi_black, 0, GUIX+265, GUIY+191, 1, global.skKul[2]/120, 0, c_white, 0.5);
+	draw_sprite_ext(sp_skillUi_black, 0, GUIX-12, GUIY+191, 1, global.skKul[0]/global.skKulData[global.sk1], 0, c_white, 0.5);
+	draw_sprite_ext(sp_skillUi_black, 0, GUIX+125, GUIY+191, 1, global.skKul[1]/global.skKulData[global.sk2], 0, c_white, 0.5);
+	draw_sprite_ext(sp_skillUi_black, 0, GUIX+265, GUIY+191, 1, global.skKul[2]/global.skKulData[global.sk3], 0, c_white, 0.5);
 	
 	
 	

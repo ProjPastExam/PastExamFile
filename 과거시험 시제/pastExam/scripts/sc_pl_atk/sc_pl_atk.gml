@@ -23,16 +23,9 @@ function sc_pl_atk(){
 	}
 	
 	if ( atkProcess == 12 || atkProcess == 30 ) {
-		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
-		atk.damage = sc_pl_atkDmg();
-		atk.shock = sc_pl_atkShock();
-		atk.pene = sc_pl_atkPene();
-		atk.hitAfter = 10;
-		atk.sprite_index = sp_pl_atkEf01;
-		atk.image_xscale = dir;
-		atk.mpUp = sc_pl_atkMana();
+		sc_pl_atkEf(sc_pl_atkDmg(), sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana(), 
+			0, 0, 0, sp_pl_atkEf01, dir);
 		SE_Play(s_arrow01, global.vol);
-		//audio_play_sound(s_arrow01, 5, false);
 	}
 	/*
 	if ( atkProcess == 20 && isAtk3 == 20 ) {

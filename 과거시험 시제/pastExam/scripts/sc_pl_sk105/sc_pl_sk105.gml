@@ -20,15 +20,9 @@ function sc_pl_sk105(){
 		if ( keySk3 ) nextAtk = -3;
 	}
 
-	
 	if ( atkProcess == 12 ) {
-		atk = instance_create_layer(x, y-40, "effect", ob_atkEf05);
-		atk.damage = 35;
-		atk.shock = 250;
-		atk.pene = 40;
-		atk.hitAfter = 15;
-		atk.sprite_index = sp_jpGun_ef;
-		atk.image_xscale = dir;
+		sc_pl_atkEf(35, 40, 250, 0, 
+			4, 2, 0, sp_jpGun_ef, dir);
 		uc_shake(8, 0.1);
 		SE_Play(s_jp_bAtk2, global.vol);
 		//audio_play_sound(s_pl_sk101, 5, false);
@@ -36,7 +30,7 @@ function sc_pl_sk105(){
 		part_particles_create( global.hitEf, x-(20*dir), y-10, global.gunEf, 1 );
 		//if (sc_getRoomValue("pause") != NULL) ob_roomControl.pause = 20;
 		global.mp -= global.skMp[105];
-		global.skKul[skState] = 120;
+		global.skKul[skState] = global.skKulData[105];
 	}
 	
 	//대쉬 제어

@@ -1,6 +1,109 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_mobHit( argument0 ){
+function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir ){ with (mobId) {
+	
+	var calDmg = sc_mobDmg(dmg, pene);
+	var dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
+	dmgId.dmg = calDmg;
+	dmgId.colo = hitKind;
+	var shVal = (shock- down)/10;
+	if ( knockback ) { 
+		if ( state == 8 ) { process = 16; ySpeed = -11*(100-down/2)/100; }
+		else {
+			if (!isDA && (hitKind == 0 || hitKind == 10)) { state = 5 process = shVal; }
+			else if (!isDK && hitKind == 1 ) { state = 6; process = shVal; }
+			else if (!isDF && hitKind == 2 ) { state = 7; process = shVal; }
+			ySpeed -= hitUp*(100-down/2)/100; 
+		}
+	}
+	if (hitKind == 10) hitKind = 1;
+	ad = true;
+	patrol = true;
+	
+	global.mp += mana;
+	if (global.mp > global.mpMax) global.mp = global.mpMax;
+	SE_Play(s_hit01, global.vol);
+	
+	switch (hitKind) {
+		case 0:
+		/*
+			if ( ob_atkEf01.image_angle == 35 ) {
+				part_type_direction( global.hitEf01T, 0, 70, 0, 0 );
+				hitDir = 1;
+				//dir = -1;
+			}
+			else if ( ob_atkEf01.image_angle == 145 ) {
+				part_type_direction( global.hitEf01T, 110, 180, 0, 0 );
+				hitDir = -1;
+				//dir = 1;
+			}
+			*/
+			if ( dir == -1 )	{
+				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
+				xs = -1;
+				hitDir = -1;
+				//dir = 1;
+			}
+			else	{
+				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
+				xs = 1;
+				hitDir = 1;
+				//dir = -1;
+			}
+			//part_type_color_rgb(global.hitEf01T, 180, 180, 180, 180, 255, 255);
+			part_type_color3(global.hitEf01T, c_white, c_blue, c_black);
+			uc_shake(sqrt(shock)/2.5, 0.1);
+			
+			if ( shock < 150 ) part_type_scale( global.hitEf02T, xs * 0.6, 0.6 );
+			else if ( shock < 200 ) part_type_scale( global.hitEf02T, xs * 0.8, 0.8 );
+			else if ( shock < 250 ) part_type_scale( global.hitEf02T, xs * 1, 1 );
+			else part_type_scale( global.hitEf02T, xs * 1.2, 1.2 );
+			
+			part_particles_create( global.hitEf, x, y, global.hitEf01T, 15 );
+			part_particles_create( global.hitEf, x, y, global.hitEf02T, 1 );
+			break;
+			
+		case 1:
+			if ( dir == -1 )	{
+				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
+				hitDir = -1;
+				//dir = 1;
+			}
+			else			{
+				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
+				hitDir = 1;
+				//dir = -1;
+			}
+			part_type_color3(global.hitEf01T, c_white, c_yellow, c_black);
+			
+			uc_shake(sqrt(shock)/2.5, 0.1);
+			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
+			part_type_orientation( global.hitEf_k01, 0, 360, 0, 0, 0 );
+			part_particles_create( global.hitEf, x, y, global.hitEf_k01, 1 );
+			break;
+			
+		case 2:
+			if ( dir == -1 )	{
+				part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
+				hitDir = -1;
+				//dir = 1;
+			}
+			else			{
+				part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
+				hitDir = 1;
+				//dir = -1;
+			}
+			part_type_color3(global.hitEf01T, c_white, c_red, c_black);
+			
+			uc_shake(sqrt(shock)/2, 0.1);
+			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
+			part_type_orientation( global.hitEf_f01, -30, 30, 0, 0, 0 );
+			part_particles_create( global.hitEf, x, y, global.hitEf_f01, 1 );
+			break;
+	}
+}
+}
+	/*
 	//var plX = sc_pl_get("x");
 	var dmg = 0;
 	var dmgId;
@@ -281,5 +384,5 @@ function sc_mobHit( argument0 ){
 			part_particles_create( global.hitEf, x, y, global.hitEf_k01, 1 );
 			break;
 	}
+	*/
 	
-}

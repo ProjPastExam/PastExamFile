@@ -1,3 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy();
+hitSum = 0;
+hitArray = array_create(hitNum, 0);
+
+alarm[2] = hitAfter;

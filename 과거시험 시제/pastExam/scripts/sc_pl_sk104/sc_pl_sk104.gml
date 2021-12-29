@@ -25,13 +25,8 @@ function sc_pl_sk104(){
 			atkProcess == 50) {
 		SE_Play(s_arrow01, global.vol);
 		//audio_play_sound(s_arrow01, 5, false);
-		atk = instance_create_layer(x, y, "effect", ob_atkEf01);
-		atk.damage = sc_pl_atkDmg()*1.5;
-		atk.shock = sc_pl_atkShock();
-		atk.pene = sc_pl_atkPene();
-		atk.hitAfter = 10;
-		atk.image_xscale = dir;
-		atk.sprite_index = sp_pl_atkEf104;
+		atk = sc_pl_atkEf(sc_pl_atkDmg()*1.5, sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana(), 
+			0, 0, 0, sp_pl_atkEf104, dir);
 		global.mp -= global.skMp[104]/5;
 	}
 	
@@ -64,7 +59,7 @@ function sc_pl_sk104(){
 	else if ( atkProcess < 55 )	{ image_index = 10; }
 	else if ( atkProcess < 60 )	{ image_index = 11; }
 	else if ( atkProcess < 75 ) {
-		global.skKul[skState] = 120;
+		global.skKul[skState] = global.skKulData[104];
 		if ( nextAtk == 1 ) { nextAtk = 0; atkProcess = 0; canMove = 1; }
 		else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 		else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }

@@ -103,5 +103,14 @@ global.skMp[104]	= 300;
 global.skMp[105]	= 200;
 	
 global.skKul	= array_create(3, 0);
+
+global.skKulData = array_create(600, 0);
+global.skKulData[0]		= 0;
+global.skKulData[100]	= 120;
+global.skKulData[101]	= 120;
+global.skKulData[102]	= 120;
+global.skKulData[103]	= 120;
+global.skKulData[104]	= 120;
+global.skKulData[105]	= 60;
 }
 }

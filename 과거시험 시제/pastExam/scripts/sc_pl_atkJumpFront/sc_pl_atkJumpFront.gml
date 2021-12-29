@@ -9,14 +9,8 @@ function sc_pl_atkJumpFront(){
 	var atk;
 	
 	if ( atkProcess == 8 ) {
-		atk = instance_create_layer(x, y, "effect", ob_atkEf03);
-		atk.damage = 2 * sc_pl_kickDmg();
-		atk.shock = sc_pl_kickShock();
-		atk.pene = sc_pl_kickPene();
-		atk.hitAfter = 10;
-		atk.sprite_index = sp_pl_atkEf03;
-		atk.image_xscale = dir;
-		atk.mpUp = sc_pl_kickMana();
+		sc_pl_atkEf(sc_pl_kickDmg()*2, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
+			0, 1, 0, sp_pl_atkEf03, dir);
 		SE_Play(s_kick01, global.vol);
 		//audio_play_sound(s_kick01, 5, false);
 	}
