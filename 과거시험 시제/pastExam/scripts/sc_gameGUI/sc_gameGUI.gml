@@ -60,6 +60,7 @@ function sc_gameGUI(){
 	
 	
 	
+	
 	var skMpVar = 0;
 	
 	skMpVar = (global.skMp[global.sk1]/100);
