@@ -29,7 +29,7 @@ function sc_pl_sk103(){
 		SE_Play(s_swing_c1, global.vol);
 		//audio_play_sound(s_swing_c1, 5, false);
 		atk = sc_pl_atkEf(sc_pl_kickDmg()*6, sc_pl_kickPene()+40, sc_pl_kickShock()+100, 0, 
-			0, 1, 10, sp_pl_atkEf103_1, dir);
+			0, 10, 0, sp_pl_atkEf103_1, dir);
 		global.mp -= global.skMp[103];
 	}
 	

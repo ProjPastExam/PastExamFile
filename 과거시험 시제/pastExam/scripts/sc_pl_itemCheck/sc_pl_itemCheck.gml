@@ -4,15 +4,16 @@
 ////////////////////////////////////////////////////////////////////////
 
 function sc_pl_itemCheck(){
+	var dmgScale = array_create(3, 0);
 	{
 	isSin = false;
 	isFront = false;
 	itemJump = false;
-	itemRise = false;
+	item2	= false;
 	}
 	
 	
-	atkDmgScale = 1;
+	global.atkDmgScale = 1;
 	
 	if (global.itemSum == 0) {
 		itemCheck = false;
@@ -23,10 +24,7 @@ function sc_pl_itemCheck(){
 		//show_debug_message(i);
 		if (global.itemGet[i] == NULL) { itemCheck = false;	return; }
 		global.itemGet[i].itemFunc();
-		//var item = global.itemGet[i];
-		//var grade = global.itemGrade[i]
-		//if (item == -1) { itemCheck = false;	return; }
-		//sc_item(item, grade);
+		dmgScale[global.itemGet[i].itemKind]++;
 		
 	}
 	itemCheck	= false;

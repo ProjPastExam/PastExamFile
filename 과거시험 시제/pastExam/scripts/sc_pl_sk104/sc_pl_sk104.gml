@@ -28,6 +28,7 @@ function sc_pl_sk104(){
 		atk = sc_pl_atkEf(sc_pl_atkDmg()*1.5, sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana(), 
 			0, 0, 0, sp_pl_atkEf104, dir);
 		global.mp -= global.skMp[104]/5;
+		global.skKul[skState] = global.skKulData[104];
 	}
 	
 	if ( atkProcess == 10 || atkProcess == 40 ) 
@@ -59,7 +60,6 @@ function sc_pl_sk104(){
 	else if ( atkProcess < 55 )	{ image_index = 10; }
 	else if ( atkProcess < 60 )	{ image_index = 11; }
 	else if ( atkProcess < 75 ) {
-		global.skKul[skState] = global.skKulData[104];
 		if ( nextAtk == 1 ) { nextAtk = 0; atkProcess = 0; canMove = 1; }
 		else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 		else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }

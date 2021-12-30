@@ -59,6 +59,10 @@ global.mp		= 0;
 global.SM_BGM	= -1;
 global.SM_BGM_SOUND = NULL;
 
+global.atkDmgScale = 1;
+global.kickDmgScale = 1;
+global.fireDmgScale = 1;
+
 //아이템 관련 변수
 {
 global.itemMax		= 4;	//아이템 종류, 패치값
@@ -68,17 +72,18 @@ global.itemGrade	= array_create(10, -1);
 
 global.itemData		= array_create(global.itemMax, NULL);
 
-//아이템 랜덤 스텟 = {공격, 관통, 마나, 돈}
 
-global.itemData[0]	= new itemStruct (
-	0, sp_Item_sin, sp_ItemInfo_sin, 2, 
-	function() { other.isSin = true; }
-)
+//신기전 아이템
+global.itemData[0]	= new itemStruct ( 0, sp_Item_sin, sp_ItemInfo_sin, 2, 
+	function() { other.isSin = true; })
 
-global.itemData[1]	= new itemStruct (
-	1, sp_Item_kick, sp_ItemInfo_kick, 1, 
-	function() { other.isFront = true; }
-)
+//전방 3연속 발차기 아이템
+global.itemData[1]	= new itemStruct ( 1, sp_Item_kick, sp_ItemInfo_kick, 1, 
+	function() { other.isFront = true; })
+
+//마나소모시 화살 공격 아이템
+global.itemData[2]	= new itemStruct ( 2, sp_Item_kick, sp_ItemInfo_kick, 0, 
+	function() { other.item2 = true;	other.item2Index1 = 0;	other.item2Index2 = global.mp;	other.item2Index3 = 0; })
 }
 
 global.sk1		= 0;

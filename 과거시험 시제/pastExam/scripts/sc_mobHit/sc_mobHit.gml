@@ -7,13 +7,13 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir ){ with (
 	dmgId.dmg = calDmg;
 	dmgId.colo = hitKind;
 	var shVal = (shock- down)/10;
-	if ( knockback ) { 
+	if ( knockback && (shVal > 0) ) { 
 		if ( state == 8 ) { process = 16; ySpeed = -11*(100-down/2)/100; }
 		else {
-			if (!isDA && (hitKind == 0 || hitKind == 10)) { state = 5 process = shVal; }
-			else if (!isDK && hitKind == 1 ) { state = 6; process = shVal; }
-			else if (!isDF && hitKind == 2 ) { state = 7; process = shVal; }
-			ySpeed -= hitUp*(100-down/2)/100; 
+			if (!isDA && (hitKind == 0 || hitKind == 10)) { state = 5 process = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
+			else if (!isDK && hitKind == 1 ) { state = 6; process = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
+			else if (!isDF && hitKind == 2 ) { state = 7; process = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
+			
 		}
 	}
 	if (hitKind == 10) hitKind = 1;

@@ -15,7 +15,7 @@ function sc_mobAd(){
 		else dir = -1;
 		part_type_scale( global.mobAdEf, dir, 1 );
 		part_particles_create( global.hitEf, x, y, global.mobAdEf, 15 );
-		if (alarm[1] > 0) alarm[1] = -10;
+		if (alarm[1] > 0) alarm[1] = -1;
 	}
 	if ( ad && (drX > adDistance * 2) ) {
 		if (alarm[1] < 0) alarm[1] = 210;
