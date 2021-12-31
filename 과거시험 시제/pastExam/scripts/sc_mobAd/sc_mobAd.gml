@@ -3,7 +3,7 @@
 function sc_mobAd(){
 	var plX = sc_pl_get("x");
 	var drX = abs(plX - x);
-	var drY = sc_pl_get("y") - y;
+	var drY = abs(sc_pl_get("y") - y);
 
 	
 	if ( !ad && (drX < adDistance && (drY > adHeight * -1) && (drY < adHeight)) ) {
@@ -16,10 +16,16 @@ function sc_mobAd(){
 		part_particles_create( global.hitEf, x, y, global.mobAdEf, 15 );
 		//if (alarm[1] > 0) alarm[1] = -1;
 	}
-	if ( ad && (drX > adDistance * 2) ) {
-		if (alarm[1] < 0) alarm[1] = 210;
-	}
-	if ( ad && !sc_pl_get("isJump") && ((drY < adHeight * -1.3) || (drY > adHeight * 1.3)) ) {
-		if (alarm[1] < 0) alarm[1] = 210;
+	if (ad) {
+		if ( drX > adDistance * 2 ) {
+			if (alarm[1] < 0) alarm[1] = 120;
+		}
+		if (!sc_pl_get("isJump") && (drY > adHeight * 1.3) ) {
+			if (alarm[1] < 0) alarm[1] = 120;
+		}
+		
+		if ((drX <= adDistance * 2) && (drY <= adHeight * 1.3)) {
+			if (alarm[1] > 0) alarm[1] = -1;
+		}
 	}
 }

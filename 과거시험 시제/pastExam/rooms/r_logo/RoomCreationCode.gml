@@ -84,6 +84,14 @@ global.itemData[1]	= new itemStruct ( 1, sp_Item_kick, sp_ItemInfo_kick, 1,
 //마나소모시 화살 공격 아이템
 global.itemData[2]	= new itemStruct ( 2, sp_Item_kick, sp_ItemInfo_kick, 0, 
 	function() { other.item2 = true;	other.item2Index1 = 0;	other.item2Index2 = global.mp;	other.item2Index3 = 0; })
+
+//공중의 적 공격 시 추가데미지 아이템
+global.itemData[3]	= new itemStruct ( 3, sp_Item_jump, sp_ItemInfo_jump, 0, 
+	function() { other.itemJump = true; })
+	
+//후방공격 후 전방공격 시 죽창 찌르기 아이템
+global.itemData[4]	= new itemStruct ( 4, sp_Item_jump, sp_ItemInfo_jump, 1, 
+	function() { other.item4 = true;	other.item4Index = true; })
 }
 
 global.sk1		= 0;

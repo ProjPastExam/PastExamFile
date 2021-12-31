@@ -47,7 +47,7 @@
     "spriteId": {"name":"sp_hitEffect01","path":"sprites/sp_hitEffect01/sp_hitEffect01.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 10.0,
+    "playbackSpeed": 18.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

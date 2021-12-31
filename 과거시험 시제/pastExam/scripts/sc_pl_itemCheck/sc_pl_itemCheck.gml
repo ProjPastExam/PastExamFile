@@ -10,6 +10,7 @@ function sc_pl_itemCheck(){
 	isFront = false;
 	itemJump = false;
 	item2	= false;
+	item4	= false;
 	}
 	
 	

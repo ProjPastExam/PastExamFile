@@ -72,6 +72,14 @@ part_type_sprite( global.hitEf_f01, sp_hitEffect_fire01, true, true, false );
 part_type_life( global.hitEf_f01, 18, 18 );
 //part_type_scale( global.hitEf_f01, 1.2, 1.2);
 
+
+//공중 공격 피격시 타격감 효과
+global.hitEf_j01 = part_type_create();
+
+part_type_sprite( global.hitEf_j01, sp_hitEffect_jump, true, true, false );
+part_type_life( global.hitEf_j01, 18, 18 );
+//part_type_scale( global.hitEf_j01, 1.2, 1.2);
+
 //플레이어 피격시 타격감 효과
 global.hitEf04T = part_type_create();
 

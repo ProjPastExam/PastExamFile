@@ -6,7 +6,6 @@ function sc_pl_atkFront2(){
 	if (isJump) xSpeed = dir*2;
 	image_xscale = dir;
 	sprite_index = sp_pl_atkFront2;
-	var atk;
 	
 	if ( atkProcess == 24 && isAtk3 == 20 ) {
 		canMove = 12;
@@ -18,6 +17,7 @@ function sc_pl_atkFront2(){
 		if (keyAttack) {
 			if ( keyDown )		nextAtk = 5;
 			else if ( keyTop ) 	nextAtk = 6;
+			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
 			else				nextAtk = 2;
 		}
 		if ( keySk1 ) nextAtk = -1;
@@ -52,6 +52,7 @@ function sc_pl_atkFront2(){
 		{ canMove = 2;	atkProcess = 8; }
 		if ( nextAtk == 5 )	{ canMove = 5;	atkProcess = 0; }
 		else if ( nextAtk == 6 )	{ canMove = 6;	atkProcess = 0; }
+		else if ( nextAtk == 4 )	{ canMove = 4;	atkProcess = 0; }
 		sc_pl_skComb();
 	}
 	else { canMove = 0; atkProcess = -15; }
