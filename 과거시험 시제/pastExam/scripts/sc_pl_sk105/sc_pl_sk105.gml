@@ -21,7 +21,7 @@ function sc_pl_sk105(){
 	}
 
 	if ( atkProcess == 12 ) {
-		sc_pl_atkEf(35, 40, 250, 0, 
+		sc_pl_atkEf(sc_pl_fireDmg()*1.5, sc_pl_firePene()+40, sc_pl_fireShock()+50, 0, 
 			4, 2, 0, sp_pl_atkEf105, dir);
 		uc_shake(8, 0.1);
 		SE_Play(s_jp_bAtk2, global.vol);

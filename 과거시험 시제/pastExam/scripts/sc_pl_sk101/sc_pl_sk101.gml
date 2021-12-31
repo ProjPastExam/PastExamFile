@@ -21,8 +21,8 @@ function sc_pl_sk101(){
 	}
 
 	
-	if ( atkProcess == 21 ) {
-		sc_pl_atkEf(50, 0, 200, 0, 
+	if ( atkProcess == 24 ) {
+		sc_pl_atkEf(sc_pl_fireDmg()*2.5, sc_pl_firePene(), sc_pl_fireShock(), 0, 
 			4, 2, 5, sp_pl_atkEf101, dir);
 		uc_shake(8, 0.1);
 		SE_Play(s_pl_sk101, global.vol);
@@ -44,9 +44,9 @@ function sc_pl_sk101(){
 		sc_pl_atkDnJ();
 	}
 	
-	if ( atkProcess < 7 )		{ image_index = 0; nextAtk = 0; }
-	else if ( atkProcess < 14 )	{ image_index = 1; }
-	else if ( atkProcess < 21 )	{ image_index = 2; }
+	if ( atkProcess < 8 )		{ image_index = 0; nextAtk = 0; }
+	else if ( atkProcess < 16 )	{ image_index = 1; }
+	else if ( atkProcess < 24 )	{ image_index = 2; }
 	else if ( atkProcess < 27 )	{ image_index = 3; xSpeed = dir * -16; }
 	else if ( atkProcess < 32 )	{ image_index = 4; xSpeed = dir * -10; }
 	else if ( atkProcess < 37 )	{ image_index = 5; xSpeed = dir * -4; }

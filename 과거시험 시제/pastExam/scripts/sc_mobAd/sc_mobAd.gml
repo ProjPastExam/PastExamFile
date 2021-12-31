@@ -2,10 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_mobAd(){
 	var plX = sc_pl_get("x");
-	var drX = plX - x;
+	var drX = abs(plX - x);
 	var drY = sc_pl_get("y") - y;
-	
-	if (drX < 0) drX = drX* -1;
+
 	
 	if ( !ad && (drX < adDistance && (drY > adHeight * -1) && (drY < adHeight)) ) {
 		state = 10;
@@ -15,7 +14,7 @@ function sc_mobAd(){
 		else dir = -1;
 		part_type_scale( global.mobAdEf, dir, 1 );
 		part_particles_create( global.hitEf, x, y, global.mobAdEf, 15 );
-		if (alarm[1] > 0) alarm[1] = -1;
+		//if (alarm[1] > 0) alarm[1] = -1;
 	}
 	if ( ad && (drX > adDistance * 2) ) {
 		if (alarm[1] < 0) alarm[1] = 210;

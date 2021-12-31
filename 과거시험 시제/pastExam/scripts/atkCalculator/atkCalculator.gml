@@ -19,3 +19,28 @@ function sc_pl_atkDmg(){
 	
 	return atkDmg;
 }
+
+
+function sc_pl_atkMana(){
+	var atkMana = global.atkMana;
+	
+	return atkMana;
+}
+
+
+function sc_pl_atkPene(){
+	var atkPene = global.atkPene;
+	
+	
+	return atkPene;
+}
+
+
+function sc_pl_atkShock(){
+	//기본 데미지 및 아이템 배율 적용
+	var atkShock = global.atkShock;
+
+	
+	
+	return atkShock;
+}
