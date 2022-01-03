@@ -133,6 +133,7 @@ function sc_pl_move() {
 		case 103:	sc_pl_sk103();			break;
 		case 104:	sc_pl_sk104();			break;
 		case 105:	sc_pl_sk105();			break;
+		case 106:	sc_pl_sk106();			break;
 		}
 	}
 	if (dProcess > -1 && canMove == 10) sc_pl_dash();

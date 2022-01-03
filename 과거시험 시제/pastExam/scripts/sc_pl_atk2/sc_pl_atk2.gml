@@ -43,14 +43,11 @@ function sc_pl_atk2(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 16 && atkProcess < 50) ) {
-		if ( keyDash ) nextAtk = 10;
-		if ( keyJump ) nextAtk = 9;
-	}
-		
-	if ( (atkProcess > 24 && atkProcess < 50) ) {
-		sc_pl_atkDnJ();
-	}
+
+	if ( keyDash ) nextAtk = 10;
+	if ( keyJump ) nextAtk = 9;
+	sc_pl_atkDnJ();
+
 	
 	if ( atkProcess < 8 )		{ image_index = 0; nextAtk = 0; }
 	else if ( atkProcess < 18 )	{ image_index = 1; }

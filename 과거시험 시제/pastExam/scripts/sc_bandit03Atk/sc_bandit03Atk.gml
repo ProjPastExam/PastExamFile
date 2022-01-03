@@ -9,8 +9,8 @@ function sc_bandit03Atk(){
 	
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
-	if ( state == 12 || state == 14 ) { isDA = true; }
-	else { isDA = false; }
+	if ( state == 12 || state == 14 ) { isDA = true;	isDF = true; }
+	else { isDA = false;	isDF = false; }
 	
 	
 	var plX = sc_pl_get("x");

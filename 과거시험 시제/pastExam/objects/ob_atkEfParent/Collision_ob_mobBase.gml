@@ -11,5 +11,6 @@ for (var i = 0; i < hitSum; i++) {
 
 hitArray[hitSum] = hitId;
 sc_mobHit(other, dmg, pene, shock, mana, hitUp, hitKind, image_xscale);
+if (shake > 0) { uc_shake(shake, 0.1); }
 
 hitSum++;

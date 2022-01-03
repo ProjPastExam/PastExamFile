@@ -7,12 +7,12 @@ function sc_jpSpearAtk(){
 	var right1	= tilemap_get_at_pixel(tileId, bbox_right+96, bbox_bottom - 16 );
 	var right2	= tilemap_get_at_pixel(tileId, bbox_right+96, bbox_top + 16 );
 	
-	isDA		= false;
 	
 	if ( delay > 0 ) delay--;
-	if ( delay < 0 ) delay = 0;
-	if ( state == 12 ) { isDA = true; }
-	else { isDA = false; if (ob != NULL) { instance_destroy(ob); ob = NULL; } }
+	else if ( delay < 0 ) delay = 0;
+	if ( state == 12 || state == 13 ) { isDA = true;	isDF = true; }
+	else { isDA = false;	isDF = false; }
+	if ((state != 12) && (ob != NULL) ) { instance_destroy(ob); ob = NULL; }
 	
 	
 	

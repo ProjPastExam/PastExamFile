@@ -10,7 +10,7 @@ function sc_jpSwordSAtk(){
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
 	
-	if ( state == 12 || state == 14 ) { isDA = true; isDK = true; }
+	if ( state == 12 || state == 13 || state == 14 ) { isDA = true; isDK = true; }
 	else { isDA = false; isDK = false; }
 	
 	
