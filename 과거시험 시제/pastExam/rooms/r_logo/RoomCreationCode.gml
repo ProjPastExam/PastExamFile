@@ -3,11 +3,11 @@ VSLS_Init();
 //window_set_fullscreen(true);
 
 VSLS_File_Load("saveFile")
+{
+if (VSLS_Get("vol" == undefined))		VSLS_Set("vol", 50);
+if (VSLS_Get("volBgm" == undefined))	VSLS_Set("volBgm", 50);
 
-if (VSLS_Get("vol" == undefined)) VSLS_Set("vol", 50);
-if (VSLS_Get("volBgm" == undefined)) VSLS_Set("volBgm", 50);
-
-if (VSLS_Get("itemNum" == undefined)) VSLS_Set("itemNum", 4);
+if (VSLS_Get("itemNum" == undefined))	VSLS_Set("itemNum", 3);
 
 if (VSLS_Get("atkDmg" == undefined))	VSLS_Set("atkDmg", 16);
 if (VSLS_Get("atkPene" == undefined))	VSLS_Set("atkPene", 0);
@@ -39,7 +39,7 @@ if (VSLS_Get("btEsc" == undefined))		VSLS_Set("btEsc", vk_escape);
 if (VSLS_Get("btTap" == undefined))		VSLS_Set("btTap", vk_tab);
 	
 if (VSLS_Get("language" == undefined))	VSLS_Set("language", "korean");
-	
+}
 VSLS_File_Save("saveFile");
 
 
