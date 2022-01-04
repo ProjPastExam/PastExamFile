@@ -25,6 +25,7 @@
     {"id":{"name":"sp_bandit03_stand","path":"sprites/sp_bandit03_stand/sp_bandit03_stand.yy",},"order":0,},
     {"id":{"name":"demo_stage01","path":"rooms/demo_stage01/demo_stage01.yy",},"order":17,},
     {"id":{"name":"sp_pl_atkFront2","path":"sprites/sp_pl_atkFront2/sp_pl_atkFront2.yy",},"order":5,},
+    {"id":{"name":"ob_sk_chun","path":"objects/ob_sk_chun/ob_sk_chun.yy",},"order":5,},
     {"id":{"name":"sp_jpSword_run","path":"sprites/sp_jpSword_run/sp_jpSword_run.yy",},"order":2,},
     {"id":{"name":"ob_atkEf01","path":"objects/ob_atkEf01/ob_atkEf01.yy",},"order":1,},
     {"id":{"name":"sp_jpSword_dig","path":"sprites/sp_jpSword_dig/sp_jpSword_dig.yy",},"order":9,},

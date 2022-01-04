@@ -12,6 +12,7 @@ function itemStruct(_itemNum, _itemSprite, _infoSprite, _itemKind, _itemFunc) co
 
 function sc_itemCheck(index) {
 	for (var i = 0; i = global.itemSum; i++) {
+		if (global.itemGet[i] == NULL) return true;
 		if (global.itemGet[i].itemNum == index) return false;
 	}
 	return true;
