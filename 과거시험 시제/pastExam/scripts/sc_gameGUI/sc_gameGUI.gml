@@ -7,7 +7,7 @@ function sc_gameGUI(){
 	var i = 1;
 	draw_sprite_stretched(sp_mpbar, 0, GUIX-10, GUIY+100, 720, 96);
 	draw_sprite_stretched(sp_healthbar, global.hp, -50, GUIY-15, 900, 192);
-	draw_sprite(sp_skillBoxOut, 0, GUIX+203, GUIY+245);
+	//draw_sprite(sp_skillBoxOut, 0, GUIX+203, GUIY+245);
 	
 	for ( i = 1; i <= 10; i++ ) {
 		if ( global.hpMax >= i ) {
@@ -43,15 +43,15 @@ function sc_gameGUI(){
 	{
 	var en = c_white;
 	if (global.skMp[global.sk1] > global.mp) en = c_gray;
-	draw_sprite_ext(skUi[global.sk1], 0, GUIX+60, GUIY+245, 1, 1, 0, en, 1);
+	draw_sprite_ext(skUi[global.sk1], 0, GUIX+60, GUIY+225, 1, 1, 0, en, 1);
 	
 	en = c_white;
 	if (global.skMp[global.sk2] > global.mp) en = c_gray;
-	draw_sprite_ext(skUi[global.sk2], 0, GUIX+197, GUIY+245, 1, 1, 0, en, 1);
+	draw_sprite_ext(skUi[global.sk2], 0, GUIX+170, GUIY+225, 1, 1, 0, en, 1);
 	
 	en = c_white;
 	if (global.skMp[global.sk3] > global.mp) en = c_gray;
-	draw_sprite_ext(skUi[global.sk3], 0, GUIX+337, GUIY+245, 1, 1, 0, en, 1);
+	draw_sprite_ext(skUi[global.sk3], 0, GUIX+280, GUIY+225, 1, 1, 0, en, 1);
 	
 	
 	draw_sprite_ext(sp_skillUi_black, 0, GUIX-12, GUIY+191, 1, global.skKul[0]/global.skKulData[global.sk1], 0, c_white, 0.5);
@@ -64,13 +64,13 @@ function sc_gameGUI(){
 	var skMpVar = 0;
 	
 	skMpVar = (global.skMp[global.sk1]/100);
-	draw_sprite(sp_skillBox, skMpVar, GUIX+60, GUIY+245);
+	draw_sprite(sp_skillBox, skMpVar, GUIX+60, GUIY+225);
 	
 	skMpVar = (global.skMp[global.sk2]/100);
-	draw_sprite(sp_skillBox, skMpVar, GUIX+200, GUIY+245);
+	draw_sprite(sp_skillBox, skMpVar, GUIX+170, GUIY+225);
 	
 	skMpVar = (global.skMp[global.sk3]/100);
-	draw_sprite(sp_skillBox, skMpVar, GUIX+340, GUIY+245);
+	draw_sprite(sp_skillBox, skMpVar, GUIX+280, GUIY+225);
 	
 	
 	}
