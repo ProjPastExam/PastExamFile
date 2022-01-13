@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+draw_sprite(sp_scroll, 12, x, y+8*sin(sin_t/12));
 draw_sprite(skUi[skNum], 0, x, y+8*sin(sin_t/12));
-draw_sprite(sp_scroll, 0, x, y+8*sin(sin_t/12));
 
 if (touch) {
 	draw_sprite(sp_skillUi_InfoBox, 0, x+280, y-100);

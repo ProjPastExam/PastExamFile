@@ -2,10 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir ){ with (mobId) {
 	
-	var calDmg = sc_mobDmg(dmg, pene);
-	var dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
-	dmgId.dmg = calDmg;
-	dmgId.colo = hitKind;
 	var shVal = (shock- down)/10;
 	if ( knockback && (shVal > 0) ) { 
 		if ( state == 8 ) { process = 16; ySpeed = -11*(100-down/2)/100; }
@@ -17,6 +13,12 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir ){ with (
 		}
 	}
 	if (hitKind == 10) hitKind = 1;
+	
+	var calDmg = sc_mobDmg(dmg, pene);
+	var dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
+	dmgId.dmg = calDmg;
+	dmgId.colo = hitKind;
+	
 	ad = true;
 	patrol = true;
 	
