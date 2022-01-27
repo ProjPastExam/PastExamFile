@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_gameLoad(){
+	global.version = 2;
 	VSLS_File_Load("saveFile")
 	var isOld = false;
 	if (VSLS_Get("version") == undefined)			isOld = true;
@@ -9,8 +10,8 @@ function sc_gameLoad(){
 	if (isOld) {
 		VSLS_Set("version", global.version);
 		
-		VSLS_Set("vol", 50);
-		VSLS_Set("volBgm", 50);
+		//VSLS_Set("vol", 50);
+		//VSLS_Set("volBgm", 50);
 		
 		VSLS_Set("itemNum", 3);
 		
@@ -18,16 +19,22 @@ function sc_gameLoad(){
 		VSLS_Set("atkPene", 0);
 		VSLS_Set("atkShock", 150);
 		VSLS_Set("atkMana", 20);
+		VSLS_Set("atkCt", 100);
+		VSLS_Set("atkCtMag", 1.5);
 		
 		VSLS_Set("kickDmg", 5);	
 		VSLS_Set("kickPene", 0);
 		VSLS_Set("kickShock", 210);
 		VSLS_Set("kickMana", 50);
+		VSLS_Set("kickCt", 100);
+		VSLS_Set("kickCtMag", 1.5);
 		
 		VSLS_Set("fireDmg", 20);
 		VSLS_Set("firePene", 0);
 		VSLS_Set("fireShock", 200);
-		VSLS_Set("fireMana", 0);
+		VSLS_Set("fireMana", 50);
+		VSLS_Set("fireCt", 100);
+		VSLS_Set("fireCtMag", 1.5);
 		/*
 		VSLS_Set("btLeft", vk_left);
 		VSLS_Set("btRight", vk_right);
@@ -48,10 +55,10 @@ function sc_gameLoad(){
 	}
 	
 	{
-		/*
+		
 	if (VSLS_Get("vol" == undefined))		VSLS_Set("vol", 50);
 	if (VSLS_Get("volBgm" == undefined))	VSLS_Set("volBgm", 50);
-
+	/*
 	if (VSLS_Get("itemNum" == undefined))	VSLS_Set("itemNum", 3);
 
 	if (VSLS_Get("atkDmg" == undefined))	VSLS_Set("atkDmg", 16);
