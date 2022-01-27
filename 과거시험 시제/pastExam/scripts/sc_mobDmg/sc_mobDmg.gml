@@ -9,7 +9,5 @@ function sc_mobDmg(dmg, pene){
 		fDmg += fDmg *(30/100);
 	}
 	
-	hp -= dmg;
-	
 	return fDmg;
 }

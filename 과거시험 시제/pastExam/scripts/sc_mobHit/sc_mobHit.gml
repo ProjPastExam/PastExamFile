@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir ){ with (mobId) {
+function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance ){ with (mobId) {
 	
 	var shVal = (shock- down)/10;
 	if ( knockback && (shVal > 0) ) { 
@@ -14,10 +14,21 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir ){ with (
 	}
 	if (hitKind == 10) hitKind = 1;
 	
+	var ctRange = irandom_range(0, 100);
+	var isCt = false;
+	if (ctRange <= ctChance) isCt = true;
+	
 	var calDmg = sc_mobDmg(dmg, pene);
+	if (isCt) {
+		if (hitKind == 0) calDmg = calDmg * global.atkCtMag;
+		else if (hitKind == 1) calDmg = calDmg * global.kickCtMag;
+		else if (hitKind == 2) calDmg = calDmg * global.fireCtMag;
+	}
+	hp -= calDmg;
 	var dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 	dmgId.dmg = calDmg;
 	dmgId.colo = hitKind;
+	dmgId.isCt = true;
 	
 	ad = true;
 	patrol = true;

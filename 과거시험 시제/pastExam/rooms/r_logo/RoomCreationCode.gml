@@ -1,7 +1,7 @@
 VSLS_Init();
 
 //window_set_fullscreen(true);
-global.version = 1;
+
 sc_gameLoad();
 
 

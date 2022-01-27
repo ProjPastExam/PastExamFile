@@ -14,16 +14,22 @@ function sc_globalLoad(){
 	global.atkPene		= VSLS_Get("atkPene");	//관통력
 	global.atkShock		= VSLS_Get("atkShock");	//충격력
 	global.atkMana		= VSLS_Get("atkMana");	//마나회복
+	global.atkCt		= VSLS_Get("atkCt");
+	global.atkCtMag		= VSLS_Get("atkCtMag");
 
 	global.kickDmg		= VSLS_Get("kickDmg");
 	global.kickPene		= VSLS_Get("kickPene");
 	global.kickShock	= VSLS_Get("kickShock");
 	global.kickMana		= VSLS_Get("kickMana");
+	global.kickCt		= VSLS_Get("kickCt");
+	global.kickCtMag	= VSLS_Get("kickCtMag");
 
 	global.fireDmg		= VSLS_Get("fireDmg");
 	global.firePene		= VSLS_Get("firePene");
 	global.fireShock	= VSLS_Get("fireShock");
 	global.fireMana		= VSLS_Get("fireMana");
+	global.fireCt		= VSLS_Get("fireCt");
+	global.fireCtMag	= VSLS_Get("fireCtMag");
 	
 
 	
