@@ -14,7 +14,7 @@ function sc_gameLoad(){
 		//VSLS_Set("volBgm", 50);
 		
 		VSLS_Set("itemNum", 3);
-		
+		/*
 		VSLS_Set("atkDmg", 16);
 		VSLS_Set("atkPene", 0);
 		VSLS_Set("atkShock", 150);
@@ -35,6 +35,7 @@ function sc_gameLoad(){
 		VSLS_Set("fireMana", 50);
 		VSLS_Set("fireCt", 100);
 		VSLS_Set("fireCtMag", 1.5);
+		*/
 		/*
 		VSLS_Set("btLeft", vk_left);
 		VSLS_Set("btRight", vk_right);

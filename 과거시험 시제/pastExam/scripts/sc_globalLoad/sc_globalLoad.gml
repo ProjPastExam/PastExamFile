@@ -10,6 +10,7 @@ function sc_globalLoad(){
 
 	//공격 관련 수치
 	{
+	/*
 	global.atkDmg		= VSLS_Get("atkDmg");	//공격력
 	global.atkPene		= VSLS_Get("atkPene");	//관통력
 	global.atkShock		= VSLS_Get("atkShock");	//충격력
@@ -30,7 +31,7 @@ function sc_globalLoad(){
 	global.fireMana		= VSLS_Get("fireMana");
 	global.fireCt		= VSLS_Get("fireCt");
 	global.fireCtMag	= VSLS_Get("fireCtMag");
-	
+	*/
 
 	
 	}

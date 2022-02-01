@@ -12,6 +12,28 @@ sc_gameLoad();
 
 //정적
 {
+//공격 관련 변수
+global.atkDmg		= 16;
+global.atkPene		= 0;
+global.atkShock		= 150;
+global.atkMana		= 20;
+global.atkCt		= 0;
+global.atkCtMag		= 1.5;
+
+global.kickDmg		= 5;
+global.kickPene		= 0;
+global.kickShock	= 210;
+global.kickMana		= 50;
+global.kickCt		= 0;
+global.kickCtMag	= 1.5;
+
+global.fireDmg		= 20;
+global.firePene		= 0;
+global.fireShock	= 200;
+global.fireMana		= 50;
+global.fireCt		= 0;
+global.fireCtMag	= 1.5;
+	
 global.hpMax	= 9;
 global.hp		= global.hpMax;
 
@@ -24,6 +46,7 @@ global.SM_BGM_SOUND = NULL;
 global.atkDmgScale = 1;
 global.kickDmgScale = 1;
 global.fireDmgScale = 1;
+
 
 //아이템 관련 변수
 {
