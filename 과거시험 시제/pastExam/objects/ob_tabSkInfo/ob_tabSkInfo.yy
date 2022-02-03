@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_skillUi_0Info",
-    "path": "sprites/sp_skillUi_0Info/sp_skillUi_0Info.yy",
+    "name": "sp_tapSkInfoIndex",
+    "path": "sprites/sp_tapSkInfoIndex/sp_tapSkInfoIndex.yy",
   },
   "solid": false,
   "visible": true,

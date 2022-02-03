@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+tabIndex = 0;
+
 switch (skNum) {
 case 1:	skValue = global.sk1;	break;
 case 2:	skValue = global.sk2;	break;

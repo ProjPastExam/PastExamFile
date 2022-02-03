@@ -7,10 +7,11 @@ global.sk1 = 0;
 global.sk2 = 0;
 global.sk3 = 0;
 
+/*
 for (var i = 0; i < 6; i++) {
 	global.item[i] = 0;
 }
-
+*/
 //room_goto(demo_text);
 //room_goto(demo_stage03);
 //room_goto(r_tutorialCs1);
@@ -20,4 +21,4 @@ for (var i = 0; i < 6; i++) {
 //room_goto(demo_text);
 //room_goto(TestRoom);
 //room_goto(r_start);
-room_goto(r_tutorial2);
+room_goto(r_tutorial);
