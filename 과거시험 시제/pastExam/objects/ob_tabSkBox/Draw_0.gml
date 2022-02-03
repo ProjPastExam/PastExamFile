@@ -3,7 +3,10 @@
 draw_sprite(skSprite, 0, x, y);
 //draw_self();
 
+if (tabIndex == (skNum-1)) {
+	draw_sprite(sp_tabSelect, 0, x, y);
+}
 
 if (ob_tabControl.skState == skNum) {
-	draw_sprite(sp_infoSelect, 0, x, y);
+	draw_sprite(sp_tabSelect2, 0, x, y);
 }

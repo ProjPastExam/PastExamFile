@@ -6,6 +6,30 @@ if (keyboard_check_pressed(global.btTap)) {
 hpProcess = 0;
 sc_itemSprite();
 
+with (ob_tabSkBox) {tabIndex = other.tabIndex;}
+with (ob_tabItemBox) {tabIndex = other.tabIndex;}
+with (ob_tabSelectImage) {tabIndex = other.tabIndex;}
+
+if (keyboard_check_pressed(global.btLeft)) {
+	if (tabIndex == 0 || tabIndex == 3 || tabIndex == 6) { tabIndex += 2; }
+	else { tabIndex--; }
+}
+
+if (keyboard_check_pressed(global.btRight)) {
+	if (tabIndex == 2 || tabIndex == 5 || tabIndex == 8) { tabIndex -= 2; }
+	else { tabIndex++; }
+}
+
+if (keyboard_check_pressed(global.btUp)) {
+	if (tabIndex < 3) { tabIndex += 6; }
+	else { tabIndex -= 3; }
+}
+
+if (keyboard_check_pressed(global.btDown)) {
+	if (tabIndex > 5) { tabIndex -= 6; }
+	else { tabIndex += 3; }
+}
+
 //스킬 UI 설정
 sc_skillUi();
 

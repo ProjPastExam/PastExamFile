@@ -1,7 +1,7 @@
 /// @description 플레이어와 충돌
 // You can write your code in this editor
 
-if (hp > 0 && !isJump && ob_player.ySpeed >= 0 && ob_player.bbox_bottom > y) {
+if (hp > 0 && ob_player.ySpeed >= 0 && ob_player.bbox_bottom > y) {
 	
 	var plX = ob_player.x;
 	var spd = 0;
