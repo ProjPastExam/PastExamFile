@@ -116,10 +116,10 @@
 
 	function BGM_Play( sound , vol , fade_step )
 	{
-		if (sound != global.SM_BGM_SOUND) {
+		//if (sound != global.SM_BGM_SOUND) {
 			//BGM_Set(global.volBgm, 0);
 			//return;
-		}
+		//}
 		//기존 브금 재생 종료
 		with( Obj_BGM_Manager )
 		{		
@@ -144,9 +144,14 @@
 		with( instance_create_depth( -50 , -50 , -100 , Obj_BGM_Manager ) )
 		{
 			if (sound != global.SM_BGM_SOUND) {
-			audio_stop_sound(global.SM_BGM);
-			global.SM_BGM = audio_play_sound( sound , 1 , true );
-			global.SM_BGM_SOUND = sound;
+				audio_stop_sound(global.SM_BGM);
+				if (sound == NULL) {
+					global.SM_BGM = NULL;
+					global.SM_BGM_SOUND = NULL;
+					return;
+				}
+				global.SM_BGM = audio_play_sound( sound , 1 , true );
+				global.SM_BGM_SOUND = sound;
 		}
 			//브금 재생 후 볼륨값 초기화
 			SM_BGM = global.SM_BGM;
