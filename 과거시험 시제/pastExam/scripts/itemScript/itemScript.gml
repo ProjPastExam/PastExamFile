@@ -17,3 +17,17 @@ function sc_itemCheck(index) {
 	}
 	return true;
 }
+
+function sc_itemSort() {
+	for (var i = 0; i < global.itemNum-1; i++) {
+		if (global.itemGet[i] == NULL) {
+			for (var j = i+1; j < global.itemNum; j++) {
+				if (global.itemGet[j] != NULL) {
+					global.itemGet[i] = global.itemGet[j];
+					global.itemGet[j] = NULL;
+					break;
+				}
+			}
+		}
+	}
+}

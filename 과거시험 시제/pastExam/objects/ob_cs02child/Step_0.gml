@@ -27,6 +27,9 @@ case 15:
 	sprite_index = sp_cs02_IStand;
 	break;
 	
+case 18 :
+	image_xscale = -1;
+
 }
 	
 	

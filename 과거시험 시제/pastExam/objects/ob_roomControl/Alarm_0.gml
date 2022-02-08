@@ -22,6 +22,7 @@ if (room_persistent) {
 		global.camBufferY = NULL
 		global.roomBuffer = NULL;
 	}
+	with (ob_player) {itemCheck = true;}
 }
 
 if ( pause == -2 ) {

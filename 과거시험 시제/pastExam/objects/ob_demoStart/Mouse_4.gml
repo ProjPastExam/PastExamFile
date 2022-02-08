@@ -12,13 +12,12 @@ for (var i = 0; i < 6; i++) {
 	global.item[i] = 0;
 }
 */
-//room_goto(demo_text);
 //room_goto(demo_stage03);
 //room_goto(r_tutorialCs1);
 //room_goto(r_tutorialBoss);
 //room_goto(r_tutorialChunCs2);
 //room_goto(r_tutorialBossCs1);
-//room_goto(demo_text);
+room_goto(demo_text);
 //room_goto(TestRoom);
 //room_goto(r_start);
-room_goto(r_tutorial);
+//room_goto(r_tutorial);

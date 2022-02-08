@@ -11,4 +11,18 @@ image_index = global.skMp[skValue] / 100;
 if (tabIndex == (skNum-1)) {
 	ob_tabSkInfo.sprite_index = skInfo[skValue];
 	ob_tabSelectImage.sprite_index = skSprite;
+	
+	if (keyboard_check_pressed(global.btInter)) {
+	if (ob_tabControl.skState == 0) {
+		ob_tabControl.skState = skNum;
+	}
+	else if (ob_tabControl.skState == skNum) {
+		ob_tabControl.skState = 0;
+	}
+	else {
+		ob_tabControl.skState2 = other.skNum;
+	}
+
 }
+}
+

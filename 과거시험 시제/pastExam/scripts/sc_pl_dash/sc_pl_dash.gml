@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_dash(){
+	if (dProcess == 0) nextAtk = 0;
 	if ( dProcess > 0 ) {
 		if ( keyJump ) nextAtk = 9;
 		if (keyAttack) {
