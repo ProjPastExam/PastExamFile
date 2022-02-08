@@ -23,12 +23,13 @@ function sc_pl_atk2(){
 	}
 	
 	if ( atkProcess == 26 ) {
-		if (isSin) {
+		if (isSin > 0) {
 			atk = instance_create_layer(x, y, "effect", ob_sinEf01);
 			//atk.damage = 10;
 			//atk.shock = 10;
 			//atk.pene = 0;
 			//atk.hitAfter = 15;
+			atk.grade = isSin;
 			atk.image_xscale = dir;
 			atk.dir = dir;
 			SE_Play(s_arrow02, global.vol);

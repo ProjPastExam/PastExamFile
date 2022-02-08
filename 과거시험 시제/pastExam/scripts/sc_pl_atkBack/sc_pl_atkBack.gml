@@ -46,8 +46,8 @@ atkProcess++;
 		else if ( nextAtk == 5 ) { atkProcess = 0;	canMove = 5; }
 		else if ( nextAtk == 6 ) { atkProcess = 0;	canMove = 6; }
 		else if ( nextAtk == 7 ) { 
-			if (item4 && item4Index)	{ atkProcess = 0;	canMove = 20;	item4Index = false; }
-			else						{ atkProcess = 0;	canMove = 7; }
+			if (item4 > 0 && item4Index)	{ atkProcess = 0;	canMove = 20;	item4Index = false; }
+			else							{ atkProcess = 0;	canMove = 7; }
 		}
 		sc_pl_skComb();
 	}

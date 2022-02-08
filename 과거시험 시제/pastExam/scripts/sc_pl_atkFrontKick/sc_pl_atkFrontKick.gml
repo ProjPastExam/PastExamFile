@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_atkFrontKick(){
+	var dmg = sc_pl_kickDmg()*(1.5 + 0.5*isFront);
 	
 	atkProcess++;
 	xSpeed = 0;
@@ -45,21 +46,21 @@ function sc_pl_atkFrontKick(){
 	}
 	
 	if ( atkProcess == 6 ) {
-		var atk = sc_pl_atkEf(sc_pl_kickDmg()*2, sc_pl_kickPene(), sc_pl_kickShock()*1.2, sc_pl_kickMana(), 
+		var atk = sc_pl_atkEf(dmg, sc_pl_kickPene(), sc_pl_kickShock()*1.2, sc_pl_kickMana(), 
 			0, 1, 0, sp_pl_atkEf03, dir);
 		SE_Play(s_kick01, global.vol);
 		//audio_play_sound(s_kick01, 5, false);
 	}
 	
 	if ( atkProcess == 45 ) {
-		var atk = sc_pl_atkEf(sc_pl_kickDmg()*2, sc_pl_kickPene(), sc_pl_kickShock()*1.2, sc_pl_kickMana(), 
+		var atk = sc_pl_atkEf(dmg, sc_pl_kickPene(), sc_pl_kickShock()*1.2, sc_pl_kickMana(), 
 			0, 1, 0, sp_pl_atkEf03, dir);
 		SE_Play(s_kick01, global.vol);
 		//audio_play_sound(s_kick01, 5, false);
 	}
 	
 	if ( atkProcess == 87 ) {
-		var atk = sc_pl_atkEf(sc_pl_kickDmg()*2, sc_pl_kickPene(), sc_pl_kickShock()*1.2, sc_pl_kickMana(), 
+		var atk = sc_pl_atkEf(dmg, sc_pl_kickPene(), sc_pl_kickShock()*1.2, sc_pl_kickMana(), 
 			0, 1, 0, sp_pl_atkEf03, dir);
 		SE_Play(s_kick01, global.vol);
 		//audio_play_sound(s_kick01, 5, false);

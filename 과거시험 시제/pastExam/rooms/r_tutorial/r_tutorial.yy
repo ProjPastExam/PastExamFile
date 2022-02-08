@@ -82,6 +82,7 @@
             {"propertyId":{"name":"patrol","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"hp","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"80","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"ob_jpSword","path":"objects/ob_jpSword/ob_jpSword.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5248.0,"y":1440.0,"resourceVersion":"1.0","name":"inst_5C2574A6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":1632.0,"resourceVersion":"1.0","name":"inst_14DC781F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
@@ -265,6 +266,7 @@
     {"name":"inst_2F8C98EC","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_EC4CC76","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_4D35D01F","path":"rooms/r_tutorial/r_tutorial.yy",},
+    {"name":"inst_14DC781F","path":"rooms/r_tutorial/r_tutorial.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -4,13 +4,13 @@
 ////////////////////////////////////////////////////////////////////////
 
 function sc_pl_itemCheck(){
-	var dmgScale = array_create(3, 0);
+	var dmgScale = array_create(4, 0);
 	{
-	isSin = false;
-	isFront = false;
-	itemJump = false;
-	item2	= false;
-	item4	= false;
+	isSin = 0;
+	isFront = 0;
+	itemJump = 0;
+	item2	= 0;
+	item4	= 0;
 	}
 	
 	
@@ -26,7 +26,7 @@ function sc_pl_itemCheck(){
 	for (var i = 0; i < global.itemSum; i++) {
 		//show_debug_message(i);
 		if (global.itemGet[i] == NULL) { itemCheck = false;	return; }
-		global.itemGet[i].itemFunc();
+		global.itemGet[i].itemFunc(global.itemGet[i].itemGrade);
 		dmgScale[global.itemGet[i].itemKind]++;
 		
 	}

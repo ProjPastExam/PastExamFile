@@ -8,3 +8,10 @@ function sc_pl_skComb(){
 	if ( nextAtk == -3 && global.mp >= global.skMp[global.sk3] && global.skKul[2] == 0) 
 		{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; skState = 2; }
 }
+
+function sc_pl_skDir() {
+	if (atkProcess == 0) {
+		if (keyLeft)		dir = -1;
+		else if (keyRight)	dir = 1;
+	}
+}

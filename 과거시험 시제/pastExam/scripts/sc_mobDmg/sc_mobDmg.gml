@@ -4,9 +4,10 @@ function sc_mobDmg(dmg, pene){
 	var fDmg
 	
 	fDmg = dmg * (100 - (defence * (100 - pene)/100))/100;
-	var jmp = ob_player.itemJump;
-	if (isJump && jmp ) {
-		fDmg += fDmg *(30/100);
+	
+	if (isJump) {
+		var jmp = ob_player.itemJump;
+		fDmg += fDmg * (jmp*2)/10;
 	}
 	
 	return fDmg;

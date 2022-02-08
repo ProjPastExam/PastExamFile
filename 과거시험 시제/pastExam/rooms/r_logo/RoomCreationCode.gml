@@ -59,24 +59,24 @@ global.itemData		= array_create(global.itemMax, NULL);
 
 
 //신기전 아이템
-global.itemData[0]	= new itemStruct ( 0, sp_Item_sin, sp_ItemInfo_sin, 2, 
-	function() { other.isSin = true; })
+global.itemData[0]	= new itemStruct ( 0, sp_Item_sin, sp_ItemInfo_sin, 2,
+	function(grade) { other.isSin = grade; })
 
 //전방 3연속 발차기 아이템
-global.itemData[1]	= new itemStruct ( 1, sp_Item_kick, sp_ItemInfo_kick, 1, 
-	function() { other.isFront = true; })
+global.itemData[1]	= new itemStruct ( 1, sp_Item_kick, sp_ItemInfo_kick, 1,
+	function(grade) { other.isFront = grade; })
 
 //마나소모시 화살 공격 아이템
-global.itemData[2]	= new itemStruct ( 2, sp_Item_kick, sp_ItemInfo_kick, 0, 
-	function() { other.item2 = true;	other.item2Index1 = 0;	other.item2Index2 = global.mp;	other.item2Index3 = 0; })
+global.itemData[2]	= new itemStruct ( 2, sp_Item_kick, sp_ItemInfo_kick, 0,
+	function(grade) { other.item2 = grade;	other.item2Index1 = 0;	other.item2Index2 = global.mp;	other.item2Index3 = 0; })
 
 //공중의 적 공격 시 추가데미지 아이템
-global.itemData[3]	= new itemStruct ( 3, sp_Item_jump, sp_ItemInfo_jump, 0, 
-	function() { other.itemJump = true; })
+global.itemData[3]	= new itemStruct ( 3, sp_Item_jump, sp_ItemInfo_jump, 0,
+	function(grade) { other.itemJump = grade; })
 	
 //후방공격 후 전방공격 시 죽창 찌르기 아이템
-global.itemData[4]	= new itemStruct ( 4, sp_Item_jump, sp_ItemInfo_jump, 1, 
-	function() { other.item4 = true;	other.item4Index = true; })
+global.itemData[4]	= new itemStruct ( 4, sp_Item_jump, sp_ItemInfo_jump, 1,
+	function(grade) { other.item4 = grade;	other.item4Index = true; })
 }
 
 global.sk1		= 0;

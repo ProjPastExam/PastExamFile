@@ -12,6 +12,7 @@ function sc_pl_item2(){
 	if ((item2Index3 <= 0) && (item2Index1 >= 100)) {
 		var inst = instance_create_layer(x, y, "effect2", ob_pl_item2);
 		inst.dir = dir;
+		inst.grade = item2;
 		item2Index1 -= 100;
 		item2Index3 = 8;
 	}

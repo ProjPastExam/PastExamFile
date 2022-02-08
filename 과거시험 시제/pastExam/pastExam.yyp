@@ -18,7 +18,7 @@
     {"id":{"name":"FIRE","path":"objects/FIRE/FIRE.yy",},"order":5,},
     {"id":{"name":"ob_whiteIn","path":"objects/ob_whiteIn/ob_whiteIn.yy",},"order":1,},
     {"id":{"name":"sp_demoSetting","path":"sprites/sp_demoSetting/sp_demoSetting.yy",},"order":14,},
-    {"id":{"name":"sc_pl_skComb","path":"scripts/sc_pl_skComb/sc_pl_skComb.yy",},"order":5,},
+    {"id":{"name":"plSkScript","path":"scripts/plSkScript/plSkScript.yy",},"order":5,},
     {"id":{"name":"sp_key_n","path":"sprites/sp_key_n/sp_key_n.yy",},"order":13,},
     {"id":{"name":"sp_bandit03_die","path":"sprites/sp_bandit03_die/sp_bandit03_die.yy",},"order":4,},
     {"id":{"name":"sp_bandit04_walk","path":"sprites/sp_bandit04_walk/sp_bandit04_walk.yy",},"order":2,},

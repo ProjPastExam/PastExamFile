@@ -88,15 +88,16 @@ function sc_pl_move() {
 		dProcess = 0;
 		canMove = 10;
 	}
-	if ( keySk1 && atkProcess == -1 && canMove == 0 && global.mp >= global.skMp[global.sk1] && global.skKul[0] == 0 ) {
+	if ( keySk1 && global.mp >= global.skMp[global.sk1] && global.skKul[0] == 0 ) {
 		{ atkProcess = 0; canMove = global.sk1; skState = 0; }
 	}
-	if ( keySk2 && atkProcess == -1 && canMove == 0 && global.mp >= global.skMp[global.sk2] && global.skKul[1] == 0 ) {
+	if ( keySk2 && global.mp >= global.skMp[global.sk2] && global.skKul[1] == 0 ) {
 		{ atkProcess = 0; canMove = global.sk2; skState = 1; }
 	}
-	if ( keySk3 && atkProcess == -1 && canMove == 0 && global.mp >= global.skMp[global.sk3] && global.skKul[2] == 0 ) {
+	if ( keySk3 && global.mp >= global.skMp[global.sk3] && global.skKul[2] == 0 ) {
 		 { atkProcess = 0; canMove = global.sk3; skState = 2; }
 	}
+	//&& atkProcess == -1 && canMove == 0
 	if ( global.mp < 0 ) global.mp = 0;
 	
 	if ( isAtk3 == 20 && canMove == 0) {
@@ -105,7 +106,7 @@ function sc_pl_move() {
 		atkProcess = 0;
 	}
 	
-	if (item4 && canMove==0) {item4Index = true;}
+	if (item4 > 0 && canMove==0) {item4Index = true;}
 	
 	if ( atkProcess > -1 ) {
 		switch(canMove) {
@@ -113,7 +114,7 @@ function sc_pl_move() {
 		case 1:		sc_pl_atk();			break;
 		case 2:		sc_pl_atk2();			break;
 		case 3:
-			if (isFront)	sc_pl_atkFrontKick();
+			if (isFront > 0)	sc_pl_atkFrontKick();
 			else				sc_pl_atkFront();
 			break;
 		case 4:		sc_pl_atkBack();		break;
@@ -138,7 +139,7 @@ function sc_pl_move() {
 	}
 	if (dProcess > -1 && canMove == 10) sc_pl_dash();
 
-	if (item2)	sc_pl_item2();
+	if (item2 > 0)	sc_pl_item2();
 	
 	if ( hitAfter > 0 ) {
 		if ( hitEffect > 0 ) hitEffect--;

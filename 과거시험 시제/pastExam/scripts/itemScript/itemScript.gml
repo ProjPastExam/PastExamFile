@@ -7,6 +7,7 @@ function itemStruct(_itemNum, _itemSprite, _infoSprite, _itemKind, _itemFunc) co
 	itemSprite	= _itemSprite;
 	infoSprite	= _infoSprite;
 	itemKind	= _itemKind;
+	itemGrade	= 1;
 	itemFunc	= _itemFunc;
 }
 
