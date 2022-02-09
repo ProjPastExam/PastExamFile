@@ -16,11 +16,14 @@ function sc_pl_atk2(){
 	
 
 	
-	if ( atkProcess > 18 && atkProcess < 50 && keyAttack) {
-		if ( keyDown )		nextAtk = 5;
-		else if ( keyTop ) 	nextAtk = 6;
-		else				nextAtk = 1;
+	if ( atkProcess > 18 ) {
+		if (keyAttack) {
+			if ( keyDown )		nextAtk = 5;
+			else if ( keyTop ) 	nextAtk = 6;
+			else				nextAtk = 1;
+		}
 	}
+	sc_pl_skKey();
 	
 	if ( atkProcess == 26 ) {
 		if (isSin > 0) {
@@ -69,4 +72,5 @@ function sc_pl_atk2(){
 		}
 	}
 	else { canMove = 0;	atkProcess = -5; }
+	sc_pl_skComb();
 }

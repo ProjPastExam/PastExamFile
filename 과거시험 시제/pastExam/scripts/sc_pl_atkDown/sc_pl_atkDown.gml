@@ -8,7 +8,7 @@ function sc_pl_atkDown(){
 	sprite_index = sp_pl_atkDown;
 	var atk;
 	
-	if ( atkProcess > 28 && atkProcess < 48 ) {
+	if ( atkProcess > 12 ) {
 		if (keyAttack) {
 			if ( keyTop ) 													nextAtk = 6;
 			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
@@ -53,19 +53,22 @@ function sc_pl_atkDown(){
 	if ( atkProcess == 1 )		{ dir = dir * -1; }
 	if ( atkProcess < 3 )		{ image_index = 0; nextAtk = 0; xSpeed = -4*dir; }
 	else if ( atkProcess < 6 )	{ image_index = 1; xSpeed = -8*dir; }
-	else if ( atkProcess < 11 )	{ image_index = 2; xSpeed = -12*dir; }
+	else if ( atkProcess < 11 )	{ image_index = 2; xSpeed = -12*dir;}
 	else if ( atkProcess < 16 )	{ image_index = 3; xSpeed = -8*dir; }
 	else if ( atkProcess < 19 )	{ image_index = 4; xSpeed = -4*dir; }
 	else if ( atkProcess < 23 )	{ image_index = 5; }
 	else if ( atkProcess < 27 )	{ image_index = 6; }
-	else if ( atkProcess < 33 )	{ image_index = 7; }
+	else if ( atkProcess < 33 )	{ 
+		image_index = 7;
+		sc_pl_skComb();
+	}
 	else if ( atkProcess < 39 )	{ image_index = 8; }
 	else if ( atkProcess < 45 ) { 
 		if ( nextAtk == 2 ) { nextAtk = 0; atkProcess = 0; canMove = 2; }
 		else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 		else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
 		else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
-		sc_pl_skComb();
+		
 	}
 	else	{ canMove = 0;	atkProcess = -5; }
 	

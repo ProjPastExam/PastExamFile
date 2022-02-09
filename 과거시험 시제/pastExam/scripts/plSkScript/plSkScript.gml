@@ -15,3 +15,9 @@ function sc_pl_skDir() {
 		else if (keyRight)	dir = 1;
 	}
 }
+
+function sc_pl_skKey() {
+	if ( keySk1 ) nextAtk = -1;
+	if ( keySk2 ) nextAtk = -2;
+	if ( keySk3 ) nextAtk = -3;
+}

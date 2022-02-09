@@ -19,7 +19,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	if (act) {
 		with (instance_create_layer(x, y, "effect", ob_atkEf05)) {
 			sprite_index = sp_hitEffect_sin;
-			dmg = sc_pl_fireDmg()*(2+grade);
+			dmg = sc_pl_fireDmg()*(2+other.grade);
 			shock = sc_pl_fireShock();
 			pene = sc_pl_firePene();
 			mana = sc_pl_fireMana();

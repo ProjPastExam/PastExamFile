@@ -82,7 +82,6 @@
             {"propertyId":{"name":"patrol","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"hp","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"80","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"ob_jpSword","path":"objects/ob_jpSword/ob_jpSword.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5248.0,"y":1440.0,"resourceVersion":"1.0","name":"inst_5C2574A6","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":1632.0,"resourceVersion":"1.0","name":"inst_14DC781F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
@@ -203,7 +202,7 @@
     {"assets":[
         {"spriteId":{"name":"sp_st02_tree03","path":"sprites/sp_st02_tree03/sp_st02_tree03.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":800.0,"y":1312.0,"resourceVersion":"1.0","name":"graphic_4929AEB6_1","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"sp_st02_tree02","path":"sprites/sp_st02_tree02/sp_st02_tree02.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":13696.0,"y":704.0,"resourceVersion":"1.0","name":"graphic_1C10776F_1","tags":[],"resourceType":"GMRSpriteGraphic",},
-        {"spriteId":{"name":"sp_st02_tree01","path":"sprites/sp_st02_tree01/sp_st02_tree01.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":15392.0,"y":928.0,"resourceVersion":"1.0","name":"graphic_111CA28E_1","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"sp_st02_tree01","path":"sprites/sp_st02_tree01/sp_st02_tree01.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":14944.0,"y":704.0,"resourceVersion":"1.0","name":"graphic_111CA28E_1","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"sp_st02_rock01","path":"sprites/sp_st02_rock01/sp_st02_rock01.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3488.0,"y":1600.0,"resourceVersion":"1.0","name":"graphic_DE2F1EE_1","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"sp_st02_tree03","path":"sprites/sp_st02_tree03/sp_st02_tree03.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5632.0,"y":1152.0,"resourceVersion":"1.0","name":"graphic_BCD23CF","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"sp_st02_tree01","path":"sprites/sp_st02_tree01/sp_st02_tree01.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7424.0,"y":1152.0,"resourceVersion":"1.0","name":"graphic_53AC0C0D","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -266,7 +265,6 @@
     {"name":"inst_2F8C98EC","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_EC4CC76","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_4D35D01F","path":"rooms/r_tutorial/r_tutorial.yy",},
-    {"name":"inst_14DC781F","path":"rooms/r_tutorial/r_tutorial.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

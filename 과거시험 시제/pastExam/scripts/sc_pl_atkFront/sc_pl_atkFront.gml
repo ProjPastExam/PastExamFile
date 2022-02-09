@@ -48,7 +48,10 @@ function sc_pl_atkFront(){
 	else if ( atkProcess < 12 )	{ image_index = 1; xSpeed = 9*dir; }
 	else if ( atkProcess < 17 )	{ image_index = 2; xSpeed = 4*dir; }
 	else if ( atkProcess < 21 )	{ image_index = 3; }
-	else if ( atkProcess < 28 )	{ image_index = 4; }
+	else if ( atkProcess < 28 )	{ 
+		image_index = 4;
+		sc_pl_skComb();
+	}
 	else if ( atkProcess < 34 )	{ image_index = 5; }
 	else if ( atkProcess < 45 ) { 
 		if (nextAtk == 2)	{ canMove = 2;	atkProcess = 0; }
@@ -56,7 +59,6 @@ function sc_pl_atkFront(){
 		else if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
 		else if (nextAtk == 6)	{ canMove = 6;	atkProcess = 0; }
 		else if (nextAtk == 7)	{ canMove = 7;	atkProcess = 0; }
-		sc_pl_skComb();
 	}
 	else	{ canMove = 0;	atkProcess = -5; }
 }
