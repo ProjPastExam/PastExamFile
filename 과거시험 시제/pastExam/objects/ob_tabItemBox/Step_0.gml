@@ -9,3 +9,8 @@ if (isBreak) {
 	alarm[2] = 1;
 	isBreak = false;
 }
+
+if (tabIndex == (itemNum+3)) {
+	ob_tabSkInfo.sprite_index = itemInfo;
+	ob_tabSelectImage.sprite_index = itemSprite;
+}
