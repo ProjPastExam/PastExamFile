@@ -71,17 +71,14 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_jpSpearS","path":"objects/ob_jpSpearS/ob_jpSpearS.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":6368.0,"y":1568.0,"resourceVersion":"1.0","name":"inst_49D75DFB_1_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_jpSpearS","path":"objects/ob_jpSpearS/ob_jpSpearS.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":12896.0,"y":1312.0,"resourceVersion":"1.0","name":"inst_34B0139B_1_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
-            {"propertyId":{"name":"itemNum","path":"objects/ob_item/ob_item.yy",},"objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"isRand","path":"objects/ob_item/ob_item.yy",},"objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1472.0,"y":1472.0,"resourceVersion":"1.0","name":"inst_510FBD32","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
             {"propertyId":{"name":"isRand","path":"objects/ob_sk/ob_sk.yy",},"objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"skNum","path":"objects/ob_sk/ob_sk.yy",},"objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"value":"102","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4384.0,"y":1504.0,"resourceVersion":"1.0","name":"inst_615CA53A","tags":[],"resourceType":"GMRInstance",},
+          ],"isDnd":false,"objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1472.0,"y":1472.0,"resourceVersion":"1.0","name":"inst_615CA53A","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"isRand","path":"objects/ob_item/ob_item.yy",},"objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":10272.0,"y":1152.0,"resourceVersion":"1.0","name":"inst_3D341F27","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_jpSword","path":"objects/ob_jpSword/ob_jpSword.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":11584.0,"y":1312.0,"resourceVersion":"1.0","name":"inst_29BE4C4F","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_jpSword","path":"objects/ob_jpSword/ob_jpSword.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4032.0,"y":1504.0,"resourceVersion":"1.0","name":"inst_344BFE1C","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"effect2","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"t_stage2","path":"tilesets/t_stage2/t_stage2.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":250,"SerialiseHeight":32,"TileSerialiseData":[
@@ -176,10 +173,10 @@
     {"name":"inst_441BD5F1_1_1","path":"rooms/r_tutorial2/r_tutorial2.yy",},
     {"name":"inst_5046DE1E_1_1","path":"rooms/r_tutorial2/r_tutorial2.yy",},
     {"name":"inst_187E159D_1_1","path":"rooms/r_tutorial2/r_tutorial2.yy",},
-    {"name":"inst_510FBD32","path":"rooms/r_tutorial2/r_tutorial2.yy",},
-    {"name":"inst_615CA53A","path":"rooms/r_tutorial2/r_tutorial2.yy",},
     {"name":"inst_3D341F27","path":"rooms/r_tutorial2/r_tutorial2.yy",},
     {"name":"inst_29BE4C4F","path":"rooms/r_tutorial2/r_tutorial2.yy",},
+    {"name":"inst_615CA53A","path":"rooms/r_tutorial2/r_tutorial2.yy",},
+    {"name":"inst_344BFE1C","path":"rooms/r_tutorial2/r_tutorial2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

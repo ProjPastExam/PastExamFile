@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 25,
-  "bbox_right": 354,
-  "bbox_top": 24,
-  "bbox_bottom": 415,
+  "bbox_left": 16,
+  "bbox_right": 391,
+  "bbox_top": 17,
+  "bbox_bottom": 308,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 384,
-  "height": 502,
+  "width": 400,
+  "height": 560,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,24 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3f71e0f7-f160-49e7-86b6-03f05abe8ecc","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3f71e0f7-f160-49e7-86b6-03f05abe8ecc","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":{"name":"5f7403ac-3a11-4764-8ed2-5f1c41c25397","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_ItemInfo_kick","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"3f71e0f7-f160-49e7-86b6-03f05abe8ecc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"450a59c7-c6e2-4556-ae6f-994069d5ad47","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"450a59c7-c6e2-4556-ae6f-994069d5ad47","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":{"name":"5f7403ac-3a11-4764-8ed2-5f1c41c25397","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_ItemInfo_kick","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"450a59c7-c6e2-4556-ae6f-994069d5ad47","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ae0a9d6a-2c02-4115-8b02-74ae63c45162","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ae0a9d6a-2c02-4115-8b02-74ae63c45162","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":{"name":"5f7403ac-3a11-4764-8ed2-5f1c41c25397","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_ItemInfo_kick","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"ae0a9d6a-2c02-4115-8b02-74ae63c45162","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4c8c6568-3766-4634-9d91-352ecba1a470","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4c8c6568-3766-4634-9d91-352ecba1a470","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":{"name":"5f7403ac-3a11-4764-8ed2-5f1c41c25397","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_ItemInfo_kick","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"4c8c6568-3766-4634-9d91-352ecba1a470","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4d75697a-e429-4e95-9015-70c046e82b7a","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4d75697a-e429-4e95-9015-70c046e82b7a","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":{"name":"5f7403ac-3a11-4764-8ed2-5f1c41c25397","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_ItemInfo_kick","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"4d75697a-e429-4e95-9015-70c046e82b7a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c1921267-0440-466b-b9fc-420308f8052b","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c1921267-0440-466b-b9fc-420308f8052b","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":{"name":"5f7403ac-3a11-4764-8ed2-5f1c41c25397","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_ItemInfo_kick","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"c1921267-0440-466b-b9fc-420308f8052b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"44df2280-1086-4f6e-84db-15c222989fb1","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"44df2280-1086-4f6e-84db-15c222989fb1","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"LayerId":{"name":"49d29b00-dfa0-4562-ac17-de74502f2641","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_ItemInfo_kick","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","name":"44df2280-1086-4f6e-84db-15c222989fb1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sp_ItemInfo_kick","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},
@@ -51,17 +36,12 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 6.0,
+    "length": 1.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9a517533-b400-45c7-b9f8-5bce28b502f5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3f71e0f7-f160-49e7-86b6-03f05abe8ecc","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"087921e1-9311-4bb5-92f7-1177e88046f4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"450a59c7-c6e2-4556-ae6f-994069d5ad47","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"21a1fe91-d512-4418-b500-894ee8e6fa2d","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ae0a9d6a-2c02-4115-8b02-74ae63c45162","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"3307cd08-63ea-4c68-9cf1-4d5058ecc838","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4c8c6568-3766-4634-9d91-352ecba1a470","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"3c7e22fb-36bf-4edf-a37d-0ea332746f09","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d75697a-e429-4e95-9015-70c046e82b7a","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"82d5f025-346a-486f-84a6-61e32e7d7a1c","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c1921267-0440-466b-b9fc-420308f8052b","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"74e85d0e-02d1-4347-9ad9-9265cce740b0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"44df2280-1086-4f6e-84db-15c222989fb1","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -74,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 192,
-    "yorigin": 251,
+    "xorigin": 200,
+    "yorigin": 280,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_ItemInfo_kick","path":"sprites/sp_ItemInfo_kick/sp_ItemInfo_kick.yy",},
@@ -85,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5f7403ac-3a11-4764-8ed2-5f1c41c25397","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"49d29b00-dfa0-4562-ac17-de74502f2641","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

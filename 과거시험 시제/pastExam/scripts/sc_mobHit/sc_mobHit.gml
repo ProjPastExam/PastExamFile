@@ -25,7 +25,8 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 		else if (hitKind == 2) calDmg = calDmg * global.fireCtMag;
 	}
 	hp -= calDmg;
-	var dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
+	var rX = irandom_range(-10, 10);
+	var dmgId = instance_create_layer(x + rX, bbox_top - 50, "effect", ob_mobDmg);
 	dmgId.dmg = calDmg;
 	dmgId.colo = hitKind;
 	dmgId.isCt = true;
