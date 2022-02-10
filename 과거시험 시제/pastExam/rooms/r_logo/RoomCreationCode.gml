@@ -67,7 +67,7 @@ global.itemData[1]	= new itemStruct ( 1, sp_Item_kick, sp_ItemInfo_kick, 1,
 	function(grade) { other.isFront = grade; })
 
 //마나소모시 화살 공격 아이템
-global.itemData[2]	= new itemStruct ( 2, sp_Item_kick, sp_ItemInfo_kick, 0,
+global.itemData[2]	= new itemStruct ( 2, sp_Item_02, sp_ItemInfo_02, 0,
 	function(grade) { other.item2 = grade;	other.item2Index1 = 0;	other.item2Index2 = global.mp;	other.item2Index3 = 0; })
 
 //공중의 적 공격 시 추가데미지 아이템
