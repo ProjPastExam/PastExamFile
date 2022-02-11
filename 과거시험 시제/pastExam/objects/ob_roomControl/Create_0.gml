@@ -23,7 +23,8 @@ cmMode = 0;
 
 if (isCt) isTalk = 4;
 
-BGM_Play(roomBgm, global.volBgm, 0);
+if (roomBgm == noone)	BGM_Stop(60);
+else					BGM_Play(roomBgm, global.volBgm, 60);
 
 sc_itemSprite();
 

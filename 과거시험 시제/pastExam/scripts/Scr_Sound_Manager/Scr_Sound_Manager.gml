@@ -121,16 +121,18 @@
 			//return;
 		//}
 		//기존 브금 재생 종료
+		
 		with( Obj_BGM_Manager )
 		{		
 			if ( SM_BGM_Destroy == false )
 			{
+				
 				//페이드 후 재생 종료하기
 				SM_BGM_Destroy = true;
 
 			
 				//시작볼륨과 끝 볼륨 설정
-				SM_BGM_Vol_Start = SM_BGM_Vol;
+				SM_BGM_Vol_Start = global.volBgm;
 				SM_BGM_Vol_End = 0;
 			
 			
@@ -147,7 +149,11 @@
 				audio_stop_sound(global.SM_BGM);
 				global.SM_BGM = audio_play_sound( sound , 1 , true );
 				global.SM_BGM_SOUND = sound;
-		}
+				SM_BGM_Vol_Start = SM_BGM_Vol;
+			}
+			else {
+				SM_BGM_Vol_Start = vol;
+			}
 			//브금 재생 후 볼륨값 초기화
 			SM_BGM = global.SM_BGM;
 			SM_BGM_SOUND = global.SM_BGM_SOUND;
@@ -155,7 +161,7 @@
 		
 		
 			//시작볼륨과 끝 볼륨
-			SM_BGM_Vol_Start = SM_BGM_Vol;
+			
 			SM_BGM_Vol_End = vol;
 		
 		
@@ -165,16 +171,41 @@
 		}
 	}
 	
-	function BGM_Stop( )
+	function BGM_Stop( fade_step )
 	{
 		//if (sound != global.SM_BGM_SOUND) {
 			//BGM_Set(global.volBgm, 0);
 			//return;
 		//}
 		//기존 브금 재생 종료
-		audio_stop_sound(global.SM_BGM);
-		global.SM_BGM = NULL;
-		global.SM_BGM_SOUND = NULL;
+		if (!instance_exists(Obj_BGM_Manager)) {
+			instance_create_depth( -50 , -50 , -100 , Obj_BGM_Manager );
+		}
+		
+		with( Obj_BGM_Manager )
+		{		
+			if ( SM_BGM_Destroy == false )
+			{
+				SM_BGM = global.SM_BGM;
+				SM_BGM_SOUND = global.SM_BGM_SOUND;
+				audio_sound_gain( global.SM_BGM , 0 , 0 );
+				
+				//페이드 후 재생 종료하기
+				SM_BGM_Destroy = true;
+
+			
+				//시작볼륨과 끝 볼륨 설정
+				SM_BGM_Vol_Start = global.volBgm;
+				SM_BGM_Vol_End = 0;
+			
+			
+				//페이드 시간 초기화 + 설정
+				SM_Fade_Time = 0;
+				SM_Fade_Time_Max = fade_step;
+			}
+		}
+		
+		global.SM_BGM_SOUND = noone;
 	}
 
 

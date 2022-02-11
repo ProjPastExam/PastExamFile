@@ -68,6 +68,7 @@ function sc_tutoBossCs1(){
 			break;
 			
 		case 9:
+			BGM_Play(s_mB01_2, global.volBgm, 60);
 			alarm[1] = 210;
 			isTalk = 4;
 			break;
