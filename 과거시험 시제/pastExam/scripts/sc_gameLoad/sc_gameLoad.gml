@@ -57,8 +57,8 @@ function sc_gameLoad(){
 	
 	{
 		
-	if (VSLS_Get("vol" == undefined))		VSLS_Set("vol", 50);
-	if (VSLS_Get("volBgm" == undefined))	VSLS_Set("volBgm", 50);
+	if (VSLS_Get("vol") == undefined)		VSLS_Set("vol", 50);
+	if (VSLS_Get("volBgm") == undefined)	VSLS_Set("volBgm", 50);
 	/*
 	if (VSLS_Get("itemNum" == undefined))	VSLS_Set("itemNum", 3);
 
@@ -77,19 +77,19 @@ function sc_gameLoad(){
 	if (VSLS_Get("fireShock" == undefined))	VSLS_Set("fireShock", 200);
 	if (VSLS_Get("fireMana" == undefined))	VSLS_Set("fireMana", 0);
 	*/
-	if (VSLS_Get("btLeft" == undefined))	VSLS_Set("btLeft", vk_left);
-	if (VSLS_Get("btRight" == undefined))	VSLS_Set("btRight", vk_right);
-	if (VSLS_Get("btUp" == undefined))		VSLS_Set("btUp", vk_up);
-	if (VSLS_Get("btDown" == undefined))	VSLS_Set("btDown", vk_down);
-	if (VSLS_Get("btAtk" == undefined))		VSLS_Set("btAtk", ord("X"));
-	if (VSLS_Get("btDash" == undefined))	VSLS_Set("btDash", ord("Z"));
-	if (VSLS_Get("btJump" == undefined))	VSLS_Set("btJump", ord("C"));
-	if (VSLS_Get("btSk1" == undefined))		VSLS_Set("btSk1", ord("A"));
-	if (VSLS_Get("btSk2" == undefined))		VSLS_Set("btSk2", ord("S"));
-	if (VSLS_Get("btSk3" == undefined))		VSLS_Set("btSk3", ord("D"));
-	if (VSLS_Get("btInter" == undefined))	VSLS_Set("btInter", ord("F"));
-	if (VSLS_Get("btEsc" == undefined))		VSLS_Set("btEsc", vk_escape);
-	if (VSLS_Get("btTap" == undefined))		VSLS_Set("btTap", vk_tab);
+	if (VSLS_Get("btLeft") == undefined)	VSLS_Set("btLeft", vk_left);
+	if (VSLS_Get("btRight") == undefined)	VSLS_Set("btRight", vk_right);
+	if (VSLS_Get("btUp") == undefined)		VSLS_Set("btUp", vk_up);
+	if (VSLS_Get("btDown") == undefined)	VSLS_Set("btDown", vk_down);
+	if (VSLS_Get("btAtk") == undefined)		VSLS_Set("btAtk", ord("X"));
+	if (VSLS_Get("btDash") == undefined)	VSLS_Set("btDash", ord("Z"));
+	if (VSLS_Get("btJump") == undefined)	VSLS_Set("btJump", ord("C"));
+	if (VSLS_Get("btSk1") == undefined)		VSLS_Set("btSk1", ord("A"));
+	if (VSLS_Get("btSk2") == undefined)		VSLS_Set("btSk2", ord("S"));
+	if (VSLS_Get("btSk3") == undefined)		VSLS_Set("btSk3", ord("D"));
+	if (VSLS_Get("btInter") == undefined)	VSLS_Set("btInter", ord("F"));
+	if (VSLS_Get("btEsc") == undefined)		VSLS_Set("btEsc", vk_escape);
+	if (VSLS_Get("btTap") == undefined)		VSLS_Set("btTap", vk_tab);
 		
 	//if (VSLS_Get("language" == undefined))	VSLS_Set("language", "korean");
 	}

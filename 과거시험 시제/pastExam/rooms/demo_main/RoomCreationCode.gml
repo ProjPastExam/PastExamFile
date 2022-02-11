@@ -1,3 +1,3 @@
-BGM_Play(NULL, global.volBgm, 0);
+BGM_Stop();
 sc_itemSet();
 room_speed = 60;
