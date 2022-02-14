@@ -3,6 +3,10 @@
 function sc_cs01(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
+	if (state == 13 ) {
+		if (alarm[1] == 148) SE_Play(s_cloth1, global.vol);
+		if (alarm[1] == 80) SE_Play(s_cloth2, global.vol);
+	}
 	if (state == 15 || state == 14) x = x + 3;
 	
 	var jumo = 992;
@@ -96,15 +100,18 @@ function sc_cs01(){
 			alarm[1] = 150;
 			image_index = 0;
 			sprite_index = sp_cs1_pl2;
+			
 			break;
 		
 		case 14:
 			alarm[1] = 120;
 			sprite_index = sp_pl_walk;
+			BGS_Play(s_foot, global.vol, 0);
 			break;
 			
 		case 15:
 			ob_roomControl.alarm[7] = 1;
+			BGS_Set(0, 30);
 			break;
 		}
 	}

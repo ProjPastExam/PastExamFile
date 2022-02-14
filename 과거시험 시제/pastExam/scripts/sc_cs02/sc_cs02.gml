@@ -18,16 +18,19 @@ function sc_cs02(){
 			break;
 			
 		case 1:
+			BGS_Play(s_foot, global.vol, 60);
 			alarm[1] = 180;
 			isTalk = 5;
 			break;
 			
 		case 2:
+			BGS_Set(0, 0);
 			SE_Play(s_talk, global.vol);
 			sprite_index = sp_pl_standPeace;
 			var name = "???"
 			var text = "으아앙!";
 			sc_csBase(name, sp_npc_blank, text, -50, 540);
+			uc_shake(10, 0.05);
 			break;
 			
 		case 3:
