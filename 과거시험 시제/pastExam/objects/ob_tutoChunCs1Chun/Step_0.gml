@@ -18,7 +18,7 @@ case 2:
 	break;
 	
 case 3:
-	sprite_index = sp_chun_stand;
+	sprite_index = sp_chun_stand2;
 	active = true;
 	break;
 	

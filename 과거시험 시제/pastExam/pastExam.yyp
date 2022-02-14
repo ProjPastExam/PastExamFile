@@ -311,6 +311,7 @@
     {"id":{"name":"r_tutoMain","path":"rooms/r_tutoMain/r_tutoMain.yy",},"order":10,},
     {"id":{"name":"ob_tutokeepattack","path":"objects/ob_tutokeepattack/ob_tutokeepattack.yy",},"order":6,},
     {"id":{"name":"sp_cs1_desk","path":"sprites/sp_cs1_desk/sp_cs1_desk.yy",},"order":1,},
+    {"id":{"name":"sp_chun_stand2","path":"sprites/sp_chun_stand2/sp_chun_stand2.yy",},"order":5,},
     {"id":{"name":"sp_pl_atkEf03","path":"sprites/sp_pl_atkEf03/sp_pl_atkEf03.yy",},"order":2,},
     {"id":{"name":"sp_key_6","path":"sprites/sp_key_6/sp_key_6.yy",},"order":31,},
     {"id":{"name":"sp_jpSpearS_atk2","path":"sprites/sp_jpSpearS_atk2/sp_jpSpearS_atk2.yy",},"order":8,},
