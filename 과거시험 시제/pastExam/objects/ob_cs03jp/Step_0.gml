@@ -3,9 +3,9 @@
 
 var state = ob_roomControl.talkCnt;
 
-
 switch (state) {
 case 5:
+	sEf = false;
 	sprite_index = sp_jpSword_die;
 	image_index = 3;
 	image_xscale = -1;

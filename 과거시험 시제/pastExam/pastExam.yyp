@@ -531,6 +531,7 @@
     {"id":{"name":"sp_jpMb_atk2_1Ef","path":"sprites/sp_jpMb_atk2_1Ef/sp_jpMb_atk2_1Ef.yy",},"order":15,},
     {"id":{"name":"uc_time","path":"scripts/uc_time/uc_time.yy",},"order":4,},
     {"id":{"name":"sc_pl_atkDown","path":"scripts/sc_pl_atkDown/sc_pl_atkDown.yy",},"order":4,},
+    {"id":{"name":"s_dig","path":"sounds/s_dig/s_dig.yy",},"order":5,},
     {"id":{"name":"sp_jpSpear_stand","path":"sprites/sp_jpSpear_stand/sp_jpSpear_stand.yy",},"order":0,},
     {"id":{"name":"sp_banditBoss_atk4Ef3","path":"sprites/sp_banditBoss_atk4Ef3/sp_banditBoss_atk4Ef3.yy",},"order":16,},
     {"id":{"name":"uc_get_mouse_drag_acceleration","path":"scripts/uc_get_mouse_drag_acceleration/uc_get_mouse_drag_acceleration.yy",},"order":0,},
