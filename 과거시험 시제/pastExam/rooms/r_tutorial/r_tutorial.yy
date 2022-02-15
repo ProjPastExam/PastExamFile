@@ -301,8 +301,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "tutorial",
-    "path": "folders/Rooms/tutorial.yy",
+    "name": "tutorial room",
+    "path": "folders/Rooms/tutorial room.yy",
   },
   "resourceVersion": "1.0",
   "name": "r_tutorial",

@@ -12,6 +12,7 @@
     {"id":{"name":"sp_skillUi_101Info","path":"sprites/sp_skillUi_101Info/sp_skillUi_101Info.yy",},"order":10,},
     {"id":{"name":"obj_uls_shadow_renderer","path":"objects/obj_uls_shadow_renderer/obj_uls_shadow_renderer.yy",},"order":1,},
     {"id":{"name":"r_tabDeleteSk","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},"order":8,},
+    {"id":{"name":"r_stage01Cs","path":"rooms/r_stage01Cs/r_stage01Cs.yy",},"order":0,},
     {"id":{"name":"sc_keySet","path":"scripts/sc_keySet/sc_keySet.yy",},"order":7,},
     {"id":{"name":"ob_item_chun","path":"objects/ob_item_chun/ob_item_chun.yy",},"order":4,},
     {"id":{"name":"sp_chun_spell","path":"sprites/sp_chun_spell/sp_chun_spell.yy",},"order":1,},
@@ -978,6 +979,7 @@
     {"roomId":{"name":"r_tutorial2","path":"rooms/r_tutorial2/r_tutorial2.yy",},},
     {"roomId":{"name":"r_tutorial3","path":"rooms/r_tutorial3/r_tutorial3.yy",},},
     {"roomId":{"name":"r_tabDeleteSk","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},},
+    {"roomId":{"name":"r_stage01Cs","path":"rooms/r_stage01Cs/r_stage01Cs.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -1124,7 +1126,7 @@
     {"folderPath":"folders/Objects/mob/bandit/unuse.yy","order":6,"resourceVersion":"1.0","name":"unuse","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/mob/bandit/unuse.yy","order":8,"resourceVersion":"1.0","name":"unuse","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/mob/jp/jpMiniBoss.yy","order":7,"resourceVersion":"1.0","name":"jpMiniBoss","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Rooms/tutorial.yy","order":4,"resourceVersion":"1.0","name":"tutorial","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/tutorial room.yy","order":4,"resourceVersion":"1.0","name":"tutorial room","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/csSprite.yy","order":15,"resourceVersion":"1.0","name":"csSprite","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/csOb.yy","order":12,"resourceVersion":"1.0","name":"csOb","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/csScript.yy","order":8,"resourceVersion":"1.0","name":"csScript","tags":[],"resourceType":"GMFolder",},
@@ -1155,6 +1157,7 @@
     {"folderPath":"folders/Sprites/tutorial/korean.yy","order":4,"resourceVersion":"1.0","name":"korean","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/tutorial.yy","order":14,"resourceVersion":"1.0","name":"tutorial","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/music/stage02.yy","order":3,"resourceVersion":"1.0","name":"stage02","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/stage01 room.yy","order":9,"resourceVersion":"1.0","name":"stage01 room","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
