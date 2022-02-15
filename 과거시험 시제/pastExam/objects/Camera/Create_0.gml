@@ -4,14 +4,30 @@
 // ------------------------------------	CAMERA MAIN PARAMETERS	-------------------------------
 // ==============================================================
 #region Set all the camera main parameters
-port_height = window_get_height();
+var get_height = window_get_height();
+var get_width = window_get_width();
+
+aspect_ratio = view_width/view_height; // Relation between the windows size and screen size
+
+var screen_scale = get_width/16 - get_height/9;
+
+if (screen_scale < 0) {
+	port_width = get_width;
+	port_height = get_width/aspect_ratio;
+}
+else {
+	port_height = get_height;
+	port_width = get_width;
+}
+
+//port_height = window_get_height();
 
 //window_set_fullscreen(false);
 // view_width --> Width of the portion of room we will be seeing
 // view_height --> Height of the portion of the room we will be seeing
 
-aspect_ratio = view_width/view_height; // Relation between the windows size and screen size
-port_width = port_height*aspect_ratio; // Width of the window where the game will be drawn
+//aspect_ratio = view_width/view_height; // Relation between the windows size and screen size
+//port_width = port_height*aspect_ratio; // Width of the window where the game will be drawn
 // port_height --> Height of the window where the game will be drawn
 
 //display_set_gui_size(port_width, port_height); //  < ------------------------ THIS LINE IS TOTALLY OPTIONAL
