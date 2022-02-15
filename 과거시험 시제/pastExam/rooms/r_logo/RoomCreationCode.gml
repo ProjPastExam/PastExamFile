@@ -57,6 +57,10 @@ global.itemGrade	= array_create(10, -1);
 
 global.itemData		= array_create(global.itemMax, NULL);
 
+global.tabDeleteIndex	= 0;
+global.tabDeleteIs		= 0;
+global.tabDeleteNum		= 0;
+
 
 //신기전 아이템
 global.itemData[0]	= new itemStruct ( 0, sp_Item_sin, sp_ItemInfo_sin, 2,

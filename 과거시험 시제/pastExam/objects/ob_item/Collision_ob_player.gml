@@ -3,7 +3,7 @@
 touch = true;
 
 
-if (keyboard_check(global.btInter)) {
+if (keyboard_check_pressed(global.btInter)) {
 	if (global.itemSum < global.itemNum) {
 		global.itemGet[global.itemSum] = global.itemData[itemNum];
 		global.itemSum++;

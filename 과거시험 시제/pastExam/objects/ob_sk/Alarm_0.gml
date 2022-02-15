@@ -6,13 +6,21 @@ if (sin_t > 300) sin_t = 0;
 if (isNew) {
 	xSpeed = image_xscale * 9;
 	ySpeed = (15 - alarm[1]);
-}
-if (isNew) {
+
 	x += xSpeed;
 	y += ySpeed;
 
 	xSpeed = 0;
 	ySpeed = 0;
+}
+
+if (isDelete && global.tabDeleteIs == 1) {
+	switch (global.tabDeleteNum) {
+	case 1:	global.sk1 = skNum;	break;
+	case 2:	global.sk2 = skNum;	break;
+	case 3:	global.sk3 = skNum; break;
+	}
+	instance_destroy();
 }
 
 alarm[0] = 1;

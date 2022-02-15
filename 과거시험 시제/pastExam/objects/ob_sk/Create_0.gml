@@ -3,7 +3,7 @@
 alarm[1] = 30;
 xSpeed = 0;
 ySpeed = 0;
-
+isDelete = false;
 
 sc_skillUi();
 sprite_index = skUi[skNum];
