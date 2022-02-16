@@ -20,4 +20,4 @@ for (var i = 0; i < 6; i++) {
 //room_goto(demo_text);
 //room_goto(TestRoom);
 //room_goto(r_start);
-room_goto(r_tutorial);
+room_goto(r_stage01Cs);

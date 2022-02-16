@@ -1,0 +1,7 @@
+/// @description Insert description here
+// You can write your code in this editor
+//image_xscale = -1;
+active = true;
+visible = false;
+chunEf = NULL;
+image_xscale = -1;
