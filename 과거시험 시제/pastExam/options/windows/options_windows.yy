@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "문경새재 데모",
   "option_windows_executable_name": "${문경새재}.exe",
-  "option_windows_version": "1.0.3.10",
+  "option_windows_version": "1.0.3.11",
   "option_windows_company_info": "Team Ettu",
   "option_windows_product_info": "문경새재",
   "option_windows_copyright_info": "Team Ettu",
@@ -17,7 +17,7 @@
   "option_windows_vsync": false,
   "option_windows_resize_window": true,
   "option_windows_borderless": true,
-  "option_windows_scale": 1,
+  "option_windows_scale": 0,
   "option_windows_copy_exe_to_dest": false,
   "option_windows_sleep_margin": 10,
   "option_windows_texture_page": "4096x4096",
