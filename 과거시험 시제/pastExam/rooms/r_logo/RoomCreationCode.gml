@@ -4,6 +4,10 @@ VSLS_Init();
 
 sc_gameLoad();
 
+global.screenX = window_get_width();
+global.screenY = window_get_height();
+
+instance_create_depth(0, 0, 0, Camera);
 
 //불러오기 전역
 {

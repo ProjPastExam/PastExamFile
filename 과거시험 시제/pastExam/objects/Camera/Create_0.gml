@@ -4,8 +4,8 @@
 // ------------------------------------	CAMERA MAIN PARAMETERS	-------------------------------
 // ==============================================================
 #region Set all the camera main parameters
-var get_height = window_get_height();
-var get_width = window_get_width();
+var get_height = global.screenY;
+var get_width = global.screenX;
 
 aspect_ratio = view_width/view_height; // Relation between the windows size and screen size
 
