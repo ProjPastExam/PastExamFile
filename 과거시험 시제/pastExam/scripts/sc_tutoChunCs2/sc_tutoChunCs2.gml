@@ -44,8 +44,8 @@ function sc_tutoChunCs2(){
 			
 		case 5:
 			var name = "????";
-			var text = "일어나셨군요.";
-			sc_csBase(name, sp_chun_face, text, ix, iy);
+			var text = "일어나셨군요!";
+			sc_csBase(name, sp_chun_face_laugh, text, ix, iy);
 			break;
 			
 		case 6:
@@ -56,80 +56,79 @@ function sc_tutoChunCs2(){
 			
 		case 7:
 			var name = "성춘향";
-			var text = "저는 성춘향이라고 해요.";
-			sc_csBase(name, sp_chun_face, text, ix, iy);
+			var text = "제 이름은 성춘향이에요.";
+			sc_csBase(name, sp_chun_face_smile, text, ix, iy);
 			break;
 			
 		case 8:
 			var name = "성춘향";
-			var text = "어느 탐욕스러운 사또에게 목숨을 잃고, \n한이 남아 이승을 떠나지 못하고 있죠.";
-			sc_csBase(name, sp_chun_face, text, ix, iy);
+			var text = "보시다시피, 이미 죽은 몸이구요.";
+			sc_csBase(name, sp_chun_face_silence, text, ix, iy);
 			break;
 			
 		case 9:
-			var name = "성춘향";
-			var text = "백마산에서 파헤쳐진 제 묫자리를 수습해 주신 걸 보고, \n당신을 몰래 따라다녔어요.";
-			sc_csBase(name, sp_chun_face, text, ix, iy);
-			break;
-			
-		case 10:
-			ob_roomControl.isTalk = 8;
-			isTalk = 4;
-			sc_csBase2(ix, iy);
-			alarm[1] = 120;
-			break;
-			
-		case 11:
-			isTalk = 5;
-			alarm[1] = 60;
-			break;
-			
-		case 12:
-			var name = "성춘향";
-			var text = "제가 왜 이승에 미련이 남아있는지, \n저승으로 올라가지 않는지 맞춰보실래요?";
-			sc_csBase(name, sp_chun_face, text, ix, iy);
-			break;
-			
-		case 13:
 			ob_roomControl.isTalk = 6;
 			sc_csBase2(x, 540);
 			alarm[1] = 120;
 			break;
 			
+		case 10:
+			var name = "성춘향";
+			var text = "에, 제가 죽었던 이유요?";
+			sc_csBase(name, sp_chun_face, text, ix, iy);
+			break;
+			
+		case 11:
+			ob_roomControl.isTalk = 4;
+			alarm[1] = 60;
+			break;
+			
+		case 12:
+			var name = "성춘향";
+			var text = "글쎄, 저희 마을에 새로 부임한 변사또라는 놈이\n저더러 수청을 들라지 뭐에요?";
+			sc_csBase(name, sp_chun_face_angry, text, ix, iy);
+			break;
+			
+		case 13:
+			var name = "성춘향";
+			var text = "저는 사모하는 낭군이 있었던지라,\n그렇겐 못하겠다고 거절을 했었는데..";
+			sc_csBase(name, sp_chun_face_angry, text, ix, iy);
+			break;
+			
 		case 14:
 			var name = "성춘향";
-			var text = "저와 사랑을 나누던 분이 있어요.";
+			var text = "변사또 이놈이 막 열불을 내면서\n저를 옥에 가둬버리더니.....!";
 			sc_csBase(name, sp_chun_face, text, ix, iy);
 			break;
 			
 		case 15:
 			var name = "성춘향";
-			var text = "청렴한 선비인 그분은, 혼란한 조선을 바로잡으리라 다짐하며 \n한양으로 과거길에 오르셨죠.";
+			var text = "하여간 배운 양반이란 것들이\n가만 보면 심보가 더 못되먹었단 말이죠";
 			sc_csBase(name, sp_chun_face, text, ix, iy);
 			break;
 			
 		case 16:
-			var name = "성춘향";
-			var text = "하지만 그분이 떠나자, \n우리 고을의 부패한 사또는 제게 수청을 들기를 요구했고,";
-			sc_csBase(name, sp_chun_face, text, ix, iy);
+			ob_roomControl.isTalk = 8;
+			sc_csBase2(x, 540);
+			alarm[1] = 120;
 			break;
 			
 		case 17:
 			var name = "성춘향";
-			var text = "저는 절개를 지키다, 감옥에 갇혀 숨을 거두었죠.";
+			var text = "아..";
 			sc_csBase(name, sp_chun_face, text, ix, iy);
 			break;
 			
 		case 18:
-			ob_roomControl.isTalk = 8;
-			isTalk = 4;
-			sc_csBase2(ix, iy);
-			alarm[1] = 120;
+			var name = "성춘향";
+			var text = "물론 당신 이야기는 아니에요. 하하..";
+			sc_csBase(name, sp_chun_face, text, ix, iy);
 			break;
 			
 		case 19:
-			isTalk = 5;
-			alarm[1] = 60;
+			ob_roomControl.isTalk = 8;
+			sc_csBase2(ix, iy);
+			alarm[1] = 120;
 			break;
 			
 		case 20:

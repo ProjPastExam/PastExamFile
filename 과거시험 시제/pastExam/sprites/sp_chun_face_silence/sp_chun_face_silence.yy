@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d533c8a5-7523-4f80-8d64-bbe58a5450b6","path":"sprites/sp_chun_face/sp_chun_face.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d533c8a5-7523-4f80-8d64-bbe58a5450b6","path":"sprites/sp_chun_face/sp_chun_face.yy",},"LayerId":{"name":"e9d12dbf-4c82-4cd3-b10d-2a6ec894069a","path":"sprites/sp_chun_face/sp_chun_face.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_chun_face","path":"sprites/sp_chun_face/sp_chun_face.yy",},"resourceVersion":"1.0","name":"d533c8a5-7523-4f80-8d64-bbe58a5450b6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"dce1bef4-4540-4eab-87fa-6a46f2240c7b","path":"sprites/sp_chun_face_silence/sp_chun_face_silence.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"dce1bef4-4540-4eab-87fa-6a46f2240c7b","path":"sprites/sp_chun_face_silence/sp_chun_face_silence.yy",},"LayerId":{"name":"dc7ca617-6146-412f-b7f2-e862c1e09b98","path":"sprites/sp_chun_face_silence/sp_chun_face_silence.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_chun_face_silence","path":"sprites/sp_chun_face_silence/sp_chun_face_silence.yy",},"resourceVersion":"1.0","name":"dce1bef4-4540-4eab-87fa-6a46f2240c7b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_chun_face","path":"sprites/sp_chun_face/sp_chun_face.yy",},
+    "spriteId": {"name":"sp_chun_face_silence","path":"sprites/sp_chun_face_silence/sp_chun_face_silence.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"aa2409e7-9237-4c8e-b7a2-bac1a4cf023f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d533c8a5-7523-4f80-8d64-bbe58a5450b6","path":"sprites/sp_chun_face/sp_chun_face.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"86738a78-7d87-4ea3-ae26-a7ea50b61d0a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dce1bef4-4540-4eab-87fa-6a46f2240c7b","path":"sprites/sp_chun_face_silence/sp_chun_face_silence.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_chun_face","path":"sprites/sp_chun_face/sp_chun_face.yy",},
+    "parent": {"name":"sp_chun_face_silence","path":"sprites/sp_chun_face_silence/sp_chun_face_silence.yy",},
     "resourceVersion": "1.3",
-    "name": "sp_chun_face",
+    "name": "sp_chun_face_silence",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e9d12dbf-4c82-4cd3-b10d-2a6ec894069a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dc7ca617-6146-412f-b7f2-e862c1e09b98","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Chun/face.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sp_chun_face",
+  "name": "sp_chun_face_silence",
   "tags": [],
   "resourceType": "GMSprite",
 }
