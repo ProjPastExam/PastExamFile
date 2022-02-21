@@ -505,6 +505,7 @@
     {"id":{"name":"sp_key_2","path":"sprites/sp_key_2/sp_key_2.yy",},"order":27,},
     {"id":{"name":"sp_jpGun_walk","path":"sprites/sp_jpGun_walk/sp_jpGun_walk.yy",},"order":2,},
     {"id":{"name":"sp_tapSkInfoIndex","path":"sprites/sp_tapSkInfoIndex/sp_tapSkInfoIndex.yy",},"order":8,},
+    {"id":{"name":"s_run","path":"sounds/s_run/s_run.yy",},"order":6,},
     {"id":{"name":"demo_stage02_2","path":"rooms/demo_stage02_2/demo_stage02_2.yy",},"order":19,},
     {"id":{"name":"sp_jpSwordS_atk1Ef","path":"sprites/sp_jpSwordS_atk1Ef/sp_jpSwordS_atk1Ef.yy",},"order":8,},
     {"id":{"name":"sp_start_tree04","path":"sprites/sp_start_tree04/sp_start_tree04.yy",},"order":9,},

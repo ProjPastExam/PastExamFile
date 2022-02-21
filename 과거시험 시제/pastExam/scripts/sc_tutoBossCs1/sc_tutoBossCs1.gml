@@ -44,11 +44,13 @@ function sc_tutoBossCs1(){
 			break;
 			
 		case 5:
+			BGS_Play(s_run, global.vol, 0);
 			alarm[1] = 80;
 			sprite_index = sp_pl_run;
 			break;
 			
 		case 6:
+			BGS_Set(0, 0);
 			alarm[1] = 1;
 			sprite_index = sp_pl_stand;
 			isTalk = 5;
@@ -68,12 +70,14 @@ function sc_tutoBossCs1(){
 			break;
 			
 		case 9:
+			BGS_Play(s_foot, global.vol, 0);
 			BGM_Play(s_mB01_2, global.volBgm, 60);
 			alarm[1] = 210;
 			isTalk = 4;
 			break;
 			
 		case 10:
+			BGS_Set(0, 0);
 			alarm[1] = 60;
 			isTalk = 4;
 			break;

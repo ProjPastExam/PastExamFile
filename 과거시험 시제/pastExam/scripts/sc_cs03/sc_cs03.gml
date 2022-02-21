@@ -19,11 +19,13 @@ function sc_cs03(){
 			break;
 			
 		case 1:
+			BGS_Play(s_run, global.vol, 30);
 			alarm[1] = 90;
 			isTalk = 4;
 			break;
 			
 		case 2:
+			BGS_Set(0, 0);
 			alarm[1] = 5;
 			sprite_index = sp_pl_stand;
 			isTalk = 7;
@@ -56,11 +58,13 @@ function sc_cs03(){
 			break;
 			
 		case 7:
+			BGS_Play(s_foot, global.vol, 0);
 			alarm[1] = 140;
 			sprite_index = sp_pl_walk;
 			break;
 			
 		case 8:
+			BGS_Set(0, 0);
 			image_index = 0;
 			sprite_index = sp_cs02_plSit;
 			isTalk = 4;

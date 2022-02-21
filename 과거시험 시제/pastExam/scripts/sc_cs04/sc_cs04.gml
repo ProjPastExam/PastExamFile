@@ -36,11 +36,13 @@ function sc_cs04(){
 			break;
 			
 		case 5:
+			BGS_Play(s_run, global.vol, 0);
 			alarm[1] = 240;
 			sprite_index = sp_pl_run;
 			break;
 			
 		case 6:
+			BGS_Set(0, 0);
 			alarm[1] = 30;
 			break;
 			

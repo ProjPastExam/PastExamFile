@@ -96,6 +96,10 @@
 				//페이드 시간 초기화 & 설정
 				SM_Fade_Time = 0;
 				SM_Fade_Time_Max = fade_step;
+				
+				if (vol == 0) {
+					SM_BGM_Destroy = true;
+				}
 			}
 		}
 	}

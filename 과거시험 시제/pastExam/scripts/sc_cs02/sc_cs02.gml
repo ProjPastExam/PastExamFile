@@ -41,12 +41,13 @@ function sc_cs02(){
 			break;
 			
 		case 4:
+			BGS_Play(s_run, global.vol, 30);
 			isTalk = 4;
 			alarm[1] = 185;
 			break;
 			
 		case 5:
-			
+			BGS_Set(0, 0);
 			isTalk = 5;
 			alarm[1] = 120;
 			break;
@@ -130,12 +131,14 @@ function sc_cs02(){
 			break;
 			
 		case 18:
+			BGS_Play(s_foot, global.vol, 0);
 			sprite_index = sp_pl_walk;
 			isTalk = 4;
 			alarm[1] = 210;
 			break;
 			
 		case 19:
+			BGS_Set(0, 120);
 			ob_roomControl.alarm[7] = 1;
 			break;
 		
