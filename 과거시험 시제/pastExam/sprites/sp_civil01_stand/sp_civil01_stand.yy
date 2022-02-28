@@ -99,7 +99,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_civil01_stand","path":"sprites/sp_civil01_stand/sp_civil01_stand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_civil01_stand",
     "tags": [],
     "resourceType": "GMSequence",

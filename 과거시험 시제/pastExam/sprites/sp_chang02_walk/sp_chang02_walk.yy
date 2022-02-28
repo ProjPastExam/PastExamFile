@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_chang02_walk","path":"sprites/sp_chang02_walk/sp_chang02_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_chang02_walk",
     "tags": [],
     "resourceType": "GMSequence",

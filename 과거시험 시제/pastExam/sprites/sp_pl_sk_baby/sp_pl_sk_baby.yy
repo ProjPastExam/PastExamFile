@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_sk_baby","path":"sprites/sp_pl_sk_baby/sp_pl_sk_baby.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_sk_baby",
     "tags": [],
     "resourceType": "GMSequence",

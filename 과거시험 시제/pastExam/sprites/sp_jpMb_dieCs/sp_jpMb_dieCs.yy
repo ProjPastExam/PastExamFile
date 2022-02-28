@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpMb_dieCs","path":"sprites/sp_jpMb_dieCs/sp_jpMb_dieCs.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpMb_dieCs",
     "tags": [],
     "resourceType": "GMSequence",

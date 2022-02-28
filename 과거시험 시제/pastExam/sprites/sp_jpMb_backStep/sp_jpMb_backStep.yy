@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpMb_backStep","path":"sprites/sp_jpMb_backStep/sp_jpMb_backStep.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpMb_backStep",
     "tags": [],
     "resourceType": "GMSequence",

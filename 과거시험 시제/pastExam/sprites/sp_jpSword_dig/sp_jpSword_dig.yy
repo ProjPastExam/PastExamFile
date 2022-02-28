@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpSword_dig","path":"sprites/sp_jpSword_dig/sp_jpSword_dig.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpSword_dig",
     "tags": [],
     "resourceType": "GMSequence",

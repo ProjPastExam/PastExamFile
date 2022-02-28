@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_kTuto_dash","path":"sprites/sp_kTuto_dash/sp_kTuto_dash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_kTuto_dash",
     "tags": [],
     "resourceType": "GMSequence",

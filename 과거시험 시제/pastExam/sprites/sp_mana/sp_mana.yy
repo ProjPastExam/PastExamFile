@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_mana","path":"sprites/sp_mana/sp_mana.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_mana",
     "tags": [],
     "resourceType": "GMSequence",

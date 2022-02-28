@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_keyVk_space","path":"sprites/sp_keyVk_space/sp_keyVk_space.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_keyVk_space",
     "tags": [],
     "resourceType": "GMSequence",

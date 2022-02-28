@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_tabBlack","path":"sprites/sp_tabBlack/sp_tabBlack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_tabBlack",
     "tags": [],
     "resourceType": "GMSequence",

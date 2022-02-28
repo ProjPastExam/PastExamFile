@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_sound_vol","path":"sprites/sp_sound_vol/sp_sound_vol.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_sound_vol",
     "tags": [],
     "resourceType": "GMSequence",

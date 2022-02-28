@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_tapSkInfoIndex","path":"sprites/sp_tapSkInfoIndex/sp_tapSkInfoIndex.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_tapSkInfoIndex",
     "tags": [],
     "resourceType": "GMSequence",

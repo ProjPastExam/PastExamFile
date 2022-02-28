@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_cs02_IStandCry","path":"sprites/sp_cs02_IStandCry/sp_cs02_IStandCry.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_cs02_IStandCry",
     "tags": [],
     "resourceType": "GMSequence",

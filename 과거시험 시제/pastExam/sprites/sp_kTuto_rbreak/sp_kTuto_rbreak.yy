@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_kTuto_rbreak","path":"sprites/sp_kTuto_rbreak/sp_kTuto_rbreak.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_kTuto_rbreak",
     "tags": [],
     "resourceType": "GMSequence",

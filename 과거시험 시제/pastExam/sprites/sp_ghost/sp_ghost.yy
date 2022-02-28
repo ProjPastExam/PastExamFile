@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_ghost","path":"sprites/sp_ghost/sp_ghost.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_ghost",
     "tags": [],
     "resourceType": "GMSequence",

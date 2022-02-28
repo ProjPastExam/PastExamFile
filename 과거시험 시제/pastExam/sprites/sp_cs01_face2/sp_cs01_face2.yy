@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_cs01_face2","path":"sprites/sp_cs01_face2/sp_cs01_face2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_cs01_face2",
     "tags": [],
     "resourceType": "GMSequence",

@@ -115,7 +115,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_talkNug","path":"sprites/sp_talkNug/sp_talkNug.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_talkNug",
     "tags": [],
     "resourceType": "GMSequence",

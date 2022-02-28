@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_cs_plWake2","path":"sprites/sp_cs_plWake2/sp_cs_plWake2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_cs_plWake2",
     "tags": [],
     "resourceType": "GMSequence",

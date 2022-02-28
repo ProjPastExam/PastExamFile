@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_skillBoxOut","path":"sprites/sp_skillBoxOut/sp_skillBoxOut.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_skillBoxOut",
     "tags": [],
     "resourceType": "GMSequence",

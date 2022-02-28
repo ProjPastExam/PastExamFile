@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_ybox","path":"sprites/sp_ybox/sp_ybox.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_ybox",
     "tags": [],
     "resourceType": "GMSequence",

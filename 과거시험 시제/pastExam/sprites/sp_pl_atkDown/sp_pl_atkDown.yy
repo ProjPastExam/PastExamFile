@@ -91,7 +91,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_atkDown","path":"sprites/sp_pl_atkDown/sp_pl_atkDown.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_atkDown",
     "tags": [],
     "resourceType": "GMSequence",

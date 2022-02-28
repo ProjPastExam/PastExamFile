@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_bandit01_stand","path":"sprites/sp_bandit01_stand/sp_bandit01_stand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_bandit01_stand",
     "tags": [],
     "resourceType": "GMSequence",

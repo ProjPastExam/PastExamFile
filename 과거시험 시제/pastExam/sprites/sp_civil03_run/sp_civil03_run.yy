@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_civil03_run","path":"sprites/sp_civil03_run/sp_civil03_run.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_civil03_run",
     "tags": [],
     "resourceType": "GMSequence",

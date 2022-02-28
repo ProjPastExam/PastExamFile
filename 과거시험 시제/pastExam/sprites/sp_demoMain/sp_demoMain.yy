@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_demoMain","path":"sprites/sp_demoMain/sp_demoMain.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_demoMain",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_chun_face_laugh","path":"sprites/sp_chun_face_laugh/sp_chun_face_laugh.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_chun_face_laugh",
     "tags": [],
     "resourceType": "GMSequence",

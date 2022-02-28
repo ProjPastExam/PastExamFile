@@ -99,7 +99,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_frontKick","path":"sprites/sp_pl_frontKick/sp_pl_frontKick.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_frontKick",
     "tags": [],
     "resourceType": "GMSequence",

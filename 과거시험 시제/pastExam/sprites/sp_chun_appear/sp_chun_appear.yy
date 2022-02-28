@@ -135,7 +135,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_chun_appear","path":"sprites/sp_chun_appear/sp_chun_appear.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_chun_appear",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpMb_atk1_1Ef","path":"sprites/sp_jpMb_atk1_1Ef/sp_jpMb_atk1_1Ef.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpMb_atk1_1Ef",
     "tags": [],
     "resourceType": "GMSequence",

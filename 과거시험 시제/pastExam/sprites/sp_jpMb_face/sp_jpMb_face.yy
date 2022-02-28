@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpMb_face","path":"sprites/sp_jpMb_face/sp_jpMb_face.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpMb_face",
     "tags": [],
     "resourceType": "GMSequence",

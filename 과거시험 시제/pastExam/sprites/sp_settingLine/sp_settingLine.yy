@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_settingLine","path":"sprites/sp_settingLine/sp_settingLine.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_settingLine",
     "tags": [],
     "resourceType": "GMSequence",

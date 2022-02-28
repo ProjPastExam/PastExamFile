@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_item2_2","path":"sprites/sp_pl_item2_2/sp_pl_item2_2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_item2_2",
     "tags": [],
     "resourceType": "GMSequence",

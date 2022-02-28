@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_start_tomb01","path":"sprites/sp_start_tomb01/sp_start_tomb01.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_start_tomb01",
     "tags": [],
     "resourceType": "GMSequence",

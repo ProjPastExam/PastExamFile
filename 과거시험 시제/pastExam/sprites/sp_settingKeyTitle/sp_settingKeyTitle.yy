@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_settingKeyTitle","path":"sprites/sp_settingKeyTitle/sp_settingKeyTitle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_settingKeyTitle",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_sound_right","path":"sprites/sp_sound_right/sp_sound_right.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_sound_right",
     "tags": [],
     "resourceType": "GMSequence",

@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_banditBoss_backStep","path":"sprites/sp_banditBoss_backStep/sp_banditBoss_backStep.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_banditBoss_backStep",
     "tags": [],
     "resourceType": "GMSequence",

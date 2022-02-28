@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_cs1_people","path":"sprites/sp_cs1_people/sp_cs1_people.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_cs1_people",
     "tags": [],
     "resourceType": "GMSequence",

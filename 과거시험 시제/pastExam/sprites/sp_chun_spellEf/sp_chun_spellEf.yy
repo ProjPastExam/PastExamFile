@@ -119,7 +119,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_chun_spellEf","path":"sprites/sp_chun_spellEf/sp_chun_spellEf.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_chun_spellEf",
     "tags": [],
     "resourceType": "GMSequence",

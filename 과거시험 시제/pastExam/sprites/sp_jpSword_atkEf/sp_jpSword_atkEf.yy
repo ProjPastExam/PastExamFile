@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpSword_atkEf","path":"sprites/sp_jpSword_atkEf/sp_jpSword_atkEf.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpSword_atkEf",
     "tags": [],
     "resourceType": "GMSequence",

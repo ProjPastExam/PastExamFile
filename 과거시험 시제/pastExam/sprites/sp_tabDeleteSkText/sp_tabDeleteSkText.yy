@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_tabDeleteSkText","path":"sprites/sp_tabDeleteSkText/sp_tabDeleteSkText.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_tabDeleteSkText",
     "tags": [],
     "resourceType": "GMSequence",

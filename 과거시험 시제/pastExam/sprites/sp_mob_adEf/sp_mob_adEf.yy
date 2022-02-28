@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_mob_adEf","path":"sprites/sp_mob_adEf/sp_mob_adEf.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_mob_adEf",
     "tags": [],
     "resourceType": "GMSequence",

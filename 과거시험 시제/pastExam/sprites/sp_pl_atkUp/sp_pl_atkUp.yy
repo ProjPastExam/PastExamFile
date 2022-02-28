@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_atkUp","path":"sprites/sp_pl_atkUp/sp_pl_atkUp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_atkUp",
     "tags": [],
     "resourceType": "GMSequence",

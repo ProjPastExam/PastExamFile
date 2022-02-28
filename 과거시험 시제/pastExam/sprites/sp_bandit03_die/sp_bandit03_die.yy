@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_bandit03_die","path":"sprites/sp_bandit03_die/sp_bandit03_die.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_bandit03_die",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_banditBoss_atk4Ef1","path":"sprites/sp_banditBoss_atk4Ef1/sp_banditBoss_atk4Ef1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_banditBoss_atk4Ef1",
     "tags": [],
     "resourceType": "GMSequence",

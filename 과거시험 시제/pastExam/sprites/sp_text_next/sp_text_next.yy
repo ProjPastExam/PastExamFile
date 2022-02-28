@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_text_next","path":"sprites/sp_text_next/sp_text_next.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_text_next",
     "tags": [],
     "resourceType": "GMSequence",

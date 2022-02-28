@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpMb_die","path":"sprites/sp_jpMb_die/sp_jpMb_die.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpMb_die",
     "tags": [],
     "resourceType": "GMSequence",

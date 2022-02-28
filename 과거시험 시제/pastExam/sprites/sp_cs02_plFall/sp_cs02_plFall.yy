@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_cs02_plFall","path":"sprites/sp_cs02_plFall/sp_cs02_plFall.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_cs02_plFall",
     "tags": [],
     "resourceType": "GMSequence",

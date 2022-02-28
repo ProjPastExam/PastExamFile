@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_start_back03","path":"sprites/sp_start_back03/sp_start_back03.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_start_back03",
     "tags": [],
     "resourceType": "GMSequence",

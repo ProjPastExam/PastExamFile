@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_tuto_sk","path":"sprites/sp_tuto_sk/sp_tuto_sk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_tuto_sk",
     "tags": [],
     "resourceType": "GMSequence",

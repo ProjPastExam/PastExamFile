@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_key_q","path":"sprites/sp_key_q/sp_key_q.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_key_q",
     "tags": [],
     "resourceType": "GMSequence",

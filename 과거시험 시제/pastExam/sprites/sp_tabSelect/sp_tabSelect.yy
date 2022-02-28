@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_tabSelect","path":"sprites/sp_tabSelect/sp_tabSelect.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_tabSelect",
     "tags": [],
     "resourceType": "GMSequence",

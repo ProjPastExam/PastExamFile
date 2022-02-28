@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_settingComplete","path":"sprites/sp_settingComplete/sp_settingComplete.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_settingComplete",
     "tags": [],
     "resourceType": "GMSequence",

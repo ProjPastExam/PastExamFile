@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_kTuto_upattack","path":"sprites/sp_kTuto_upattack/sp_kTuto_upattack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_kTuto_upattack",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_itemRing","path":"sprites/sp_itemRing/sp_itemRing.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_itemRing",
     "tags": [],
     "resourceType": "GMSequence",

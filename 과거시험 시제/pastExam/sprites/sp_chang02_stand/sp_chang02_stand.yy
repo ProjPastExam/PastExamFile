@@ -115,7 +115,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_chang02_stand","path":"sprites/sp_chang02_stand/sp_chang02_stand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_chang02_stand",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_black2","path":"sprites/sp_black2/sp_black2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_black2",
     "tags": [],
     "resourceType": "GMSequence",

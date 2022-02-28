@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpSpear_stand","path":"sprites/sp_jpSpear_stand/sp_jpSpear_stand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpSpear_stand",
     "tags": [],
     "resourceType": "GMSequence",

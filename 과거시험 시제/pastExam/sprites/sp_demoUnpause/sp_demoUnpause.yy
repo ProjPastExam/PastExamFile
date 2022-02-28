@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_demoUnpause","path":"sprites/sp_demoUnpause/sp_demoUnpause.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_demoUnpause",
     "tags": [],
     "resourceType": "GMSequence",

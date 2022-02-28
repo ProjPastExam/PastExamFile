@@ -99,7 +99,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_bobu1_stand","path":"sprites/sp_bobu1_stand/sp_bobu1_stand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_bobu1_stand",
     "tags": [],
     "resourceType": "GMSequence",

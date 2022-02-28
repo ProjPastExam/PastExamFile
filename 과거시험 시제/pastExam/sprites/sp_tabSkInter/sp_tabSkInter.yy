@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_tabSkInter","path":"sprites/sp_tabSkInter/sp_tabSkInter.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_tabSkInter",
     "tags": [],
     "resourceType": "GMSequence",

@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_cs02_plStand","path":"sprites/sp_cs02_plStand/sp_cs02_plStand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_cs02_plStand",
     "tags": [],
     "resourceType": "GMSequence",

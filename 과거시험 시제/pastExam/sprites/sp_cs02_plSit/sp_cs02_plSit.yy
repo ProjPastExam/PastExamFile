@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_cs02_plSit","path":"sprites/sp_cs02_plSit/sp_cs02_plSit.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_cs02_plSit",
     "tags": [],
     "resourceType": "GMSequence",

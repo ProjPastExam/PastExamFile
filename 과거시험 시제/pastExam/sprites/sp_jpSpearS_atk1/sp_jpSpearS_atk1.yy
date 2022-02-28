@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpSpearS_atk1","path":"sprites/sp_jpSpearS_atk1/sp_jpSpearS_atk1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpSpearS_atk1",
     "tags": [],
     "resourceType": "GMSequence",

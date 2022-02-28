@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_demoPause","path":"sprites/sp_demoPause/sp_demoPause.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_demoPause",
     "tags": [],
     "resourceType": "GMSequence",

@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_mob_SpAmUi","path":"sprites/sp_mob_SpAmUi/sp_mob_SpAmUi.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_mob_SpAmUi",
     "tags": [],
     "resourceType": "GMSequence",

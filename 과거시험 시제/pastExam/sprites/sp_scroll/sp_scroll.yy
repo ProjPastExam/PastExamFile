@@ -107,7 +107,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_scroll","path":"sprites/sp_scroll/sp_scroll.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_scroll",
     "tags": [],
     "resourceType": "GMSequence",

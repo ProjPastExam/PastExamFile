@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpSpearS_die","path":"sprites/sp_jpSpearS_die/sp_jpSpearS_die.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpSpearS_die",
     "tags": [],
     "resourceType": "GMSequence",

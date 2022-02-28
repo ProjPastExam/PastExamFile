@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_tabInfoBox","path":"sprites/sp_tabInfoBox/sp_tabInfoBox.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_tabInfoBox",
     "tags": [],
     "resourceType": "GMSequence",

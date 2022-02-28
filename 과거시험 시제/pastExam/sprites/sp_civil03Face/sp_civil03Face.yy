@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_civil03Face","path":"sprites/sp_civil03Face/sp_civil03Face.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_civil03Face",
     "tags": [],
     "resourceType": "GMSequence",

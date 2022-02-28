@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_plHitEffect01","path":"sprites/sp_plHitEffect01/sp_plHitEffect01.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_plHitEffect01",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_keyVk_left","path":"sprites/sp_keyVk_left/sp_keyVk_left.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_keyVk_left",
     "tags": [],
     "resourceType": "GMSequence",

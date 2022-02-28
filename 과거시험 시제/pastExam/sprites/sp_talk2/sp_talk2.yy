@@ -115,7 +115,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_talk2","path":"sprites/sp_talk2/sp_talk2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_talk2",
     "tags": [],
     "resourceType": "GMSequence",

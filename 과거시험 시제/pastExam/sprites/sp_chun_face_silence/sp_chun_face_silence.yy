@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_chun_face_silence","path":"sprites/sp_chun_face_silence/sp_chun_face_silence.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_chun_face_silence",
     "tags": [],
     "resourceType": "GMSequence",

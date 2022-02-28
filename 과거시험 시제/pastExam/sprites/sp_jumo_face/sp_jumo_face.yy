@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jumo_face","path":"sprites/sp_jumo_face/sp_jumo_face.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jumo_face",
     "tags": [],
     "resourceType": "GMSequence",

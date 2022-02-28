@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_chang01_stand2","path":"sprites/sp_chang01_stand2/sp_chang01_stand2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_chang01_stand2",
     "tags": [],
     "resourceType": "GMSequence",

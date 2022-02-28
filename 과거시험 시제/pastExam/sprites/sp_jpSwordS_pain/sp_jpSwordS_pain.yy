@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpSwordS_pain","path":"sprites/sp_jpSwordS_pain/sp_jpSwordS_pain.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpSwordS_pain",
     "tags": [],
     "resourceType": "GMSequence",

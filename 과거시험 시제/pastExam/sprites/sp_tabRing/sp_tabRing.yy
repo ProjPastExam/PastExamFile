@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_tabRing","path":"sprites/sp_tabRing/sp_tabRing.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_tabRing",
     "tags": [],
     "resourceType": "GMSequence",

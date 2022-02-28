@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_bandit01_walk","path":"sprites/sp_bandit01_walk/sp_bandit01_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_bandit01_walk",
     "tags": [],
     "resourceType": "GMSequence",

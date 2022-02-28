@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_hitEffect_fire01","path":"sprites/sp_hitEffect_fire01/sp_hitEffect_fire01.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_hitEffect_fire01",
     "tags": [],
     "resourceType": "GMSequence",

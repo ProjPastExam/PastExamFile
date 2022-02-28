@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_smoge","path":"sprites/sp_smoge/sp_smoge.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_smoge",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_chang01_pain","path":"sprites/sp_chang01_pain/sp_chang01_pain.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_chang01_pain",
     "tags": [],
     "resourceType": "GMSequence",

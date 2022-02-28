@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_tabItemInter","path":"sprites/sp_tabItemInter/sp_tabItemInter.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_tabItemInter",
     "tags": [],
     "resourceType": "GMSequence",

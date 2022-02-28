@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_tabDeleteItem","path":"sprites/sp_tabDeleteItem/sp_tabDeleteItem.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_tabDeleteItem",
     "tags": [],
     "resourceType": "GMSequence",

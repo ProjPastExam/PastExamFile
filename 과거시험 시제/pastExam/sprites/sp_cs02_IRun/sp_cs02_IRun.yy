@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_cs02_IRun","path":"sprites/sp_cs02_IRun/sp_cs02_IRun.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_cs02_IRun",
     "tags": [],
     "resourceType": "GMSequence",
