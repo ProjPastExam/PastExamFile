@@ -113,8 +113,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "interface",
-    "path": "folders/Sprites/interface.yy",
+    "name": "playerUI",
+    "path": "folders/Sprites/interface/playerUI.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_mana",

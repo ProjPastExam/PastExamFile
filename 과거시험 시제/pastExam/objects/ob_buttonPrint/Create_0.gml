@@ -17,3 +17,5 @@ switch (keyIndex) {
 }
 
 sprite_index = sc_keySprite(selfIndex);
+
+alarm[1] = 120;

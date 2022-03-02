@@ -132,7 +132,7 @@ function sc_stage01Cs(){
 		case 13:
 			var name = "행인"
 			var text = "고.. 고맙소!";
-			sc_csBase(name, sp_civil03Face, text, 640, 580);
+			sc_csBase(name, sp_civil01Face, text, 640, 580);
 			break;
 			
 		case 14:

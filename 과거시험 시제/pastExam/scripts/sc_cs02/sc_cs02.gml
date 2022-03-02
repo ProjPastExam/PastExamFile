@@ -66,6 +66,7 @@ function sc_cs02(){
 			break;
 			
 		case 8:
+			
 			image_index = 0;
 			sprite_index = sp_cs02_plSit;
 			isTalk = 4;
