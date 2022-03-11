@@ -44,6 +44,7 @@ function sc_tutoBossCs2(){
 			
 		case 4:
 			isTalk = 5;
+			BGM_Play(s_mB02_1, global.volBgm, 0);
 			ob_roomControl.isTalk = 4;
 			sprite_index = sp_pl_stand;
 			alarm[1] = 160;
@@ -126,6 +127,7 @@ function sc_tutoBossCs2(){
 		case 18:
 			alarm[1] = 30;
 			image_index = 6;
+			BGM_Stop(30);
 			break;
 			
 		case 19:
