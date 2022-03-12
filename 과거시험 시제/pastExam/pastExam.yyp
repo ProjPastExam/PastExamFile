@@ -741,6 +741,7 @@
     {"id":{"name":"ob_mobBandit01Atk","path":"objects/ob_mobBandit01Atk/ob_mobBandit01Atk.yy",},"order":1,},
     {"id":{"name":"sp_st02_2_back3","path":"sprites/sp_st02_2_back3/sp_st02_2_back3.yy",},"order":0,},
     {"id":{"name":"sp_chun_face","path":"sprites/sp_chun_face/sp_chun_face.yy",},"order":0,},
+    {"id":{"name":"s_mStart","path":"sounds/s_mStart/s_mStart.yy",},"order":6,},
     {"id":{"name":"sc_pl_sk106","path":"scripts/sc_pl_sk106/sc_pl_sk106.yy",},"order":7,},
     {"id":{"name":"s_cloth2","path":"sounds/s_cloth2/s_cloth2.yy",},"order":3,},
     {"id":{"name":"Scr_VSLS","path":"scripts/Scr_VSLS/Scr_VSLS.yy",},"order":6,},

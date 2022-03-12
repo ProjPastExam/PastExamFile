@@ -27,7 +27,9 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"sp_chun_face","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "NPC",
     "path": "folders/Objects/NPC.yy",

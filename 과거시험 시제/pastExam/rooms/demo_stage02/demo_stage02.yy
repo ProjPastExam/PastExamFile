@@ -94,6 +94,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_mobBandit04","path":"objects/ob_mobBandit04/ob_mobBandit04.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":11776.0,"y":1440.0,"resourceVersion":"1.0","name":"inst_4E6C30FA_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":1664.0,"resourceVersion":"1.0","name":"inst_69A6D4CE","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":1664.0,"resourceVersion":"1.0","name":"inst_71D7DEC1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":1664.0,"resourceVersion":"1.0","name":"inst_1E6F05","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":800.0,"y":1664.0,"resourceVersion":"1.0","name":"inst_1EADE427","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"effect2","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"t_stage1","path":"tilesets/t_stage1/t_stage1.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":250,"SerialiseHeight":32,"TileSerialiseData":[
@@ -202,6 +204,8 @@
     {"name":"inst_4E6C30FA_1","path":"rooms/demo_stage02/demo_stage02.yy",},
     {"name":"inst_69A6D4CE","path":"rooms/demo_stage02/demo_stage02.yy",},
     {"name":"inst_71D7DEC1","path":"rooms/demo_stage02/demo_stage02.yy",},
+    {"name":"inst_1E6F05","path":"rooms/demo_stage02/demo_stage02.yy",},
+    {"name":"inst_1EADE427","path":"rooms/demo_stage02/demo_stage02.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
