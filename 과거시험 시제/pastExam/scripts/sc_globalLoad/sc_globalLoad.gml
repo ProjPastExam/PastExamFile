@@ -7,6 +7,15 @@ function sc_globalLoad(){
 	global.itemNum		= VSLS_Get("itemNum");
 	
 	global.language		= VSLS_Get("language");
+	
+	global.money		= VSLS_Get("money");
+	global.coin			= 0;
+	
+	//특전 관련 수치
+	{
+	global.abPointMax	= VSLS_Get("abPointMax");
+	global.baPoint		= VSLS_Get("abPoint");
+	}
 
 	//공격 관련 수치
 	{
