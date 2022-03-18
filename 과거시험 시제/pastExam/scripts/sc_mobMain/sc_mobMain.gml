@@ -16,4 +16,11 @@ function sc_mobMain(){
 	else {
 		if (ctCount > 0) ctCount = ctCount - 2;
 	}
+	
+	if (state == 9) {
+		process--;
+		if (process <= 0) {
+			state = 10; delay = 1;
+		}
+	}
 }

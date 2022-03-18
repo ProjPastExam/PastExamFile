@@ -19,8 +19,15 @@ function sc_mobKnockback(){
 	
 	
 	if ( process <= 0 && !isJump ) { 
-		var ct = 0;
-		if (ctCount > counter/2) ct = ctCount;
-		state = 10;	delay = hitDelay*(counter-ct)/(counter/2);
+		if (isStun) {
+			isStun = false;
+			state = 9;
+			process = 30;
+		}
+		else {
+			var ct = 0;
+			if (ctCount > counter/2) ct = ctCount;
+			state = 10;	delay = hitDelay*(counter-ct)/(counter);
+		}
 	} 
 }

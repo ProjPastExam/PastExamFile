@@ -14,6 +14,9 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	}
 	if (hitKind == 10) hitKind = 1;
 	
+	if (hitKind == 1 && (isDA && !isDK && isDF)) { isStun = true; }
+	if (hitKind == 2 && (isDA && isDK && !isDF)) { isStun = true; }
+	
 	var ctRange = irandom_range(0, 100);
 	var isCt = false;
 	if (ctRange <= ctChance) isCt = true;
