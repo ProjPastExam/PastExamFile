@@ -14,8 +14,14 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	}
 	if (hitKind == 10) hitKind = 1;
 	
-	if (hitKind == 1 && (isDA && !isDK && isDF)) { isStun = true; }
-	if (hitKind == 2 && (isDA && isDK && !isDF)) { isStun = true; }
+	if (hitKind == 1 && (isDA && !isDK && isDF)) { 
+		indexStun = true;
+		isStun = true; 
+	}
+	if (hitKind == 2 && (isDA && isDK && !isDF)) { 
+		isStun = true; 
+		indexStun = true;
+	}
 	
 	var ctRange = irandom_range(0, 100);
 	var isCt = false;
@@ -39,6 +45,11 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	
 	global.mp += mana;
 	if (global.mp > global.mpMax) global.mp = global.mpMax;
+	
+	if (indexStun) {
+		indexStun = false;
+		part_particles_create( global.hitEf, x, y, global.mobCounterEf, 1 );
+	}
 	SE_Play(s_hit01, global.vol);
 	
 	if ( isJump && ob_player.itemJump) {

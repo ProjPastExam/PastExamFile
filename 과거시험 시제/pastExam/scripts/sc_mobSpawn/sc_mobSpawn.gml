@@ -18,4 +18,5 @@ function sc_mobSpawn(){
 	bsPt		= 0;
 	
 	isStun		= false;
+	indexStun	= false;
 }

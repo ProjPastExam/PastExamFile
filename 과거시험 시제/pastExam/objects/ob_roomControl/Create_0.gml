@@ -117,4 +117,11 @@ global.mobAdEf = part_type_create();
 
 part_type_sprite(global.mobAdEf, sp_mob_adEf, true, 1, false);
 part_type_life(global.mobAdEf, 45, 45);
+
+
+//몬스터 카운터 이팩트
+global.mobCounterEf = part_type_create();
+
+part_type_sprite(global.mobCounterEf, sp_hitEffect_counter, true, 1, false);
+part_type_life(global.mobCounterEf, 20, 20);
 }
