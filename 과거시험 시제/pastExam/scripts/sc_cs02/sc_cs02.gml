@@ -25,6 +25,7 @@ function sc_cs02(){
 			
 		case 2:
 			BGS_Set(0, 0);
+			BGM_Play(s_mB01_1, global.volBgm, 0);
 			SE_Play(s_talk, global.vol);
 			sprite_index = sp_pl_standPeace;
 			var name = "???"

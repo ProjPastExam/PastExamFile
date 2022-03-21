@@ -22,6 +22,7 @@ function sc_cs01(){
 			break;
 			
 		case 1:
+			BGM_Play(s_mCs_normal, global.volBgm, 0);
 			var name = "행인 1"
 			var text = "그럼, 다음 길은 어디로 갑니까?";
 			sc_csBase(name, sp_cs01_face1, text, hang1, 530);

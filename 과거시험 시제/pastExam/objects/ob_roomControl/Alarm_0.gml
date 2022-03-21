@@ -5,7 +5,10 @@ if ( keyboard_check_pressed(global.btEsc) && global.hp > 0 ) {
 	if ( pause == -1 )		pause = 0;
 	else if ( isTalk == 0 && pause == 0 )	pause = -2;
 	
-	if (isCt) {alarm[7] = 1;}
+	if (isCt) {
+		alarm[7] = 1;
+		BGS_Set(0, 0);
+	}
 }
 
 if ( pause > 0 ) pause--;
