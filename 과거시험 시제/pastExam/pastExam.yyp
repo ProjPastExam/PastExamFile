@@ -431,6 +431,7 @@
     {"id":{"name":"sp_banditBoss_atk4Ef1","path":"sprites/sp_banditBoss_atk4Ef1/sp_banditBoss_atk4Ef1.yy",},"order":14,},
     {"id":{"name":"sp_bandit04_run","path":"sprites/sp_bandit04_run/sp_bandit04_run.yy",},"order":5,},
     {"id":{"name":"sp_jpMb_atk1_1Ef","path":"sprites/sp_jpMb_atk1_1Ef/sp_jpMb_atk1_1Ef.yy",},"order":13,},
+    {"id":{"name":"sp_tabButton_status","path":"sprites/sp_tabButton_status/sp_tabButton_status.yy",},"order":15,},
     {"id":{"name":"sp_st02_tree01","path":"sprites/sp_st02_tree01/sp_st02_tree01.yy",},"order":2,},
     {"id":{"name":"sp_bandit01_pain","path":"sprites/sp_bandit01_pain/sp_bandit01_pain.yy",},"order":5,},
     {"id":{"name":"sc_pl_get","path":"scripts/sc_pl_get/sc_pl_get.yy",},"order":0,},
