@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0f98a2c0-b315-462e-b32d-06257f474ad5","path":"sprites/sp_tabButton_status/sp_tabButton_status.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f98a2c0-b315-462e-b32d-06257f474ad5","path":"sprites/sp_tabButton_status/sp_tabButton_status.yy",},"LayerId":{"name":"aa7a97d5-9f9f-4edb-bfd1-139740e2754d","path":"sprites/sp_tabButton_status/sp_tabButton_status.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_tabButton_status","path":"sprites/sp_tabButton_status/sp_tabButton_status.yy",},"resourceVersion":"1.0","name":"0f98a2c0-b315-462e-b32d-06257f474ad5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5c59f0f5-6c80-4684-9d02-84a062c9089e","path":"sprites/sp_tabButton_skInfo/sp_tabButton_skInfo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5c59f0f5-6c80-4684-9d02-84a062c9089e","path":"sprites/sp_tabButton_skInfo/sp_tabButton_skInfo.yy",},"LayerId":{"name":"2866f4a8-fcf6-491f-9bc7-a55619b6ce23","path":"sprites/sp_tabButton_skInfo/sp_tabButton_skInfo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_tabButton_skInfo","path":"sprites/sp_tabButton_skInfo/sp_tabButton_skInfo.yy",},"resourceVersion":"1.0","name":"5c59f0f5-6c80-4684-9d02-84a062c9089e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_tabButton_status","path":"sprites/sp_tabButton_status/sp_tabButton_status.yy",},
+    "spriteId": {"name":"sp_tabButton_skInfo","path":"sprites/sp_tabButton_skInfo/sp_tabButton_skInfo.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"41b6aea4-6b50-4836-9aa0-f2e8b4b50d15","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f98a2c0-b315-462e-b32d-06257f474ad5","path":"sprites/sp_tabButton_status/sp_tabButton_status.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3bee86cc-5b41-4d70-a472-027fadcb8e54","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5c59f0f5-6c80-4684-9d02-84a062c9089e","path":"sprites/sp_tabButton_skInfo/sp_tabButton_skInfo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 96,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_tabButton_status","path":"sprites/sp_tabButton_status/sp_tabButton_status.yy",},
+    "parent": {"name":"sp_tabButton_skInfo","path":"sprites/sp_tabButton_skInfo/sp_tabButton_skInfo.yy",},
     "resourceVersion": "1.4",
-    "name": "sp_tabButton_status",
+    "name": "sp_tabButton_skInfo",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"aa7a97d5-9f9f-4edb-bfd1-139740e2754d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2866f4a8-fcf6-491f-9bc7-a55619b6ce23","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/interface/tapInfo.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sp_tabButton_status",
+  "name": "sp_tabButton_skInfo",
   "tags": [],
   "resourceType": "GMSprite",
 }
