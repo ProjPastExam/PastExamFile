@@ -229,6 +229,7 @@
     {"id":{"name":"sp_jpMb_stand","path":"sprites/sp_jpMb_stand/sp_jpMb_stand.yy",},"order":0,},
     {"id":{"name":"sp_bandit04_pain","path":"sprites/sp_bandit04_pain/sp_bandit04_pain.yy",},"order":4,},
     {"id":{"name":"sp_key_w","path":"sprites/sp_key_w/sp_key_w.yy",},"order":22,},
+    {"id":{"name":"sc_pl_atkJumpDown","path":"scripts/sc_pl_atkJumpDown/sc_pl_atkJumpDown.yy",},"order":13,},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},"order":27,},
     {"id":{"name":"sp_tombA","path":"sprites/sp_tombA/sp_tombA.yy",},"order":5,},
     {"id":{"name":"sp_pl_jumpAtk2","path":"sprites/sp_pl_jumpAtk2/sp_pl_jumpAtk2.yy",},"order":1,},
@@ -1215,7 +1216,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.624",
+    "IDEVersion": "2022.3.0.625",
   },
   "resourceVersion": "1.5",
   "name": "pastExam",
