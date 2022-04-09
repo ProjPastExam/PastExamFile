@@ -123,5 +123,12 @@ part_type_life(global.mobAdEf, 45, 45);
 global.mobCounterEf = part_type_create();
 
 part_type_sprite(global.mobCounterEf, sp_hitEffect_counter, true, 1, false);
-part_type_life(global.mobCounterEf, 20, 20);
+part_type_life(global.mobCounterEf, 15, 15);
+
+
+//몬스터 크리티컬
+global.mobCtEf = part_type_create();
+
+part_type_sprite(global.mobCtEf, sp_hitEffect_critical, true, 1, false);
+part_type_life(global.mobCtEf, 15, 15);
 }

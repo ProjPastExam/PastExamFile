@@ -46,11 +46,22 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	global.mp += mana;
 	if (global.mp > global.mpMax) global.mp = global.mpMax;
 	
-	if (indexStun) {
-		indexStun = false;
+	if (isCt) {
+		if (indexStun) {
+			indexStun = false;
+			part_particles_create( global.hitEf, x, y, global.mobCounterEf, 1 );
+		}
+		SE_Play(s_hitCritical, global.vol);
 		part_particles_create( global.hitEf, x, y, global.mobCounterEf, 1 );
 	}
-	SE_Play(s_hit01, global.vol);
+	else {
+		if (indexStun) {
+			indexStun = false;
+			part_particles_create( global.hitEf, x, y, global.mobCounterEf, 1 );
+		}
+		SE_Play(s_hit01, global.vol);
+	}
+	
 	
 	if ( isJump && ob_player.itemJump) {
 		part_particles_create( global.hitEf, x, y, global.hitEf02T, 1 );
