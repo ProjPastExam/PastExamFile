@@ -30,3 +30,10 @@ function sc_pl_kickShock(){
 	
 	return atkShock;
 }
+
+
+function sc_pl_kickCt() {
+	var kickCt = global.kickCt;
+	
+	return kickCt;
+}

@@ -44,3 +44,10 @@ function sc_pl_atkShock(){
 	
 	return atkShock;
 }
+
+
+function sc_pl_atkCt() {
+	var atkCt = global.atkCt;
+	
+	return atkCt;
+}

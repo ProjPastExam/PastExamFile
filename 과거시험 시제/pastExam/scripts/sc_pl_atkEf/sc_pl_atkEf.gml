@@ -14,9 +14,9 @@ function sc_pl_atkEf( dmg, pene, shock, mana, hitUp, hitKind, hitAfter, sprite, 
 	atk.image_xscale	= dir;
 	atk.shake			= shake;
 	var ctC				= ctChance;
-	if (hitKind == 0)						{ ctC = ctC + global.atkCt; }
-	else if (hitKind == 1 || hitKind == 10) { ctC = ctC + global.kickCt; }
-	else if (hitKind == 2)					{ ctC = ctC + global.fireCt; }
+	if (hitKind == 0)						{ ctC = ctC + sc_pl_atkCt(); }
+	else if (hitKind == 1 || hitKind == 10) { ctC = ctC + sc_pl_kickCt(); }
+	else if (hitKind == 2)					{ ctC = ctC + sc_pl_fireCt(); }
 	
 	atk.ctChance		= ctC;
 	return atk;

@@ -30,3 +30,10 @@ function sc_pl_fireShock(){
 	
 	return atkShock;
 }
+
+
+function sc_pl_fireCt() {
+	var fireCt = global.fireCt;
+	
+	return fireCt;
+}
