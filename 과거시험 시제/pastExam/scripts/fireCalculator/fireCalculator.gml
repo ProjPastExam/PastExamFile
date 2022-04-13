@@ -33,7 +33,7 @@ function sc_pl_fireShock(){
 
 
 function sc_pl_fireCt() {
-	var fireCt = global.fireCt;
+	var fireCt = global.fireCt + global.comCt/2;
 	
 	return fireCt;
 }

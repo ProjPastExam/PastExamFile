@@ -39,6 +39,7 @@ global.fireCt		= 0;
 global.fireCtMag	= 1.5;
 
 global.comCt		= 0;
+global.comCtAlarm	= 0;
 	
 global.hpMax	= 9;
 global.hp		= global.hpMax;

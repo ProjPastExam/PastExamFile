@@ -6,6 +6,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		xSpeed = mobAcc;
 		mobAcc = 0;
 	}
+	sc_pl_comCritic();
 	sc_obPhysics();
 	if (xSpeed > 8)		xSpeed = 8;
 	else if (xSpeed < -8)	xSpeed = -8;

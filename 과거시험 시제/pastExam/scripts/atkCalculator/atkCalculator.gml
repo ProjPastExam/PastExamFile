@@ -47,7 +47,7 @@ function sc_pl_atkShock(){
 
 
 function sc_pl_atkCt() {
-	var atkCt = global.atkCt;
+	var atkCt = global.atkCt + global.comCt/2;
 	
 	return atkCt;
 }

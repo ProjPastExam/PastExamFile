@@ -33,7 +33,7 @@ function sc_pl_kickShock(){
 
 
 function sc_pl_kickCt() {
-	var kickCt = global.kickCt;
+	var kickCt = global.kickCt + global.comCt/2;
 	
 	return kickCt;
 }
