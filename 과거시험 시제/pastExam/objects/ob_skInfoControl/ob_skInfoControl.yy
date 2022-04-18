@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sp_settingComplete",
-    "path": "sprites/sp_settingComplete/sp_settingComplete.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,19 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":72,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "setting",
-    "path": "folders/Objects/gameControl/setting.yy",
+    "name": "skInfo",
+    "path": "folders/Objects/gameControl/skInfo.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_settingComplete",
+  "name": "ob_skInfoControl",
   "tags": [],
   "resourceType": "GMObject",
 }

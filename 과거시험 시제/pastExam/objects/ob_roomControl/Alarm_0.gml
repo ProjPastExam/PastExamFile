@@ -1,16 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if ( keyboard_check_pressed(global.btEsc) && global.hp > 0 ) {
-	if ( pause == -1 )		pause = 0;
-	else if ( isTalk == 0 && pause == 0 )	pause = -2;
-	
-	if (isCt) {
-		alarm[7] = 1;
-		BGS_Set(0, 0);
-	}
-}
-
 if ( pause > 0 ) pause--;
 //if ( slow > 0 )	slow--;
 if (room_persistent) {
@@ -92,6 +82,26 @@ if ( keyboard_check_pressed(global.btTap) && global.hp > 0 ) {
 
 	room_goto(r_tab);
 
+}
+
+if ( keyboard_check_pressed(global.btEsc) && global.hp > 0 ) {
+	if ( isTalk == 0 ) {
+		room_persistent = true;
+		global.roomBuffer = room;
+		global.camBufferX = uc_get_x();
+		global.camBufferY = uc_get_y();
+	
+		if (!surface_exists(global.screenBuffer))	global.screenBuffer = surface_create(display_get_width(), display_get_height());
+		surface_copy(global.screenBuffer,0,0,application_surface);
+		//application_surface_draw_enable(false);
+
+		room_goto(r_setting);
+	}
+	
+	if (isCt) {
+		alarm[7] = 1;
+		BGS_Set(0, 0);
+	}
 }
 
 //if ((isTalk < 4 || isTalk > 7) && !isCt ) alarm[7] = 1;
