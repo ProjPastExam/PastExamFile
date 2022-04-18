@@ -4,3 +4,4 @@
 
 goBack = false;
 sc_skillUi();
+hpProcess = 0;

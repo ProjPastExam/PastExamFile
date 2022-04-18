@@ -4,3 +4,4 @@ skState = 0;
 skState2 = 0;
 tabIndex = 0;
 interIndex = 0;
+hpProcess = 0;
