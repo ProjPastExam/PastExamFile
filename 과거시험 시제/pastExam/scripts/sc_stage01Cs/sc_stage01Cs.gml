@@ -144,7 +144,7 @@ function sc_stage01Cs(){
 		case 15:
 			alarm[1] = 120;
 			isTalk = 4;
-			sc_csBase2(x, 580);
+			sc_csBase2(x, 560);
 			break;
 			
 		case 16:
@@ -152,8 +152,34 @@ function sc_stage01Cs(){
 			break;
 			
 		case 17:
+			isTalk = 5;
 			image_xscale = 1;
 			alarm[1] = 80;
+			break;
+			
+		case 18:
+			var name = "성춘향"
+			var text = "변사또가 폭정을 일삼으면서 \n이전보다 산적에 가담하는 사람들이 많아졌어요...";
+			sc_csBase(name, sp_chun_face_angry, text, 1280, 560);
+			break;
+			
+		case 19:
+			alarm[1] = 120;
+			ob_roomControl.isTalk = 8;
+			isTalk = 5;
+			sc_csBase2(1280, 560);
+			break;
+			
+		case 20:
+			var name = "성춘향"
+			var text = "그렇다고 산적들이 옳다는 것도 아니에요!";
+			sc_csBase(name, sp_chun_face_angry, text, 1280, 560);
+			break;
+			
+		case 21:
+			var name = "성춘향"
+			var text = "무고한 사람들을 약탈하고 죽이는 놈들이에요..!";
+			sc_csBase(name, sp_chun_face_angry, text, 1280, 560);
 			break;
 			
 		case 800:
