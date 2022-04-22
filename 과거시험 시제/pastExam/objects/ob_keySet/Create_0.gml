@@ -17,5 +17,6 @@ switch (keyIndex) {
 }
 
 state = 0;
+settingIndex = 0;
 
 sprite_index = sc_keySprite(selfIndex);

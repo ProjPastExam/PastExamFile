@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(demo_main);
+global.gameEnd = true;
+room_goto(global.roomBuffer);

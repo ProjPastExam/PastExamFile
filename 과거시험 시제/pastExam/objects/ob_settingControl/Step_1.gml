@@ -4,7 +4,7 @@
 if (keyboard_check_pressed(global.btEsc)) {
 	goBack = true;
 	with (ob_keySet) {
-		if (state == 1) {other.goBack = false;}
+		if (state == 2) {other.goBack = false;}
 	}
 }
 

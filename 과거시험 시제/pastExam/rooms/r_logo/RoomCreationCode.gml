@@ -16,6 +16,8 @@ instance_create_depth(0, 0, 0, Camera);
 
 //정적
 {
+global.gameEnd		= false;
+	
 //공격 관련 변수
 global.atkDmg		= 16;
 global.atkPene		= 0;

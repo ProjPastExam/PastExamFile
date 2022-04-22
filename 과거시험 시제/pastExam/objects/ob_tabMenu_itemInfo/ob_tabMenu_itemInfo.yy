@@ -26,7 +26,8 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"isActive","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"objectId":{"name":"ob_tabMenu","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"isActive","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"objectId":{"name":"ob_tabMenu","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"roomIndex","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"objectId":{"name":"ob_tabMenu","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"value":"r_itemInfo","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "tabMenu",

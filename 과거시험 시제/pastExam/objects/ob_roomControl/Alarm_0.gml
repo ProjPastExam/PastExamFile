@@ -2,6 +2,11 @@
 // You can write your code in this editor
 
 if ( pause > 0 ) pause--;
+if ( global.gameEnd ) {
+	global.gameEnd = false;
+	room_persistent = false;
+	room_goto(demo_main);
+}
 //if ( slow > 0 )	slow--;
 if (room_persistent) {
 	room_persistent = false;

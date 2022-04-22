@@ -54,6 +54,13 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_tabMenu_skInfo","path":"objects/ob_tabMenu_skInfo/ob_tabMenu_skInfo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":600.0,"y":175.0,"resourceVersion":"1.0","name":"inst_77A209C9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_tabMenu_itemInfo","path":"objects/ob_tabMenu_itemInfo/ob_tabMenu_itemInfo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":828.0,"y":175.0,"resourceVersion":"1.0","name":"inst_44EFAD07","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_tabMenu_option","path":"objects/ob_tabMenu_option/ob_tabMenu_option.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":175.0,"resourceVersion":"1.0","name":"inst_75F2C4E0","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"keyIndex","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"value":"btSk2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.210289285,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1224.0,"y":180.0,"resourceVersion":"1.0","name":"inst_7E8526D6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"keyIndex","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"value":"btSk3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1320.0,"y":180.0,"resourceVersion":"1.0","name":"inst_4D0FEF13","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_tabState","path":"objects/ob_tabState/ob_tabState.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":396.0,"resourceVersion":"1.0","name":"inst_63E9314A","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":12,"gridY":12,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Assets_1","tags":[],"resourceType":"GMRAssetLayer",},
     {"instances":[
@@ -87,6 +94,9 @@
     {"name":"inst_77A209C9","path":"rooms/r_tab/r_tab.yy",},
     {"name":"inst_44EFAD07","path":"rooms/r_tab/r_tab.yy",},
     {"name":"inst_75F2C4E0","path":"rooms/r_tab/r_tab.yy",},
+    {"name":"inst_7E8526D6","path":"rooms/r_tab/r_tab.yy",},
+    {"name":"inst_4D0FEF13","path":"rooms/r_tab/r_tab.yy",},
+    {"name":"inst_63E9314A","path":"rooms/r_tab/r_tab.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
