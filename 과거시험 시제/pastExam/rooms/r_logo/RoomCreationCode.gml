@@ -73,6 +73,10 @@ global.tabDeleteIs		= 0;
 global.tabDeleteNum		= 0;
 
 
+global.atkCtMagScaleItem	= 1;
+global.kickCtMagScaleItem	= 1;
+global.fireCtMagScaleItem	= 1;
+
 //신기전 아이템
 global.itemData[0]	= new itemStruct ( 0, sp_Item_sin, sp_ItemInfo_sin, 2,
 	function(grade) { other.isSin = grade; })
@@ -86,12 +90,24 @@ global.itemData[2]	= new itemStruct ( 2, sp_Item_02, sp_ItemInfo_02, 0,
 	function(grade) { other.item2 = grade;	other.item2Index1 = 0;	other.item2Index2 = global.mp;	other.item2Index3 = 0; })
 
 //공중의 적 공격 시 추가데미지 아이템
-global.itemData[3]	= new itemStruct ( 3, sp_Item_jump, sp_ItemInfo_jump, 0,
+global.itemData[3]	= new itemStruct ( 3, sp_Item_jump, sp_ItemInfo_jump, 3,
 	function(grade) { other.itemJump = grade; })
 	
 //후방공격 후 전방공격 시 죽창 찌르기 아이템
 global.itemData[4]	= new itemStruct ( 4, sp_Item_jump, sp_ItemInfo_jump, 1,
 	function(grade) { other.item4 = grade;	other.item4Index = true; })
+	
+//화살 치명타 배율 증가 아이템
+global.itemData[5]	= new itemStruct ( 5, sp_Item_jump, sp_ItemInfo_jump, 0,
+	function(grade) { other.item5 = grade; })
+	
+//충격 치명타 배율 증가 아이템
+global.itemData[6]	= new itemStruct ( 6, sp_Item_jump, sp_ItemInfo_jump, 1,
+	function(grade) { other.item6 = grade; })
+	
+//화약 치명타 배율 증가 아이템
+global.itemData[7]	= new itemStruct ( 7, sp_Item_jump, sp_ItemInfo_jump, 2,
+	function(grade) { other.item7 = grade; })
 }
 
 global.sk1		= 0;

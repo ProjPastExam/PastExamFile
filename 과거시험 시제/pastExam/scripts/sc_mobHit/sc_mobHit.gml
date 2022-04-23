@@ -29,9 +29,9 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	
 	var calDmg = sc_mobDmg(dmg, pene);
 	if (isCt) {
-		if (hitKind == 0) calDmg = calDmg * global.atkCtMag;
-		else if (hitKind == 1) calDmg = calDmg * global.kickCtMag;
-		else if (hitKind == 2) calDmg = calDmg * global.fireCtMag;
+		if (hitKind == 0) calDmg = calDmg * sc_pl_atkCtMag();
+		else if (hitKind == 1) calDmg = calDmg * sc_pl_kickCtMag();
+		else if (hitKind == 2) calDmg = calDmg * sc_pl_fireCtMag();
 	}
 	hp -= calDmg;
 	var rX = irandom_range(-10, 10);

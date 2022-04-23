@@ -35,9 +35,9 @@ draw_text(x+230, y+90, int64(sc_pl_atkCt(2)));
 draw_set_halign(fa_left);
 draw_text(x, y+120, "치명타 배율");
 draw_set_halign(fa_center);
-draw_text(x+170, y+120, int64(sc_pl_atkCt(1)));
+draw_text(x+170, y+120, int64(sc_pl_atkCtMag(1)));
 draw_text(x+200, y+120, "+");
-draw_text(x+230, y+120, int64(sc_pl_atkCt(2)));
+draw_text(x+230, y+120, int64(sc_pl_atkCtMag(2)));
 
 
 draw_set_color(#746F00);
@@ -73,9 +73,9 @@ draw_text(x+230, y+270, int64(sc_pl_kickCt(2)));
 draw_set_halign(fa_left);
 draw_text(x, y+300, "치명타 배율");
 draw_set_halign(fa_center);
-draw_text(x+170, y+300, int64(sc_pl_kickCt(1)));
+draw_text(x+170, y+300, int64(sc_pl_kickCtMag(1)));
 draw_text(x+200, y+300, "+");
-draw_text(x+230, y+300, int64(sc_pl_kickCt(2)));
+draw_text(x+230, y+300, int64(sc_pl_kickCtMag(2)));
 
 
 draw_set_color(#E84B38);
@@ -111,6 +111,6 @@ draw_text(x+230, y+450, int64(sc_pl_fireCt(2)));
 draw_set_halign(fa_left);
 draw_text(x, y+480, "치명타 배율");
 draw_set_halign(fa_center);
-draw_text(x+170, y+480, int64(sc_pl_fireCt(1)));
+draw_text(x+170, y+480, int64(sc_pl_fireCtMag(1)));
 draw_text(x+200, y+480, "+");
-draw_text(x+230, y+480, int64(sc_pl_fireCt(2)));
+draw_text(x+230, y+480, int64(sc_pl_fireCtMag(2)));
