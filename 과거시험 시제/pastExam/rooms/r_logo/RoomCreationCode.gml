@@ -42,8 +42,8 @@ global.fireCtMag	= 1.5;
 
 global.comCt		= 0;
 global.comCtAlarm	= 0;
-global.comIndex		= 2;
-global.comAlarm		= 120;
+global.comIndex		= 4;
+global.comAlarm		= 150;
 	
 global.hpMax	= 9;
 global.hp		= global.hpMax;

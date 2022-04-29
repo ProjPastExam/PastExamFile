@@ -9,7 +9,10 @@ for (var i = 0; i < hitSum; i++) {
 	if (hitArray[i] == hitId) return;
 }
 
-if (global.comCt < 100) global.comCt += comIndex;
+if (global.comCt < 100) {
+	if (hitSum == 0) global.comCt += comIndex;
+	else global.comCt += comIndex/2;
+}
 global.comCtAlarm = global.comAlarm;
 hitArray[hitSum] = hitId;
 sc_mobHit(other, dmg, pene, shock, mana, hitUp, hitKind, image_xscale, ctChance);

@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 if ( sc_getRoomValue("pause") == 0 ) {
+	comEffect++;
+	if (comEffect > 16) comEffect = 0;
 	if (itemCheck) { sc_pl_itemCheck(); itemCheck = false; }
 	if (mobAcc != 0) {	//몹 충돌
 		xSpeed = mobAcc;
