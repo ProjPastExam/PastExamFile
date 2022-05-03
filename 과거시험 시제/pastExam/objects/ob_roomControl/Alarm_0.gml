@@ -73,7 +73,7 @@ else if ( isTalk == 5) {
 
 
 
-if ( keyboard_check_pressed(global.btTap) && global.hp > 0 ) {
+if ( keyboard_check_pressed(global.btTap) && global.hp > 0 && dark == 0 ) {
 	//if ( pause == -21 )		pause = 0;
 	//else if ( pause == 0 )	pause = -20;
 	room_persistent = true;
@@ -89,8 +89,8 @@ if ( keyboard_check_pressed(global.btTap) && global.hp > 0 ) {
 
 }
 
-if ( keyboard_check_pressed(global.btEsc) && global.hp > 0 ) {
-	if ( isTalk == 0 ) {
+if ( keyboard_check_pressed(global.btEsc) && global.hp > 0  ) {
+	if ( isTalk == 0 && dark == 0) {
 		room_persistent = true;
 		global.roomBuffer = room;
 		global.camBufferX = uc_get_x();
