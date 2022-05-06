@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "tutorial",
-    "path": "folders/Objects/tutorial.yy",
+    "name": "text",
+    "path": "folders/Objects/tutorial/text.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_tutorbreak",
