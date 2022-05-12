@@ -15,6 +15,7 @@ sc_mobSpawn();
 alarm[0] = 1;
 alarm[5] = 5;
 dir = -1;
+nextState = 16;
 
 standSp = sp_banditBoss_stand1;
 stand2Sp = sp_banditBoss_stand2;

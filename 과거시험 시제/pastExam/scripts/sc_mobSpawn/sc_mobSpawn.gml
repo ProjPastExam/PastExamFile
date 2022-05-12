@@ -19,4 +19,6 @@ function sc_mobSpawn(){
 	
 	isStun		= false;
 	indexStun	= false;
+	
+	nextState	= 0;
 }
