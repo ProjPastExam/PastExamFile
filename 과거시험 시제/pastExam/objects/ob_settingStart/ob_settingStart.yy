@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_settingBtExit",
-    "path": "sprites/sp_settingBtExit/sp_settingBtExit.yy",
+    "name": "sp_settingBtStart",
+    "path": "sprites/sp_settingBtStart/sp_settingBtStart.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/gameControl/setting.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_settingExit",
+  "name": "ob_settingStart",
   "tags": [],
   "resourceType": "GMObject",
 }

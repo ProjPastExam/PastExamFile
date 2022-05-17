@@ -1,3 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-game_end();
+if (keyboard_check_pressed(global.btEsc) ) {
+	room_goto(global.roomBuffer);
+}
+

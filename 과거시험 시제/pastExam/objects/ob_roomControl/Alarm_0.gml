@@ -85,8 +85,8 @@ if ( keyboard_check_pressed(global.btTap) && global.hp > 0 && dark == 0 ) {
 	surface_copy(global.screenBuffer,0,0,application_surface);
 	//application_surface_draw_enable(false);
 
-	room_goto(r_tab);
-
+	//room_goto(r_tab);
+	room_goto(r_enhance);
 }
 
 if ( keyboard_check_pressed(global.btEsc) && global.hp > 0  ) {
