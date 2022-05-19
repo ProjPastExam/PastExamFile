@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "gameOb",
-    "path": "folders/Objects/gameOb.yy",
+    "name": "ingameOb",
+    "path": "folders/Objects/ingameOb.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_whiteOut",

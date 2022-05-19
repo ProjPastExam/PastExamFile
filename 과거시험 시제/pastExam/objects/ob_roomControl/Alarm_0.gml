@@ -3,9 +3,10 @@
 
 if ( pause > 0 ) pause--;
 if ( global.gameEnd ) {
+	alarm[9] = 1;
 	global.gameEnd = false;
-	room_persistent = false;
-	room_goto(demo_main);
+	//room_persistent = false;
+
 }
 //if ( slow > 0 )	slow--;
 if (room_persistent) {
@@ -85,8 +86,8 @@ if ( keyboard_check_pressed(global.btTap) && global.hp > 0 && dark == 0 ) {
 	surface_copy(global.screenBuffer,0,0,application_surface);
 	//application_surface_draw_enable(false);
 
-	//room_goto(r_tab);
-	room_goto(r_enhance);
+	room_goto(r_tab);
+	//room_goto(r_enhance);
 }
 
 if ( keyboard_check_pressed(global.btEsc) && global.hp > 0  ) {

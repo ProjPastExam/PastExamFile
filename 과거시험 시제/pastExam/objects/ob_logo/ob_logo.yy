@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "gameControl",
-    "path": "folders/Objects/gameControl.yy",
+    "name": "main",
+    "path": "folders/Objects/gameControl/main.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_logo",

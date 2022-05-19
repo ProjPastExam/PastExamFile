@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "interface",
-    "path": "folders/Sprites/interface.yy",
+    "name": "main",
+    "path": "folders/Sprites/interface/main.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_title",
