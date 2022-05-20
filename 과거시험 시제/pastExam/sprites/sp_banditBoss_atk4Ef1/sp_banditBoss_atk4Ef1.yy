@@ -7,14 +7,14 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 210,
-  "bbox_right": 650,
-  "bbox_top": 42,
-  "bbox_bottom": 365,
+  "bbox_left": 51,
+  "bbox_right": 500,
+  "bbox_top": 156,
+  "bbox_bottom": 389,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 768,
+  "width": 576,
   "height": 480,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"249c7e3e-e039-43e4-86a6-734059b184a6","path":"sprites/sp_banditBoss_atk4Ef1/sp_banditBoss_atk4Ef1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"249c7e3e-e039-43e4-86a6-734059b184a6","path":"sprites/sp_banditBoss_atk4Ef1/sp_banditBoss_atk4Ef1.yy",},"LayerId":{"name":"ca5a8fc0-fbce-47d3-9277-da2b50860dd5","path":"sprites/sp_banditBoss_atk4Ef1/sp_banditBoss_atk4Ef1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_banditBoss_atk4Ef1","path":"sprites/sp_banditBoss_atk4Ef1/sp_banditBoss_atk4Ef1.yy",},"resourceVersion":"1.0","name":"249c7e3e-e039-43e4-86a6-734059b184a6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ca65185f-e7f4-4052-aaf3-d6158e74e69a","path":"sprites/sp_banditBoss_atk4Ef1/sp_banditBoss_atk4Ef1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ca65185f-e7f4-4052-aaf3-d6158e74e69a","path":"sprites/sp_banditBoss_atk4Ef1/sp_banditBoss_atk4Ef1.yy",},"LayerId":{"name":"b4f043c9-0213-406a-b363-2cc420d0897d","path":"sprites/sp_banditBoss_atk4Ef1/sp_banditBoss_atk4Ef1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_banditBoss_atk4Ef1","path":"sprites/sp_banditBoss_atk4Ef1/sp_banditBoss_atk4Ef1.yy",},"resourceVersion":"1.0","name":"ca65185f-e7f4-4052-aaf3-d6158e74e69a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sp_banditBoss_atk4Ef1","path":"sprites/sp_banditBoss_atk4Ef1/sp_banditBoss_atk4Ef1.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c19e85c7-8b95-4311-8016-e7fb7d357e11","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"249c7e3e-e039-43e4-86a6-734059b184a6","path":"sprites/sp_banditBoss_atk4Ef1/sp_banditBoss_atk4Ef1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cf7d10c9-50ad-40c8-8364-79cbcf14bd3e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ca65185f-e7f4-4052-aaf3-d6158e74e69a","path":"sprites/sp_banditBoss_atk4Ef1/sp_banditBoss_atk4Ef1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 384,
+    "xorigin": 288,
     "yorigin": 240,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ca5a8fc0-fbce-47d3-9277-da2b50860dd5","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b4f043c9-0213-406a-b363-2cc420d0897d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
