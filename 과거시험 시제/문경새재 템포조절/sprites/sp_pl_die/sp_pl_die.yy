@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_die","path":"sprites/sp_pl_die/sp_pl_die.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_die",
     "tags": [],
     "resourceType": "GMSequence",

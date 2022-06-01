@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpSwordS_stand","path":"sprites/sp_jpSwordS_stand/sp_jpSwordS_stand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpSwordS_stand",
     "tags": [],
     "resourceType": "GMSequence",

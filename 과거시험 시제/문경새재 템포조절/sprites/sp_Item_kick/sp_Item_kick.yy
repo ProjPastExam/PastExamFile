@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_Item_kick","path":"sprites/sp_Item_kick/sp_Item_kick.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_Item_kick",
     "tags": [],
     "resourceType": "GMSequence",

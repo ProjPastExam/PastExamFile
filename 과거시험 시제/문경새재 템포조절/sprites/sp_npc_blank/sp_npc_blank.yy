@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_npc_blank","path":"sprites/sp_npc_blank/sp_npc_blank.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_npc_blank",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_hit","path":"sprites/sp_pl_hit/sp_pl_hit.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_hit",
     "tags": [],
     "resourceType": "GMSequence",

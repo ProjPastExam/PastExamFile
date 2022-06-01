@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_bandit01_dig","path":"sprites/sp_bandit01_dig/sp_bandit01_dig.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_bandit01_dig",
     "tags": [],
     "resourceType": "GMSequence",

@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_skillBox",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_st02_rock01","path":"sprites/sp_st02_rock01/sp_st02_rock01.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_st02_rock01",
     "tags": [],
     "resourceType": "GMSequence",

@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpSpear_backstep","path":"sprites/sp_jpSpear_backstep/sp_jpSpear_backstep.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpSpear_backstep",
     "tags": [],
     "resourceType": "GMSequence",

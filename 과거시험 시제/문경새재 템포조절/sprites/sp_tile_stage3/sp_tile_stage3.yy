@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_tile_stage3","path":"sprites/sp_tile_stage3/sp_tile_stage3.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_tile_stage3",
     "tags": [],
     "resourceType": "GMSequence",

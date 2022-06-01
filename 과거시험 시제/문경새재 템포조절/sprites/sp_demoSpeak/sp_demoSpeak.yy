@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_demoSpeak","path":"sprites/sp_demoSpeak/sp_demoSpeak.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_demoSpeak",
     "tags": [],
     "resourceType": "GMSequence",

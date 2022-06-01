@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpSword_backstep","path":"sprites/sp_jpSword_backstep/sp_jpSword_backstep.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpSword_backstep",
     "tags": [],
     "resourceType": "GMSequence",

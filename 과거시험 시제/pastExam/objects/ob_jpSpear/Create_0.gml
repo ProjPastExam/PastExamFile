@@ -16,8 +16,9 @@ alarm[0] = 1;
 alarm[5] = 5;
 ob = NULL;
 
-standSp = sp_jpSpear_stand;
-stand2Sp = sp_jpSpear_stand2;
-walkSp = sp_jpSpear_walk;
-runSp = sp_jpSpear_run;
-painSp = sp_jpSpear_pain;
+standSp		= sp_jpSpear_stand;
+stand2Sp	= sp_jpSpear_stand2;
+walkSp		= sp_jpSpear_walk;
+runSp		= sp_jpSpear_run;
+painSp		= sp_jpSpear_pain;
+shockSp		= sp_jpSpear_shock;

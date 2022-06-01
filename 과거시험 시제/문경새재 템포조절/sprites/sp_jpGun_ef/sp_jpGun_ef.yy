@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpGun_ef","path":"sprites/sp_jpGun_ef/sp_jpGun_ef.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpGun_ef",
     "tags": [],
     "resourceType": "GMSequence",

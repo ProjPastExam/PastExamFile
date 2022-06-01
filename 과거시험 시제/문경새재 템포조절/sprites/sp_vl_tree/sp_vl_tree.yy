@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_vl_tree","path":"sprites/sp_vl_tree/sp_vl_tree.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_vl_tree",
     "tags": [],
     "resourceType": "GMSequence",

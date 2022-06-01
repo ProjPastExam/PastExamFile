@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_vl_ong1","path":"sprites/sp_vl_ong1/sp_vl_ong1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_vl_ong1",
     "tags": [],
     "resourceType": "GMSequence",

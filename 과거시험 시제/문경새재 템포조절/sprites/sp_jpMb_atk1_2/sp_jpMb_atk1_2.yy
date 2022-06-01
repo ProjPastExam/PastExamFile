@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpMb_atk1_2","path":"sprites/sp_jpMb_atk1_2/sp_jpMb_atk1_2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpMb_atk1_2",
     "tags": [],
     "resourceType": "GMSequence",

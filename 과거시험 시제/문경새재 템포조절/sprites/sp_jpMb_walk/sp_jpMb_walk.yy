@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpMb_walk","path":"sprites/sp_jpMb_walk/sp_jpMb_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpMb_walk",
     "tags": [],
     "resourceType": "GMSequence",

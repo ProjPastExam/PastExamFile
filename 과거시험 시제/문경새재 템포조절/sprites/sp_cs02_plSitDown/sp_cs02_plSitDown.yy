@@ -91,7 +91,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_cs02_plSitDown","path":"sprites/sp_cs02_plSitDown/sp_cs02_plSitDown.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_cs02_plSitDown",
     "tags": [],
     "resourceType": "GMSequence",

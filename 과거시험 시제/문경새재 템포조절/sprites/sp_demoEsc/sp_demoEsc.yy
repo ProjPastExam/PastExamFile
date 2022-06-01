@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_demoEsc","path":"sprites/sp_demoEsc/sp_demoEsc.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_demoEsc",
     "tags": [],
     "resourceType": "GMSequence",

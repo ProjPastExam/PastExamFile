@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_hitEffect_sin","path":"sprites/sp_hitEffect_sin/sp_hitEffect_sin.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_hitEffect_sin",
     "tags": [],
     "resourceType": "GMSequence",

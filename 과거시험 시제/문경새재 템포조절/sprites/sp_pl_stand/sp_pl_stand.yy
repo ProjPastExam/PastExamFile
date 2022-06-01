@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_stand","path":"sprites/sp_pl_stand/sp_pl_stand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_stand",
     "tags": [],
     "resourceType": "GMSequence",

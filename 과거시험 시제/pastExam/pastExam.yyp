@@ -893,6 +893,7 @@
     {"id":{"name":"sp_skillUi_104","path":"sprites/sp_skillUi_104/sp_skillUi_104.yy",},"order":6,},
     {"id":{"name":"sc_cs03","path":"scripts/sc_cs03/sc_cs03.yy",},"order":7,},
     {"id":{"name":"ob_whiteOut","path":"objects/ob_whiteOut/ob_whiteOut.yy",},"order":2,},
+    {"id":{"name":"sp_jpSpear_shock","path":"sprites/sp_jpSpear_shock/sp_jpSpear_shock.yy",},"order":9,},
     {"id":{"name":"sp_ground","path":"sprites/sp_ground/sp_ground.yy",},"order":1,},
     {"id":{"name":"sp_banditBoss01_atk01","path":"sprites/sp_banditBoss01_atk01/sp_banditBoss01_atk01.yy",},"order":4,},
     {"id":{"name":"uc_get_view_x","path":"scripts/uc_get_view_x/uc_get_view_x.yy",},"order":5,},
@@ -1289,7 +1290,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.625",
+    "IDEVersion": "2022.5.0.8",
   },
   "resourceVersion": "1.5",
   "name": "pastExam",

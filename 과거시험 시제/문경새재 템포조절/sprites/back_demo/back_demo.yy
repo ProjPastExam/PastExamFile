@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"back_demo","path":"sprites/back_demo/back_demo.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "back_demo",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_cs1_desk","path":"sprites/sp_cs1_desk/sp_cs1_desk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_cs1_desk",
     "tags": [],
     "resourceType": "GMSequence",

@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpSwordS_run","path":"sprites/sp_jpSwordS_run/sp_jpSwordS_run.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpSwordS_run",
     "tags": [],
     "resourceType": "GMSequence",

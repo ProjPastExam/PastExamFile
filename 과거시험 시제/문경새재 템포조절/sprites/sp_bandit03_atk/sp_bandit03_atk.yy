@@ -91,7 +91,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_bandit03_atk","path":"sprites/sp_bandit03_atk/sp_bandit03_atk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_bandit03_atk",
     "tags": [],
     "resourceType": "GMSequence",

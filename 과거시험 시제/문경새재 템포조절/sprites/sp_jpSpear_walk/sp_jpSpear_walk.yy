@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpSpear_walk","path":"sprites/sp_jpSpear_walk/sp_jpSpear_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpSpear_walk",
     "tags": [],
     "resourceType": "GMSequence",

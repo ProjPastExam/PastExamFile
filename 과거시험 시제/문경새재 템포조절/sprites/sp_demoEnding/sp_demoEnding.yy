@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_demoEnding","path":"sprites/sp_demoEnding/sp_demoEnding.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_demoEnding",
     "tags": [],
     "resourceType": "GMSequence",

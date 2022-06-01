@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_demoGameEnd","path":"sprites/sp_demoGameEnd/sp_demoGameEnd.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_demoGameEnd",
     "tags": [],
     "resourceType": "GMSequence",

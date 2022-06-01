@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_dash","path":"sprites/sp_pl_dash/sp_pl_dash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_dash",
     "tags": [],
     "resourceType": "GMSequence",

@@ -91,7 +91,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_jumpAtk","path":"sprites/sp_pl_jumpAtk/sp_pl_jumpAtk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_jumpAtk",
     "tags": [],
     "resourceType": "GMSequence",

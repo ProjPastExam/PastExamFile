@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_demoGameInfo","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_demoGameInfo",
     "tags": [],
     "resourceType": "GMSequence",

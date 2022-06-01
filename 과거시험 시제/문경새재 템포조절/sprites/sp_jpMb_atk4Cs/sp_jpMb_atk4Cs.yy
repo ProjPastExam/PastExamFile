@@ -107,7 +107,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpMb_atk4Cs","path":"sprites/sp_jpMb_atk4Cs/sp_jpMb_atk4Cs.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpMb_atk4Cs",
     "tags": [],
     "resourceType": "GMSequence",

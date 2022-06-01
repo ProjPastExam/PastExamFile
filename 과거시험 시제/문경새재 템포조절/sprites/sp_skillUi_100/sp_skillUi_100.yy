@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_skillUi_100","path":"sprites/sp_skillUi_100/sp_skillUi_100.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_skillUi_100",
     "tags": [],
     "resourceType": "GMSequence",

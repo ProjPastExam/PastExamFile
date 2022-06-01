@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_atkEf103_1","path":"sprites/sp_pl_atkEf103_1/sp_pl_atkEf103_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_atkEf103_1",
     "tags": [],
     "resourceType": "GMSequence",

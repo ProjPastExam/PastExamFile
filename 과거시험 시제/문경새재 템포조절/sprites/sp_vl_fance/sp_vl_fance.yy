@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_vl_fance","path":"sprites/sp_vl_fance/sp_vl_fance.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_vl_fance",
     "tags": [],
     "resourceType": "GMSequence",

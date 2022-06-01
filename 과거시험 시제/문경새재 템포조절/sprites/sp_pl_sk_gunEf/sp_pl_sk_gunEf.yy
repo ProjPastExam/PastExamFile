@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_sk_gunEf","path":"sprites/sp_pl_sk_gunEf/sp_pl_sk_gunEf.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_sk_gunEf",
     "tags": [],
     "resourceType": "GMSequence",

@@ -107,7 +107,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_chang01_die","path":"sprites/sp_chang01_die/sp_chang01_die.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_chang01_die",
     "tags": [],
     "resourceType": "GMSequence",

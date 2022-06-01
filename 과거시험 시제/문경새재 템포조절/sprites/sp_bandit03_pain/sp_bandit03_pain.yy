@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_bandit03_pain","path":"sprites/sp_bandit03_pain/sp_bandit03_pain.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_bandit03_pain",
     "tags": [],
     "resourceType": "GMSequence",

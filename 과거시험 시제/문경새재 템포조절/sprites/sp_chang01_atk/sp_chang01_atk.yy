@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_chang01_atk","path":"sprites/sp_chang01_atk/sp_chang01_atk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_chang01_atk",
     "tags": [],
     "resourceType": "GMSequence",

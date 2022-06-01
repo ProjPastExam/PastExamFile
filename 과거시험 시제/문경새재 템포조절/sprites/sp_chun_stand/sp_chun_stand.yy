@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_chun_stand","path":"sprites/sp_chun_stand/sp_chun_stand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_chun_stand",
     "tags": [],
     "resourceType": "GMSequence",

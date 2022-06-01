@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_standPeace","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_standPeace",
     "tags": [],
     "resourceType": "GMSequence",

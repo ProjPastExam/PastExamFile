@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_jpSpear_atkEf","path":"sprites/sp_jpSpear_atkEf/sp_jpSpear_atkEf.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_jpSpear_atkEf",
     "tags": [],
     "resourceType": "GMSequence",

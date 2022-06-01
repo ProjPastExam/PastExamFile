@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_chang01_walk","path":"sprites/sp_chang01_walk/sp_chang01_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_chang01_walk",
     "tags": [],
     "resourceType": "GMSequence",

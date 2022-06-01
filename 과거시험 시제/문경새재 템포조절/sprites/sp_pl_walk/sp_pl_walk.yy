@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_pl_walk","path":"sprites/sp_pl_walk/sp_pl_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sp_pl_walk",
     "tags": [],
     "resourceType": "GMSequence",
