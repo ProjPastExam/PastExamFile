@@ -20,3 +20,4 @@ stand2Sp = sp_jpSword_stand2;
 walkSp = sp_jpSword_walk;
 runSp = sp_jpSword_run;
 painSp = sp_jpSword_pain;
+shockSp		= sp_jpSword_pain;

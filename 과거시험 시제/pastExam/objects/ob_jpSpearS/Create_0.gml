@@ -20,3 +20,4 @@ stand2Sp = sp_jpSpearS_stand2;
 walkSp = sp_jpSpearS_walk;
 runSp = sp_jpSpearS_run;
 painSp = sp_jpSpearS_pain;
+shockSp		= sp_jpSpearS_shock;

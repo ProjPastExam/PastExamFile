@@ -45,6 +45,7 @@
     {"id":{"name":"sp_bandit02_stand","path":"sprites/sp_bandit02_stand/sp_bandit02_stand.yy",},"order":0,},
     {"id":{"name":"sp_bandit02_run","path":"sprites/sp_bandit02_run/sp_bandit02_run.yy",},"order":6,},
     {"id":{"name":"ob_demoMSetting","path":"objects/ob_demoMSetting/ob_demoMSetting.yy",},"order":15,},
+    {"id":{"name":"sp_jpSpearS_shock","path":"sprites/sp_jpSpearS_shock/sp_jpSpearS_shock.yy",},"order":11,},
     {"id":{"name":"sp_civil02_stand","path":"sprites/sp_civil02_stand/sp_civil02_stand.yy",},"order":2,},
     {"id":{"name":"sp_pl_atkEf01","path":"sprites/sp_pl_atkEf01/sp_pl_atkEf01.yy",},"order":0,},
     {"id":{"name":"sc_csBase2","path":"scripts/sc_csBase2/sc_csBase2.yy",},"order":2,},

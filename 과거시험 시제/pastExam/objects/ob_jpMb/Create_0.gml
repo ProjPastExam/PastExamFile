@@ -21,3 +21,4 @@ stand2Sp = sp_jpMb_stand2;
 walkSp = sp_jpMb_walk;
 runSp = sp_jpMb_run;
 painSp = sp_jpMb_pain;
+shockSp		= sp_jpMb_pain;

@@ -23,3 +23,4 @@ stand2Sp = sp_banditBoss_stand2;
 walkSp = sp_banditBoss_walk;
 runSp = sp_banditBoss_run;
 painSp = sp_banditBoss_pain;
+shockSp		= sp_banditBoss_pain;
