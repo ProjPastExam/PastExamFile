@@ -76,11 +76,6 @@
             {"propertyId":{"name":"isRand","path":"objects/ob_sk/ob_sk.yy",},"objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":11648.0,"y":1248.0,"resourceVersion":"1.0","name":"inst_F730EEB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
-            {"propertyId":{"name":"hp","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"200","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"patrol","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"adDistance","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"500","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"ob_jpSwordS","path":"objects/ob_jpSwordS/ob_jpSwordS.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":14432.0,"y":1120.0,"resourceVersion":"1.0","name":"inst_8930AF0","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
             {"propertyId":{"name":"itemNum","path":"objects/ob_item/ob_item.yy",},"objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"isRand","path":"objects/ob_item/ob_item.yy",},"objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":15392.0,"y":992.0,"resourceVersion":"1.0","name":"inst_622E6D3A","tags":[],"resourceType":"GMRInstance",},
@@ -95,7 +90,10 @@
             {"propertyId":{"name":"hp","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"120","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"adDistance","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"500","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"ob_jpSword","path":"objects/ob_jpSword/ob_jpSword.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":8640.0,"y":1504.0,"resourceVersion":"1.0","name":"inst_2898B999","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"ob_jpSpear","path":"objects/ob_jpSpear/ob_jpSpear.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1728.0,"y":1632.0,"resourceVersion":"1.0","name":"inst_627F20EF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"patrol","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"hp","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"200","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"ob_jpSpearS","path":"objects/ob_jpSpearS/ob_jpSpearS.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":14528.0,"y":1120.0,"resourceVersion":"1.0","name":"inst_6133C722","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
@@ -224,7 +222,6 @@
     {"name":"inst_4FF238A","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_1AEC2324","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_F730EEB","path":"rooms/r_tutorial/r_tutorial.yy",},
-    {"name":"inst_8930AF0","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_2DF986C8","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_74A464FB","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_2ABEDA70","path":"rooms/r_tutorial/r_tutorial.yy",},
@@ -254,7 +251,7 @@
     {"name":"inst_5605846A","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_4B5985F4","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_3758E77B","path":"rooms/r_tutorial/r_tutorial.yy",},
-    {"name":"inst_627F20EF","path":"rooms/r_tutorial/r_tutorial.yy",},
+    {"name":"inst_6133C722","path":"rooms/r_tutorial/r_tutorial.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

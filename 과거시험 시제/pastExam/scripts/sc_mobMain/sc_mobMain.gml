@@ -15,14 +15,15 @@ function sc_mobMain(){
 	}
 	else {
 		if (ctCount > 0) ctCount = ctCount - 2;
+		isStun = false;
 	}
 	
 	if (state == 9) {
 		process--;
 		sprite_index = shockSp;
 		
-		if (process > 55)		{ image_index = 0; }
-		else if (process > 50)	{ image_index = 1; }
+		if (process > 75)		{ image_index = 0; }
+		else if (process > 70)	{ image_index = 1; }
 		else if	(process > 25)	{ image_index = 2; }
 		else if	(process > 20)	{ image_index = 3; }
 		else					{ image_index = 4; }

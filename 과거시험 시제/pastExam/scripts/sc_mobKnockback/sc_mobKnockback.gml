@@ -22,7 +22,7 @@ function sc_mobKnockback(){
 		if (isStun) {
 			isStun = false;
 			state = 9;
-			process = 60;
+			process = 80;
 		}
 		else {
 			var ct = 0;

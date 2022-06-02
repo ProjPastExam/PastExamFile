@@ -3,13 +3,14 @@
 function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance ){ with (mobId) {
 	
 	var shVal = (shock- down)/10;
-	if ( knockback && (shVal > 0) ) { 
-		if ( state == 8 ) { process = 16; ySpeed = -11*(100-down/2)/100; }
-		else {
-			if (!isDA && (hitKind == 0 || hitKind == 10)) { state = 5 process = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
-			else if (!isDK && hitKind == 1 ) { state = 6; process = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
-			else if (!isDF && hitKind == 2 ) { state = 7; process = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
-			
+	if ( knockback && (shVal > 0)) { 
+		if ( state != 9 ) {
+			if ( state == 8 ) { process = 16; ySpeed = -11*(100-down/2)/100; }
+			else {
+				if (!isDA && (hitKind == 0 || hitKind == 10)) { state = 5 process = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
+				else if (!isDK && hitKind == 1 ) { state = 6; process = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
+				else if (!isDF && hitKind == 2 ) { state = 7; process = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
+			}
 		}
 	}
 	if (hitKind == 10) hitKind = 1;
@@ -38,7 +39,7 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	var dmgId = instance_create_layer(x + rX, bbox_top - 50, "effect", ob_mobDmg);
 	dmgId.dmg = calDmg;
 	dmgId.colo = hitKind;
-	dmgId.isCt = true;
+	dmgId.isCt = isCt;
 	
 	ad = true;
 	patrol = true;
