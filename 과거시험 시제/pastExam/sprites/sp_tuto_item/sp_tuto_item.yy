@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3a385115-0a89-463e-a049-383074590699","path":"sprites/sp_tuto_sk/sp_tuto_sk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3a385115-0a89-463e-a049-383074590699","path":"sprites/sp_tuto_sk/sp_tuto_sk.yy",},"LayerId":{"name":"db189dd0-6ca8-4aec-9701-89638442831e","path":"sprites/sp_tuto_sk/sp_tuto_sk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_tuto_sk","path":"sprites/sp_tuto_sk/sp_tuto_sk.yy",},"resourceVersion":"1.0","name":"3a385115-0a89-463e-a049-383074590699","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6b71b0a8-6058-479e-bde8-ca85f5897b2e","path":"sprites/sp_tuto_item/sp_tuto_item.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6b71b0a8-6058-479e-bde8-ca85f5897b2e","path":"sprites/sp_tuto_item/sp_tuto_item.yy",},"LayerId":{"name":"b15f039b-e4d4-4580-bb7a-86a6562fd055","path":"sprites/sp_tuto_item/sp_tuto_item.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_tuto_item","path":"sprites/sp_tuto_item/sp_tuto_item.yy",},"resourceVersion":"1.0","name":"6b71b0a8-6058-479e-bde8-ca85f5897b2e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_tuto_sk","path":"sprites/sp_tuto_sk/sp_tuto_sk.yy",},
+    "spriteId": {"name":"sp_tuto_item","path":"sprites/sp_tuto_item/sp_tuto_item.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4c83e97e-7b5d-48c5-8467-3eaffcc25dfb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3a385115-0a89-463e-a049-383074590699","path":"sprites/sp_tuto_sk/sp_tuto_sk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7ce63377-1370-478b-b00b-e9d34282dfb7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6b71b0a8-6058-479e-bde8-ca85f5897b2e","path":"sprites/sp_tuto_item/sp_tuto_item.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_tuto_sk","path":"sprites/sp_tuto_sk/sp_tuto_sk.yy",},
+    "parent": {"name":"sp_tuto_item","path":"sprites/sp_tuto_item/sp_tuto_item.yy",},
     "resourceVersion": "1.4",
-    "name": "sp_tuto_sk",
+    "name": "sp_tuto_item",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"db189dd0-6ca8-4aec-9701-89638442831e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b15f039b-e4d4-4580-bb7a-86a6562fd055","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/tutorial.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sp_tuto_sk",
+  "name": "sp_tuto_item",
   "tags": [],
   "resourceType": "GMSprite",
 }

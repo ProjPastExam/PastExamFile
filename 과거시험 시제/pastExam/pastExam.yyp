@@ -739,6 +739,7 @@
     {"id":{"name":"sp_Item_02","path":"sprites/sp_Item_02/sp_Item_02.yy",},"order":3,},
     {"id":{"name":"sp_smoge","path":"sprites/sp_smoge/sp_smoge.yy",},"order":3,},
     {"id":{"name":"sp_text_talk","path":"sprites/sp_text_talk/sp_text_talk.yy",},"order":3,},
+    {"id":{"name":"sp_tuto_item","path":"sprites/sp_tuto_item/sp_tuto_item.yy",},"order":8,},
     {"id":{"name":"sp_jpSpear_die","path":"sprites/sp_jpSpear_die/sp_jpSpear_die.yy",},"order":5,},
     {"id":{"name":"uc_set_target_x","path":"scripts/uc_set_target_x/uc_set_target_x.yy",},"order":4,},
     {"id":{"name":"Obj_SM_Base","path":"objects/Obj_SM_Base/Obj_SM_Base.yy",},"order":2,},
