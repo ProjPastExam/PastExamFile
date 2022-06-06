@@ -43,10 +43,14 @@ function sc_keySet(){
 	else if (keyboard_check_pressed(vk_space))	{keySet = vk_space;}
 	else if (keyboard_check_pressed(vk_tab))	{keySet = vk_tab;}
 	else if (keyboard_check_pressed(vk_shift))	{keySet = vk_shift;}
+	//else if (keyboard_check_pressed(vk_lshift))	{keySet = vk_lshift;}
 	else if (keyboard_check_pressed(vk_left))	{keySet = vk_left;}
 	else if (keyboard_check_pressed(vk_right))	{keySet = vk_right;}
 	else if (keyboard_check_pressed(vk_up))		{keySet = vk_up;}
 	else if (keyboard_check_pressed(vk_down))	{keySet = vk_down;}
+	else if (keyboard_check_pressed(vk_alt))	{keySet = vk_alt;}
+	else if (keyboard_check_pressed(vk_lalt))	{keySet = vk_lalt;}
+	else if (keyboard_check_pressed(vk_control))	{keySet = vk_control;}
 	
 	if (keySet != 10) {
 		state = 0;

@@ -9,7 +9,11 @@ function sc_keySprite(keyIndex){
 	case vk_escape:	return sp_keyVk_esc;	break;
 	case vk_space:	return sp_keyVk_space;	break;
 	case vk_tab:	return sp_keyVk_tap;	break;
+	//case vk_lshift:	return sp_keyVk_shiftL;	break;
 	case vk_shift:	return sp_keyVk_shift;	break;
+	case vk_control:	return sp_keyVk_ctrl;	break;
+	//case vk_lalt:	return sp_keyVk_altL;	break;
+	case vk_alt:	return sp_keyVk_alt;	break;
 	case ord("0"):	return sp_key_0;		break;
 	case ord("1"):	return sp_key_1;		break;
 	case ord("2"):	return sp_key_2;		break;
