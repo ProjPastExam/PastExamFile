@@ -15,6 +15,7 @@ function sc_gameLoad(){
 	*/
 	{
 	if (VSLS_Get("money")== undefined)		VSLS_Set("money", 0);
+	if (VSLS_Get("fullScreen")== undefined)	VSLS_Set("fullScreen", true);
 	}
 	
 	//특성 관련 수치

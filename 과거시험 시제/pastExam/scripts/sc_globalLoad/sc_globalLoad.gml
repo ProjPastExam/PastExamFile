@@ -11,6 +11,8 @@ function sc_globalLoad(){
 	global.money		= VSLS_Get("money");
 	global.coin			= 0;
 	
+	global.fullScreen	= VSLS_Get("fullScreen");
+	
 	//특전 관련 수치
 	{
 	global.abPointMax	= VSLS_Get("abPointMax");

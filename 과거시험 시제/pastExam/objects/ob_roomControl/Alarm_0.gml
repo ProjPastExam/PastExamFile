@@ -83,6 +83,7 @@ if ( keyboard_check_pressed(global.btTap) && global.hp > 0 && dark == 0 ) {
 	global.camBufferY = uc_get_y();
 	
 	if (!surface_exists(global.screenBuffer))	global.screenBuffer = surface_create(display_get_width(), display_get_height());
+	//if (!surface_exists(global.screenBuffer))	global.screenBuffer = surface_create(uc_get_view_width(), uc_get_view_height());
 	surface_copy(global.screenBuffer,0,0,application_surface);
 	//application_surface_draw_enable(false);
 

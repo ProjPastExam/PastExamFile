@@ -31,6 +31,7 @@
         {"properties":[
             {"propertyId":{"name":"keyIndex","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"value":"btSk3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1320.0,"y":180.0,"resourceVersion":"1.0","name":"inst_233569FA","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Camera","path":"objects/Camera/Camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":512.0,"resourceVersion":"1.0","name":"inst_4E66AA10","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"menu","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_skInfoBox","path":"objects/ob_skInfoBox/ob_skInfoBox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":544.0,"resourceVersion":"1.0","name":"inst_14A6546E_1","tags":[],"resourceType":"GMRInstance",},
@@ -50,6 +51,7 @@
     {"name":"inst_45C5048F","path":"rooms/r_itemInfo/r_itemInfo.yy",},
     {"name":"inst_2AB1F01D","path":"rooms/r_itemInfo/r_itemInfo.yy",},
     {"name":"inst_233569FA","path":"rooms/r_itemInfo/r_itemInfo.yy",},
+    {"name":"inst_4E66AA10","path":"rooms/r_itemInfo/r_itemInfo.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
