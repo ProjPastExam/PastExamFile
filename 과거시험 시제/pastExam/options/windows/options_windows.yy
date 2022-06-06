@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "문경새재 데모",
   "option_windows_executable_name": "${문경새재}.exe",
-  "option_windows_version": "1.0.3.18",
+  "option_windows_version": "1.0.3.19",
   "option_windows_company_info": "Team Ettu",
   "option_windows_product_info": "문경새재",
   "option_windows_copyright_info": "Team Ettu",

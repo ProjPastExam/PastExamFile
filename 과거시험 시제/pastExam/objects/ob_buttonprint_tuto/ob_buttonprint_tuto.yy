@@ -30,11 +30,11 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "gameControl",
-    "path": "folders/Objects/gameControl.yy",
+    "name": "tutorial",
+    "path": "folders/Objects/tutorial.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_buttonPrint",
+  "name": "ob_buttonPrint_tuto",
   "tags": [],
   "resourceType": "GMObject",
 }

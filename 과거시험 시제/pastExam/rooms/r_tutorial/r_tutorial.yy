@@ -156,6 +156,9 @@
         {"properties":[
             {"propertyId":{"name":"tutoImage","path":"objects/ob_tutoTextBox/ob_tutoTextBox.yy",},"objectId":{"name":"ob_tutoTextBox","path":"objects/ob_tutoTextBox/ob_tutoTextBox.yy",},"value":"sp_tuto_item","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"ob_tutoTextBox","path":"objects/ob_tutoTextBox/ob_tutoTextBox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":15664.0,"y":1040.0,"resourceVersion":"1.0","name":"inst_53ABAEC8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"tutoImage","path":"objects/ob_tutoTextBox/ob_tutoTextBox.yy",},"objectId":{"name":"ob_tutoTextBox","path":"objects/ob_tutoTextBox/ob_tutoTextBox.yy",},"value":"sp_tuto_atkType","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"ob_tutoTextBox","path":"objects/ob_tutoTextBox/ob_tutoTextBox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5440.0,"y":1488.0,"resourceVersion":"1.0","name":"inst_62AA504E","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"tutorial","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"effect2","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"t_stage2","path":"tilesets/t_stage2/t_stage2.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":290,"SerialiseHeight":32,"TileSerialiseData":[
@@ -256,6 +259,7 @@
     {"name":"inst_3758E77B","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_6133C722","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_53ABAEC8","path":"rooms/r_tutorial/r_tutorial.yy",},
+    {"name":"inst_62AA504E","path":"rooms/r_tutorial/r_tutorial.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
