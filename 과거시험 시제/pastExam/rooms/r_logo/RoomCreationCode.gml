@@ -13,8 +13,10 @@ instance_create_depth(0, 0, 0, Camera);
 {
 	sc_globalLoad();
 }
-//global.fullScreen = false;
-//window_set_fullscreen(global.fullScreen);
+global.fullScreen = false;
+window_set_fullscreen(global.fullScreen);
+window_set_size(global.screenX, global.screenY);
+surface_resize(application_surface, 1920, 1080);
 
 //정적
 {

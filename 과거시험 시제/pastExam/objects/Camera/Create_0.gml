@@ -4,8 +4,8 @@
 // ------------------------------------	CAMERA MAIN PARAMETERS	-------------------------------
 // ==============================================================
 #region Set all the camera main parameters
-var get_height = global.screenY;
-var get_width = global.screenX;
+var get_height = window_get_height();
+var get_width = window_get_width();
 
 aspect_ratio = view_width/view_height; // Relation between the windows size and screen size
 
@@ -42,9 +42,9 @@ view_x = primitive_view_x;
 view_y = primitive_view_y;
 
 // Here we apply the size of the window and the surface where we will be drawing the game.
-window_set_size(port_width, port_height);
-surface_resize(application_surface, port_width, port_height);
-uc_window_center();
+//window_set_size(port_width, port_height);
+//surface_resize(application_surface, port_width, port_height);
+//uc_window_center();
 
 // Here we are saying all the values we are setting in this code
 // are thought for a 60FPS running game, other frequencies will

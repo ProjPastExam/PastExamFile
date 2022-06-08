@@ -9,3 +9,5 @@ hpProcess = 0;
 settingIndex = 0;
 
 nextIndex = true;
+
+surf = -1;
