@@ -16,9 +16,7 @@ function sc_pl_atkFrontKick(){
 			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
 			else nextAtk = 2;
 		}
-		if ( keySk1 ) nextAtk = -1;
-		if ( keySk2 ) nextAtk = -2;
-		if ( keySk3 ) nextAtk = -3;
+		//sc_pl_skKey();
 	}
 	
 	if ( atkProcess > 44 && atkProcess < 78 ) {
@@ -28,9 +26,7 @@ function sc_pl_atkFrontKick(){
 			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
 			else nextAtk = 2;
 		}
-		if ( keySk1 ) nextAtk = -1;
-		if ( keySk2 ) nextAtk = -2;
-		if ( keySk3 ) nextAtk = -3;
+		//sc_pl_skKey();
 	}
 	
 	if ( atkProcess > 87 && atkProcess < 107 ) {
@@ -40,9 +36,7 @@ function sc_pl_atkFrontKick(){
 			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
 			else nextAtk = 2;
 		}
-		if ( keySk1 ) nextAtk = -1;
-		if ( keySk2 ) nextAtk = -2;
-		if ( keySk3 ) nextAtk = -3;
+		//sc_pl_skKey();
 	}
 	
 	if ( atkProcess == 6 ) {
@@ -67,13 +61,15 @@ function sc_pl_atkFrontKick(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 14 && atkProcess < 44) || (atkProcess > 40 && atkProcess < 77) ) {
+	//if ( (atkProcess > 14 && atkProcess < 44) || (atkProcess > 40 && atkProcess < 77) ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
-	}
+		sc_pl_skKey();
+	//}
 	
-	if ( (atkProcess > 47 && atkProcess < 77) || (atkProcess > 25 && atkProcess < 44) ) {
+	if ( (atkProcess > 45 && atkProcess < 77) || atkProcess > 87 || (atkProcess > 6 && atkProcess < 35) ) {
 		sc_pl_atkDnJ();
+		sc_pl_skComb();
 	}
 	
 	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; xSpeed = 16*dir; }

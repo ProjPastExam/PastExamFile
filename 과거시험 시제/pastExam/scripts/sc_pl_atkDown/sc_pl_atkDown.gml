@@ -15,9 +15,7 @@ function sc_pl_atkDown(){
 			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
 			else															nextAtk = 2;
 		}
-		if ( keySk1 ) nextAtk = -1;
-		if ( keySk2 ) nextAtk = -2;
-		if ( keySk3 ) nextAtk = -3;
+		sc_pl_skKey();
 	}
 	
 	

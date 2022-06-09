@@ -120,10 +120,16 @@ part_type_life(global.mobAdEf, 45, 45);
 
 
 //몬스터 카운터 이팩트
-global.mobCounterEf = part_type_create();
+global.mobCounterEfK = part_type_create();
 
-part_type_sprite(global.mobCounterEf, sp_hitEffect_counter, true, 1, false);
-part_type_life(global.mobCounterEf, 15, 15);
+part_type_sprite(global.mobCounterEfK, sp_hitEffect_counterK, true, 1, false);
+part_type_life(global.mobCounterEfK, 15, 15);
+
+
+global.mobCounterEfF = part_type_create();
+
+part_type_sprite(global.mobCounterEfF, sp_hitEffect_counterF, true, 1, false);
+part_type_life(global.mobCounterEfF, 15, 15);
 
 
 //몬스터 크리티컬

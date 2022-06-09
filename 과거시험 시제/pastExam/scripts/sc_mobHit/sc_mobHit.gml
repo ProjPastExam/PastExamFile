@@ -5,12 +5,15 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	var shVal = (shock- down)/10;
 	if ( knockback && (shVal > 0)) { 
 		if ( state != 9 ) {
-			if ( state == 8 ) { process = 16; ySpeed = -11*(100-down/2)/100; }
+			if ( state == 8 ) { kbIndex = 16; ySpeed = -11*(100-down/2)/100; }
 			else {
-				if (!isDA && (hitKind == 0 || hitKind == 10)) { state = 5 process = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
-				else if (!isDK && hitKind == 1 ) { state = 6; process = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
-				else if (!isDF && hitKind == 2 ) { state = 7; process = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
+				if (!isDA && (hitKind == 0 || hitKind == 10)) { state = 5 kbIndex = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
+				else if (!isDK && hitKind == 1 ) { state = 6; kbIndex = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
+				else if (!isDF && hitKind == 2 ) { state = 7; kbIndex = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
 			}
+		}
+		else {
+			kbIndex = shVal;
 		}
 	}
 	if (hitKind == 10) hitKind = 1;
@@ -18,10 +21,12 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	if (hitKind == 1 && (isDA && !isDK && isDF)) { 
 		indexStun = true;
 		isStun = true; 
+		part_particles_create( global.hitEf, x, y, global.mobCounterEfK, 1 );
 	}
 	if (hitKind == 2 && (isDA && isDK && !isDF)) { 
 		isStun = true; 
 		indexStun = true;
+		part_particles_create( global.hitEf, x, y, global.mobCounterEfF, 1 );
 	}
 	
 	var ctRange = irandom_range(0, 100);
@@ -50,15 +55,15 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	if (isCt) {
 		if (indexStun) {
 			indexStun = false;
-			part_particles_create( global.hitEf, x, y, global.mobCounterEf, 1 );
+			part_particles_create( global.hitEf, x, y, global.mobCtEf, 1 );
 		}
 		SE_Play(s_hitCritical, global.vol);
-		part_particles_create( global.hitEf, x, y, global.mobCounterEf, 1 );
+		part_particles_create( global.hitEf, x, y, global.mobCtEf, 1 );
 	}
 	else {
 		if (indexStun) {
 			indexStun = false;
-			part_particles_create( global.hitEf, x, y, global.mobCounterEf, 1 );
+			//part_particles_create( global.hitEf, x, y, global.mobCounterEf, 1 );
 		}
 		SE_Play(s_hit01, global.vol);
 	}

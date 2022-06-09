@@ -8,6 +8,7 @@ function sc_mobSpawn(){
 	delay		= 0;
 	ad			= false;
 	process		= 0;
+	kbIndex		= 0;
 	ctCount		= 0;
 	dir			= -1;
 	

@@ -50,13 +50,15 @@ function sc_pl_atkJump2(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 16 && atkProcess < 50) ) {
+	if ( (atkProcess > 16 ) ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
+		sc_pl_skKey();
 	}
 		
-	if ( (atkProcess > 24 && atkProcess < 50) ) {
+	if ( (atkProcess > 24 ) ) {
 		sc_pl_atkDnJ();
+		sc_pl_skComb();
 	}
 	
 	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0;  ySpeed = -1; }

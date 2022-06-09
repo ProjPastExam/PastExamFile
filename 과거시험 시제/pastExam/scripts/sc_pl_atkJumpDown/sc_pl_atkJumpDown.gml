@@ -15,7 +15,7 @@ function sc_pl_atkJumpDown(){
 			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
 			else															nextAtk = 2;
 		}
-		sc_pl_skKey();
+		
 	}
 	
 	if ( atkProcess == 12 ) {
@@ -34,10 +34,12 @@ function sc_pl_atkJumpDown(){
 	//if ( (atkProcess > 16 && atkProcess < 36) || (atkProcess > 0 && atkProcess < 16) ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
+		sc_pl_skKey();
 	//}
 		
-	if ( (atkProcess > 28) || (atkProcess > 10 && atkProcess < 20) ) {
+	if ( (atkProcess > 28) || (atkProcess > 12 && atkProcess < 20) ) {
 		sc_pl_atkDnJ();
+		sc_pl_skComb();
 	}
 	
 	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; }
@@ -70,7 +72,6 @@ function sc_pl_atkJumpDown(){
 			if ( keyRight ) dir = 1;
 			if ( keyLeft ) dir = -1
 		}
-		sc_pl_skComb();
 	}
 	else { atkProcess = -15;	canMove = 0; }
 }

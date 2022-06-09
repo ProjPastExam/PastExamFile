@@ -13,14 +13,13 @@ function sc_mobMain(){
 		if (ctCount < counter) ctCount++;
 		sc_mobKnockback();
 	}
-	else {
-		if (ctCount > 0) ctCount = ctCount - 2;
-		isStun = false;
-	}
-	
-	if (state == 9) {
+	else if (state == 9) {
 		process--;
+		kbIndex--;
 		sprite_index = shockSp;
+		if ( kbIndex > 5 ) {
+			if ( hitDir == 1 || hitDir == -1 ) xSpeed = hitDir * 3.7*sqrt(kbIndex-5);
+		}
 		
 		if (process > 75)		{ image_index = 0; }
 		else if (process > 70)	{ image_index = 1; }
@@ -32,4 +31,11 @@ function sc_mobMain(){
 			state = 10; delay = 10;
 		}
 	}
+	else {
+		if (ctCount > 0) ctCount = ctCount - 2;
+		isStun = false;
+		kbIndex = 0;
+	}
+	
+	
 }

@@ -29,13 +29,15 @@ function sc_pl_atkUp(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 6) ) {
+	if ( (atkProcess > 4) ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
+		sc_pl_skKey();
 	}
 		
-	if ( (atkProcess > 12) ) {
+	if ( (atkProcess > 6) ) {
 		sc_pl_atkDnJ();
+		sc_pl_skComb();
 	}
 	
 	if ( atkProcess < 6 )		{ 

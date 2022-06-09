@@ -9,9 +9,7 @@ function sc_pl_dash(){
 			else if ( keyTop ) 												nextAtk = 6;
 			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
 		}
-		if ( keySk1 ) nextAtk = -1;
-		if ( keySk2 ) nextAtk = -2;
-		if ( keySk3 ) nextAtk = -3;
+		sc_pl_skKey();
 	}
 	//if ( !isDash ) { canMove = 0; dProcess = -1; return; }
 	

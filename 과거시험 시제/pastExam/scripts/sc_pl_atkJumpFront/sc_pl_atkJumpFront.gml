@@ -25,11 +25,18 @@ function sc_pl_atkJumpFront(){
 		atk.image_xscale = dir;
 		audio_play_sound(s_arrow02, 5, false);
 	}
-	
-	//대쉬 제어
-	if ( (atkProcess > 40 && atkProcess < 60) ) 
+	*/
+	if ( (atkProcess > 4) ) {
 		if ( keyDash ) nextAtk = 10;
+		if ( keyJump ) nextAtk = 9;
+		sc_pl_skKey();
+	}
 		
+	if ( atkProcess > 8 ) {
+		sc_pl_atkDnJ();
+		sc_pl_skComb();
+	}
+		/*
 	if ( (atkProcess > 51 && atkProcess < 60) ) {
 		if ( nextAtk == 10 ) {
 			dProcess = 0;
