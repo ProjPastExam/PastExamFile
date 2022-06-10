@@ -31,6 +31,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		else if ( process < 24 ) { image_index = 2; xSpeed = -1 * dir * 5; }
 		else if (!isJump) { image_index = 3; xSpeed = 0;  }
 	}
+	sc_mobfixlotation();
 	sc_obPhysics();
 
 }

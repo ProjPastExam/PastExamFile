@@ -11,6 +11,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	else {
 		
 	}
+	sc_mobfixlotation();
 	sc_obPhysics();
 	image_speed = 1;
 }

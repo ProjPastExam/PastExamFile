@@ -36,6 +36,4 @@ function sc_mobMain(){
 		isStun = false;
 		kbIndex = 0;
 	}
-	
-	
 }
