@@ -55,7 +55,11 @@ infoSprite	= global.itemData[itemNum].infoSprite;
 backSprite	= sp_skillUi_0;
 itemKind	= global.itemData[itemNum].itemKind;
 itemGrade	= global.itemData[itemNum].itemGrade;
-if (itemKind == 2) { backSprite = sp_itemBackFire; }
+
+if (itemKind == 0) backSprite = sp_itemBackAtk;
+if (itemKind == 1) backSprite = sp_itemBackKick;
+if (itemKind == 2) backSprite = sp_itemBackFire;
+
 
 
 //alarm[5] = 10;

@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "item",
-    "path": "folders/Sprites/item.yy",
+    "path": "folders/Sprites/interface/item.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_itemRing",

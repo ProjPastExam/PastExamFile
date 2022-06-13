@@ -90,7 +90,7 @@
   "nineSlice": null,
   "parent": {
     "name": "infoDemo",
-    "path": "folders/Sprites/item/infoDemo.yy",
+    "path": "folders/Sprites/interface/item/infoDemo.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_ItemInfo_jump",
