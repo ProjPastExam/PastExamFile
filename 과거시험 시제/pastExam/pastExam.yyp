@@ -726,6 +726,7 @@
     {"id":{"name":"sp_bandit01_dig","path":"sprites/sp_bandit01_dig/sp_bandit01_dig.yy",},"order":10,},
     {"id":{"name":"sp_itemBackKick","path":"sprites/sp_itemBackKick/sp_itemBackKick.yy",},"order":5,},
     {"id":{"name":"sp_jpSwordS_pain","path":"sprites/sp_jpSwordS_pain/sp_jpSwordS_pain.yy",},"order":4,},
+    {"id":{"name":"MinimapScript","path":"scripts/MinimapScript/MinimapScript.yy",},"order":12,},
     {"id":{"name":"ob_tutotab","path":"objects/ob_tutotab/ob_tutotab.yy",},"order":10,},
     {"id":{"name":"sp_ItemInfo_jump","path":"sprites/sp_ItemInfo_jump/sp_ItemInfo_jump.yy",},"order":2,},
     {"id":{"name":"sc_pl_itemCheck","path":"scripts/sc_pl_itemCheck/sc_pl_itemCheck.yy",},"order":8,},

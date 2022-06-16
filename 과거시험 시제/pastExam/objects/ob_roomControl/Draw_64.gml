@@ -7,8 +7,12 @@ if (isCt) {
 	draw_sprite(sc_keySprite(global.btEsc), 0, 1680, 1020);
 }
 
-if (isGUI) sc_gameGUI();
+if (isGUI) {
+	sc_gameGUI();
+	if (isMinimap) sc_drawMap();
+}
 draw_sprite_stretched_ext(sp_black, 0, 0, 0, 2400, 1500, 0 ,dark/30);
+
 if (pause == -1) {
 	draw_sprite(sp_demoPause, 0, 0, 0);
 }
