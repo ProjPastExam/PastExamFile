@@ -62,5 +62,8 @@ function sc_globalLoad(){
 	global.btInter		= VSLS_Get("btInter");
 	global.btEsc		= VSLS_Get("btEsc");
 	global.btTap		= VSLS_Get("btTap");
+	
+	global.UIX		= VSLS_Get("UIX");
+	global.UIY		= VSLS_Get("UIY");
 	}
 }

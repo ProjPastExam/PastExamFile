@@ -9,7 +9,7 @@ if (isCt) {
 
 if (isGUI) {
 	sc_gameGUI();
-	if (isMinimap) sc_drawMap();
+	//if (isMinimap) sc_drawMap();
 }
 draw_sprite_stretched_ext(sp_black, 0, 0, 0, 2400, 1500, 0 ,dark/30);
 

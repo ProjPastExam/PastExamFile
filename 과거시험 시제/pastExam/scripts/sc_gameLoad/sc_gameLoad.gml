@@ -41,6 +41,9 @@ function sc_gameLoad(){
 	if (VSLS_Get("btInter") == undefined)	VSLS_Set("btInter", ord("F"));
 	if (VSLS_Get("btEsc") == undefined)		VSLS_Set("btEsc", vk_escape);
 	if (VSLS_Get("btTap") == undefined)		VSLS_Set("btTap", vk_tab);
+	
+	if (VSLS_Get("UIX") == undefined)		VSLS_Set("UIX", 50);
+	if (VSLS_Get("UIY") == undefined)		VSLS_Set("UIY", 20);
 	}
 	
 	VSLS_File_Save("saveFile");

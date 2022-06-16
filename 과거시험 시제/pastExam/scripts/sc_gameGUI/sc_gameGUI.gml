@@ -1,12 +1,12 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_gameGUI(){
-	var GUIX = 50;
-	var GUIY = 20;
+	var GUIX = global.UIX;
+	var GUIY = global.UIY;
 	draw_set_alpha(1);
 	var i = 1;
 	draw_sprite_stretched(sp_mpbar, 0, GUIX-10, GUIY+100, 720, 96);
-	draw_sprite_stretched(sp_healthbar, global.hp, -50, GUIY-15, 900, 192);
+	draw_sprite_stretched(sp_healthbar, global.hp, GUIX-100, GUIY-15, 900, 192);
 	//draw_sprite(sp_skillBoxOut, 0, GUIX+203, GUIY+245);
 	
 	for ( i = 1; i <= 10; i++ ) {

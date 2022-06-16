@@ -14,7 +14,7 @@ alarm[5] = 10;
 alarm[6] = 1;
 room_speed = 60;
 
-if (isMinimap) alarm[4] = 30;
+//if (isMinimap) alarm[4] = 30;
 
 nameS = "";
 talkArray = array_create(20);
@@ -32,7 +32,8 @@ sc_itemSprite();
 
 //스킬 UI 설정
 sc_skillUi();
-sc_setMinimap();
+instance_create_depth(0, 0, 0, ob_UIControl);
+//sc_setMinimap();
 
 //파티클 시스템
 
