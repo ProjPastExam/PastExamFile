@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "jpBoss",
-    "path": "folders/Sprites/mob/jp/jpBoss.yy",
+    "path": "folders/Sprites/csSprite/jpBoss.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_jpBoss_face",

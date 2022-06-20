@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "sp_jpBoss_stand2",
-    "path": "sprites/sp_jpBoss_stand2/sp_jpBoss_stand2.yy",
+    "name": "sp_jpBoss_csstand2",
+    "path": "sprites/sp_jpBoss_csstand2/sp_jpBoss_csstand2.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
