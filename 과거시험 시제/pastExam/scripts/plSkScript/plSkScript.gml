@@ -10,7 +10,7 @@ function sc_pl_skComb(){
 }
 
 function sc_pl_skDir() {
-	if (atkProcess == 0) {
+	if (atkProcess == 1) {
 		if (keyLeft)		dir = -1;
 		else if (keyRight)	dir = 1;
 	}

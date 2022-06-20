@@ -11,6 +11,7 @@ function sc_pl_atkDnJ( index = 0 ){
 			if (keyRight) xSpeed = 8.5;
 			SE_Play(s_jump, global.vol);
 			//audio_play_sound(s_jump, 5, false);
+			if (dProcess > 0) dProcess = -10;
 		}
 		
 	}
