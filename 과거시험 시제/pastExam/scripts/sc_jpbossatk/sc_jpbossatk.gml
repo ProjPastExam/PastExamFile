@@ -107,7 +107,7 @@ function sc_jpBossatk(){
 		else if ( process < 134 ) { image_index = 19; }
 		else if ( process < 140 ) { image_index = 20; }
 		else if ( process < 160 ) { image_index = 21; }
-		else { state = 10;	process = 0;	delay = 0; }
+		else { state = 10;	process = 0;	delay = 100; }
 	}
 	
 	
