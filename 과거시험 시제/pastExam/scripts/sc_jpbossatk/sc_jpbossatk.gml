@@ -22,7 +22,7 @@ function sc_jpBossatk(){
 		
 	}
 	else if ( state == 11 ){
-		sc_mobRun(10, 240, 0, 13, 12, plX, left1, left2, right1, right2);
+		sc_mobRun(10, 240, 0, 13, 20, plX, left1, left2, right1, right2);
 	}
 	else if ( state == 12 ) {
 		process++;
@@ -60,7 +60,58 @@ function sc_jpBossatk(){
 		else { state = 10;	process = 0;	delay = random_range(100, 150); }
 	}
 	
-	else if ( state == 13 ) {
+	else if ( state == 20 ) {
+		process++;
+		sprite_index = sp_jpBoss_atk_rdy;
+		
+		if ( process < 5 ) { image_index = 0; }
+		else if ( process < 10 ) { image_index = 1; }
+		else if ( process < 15 ) { image_index = 2; }
+		else if ( process < 20 ) { image_index = 3; }
+		else if ( process < 25 ) { image_index = 4; }
+		else if ( process < 30 ) { image_index = 5; }
+		else if ( process < 35 ) { image_index = 6; }
+		else if ( process < 40 ) { image_index = 7; }
+		else if ( process < 45 ) { image_index = 8; }
+		else if ( process < 50 ) { image_index = 9; }
+		else if ( process < 55 ) { image_index = 10; }
+		else { state = 23;	process = 0;	delay = 0; }
+	}
+	
+	else if ( state == 23 ) {
+		process++;
+		sprite_index = sp_jpBoss_atk_FP;
+		
+		if ( process < 5 ) { image_index = 0; }
+		else if ( process < 10 ) { image_index = 1; }
+		else if ( process < 15 ) { image_index = 2; }
+		else if ( process < 20 ) { image_index = 3; }
+		else if ( process < 25 ) { image_index = 4; }
+		else if ( process < 35 ) { image_index = 5; }
+		else if ( process < 40 ) { image_index = 6; }
+		else if ( process < 45 ) { image_index = 7; }
+		else if ( process < 50 ) { image_index = 8; }
+		else if ( process < 56 ) { image_index = 9; }
+		else if ( process < 62 ) { image_index = 10; }
+		else if ( process < 68 ) { image_index = 8; }
+		else if ( process < 74 ) { image_index = 9; }
+		else if ( process < 80 ) { image_index = 10; }
+		else if ( process < 86 ) { image_index = 11; }
+		else if ( process < 92 ) { image_index = 12; }
+		else if ( process < 98 ) { image_index = 13; }
+		else if ( process < 104 ) { image_index = 14; }
+		else if ( process < 110 ) { image_index = 15; }
+		else if ( process < 116 ) { image_index = 16; }
+		else if ( process < 122 ) { image_index = 17; }
+		else if ( process < 128 ) { image_index = 18; }
+		else if ( process < 134 ) { image_index = 19; }
+		else if ( process < 140 ) { image_index = 20; }
+		else if ( process < 160 ) { image_index = 21; }
+		else { state = 10;	process = 0;	delay = 0; }
+	}
+	
+	
+	else if ( state == 30 ) {
 		process++;
 		sprite_index = sp_bandit01_backStep;
 		
