@@ -19,4 +19,4 @@ standSp = sp_jpBoss_stand;
 stand2Sp = sp_jpBoss_stand2;
 walkSp = sp_jpBoss_walk;
 runSp = sp_jpBoss_run;
-painSp = sp_jpBoss_stand;
+painSp = sp_jpBoss_hit;

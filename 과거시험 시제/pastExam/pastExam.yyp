@@ -628,6 +628,7 @@
     {"id":{"name":"sp_banditBoss_atk4Ef3","path":"sprites/sp_banditBoss_atk4Ef3/sp_banditBoss_atk4Ef3.yy",},"order":16,},
     {"id":{"name":"uc_get_mouse_drag_acceleration","path":"scripts/uc_get_mouse_drag_acceleration/uc_get_mouse_drag_acceleration.yy",},"order":0,},
     {"id":{"name":"uc_get_mouse_borders_acceleration","path":"scripts/uc_get_mouse_borders_acceleration/uc_get_mouse_borders_acceleration.yy",},"order":0,},
+    {"id":{"name":"sp_jpBoss_hit","path":"sprites/sp_jpBoss_hit/sp_jpBoss_hit.yy",},"order":7,},
     {"id":{"name":"sp_jpBoss_face","path":"sprites/sp_jpBoss_face/sp_jpBoss_face.yy",},"order":4,},
     {"id":{"name":"sp_jpMb_walk","path":"sprites/sp_jpMb_walk/sp_jpMb_walk.yy",},"order":3,},
     {"id":{"name":"uc_init_object_following","path":"scripts/uc_init_object_following/uc_init_object_following.yy",},"order":4,},
