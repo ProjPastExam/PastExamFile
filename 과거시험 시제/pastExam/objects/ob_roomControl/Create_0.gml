@@ -15,6 +15,7 @@ alarm[6] = 1;
 room_speed = 60;
 
 //if (isMinimap) alarm[4] = 30;
+sc_setMinimap();
 
 nameS = "";
 talkArray = array_create(20);
