@@ -22,4 +22,6 @@ function sc_mobSpawn(){
 	indexStun	= false;
 	
 	nextState	= 0;
+	
+	hitLot		= 0;
 }

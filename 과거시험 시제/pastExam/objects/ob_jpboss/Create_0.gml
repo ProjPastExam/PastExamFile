@@ -15,8 +15,13 @@ sc_mobSpawn();
 alarm[0] = 1;
 alarm[5] = 5;
 
+hitLot = 150;
+phaseDelay = 10;
+nextState = 12;
+
 standSp = sp_jpBoss_stand;
 stand2Sp = sp_jpBoss_stand2;
 walkSp = sp_jpBoss_walk;
 runSp = sp_jpBoss_run;
 painSp = sp_jpBoss_hit;
+shockSp	= sp_jpBoss_hit;

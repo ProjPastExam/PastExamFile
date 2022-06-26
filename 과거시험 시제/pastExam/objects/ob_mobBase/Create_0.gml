@@ -20,3 +20,4 @@ stand2Sp = sp_ybox;
 walkSp = sp_ybox;
 runSp = sp_ybox;
 painSp = sp_ybox;
+shockSp	= sp_ybox;

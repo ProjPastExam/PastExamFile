@@ -38,7 +38,7 @@
     "spriteId": {"name":"sp_jpBoss_atk1Ef2","path":"sprites/sp_jpBoss_atk1Ef2/sp_jpBoss_atk1Ef2.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 10.0,
+    "playbackSpeed": 12.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

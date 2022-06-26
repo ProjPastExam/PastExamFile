@@ -21,12 +21,12 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	if (hitKind == 1 && (isDA && !isDK && isDF)) { 
 		indexStun = true;
 		isStun = true; 
-		part_particles_create( global.hitEf, x, y, global.mobCounterEfK, 1 );
+		part_particles_create( global.hitEf, x, y+hitLot, global.mobCounterEfK, 1 );
 	}
 	if (hitKind == 2 && (isDA && isDK && !isDF)) { 
 		isStun = true; 
 		indexStun = true;
-		part_particles_create( global.hitEf, x, y, global.mobCounterEfF, 1 );
+		part_particles_create( global.hitEf, x, y+hitLot, global.mobCounterEfF, 1 );
 	}
 	
 	var ctRange = irandom_range(0, 100);
@@ -55,10 +55,10 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	if (isCt) {
 		if (indexStun) {
 			indexStun = false;
-			part_particles_create( global.hitEf, x, y, global.mobCtEf, 1 );
+			part_particles_create( global.hitEf, x, y+hitLot, global.mobCtEf, 1 );
 		}
 		SE_Play(s_hitCritical, global.vol);
-		part_particles_create( global.hitEf, x, y, global.mobCtEf, 1 );
+		part_particles_create( global.hitEf, x, y+hitLot, global.mobCtEf, 1 );
 	}
 	else {
 		if (indexStun) {
@@ -109,8 +109,8 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 			else if ( shock < 250 ) part_type_scale( global.hitEf02T, xs * 1, 1 );
 			else part_type_scale( global.hitEf02T, xs * 1.2, 1.2 );
 			
-			part_particles_create( global.hitEf, x, y, global.hitEf01T, 15 );
-			part_particles_create( global.hitEf, x, y, global.hitEf02T, 1 );
+			part_particles_create( global.hitEf, x, y+hitLot, global.hitEf01T, 15 );
+			part_particles_create( global.hitEf, x, y+hitLot, global.hitEf02T, 1 );
 			break;
 			
 		case 1:
@@ -127,9 +127,9 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 			part_type_color3(global.hitEf01T, c_white, c_yellow, c_black);
 			
 
-			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
+			part_particles_create( global.hitEf, x, y+hitLot, global.hitEf01T, 10 );
 			part_type_orientation( global.hitEf_k01, 0, 360, 0, 0, 0 );
-			part_particles_create( global.hitEf, x, y, global.hitEf_k01, 1 );
+			part_particles_create( global.hitEf, x, y+hitLot, global.hitEf_k01, 1 );
 			break;
 			
 		case 2:
@@ -146,9 +146,9 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 			part_type_color3(global.hitEf01T, c_white, c_red, c_black);
 			
 
-			part_particles_create( global.hitEf, x, y, global.hitEf01T, 10 );
+			part_particles_create( global.hitEf, x, y+hitLot, global.hitEf01T, 10 );
 			part_type_orientation( global.hitEf_f01, -30, 30, 0, 0, 0 );
-			part_particles_create( global.hitEf, x, y, global.hitEf_f01, 1 );
+			part_particles_create( global.hitEf, x, y+hitLot, global.hitEf_f01, 1 );
 			break;
 	}
 }
