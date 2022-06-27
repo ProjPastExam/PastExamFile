@@ -12,7 +12,6 @@ function sc_jpBossatk(){
 	
 	isDA = true;	isDK = false;	isDF = false;
 	
-	
 	var plX = sc_pl_get("x");
 	if ( state == 10 ) {
 		sprite_index = stand2Sp;
@@ -31,6 +30,7 @@ function sc_jpBossatk(){
 		sprite_index = sp_jpBoss_atk1;
 		xSpeed = 0;
 		isDF = true;
+		isCounter = true;
 		
 		//if ( process == 1 ) { SE_Play(s_bandit01atk1, global.vol); }
 		if ( process == 45 + phaseDelay ) { 
@@ -59,8 +59,8 @@ function sc_jpBossatk(){
 		else if ( process < 75 + phaseDelay ) { image_index = 6; xSpeed = dir*24; }
 		else if ( process < 85 + phaseDelay ) { image_index = 7; }
 		else if ( process < 90 + phaseDelay ) { image_index = 8; }
-		else if ( process < 105 + phaseDelay ) { image_index = 9; }
-		else { state = 15;	process = 0;	delay = random_range(100, 150); }
+		else if ( process < 105 + phaseDelay * 2 ) { image_index = 9; }
+		else { state = 14;	process = 0;	delay = random_range(100, 150); isCounter = false; }
 	}
 	
 	else if ( state == 13 ) {
@@ -144,6 +144,32 @@ function sc_jpBossatk(){
 		else { state = 13;	process = 0;	delay = 0; }
 	}
 	
+	else if (state == 16) {
+		process++;
+		sprite_index = sp_jpBoss_counter;
+		
+		if ( process == 24 ) { SE_Play(s_jp_dAtk, global.vol); }
+		
+		if ( process == 54 ) { 
+			SE_Play(s_swing_a2, global.vol);
+			//audio_play_sound(s_swing_a2, 8, false);
+			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
+			ob.image_xscale = dir;
+			ob.sprite_index = sp_jpBoss_counterEf;
+		}
+		
+		isDK = true;
+		if ( process < 24 ) { image_index = 0; xSpeed = dir * (process-30)/1.5; }
+		else if ( process < 30 ) { image_index = 1; xSpeed = dir * (process-30)/1.5; }
+		else if ( process < 48 ) { image_index = 2; }
+		else if ( process < 54 ) { image_index = 2; xSpeed = 12 * dir; }
+		else if ( process < 60 ) { image_index = 3; xSpeed = 24 * dir; }
+		else if ( process < 66 ) { image_index = 3; xSpeed = 12 * dir; }
+		else if ( process < 78 ) { image_index = 4; }
+		else { state = 9;	process = 80;	delay = 0; }
+		
+	}
+	
 	else if ( state == 20 ) {
 		process++;
 		sprite_index = sp_jpBoss_atk_rdy;
@@ -211,5 +237,17 @@ function sc_jpBossatk(){
 		else if ( process < 34 ) { image_index = 3; }
 		else if ( process < 40 ) { image_index = 4; }
 		else { state = 12;	process = 0;	delay = 0; }
+	}
+	
+	else if ( state == 5 || state == 6 || state == 7 || state == 8 ) {
+		if (isCounter) {
+			isCounter = false;
+			isStun = false;
+			state = 16;
+			process = 0;
+		}
+		else if (process == 1) {
+			//sc_banditBossAtkNext(nextState);
+		}
 	}
 }
