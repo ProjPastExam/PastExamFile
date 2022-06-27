@@ -2,6 +2,8 @@
 // You can write your code in this editor
 
 if ( sc_getRoomValue("pause") == 0 ) {
+	x += xSpeed;
+	y += ySpeed;
 	image_alpha = (life)/10;
 	if (life <= 0) instance_destroy();
 	life--;

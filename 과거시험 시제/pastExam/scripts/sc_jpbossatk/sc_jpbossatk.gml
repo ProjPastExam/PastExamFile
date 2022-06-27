@@ -23,7 +23,7 @@ function sc_jpBossatk(){
 		
 	}
 	else if ( state == 11 ){
-		sc_mobRun(12, 600, 300, 30, 12, plX, left1, left2, right1, right2);
+		sc_mobRun(12, 600, 300, 30, 20, plX, left1, left2, right1, right2);
 	}
 	else if ( state == 12 ) {
 		process++;
@@ -185,10 +185,98 @@ function sc_jpBossatk(){
 		else if ( process < 45 ) { image_index = 8; }
 		else if ( process < 50 ) { image_index = 9; }
 		else if ( process < 55 ) { image_index = 10; }
-		else { state = 23;	process = 0;	delay = 0; }
+		else { state = 21;	process = 0;	delay = 0; }
+	}
+	
+	else if ( state == 21 ) {
+		process++;
+		sprite_index = sp_jpBoss_atkGRdy;
+		
+		if ( process < 5 ) { image_index = 0; }
+		else if ( process < 10 ) { image_index = 1; }
+		else if ( process < 15 ) { image_index = 2; }
+		else if ( process < 25 ) { image_index = 3; }
+		else if ( process < 30 ) { image_index = 4; }
+		else if ( process < 35 ) { image_index = 5; }
+		else if ( process < 40 ) { image_index = 6; }
+		else if ( process < 45 ) { image_index = 7; }
+		else { state = 22;	process = 0;	delay = 0; }
+	}
+	
+	else if ( state == 22 ) {
+		process++;
+		sprite_index = sp_jpBoss_atkG;
+		
+		if ( process == 10 ) { 
+			SE_Play(s_swing_a2, global.vol);
+			//audio_play_sound(s_swing_a2, 8, false);
+			var ob = instance_create_layer(x, y+175, "effect", ob_mobAtk);
+			ob.image_xscale = dir;
+			ob.sprite_index = sp_jpBoss_atkGEf;
+			ob.xSpeed		= 30 * dir;
+			ob.life			= 240;
+		}
+		
+		if ( process < 5 ) { image_index = 0; }
+		else if ( process < 10 ) { image_index = 1; }
+		else if ( process < 15 ) { image_index = 2; }
+		else if ( process < 20 ) { image_index = 3; }
+		else if ( process < 25 ) { image_index = 4; }
+		else { state = 24;	process = 0;	delay = 0; }
 	}
 	
 	else if ( state == 23 ) {
+		process++;
+		sprite_index = sp_jpBoss_atkG;
+		
+		if ( process == 10 ) { 
+			SE_Play(s_swing_a2, global.vol);
+			//audio_play_sound(s_swing_a2, 8, false);
+			var ob = instance_create_layer(x, y+175, "effect", ob_mobAtk);
+			ob.image_xscale = dir;
+			ob.sprite_index = sp_jpBoss_atkGEf;
+			ob.xSpeed		= 30 * dir;
+			ob.life			= 240;
+		}
+		
+		if ( process < 5 ) { image_index = 4; }
+		else if ( process < 10 ) { image_index = 5; }
+		else if ( process < 15 ) { image_index = 6; }
+		else if ( process < 20 ) { image_index = 7; }
+		else if ( process < 25 ) { image_index = 8; }
+		else if ( process < 50 ) { image_index = 9; }
+		else { state = 10;	process = 12;	delay = 0; }
+	}
+	
+	else if ( state == 24 ) {
+		process++;
+		sprite_index = sp_jpBoss_atkGUp;
+		
+		if ( process == 30 ) { 
+			SE_Play(s_swing_a2, global.vol);
+			//audio_play_sound(s_swing_a2, 8, false);
+			var ob = instance_create_layer(x, y-50, "effect", ob_mobAtk);
+			ob.image_xscale = dir;
+			ob.sprite_index = sp_jpBoss_atkGEf;
+			ob.xSpeed		= 30 * dir;
+			ob.life			= 240;
+		}
+		
+		if ( process < 6 ) { image_index = 0; }
+		else if ( process < 12 ) { image_index = 1; }
+		else if ( process < 18 ) { image_index = 2; }
+		else if ( process < 24 ) { image_index = 3; }
+		else if ( process < 30 ) { image_index = 4; }
+		else if ( process < 36 ) { image_index = 5; }
+		else if ( process < 42 ) { image_index = 6; }
+		else if ( process < 48 ) { image_index = 7; }
+		else if ( process < 54 ) { image_index = 8; }
+		else if ( process < 60 ) { image_index = 9; }
+		else if ( process < 90 ) { image_index = 10; }
+		else { state = 10;	process = 0;	delay = 0; }
+	}
+	
+	else if ( state == 25 ) {
 		process++;
 		sprite_index = sp_jpBoss_atk_FP;
 		
