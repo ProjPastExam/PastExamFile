@@ -14,6 +14,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		if ( process == 1 ) { 
 			sc_dieJp2();
 			alarm[4] = 360;
+			BGM_Stop(0);
 		}
 		if ( process < 8 ) { image_index = 0; xSpeed = -1 * dir * 18; }
 		else if ( process < 16 ) { image_index = 1; xSpeed = -1 * dir * 12; }
