@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -30,7 +31,7 @@
     "path": "folders/Objects/terran.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_trap01",
+  "name": "ob_trap",
   "tags": [],
   "resourceType": "GMObject",
 }

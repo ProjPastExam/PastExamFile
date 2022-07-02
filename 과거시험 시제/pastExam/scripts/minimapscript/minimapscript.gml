@@ -4,25 +4,25 @@
 function sc_setMinimap() {
 	surfMinimapBg	= -1;
 	surfMinimapEntities = -1;
+	surfMinimapTrap	= -1;
 	mScale = 10;
-	w = 500;
-	h = 200;
+	w = 480;
+	h = 210;
 	ww = room_width/mScale;
 	wh = room_height/mScale;
 }
 
 function sc_initMinimap() {
 	
-	
-	mapIndex = int64(room_width/10000);
+	//mapIndex = int64(room_width/10000);
 	var surfTemp	= -1
 	var surfTemp2	= -1;
 	surfMinimapBg	= surface_create(ww, wh);
 	
-	for (var i = 0; i < 2; i++) {
+	for (var i = 0; i < 4; i++) {
 		surfTemp	= surface_create(10000, 4000);
 		surface_set_target(surfTemp);
-			draw_clear(c_black);
+			draw_clear_alpha(c_black, 0.0);
 			draw_tilemap(layer_tilemap_get_id("Tiles_1"), i*-10000, 0);
 		surface_reset_target();
 		
@@ -39,6 +39,34 @@ function sc_initMinimap() {
 	}
 }
 
+function sc_initMinimapTrap() {
+	if (!surface_exists(surfMinimapTrap)) surfMinimapTrap = surface_create(ww, wh);
+	surface_set_target(surfMinimapTrap);
+		draw_clear_alpha(c_black, 0.0);
+		
+		with (ob_trap) {
+			var mScale = other.mScale;
+			draw_sprite_ext(sp_mapBox, 0, x/mScale, y/mScale, 0.4, 0.1, 0.0, c_red, 1.0);
+		}
+	surface_reset_target();
+}
+
+function sc_initMinimapEntity() {
+	if (!surface_exists(surfMinimapEntities)) surfMinimapEntities = surface_create(ww, wh);
+	surface_set_target(surfMinimapEntities);
+		draw_clear_alpha(c_black, 0.0);
+		with (ob_mobBase) {
+			var mScale = other.mScale;
+			if (hp > 0) draw_sprite_ext(sp_mapIcon, 0, x/mScale, y/mScale, 0.5, 0.5, 0.0, c_red, 1.0);
+		}
+		
+		with (ob_player) {
+			var mScale = other.mScale;
+			draw_sprite_ext(sp_mapIcon, 0, x/mScale, y/mScale, 0.5, 0.5, 0.0, c_white, 1.0);
+		}
+	surface_reset_target();
+}
+
 function sc_drawMap(){
 	var mX = (uc_get_x()) / mScale - w/2;
 	if (mX < 0) mX = 0;
@@ -48,8 +76,12 @@ function sc_drawMap(){
 	if (mY < 0) mY = 0;
 	if (mY > wh - h) mY = wh - h;
 	
-	if (!surface_exists(surfMinimapBg))	sc_initMinimap();
-	//draw_surface(surfMinimapBg, 1320, 30);
+	if (!surface_exists(surfMinimapTrap))	sc_initMinimapTrap();
+	if (!surface_exists(surfMinimapBg))		sc_initMinimap();
+	sc_initMinimapEntity();
+
+	draw_sprite(sp_minimapBox, 0, 1320, 30);
+	draw_surface_part(surfMinimapTrap, mX, mY, w, h, 1320, 30);
 	draw_surface_part(surfMinimapBg, mX, mY, w, h, 1320, 30);
-	//draw_surface(surfMinimapBg, 0, 30);
+	draw_surface_part(surfMinimapEntities, mX, mY, w, h, 1320, 30);
 }
