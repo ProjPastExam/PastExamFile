@@ -28,7 +28,7 @@ function sc_initMinimap() {
 		
 		surfTemp2	= surface_create(10000/mScale, 4000/mScale);
 		surface_set_target(surfTemp2);
-			draw_surface_stretched_ext(surfTemp, 0, 0, 10000/mScale, 4000/mScale, c_black, 1);
+			draw_surface_stretched_ext(surfTemp, 0, 0, 10000/mScale, 4000/mScale, #AAAAAA, 1);
 		surface_reset_target();
 		
 		surface_set_target(surfMinimapBg);
