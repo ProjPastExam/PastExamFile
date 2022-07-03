@@ -16,7 +16,7 @@ function sc_pl_atkDnJ( index = 0 ){
 		
 	}
 	if (index == 0 || index == 2) {
-		if ( nextAtk == 10 && isDash ) {
+		if ( nextAtk == 10 && dProcess == -1 && isDash ) {
 			dProcess = 0;
 			nextAtk = 0;
 			canMove = 10;

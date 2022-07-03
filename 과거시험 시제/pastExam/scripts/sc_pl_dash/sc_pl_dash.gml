@@ -28,16 +28,16 @@ function sc_pl_dash(){
 	sc_pl_atkDnJ( 1 );
 	
 	if ( dProcess > 5 ) { 
-		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; dProcess = -10; isDash = false; }
-		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; dProcess = -10; isDash = false; }
+		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; dProcess = -30; isDash = false; }
+		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; dProcess = -30; isDash = false; }
 		else if ( nextAtk == 6 ) { 
-			if (!isJump) { nextAtk = 0; atkProcess = 0; canMove = 6; dProcess = -10; isDash = false; }
+			if (!isJump) { nextAtk = 0; atkProcess = 0; canMove = 6; dProcess = -30; isDash = false; }
 			else		 { 
 				//if (xSpeed > 6) xSpeed = 6;		if (xSpeed < -6) xSpeed = -6;
-				nextAtk = 0; atkProcess = 0; canMove = 8; dProcess = -10; isDash = false;
+				nextAtk = 0; atkProcess = 0; canMove = 8; dProcess = -30; isDash = false;
 			}
 		}
-		sc_pl_skComb()
+		sc_pl_skComb();
 	}
 	if ( dProcess > 20 ) { canMove = 0; dProcess = -30; isDash = false; }
 }
