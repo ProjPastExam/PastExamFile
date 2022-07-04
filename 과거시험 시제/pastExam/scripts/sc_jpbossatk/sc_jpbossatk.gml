@@ -222,7 +222,7 @@ function sc_jpBossatk(){
 		else if ( process < 15 ) { image_index = 2; }
 		else if ( process < 20 ) { image_index = 3; }
 		else if ( process < 25 ) { image_index = 4; }
-		else { state = 24;	process = 0;	delay = 0; }
+		else { state = 24;	process = 12;	delay = 0; }
 	}
 	
 	else if ( state == 23 ) {
@@ -245,7 +245,7 @@ function sc_jpBossatk(){
 		else if ( process < 20 ) { image_index = 7; }
 		else if ( process < 25 ) { image_index = 8; }
 		else if ( process < 50 ) { image_index = 9; }
-		else { state = 10;	process = 12;	delay = 0; }
+		else { state = 10;	process = 0;	delay = 0; }
 	}
 	
 	else if ( state == 24 ) {

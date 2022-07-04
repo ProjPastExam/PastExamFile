@@ -28,7 +28,7 @@ function sc_initMinimap() {
 		
 		surfTemp2	= surface_create(10000/mScale, 4000/mScale);
 		surface_set_target(surfTemp2);
-			draw_surface_stretched_ext(surfTemp, 0, 0, 10000/mScale, 4000/mScale, #AAAAAA, 1);
+			draw_surface_stretched_ext(surfTemp, 0, 0, 10000/mScale, 4000/mScale, #000000, 1);
 		surface_reset_target();
 		
 		surface_set_target(surfMinimapBg);
@@ -62,7 +62,7 @@ function sc_initMinimapEntity() {
 		
 		with (ob_player) {
 			var mScale = other.mScale;
-			draw_sprite_ext(sp_mapIcon, 0, x/mScale, y/mScale, 0.5, 0.5, 0.0, c_white, 1.0);
+			draw_sprite_ext(sp_mapIcon, 0, x/mScale, y/mScale, 0.5, 0.5, 0.0, c_green, 1.0);
 		}
 	surface_reset_target();
 }
