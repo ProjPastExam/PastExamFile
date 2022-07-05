@@ -57,7 +57,7 @@ function sc_initMinimapEntity() {
 		draw_clear_alpha(c_black, 0.0);
 		with (ob_mobBase) {
 			var mScale = other.mScale;
-			if (hp > 0) draw_sprite_ext(sp_mapIcon, 0, x/mScale, y/mScale, 0.5, 0.5, 0.0, c_red, 1.0);
+			if (hp > 0) draw_sprite_ext(sp_mapIconMob, 0, x/mScale, bbox_bottom/mScale, 1, 1, 0.0, c_white, 1.0);
 		}
 		
 		with (ob_player) {

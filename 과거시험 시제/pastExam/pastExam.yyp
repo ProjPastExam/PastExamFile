@@ -9,6 +9,7 @@
     {"id":{"name":"sp_banditBoss_atk4","path":"sprites/sp_banditBoss_atk4/sp_banditBoss_atk4.yy",},"order":13,},
     {"id":{"name":"uc_get_port_width","path":"scripts/uc_get_port_width/uc_get_port_width.yy",},"order":2,},
     {"id":{"name":"sp_jpBoss_csatk1_2","path":"sprites/sp_jpBoss_csatk1_2/sp_jpBoss_csatk1_2.yy",},"order":3,},
+    {"id":{"name":"sp_mapIconMob","path":"sprites/sp_mapIconMob/sp_mapIconMob.yy",},"order":3,},
     {"id":{"name":"sp_skillUi_101Info","path":"sprites/sp_skillUi_101Info/sp_skillUi_101Info.yy",},"order":10,},
     {"id":{"name":"sp_settingBtQuit","path":"sprites/sp_settingBtQuit/sp_settingBtQuit.yy",},"order":7,},
     {"id":{"name":"obj_uls_shadow_renderer","path":"objects/obj_uls_shadow_renderer/obj_uls_shadow_renderer.yy",},"order":1,},
