@@ -30,7 +30,7 @@ function sc_obPhysics() {
 	if ( top = 3 ) { if ( ySpeed < 0 ) ySpeed = 5; }
 
 	//중력 작용, 오브젝트의 추락
-	if ( ySpeed > gravMax ) ySpeed = gravMax;
+	//if ( ySpeed > gravMax ) ySpeed = gravMax;
 	y = y + ySpeed;
 	ySpeed += grav;
 
