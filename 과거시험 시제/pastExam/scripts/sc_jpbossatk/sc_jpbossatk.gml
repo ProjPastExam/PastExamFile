@@ -25,7 +25,12 @@ function sc_jpBossatk(){
 		
 	}
 	else if ( state == 11 ){
-		sc_mobRun(12, 600, 300, 30, nextState, plX, left1, left2, right1, right2);
+		//if ( nextState == 20 )	sc_jpBossRdy();
+		var disIndex1 = 600;
+		var disIndex2 = 300;
+		if (nextState == 20) { disIndex1 = 1200;	disIndex2 = 0; }
+		if (nextState == 18) { disIndex1 = 800;		disIndex2 = 400; }
+		sc_mobRun(12, disIndex1, disIndex2, 30, nextState, plX, left1, left2, right1, right2);
 	}
 	else if ( state == 12 ) {
 		process++;
@@ -227,7 +232,7 @@ function sc_jpBossatk(){
 		else if ( process < 45 ) { image_index = 8; }
 		else if ( process < 50 ) { image_index = 9; }
 		else if ( process < 55 ) { image_index = 10; }
-		else { state = 21;	process = 0;	delay = 0; }
+		else { sc_jpBossAtkNext(90);	process = 0;	delay = 0; }
 	}
 	
 	else if ( state == 21 ) {
@@ -264,7 +269,7 @@ function sc_jpBossatk(){
 		else if ( process < 15 ) { image_index = 2; }
 		else if ( process < 20 ) { image_index = 3; }
 		else if ( process < 25 ) { image_index = 4; }
-		else { state = 24;	process = 12;	delay = 0; }
+		else { sc_jpBossAtkNext();	delay = 0; }
 	}
 	
 	else if ( state == 23 ) {
@@ -287,7 +292,7 @@ function sc_jpBossatk(){
 		else if ( process < 20 ) { image_index = 7; }
 		else if ( process < 25 ) { image_index = 8; }
 		else if ( process < 50 ) { image_index = 9; }
-		else { state = 10;	process = 0;	delay = 0; }
+		else { sc_jpBossAtkNext(nextState);	process = 0;	delay = 0; }
 	}
 	
 	else if ( state == 24 ) {
@@ -350,7 +355,7 @@ function sc_jpBossatk(){
 		else if ( process < 157 ) { image_index = 22; }
 		else if ( process < 163 ) { image_index = 23; }
 		else if ( process < 185 ) { image_index = 24; }
-		else { state = 10;	process = 0;	delay = 100; }
+		else { sc_jpBossAtkNext(nextState);	process = 0;	delay = 100; }
 	}
 	
 	else if ( state == 26 ) {
@@ -475,8 +480,9 @@ function sc_jpBossatk(){
 			state = 16;
 			process = 0;
 		}
-		else if (process == 1) {
+		if (kbIndex == 1) {
 			sc_jpBossAtkNext(nextState);
+			delay = phaseDelay*3 + 30;
 		}
 	}
 }
@@ -503,10 +509,23 @@ function sc_jpBossAtkNext(index = state){
 		else if (ran < 6) { nextState = 18; state = 10; }
 		else { nextState = 20;	sc_jpBossRdy(); }
 	}
+	else if (index == 20) {
+		if (ran < 7) { nextState = 12; state = 10; }
+		else if (ran < 10) { nextState = 18; state = 10; }
+		else { nextState = 20;	sc_jpBossRdy(); }
+	}
+	else if (index == 90) {
+		if (ran < 8) { state = 21; }
+		else { state = 25; }
+	}
+	else if (index == 22) {
+		if (ran < 6) { state = 23; process = 0; }
+		else { state = 24; process = 12; }
+	}
 	else {
-		nextState = 20;	sc_jpBossRdy();
-		//nextState = 12;
-		//state = 10;
+		if (ran < 7) { nextState = 12; state = 10; }
+		else if (ran < 10) { nextState = 18; state = 10; }
+		else { nextState = 20;	sc_jpBossRdy(); }
 	}
 
 }
@@ -515,7 +534,7 @@ function sc_jpBossRdy(){
 	var plX = sc_pl_get("x");
 	var disIndex = abs(plX - x);
 	
-	if (disIndex > 850) { state = 20; }
-	else if ( x < 500 || x > room_width - 500 || disIndex < 400 )	{ state = 26; }
-	else { state = 32 }
+	if (disIndex > 850) { state = 20;	process = 0; }
+	else if ( x < 500 || x > room_width - 500 || disIndex < 400 )	{ state = 26;	process = 0; }
+	else { state = 32;	process = 0; }
 }
