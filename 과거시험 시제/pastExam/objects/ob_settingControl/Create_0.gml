@@ -11,3 +11,4 @@ settingIndex = 0;
 nextIndex = true;
 
 surf = -1;
+mapSurf	= -1;

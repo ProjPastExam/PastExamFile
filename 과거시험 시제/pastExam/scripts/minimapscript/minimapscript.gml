@@ -5,6 +5,7 @@ function sc_setMinimap() {
 	surfMinimapBg	= -1;
 	surfMinimapEntities = -1;
 	surfMinimapTrap	= -1;
+	surfMinimap = -1;
 	mScale = 10;
 	mw = 480;
 	mh = 210;
@@ -78,10 +79,20 @@ function sc_drawMap(){
 	
 	if (!surface_exists(surfMinimapTrap))	sc_initMinimapTrap();
 	if (!surface_exists(surfMinimapBg))		sc_initMinimap();
+	if (!surface_exists(surfMinimap))		surfMinimap = surface_create(mw, mh);
 	sc_initMinimapEntity();
-
-	draw_sprite(sp_minimapBox, 0, 1400, 30);
-	draw_surface_part(surfMinimapTrap, mX, mY, mw, mh, 1400, 30);
-	draw_surface_part(surfMinimapBg, mX, mY, mw, mh, 1400, 30);
-	draw_surface_part(surfMinimapEntities, mX, mY, mw, mh, 1400, 30);
+	
+	
+	surface_set_target(surfMinimap);
+		draw_clear_alpha(c_black, 0.0);
+		draw_surface_part(surfMinimapTrap, mX, mY, mw, mh, 0, 0);
+		draw_surface_part(surfMinimapBg, mX, mY, mw, mh, 0, 0);
+		draw_surface_part(surfMinimapEntities, mX, mY, mw, mh, 0, 0);
+	surface_reset_target();
+	
+	draw_sprite(sp_minimapBox, 0, global.MapX, global.MapY);
+	draw_surface(surfMinimap, global.MapX, global.MapY)
+	//draw_surface_part(surfMinimapTrap, mX, mY, mw, mh, global.MapX, global.MapY);
+	//draw_surface_part(surfMinimapBg, mX, mY, mw, mh, global.MapX, global.MapY);
+	//draw_surface_part(surfMinimapEntities, mX, mY, mw, mh, global.MapX, global.MapY);
 }

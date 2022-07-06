@@ -21,6 +21,7 @@ nameS = "";
 talkArray = array_create(20);
 talkNum = 0;
 talkCnt = 0;
+isEnhance = false;
 
 cmMode = 0;
 
@@ -33,7 +34,7 @@ sc_itemSprite();
 
 //스킬 UI 설정
 sc_skillUi();
-instance_create_depth(0, 0, 0, ob_UIControl);
+//instance_create_depth(0, 0, 0, ob_UIControl);
 //sc_setMinimap();
 
 //파티클 시스템

@@ -6,3 +6,4 @@ tabIndex = 0;
 interIndex = 0;
 hpProcess = 0;
 surf	= -1;
+mapSurf	= -1;

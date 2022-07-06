@@ -123,6 +123,8 @@ global.screenBuffer	= NULL;
 global.camBufferX	= NULL;
 global.camBufferY	= NULL;
 
+global.mapBuffer	= -1;
+
 //스킬 변수
 {
 global.skMp = array_create(600, 0);
@@ -133,7 +135,7 @@ global.skMp[101]	= 300;	//총
 global.skMp[102]	= 200;	//창 찌르기
 global.skMp[103]	= 100;	//환도
 global.skMp[104]	= 300;	//연사
-global.skMp[105]	= 200;	//세총통
+global.skMp[105]	= 100;	//세총통
 global.skMp[106]	= 0;	//장군전
 	
 global.skKul	= array_create(3, 0);
@@ -145,7 +147,7 @@ global.skKulData[101]	= 180;
 global.skKulData[102]	= 120;
 global.skKulData[103]	= 120;
 global.skKulData[104]	= 120;
-global.skKulData[105]	= 60;
+global.skKulData[105]	= 90;
 global.skKulData[106]	= 60;	//장군전
 }
 }

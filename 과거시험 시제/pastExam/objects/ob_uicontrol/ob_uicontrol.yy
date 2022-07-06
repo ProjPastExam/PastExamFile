@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "gameControl",
-    "path": "folders/Objects/gameControl.yy",
+    "name": "UISet",
+    "path": "folders/Objects/gameControl/UISet.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_UIControl",

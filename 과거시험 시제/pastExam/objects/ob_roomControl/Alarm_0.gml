@@ -75,52 +75,23 @@ else if ( isTalk == 5) {
 
 
 if ( keyboard_check_pressed(global.btTap) && global.hp > 0 && dark == 0 ) {
-	//if ( pause == -21 )		pause = 0;
-	//else if ( pause == 0 )	pause = -20;
-	room_persistent = true;
-	global.roomBuffer = room;
-	global.camBufferX = uc_get_x();
-	global.camBufferY = uc_get_y();
-	
-	buffer_delete(global.screenBuffer);
-	var tempSurface = surface_create(1920, 1080);
-	surface_copy(tempSurface,0,0,application_surface);
-	global.screenBuffer = buffer_create(1920 * 1080 * 4, buffer_grow, 1);
-		
-	buffer_get_surface(global.screenBuffer, tempSurface, 0);
-	surface_free(tempSurface);
-	
-	//if (!surface_exists(global.screenBuffer))	global.screenBuffer = surface_create(display_get_width(), display_get_height());
-	//if (!surface_exists(global.screenBuffer))	global.screenBuffer = surface_create(global.screenX, global.screenY);
-	//surface_copy(global.screenBuffer,0,0,application_surface);
-	//application_surface_draw_enable(false);
-
-	room_goto(r_tab);
-	//room_goto(r_enhance);
+	sc_gameRoom(r_tab);
 }
 
 if ( keyboard_check_pressed(global.btEsc) && global.hp > 0  ) {
 	if ( isTalk == 0 && dark == 0) {
-		room_persistent = true;
-		global.roomBuffer = room;
-		global.camBufferX = uc_get_x();
-		global.camBufferY = uc_get_y();
-	
-		buffer_delete(global.screenBuffer);
-		var tempSurface = surface_create(1920, 1080);
-		surface_copy(tempSurface,0,0,application_surface);
-		global.screenBuffer = buffer_create(1920 * 1080 * 4, buffer_grow, 1);
-		
-		buffer_get_surface(global.screenBuffer, tempSurface, 0);
-		surface_free(tempSurface);
-
-		room_goto(r_setting);
+		sc_gameRoom(r_setting);
 	}
 	
 	if (isCt) {
 		alarm[7] = 1;
 		BGS_Set(0, 0);
 	}
+}
+
+if (isEnhance) {
+	isEnhance = false;
+	sc_gameRoom(r_enhance);
 }
 
 //if ((isTalk < 4 || isTalk > 7) && !isCt ) alarm[7] = 1;
