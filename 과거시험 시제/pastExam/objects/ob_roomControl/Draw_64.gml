@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+//draw_text(50, 50, mobNum);
+
 if (isCt) {
 	draw_sprite_stretched_ext(sp_black, 0, 0, 0, 2400, 150, 0, 1);
 	draw_sprite_stretched_ext(sp_black, 0, 0, 930, 2400, 150, 0, 1);

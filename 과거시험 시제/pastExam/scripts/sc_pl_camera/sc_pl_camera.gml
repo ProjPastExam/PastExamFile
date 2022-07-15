@@ -17,13 +17,13 @@ function sc_pl_camera() {
 	//layer_hspeed("Background1",-(camX - uc_get_x()));
 	//layer_vspeed("Background1",-(camY - uc_get_y()));
 	
-	
-	if (instance_exists(ob_roomControl) && ob_roomControl.cmMode == 0) {
-		uc_set_target_position(x,y-90);
-
-	}
-	
-	if (instance_exists(ob_roomControl) && ob_roomControl.cmMode == 10) {
-		uc_set_target_position(uc_get_x()+80, uc_get_y()-2);
+	if (instance_exists(ob_roomControl)) {
+		if (ob_roomControl.cmMode == 0) {
+			uc_set_target_position(x,y-90);
+		}
+		
+		else if (ob_roomControl.cmMode == 10) {
+			uc_set_target_position(uc_get_x()+80, uc_get_y()-2);
+		}
 	}
 }

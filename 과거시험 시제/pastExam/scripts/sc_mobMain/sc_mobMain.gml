@@ -6,7 +6,15 @@ function sc_mobMain(){
 	image_xscale = dir;
 		
 	if ( patrol ) sc_mobPatrol();
-	if ( hp <= 0 ) { state = -1; process = 0; hitAfter = -1;}
+	if ( hp <= 0 ) { 
+		state = -1; process = 0; hitAfter = -1;
+		if (!isDie) {
+			isDie = true;
+			with (ob_roomControl) {
+				mobNum--;
+			}
+		}
+	}
 	if (state != 5 && state != 6 && state != 7 && state != 8) sc_mobAd();
 	
 	if (state == 5 || state == 6 || state == 7 || state == 8) {

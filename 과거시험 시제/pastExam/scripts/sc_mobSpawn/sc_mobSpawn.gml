@@ -24,4 +24,6 @@ function sc_mobSpawn(){
 	nextState	= 0;
 	
 	hitLot		= 0;
+	
+	isDie		= false;
 }

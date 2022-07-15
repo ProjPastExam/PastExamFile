@@ -139,6 +139,7 @@ function sc_pl_move() {
 		}
 	}
 	if (dProcess > -1 && canMove == 10) sc_pl_dash();
+	if (canMove != 10 && dProcess > -1 ) dProcess = -30;
 
 	if (item2 > 0)	sc_pl_item2();
 	

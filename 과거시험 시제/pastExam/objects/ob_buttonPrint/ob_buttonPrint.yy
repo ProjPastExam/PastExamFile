@@ -30,8 +30,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "gameControl",
-    "path": "folders/Objects/gameControl.yy",
+    "name": "roomControl",
+    "path": "folders/Objects/gameControl/roomControl.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_buttonPrint",

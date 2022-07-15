@@ -1,35 +1,46 @@
 /// @description Insert description here
 // You can write your code in this editor
+var cX = uc_get_view_width()/2 + 20;
+var mob;
 
-
-if (pace < paceMax) {
-	var cX = uc_get_view_width()/2 + 100;
-	var mob;
-
-	if (mobNum[pace] == 1) {
-		mob = instance_create_layer(x+cX, y, "Instances", mobStack[pace][1])
-		mob.xSpeed = -9;
-		mob.state = 11;
+for (var i = 0; i < mobNum[pace]; i++) {
+	var tempX = 0;
+	var tempSpd = 10;
+	if (i == 0) {
+		tempX = x+cX;
+		tempSpd = -10;
 	}
-	if (mobNum[pace] == 2) {
-		mob = instance_create_layer(x-cX, y, "Instances", mobStack[pace][1])
-		mob.xSpeed = 9;
-		mob.state = 11;
+	else if (i == 1) {
+		tempX = x+cX+100;
+		tempSpd = -10;
 	}
-	if (mobNum[pace] == 3) {
-		mob = instance_create_layer(x+cX+100, y, "Instances", mobStack[pace][1])
-		mob.xSpeed = -9;
-		mob.state = 11;
+	else if (i == 2) {
+		tempX = x+cX+200;
+		tempSpd = -10;
 	}
-	if (mobNum[pace] == 4) {
-		mob = instance_create_layer(x-cX-100, y, "Instances", mobStack[pace][1])
-		mob.xSpeed = 9;
-		mob.state = 11;
+	else if (i == 3) {
+		tempX = x-cX;
 	}
-	pace++;
-	alarm[1] = term;
-	if ( sc_getRoomValue("pause") != 0 ) if (alarm[1] > 0) alarm[1]++;
+	else if (i == 4) {
+		tempX = x-cX-100;
+	}
+	else if (i == 5) {
+		tempX = x-cX-200;
+	}
+	if (mobStack[pace][i] != -1) {
+		mob = instance_create_layer(tempX, bbox_bottom - 300, "Instances", mobStack[pace][i])
+		mob.state = 10;
+		mob.ad = true;
+		mob.delay = 50
+		mob.isJump = true;
+		mob.xSpeed = tempSpd;
+	}
 }
-else {
-	if (instance_exists(ob_roomControl)) ob_roomControl.cmMode = 0;
-}
+
+alarm[2] = term;
+alarm[3] = 30;
+alarm[4] = 30;
+isTemp = false;
+isTerm = false;
+pace++;
+
