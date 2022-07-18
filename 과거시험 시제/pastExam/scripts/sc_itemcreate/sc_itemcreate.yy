@@ -6,7 +6,7 @@
     "path": "folders/Scripts/game Data.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sc_skillUi",
+  "name": "sc_itemCreate",
   "tags": [],
   "resourceType": "GMScript",
 }

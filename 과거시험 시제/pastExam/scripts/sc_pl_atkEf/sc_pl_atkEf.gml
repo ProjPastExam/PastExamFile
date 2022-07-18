@@ -13,13 +13,19 @@ function sc_pl_atkEf( dmg, pene, shock, mana, hitUp, hitKind, hitAfter, sprite, 
 	atk.sprite_index	= sprite;
 	atk.image_xscale	= dir;
 	atk.shake			= shake;
-	atk.comIndex		= comIndex + global.comIndex;
+	atk.comIndex		= comIndex;
 	
 	var ctC				= ctChance;
 	if (hitKind == 0)						{ ctC = ctC + sc_pl_atkCt(); }
 	else if (hitKind == 1 || hitKind == 10) { ctC = ctC + sc_pl_kickCt(); }
 	else if (hitKind == 2)					{ ctC = ctC + sc_pl_fireCt(); }
 	
+	var cIndex			= comIndex;
+	if (hitKind == 0)						{ cIndex = cIndex + sc_pl_atkComb(); }
+	else if (hitKind == 1 || hitKind == 10) { cIndex = cIndex + sc_pl_kickComb(); }
+	else if (hitKind == 2)					{ cIndex = cIndex + sc_pl_fireComb(); }
+	
 	atk.ctChance		= ctC;
+	atk.comIndex		= cIndex;
 	return atk;
 }

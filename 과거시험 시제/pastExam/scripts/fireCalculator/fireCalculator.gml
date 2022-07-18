@@ -67,3 +67,16 @@ function sc_pl_fireCtMag(mode = 0) {
 	if (mode == 2) return fireCtMag * 100;
 	
 }
+
+function sc_pl_fireComb(mode = 0) {
+	var fireComb = global.fireComb;
+	
+	if (mode == 1) return fireComb;
+	
+	fireComb = global.fireComb;
+	if (mode == 0) return fireComb;
+	
+	fireComb -= global.fireComb;
+	if (mode == 2) return fireComb;
+	
+}

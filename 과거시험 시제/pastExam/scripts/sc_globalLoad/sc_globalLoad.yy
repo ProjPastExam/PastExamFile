@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "game Script",
-    "path": "folders/Scripts/game Script.yy",
+    "name": "game Data",
+    "path": "folders/Scripts/game Data.yy",
   },
   "resourceVersion": "1.0",
   "name": "sc_globalLoad",

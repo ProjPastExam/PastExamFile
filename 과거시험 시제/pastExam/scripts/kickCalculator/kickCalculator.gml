@@ -72,3 +72,16 @@ function sc_pl_kickCtMag(mode = 0) {
 	if (mode == 2) return kickCtMag * 100;
 	
 }
+
+function sc_pl_kickComb(mode = 0) {
+	var kickComb = global.kickComb;
+	
+	if (mode == 1) return kickComb;
+	
+	kickComb = global.kickComb;
+	if (mode == 0) return kickComb;
+	
+	kickComb -= global.kickComb;
+	if (mode == 2) return kickComb;
+	
+}

@@ -29,6 +29,7 @@ global.atkShock		= 150;
 global.atkMana		= 20;
 global.atkCt		= 0;
 global.atkCtMag		= 1.5;
+global.atkComb		= 2;
 
 global.kickDmg		= 5;
 global.kickPene		= 0;
@@ -36,6 +37,7 @@ global.kickShock	= 210;
 global.kickMana		= 50;
 global.kickCt		= 0;
 global.kickCtMag	= 1.5;
+global.kickComb		= 4;
 
 global.fireDmg		= 20;
 global.firePene		= 0;
@@ -43,6 +45,7 @@ global.fireShock	= 200;
 global.fireMana		= 50;
 global.fireCt		= 0;
 global.fireCtMag	= 1.5;
+global.fireComb		= 2;
 
 global.comCt		= 0;
 global.comCtAlarm	= 0;
@@ -81,38 +84,9 @@ global.atkCtMagScaleItem	= 1;
 global.kickCtMagScaleItem	= 1;
 global.fireCtMagScaleItem	= 1;
 
-//신기전 아이템
-global.itemData[0]	= new itemStruct ( 0, sp_Item_sin, sp_ItemInfo_sin, 2,
-	function(grade) { other.isSin = grade; })
-
-//전방 3연속 발차기 아이템
-global.itemData[1]	= new itemStruct ( 1, sp_Item_kick, sp_ItemInfo_kick, 1,
-	function(grade) { other.isFront = grade; })
-
-//마나소모시 화살 공격 아이템
-global.itemData[2]	= new itemStruct ( 2, sp_Item_02, sp_ItemInfo_02, 0,
-	function(grade) { other.item2 = grade;	other.item2Index1 = 0;	other.item2Index2 = global.mp;	other.item2Index3 = 0; })
-
-//공중의 적 공격 시 추가데미지 아이템
-global.itemData[3]	= new itemStruct ( 3, sp_Item_jump, sp_ItemInfo_jump, 3,
-	function(grade) { other.itemJump = grade; })
-	
-//후방공격 후 전방공격 시 죽창 찌르기 아이템
-global.itemData[4]	= new itemStruct ( 4, sp_Item_jump, sp_ItemInfo_jump, 1,
-	function(grade) { other.item4 = grade;	other.item4Index = true; })
-	
-//화살 치명타 배율 증가 아이템
-global.itemData[5]	= new itemStruct ( 5, sp_Item_jump, sp_ItemInfo_jump, 0,
-	function(grade) { other.item5 = grade; })
-	
-//충격 치명타 배율 증가 아이템
-global.itemData[6]	= new itemStruct ( 6, sp_Item_jump, sp_ItemInfo_jump, 1,
-	function(grade) { other.item6 = grade; })
-	
-//화약 치명타 배율 증가 아이템
-global.itemData[7]	= new itemStruct ( 7, sp_Item_jump, sp_ItemInfo_jump, 2,
-	function(grade) { other.item7 = grade; })
+sc_itemData();
 }
+
 
 global.sk1		= 0;
 global.sk2		= 0;

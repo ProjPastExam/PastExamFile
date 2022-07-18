@@ -74,3 +74,17 @@ function sc_pl_atkCtMag(mode = 0) {
 	if (mode == 2) return atkCtMag * 100;
 	
 }
+
+
+function sc_pl_atkComb(mode = 0) {
+	var atkComb = global.atkComb;
+	
+	if (mode == 1) return atkComb;
+	
+	atkComb = global.atkComb;
+	if (mode == 0) return atkComb;
+	
+	atkComb -= global.atkComb;
+	if (mode == 2) return atkComb;
+	
+}
