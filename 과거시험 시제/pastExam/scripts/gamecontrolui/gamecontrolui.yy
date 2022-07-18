@@ -6,7 +6,7 @@
     "path": "folders/Scripts/game Script.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sc_gameRoom",
+  "name": "gameControlUi",
   "tags": [],
   "resourceType": "GMScript",
 }

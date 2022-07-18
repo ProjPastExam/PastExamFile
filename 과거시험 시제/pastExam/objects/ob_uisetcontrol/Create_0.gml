@@ -4,7 +4,4 @@ skState = 0;
 skState2 = 0;
 tabIndex = 0;
 interIndex = 0;
-hpProcess = 0;
-surf	= -1;
-mapSurf	= -1;
-sc_skillUi();
+sc_gameControlCreate();

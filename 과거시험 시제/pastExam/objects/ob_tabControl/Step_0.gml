@@ -66,7 +66,7 @@ else {
 }
 
 //스킬 UI 설정
-sc_skillUi();
+
 
 if (skState2 != 0) {
 	if (skState == 0) skState2 = 0;

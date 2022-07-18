@@ -10,9 +10,15 @@ if (!surface_exists(surf)) {
 }
 
 if (!surface_exists(mapSurf)) {
-	//surf = surface_create(window_get_width(), window_get_height());
 	mapSurf = surface_create(480, 210);
-	buffer_set_surface(global.mapBuffer, mapSurf, 0);
+	if (global.mapBuffer != -1) {
+		buffer_set_surface(global.mapBuffer, mapSurf, 0);
+	}
+	else {
+		surface_set_target(mapSurf);
+			draw_clear(c_black);
+		surface_reset_target();
+	}
 }
 	
 draw_surface(surf,0, 0);

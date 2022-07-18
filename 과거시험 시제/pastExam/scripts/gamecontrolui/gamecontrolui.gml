@@ -21,6 +21,8 @@ function sc_gameRoom(roomIndex){
 		buffer_get_surface(global.mapBuffer, surfMinimap, 0);
 	}
 	else {
+		global.mapBuffer = -1;
+		/*
 		tempSurface = surface_create(480, 210);
 		surface_set_target(tempSurface);
 			draw_clear(c_black);
@@ -28,9 +30,53 @@ function sc_gameRoom(roomIndex){
 		
 		buffer_get_surface(global.mapBuffer, tempSurface, 0);
 		surface_free(tempSurface);
+		*/
 	}
 	
 	
 	
 	room_goto(roomIndex);
+}
+
+
+function sc_gameControlUI() {
+	if (!surface_exists(surf)) {
+		//surf = surface_create(window_get_width(), window_get_height());
+		surf = surface_create(1920, 1080);
+		buffer_set_surface(global.screenBuffer, surf, 0);
+	}
+	
+	if (!surface_exists(mapSurf)) {
+		mapSurf = surface_create(480, 210);
+		if (global.mapBuffer != -1) {
+			buffer_set_surface(global.mapBuffer, mapSurf, 0);
+			isMap = true;
+		}
+		else {
+			surface_set_target(mapSurf);
+				draw_clear(c_black);
+			surface_reset_target();
+			isMap = false;
+		}
+	}
+	
+	draw_surface(surf,0, 0);
+	
+	if (isMap) {
+		draw_sprite(sp_minimapBox, 0, global.MapX, global.MapY);
+		draw_surface(mapSurf,global.MapX, global.MapY);
+	}
+	
+	sc_gameGUI();
+	draw_sprite(sp_black2, 0, 0, 0);
+
+}
+
+function sc_gameControlCreate() {
+	sc_skillUi();
+	sc_itemSprite();
+	hpProcess = 0;
+	surf	= -1;
+	mapSurf	= -1;
+	isMap = true;
 }

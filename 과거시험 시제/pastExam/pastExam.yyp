@@ -973,7 +973,7 @@
     {"id":{"name":"sp_banditBoss_die","path":"sprites/sp_banditBoss_die/sp_banditBoss_die.yy",},"order":3,},
     {"id":{"name":"sp_hitEffect_counterK","path":"sprites/sp_hitEffect_counterK/sp_hitEffect_counterK.yy",},"order":6,},
     {"id":{"name":"sp_vl_tree","path":"sprites/sp_vl_tree/sp_vl_tree.yy",},"order":5,},
-    {"id":{"name":"sc_gameRoom","path":"scripts/sc_gameRoom/sc_gameRoom.yy",},"order":14,},
+    {"id":{"name":"gameControlUi","path":"scripts/gameControlUi/gameControlUi.yy",},"order":14,},
     {"id":{"name":"uc_get_mouse_drag_button","path":"scripts/uc_get_mouse_drag_button/uc_get_mouse_drag_button.yy",},"order":1,},
     {"id":{"name":"sp_key_e","path":"sprites/sp_key_e/sp_key_e.yy",},"order":4,},
     {"id":{"name":"ob_tabControl_sk","path":"objects/ob_tabControl_sk/ob_tabControl_sk.yy",},"order":8,},

@@ -3,12 +3,8 @@
 //BGM_Play(global.SM_BGM_SOUND, global.volBgm, 0);
 
 goBack = false;
-sc_skillUi();
-hpProcess = 0;
-
 settingIndex = 0;
 
 nextIndex = true;
 
-surf = -1;
-mapSurf	= -1;
+sc_gameControlCreate();
