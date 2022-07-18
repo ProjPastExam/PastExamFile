@@ -16,7 +16,10 @@ switch (keyIndex) {
 	case "btInter":	selfIndex = global.btInter;	break;
 }
 
+apIndex = 0;
 state = 0;
 settingIndex = 0;
+isAgain = false;
+keySet = 10;
 
 sprite_index = sc_keySprite(selfIndex);

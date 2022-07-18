@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (apIndex > 0) apIndex--;
+
 if (state == 2) {
 	with (ob_keySet) {
 		state = 0;

@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_keySet(){
-	var keySet = 10;
+	keySet = 10;
 	
 	if (keyboard_check_pressed(ord("A")))		{keySet = ord("A");}
 	else if (keyboard_check_pressed(ord("B")))	{keySet = ord("B");}
@@ -52,7 +52,17 @@ function sc_keySet(){
 	else if (keyboard_check_pressed(vk_lalt))	{keySet = vk_lalt;}
 	else if (keyboard_check_pressed(vk_control))	{keySet = vk_control;}
 	
-	if (keySet != 10) {
+	isAgain = true;
+	with (ob_keySet) {
+		if (selfIndex == other.keySet && keyIndex != other.keyIndex) {
+			other.isAgain = false;
+			uc_shake(5, 0.1);
+			alarm[2] = 1;
+		}
+	}
+	
+	
+	if (keySet != 10 && isAgain) {
 		state = 0;
 		switch (keyIndex) {
 		case "btAtk":

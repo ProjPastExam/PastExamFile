@@ -5,23 +5,6 @@ with (ob_keySet) {
 	settingIndex = other.settingIndex;
 }
 
-if (keyboard_check_pressed(global.btTap)) {
-	room_goto(r_tab);
-}
-
-nextIndex = true;
-with (ob_keySet) {
-	if (state == 2) other.nextIndex = false;
-}
-
-if (keyboard_check_pressed(global.btSk2)) {
-	if (nextIndex) room_goto(r_itemInfo);
-}
-
-if (keyboard_check_pressed(global.btSk3)) {
-	if (nextIndex) room_goto(r_tab);
-}
-
 if (keyboard_check_pressed(global.btLeft)) {
 	if (settingIndex > 6 && settingIndex < 13) {
 		settingIndex -= 7;
