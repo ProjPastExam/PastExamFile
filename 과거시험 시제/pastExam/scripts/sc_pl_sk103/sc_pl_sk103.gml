@@ -31,13 +31,13 @@ function sc_pl_sk103(){
 		SE_Play(s_swing_c1, global.vol);
 		//audio_play_sound(s_swing_c1, 5, false);
 		atk = sc_pl_atkEf(sc_pl_kickDmg()*6, sc_pl_kickPene()+40, sc_pl_kickShock()+100, 0, 
-			0, 10, 0, sp_pl_atkEf103_1, dir);
+			0, 10, 0, sp_pl_atkEf103_1, dir, , , , , 2);
 		global.mp -= global.skMp[103];
 	}
 	
 	if ( atkProcess == 8 ) { atk.sprite_index = sp_pl_atkEf103_1; }
 	if ( atkProcess == 48 ) { atk.sprite_index = sp_pl_atkEf103_2; }
-	if ( atkProcess == 88 ) { atk.sprite_index = sp_pl_atkEf103_3; atk.damage = sc_pl_kickDmg()*12; }
+	if ( atkProcess == 88 ) { atk.sprite_index = sp_pl_atkEf103_3; }
 	
 	//대쉬 제어
 	if ( (atkProcess > 10 ) ) {

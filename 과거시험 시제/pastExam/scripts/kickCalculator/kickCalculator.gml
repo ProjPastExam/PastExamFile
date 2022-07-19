@@ -53,7 +53,7 @@ function sc_pl_kickCt(mode = 0) {
 	var kickCt = global.kickCt;
 	if (mode == 1) return kickCt;
 	
-	kickCt = global.kickCt + global.comCt/2;
+	if (global.comCt > 0) kickCt = global.kickCt + global.comCt/2;
 	if (mode == 0) return kickCt;
 	
 	kickCt -= global.kickCt;

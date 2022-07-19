@@ -47,7 +47,7 @@ function sc_pl_fireCt(mode = 0) {
 	var fireCt = global.fireCt;
 	if (mode == 1) return fireCt;
 	
-	fireCt = global.fireCt + global.comCt/2;
+	if (global.comCt > 0) fireCt = global.fireCt + global.comCt/2;
 	if (mode == 0) return fireCt;
 	
 	fireCt -= global.fireCt;

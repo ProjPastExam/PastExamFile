@@ -54,7 +54,7 @@ function sc_pl_atkCt(mode = 0) {
 	var atkCt = global.atkCt;
 	if (mode == 1) return atkCt;
 	
-	atkCt = global.atkCt + global.comCt/2;
+	if (global.comCt > 0) atkCt = global.atkCt + global.comCt/2;
 	if (mode == 0) return atkCt;
 	
 	atkCt -= global.atkCt;

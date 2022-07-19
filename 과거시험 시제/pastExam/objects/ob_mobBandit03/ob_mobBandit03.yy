@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sp_bandit03_stand",
-    "path": "sprites/sp_bandit03_stand/sp_bandit03_stand.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

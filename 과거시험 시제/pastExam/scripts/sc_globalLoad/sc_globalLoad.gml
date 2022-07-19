@@ -67,5 +67,7 @@ function sc_globalLoad(){
 	global.UIY		= VSLS_Get("UIY");
 	global.MapX		= VSLS_Get("MapX");
 	global.MapY		= VSLS_Get("MapY");
+	global.comX		= 50;
+	global.comY		= 390;
 	}
 }

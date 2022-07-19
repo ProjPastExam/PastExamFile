@@ -15,20 +15,7 @@ if (isGUI) {
 	if (isMinimap) sc_drawMap();
 	
 	if (global.comCt > 0) {
-		if (global.comCt > 100) global.comCt = 100;
-		draw_sprite(sp_combBox, 0, 100, 395);
-		draw_set_halign(fa_left);
-		draw_set_font(f_bigNum); 
-		
-		draw_set_color(c_black);
-		draw_text(100 + 100, 380, int64(global.comCt));
-		draw_text(100 + 100, 370, int64(global.comCt));
-		draw_text(100 + 105, 375, int64(global.comCt));
-		draw_text(100 + 95, 375, int64(global.comCt));
-		draw_set_color(c_white);
-		draw_text(100 + 100, 375, int64(global.comCt));
-		
-		
+		sc_gameCombUi()
 	}
 }
 draw_sprite_stretched_ext(sp_black, 0, 0, 0, 2400, 1500, 0 ,dark/30);
