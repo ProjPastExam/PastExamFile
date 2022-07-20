@@ -37,7 +37,7 @@
   ],
   "parent": {
     "name": "bandit",
-    "path": "folders/Objects/mob/bandit.yy",
+    "path": "folders/mob/bandit.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_mobBandit02",

@@ -24,6 +24,7 @@ talkCnt = 0;
 isEnhance = false;
 
 cmMode = 0;
+ctIndex = 0;
 
 if (isCt) isTalk = 4;
 

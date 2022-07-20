@@ -32,8 +32,8 @@
     {"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"sp_chun_face","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Objects/NPC.yy",
+    "name": "chun",
+    "path": "folders/Objects/NPC/chun.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_chun_start",

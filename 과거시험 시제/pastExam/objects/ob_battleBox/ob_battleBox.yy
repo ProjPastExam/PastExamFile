@@ -35,8 +35,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "roomControl",
-    "path": "folders/Objects/gameControl/roomControl.yy",
+    "name": "ingameOb",
+    "path": "folders/Objects/ingameOb.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_battleBox",

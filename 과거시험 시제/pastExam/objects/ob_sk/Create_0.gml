@@ -18,6 +18,7 @@ if (isRand) {
 		if (check) break;
 	}
 }
+alarm[2] = 30;
 
 
 //alarm[5] = 10;

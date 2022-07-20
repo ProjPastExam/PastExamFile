@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "skillUi",
-    "path": "folders/Sprites/interface/skillUi.yy",
+    "name": "info",
+    "path": "folders/Sprites/interface/skillUi/info.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_skillUi_105Info",

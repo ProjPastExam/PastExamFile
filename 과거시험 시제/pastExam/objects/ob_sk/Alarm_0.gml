@@ -14,13 +14,19 @@ if (isNew) {
 	ySpeed = 0;
 }
 
-if (isDelete && global.tabDeleteIs == 1) {
-	switch (global.tabDeleteNum) {
-	case 1:	global.sk1 = skNum;	break;
-	case 2:	global.sk2 = skNum;	break;
-	case 3:	global.sk3 = skNum; break;
+if (isDelete) {
+	if (global.tabDeleteIs == 1) {
+		switch (global.tabDeleteNum) {
+		case 1:	global.sk1 = skNum;	break;
+		case 2:	global.sk2 = skNum;	break;
+		case 3:	global.sk3 = skNum; break;
+		}
+		global.tabDeleteIs = 0;
+		instance_destroy();
 	}
-	instance_destroy();
+	else {
+		isDelete = false;
+	}
 }
 
 alarm[0] = 1;

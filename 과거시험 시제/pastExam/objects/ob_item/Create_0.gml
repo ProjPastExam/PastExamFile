@@ -5,6 +5,8 @@ xSpeed = 0;
 ySpeed = 0;
 touch = false;
 sin_t = 0;
+alarm[2] = 30;
+isDelete = false;
 
 if (isRand) {
 	while (1) {

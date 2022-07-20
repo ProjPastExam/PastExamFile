@@ -57,7 +57,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "mob",
-    "path": "folders/Objects/mob.yy",
+    "path": "folders/mob.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_mobBase",

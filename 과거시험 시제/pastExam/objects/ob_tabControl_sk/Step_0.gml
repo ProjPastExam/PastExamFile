@@ -30,7 +30,7 @@ if (keyboard_check(global.btInter)) {
 }
 else {
 	if (interIndex > 0) interIndex--;
-	else interIndex++;
+	//else interIndex++;
 }
 if (interIndex >= 60) {
 	with (ob_tabSkBox_DS) {

@@ -22,7 +22,7 @@ function sc_pl_sk106(){
 		if ( keySk3 ) nextAtk = -3;
 	}
 
-	if ( atkProcess == 54 ) {
+	if ( atkProcess == 63 ) {
 		sc_pl_atkEf(sc_pl_fireDmg()*1.5, sc_pl_firePene()+40, sc_pl_fireShock()+150, 0, 
 			4, 2, 0, sp_pl_atkEf106, dir, 0, x-(60*dir), y+70);
 		uc_shake(12, 0.1);
@@ -45,22 +45,24 @@ function sc_pl_sk106(){
 		sc_pl_atkDnJ();
 	}
 	
-	if ( atkProcess < 6 )		{ image_index = 3; nextAtk = 0; }
-	//else if ( atkProcess < 10 )	{ image_index = 3; }
-	//else if ( atkProcess < 15 )	{ image_index = 2; }
-	//else if ( atkProcess < 20 )	{ image_index = 3; }
-	else if ( atkProcess < 12 )	{ image_index = 4; }
-	else if ( atkProcess < 18 )	{ image_index = 5; }
-	else if ( atkProcess < 28 )	{ image_index = 6; }
-	else if ( atkProcess < 32 )	{ image_index = 7; }
-	else if ( atkProcess < 38 )	{ image_index = 8; }
-	else if ( atkProcess < 44 )	{ image_index = 9; }
-	else if ( atkProcess < 54 )	{ image_index = 10; }
-	else if ( atkProcess < 70 )	{ image_index = 11; xSpeed = dir * -15; }
-	else if ( atkProcess < 75 )	{ image_index = 12; xSpeed = dir * -10; }
-	else if ( atkProcess < 80 )	{ image_index = 13; xSpeed = dir * -5; }
-	else if ( atkProcess < 85 )	{ image_index = 14; xSpeed = 0; }
-	else if ( atkProcess < 100 )	{
+	if ( atkProcess < 6 )			{ image_index = 0; nextAtk = 0; }
+	else if ( atkProcess < 12 )		{ image_index = 1; }
+	else if ( atkProcess < 21 )		{ image_index = 2; }
+	else if ( atkProcess < 27 )		{ image_index = 3; }
+	else if ( atkProcess < 33 )		{ image_index = 4; }
+	else if ( atkProcess < 39 )		{ image_index = 5; }
+	else if ( atkProcess < 45 )		{ image_index = 6; xSpeed = dir * -8; }
+	else if ( atkProcess < 51 )		{ image_index = 6; xSpeed = dir * -4; }
+	else if ( atkProcess < 57 )		{ image_index = 7; }
+	else if ( atkProcess < 63 )		{ image_index = 8; }
+	else if ( atkProcess < 69 )		{ image_index = 9; xSpeed = dir * -20; }
+	else if ( atkProcess < 75 )		{ image_index = 10; xSpeed = dir * -16; }
+	else if ( atkProcess < 81 )		{ image_index = 11; xSpeed = dir * -12;  }
+	else if ( atkProcess < 87 )		{ image_index = 12; xSpeed = dir * -8;  }
+	else if ( atkProcess < 93 )		{ image_index = 13; xSpeed = dir * -4;  }
+	else if ( atkProcess < 99 )		{ image_index = 14; }
+	else if ( atkProcess < 105 )		{ image_index = 15; }
+	else if ( atkProcess < 120 )	{
 		if ( nextAtk == 1 ) { nextAtk = 0; atkProcess = 0; canMove = 1; }
 		else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 		else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }

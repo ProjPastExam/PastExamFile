@@ -40,7 +40,7 @@
   ],
   "parent": {
     "name": "chang",
-    "path": "folders/Objects/mob/chang.yy",
+    "path": "folders/mob/chang.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_chang03",

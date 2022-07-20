@@ -96,19 +96,19 @@ function sc_gameGUI(){
 }
 
 
-function sc_gameCombUi(){
-	draw_sprite(sp_combBox, 0, global.comX, global.comY);
+function sc_gameCombUi(actionX = 0){
+	draw_sprite(sp_combBox, 0, global.comX + actionX, global.comY);
 	draw_set_halign(fa_left);
-	draw_set_font(f_bigNum); 
+	draw_set_font(f_bigNum);
 	
 	draw_set_color(c_black);
 	var ctText = string(int64(global.comCt)) + " 연타";
-	draw_text(global.comX + 60, global.comY - 15, ctText);
-	draw_text(global.comX + 60, global.comY - 25, ctText);
-	draw_text(global.comX + 65, global.comY - 20, ctText);
-	draw_text(global.comX + 55, global.comY - 20, ctText);
+	draw_text(global.comX + 60 + actionX * 4, global.comY - 15, ctText);
+	draw_text(global.comX + 60 + actionX * 4, global.comY - 25, ctText);
+	draw_text(global.comX + 65 + actionX * 4, global.comY - 20, ctText);
+	draw_text(global.comX + 55 + actionX * 4, global.comY - 20, ctText);
 	draw_set_color(c_white);
-	draw_text(global.comX + 60, global.comY - 20, ctText);
+	draw_text(global.comX + 60 + actionX * 4, global.comY - 20, ctText);
 }
 
 

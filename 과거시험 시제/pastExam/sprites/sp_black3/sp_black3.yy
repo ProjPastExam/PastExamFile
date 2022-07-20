@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "interface",
-    "path": "folders/Sprites/interface.yy",
+    "name": "blackBox",
+    "path": "folders/Sprites/interface/blackBox.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_black3",

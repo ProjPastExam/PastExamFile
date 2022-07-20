@@ -38,7 +38,7 @@
   ],
   "parent": {
     "name": "jpob",
-    "path": "folders/Objects/mob/jpob.yy",
+    "path": "folders/mob/jpob.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_jpSpear",
