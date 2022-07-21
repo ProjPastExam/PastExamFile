@@ -22,6 +22,24 @@ if (keyboard_check_pressed(global.btRight) ) {
 	}
 }
 
+if (keyboard_check_pressed(global.btUp) ) {
+	if (sIndex == 1 || sIndex == 2 || sIndex == 3) {
+		sIndex += 6;
+	}
+	else {
+		sIndex -= 3;
+	}
+}
+
+if (keyboard_check_pressed(global.btDown) ) {
+	if (sIndex == 7 || sIndex == 8 || sIndex == 9) {
+		sIndex -= 6;
+	}
+	else {
+		sIndex += 3;
+	}
+}
+
 with (ob_enhanceIcon) {
 	sIndex = other.sIndex;
 }

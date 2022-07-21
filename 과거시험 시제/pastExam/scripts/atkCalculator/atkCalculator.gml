@@ -52,26 +52,26 @@ function sc_pl_atkShock(mode = 0){
 
 function sc_pl_atkCt(mode = 0) {
 	var atkCt = global.atkCt;
-	if (mode == 1) return atkCt;
+	if (mode == 1) return atkCt*100;
 	
-	if (global.comCt > 0) atkCt = global.atkCt + global.comCt/2;
+	atkCt = global.atkCt;
 	if (mode == 0) return atkCt;
 	
 	atkCt -= global.atkCt;
-	if (mode == 2) return atkCt;
+	if (mode == 2) return atkCt*100;
 }
 
 
 function sc_pl_atkCtMag(mode = 0) {
 	var atkCtMag = global.atkCtMag;
 	
-	if (mode == 1) return atkCtMag * 100;
+	if (mode == 1) return atkCtMag * sc_pl_atkDmg(1);
 	
 	atkCtMag = global.atkCtMag;
-	if (mode == 0) return atkCtMag;
+	if (mode == 0) return atkCtMag * sc_pl_atkDmg(1);
 	
 	atkCtMag -= global.atkCtMag;
-	if (mode == 2) return atkCtMag * 100;
+	if (mode == 2) return atkCtMag * sc_pl_atkDmg(1);
 	
 }
 

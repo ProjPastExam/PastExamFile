@@ -19,21 +19,21 @@ draw_text(x+200, y+30, "+");
 draw_text(x+230, y+30, int64(sc_pl_atkMana(2)));
 
 draw_set_halign(fa_left);
-draw_text(x, y+60, "방어 관통");
+draw_text(x, y+60, "연타 수치");
 draw_set_halign(fa_center);
-draw_text(x+170, y+60, int64(sc_pl_atkPene(1)));
+draw_text(x+170, y+60, sc_pl_atkComb(1));
 draw_text(x+200, y+60, "+");
-draw_text(x+230, y+60, int64(sc_pl_atkPene(2)));
+draw_text(x+230, y+60, sc_pl_atkComb(2));
 
 draw_set_halign(fa_left);
-draw_text(x, y+90, "치명타 확률");
+draw_text(x, y+90, "치명타 보정");
 draw_set_halign(fa_center);
 draw_text(x+170, y+90, int64(sc_pl_atkCt(1)));
 draw_text(x+200, y+90, "+");
 draw_text(x+230, y+90, int64(sc_pl_atkCt(2)));
 
 draw_set_halign(fa_left);
-draw_text(x, y+120, "치명타 배율");
+draw_text(x, y+120, "치명타 공격력");
 draw_set_halign(fa_center);
 draw_text(x+170, y+120, int64(sc_pl_atkCtMag(1)));
 draw_text(x+200, y+120, "+");
@@ -57,21 +57,21 @@ draw_text(x+200, y+210, "+");
 draw_text(x+230, y+210, int64(sc_pl_kickMana(2)));
 
 draw_set_halign(fa_left);
-draw_text(x, y+240, "방어 관통");
+draw_text(x, y+240, "연타 수치");
 draw_set_halign(fa_center);
-draw_text(x+170, y+240, int64(sc_pl_kickPene(1)));
+draw_text(x+170, y+240, sc_pl_kickComb(1));
 draw_text(x+200, y+240, "+");
-draw_text(x+230, y+240, int64(sc_pl_kickPene(2)));
+draw_text(x+230, y+240, sc_pl_kickComb(2));
 
 draw_set_halign(fa_left);
-draw_text(x, y+270, "치명타 확률");
+draw_text(x, y+270, "치명타 보정");
 draw_set_halign(fa_center);
 draw_text(x+170, y+270, int64(sc_pl_kickCt(1)));
 draw_text(x+200, y+270, "+");
 draw_text(x+230, y+270, int64(sc_pl_kickCt(2)));
 
 draw_set_halign(fa_left);
-draw_text(x, y+300, "치명타 배율");
+draw_text(x, y+300, "치명타 공격력");
 draw_set_halign(fa_center);
 draw_text(x+170, y+300, int64(sc_pl_kickCtMag(1)));
 draw_text(x+200, y+300, "+");
@@ -95,21 +95,21 @@ draw_text(x+200, y+390, "+");
 draw_text(x+230, y+390, int64(sc_pl_fireMana(2)));
 
 draw_set_halign(fa_left);
-draw_text(x, y+420, "방어 관통");
+draw_text(x, y+420, "연타 수치");
 draw_set_halign(fa_center);
-draw_text(x+170, y+420, int64(sc_pl_firePene(1)));
+draw_text(x+170, y+420, sc_pl_fireComb(1));
 draw_text(x+200, y+420, "+");
-draw_text(x+230, y+420, int64(sc_pl_firePene(2)));
+draw_text(x+230, y+420, sc_pl_fireComb(2));
 
 draw_set_halign(fa_left);
-draw_text(x, y+450, "치명타 확률");
+draw_text(x, y+450, "치명타 보정");
 draw_set_halign(fa_center);
 draw_text(x+170, y+450, int64(sc_pl_fireCt(1)));
 draw_text(x+200, y+450, "+");
 draw_text(x+230, y+450, int64(sc_pl_fireCt(2)));
 
 draw_set_halign(fa_left);
-draw_text(x, y+480, "치명타 배율");
+draw_text(x, y+480, "치명타 공격력");
 draw_set_halign(fa_center);
 draw_text(x+170, y+480, int64(sc_pl_fireCtMag(1)));
 draw_text(x+200, y+480, "+");

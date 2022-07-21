@@ -45,26 +45,26 @@ function sc_pl_fireShock(mode = 0){
 
 function sc_pl_fireCt(mode = 0) {
 	var fireCt = global.fireCt;
-	if (mode == 1) return fireCt;
+	if (mode == 1) return fireCt*100;
 	
-	if (global.comCt > 0) fireCt = global.fireCt + global.comCt/2;
+	fireCt = global.fireCt;
 	if (mode == 0) return fireCt;
 	
 	fireCt -= global.fireCt;
-	if (mode == 2) return fireCt;
+	if (mode == 2) return fireCt*100;
 }
 
 
 function sc_pl_fireCtMag(mode = 0) {
 	var fireCtMag = global.fireCtMag;
 	
-	if (mode == 1) return fireCtMag * 100;
+	if (mode == 1) return fireCtMag * sc_pl_fireDmg(1);
 	
 	fireCtMag = global.fireCtMag;
-	if (mode == 0) return fireCtMag;
+	if (mode == 0) return fireCtMag * sc_pl_fireDmg(1);
 	
 	fireCtMag -= global.fireCtMag;
-	if (mode == 2) return fireCtMag * 100;
+	if (mode == 2) return fireCtMag * sc_pl_fireDmg(1);
 	
 }
 

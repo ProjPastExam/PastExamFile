@@ -9,6 +9,7 @@ function itemStruct(_itemNum, _itemSprite, _infoSprite, _itemKind, _itemFunc) co
 	itemKind	= _itemKind;
 	itemGrade	= 1;
 	itemFunc	= _itemFunc;
+	itemBuff	= 0;
 }
 
 function sc_itemCheck(index) {

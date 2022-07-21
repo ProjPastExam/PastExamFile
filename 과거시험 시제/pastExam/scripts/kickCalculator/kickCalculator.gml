@@ -51,25 +51,25 @@ function sc_pl_kickShock(mode = 0){
 
 function sc_pl_kickCt(mode = 0) {
 	var kickCt = global.kickCt;
-	if (mode == 1) return kickCt;
+	if (mode == 1) return kickCt * 100;
 	
-	if (global.comCt > 0) kickCt = global.kickCt + global.comCt/2;
+	kickCt = global.kickCt;
 	if (mode == 0) return kickCt;
 	
 	kickCt -= global.kickCt;
-	if (mode == 2) return kickCt;
+	if (mode == 2) return kickCt * 100;
 }
 
 function sc_pl_kickCtMag(mode = 0) {
 	var kickCtMag = global.kickCtMag;
 	
-	if (mode == 1) return kickCtMag * 100;
+	if (mode == 1) return kickCtMag * sc_pl_kickDmg(1);
 	
 	kickCtMag = global.kickCtMag;
-	if (mode == 0) return kickCtMag;
+	if (mode == 0) return kickCtMag * sc_pl_kickDmg(1);
 	
 	kickCtMag -= global.kickCtMag;
-	if (mode == 2) return kickCtMag * 100;
+	if (mode == 2) return kickCtMag * sc_pl_kickDmg(1);
 	
 }
 

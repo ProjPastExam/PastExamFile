@@ -13,6 +13,7 @@ if (isRand) {
 		itemNum = irandom_range(0, global.itemMax);
 		if (sc_itemCheck(itemNum)) break;
 	}
+	itemBuff = irandom_range(0, 4);
 }
 /*
 itemStat = array_create(4, 0);
