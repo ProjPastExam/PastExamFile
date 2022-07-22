@@ -51,16 +51,16 @@ function sc_pl_sk106(){
 	if ( atkProcess < 8 )		{ image_index = 0; nextAtk = 0; }
 	else if ( atkProcess < 16 )	{ image_index = 1; }
 	else if ( atkProcess < 24 )	{ image_index = 2; }
-	else if ( atkProcess < 27 )	{ image_index = 3; xSpeed = dir * -16; }
-	else if ( atkProcess < 32 )	{ image_index = 4; xSpeed = dir * -10; }
+	else if ( atkProcess < 27 )	{ image_index = 3; xSpeed = dir * -12; }
+	else if ( atkProcess < 32 )	{ image_index = 4; xSpeed = dir * -8; }
 	else if ( atkProcess < 37 )	{ image_index = 5; xSpeed = dir * -4; }
 	else if ( atkProcess < 52 )	{  }
 	else if ( atkProcess < 60 ) { canMove = 0;	atkProcess = -5; }
 	
 	else if ( atkProcess < 64 )	{ image_index = 6; }
 	else if ( atkProcess < 68 )	{ image_index = 7; }
-	else if ( atkProcess < 71 )	{ image_index = 8; xSpeed = dir * -16; }
-	else if ( atkProcess < 76 )	{ image_index = 9; xSpeed = dir * -10; }
+	else if ( atkProcess < 71 )	{ image_index = 8; xSpeed = dir * -12; }
+	else if ( atkProcess < 76 )	{ image_index = 9; xSpeed = dir * -8; }
 	else if ( atkProcess < 81 )	{ image_index = 10; xSpeed = dir * -4; }
 	else if ( atkProcess < 100 )	{ 
 		sc_pl_comAfterSk();
