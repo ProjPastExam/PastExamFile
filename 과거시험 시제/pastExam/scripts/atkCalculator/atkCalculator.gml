@@ -5,7 +5,7 @@ function sc_pl_atkDmg(mode = 0){
 	var atkDmg = global.atkDmg;
 	if (mode == 1) return atkDmg;
 	
-	atkDmg = global.atkDmg * global.atkDmgScale;
+	atkDmg = global.atkDmg * sc_itemScaleCalculator(0, 0);
 	if (mode == 0) return atkDmg;
 	
 	atkDmg -= global.atkDmg;
@@ -17,13 +17,50 @@ function sc_pl_atkMana(mode = 0){
 	var atkMana = global.atkMana;
 	if (mode == 1) return atkMana;
 	
-	atkMana = global.atkMana;
+	atkMana = global.atkMana * sc_itemScaleCalculator(0, 1);
 	if (mode == 0) return atkMana;
 	
 	atkMana -= global.atkMana;
 	if (mode == 2) return atkMana;
 }
 
+function sc_pl_atkComb(mode = 0) {
+	var atkComb = global.atkComb;
+	
+	if (mode == 1) return string_format(atkComb, 0, 1);
+	
+	atkComb = global.atkComb * sc_itemScaleCalculator(0, 2);
+	if (mode == 0) return atkComb;
+	
+	atkComb -= global.atkComb;
+	if (mode == 2) return string_format(atkComb, 0, 1);
+	
+}
+
+function sc_pl_atkCt(mode = 0) {
+	var atkCt = global.atkCt;
+	if (mode == 1) return atkCt*100;
+	
+	atkCt = global.atkCt * sc_itemScaleCalculator(0, 3);
+	if (mode == 0) return atkCt;
+	
+	atkCt -= global.atkCt;
+	if (mode == 2) return atkCt*100;
+}
+
+
+function sc_pl_atkCtMag(mode = 0) {
+	var atkCtMag = global.atkCtMag;
+	
+	if (mode == 1) return atkCtMag * sc_pl_atkDmg(1);
+	
+	atkCtMag = global.atkCtMag * sc_itemScaleCalculator(0, 4);
+	if (mode == 0) return atkCtMag * sc_pl_atkDmg(1);
+	
+	atkCtMag -= global.atkCtMag;
+	if (mode == 2) return atkCtMag * sc_pl_atkDmg(1);
+	
+}
 
 function sc_pl_atkPene(mode = 0){
 	var atkPene = global.atkPene;
@@ -50,41 +87,5 @@ function sc_pl_atkShock(mode = 0){
 }
 
 
-function sc_pl_atkCt(mode = 0) {
-	var atkCt = global.atkCt;
-	if (mode == 1) return atkCt*100;
-	
-	atkCt = global.atkCt;
-	if (mode == 0) return atkCt;
-	
-	atkCt -= global.atkCt;
-	if (mode == 2) return atkCt*100;
-}
 
 
-function sc_pl_atkCtMag(mode = 0) {
-	var atkCtMag = global.atkCtMag;
-	
-	if (mode == 1) return atkCtMag * sc_pl_atkDmg(1);
-	
-	atkCtMag = global.atkCtMag;
-	if (mode == 0) return atkCtMag * sc_pl_atkDmg(1);
-	
-	atkCtMag -= global.atkCtMag;
-	if (mode == 2) return atkCtMag * sc_pl_atkDmg(1);
-	
-}
-
-
-function sc_pl_atkComb(mode = 0) {
-	var atkComb = global.atkComb;
-	
-	if (mode == 1) return atkComb;
-	
-	atkComb = global.atkComb;
-	if (mode == 0) return atkComb;
-	
-	atkComb -= global.atkComb;
-	if (mode == 2) return atkComb;
-	
-}

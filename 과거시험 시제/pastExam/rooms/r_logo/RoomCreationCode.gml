@@ -44,7 +44,7 @@ global.firePene		= 0;
 global.fireShock	= 200;
 global.fireMana		= 15;
 global.fireCt		= 0.2;
-global.fireCtMag	= 1;
+global.fireCtMag	= 2;
 global.fireComb		= 1;
 
 global.comCt		= 0;
@@ -60,6 +60,12 @@ global.mp		= 0;
 
 global.SM_BGM	= -1;
 global.SM_BGM_SOUND = NULL;
+
+//0. 데미지		1. 마나회복		2. 연타수치		3. 치명타 보정	4. 치명타 공격력
+global.itemScale = array_create(3);
+global.itemScale[0] = array_create(5, 3);
+global.itemScale[1] = array_create(5, 3);
+global.itemScale[2] = array_create(5, 3);
 
 global.atkDmgScale = 1;
 global.kickDmgScale = 1;
@@ -100,28 +106,10 @@ global.camBufferY	= NULL;
 global.mapBuffer	= -1;
 
 //스킬 변수
-{
-global.skMp = array_create(600, 0);
-	
-global.skMp[0]		= 0;	//null	
-global.skMp[100]	= 200;	//편전
-global.skMp[101]	= 300;	//총
-global.skMp[102]	= 200;	//창 찌르기
-global.skMp[103]	= 100;	//환도
-global.skMp[104]	= 300;	//연사
-global.skMp[105]	= 100;	//세총통
-global.skMp[106]	= 0;	//장군전
-	
-global.skKul	= array_create(3, 0);
 
-global.skKulData = array_create(600, 0);
-global.skKulData[0]		= 0;
-global.skKulData[100]	= 120;
-global.skKulData[101]	= 180;
-global.skKulData[102]	= 120;
-global.skKulData[103]	= 120;
-global.skKulData[104]	= 120;
-global.skKulData[105]	= 90;
-global.skKulData[106]	= 60;	//장군전
-}
+
+global.skKul	= array_create(3, 0);
+sc_skData();
+
+
 }

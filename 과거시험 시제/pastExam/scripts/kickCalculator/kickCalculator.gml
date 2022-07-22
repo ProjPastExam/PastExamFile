@@ -4,7 +4,7 @@ function sc_pl_kickDmg(mode = 0){
 	var kickDmg = global.kickDmg;
 	if (mode == 1) return kickDmg;
 	
-	kickDmg = global.kickDmg * global.kickDmgScale;
+	kickDmg = global.kickDmg * sc_itemScaleCalculator(1, 0);
 	if (mode == 0) return kickDmg;
 	
 	kickDmg -= global.kickDmg;
@@ -16,11 +16,48 @@ function sc_pl_kickMana(mode = 0){
 	var atkMana = global.kickMana;
 	if (mode == 1) return atkMana;
 	
-	atkMana = global.kickMana;
+	atkMana = global.kickMana * sc_itemScaleCalculator(1, 1);
 	if (mode == 0) return atkMana;
 	
 	atkMana -= global.kickMana;
 	if (mode == 2) return atkMana;
+}
+
+function sc_pl_kickComb(mode = 0) {
+	var kickComb = global.kickComb;
+	
+	if (mode == 1) return string_format(kickComb, 0, 1);
+	
+	kickComb = global.kickComb * sc_itemScaleCalculator(1, 2);
+	if (mode == 0) return kickComb;
+	
+	kickComb -= global.kickComb;
+	if (mode == 2) return string_format(kickComb, 0, 1);
+	
+}
+
+function sc_pl_kickCt(mode = 0) {
+	var kickCt = global.kickCt;
+	if (mode == 1) return kickCt * 100;
+	
+	kickCt = global.kickCt * sc_itemScaleCalculator(1, 3);
+	if (mode == 0) return kickCt;
+	
+	kickCt -= global.kickCt;
+	if (mode == 2) return kickCt * 100;
+}
+
+function sc_pl_kickCtMag(mode = 0) {
+	var kickCtMag = global.kickCtMag;
+	
+	if (mode == 1) return kickCtMag * sc_pl_kickDmg(1);
+	
+	kickCtMag = global.kickCtMag * sc_itemScaleCalculator(1, 4);
+	if (mode == 0) return kickCtMag * sc_pl_kickDmg(1);
+	
+	kickCtMag -= global.kickCtMag;
+	if (mode == 2) return kickCtMag * sc_pl_kickDmg(1);
+	
 }
 
 
@@ -49,39 +86,4 @@ function sc_pl_kickShock(mode = 0){
 }
 
 
-function sc_pl_kickCt(mode = 0) {
-	var kickCt = global.kickCt;
-	if (mode == 1) return kickCt * 100;
-	
-	kickCt = global.kickCt;
-	if (mode == 0) return kickCt;
-	
-	kickCt -= global.kickCt;
-	if (mode == 2) return kickCt * 100;
-}
 
-function sc_pl_kickCtMag(mode = 0) {
-	var kickCtMag = global.kickCtMag;
-	
-	if (mode == 1) return kickCtMag * sc_pl_kickDmg(1);
-	
-	kickCtMag = global.kickCtMag;
-	if (mode == 0) return kickCtMag * sc_pl_kickDmg(1);
-	
-	kickCtMag -= global.kickCtMag;
-	if (mode == 2) return kickCtMag * sc_pl_kickDmg(1);
-	
-}
-
-function sc_pl_kickComb(mode = 0) {
-	var kickComb = global.kickComb;
-	
-	if (mode == 1) return kickComb;
-	
-	kickComb = global.kickComb;
-	if (mode == 0) return kickComb;
-	
-	kickComb -= global.kickComb;
-	if (mode == 2) return kickComb;
-	
-}

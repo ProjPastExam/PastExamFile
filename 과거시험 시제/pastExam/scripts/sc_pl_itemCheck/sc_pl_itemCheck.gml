@@ -11,6 +11,7 @@ function sc_pl_itemCheck(){
 	itemJump = 0;
 	item2	= 0;
 	item4	= 0;
+	global.item5 = 0;
 	global.atkCtMagScaleItem	= 1;
 	global.kickCtMagScaleItem	= 1;
 	global.fireCtMagScaleItem	= 1;
@@ -28,7 +29,7 @@ function sc_pl_itemCheck(){
 	
 	for (var i = 0; i < global.itemSum; i++) {
 		//show_debug_message(i);
-		if (global.itemGet[i] == NULL) { itemCheck = false;	return; }
+		if (global.itemGet[i] == NULL) { itemCheck = false;	break; }
 		global.itemGet[i].itemFunc(global.itemGet[i].itemGrade);
 		dmgScale[global.itemGet[i].itemKind]++;
 		
