@@ -40,7 +40,6 @@ function sc_pl_sk101(){
 	}
 		
 	if ( (atkProcess > 24 ) ) {
-		sc_pl_skComb();
 		sc_pl_atkDnJ();
 	}
 	
@@ -51,6 +50,7 @@ function sc_pl_sk101(){
 	else if ( atkProcess < 32 )	{ image_index = 4; xSpeed = dir * -10; }
 	else if ( atkProcess < 37 )	{ image_index = 5; xSpeed = dir * -4; }
 	else if ( atkProcess < 52 )	{
+		sc_pl_skComb();
 		sc_pl_comAfterSk();
 	}
 	else { canMove = 0;	atkProcess = -5; }

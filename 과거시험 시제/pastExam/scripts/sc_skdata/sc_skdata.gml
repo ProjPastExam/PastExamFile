@@ -9,7 +9,7 @@ function sc_skData(){
 	global.skMp[103]	= 100;	//환도
 	global.skMp[104]	= 300;	//연사
 	global.skMp[105]	= 100;	//세총통
-	global.skMp[106]	= 300;	//쌍자총통
+	global.skMp[106]	= 0;	//쌍자총통
 	
 	
 	global.skKulData = array_create(600, 0);
