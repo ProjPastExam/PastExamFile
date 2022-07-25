@@ -46,6 +46,8 @@ function sc_gameLoad(){
 	if (VSLS_Get("UIY") == undefined)		VSLS_Set("UIY", 20);
 	if (VSLS_Get("MapX") == undefined)		VSLS_Set("MapX", 1400);
 	if (VSLS_Get("MapY") == undefined)		VSLS_Set("MapY", 30);
+	if (VSLS_Get("comX") == undefined)		VSLS_Set("comX", 50);
+	if (VSLS_Get("comY") == undefined)		VSLS_Set("comY", 390);
 	}
 	
 	VSLS_File_Save("saveFile");

@@ -111,6 +111,18 @@ function sc_gameCombUi(actionX = 0){
 	draw_text(global.comX + 60 + actionX * 4, global.comY - 20, ctText);
 }
 
+function sc_gameHpUI() {
+	if (global.uiHpIndex > global.uiHp) global.uiHpIndex--;
+	
+	var index1 = global.uiHp/global.uiHpMax;
+	var index2 = global.uiHpIndex/global.uiHpMax;
+	
+	draw_sprite(sp_uiHpBack, 0, global.hpX, global.hpY);
+	draw_sprite_ext(sp_uiHpMiddle, 0, global.hpX, global.hpY, index2, 1, 0, c_white, 1);
+	draw_sprite_ext(sp_uiHpFront, 0, global.hpX, global.hpY, index1, 1, 0, c_white, 1);
+	
+	draw_sprite(sp_uiHpBox, 0, global.hpX, global.hpY);
+}
 
 function sc_mousePrint() {
 	

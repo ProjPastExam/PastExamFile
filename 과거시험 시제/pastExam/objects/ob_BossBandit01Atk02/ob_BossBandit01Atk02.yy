@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "unuse",
-    "path": "folders/mob/bandit/unuse.yy",
+    "path": "folders/Objects/mob/bandit/unuse.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_BossBandit01Atk02",

@@ -26,6 +26,8 @@ isEnhance = false;
 cmMode = 0;
 ctIndex = 0;
 
+isHpUI = false;
+
 if (isCt) isTalk = 4;
 
 if (roomBgm == noone)	BGM_Stop(60);

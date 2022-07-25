@@ -23,6 +23,8 @@ if (!surface_exists(mapSurf)) {
 	
 draw_surface(surf,0, 0);
 
+sc_gameCombUi();
+
 draw_sprite(sp_minimapBox, 0, global.MapX, global.MapY);
 draw_surface(mapSurf,global.MapX, global.MapY);
 

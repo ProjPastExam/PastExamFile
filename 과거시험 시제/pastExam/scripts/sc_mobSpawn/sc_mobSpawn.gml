@@ -26,4 +26,11 @@ function sc_mobSpawn(){
 	hitLot		= 0;
 	
 	isDie		= false;
+	
+	if (isHpUI) {
+		global.uiHp = hp;
+		global.uiHpIndex = hp;
+		global.uiHpMax = hp;
+		alarm[9] = 5;
+	}
 }

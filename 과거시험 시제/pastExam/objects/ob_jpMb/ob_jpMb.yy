@@ -42,7 +42,7 @@
   ],
   "parent": {
     "name": "jpob",
-    "path": "folders/mob/jpob.yy",
+    "path": "folders/Objects/mob/jpob.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_jpMb",

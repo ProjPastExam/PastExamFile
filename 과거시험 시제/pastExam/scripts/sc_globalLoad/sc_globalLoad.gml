@@ -16,7 +16,8 @@ function sc_globalLoad(){
 	//특전 관련 수치
 	{
 	global.abPointMax	= VSLS_Get("abPointMax");
-	global.baPoint		= VSLS_Get("abPoint");
+	global.abPoint		= VSLS_Get("abPoint");
+	
 	}
 
 	//공격 관련 수치
@@ -67,7 +68,9 @@ function sc_globalLoad(){
 	global.UIY		= VSLS_Get("UIY");
 	global.MapX		= VSLS_Get("MapX");
 	global.MapY		= VSLS_Get("MapY");
-	global.comX		= 50;
-	global.comY		= 390;
+	global.comX		= VSLS_Get("comX");
+	global.comY		= VSLS_Get("comY");
+	global.hpX		= 1300;
+	global.hpY		= 80;
 	}
 }

@@ -3,6 +3,7 @@
 function sc_mobMain(){
 	if ( !isJump )			xSpeed = 0;
 	if ( hitAfter > 0 )		hitAfter--;
+	if ( isHpUI )	global.uiHp = hp;
 	image_xscale = dir;
 		
 	if ( patrol ) sc_mobPatrol();

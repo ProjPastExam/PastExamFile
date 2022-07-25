@@ -105,6 +105,10 @@ global.camBufferY	= NULL;
 
 global.mapBuffer	= -1;
 
+global.uiHp			= 1;
+global.uiHpMax		= 1;
+global.uiHpIndex	= 1;
+
 //스킬 변수
 
 

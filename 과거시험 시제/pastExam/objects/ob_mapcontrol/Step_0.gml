@@ -11,4 +11,8 @@ else {
 	global.MapX = x ;
 	y = mouse_y - mnY;
 	global.MapY = y;
+	
+	with (ob_combUIControl) {
+		isTouch = false;
+	}
 }

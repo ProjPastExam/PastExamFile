@@ -9,3 +9,4 @@ case 1: draw_set_color(c_yellow); break;
 case 2: draw_set_color(c_red); break;
 }
 draw_text(x, y + lifeTime*2, int64(dmg));
+draw_set_alpha(1);

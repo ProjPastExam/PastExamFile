@@ -10,10 +10,6 @@ if (isCt) {
 }
 
 if (isGUI) {
-	sc_gameGUI();
-	//if (isMinimap) { sc_drawMiniMap(0, 0) };
-	if (isMinimap) sc_drawMap();
-	
 	if (ctIndex < global.comCt) {
 		alarm[2] = 10;
 	}
@@ -21,6 +17,12 @@ if (isGUI) {
 	if (global.comCt > 0) {
 		sc_gameCombUi(alarm[2]);
 	}
+	
+	if (isHpUI) sc_gameHpUI();
+	
+	if (isMinimap) sc_drawMap();
+	
+	sc_gameGUI();
 }
 draw_sprite_stretched_ext(sp_black, 0, 0, 0, 2400, 1500, 0 ,dark/30);
 

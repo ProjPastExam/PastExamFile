@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "mob",
-    "path": "folders/mob.yy",
+    "path": "folders/Objects/mob.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_mobAtk",
