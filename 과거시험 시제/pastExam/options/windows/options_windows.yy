@@ -6,7 +6,7 @@
   "option_windows_product_info": "문경새재",
   "option_windows_copyright_info": "Team Ettu",
   "option_windows_description_info": "조선 설화를 바탕으로 한 횡스크롤 액션 게임 문경새재",
-  "option_windows_display_cursor": true,
+  "option_windows_display_cursor": false,
   "option_windows_icon": "icons/icon.ico",
   "option_windows_save_location": 0,
   "option_windows_splash_screen": "${base_options_dir}/windows/splash/splash.png",

@@ -125,5 +125,5 @@ function sc_gameHpUI() {
 }
 
 function sc_mousePrint() {
-	
+	draw_sprite(sp_mouseIcon, 0, mouse_x, mouse_y);
 }

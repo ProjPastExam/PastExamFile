@@ -575,6 +575,7 @@
     {"id":{"name":"sp_bandit01G_backStep","path":"sprites/sp_bandit01G_backStep/sp_bandit01G_backStep.yy",},"order":6,},
     {"id":{"name":"sp_st01_mon3","path":"sprites/sp_st01_mon3/sp_st01_mon3.yy",},"order":4,},
     {"id":{"name":"sp_demoGameEnd","path":"sprites/sp_demoGameEnd/sp_demoGameEnd.yy",},"order":7,},
+    {"id":{"name":"sp_mouseIcon","path":"sprites/sp_mouseIcon/sp_mouseIcon.yy",},"order":21,},
     {"id":{"name":"sp_cs_plWake1","path":"sprites/sp_cs_plWake1/sp_cs_plWake1.yy",},"order":2,},
     {"id":{"name":"ob_ScreenF","path":"objects/ob_ScreenF/ob_ScreenF.yy",},"order":12,},
     {"id":{"name":"uc_get_aspect_ratio","path":"scripts/uc_get_aspect_ratio/uc_get_aspect_ratio.yy",},"order":0,},
