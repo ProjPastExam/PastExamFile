@@ -124,6 +124,6 @@ function sc_gameHpUI() {
 	draw_sprite(sp_uiHpBox, 0, global.hpX, global.hpY);
 }
 
-function sc_mousePrint() {
-	draw_sprite(sp_mouseIcon, 0, mouse_x, mouse_y);
+function sc_mousePrint(mAlpah = 1) {
+	draw_sprite_ext(sp_mouseIcon, 0, mouse_x, mouse_y, 1, 1, 0, c_white, mAlpah);
 }

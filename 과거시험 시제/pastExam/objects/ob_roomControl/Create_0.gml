@@ -19,6 +19,7 @@ sc_setMinimap();
 
 nameS = "";
 talkArray = array_create(20);
+talkString = "";
 talkNum = 0;
 talkCnt = 0;
 isEnhance = false;
@@ -124,7 +125,7 @@ part_type_life(global.gunEf, 25, 25);
 //몬스터 어그로 이팩트
 global.mobAdEf = part_type_create();
 
-part_type_sprite(global.mobAdEf, sp_mob_adEf, true, 1, false);
+part_type_sprite(global.mobAdEf, sp_talkNug, true, 1, false);
 part_type_life(global.mobAdEf, 45, 45);
 
 

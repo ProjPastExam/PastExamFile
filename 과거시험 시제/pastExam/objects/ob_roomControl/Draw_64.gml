@@ -35,7 +35,7 @@ else if (pause == -10 || pause == -21) {
 
 
 
-if (isTalk == 2) {
+if (isTalk == 1) {
 	draw_sprite(sp_black2, 0, 0, 0);
 	draw_sprite(npcFace, 0, 1455, 110);
 	draw_sprite(sp_demoTalk, 0, 960, 350);
@@ -49,7 +49,8 @@ if (isTalk == 2) {
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
 	draw_text(250, 140, nameS);
-	draw_text(250, 230, talkArray[talkCnt]);
+	draw_text(250, 230, talkString);
+	//draw_text(250, 230, talkArray[talkCnt]);
 }
 else if ( isTalk == 5) {
 	draw_sprite(sp_talk, 0, talkX, talkY);

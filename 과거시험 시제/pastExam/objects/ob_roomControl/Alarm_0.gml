@@ -39,11 +39,12 @@ if (hpProcess > 0) hpProcess--;
 //else room_speed = 15;
 
 if ( isTalk == 1 )		{ 
-	isGUI = false; isTalk = 2;
-	SE_Play(s_talk, global.vol);
-	if (instance_exists(ob_player)) ob_player.canMove = -10;
+	//isGUI = false; isTalk = 2;
+	//SE_Play(s_talk, global.vol);
+	//if (instance_exists(ob_player)) ob_player.canMove = -10;
 }
 else if ( isTalk == 2) {
+	/*
 	if ( keyboard_check_pressed(global.btAtk) ) {
 		if (talkCnt < talkNum -1) {
 			talkCnt++;
@@ -54,11 +55,11 @@ else if ( isTalk == 2) {
 	if ( keyboard_check_pressed(global.btEsc) ) {
 		isTalk = 3; talkCnt = 0; talkNum = 0;
 	}
-	
+	*/
 }
 else if ( isTalk == 3 )	{ 
-	isGUI = true; isTalk = 0;
-	with (ob_player) {canMove = 0;}
+	//isGUI = true; isTalk = 0;
+	//with (ob_player) {canMove = 0;}
 	//if (instance_exists(ob_player)) ob_player.canMove = 0;
 }
 else if ( isTalk == 4 ) {

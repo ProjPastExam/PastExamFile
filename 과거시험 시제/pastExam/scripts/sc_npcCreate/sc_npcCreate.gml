@@ -7,4 +7,8 @@ function sc_npcCreate(){
 		talk = array_create(talkNum);
 		talkLine = array_create(talkNum);
 	}
+	
+	talkIndex	= -1;
+	talkCnt		= 0;
+	isTalk		= false;
 }

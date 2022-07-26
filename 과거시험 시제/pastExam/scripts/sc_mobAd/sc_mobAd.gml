@@ -13,7 +13,10 @@ function sc_mobAd(){
 		if (plX > x) dir = 1;
 		else dir = -1;
 		part_type_scale( global.mobAdEf, dir, 1 );
-		part_particles_create( global.hitEf, x, y, global.mobAdEf, 15 );
+		part_particles_create( global.hitEf, x, bbox_top - 50, global.mobAdEf, 15 );
+		
+		instance_create_layer(x, y, "effect", ob_mobAdBox)
+		
 		//if (alarm[1] > 0) alarm[1] = -1;
 	}
 	if (ad) {
