@@ -9,7 +9,7 @@ function sc_npcMain(){
 		else image_xscale = -1;
 	}
 	
-	if (keyboard_check_pressed(global.btInter) && isTalk) {
+	if (keyboard_check_pressed(global.btAtk) && isTalk) {
 		talkIndex[talkCnt].talkFunction();
 	}
 	

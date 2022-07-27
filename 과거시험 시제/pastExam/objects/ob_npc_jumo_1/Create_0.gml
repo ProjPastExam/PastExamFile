@@ -3,20 +3,19 @@
 sc_npcCreate();
 isRest = false;
 
-jumoTalk1		= array_create(3);
-jumoTalk2		= array_create(2);
+jumoTalk1		= array_create(4);
+jumoTalk2		= array_create(3);
 
-jumoTalk1[0]	= talkStruct("반가워요, \n과거길을 올라가시는 모양이네요");
-jumoTalk1[1]	= talkStruct("이 앞 산길이 가장 빠른 길이지만, \n왜란 때 건너온 왜놈들 몇몇이 모여 산적질을 하고있어요.");
-jumoTalk1[2]	= talkStruct("선비님은 험한 과거길에도 지친 기색이 없으셔서 다행이지만, \n이 앞길은 조심하는게 좋을거에요."
-							,,,1 , jumoTalk2);
+jumoTalk1[@0]	= new talkStruct("반가워요, \n과거길을 올라가시는 모양이네요");
+jumoTalk1[@1]	= new talkStruct("이 앞 산길이 가장 빠른 길이지만, \n왜란 때 건너온 왜놈들 몇몇이 모여 산적질을 하고있어요.");
+jumoTalk1[@2]	= new talkStruct("선비님은 험한 과거길에도 지친 기색이 없으셔서 다행이지만, \n이 앞길은 조심하는게 좋을거에요.");
+jumoTalk1[@3]	= new talkStruct(,,,1 , jumoTalk2)
 
-jumoTalk2[0]	= talkStruct("왜란이 끝나고 본국으로 도망치지 못한 몇몇 왜놈들이 모여 \n산적질을 벌이고 있어요.");
-jumoTalk2[1]	= talkStruct("조심하는게 좋을거에요."
-							,,,1 , jumoTalk2);
+jumoTalk2[@0]	= new talkStruct("왜란이 끝나고 본국으로 도망치지 못한 몇몇 왜놈들이 모여 \n산적질을 벌이고 있어요.");
+jumoTalk2[@1]	= new talkStruct("조심하는게 좋을거에요.")
+jumoTalk2[@2]	= new talkStruct(,,,1 , jumoTalk2);
 							
 talkIndex		= jumoTalk1;
-
 /*
 
 talkLine[0] = 3;

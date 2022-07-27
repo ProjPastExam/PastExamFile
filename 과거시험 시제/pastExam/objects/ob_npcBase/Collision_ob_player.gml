@@ -6,6 +6,7 @@ isCollision = true;
 if (keyboard_check_pressed(global.btInter)) {
 	isTalk = true;
 	talkIndex[talkCnt].talkFunction();
+	//talkIndex[talkCnt].talkString;
 }
 
 /*
