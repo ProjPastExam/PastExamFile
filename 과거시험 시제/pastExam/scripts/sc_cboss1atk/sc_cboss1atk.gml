@@ -31,7 +31,7 @@ function sc_cBoss1Atk(){
 		//if (nextState == 20) { disIndex1 = 1200;	disIndex2 = 0; }
 		//if (nextState == 18) { disIndex1 = 800;		disIndex2 = 400; }
 		//sc_mobRun(12, disIndex1, disIndex2, 30, nextState, plX, left1, left2, right1, right2);
-		sc_mobRun(6, disIndex1, disIndex2, 30, 13, plX, left1, left2, right1, right2);
+		sc_mobRun(6, disIndex1, disIndex2, 30, 12, plX, left1, left2, right1, right2);
 	}
 	else if ( state == 12 ) {
 		process++;

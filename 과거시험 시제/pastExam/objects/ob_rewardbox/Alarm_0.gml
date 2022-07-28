@@ -6,13 +6,13 @@ with (ob_roomControl) {
 if (isCollision && !isActive && mobNum <= 0) {
 	var sY = bbox_bottom - 192;
 	isActive = true;
-	with (instance_create_layer(x-400, sY, "Instances", ob_chun_stageSpawn)) {
+	with (instance_create_layer(x-200, sY, "Instances", ob_chun_stageSpawn)) {
 		nextChun = other.chunSpawn;
 	}
-	with (instance_create_layer(x-200, sY+80, "Instances", ob_itemSpawnEf)) {
+	with (instance_create_layer(x, sY+80, "Instances", ob_itemSpawnEf)) {
 
 	}
-	with (instance_create_layer(x, sY+80, "Instances", ob_skSpawnEf)) {
+	with (instance_create_layer(x+200, sY+80, "Instances", ob_skSpawnEf)) {
 
 	}
 }

@@ -2,6 +2,7 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -23,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "gameControl",
-    "path": "folders/Objects/gameControl.yy",
+    "name": "unused",
+    "path": "folders/Objects/gameControl/unused.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_nxtR",
