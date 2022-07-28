@@ -97,8 +97,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "changBoss",
-    "path": "folders/Sprites/mob/chang/changBoss.yy",
+    "name": "changBoss2",
+    "path": "folders/Sprites/mob/chang/changBoss2.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_changBoss_walk",

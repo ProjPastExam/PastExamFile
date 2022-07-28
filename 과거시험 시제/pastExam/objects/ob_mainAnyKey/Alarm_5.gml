@@ -6,5 +6,6 @@
 //room_goto(r_tutorial);
 //room_goto(r_start);
 //room_goto(r_stage01_pace);
-//room_goto(r_stage01Cs);
-room_goto(demo_stage03);
+room_goto(r_stage01Cs);
+//room_goto(demo_stage03);
+//room_goto(r_stage03Boss_1);
