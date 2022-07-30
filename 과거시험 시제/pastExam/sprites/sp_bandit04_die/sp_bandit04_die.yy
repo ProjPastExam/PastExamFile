@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 172,
-  "bbox_right": 212,
-  "bbox_top": 110,
-  "bbox_bottom": 285,
+  "bbox_left": 258,
+  "bbox_right": 318,
+  "bbox_top": 210,
+  "bbox_bottom": 380,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 384,
-  "height": 384,
+  "width": 576,
+  "height": 480,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,18 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e32026ba-0132-4e70-8902-febb3e3207ad","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e32026ba-0132-4e70-8902-febb3e3207ad","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":{"name":"54f58450-c4c5-43a5-a62b-276151a20d95","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_bandit04_die","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"e32026ba-0132-4e70-8902-febb3e3207ad","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2808ef5a-af15-4413-9132-48ed416cf462","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2808ef5a-af15-4413-9132-48ed416cf462","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":{"name":"54f58450-c4c5-43a5-a62b-276151a20d95","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_bandit04_die","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"2808ef5a-af15-4413-9132-48ed416cf462","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"79f65302-85a1-45c3-9478-230a6422c31a","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"79f65302-85a1-45c3-9478-230a6422c31a","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":{"name":"54f58450-c4c5-43a5-a62b-276151a20d95","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_bandit04_die","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"79f65302-85a1-45c3-9478-230a6422c31a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"06bad19b-2a4a-486a-b6da-47cef827606a","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"06bad19b-2a4a-486a-b6da-47cef827606a","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":{"name":"54f58450-c4c5-43a5-a62b-276151a20d95","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_bandit04_die","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"06bad19b-2a4a-486a-b6da-47cef827606a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"69b1033c-b522-49ae-a193-a22c2cb1ccfb","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"69b1033c-b522-49ae-a193-a22c2cb1ccfb","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":{"name":"55617f87-e1da-4830-8ff7-f87117d1d988","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_bandit04_die","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"69b1033c-b522-49ae-a193-a22c2cb1ccfb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ec66afc9-0bf1-4e5c-b923-8925cb6b554a","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ec66afc9-0bf1-4e5c-b923-8925cb6b554a","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":{"name":"55617f87-e1da-4830-8ff7-f87117d1d988","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_bandit04_die","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"ec66afc9-0bf1-4e5c-b923-8925cb6b554a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ed65ada7-2495-4313-b6b9-00da9290f618","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ed65ada7-2495-4313-b6b9-00da9290f618","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":{"name":"55617f87-e1da-4830-8ff7-f87117d1d988","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_bandit04_die","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"ed65ada7-2495-4313-b6b9-00da9290f618","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"64cb952c-9347-4bfb-9d0d-19806da135d1","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"64cb952c-9347-4bfb-9d0d-19806da135d1","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"LayerId":{"name":"55617f87-e1da-4830-8ff7-f87117d1d988","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_bandit04_die","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","name":"64cb952c-9347-4bfb-9d0d-19806da135d1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sp_bandit04_die","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},
@@ -46,15 +46,15 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 4.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8bc9a3ef-35f9-44fa-b6b3-133ee0e1972f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e32026ba-0132-4e70-8902-febb3e3207ad","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"a2efa6c2-bca2-4ff7-bfc3-556bfb035a9a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2808ef5a-af15-4413-9132-48ed416cf462","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"5235016d-cbd2-4429-87f3-cd8d054b1585","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"79f65302-85a1-45c3-9478-230a6422c31a","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d817edfd-9714-452f-8f5e-525c52f4d536","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"06bad19b-2a4a-486a-b6da-47cef827606a","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+            {"id":"2f65d833-0cc1-4d90-b3d0-ff182cef1728","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69b1033c-b522-49ae-a193-a22c2cb1ccfb","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"405810d4-4ca2-4dda-91a9-77eb7743cd4e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ec66afc9-0bf1-4e5c-b923-8925cb6b554a","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"3fc31b6c-5233-4f5a-bc9d-62d8b1e4de57","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed65ada7-2495-4313-b6b9-00da9290f618","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"4d26c71f-f4a8-42d4-9b72-f41c0d4327e1","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"64cb952c-9347-4bfb-9d0d-19806da135d1","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -66,8 +66,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 192,
-    "yorigin": 192,
+    "xorigin": 288,
+    "yorigin": 240,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_bandit04_die","path":"sprites/sp_bandit04_die/sp_bandit04_die.yy",},
@@ -77,7 +77,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"54f58450-c4c5-43a5-a62b-276151a20d95","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"55617f87-e1da-4830-8ff7-f87117d1d988","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

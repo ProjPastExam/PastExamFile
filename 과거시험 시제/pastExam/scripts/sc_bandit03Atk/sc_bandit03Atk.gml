@@ -25,7 +25,7 @@ function sc_bandit03Atk(){
 		
 	}
 	else if ( state == 11 ){
-		sc_mobRun(6, 450, 300, 13, 12, plX, left1, left2, right1, right2);
+		sc_mobRun(6, 350, 300, 13, 12, plX, left1, left2, right1, right2);
 	}
 	else if ( state == 12 ) {
 		process++;
