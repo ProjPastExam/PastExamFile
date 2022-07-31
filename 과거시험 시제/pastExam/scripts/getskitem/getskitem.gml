@@ -4,6 +4,8 @@ function sc_getItem(){
 	if (global.itemSum < global.itemNum) {
 		global.itemGet[global.itemSum] = global.itemData[itemNum];
 		global.itemGet[global.itemSum].itemBuff = itemBuff;
+		global.itemGet[global.itemSum].itemKind = itemKind;
+		
 		global.itemSum++;
 		with ( ob_player ) {
 			itemCheck = true;
