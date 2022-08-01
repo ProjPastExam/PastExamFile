@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_item4(){
-	var dmg = sc_pl_kickDmg()*4*(item4*4+6)/10;
+	var dmg = sc_pl_kickDmg()*2.5;
 	
 	atkProcess++;
 	if (!isJump) xSpeed = 0;

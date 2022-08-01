@@ -25,7 +25,7 @@ function sc_pl_atkFront2(){
 	
 	
 	if ( atkProcess == 8 ) {
-		sc_pl_atkEf(sc_pl_kickDmg()*2, sc_pl_kickPene(), sc_pl_kickShock()+30, sc_pl_kickMana(), 
+		sc_pl_atkEf(sc_pl_kickDmg(), sc_pl_kickPene(), sc_pl_kickShock()+30, sc_pl_kickMana(), 
 			0, 1, 0, sp_pl_atkEf03, dir);
 		SE_Play(s_kick01, global.vol);
 		//audio_play_sound(s_kick01, 5, false);

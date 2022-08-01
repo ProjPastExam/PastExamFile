@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_atkFrontKick(){
-	var dmg = sc_pl_kickDmg()*(1.5 + 0.5*isFront);
+	var dmg = sc_pl_kickDmg()*1.5;
 	
 	atkProcess++;
 	xSpeed = 0;

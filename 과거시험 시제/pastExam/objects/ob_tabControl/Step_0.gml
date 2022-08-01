@@ -66,7 +66,9 @@ else {
 }
 
 //스킬 UI 설정
-
+with (ob_tabSkInfo) {
+	state = other.tabIndex;
+}
 
 if (skState2 != 0) {
 	if (skState == 0) skState2 = 0;
