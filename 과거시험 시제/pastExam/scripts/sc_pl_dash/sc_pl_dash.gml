@@ -28,7 +28,11 @@ function sc_pl_dash(){
 	sc_pl_atkDnJ( 1 );
 	
 	if ( dProcess > 5 ) { 
-		if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; dProcess = -30; isDash = false; }
+		if ( nextAtk == 3 ) { 
+			if (item4 > 0 && item4Index)	{ canMove = 20;	item4Index = false; }
+			else							{ canMove = 3; }
+			nextAtk = 0; atkProcess = 0;  dProcess = -30; isDash = false; 
+		}
 		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; dProcess = -30; isDash = false; }
 		else if ( nextAtk == 6 ) { 
 			if (!isJump) { nextAtk = 0; atkProcess = 0; canMove = 6; dProcess = -30; isDash = false; }

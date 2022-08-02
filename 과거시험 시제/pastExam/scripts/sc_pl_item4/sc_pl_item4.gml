@@ -28,13 +28,13 @@ function sc_pl_item4(){
 	}
 	*/
 	if ( atkProcess == 1 ) {
-		SE_Play(s_dash01, global.vol);
+		//SE_Play(s_dash01, global.vol);
 		//audio_play_sound(s_dash01, 5, false);
 	}
 	
 	if ( atkProcess == 14 ) {
 		sc_pl_atkEf(dmg, sc_pl_kickPene()+20, sc_pl_kickShock()+50, 0, 
-			0, 1, 0, sp_pl_itemEf4, dir);
+			0, 1, 0, sp_pl_itemEf4, dir,,,,,15);
 		SE_Play(s_bandit02atk2, global.vol);
 	}
 	
