@@ -20,4 +20,4 @@ stand2Sp = sp_bandit03_stand2;
 walkSp = sp_bandit03_walk;
 runSp = sp_bandit03_run;
 painSp = sp_bandit03_pain;
-shockSp		= sp_bandit03_pain;
+shockSp		= sp_bandit03_shock;

@@ -75,6 +75,7 @@
     {"id":{"name":"sp_demoPause","path":"sprites/sp_demoPause/sp_demoPause.yy",},"order":4,},
     {"id":{"name":"sc_banditBoss01Atk02","path":"scripts/sc_banditBoss01Atk02/sc_banditBoss01Atk02.yy",},"order":2,},
     {"id":{"name":"sp_bandit02_backStep","path":"sprites/sp_bandit02_backStep/sp_bandit02_backStep.yy",},"order":8,},
+    {"id":{"name":"sp_bandit03_shock","path":"sprites/sp_bandit03_shock/sp_bandit03_shock.yy",},"order":13,},
     {"id":{"name":"s_thun","path":"sounds/s_thun/s_thun.yy",},"order":0,},
     {"id":{"name":"r_enhance","path":"rooms/r_enhance/r_enhance.yy",},"order":5,},
     {"id":{"name":"sc_pl_sk102","path":"scripts/sc_pl_sk102/sc_pl_sk102.yy",},"order":2,},
@@ -414,6 +415,7 @@
     {"id":{"name":"sp_itemBackAtk","path":"sprites/sp_itemBackAtk/sp_itemBackAtk.yy",},"order":6,},
     {"id":{"name":"sp_jpBoss_cs3","path":"sprites/sp_jpBoss_cs3/sp_jpBoss_cs3.yy",},"order":2,},
     {"id":{"name":"s_jp_dAtk","path":"sounds/s_jp_dAtk/s_jp_dAtk.yy",},"order":10,},
+    {"id":{"name":"sp_bandit04_shock","path":"sprites/sp_bandit04_shock/sp_bandit04_shock.yy",},"order":16,},
     {"id":{"name":"ob_mainLogo","path":"objects/ob_mainLogo/ob_mainLogo.yy",},"order":0,},
     {"id":{"name":"ground","path":"sprites/ground/ground.yy",},"order":0,},
     {"id":{"name":"uc_init_mouse_drag","path":"scripts/uc_init_mouse_drag/uc_init_mouse_drag.yy",},"order":2,},
@@ -1423,6 +1425,7 @@
     {"folderPath":"folders/Sprites/mob/chang/changBoss1.yy","order":5,"resourceVersion":"1.0","name":"changBoss1","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/stage03 room.yy","order":14,"resourceVersion":"1.0","name":"stage03 room","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/gameControl/unused.yy","order":9,"resourceVersion":"1.0","name":"unused","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/mob/bandit/bandit05.yy","order":7,"resourceVersion":"1.0","name":"bandit05","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
