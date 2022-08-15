@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_mStart.wav",
-  "duration": 103.783791,
+  "duration": 103.78379,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",

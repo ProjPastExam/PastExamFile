@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "sp_pl_atkEf101",
     "path": "sprites/sp_pl_atkEf101/sp_pl_atkEf101.yy",

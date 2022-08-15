@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_mCs_normal.wav",
-  "duration": 26.6666679,
+  "duration": 26.666668,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",

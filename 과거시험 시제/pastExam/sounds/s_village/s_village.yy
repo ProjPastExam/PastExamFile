@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_village.wav",
-  "duration": 38.4000244,
+  "duration": 38.400024,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",

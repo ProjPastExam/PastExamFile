@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_mr02.wav",
-  "duration": 88.6153946,
+  "duration": 88.615395,
   "parent": {
     "name": "stage02",
     "path": "folders/Sounds/music/stage02.yy",

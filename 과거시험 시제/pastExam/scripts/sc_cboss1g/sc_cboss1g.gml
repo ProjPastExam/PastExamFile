@@ -57,4 +57,52 @@ function sc_cBoss1G(){
 		else if (process < 152)	{ image_index = 21; }
 		else { process = 0;	state = 0; }
 	}
+	
+	else if (state == 2) {
+		process++;
+		sprite_index = sp_cB1G_atk2;
+		
+		if ( process == 128 ) { 
+			SE_Play(s_swing_b1, global.vol);
+		}
+
+		if (process < 6) { image_index = 0; }
+		else if (process < 12)	{ image_index = 1; }
+		else if (process < 18)	{ image_index = 2; }
+		else if (process < 24)	{ image_index = 3; }
+		else if (process < 30)	{ image_index = 4; }
+		else if (process < 36)	{ image_index = 5; }
+		else if (process < 42)	{ image_index = 6; }
+		else if (process < 48)	{ image_index = 7;	isAtk = true; }
+		else if (process < 54)	{ image_index = 8;	isAtk = true; }
+		else if (process < 60)	{ image_index = 9;	isAtk = true; }
+		else if (process < 66)	{ image_index = 10; }
+		else if (process < 72)	{ image_index = 11; }
+		else if (process < 78)	{ image_index = 12; }
+		else { process = 0;	state = 0; }
+	}
+	
+	else if (state == 3) {
+		process++;
+		sprite_index = sp_cB1G_counter;
+		
+		if ( process == 128 ) { 
+			SE_Play(s_swing_b1, global.vol);
+		}
+
+		if (process < 6) { image_index = 0; }
+		else if (process < 12)	{ image_index = 1; }
+		else if (process < 18)	{ image_index = 2; }
+		else if (process < 24)	{ image_index = 3; }
+		else if (process < 30)	{ image_index = 4; }
+		else if (process < 36)	{ image_index = 5; }
+		else if (process < 42)	{ image_index = 6; isAtk = true; }
+		else if (process < 48)	{ image_index = 7; isAtk = true; }
+		else if (process < 54)	{ image_index = 8; }
+		else if (process < 60)	{ image_index = 9; }
+		else if (process < 66)	{ image_index = 10; }
+		else if (process < 72)	{ image_index = 11; }
+		else if (process < 78)	{ image_index = 12; }
+		else { process = 0;	state = 0; }
+	}
 }

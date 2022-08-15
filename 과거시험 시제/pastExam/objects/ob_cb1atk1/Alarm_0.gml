@@ -10,7 +10,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		other.x = x;
 		other.y = y;
 		
-		if (state != 12 && state != 14) { other.alarm[1] = 1; }
+		if (state != 12 && state != 13) { other.alarm[1] = 1; }
 	}
 }
 else {
