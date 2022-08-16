@@ -505,6 +505,7 @@
     {"id":{"name":"ob_enhanceIcon","path":"objects/ob_enhanceIcon/ob_enhanceIcon.yy",},"order":6,},
     {"id":{"name":"sc_banditBoss01Fight","path":"scripts/sc_banditBoss01Fight/sc_banditBoss01Fight.yy",},"order":0,},
     {"id":{"name":"sp_sound_right","path":"sprites/sp_sound_right/sp_sound_right.yy",},"order":1,},
+    {"id":{"name":"r_stage03_1_1","path":"rooms/r_stage03_1_1/r_stage03_1_1.yy",},"order":2,},
     {"id":{"name":"sp_bandit01_run","path":"sprites/sp_bandit01_run/sp_bandit01_run.yy",},"order":3,},
     {"id":{"name":"sp_key_q","path":"sprites/sp_key_q/sp_key_q.yy",},"order":16,},
     {"id":{"name":"uc_get_target_x","path":"scripts/uc_get_target_x/uc_get_target_x.yy",},"order":0,},
@@ -1230,6 +1231,7 @@
     {"roomId":{"name":"r_stage01_1_1","path":"rooms/r_stage01_1_1/r_stage01_1_1.yy",},},
     {"roomId":{"name":"r_stage01_1_2","path":"rooms/r_stage01_1_2/r_stage01_1_2.yy",},},
     {"roomId":{"name":"r_stage03BossCs1","path":"rooms/r_stage03BossCs1/r_stage03BossCs1.yy",},},
+    {"roomId":{"name":"r_stage03_1_1","path":"rooms/r_stage03_1_1/r_stage03_1_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
