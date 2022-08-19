@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "csOb",
-    "path": "folders/Objects/csOb.yy",
+    "name": "tutocs",
+    "path": "folders/Objects/csOb/tutocs.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_tutoBossCs1Boss",

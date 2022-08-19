@@ -1,4 +1,4 @@
-BGM_Stop(60);
+BGM_Stop(30);
 sc_itemSet();
 room_speed = 60;
 global.hp = global.hpMax;
