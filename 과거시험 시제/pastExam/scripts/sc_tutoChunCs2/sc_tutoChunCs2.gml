@@ -46,6 +46,7 @@ function sc_tutoChunCs2(){
 			var name = "????";
 			var text = "일어나셨군요!";
 			sc_csBase(name, sp_chun_face_laugh, text, ix, iy);
+			BGM_Play(s_mChun, global.volBgm, 0);
 			break;
 			
 		case 6:
