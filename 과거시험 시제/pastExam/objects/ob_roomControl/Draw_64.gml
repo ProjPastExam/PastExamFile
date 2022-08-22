@@ -35,38 +35,8 @@ else if (pause == -10 || pause == -21) {
 
 
 
-if (isTalk == 1) {
-	draw_sprite(sp_black2, 0, 0, 0);
-	draw_sprite(npcFace, 0, 1455, 110);
-	draw_sprite(sp_demoTalk, 0, 960, 350);
-	draw_sprite(sc_keySprite(global.btAtk), 0, 240, 540);
-	draw_sprite(sp_text_next, 0, 350, 540);
-	draw_sprite(sc_keySprite(global.btEsc), 0, 480, 540);
-	draw_sprite(sp_text_quite, 0, 610, 540);
-	
-	draw_set_font(f_kor);
-	draw_set_color(c_black);
-	draw_set_valign(fa_top);
-	draw_set_halign(fa_left);
-	draw_text(250, 140, nameS);
-	draw_text(250, 230, talkString);
-	//draw_text(250, 230, talkArray[talkCnt]);
-}
-else if ( isTalk == 5) {
-	draw_sprite(sp_talk, 0, talkX, talkY);
-	draw_sprite(sp_black2, 0, 0, 0);
-	draw_sprite(npcFace, 0, 1455, 110);
-	draw_sprite(sp_demoTalk, 0, 960, 350);
-	draw_sprite(sc_keySprite(global.btAtk), 0, 240, 540);
-	draw_sprite(sp_text_next, 0, 350, 540);
-	
-	
-	draw_set_font(f_kor);
-	draw_set_color(c_black);
-	draw_set_valign(fa_top);
-	draw_set_halign(fa_left);
-	draw_text(250, 140, nameS);
-	draw_text(250, 230, talkArray[0]);
+if (isTalk == 1 || isTalk == 2 || isTalk == 5) {
+	sc_printTalk(isTalk);
 }
 else if (isTalk == 6) {
 	draw_sprite(sp_talkMul, talkZ, talkX, talkY);

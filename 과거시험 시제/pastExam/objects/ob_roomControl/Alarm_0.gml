@@ -44,18 +44,15 @@ if ( isTalk == 1 )		{
 	//if (instance_exists(ob_player)) ob_player.canMove = -10;
 }
 else if ( isTalk == 2) {
-	/*
-	if ( keyboard_check_pressed(global.btAtk) ) {
-		if (talkCnt < talkNum -1) {
-			talkCnt++;
-			SE_Play(s_talk, global.vol);
-		}
-		else { isTalk = 3; talkCnt = 0; talkNum = 0; }
+	if (keyboard_check_pressed(global.btUp)) {
+		if (questionState == 0)	questionState = questionNum-1;
+		else					questionState--;
 	}
-	if ( keyboard_check_pressed(global.btEsc) ) {
-		isTalk = 3; talkCnt = 0; talkNum = 0;
+	
+	if (keyboard_check_pressed(global.btDown)) {
+		if (questionState >= questionNum-1)	questionState = 0;
+		else								questionState++;
 	}
-	*/
 }
 else if ( isTalk == 3 )	{ 
 	//isGUI = true; isTalk = 0;

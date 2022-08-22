@@ -160,32 +160,62 @@ function sc_stage01Cs(){
 			
 		case 18:
 			var name = "성춘향"
-			var text = "변사또가 폭정을 일삼으면서 \n이전보다 산적에 가담하는 사람들이 많아졌어요...";
-			sc_csBase(name, sp_chun_face_angry, text, 1280, 560);
+			var text = "전쟁이 끝난 후, 산적들이 부쩍 늘어났어요.";
+			sc_csBase(name, sp_chun_face_silence, text, 1280, 560);
 			break;
 			
 		case 19:
+			var name = "성춘향"
+			var text = "그런데 관청에서는 이를 진압할 사람이 없다고 \n손을 놓아버리거나...";
+			sc_csBase(name, sp_chun_face_angry, text, 1280, 560);
+			break;
+			
+		case 20:
+			var name = "성춘향"
+			var text = "심지어 욕심 많은 사또들은, 이런 혼란을 기회 삼아 \n자기 잇속이나 채우고 있어요..!";
+			sc_csBase(name, sp_chun_face_angry, text, 1280, 560);
+			break;
+			
+		case 21:
+			var name = "성춘향"
+			var text = "결국 평범한 사람들만 더욱 힘들어지고 있어요..";
+			sc_csBase(name, sp_chun_face_silence, text, 1280, 560);
+			break;
+			
+		case 22:
 			alarm[1] = 120;
 			ob_roomControl.isTalk = 8;
 			isTalk = 5;
 			sc_csBase2(1280, 560);
 			break;
 			
-		case 20:
+		case 23:
 			var name = "성춘향"
-			var text = "그렇다고 산적들이 옳다는 것도 아니에요!";
+			var text = "...이대로 그냥 지나칠 순 없어요. \n사람들을 괴롭히는 산적들을 몰아내야 해요!";
 			sc_csBase(name, sp_chun_face_angry, text, 1280, 560);
 			break;
 			
-		case 21:
+		case 24:
 			var name = "성춘향"
-			var text = "무고한 사람들을 약탈하고 죽이는 놈들이에요..!";
-			sc_csBase(name, sp_chun_face_angry, text, 1280, 560);
+			var text = "저도 최대한 도와드릴게요!";
+			sc_csBase(name, sp_chun_face, text, 1280, 560);
 			break;
 			
-		case 800:
-			ob_roomControl.alarm[7] = 1;
+		case 25:
+			var name = "성춘향"
+			var text = "각 지역의 산적들을 전부 몰아내면, \n여정에 필요한 물건들을 찾아드릴 수 있을 거예요.";
+			sc_csBase(name, sp_chun_face_smile, text, 1280, 560);
+			break;
+			
+		case 26:
+			alarm[1] = 90;
+			ob_roomControl.isTalk = 4;
+			isTalk = 4;
 			BGM_Stop(60);
+			break;
+			
+		case 27:
+			ob_roomControl.alarm[7] = 1;
 			break;
 			
 			/*
@@ -195,6 +225,12 @@ function sc_stage01Cs(){
 			var name = "???"
 			var text = "으아앙!";
 			sc_csBase(name, sp_npc_blank, text, -50, 540);
+			break;
+			
+			alarm[1] = 120;
+			ob_roomControl.isTalk = 8;
+			isTalk = 5;
+			sc_csBase2(1280, 560);
 			break;
 			
 		case 3:

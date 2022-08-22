@@ -127,3 +127,42 @@ function sc_gameHpUI() {
 function sc_mousePrint(mAlpah = 1) {
 	draw_sprite_ext(sp_mouseIcon, 0, mouse_x, mouse_y, 1, 1, 0, c_white, mAlpah);
 }
+
+function sc_printTalk(isTalk) {
+	draw_sprite(sp_black2, 0, 0, 0);
+	draw_sprite(sp_talkUI, 0, 960, 350);
+	draw_sprite(npcFace, 0, 1398, 77);
+	draw_sprite(sc_keySprite(global.btAtk), 0, 270, 540);
+	draw_sprite(sp_text_next, 0, 380, 520);
+	
+	
+	draw_set_font(f_kor);
+	draw_set_color(c_black);
+	draw_set_valign(fa_top);
+	draw_set_halign(fa_left);
+	draw_text(270, 160, nameS);
+	
+	if (isTalk == 1) {
+		draw_text(280, 250, talkString);
+		
+		//draw_sprite(sc_keySprite(global.btEsc), 0, 510, 540);
+		//draw_sprite(sp_text_quite, 0, 640, 520);
+	}
+	
+	if (isTalk == 2) {
+		for (var i = 0; i < questionNum; i++) {
+			draw_text(280, 250 + i*70, questionString[i]);
+		}
+		
+		draw_sprite(sp_questionSelect, 0, 210, 280 + questionState*70);
+		draw_set_color(c_white);
+		draw_text(280, 250 + questionState*70, questionString[questionState]);
+		draw_set_color(c_black);
+		//draw_sprite(sc_keySprite(global.btEsc), 0, 510, 540);
+		//draw_sprite(sp_text_quite, 0, 640, 520);
+	}
+	
+	if (isTalk == 5) {
+		draw_text(280, 250, talkArray[0]);
+	}
+}

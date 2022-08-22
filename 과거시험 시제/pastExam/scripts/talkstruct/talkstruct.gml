@@ -46,5 +46,51 @@ function talkStruct(_talkString = "", _nameS = other.nameS, _npcFace = other.npc
 			
 		}
 		
+		else if (talkNext == 2) {
+			npcInst.talkCnt++;
+			npcInst.isTalk = true;
+			
+			with (ob_roomControl) {
+				isTalk			= 2;
+				npcFace			= other.npcFace;
+				nameS			= other.nameS;
+				questionState	= 0;
+				questionNum		= other.questionNum;
+				questionString	= other.questionStruct;
+				isGUI			= false;
+			}
+			
+			with (ob_player) {
+				canMove		= -10;
+			}
+			
+			SE_Play(s_talk, global.vol);
+		}
+		
+		else if (talkNext == 3) {
+			npcInst.isTalk = true;
+			qIndex = 0;
+			
+			with (ob_roomControl) {
+				other.qIndex	= questionState;
+			}
+			npcInst.talkIndex = nextIndex[qIndex];
+			npcInst.talkCnt = 1;
+			
+			with (ob_roomControl) {
+				isTalk		= 1;
+				npcFace		= other.npcInst.talkIndex[0].npcFace;
+				nameS		= other.npcInst.talkIndex[0].nameS;
+				talkString	= other.npcInst.talkIndex[0].talkString;
+				isGUI		= false;
+			}
+			
+			with (ob_player) {
+				canMove		= -10;
+			}
+			
+			SE_Play(s_talk, global.vol);
+		}
+		
 	}
 }
