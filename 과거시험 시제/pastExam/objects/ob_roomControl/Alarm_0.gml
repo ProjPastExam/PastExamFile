@@ -64,9 +64,12 @@ else if ( isTalk == 4 ) {
 }
 else if ( isTalk == 5) {
 	isGUI = false;
-	if ( keyboard_check_pressed(global.btAtk) ) {
+	if ( keyboard_check_pressed(global.btAtk) || keyboard_check_pressed(global.btInter) ) {
 		talkCnt++;
-		ob_csParent.active = true;
+		with (ob_csParent) {
+			active = true;
+		}
+		//ob_csParent.active = true;
 	}
 }
 
