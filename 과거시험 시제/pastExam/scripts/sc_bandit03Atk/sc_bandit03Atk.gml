@@ -25,7 +25,7 @@ function sc_bandit03Atk(){
 		
 	}
 	else if ( state == 11 ){
-		sc_mobRun(6, 350, 300, 13, 12, plX, left1, left2, right1, right2);
+		sc_mobRun(6, 500, 300, 13, 12, plX, left1, left2, right1, right2);
 	}
 	else if ( state == 12 ) {
 		process++;
@@ -45,9 +45,9 @@ function sc_bandit03Atk(){
 		if ( process < 12 ) { image_index = 0; }
 		else if ( process < 24 ) { image_index = 1; }
 		else if ( process < 45 ) { image_index = 2; }
-		else if ( process < 55 ) { image_index = 3; xSpeed = dir*15; }
-		else if ( process < 61 ) { image_index = 4; xSpeed = dir*18; }
-		else if ( process < 65 ) { image_index = 4; xSpeed = dir*20; }
+		else if ( process < 55 ) { image_index = 3; xSpeed = dir*18; }
+		else if ( process < 61 ) { image_index = 4; xSpeed = dir*21; }
+		else if ( process < 65 ) { image_index = 4; xSpeed = dir*24; }
 		else if ( process < 69 ) { image_index = 5; }
 		else if ( process < 75 ) { image_index = 6; }
 		else if ( process < 90 ) { image_index = 7; }

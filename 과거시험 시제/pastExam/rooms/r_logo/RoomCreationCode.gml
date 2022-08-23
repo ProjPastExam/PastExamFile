@@ -63,9 +63,9 @@ global.SM_BGM_SOUND = NULL;
 
 //0. 데미지		1. 마나회복		2. 연타수치		3. 치명타 보정	4. 치명타 공격력
 global.itemScale = array_create(3);
-global.itemScale[0] = array_create(5, 3);
-global.itemScale[1] = array_create(5, 3);
-global.itemScale[2] = array_create(5, 3);
+global.itemScale[0] = array_create(5, 0);
+global.itemScale[1] = array_create(5, 0);
+global.itemScale[2] = array_create(5, 0);
 
 global.atkDmgScale = 1;
 global.kickDmgScale = 1;

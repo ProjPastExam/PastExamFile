@@ -10,5 +10,5 @@
 //room_goto(demo_stage02_2);
 //room_goto(r_stage03Boss_1);
 //room_goto(r_stage01_1_2);
-//room_goto(r_stage03_1_1);
-room_goto(r_tutorialChunCs2);
+room_goto(r_stage01_3_1);
+//room_goto(r_tutorialChunCs2);
