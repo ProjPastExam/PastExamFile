@@ -90,7 +90,7 @@
   "nineSlice": null,
   "parent": {
     "name": "cs01",
-    "path": "folders/Sprites/csSprite/cs01.yy",
+    "path": "folders/Sprites/csSprite/tutorialCs/cs01.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_cs1_people",

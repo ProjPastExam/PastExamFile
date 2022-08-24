@@ -114,7 +114,7 @@
   "nineSlice": null,
   "parent": {
     "name": "cs02",
-    "path": "folders/Sprites/csSprite/cs02.yy",
+    "path": "folders/Sprites/csSprite/tutorialCs/cs02.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_cs02_IRun",

@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 275,
-  "bbox_top": 0,
+  "bbox_top": 18,
   "bbox_bottom": 383,
   "HTile": false,
   "VTile": false,
@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "cs01",
-    "path": "folders/Sprites/csSprite/cs01.yy",
+    "path": "folders/Sprites/csSprite/tutorialCs/cs01.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_cs01_face2",

@@ -38,6 +38,7 @@
     {"propertyId":{"name":"adHeight","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"200","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"hitDelay","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"patrol","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"isHpUI","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "bandit",

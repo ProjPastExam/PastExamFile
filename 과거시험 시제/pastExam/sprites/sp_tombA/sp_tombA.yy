@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "csChun",
-    "path": "folders/Sprites/csSprite/csChun.yy",
+    "path": "folders/Sprites/csSprite/tutorialCs/csChun.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_tombA",

@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "csOb",
-    "path": "folders/Objects/csOb.yy",
+    "name": "stage01Cs",
+    "path": "folders/Objects/csOb/stage01Cs.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_stage01CsCivil03",

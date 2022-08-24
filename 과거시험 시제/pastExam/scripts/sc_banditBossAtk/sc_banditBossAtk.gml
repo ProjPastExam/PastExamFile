@@ -168,6 +168,7 @@ function sc_banditBossAtk(){
 		if ( process == 1 ) { SE_Play(s_jp_dAtk, global.vol); }
 		
 		if ( process == 70 || process == 130) { 
+			uc_shake(8, 0.1);
 			SE_Play(s_swing_a2, global.vol);
 			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
@@ -219,6 +220,7 @@ function sc_banditBossAtk(){
 		}
 		
 		if ( process == 80 ) { 
+			uc_shake(8, 0.1);
 			SE_Play(s_swing_a2, global.vol);
 			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
@@ -333,8 +335,12 @@ function sc_banditBossAtk(){
 		else if ( process < 72 ) { image_index = 4; xSpeed = 6 * dir; }
 		else if ( process < 84 ) { image_index = 4; }
 		else if ( process < 90 ) { image_index = 5; }
-		else if ( process < 96 ) { image_index = 6; }
-		else { state = 9;	process = 50;	delay = 0;	sc_banditBossAtkNext(nextState); }
+		else if ( process < 120 ) { image_index = 6; }
+		else if ( process < 132 ) { image_index = 5; }
+		
+		
+		
+		else { state = 10;	process = 0;	delay = 120;	sc_banditBossAtkNext(nextState); }
 		
 	}
 	

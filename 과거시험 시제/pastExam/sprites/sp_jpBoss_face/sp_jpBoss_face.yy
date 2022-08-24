@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 275,
-  "bbox_top": 0,
+  "bbox_top": 54,
   "bbox_bottom": 383,
   "HTile": false,
   "VTile": false,
@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "jpBoss",
-    "path": "folders/Sprites/csSprite/jpBoss.yy",
+    "path": "folders/Sprites/csSprite/tutorialCs/jpBoss.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_jpBoss_face",

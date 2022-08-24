@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 275,
-  "bbox_top": 0,
+  "bbox_top": 69,
   "bbox_bottom": 383,
   "HTile": false,
   "VTile": false,
@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "tutoCs",
-    "path": "folders/Sprites/csSprite/tutoCs.yy",
+    "path": "folders/Sprites/csSprite/tutorialCs/tutoCs.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_jpMb_face",

@@ -86,7 +86,7 @@
   "nineSlice": null,
   "parent": {
     "name": "tutoCs",
-    "path": "folders/Sprites/csSprite/tutoCs.yy",
+    "path": "folders/Sprites/csSprite/tutorialCs/tutoCs.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_jpBoss_cs3",

@@ -51,11 +51,14 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_globalValue","path":"objects/ob_globalValue/ob_globalValue.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1568.0,"y":256.0,"resourceVersion":"1.0","name":"inst_5E376E7_3_1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"effect","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"ob_roomControl","path":"objects/ob_roomControl/ob_roomControl.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":800.0,"resourceVersion":"1.0","name":"inst_5AEDB472_1_1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"roomBgm","path":"objects/ob_roomControl/ob_roomControl.yy",},"objectId":{"name":"ob_roomControl","path":"objects/ob_roomControl/ob_roomControl.yy",},"value":"s_mB01_2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"isMinimap","path":"objects/ob_roomControl/ob_roomControl.yy",},"objectId":{"name":"ob_roomControl","path":"objects/ob_roomControl/ob_roomControl.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"ob_roomControl","path":"objects/ob_roomControl/ob_roomControl.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":800.0,"resourceVersion":"1.0","name":"inst_5AEDB472_1_1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"roomControl","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":1632.0,"resourceVersion":"1.0","name":"inst_1E577C90_3_1","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"ob_banditBoss","path":"objects/ob_banditBoss/ob_banditBoss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1920.0,"y":1568.0,"resourceVersion":"1.0","name":"inst_7C7B2C54_1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":1632.0,"resourceVersion":"1.0","name":"inst_1E577C90_3_1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_banditBoss","path":"objects/ob_banditBoss/ob_banditBoss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1792.0,"y":1568.0,"resourceVersion":"1.0","name":"inst_7C7B2C54_1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"effect2","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"t_stage1","path":"tilesets/t_stage1/t_stage1.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":40,"SerialiseHeight":32,"TileSerialiseData":[
@@ -106,10 +109,10 @@
   "creationCodeFile": "${project_dir}/rooms/demo_stage02_2/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_5E376E7_3_1","path":"rooms/demo_stage02_2/demo_stage02_2.yy",},
-    {"name":"inst_1E577C90_3_1","path":"rooms/demo_stage02_2/demo_stage02_2.yy",},
-    {"name":"inst_5AEDB472_1_1","path":"rooms/demo_stage02_2/demo_stage02_2.yy",},
-    {"name":"inst_7C7B2C54_1","path":"rooms/demo_stage02_2/demo_stage02_2.yy",},
+    {"name":"inst_5E376E7_3_1","path":"rooms/r_stage01Boss/r_stage01Boss.yy",},
+    {"name":"inst_1E577C90_3_1","path":"rooms/r_stage01Boss/r_stage01Boss.yy",},
+    {"name":"inst_5AEDB472_1_1","path":"rooms/r_stage01Boss/r_stage01Boss.yy",},
+    {"name":"inst_7C7B2C54_1","path":"rooms/r_stage01Boss/r_stage01Boss.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -133,11 +136,11 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "demo room",
-    "path": "folders/Rooms/demo room.yy",
+    "name": "stage01 room",
+    "path": "folders/Rooms/stage01 room.yy",
   },
   "resourceVersion": "1.0",
-  "name": "demo_stage02_2",
+  "name": "r_stage01Boss",
   "tags": [],
   "resourceType": "GMRoom",
 }

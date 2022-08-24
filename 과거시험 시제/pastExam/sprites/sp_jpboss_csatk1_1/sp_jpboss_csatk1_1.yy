@@ -94,7 +94,7 @@
   "nineSlice": null,
   "parent": {
     "name": "jpBoss",
-    "path": "folders/Sprites/csSprite/jpBoss.yy",
+    "path": "folders/Sprites/csSprite/tutorialCs/jpBoss.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_jpBoss_csatk1_1",
