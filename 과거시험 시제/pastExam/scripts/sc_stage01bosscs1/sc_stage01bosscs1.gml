@@ -6,7 +6,7 @@ function sc_stage01BossCs1(){
 	if (state == 4) x = x + 8;
 	
 	var ii = 720;
-	var iy = 640
+	var iy = 540
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
@@ -21,6 +21,7 @@ function sc_stage01BossCs1(){
 			alarm[1] = 20;
 			SE_Play(s_hit01, global.vol);
 			SE_Play(s_bandit01die1, global.vol);
+			
 			uc_shake(8, 0.1);
 			break;
 			
@@ -28,13 +29,17 @@ function sc_stage01BossCs1(){
 			alarm[1] = 40;
 			SE_Play(s_hit01, global.vol);
 			SE_Play(s_bandit01die2, global.vol);
+			
 			uc_shake(8, 0.1);
 			break;
 			
 		case 3:
 			alarm[1] = 60;
 			SE_Play(s_hit01, global.vol);
-			SE_Play(s_bandit01die3, global.vol);
+			//SE_Play(s_bandit01die3, global.vol);
+			with (ob_mobBandit03) {
+				hp = 0;
+			}
 			uc_shake(8, 0.1);
 			break;
 			
@@ -75,71 +80,24 @@ function sc_stage01BossCs1(){
 		
 		case 9:
 			var name = "산적 두목"
-			var text = "거기 멈춰라!";
-			sc_csBase(name, sp_banditBoss_face, text, 800, iy);
+			var text = "비실해 보이는 선비 놈이 성가시게도 구는군. \n내가 직접 박살 내주마!";
+			sc_csBase(name, sp_banditBoss_face, text, ii, iy);
 			break;
 		
 		case 10:
-			var name = "어린아이"
-			var text = "저희 가족들이.. 다른 마을에 볼일이 있어.. \n백마산 길을 지나는데..";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
+			var name = "산적 두목"
+			var text = "가지고 있는 건 다 내놔라! \n물론 네놈의 목숨까지도 말이지 흐흐";
+			sc_csBase(name, sp_banditBoss_face, text, ii, iy);
 			break;
-		
+			
 		case 11:
-			var name = "어린아이"
-			var text = "갑자기 왜놈들이 나타나서.. 가족과 일행을 다 잡아갔어요!..";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
+			isTalk = 4;
+			ob_roomControl.isTalk = 4;
+			BGM_Stop(60);
+			alarm[1] = 60;
 			break;
 			
 		case 12:
-			var name = "어린아이"
-			var text = "어떻게 저만 간신히 도망쳤는데...";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
-			break;
-		
-		case 13:
-			ob_roomControl.isTalk = 8;
-			sc_csBase2(ii, iy);
-			isTalk = 5;
-			alarm[1] = 150;
-			break;
-		
-		case 14:
-			var name = "어린아이"
-			var text = "저희 가족들좀 구해주세요!.. 엉엉..";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
-			break;
-			
-		case 15:
-			ob_roomControl.isTalk = 8;
-			sc_csBase2(x, 560);
-			isTalk = 4;
-			alarm[1] = 150;
-			break;
-			
-		case 16:
-			image_index = 0;
-			sprite_index = sp_cs02_plStand;
-			isTalk = 4;
-			alarm[1] = 60;
-			break;
-			
-		case 17:
-			image_index = 0;
-			sprite_index = sp_pl_standPeace;
-			isTalk = 4;
-			alarm[1] = 60;
-			break;
-			
-		case 18:
-			BGS_Play(s_foot, global.vol, 0);
-			sprite_index = sp_pl_walk;
-			isTalk = 4;
-			alarm[1] = 210;
-			break;
-			
-		case 19:
-			BGS_Set(0, 120);
 			ob_roomControl.alarm[7] = 1;
 			break;
 		
