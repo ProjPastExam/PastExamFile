@@ -1,4 +1,4 @@
+var i = irandom_range(0 ,1);
 
-nextRoom = demo_stage05;
-audio_stop_all();
-//audio_play_sound(s_mr01, 1, true);
+if (i == 0)			nextRoom = r_stage02_2_2;
+else				nextRoom = r_stage02_2_3;
