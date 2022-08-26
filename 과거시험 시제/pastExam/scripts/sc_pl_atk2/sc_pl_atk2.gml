@@ -5,14 +5,13 @@ function sc_pl_atk2(){
 	if (!isJump) xSpeed = 0;
 	var atk;
 	image_xscale = dir;
-	if (isSin) {
-		if ( isJump ) sprite_index = sp_pl_jumpSin;
-		else sprite_index = sp_pl_atk2sin;
+	if (isSin && global.comCt >= 20) {
+		canMove = 21;
 	}
-	else {
-		if ( isJump ) sprite_index = sp_pl_jumpAtk2;
-		else sprite_index = sp_pl_atk2;
-	}
+
+	if ( isJump ) sprite_index = sp_pl_jumpAtk2;
+	else sprite_index = sp_pl_atk2;
+
 	
 
 	
@@ -26,24 +25,10 @@ function sc_pl_atk2(){
 	sc_pl_skKey();
 	
 	if ( atkProcess == 26 ) {
-		if (isSin > 0) {
-			atk = instance_create_layer(x, y, "effect", ob_sinEf01);
-			//atk.damage = 10;
-			//atk.shock = 10;
-			//atk.pene = 0;
-			//atk.hitAfter = 15;
-			atk.grade = isSin;
-			atk.image_xscale = dir;
-			atk.dir = dir;
-			SE_Play(s_arrow02, global.vol);
-			//audio_play_sound(s_arrow02, 5, false);
-		}
-		else {
-			sc_pl_atkEf(sc_pl_atkDmg()*2.5, sc_pl_atkPene(), sc_pl_atkShock()*1.2, sc_pl_atkMana(), 
-				0, 0, 0, sp_pl_atkEf02, dir);
-			SE_Play(s_arrow02, global.vol);
-			//audio_play_sound(s_arrow02, 5, false);
-		}
+		sc_pl_atkEf(sc_pl_atkDmg()*2.5, sc_pl_atkPene(), sc_pl_atkShock()*1.2, sc_pl_atkMana(), 
+			0, 0, 0, sp_pl_atkEf02, dir);
+		SE_Play(s_arrow02, global.vol);
+		//audio_play_sound(s_arrow02, 5, false);
 	}
 	
 	//대쉬 제어

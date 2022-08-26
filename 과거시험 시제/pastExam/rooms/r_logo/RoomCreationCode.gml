@@ -1,4 +1,4 @@
-VSLS_Init();
+ VSLS_Init();
 
 //window_set_fullscreen(true);
 
@@ -74,10 +74,11 @@ global.fireDmgScale = 1;
 
 //아이템 관련 변수
 {
-global.itemMax		= 4;	//아이템 종류, 패치값
+global.itemMax		= 5;	//아이템 종류, 패치값
 global.itemSum		= 0;
 global.itemGet 		= array_create(10, NULL);
 global.itemGrade	= array_create(10, -1);
+global.itemNum		= 6;
 
 global.itemData		= array_create(global.itemMax, NULL);
 

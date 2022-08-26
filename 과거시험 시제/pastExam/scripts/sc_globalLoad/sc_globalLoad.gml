@@ -4,8 +4,6 @@ function sc_globalLoad(){
 	global.vol		= VSLS_Get("vol");
 	global.volBgm	= VSLS_Get("volBgm");
 	
-	global.itemNum		= VSLS_Get("itemNum");
-	
 	global.language		= VSLS_Get("language");
 	
 	global.money		= VSLS_Get("money");

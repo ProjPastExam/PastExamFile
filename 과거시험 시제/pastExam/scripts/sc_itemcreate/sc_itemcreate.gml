@@ -17,9 +17,9 @@ function sc_itemData(){
 	global.itemData[3]	= new itemStruct ( 3, sp_Item_jump, sp_ItemInfo_jump, 3,
 		function(grade) { other.itemJump = 1; })
 		
-	//후방공격 후 전방공격 시 죽창 찌르기 아이템
-	global.itemData[4]	= new itemStruct ( 4, sp_Item_jump, sp_ItemInfo_jump, 1,
-		function(grade) { other.item4 = 1;	other.item4Index = true; })
+	//전방공격 시 죽창 찌르기 아이템
+	global.itemData[4]	= new itemStruct ( 4, sp_Item_04, sp_ItemInfo_04, 1,
+		function(grade) { other.item4 = true; })
 		
 	//연타 수치 지속시간 증가
 	global.itemData[5]	= new itemStruct ( 5, sp_Item_jump, sp_ItemInfo_jump, 3,

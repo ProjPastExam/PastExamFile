@@ -34,7 +34,7 @@ function sc_pl_sk102(){
 	}
 	
 	if ( atkProcess == 14 ) {
-		sc_pl_atkEf(sc_pl_kickDmg()*12, sc_pl_kickPene()+40, sc_pl_kickShock()+100, 0, 
+		sc_pl_atkEf(sc_pl_kickDmg()*8, sc_pl_kickPene(), sc_pl_kickShock()+100, 0, 
 			0, 1, 0, sp_pl_atkEf102, dir);
 		SE_Play(s_bandit02atk2, global.vol);
 		//audio_play_sound(s_bandit02atk2, 5, false);

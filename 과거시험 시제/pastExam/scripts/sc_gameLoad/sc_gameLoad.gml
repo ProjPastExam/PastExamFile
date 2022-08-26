@@ -25,7 +25,6 @@ function sc_gameLoad(){
 	}
 	
 	{
-	if (VSLS_Get("itemNum") == undefined)	VSLS_Set("itemNum", 3);
 	if (VSLS_Get("vol") == undefined)		VSLS_Set("vol", 50);
 	if (VSLS_Get("volBgm") == undefined)	VSLS_Set("volBgm", 50);
 	if (VSLS_Get("btLeft") == undefined)	VSLS_Set("btLeft", vk_left);

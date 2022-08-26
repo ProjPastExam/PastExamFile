@@ -107,9 +107,6 @@ function sc_pl_move() {
 	}
 	*/
 	
-	//if (item4 > 0 && canMove==0) {item4Index = true;}
-	if (item4 > 0 && global.comCt <= 0 && canMove==0) {item4Index = true;}
-	
 	if ( atkProcess > -1 ) {
 		switch(canMove) {
 		case 0:		atkProcess = -1;		break;
@@ -129,6 +126,7 @@ function sc_pl_move() {
 		case 12:	sc_pl_atk3();			break;
 		
 		case 20:	sc_pl_item4();			break;
+		case 21:	sc_pl_item0();			break;
 		
 		//스킬
 		case 101:	sc_pl_sk101();			break;
