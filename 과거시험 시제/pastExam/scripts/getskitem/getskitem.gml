@@ -5,6 +5,7 @@ function sc_getItem(){
 		global.itemGet[global.itemSum] = global.itemData[itemNum];
 		global.itemGet[global.itemSum].itemBuff = itemBuff;
 		global.itemGet[global.itemSum].itemKind = itemKind;
+		global.itemGet[global.itemSum].itemGrade = itemGrade;
 		
 		global.itemSum++;
 		with ( ob_player ) {
@@ -13,6 +14,15 @@ function sc_getItem(){
 		return true;
 	}
 	else {
+		with (ob_player) {
+			alarm[3] = 3;
+		}
+		
+		isDelete = true;
+		
+		with (ob_roomControl) {
+			sc_gameRoom(r_tabDeleteItem);
+		}
 		return false;
 	}
 }

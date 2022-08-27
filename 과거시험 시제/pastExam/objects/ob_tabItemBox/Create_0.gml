@@ -9,6 +9,7 @@ if (global.itemGet[itemNum] != NULL) {
 	itemInfo	= global.itemGet[itemNum].infoSprite;
 	itemKind	= global.itemGet[itemNum].itemKind;
 	itemGrade	= global.itemGet[itemNum].itemGrade;
+	itemBuff	= global.itemGet[itemNum].itemBuff;
 	backSprite	= sp_skillUi_0;
 	if (itemKind == 0) backSprite = sp_itemBackAtk;
 	if (itemKind == 1) backSprite = sp_itemBackKick;

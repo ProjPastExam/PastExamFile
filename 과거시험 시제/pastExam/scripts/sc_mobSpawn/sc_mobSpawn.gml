@@ -31,6 +31,7 @@ function sc_mobSpawn(){
 		global.uiHp = hp;
 		global.uiHpIndex = hp;
 		global.uiHpMax = hp;
+		global.uiHpCir = uiHpCir;
 		alarm[9] = 5;
 	}
 }

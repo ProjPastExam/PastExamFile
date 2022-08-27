@@ -54,7 +54,7 @@ if (tabIndex > 2) {
 	}
 	else {
 		if (interIndex > 0) interIndex--;
-		else interIndex++;
+		//else interIndex++;
 	}
 	if (interIndex >= 60) {
 		interIndex = -30;

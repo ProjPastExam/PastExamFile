@@ -74,7 +74,7 @@ global.fireDmgScale = 1;
 
 //아이템 관련 변수
 {
-global.itemMax		= 5;	//아이템 종류, 패치값
+global.itemMax		= 3;	//아이템 종류, 패치값
 global.itemSum		= 0;
 global.itemGet 		= array_create(10, NULL);
 global.itemGrade	= array_create(10, -1);
@@ -83,6 +83,9 @@ global.itemNum		= 6;
 global.itemData		= array_create(global.itemMax, NULL);
 
 global.tabDeleteIndex	= 0;
+global.tabDeleteIndex2	= 0;
+global.tabDeleteIndex3	= 0;
+global.tabDeleteIndex4	= 0;
 global.tabDeleteIs		= 0;
 global.tabDeleteNum		= 0;
 
@@ -109,6 +112,7 @@ global.mapBuffer	= -1;
 global.uiHp			= 1;
 global.uiHpMax		= 1;
 global.uiHpIndex	= 1;
+global.uiHpCir		= noone;
 
 //스킬 변수
 

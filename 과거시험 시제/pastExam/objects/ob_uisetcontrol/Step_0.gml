@@ -3,7 +3,7 @@
 
 
 if (keyboard_check_pressed(global.btEsc) ) {
-	room_goto(r_setting);
+	alarm[1] = 1;
 }
 
 hpProcess = 0;

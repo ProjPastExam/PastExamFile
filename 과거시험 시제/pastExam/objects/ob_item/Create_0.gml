@@ -10,8 +10,8 @@ isDelete = false;
 
 if (isRand) {
 	while (1) {
-		itemNum = irandom_range(0, global.itemMax);
-		if (sc_itemCheck(itemNum)) break;
+		itemNum = irandom_range(0, global.itemMax-1);
+		if (sc_itemCheck(itemNum)) { break; }
 	}
 	itemBuff = irandom_range(0, 4);
 }

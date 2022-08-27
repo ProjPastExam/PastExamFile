@@ -117,6 +117,8 @@ function sc_gameHpUI() {
 	var index1 = global.uiHp/global.uiHpMax;
 	var index2 = global.uiHpIndex/global.uiHpMax;
 	
+	draw_sprite(sp_uiHpCir, 0, global.hpX, global.hpY);
+	if (global.uiHpCir != noone)	draw_sprite(global.uiHpCir, 0, global.hpX, global.hpY);
 	draw_sprite(sp_uiHpBack, 0, global.hpX, global.hpY);
 	draw_sprite_ext(sp_uiHpMiddle, 0, global.hpX, global.hpY, index2, 1, 0, c_white, 1);
 	draw_sprite_ext(sp_uiHpFront, 0, global.hpX, global.hpY, index1, 1, 0, c_white, 1);

@@ -15,4 +15,22 @@ if (isNew) {
 	ySpeed = 0;
 }
 
+if (isDelete) {
+	if (global.tabDeleteIs == 2) {
+		global.itemGet[global.tabDeleteNum] = global.itemData[itemNum];
+		global.itemGet[global.tabDeleteNum].itemBuff = itemBuff;
+		global.itemGet[global.tabDeleteNum].itemKind = itemKind;
+		global.itemGet[global.tabDeleteNum].itemGrade = itemGrade;
+		
+		with ( ob_player ) {
+			itemCheck = true;
+		}
+		//global.tabDeleteIs = 0;
+		instance_destroy();
+	}
+	else {
+		isDelete = false;
+	}
+}
+
 alarm[0] = 1;

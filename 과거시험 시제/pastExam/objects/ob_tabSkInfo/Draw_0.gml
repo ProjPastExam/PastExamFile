@@ -18,5 +18,14 @@ if (sprite_index != NULL) {
 			draw_text(x-40, y+200, int64(global.skKulData[i]/60));
 		}
 	}
+	else {
+		if (global.itemGet[state - 3] != NULL) {
+			var _itemKind	= global.itemGet[state-3].itemKind;
+			var _itemGrade	= global.itemGet[state-3].itemGrade;
+			var _itemBuff	= global.itemGet[state-3].itemBuff;
+			
+			draw_sprite(sc_itemScaleSprite(_itemKind, _itemBuff), _itemGrade-1, x-200, y+200)
+		}
+	}
 }
 	

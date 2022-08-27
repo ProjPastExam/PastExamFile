@@ -21,7 +21,7 @@ if (isDelete) {
 		case 2:	global.sk2 = skNum;	break;
 		case 3:	global.sk3 = skNum; break;
 		}
-		global.tabDeleteIs = 0;
+		//global.tabDeleteIs = 0;
 		instance_destroy();
 	}
 	else {

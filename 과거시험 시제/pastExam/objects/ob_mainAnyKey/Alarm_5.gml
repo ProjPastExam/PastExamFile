@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //room_goto(r_startCt);
-//room_goto(r_stage02Boss);
+//room_goto(r_stage01Boss);
 //room_goto(r_tutorial);
 //room_goto(r_start);
 //room_goto(r_stage01_pace);
