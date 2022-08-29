@@ -24,7 +24,7 @@ function sc_pl_kickMana(mode = 0){
 }
 
 function sc_pl_kickComb(mode = 0) {
-	var kickComb = global.kickComb;
+	var kickComb = global.kickComb * sc_itemScaleCalculator(1, 2);
 	
 	if (mode == 1) return string_format(kickComb, 0, 1);
 	
@@ -37,7 +37,7 @@ function sc_pl_kickComb(mode = 0) {
 }
 
 function sc_pl_kickCt(mode = 0) {
-	var kickCt = global.kickCt;
+	var kickCt = global.kickCt * sc_itemScaleCalculator(1, 3);
 	if (mode == 1) return kickCt * 100;
 	
 	kickCt = global.kickCt * sc_itemScaleCalculator(1, 3);

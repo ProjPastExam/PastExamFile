@@ -37,7 +37,7 @@ if (global.itemScale[0][1] > 0) {
 draw_set_halign(fa_left);
 draw_text(x, y+60, "연타 수치");
 draw_set_halign(fa_center);
-draw_text(x+170, y+60, sc_pl_atkComb());
+draw_text(x+170, y+60, sc_pl_atkComb(1));
 if (global.itemScale[0][2] > 0) {
 	var tempText = "(  /6)"
 	draw_text(x+x2, y+60, tempText);
@@ -50,7 +50,7 @@ if (global.itemScale[0][2] > 0) {
 draw_set_halign(fa_left);
 draw_text(x, y+90, "치명타 보정");
 draw_set_halign(fa_center);
-draw_text(x+170, y+90, int64(sc_pl_atkCt()));
+draw_text(x+170, y+90, int64(sc_pl_atkCt(1)));
 if (global.itemScale[0][3] > 0) {
 	var tempText = "(  /6)"
 	draw_text(x+x2, y+90, tempText);
@@ -105,7 +105,7 @@ if (global.itemScale[1][1] > 0) {
 draw_set_halign(fa_left);
 draw_text(x, y+240, "연타 수치");
 draw_set_halign(fa_center);
-draw_text(x+170, y+240, sc_pl_kickComb());
+draw_text(x+170, y+240, sc_pl_kickComb(1));
 if (global.itemScale[1][2] > 0) {
 	var tempText = "(  /6)"
 	draw_text(x+x2, y+240, tempText);
@@ -118,7 +118,7 @@ if (global.itemScale[1][2] > 0) {
 draw_set_halign(fa_left);
 draw_text(x, y+270, "치명타 보정");
 draw_set_halign(fa_center);
-draw_text(x+170, y+270, int64(sc_pl_kickCt()));
+draw_text(x+170, y+270, int64(sc_pl_kickCt(1)));
 if (global.itemScale[1][3] > 0) {
 	var tempText = "(  /6)"
 	draw_text(x+x2, y+270, tempText);
@@ -173,7 +173,7 @@ if (global.itemScale[2][1] > 0) {
 draw_set_halign(fa_left);
 draw_text(x, y+420, "연타 수치");
 draw_set_halign(fa_center);
-draw_text(x+170, y+420, sc_pl_fireComb());
+draw_text(x+170, y+420, sc_pl_fireComb(1));
 if (global.itemScale[2][2] > 0) {
 	var tempText = "(  /6)"
 	draw_text(x+x2, y+420, tempText);
@@ -186,7 +186,7 @@ if (global.itemScale[2][2] > 0) {
 draw_set_halign(fa_left);
 draw_text(x, y+450, "치명타 보정");
 draw_set_halign(fa_center);
-draw_text(x+170, y+450, int64(sc_pl_fireCt()));
+draw_text(x+170, y+450, int64(sc_pl_fireCt(1)));
 if (global.itemScale[2][3] > 0) {
 	var tempText = "(  /6)"
 	draw_text(x+x2, y+450, tempText);

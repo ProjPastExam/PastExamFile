@@ -24,7 +24,7 @@ function sc_pl_fireMana(mode = 0){
 }
 
 function sc_pl_fireComb(mode = 0) {
-	var fireComb = global.fireComb;
+	var fireComb = global.fireComb * sc_itemScaleCalculator(2, 2);
 	
 	if (mode == 1) return string_format(fireComb, 0, 1);
 	
@@ -37,7 +37,7 @@ function sc_pl_fireComb(mode = 0) {
 }
 
 function sc_pl_fireCt(mode = 0) {
-	var fireCt = global.fireCt;
+	var fireCt = global.fireCt * sc_itemScaleCalculator(2, 3);
 	if (mode == 1) return fireCt*100;
 	
 	fireCt = global.fireCt * sc_itemScaleCalculator(2, 3);

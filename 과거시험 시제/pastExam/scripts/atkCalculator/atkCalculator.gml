@@ -25,7 +25,7 @@ function sc_pl_atkMana(mode = 0){
 }
 
 function sc_pl_atkComb(mode = 0) {
-	var atkComb = global.atkComb;
+	var atkComb = global.atkComb * sc_itemScaleCalculator(0, 2);
 	
 	if (mode == 1) return string_format(atkComb, 0, 1);
 	
@@ -38,7 +38,7 @@ function sc_pl_atkComb(mode = 0) {
 }
 
 function sc_pl_atkCt(mode = 0) {
-	var atkCt = global.atkCt;
+	var atkCt = global.atkCt * sc_itemScaleCalculator(0, 3);
 	if (mode == 1) return atkCt*100;
 	
 	atkCt = global.atkCt * sc_itemScaleCalculator(0, 3);
