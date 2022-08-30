@@ -26,9 +26,13 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"sp_cs02_face","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"nameS","path":"objects/ob_npcBase/ob_npcBase.yy",},"objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"아이","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "NPC",
     "path": "folders/Objects/NPC.yy",

@@ -29,7 +29,7 @@ function sc_pl_item0(){
 		atk.dir = dir;
 		SE_Play(s_arrow02, global.vol);
 		//audio_play_sound(s_arrow02, 5, false);
-		global.comCt -= 20;
+		global.comCt -= 15;
 	}
 	
 	//대쉬 제어

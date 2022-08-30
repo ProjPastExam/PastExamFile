@@ -125,8 +125,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "NPC",
-    "path": "folders/Sprites/NPC.yy",
+    "name": "talk",
+    "path": "folders/Sprites/NPC/talk.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_talkNug",

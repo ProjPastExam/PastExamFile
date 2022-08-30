@@ -62,7 +62,7 @@ function sc_cs01(){
 		
 		case 7:
 			var name = "주모"
-			var text = "왜란때 들어왔던 왜놈 몇몇이 백마산이 제 집인양 들어앉았지 뭐에요!";
+			var text = "왜란때 들어왔던 왜놈 몇몇이 백마산이 제 집인양 \n들어앉았지 뭐에요!";
 			sc_csBase(name, sp_jumo_face, text, jumo, 580);
 			break;
 			
