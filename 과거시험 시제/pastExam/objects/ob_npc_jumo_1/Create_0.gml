@@ -18,18 +18,18 @@ qst1Index[@0]	= talkq1;
 qst1Index[@1]	= talkq2;
 
 
-talk1[@0]	= new talkStruct("반가워요. \n원하시면 주막에서 쉬고가시도록 해요.");
+talk1[@0]	= new talkStruct("반가워요. \n원하시면 주막에서 쉬고 가시도록 해요.");
 talk1[@1]	= new talkStruct(,,,2,,2,qst1);
 talk1[@2]	= new talkStruct(,,,3,qst1Index);
 
-talkq1[@0]	= new talkStruct("백마산을 지나는 여행");
-talkq1[@1]	= new talkStruct("하지만... 왜놈들에게 잡힌 가족들은 \n아직 소식이 없어요....");
-talkq1[@2]	= new talkStruct("....훌쩍");
+talkq1[@0]	= new talkStruct("백마산을 지나는 여행객들이  \n저희 주막에서 묵고 가곤 해요");
+talkq1[@1]	= new talkStruct("주막에서 휴식하면 떨어진 체력을 \n회복할 수 있어요.");
+talkq1[@2]	= new talkStruct("선비님도 체력이 많이 떨어지셨다면, \n주막에서 쉬고 가시도록 해요");
 talkq1[@3]	= new talkStruct(,,,1 , talk1);
 
-talkq2[@0]	= new talkStruct("가족과 함께 백마산을 지나던 중, \n왜놈들에게 습격을 받았어요...");
-talkq2[@1]	= new talkStruct("놈들은 우리 가족들을 납치해, \n깊은 동굴 속으로 끌고 갔어요...");
-talkq2[@2]	= new talkStruct("....훌쩍");
+talkq2[@0]	= new talkStruct("왜란이 끝나고, 남은 왜놈 잔당들이 \n백마산에 숨어서 산적질을 일삼고 있어요.");
+talkq2[@1]	= new talkStruct("본래 의병장을 이끌던 김세근 장군님이 \n백마산에 터를 잡고 마을을 지켜주셨는데");
+talkq2[@2]	= new talkStruct("장군님은 왜란 중에 돌아가시고, \n지금은 백마산이 왜놈들의 소굴이 되었으니, \n장군님이 통곡할 노릇이죠");
 talkq2[@3]	= new talkStruct(,,,1 , talk1);
 							
 talkIndex		= talk1;

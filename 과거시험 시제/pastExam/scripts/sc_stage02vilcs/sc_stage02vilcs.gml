@@ -18,7 +18,7 @@ function sc_stage02VilCs(){
 			break;
 			
 		case 1:
-			BGS_Play(s_run, global.vol, 30);
+			BGS_Play(s_foot, global.vol, 30);
 			isTalk = 5;
 			alarm[1] = 120;
 			break;
@@ -74,6 +74,12 @@ function sc_stage02VilCs(){
 			break;
 			
 		case 10:
+			ob_roomControl.isTalk = 4;
+			isTalk = 4;
+			alarm[1] = 120;
+			break;
+			
+		case 11:
 			ob_roomControl.alarm[7] = 1;
 			break;
 		
