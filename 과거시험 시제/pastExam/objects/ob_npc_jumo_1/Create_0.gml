@@ -1,43 +1,35 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 sc_npcCreate();
-isRest = false;
 
-jumoTalk1		= array_create(4);
-jumoTalk2		= array_create(3);
+nameS = "주모";
 
-jumoTalk1[@0]	= new talkStruct("반가워요, \n과거길을 올라가시는 모양이네요");
-jumoTalk1[@1]	= new talkStruct("이 앞 산길이 가장 빠른 길이지만, \n왜란 때 건너온 왜놈들 몇몇이 모여 산적질을 하고있어요.");
-jumoTalk1[@2]	= new talkStruct("선비님은 험한 과거길에도 지친 기색이 없으셔서 다행이지만, \n이 앞길은 조심하는게 좋을거에요.");
-jumoTalk1[@3]	= new talkStruct(,,,1 , jumoTalk2)
+talk1		= array_create(3);
+talkq1		= array_create(4);
+talkq2		= array_create(4);
 
-jumoTalk2[@0]	= new talkStruct("왜란이 끝나고 본국으로 도망치지 못한 몇몇 왜놈들이 모여 \n산적질을 벌이고 있어요.");
-jumoTalk2[@1]	= new talkStruct("조심하는게 좋을거에요.")
-jumoTalk2[@2]	= new talkStruct(,,,1 , jumoTalk2);
+qst1		= array_create(2);
+qst1Index	= array_create(2);
+
+qst1[@0]	= "주막에 대해";
+qst1[@1]	= "백마산에 대해";
+qst1Index[@0]	= talkq1;
+qst1Index[@1]	= talkq2;
+
+
+talk1[@0]	= new talkStruct("반가워요. \n원하시면 주막에서 쉬고가시도록 해요.");
+talk1[@1]	= new talkStruct(,,,2,,2,qst1);
+talk1[@2]	= new talkStruct(,,,3,qst1Index);
+
+talkq1[@0]	= new talkStruct("백마산을 지나는 여행");
+talkq1[@1]	= new talkStruct("하지만... 왜놈들에게 잡힌 가족들은 \n아직 소식이 없어요....");
+talkq1[@2]	= new talkStruct("....훌쩍");
+talkq1[@3]	= new talkStruct(,,,1 , talk1);
+
+talkq2[@0]	= new talkStruct("가족과 함께 백마산을 지나던 중, \n왜놈들에게 습격을 받았어요...");
+talkq2[@1]	= new talkStruct("놈들은 우리 가족들을 납치해, \n깊은 동굴 속으로 끌고 갔어요...");
+talkq2[@2]	= new talkStruct("....훌쩍");
+talkq2[@3]	= new talkStruct(,,,1 , talk1);
 							
-talkIndex		= jumoTalk1;
-/*
-
-talkLine[0] = 3;
-talk[0] = array_create(talkLine[0]);
-
-talkLine[1] = 2;
-talk[1] = array_create(talkLine[1]);
-
-//대화 첫번째
-{
-	talk[0][0] = "반가워요, \n과거길을 올라가시는 모양이네요.";
-	talk[0][1] = "이 앞 산길이 가장 빠른 길이지만, \n왜란 때 건너온 왜놈들 몇몇이 모여 산적질을 하고있어요.";
-	if (global.hp = global.hpMax) talk[0][2] = 
-		"선비님은 험한 과거길에도 지친 기색이 없으셔서 다행이지만, \n이 앞길은 조심하는게 좋을거에요.";
-	else if (global.hp > 5) talk[0][2] = 
-		"선비님은 험한 길 오시느라 조금 지치신거 같네요, \n앞길을 위해 주막에서 쉬고가도록 하세요.";
-	else talk[0][2] = 
-		"선비님은 상당히 지치셨나봐요, \n앞길을 위해 주막에서 쉬고가도록 하세요.";
-}
-
-{
-	talk[1][0] = "왜란이 끝나고 본국으로 도망치지 못한 몇몇 왜놈들이 모여 \n산적질을 벌이고 있어요.";
-	talk[1][1] = "조심하는게 좋을거에요.";
-}
-*/
+talkIndex		= talk1;
