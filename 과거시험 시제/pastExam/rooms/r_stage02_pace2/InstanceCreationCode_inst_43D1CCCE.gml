@@ -25,8 +25,8 @@ mobStack[5][4] = ob_jpGun;
 mobNum[6] = 1;
 mobStack[6][0] = ob_jpSpear;
 
-mobNum[7] = 1;
-mobStack[6][0] = ob_jpSpearS;
+mobNum[7] = 4;
+mobStack[7][3] = ob_jpSpearS;
 
 mobNum[8] = 1;
-mobStack[6][0] = ob_jpSwordS;
+mobStack[8][0] = ob_jpSwordS;

@@ -9,6 +9,7 @@ sc_skillUi();
 sprite_index = skUi[skNum];
 
 if (isRand) {
+	var i = 0;
 	while (1) {
 		skNum = irandom_range(101, 106);
 		var check = true;
@@ -16,6 +17,8 @@ if (isRand) {
 		if (global.sk2 == skNum) check = false;
 		if (global.sk3 == skNum) check = false;
 		if (check) break;
+		i++;
+		if (i > 60) break;
 	}
 }
 alarm[2] = 30;

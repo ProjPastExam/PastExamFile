@@ -9,9 +9,12 @@ alarm[2] = 30;
 isDelete = false;
 
 if (isRand) {
+	var i = 0;
 	while (1) {
 		itemNum = irandom_range(0, global.itemMax-1);
 		if (sc_itemCheck(itemNum)) { break; }
+		i++;
+		if (i > 60) break;
 	}
 	itemBuff = irandom_range(0, 4);
 }
