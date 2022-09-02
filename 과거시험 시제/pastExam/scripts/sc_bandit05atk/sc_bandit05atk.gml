@@ -11,6 +11,7 @@ function sc_bandit05Atk(){
 	if ( delay < 0 ) delay = 0;
 	isDA = false;	isDK = false;	isDF = false;
 	
+	
 	var plX = sc_pl_get("x");
 	
 	if ((plX-x)*dir > 0) {
@@ -38,6 +39,9 @@ function sc_bandit05Atk(){
 		process++;
 		sprite_index = sp_bandit05_atk;
 		xSpeed = 0;
+		
+		isCounter = true;
+		
 		if ((plX-x)*dir > 0 && process < 60) {
 			isDA = true;	isDK = true;	isDF = true;
 			sprite_index = sp_bandit05_atkSA;
@@ -62,7 +66,7 @@ function sc_bandit05Atk(){
 		else if ( process < 98 ) { image_index = 5; }
 		else if ( process < 104 ) { image_index = 6; }
 		else if ( process < 130 ) { image_index = 7; }
-		else { state = 10;	process = 0;	delay = random_range(50, 70); }
+		else { state = 10;	process = 0;	delay = random_range(50, 70);	isCounter = false; }
 	}
 	
 	else if ( state == 13 ) {
@@ -76,5 +80,18 @@ function sc_bandit05Atk(){
 		else if ( process < 24 ) { image_index = 3; }
 		else if ( process < 40 ) { image_index = 4; }
 		else { state = 12;	process = 0;	delay = 0; }
+	}
+	
+	else if (state == 5 || state == 6 || state == 7 || state == 8) {
+		if (isCounter && kbIndex < 5) {
+			isCounter = false;
+			state = 9;
+			process = 80;
+		}
+		defence = 0;
+	}
+	
+	else if (state == 9) {
+		defence = 0;
 	}
 }

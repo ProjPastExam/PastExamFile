@@ -6,7 +6,10 @@ with (ob_roomControl) {
 if (isCollision && !isActive && mobNum <= 0) {
 	var sY = bbox_bottom - 192;
 	isActive = true;
-	if (global.hp < 9)	{ global.hp++; }
+	if (global.hp < 9)	{ 
+		global.hp++;	
+		instance_create_layer(0, 0, "effect", ob_healEf);	
+	}
 	with (instance_create_layer(x-500, sY, "effect2", ob_chun_stageSpawn)) {
 		nextChun = other.chunSpawn;
 	}

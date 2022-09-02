@@ -14,6 +14,7 @@ sc_obPValue();
 sc_mobSpawn();
 alarm[0] = 1;
 alarm[5] = 5;
+isCounter = false;
 
 standSp = sp_bandit05_stand;
 stand2Sp = sp_bandit05_stand2;
