@@ -17,6 +17,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	sc_pl_camera();
 	
 	if (global.hp <= 0 && canMove != -2) {
+		with (ob_roomControl)	{ cmMode = 0; }
 		canMove = -2;
 		process = 0;
 		//if (instance_exists(ob_roomControl)) ob_roomControl.slow = 15;

@@ -55,9 +55,9 @@ function sc_keySet(){
 	isAgain = true;
 	with (ob_keySet) {
 		if (selfIndex == other.keySet && keyIndex != other.keyIndex) {
-			other.isAgain = false;
+			//other.isAgain = false;
 			uc_shake(5, 0.1);
-			alarm[2] = 1;
+			//alarm[2] = 1;
 		}
 	}
 	

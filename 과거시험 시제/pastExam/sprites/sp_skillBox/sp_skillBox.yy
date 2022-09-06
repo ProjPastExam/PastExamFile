@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 15,
-  "bbox_right": 122,
-  "bbox_top": 21,
-  "bbox_bottom": 128,
+  "bbox_left": 0,
+  "bbox_right": 95,
+  "bbox_top": 0,
+  "bbox_bottom": 95,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 144,
-  "height": 144,
+  "width": 96,
+  "height": 96,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,27 +24,27 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"566de0c7-3d86-4f2e-a8a6-ed2a817da7af","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"566de0c7-3d86-4f2e-a8a6-ed2a817da7af","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"874efa39-b778-4267-9bf6-e504d2dc6357","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"566de0c7-3d86-4f2e-a8a6-ed2a817da7af","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f2bd5730-5577-4afe-9f6e-89010432c7fe","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f2bd5730-5577-4afe-9f6e-89010432c7fe","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"874efa39-b778-4267-9bf6-e504d2dc6357","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"f2bd5730-5577-4afe-9f6e-89010432c7fe","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cd597123-55ec-4ed1-9b97-3a3fce9219e7","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd597123-55ec-4ed1-9b97-3a3fce9219e7","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"874efa39-b778-4267-9bf6-e504d2dc6357","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"cd597123-55ec-4ed1-9b97-3a3fce9219e7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"af37422d-dc68-446a-aaa3-cd083ec06af2","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"af37422d-dc68-446a-aaa3-cd083ec06af2","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"874efa39-b778-4267-9bf6-e504d2dc6357","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"af37422d-dc68-446a-aaa3-cd083ec06af2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"750c5c35-9773-430d-950e-8bed31779fef","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"750c5c35-9773-430d-950e-8bed31779fef","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"874efa39-b778-4267-9bf6-e504d2dc6357","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"750c5c35-9773-430d-950e-8bed31779fef","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9c07f970-a847-4f9c-be38-2700540c630f","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9c07f970-a847-4f9c-be38-2700540c630f","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"874efa39-b778-4267-9bf6-e504d2dc6357","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"9c07f970-a847-4f9c-be38-2700540c630f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"adda29d6-cdea-4372-b804-93b113738266","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"adda29d6-cdea-4372-b804-93b113738266","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"874efa39-b778-4267-9bf6-e504d2dc6357","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"adda29d6-cdea-4372-b804-93b113738266","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"21402d42-4c59-48d1-97a0-75b50105035e","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"21402d42-4c59-48d1-97a0-75b50105035e","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"1b01346d-0084-40f7-91f7-5cc3b17f70d9","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"21402d42-4c59-48d1-97a0-75b50105035e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"35bd64dd-94ae-4023-a06d-4a27d10fb594","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"35bd64dd-94ae-4023-a06d-4a27d10fb594","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"1b01346d-0084-40f7-91f7-5cc3b17f70d9","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"35bd64dd-94ae-4023-a06d-4a27d10fb594","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4c363fee-5bc7-4929-83da-3adff0190c00","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4c363fee-5bc7-4929-83da-3adff0190c00","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"1b01346d-0084-40f7-91f7-5cc3b17f70d9","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"4c363fee-5bc7-4929-83da-3adff0190c00","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ea4a83d6-06ba-4a03-9da2-a4a843d8c0cb","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ea4a83d6-06ba-4a03-9da2-a4a843d8c0cb","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"1b01346d-0084-40f7-91f7-5cc3b17f70d9","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"ea4a83d6-06ba-4a03-9da2-a4a843d8c0cb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b802b784-0a38-44dc-8d2b-4a24f8feda40","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b802b784-0a38-44dc-8d2b-4a24f8feda40","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"1b01346d-0084-40f7-91f7-5cc3b17f70d9","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"b802b784-0a38-44dc-8d2b-4a24f8feda40","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8675224c-4557-447c-bdfb-d03730ee5688","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8675224c-4557-447c-bdfb-d03730ee5688","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"1b01346d-0084-40f7-91f7-5cc3b17f70d9","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"8675224c-4557-447c-bdfb-d03730ee5688","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"415ac1c5-d8fb-4830-a7ef-421030c5054e","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"415ac1c5-d8fb-4830-a7ef-421030c5054e","path":"sprites/sp_skillBox/sp_skillBox.yy",},"LayerId":{"name":"1b01346d-0084-40f7-91f7-5cc3b17f70d9","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","name":"415ac1c5-d8fb-4830-a7ef-421030c5054e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},
@@ -59,13 +59,13 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"963c36bb-c0d6-4cdf-91f2-3b02351d69e2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"566de0c7-3d86-4f2e-a8a6-ed2a817da7af","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"c55e506e-ba8e-4101-af5d-883b0c17bef1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f2bd5730-5577-4afe-9f6e-89010432c7fe","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"6a90631b-1e0f-4718-83f7-2234e3ac06ff","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd597123-55ec-4ed1-9b97-3a3fce9219e7","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"8c36e558-24ba-4ce1-856d-055ba6643042","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"af37422d-dc68-446a-aaa3-cd083ec06af2","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"1286731e-e068-42c2-bce1-139113d42e9f","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"750c5c35-9773-430d-950e-8bed31779fef","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"34e17fa2-3e2b-4c9e-be18-b1fb1844285e","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9c07f970-a847-4f9c-be38-2700540c630f","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"617f6cbd-7628-4285-b3b4-5bb72df2b80f","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"adda29d6-cdea-4372-b804-93b113738266","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"a23553d5-c6f2-4f76-acc2-3c86004e8e8e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"21402d42-4c59-48d1-97a0-75b50105035e","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"44fe58c1-96ca-4bd5-8988-4ff6f58188d7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"35bd64dd-94ae-4023-a06d-4a27d10fb594","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"13efebe5-3f86-4fb6-a00d-fc4940ca503b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4c363fee-5bc7-4929-83da-3adff0190c00","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"a76968c4-4df8-43c2-9857-93ad025bf2ff","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ea4a83d6-06ba-4a03-9da2-a4a843d8c0cb","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"f0b1a9fc-e19d-44e0-9335-f509a4e2885a","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b802b784-0a38-44dc-8d2b-4a24f8feda40","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"bb9721a8-9eca-4461-9d6b-7a609a1bf857","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8675224c-4557-447c-bdfb-d03730ee5688","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"6ba5db38-3adf-49e4-9b57-77f238ca7b27","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"415ac1c5-d8fb-4830-a7ef-421030c5054e","path":"sprites/sp_skillBox/sp_skillBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -78,8 +78,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 72,
-    "yorigin": 72,
+    "xorigin": 48,
+    "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_skillBox","path":"sprites/sp_skillBox/sp_skillBox.yy",},
@@ -89,7 +89,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"874efa39-b778-4267-9bf6-e504d2dc6357","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1b01346d-0084-40f7-91f7-5cc3b17f70d9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

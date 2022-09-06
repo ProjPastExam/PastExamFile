@@ -21,5 +21,6 @@ state = 0;
 settingIndex = 0;
 isAgain = false;
 keySet = 10;
+isDouble = 0;
 
 sprite_index = sc_keySprite(selfIndex);
