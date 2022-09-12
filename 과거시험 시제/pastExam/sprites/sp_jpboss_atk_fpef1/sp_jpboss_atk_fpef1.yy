@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sp_jpBoss_atk_FPEF1",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"54009564-c82f-47c2-b0ee-2768d5aaa3cb","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"54009564-c82f-47c2-b0ee-2768d5aaa3cb","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},"LayerId":{"name":"fc171426-48c6-4e25-8481-251c8ed98c2f","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_jpBoss_atk_FPEF1","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},"resourceVersion":"1.0","name":"54009564-c82f-47c2-b0ee-2768d5aaa3cb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c4c4ec75-7f65-478a-acc9-c15369b508e8","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c4c4ec75-7f65-478a-acc9-c15369b508e8","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},"LayerId":{"name":"fc171426-48c6-4e25-8481-251c8ed98c2f","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_jpBoss_atk_FPEF1","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},"resourceVersion":"1.0","name":"c4c4ec75-7f65-478a-acc9-c15369b508e8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"54009564-c82f-47c2-b0ee-2768d5aaa3cb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c4c4ec75-7f65-478a-acc9-c15369b508e8",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_jpBoss_atk_FPEF1","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sp_jpBoss_atk_FPEF1",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 5.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4f251f79-f224-42e7-a978-c282fb0b0ea5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"54009564-c82f-47c2-b0ee-2768d5aaa3cb","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"80d4c74e-2553-4e6c-8f67-4008c7f9b815","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c4c4ec75-7f65-478a-acc9-c15369b508e8","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"4f251f79-f224-42e7-a978-c282fb0b0ea5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"54009564-c82f-47c2-b0ee-2768d5aaa3cb","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"80d4c74e-2553-4e6c-8f67-4008c7f9b815","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c4c4ec75-7f65-478a-acc9-c15369b508e8","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 600,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_jpBoss_atk_FPEF1","path":"sprites/sp_jpBoss_atk_FPEF1/sp_jpBoss_atk_FPEF1.yy",},
-    "resourceVersion": "1.4",
-    "name": "sp_jpBoss_atk_FPEF1",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fc171426-48c6-4e25-8481-251c8ed98c2f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fc171426-48c6-4e25-8481-251c8ed98c2f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "jpBoss",
     "path": "folders/Sprites/mob/jp/jpBoss.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sp_jpBoss_atk_FPEF1",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sp_bandit01G_pain",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fdd004c6-ce5e-439d-b69f-f4aba9c90646","path":"sprites/sp_bandit01G_pain/sp_bandit01G_pain.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fdd004c6-ce5e-439d-b69f-f4aba9c90646","path":"sprites/sp_bandit01G_pain/sp_bandit01G_pain.yy",},"LayerId":{"name":"17bffd50-50c9-475b-beb9-7cc1a598fcee","path":"sprites/sp_bandit01G_pain/sp_bandit01G_pain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_bandit01G_pain","path":"sprites/sp_bandit01G_pain/sp_bandit01G_pain.yy",},"resourceVersion":"1.0","name":"fdd004c6-ce5e-439d-b69f-f4aba9c90646","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fdd004c6-ce5e-439d-b69f-f4aba9c90646",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_bandit01G_pain","path":"sprites/sp_bandit01G_pain/sp_bandit01G_pain.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sp_bandit01G_pain",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0cb409e3-c133-4b62-9935-b4672d740897","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fdd004c6-ce5e-439d-b69f-f4aba9c90646","path":"sprites/sp_bandit01G_pain/sp_bandit01G_pain.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"0cb409e3-c133-4b62-9935-b4672d740897","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fdd004c6-ce5e-439d-b69f-f4aba9c90646","path":"sprites/sp_bandit01G_pain/sp_bandit01G_pain.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -58,22 +61,13 @@
     "yorigin": 220,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_bandit01G_pain","path":"sprites/sp_bandit01G_pain/sp_bandit01G_pain.yy",},
-    "resourceVersion": "1.4",
-    "name": "sp_bandit01G_pain",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"17bffd50-50c9-475b-beb9-7cc1a598fcee","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"17bffd50-50c9-475b-beb9-7cc1a598fcee","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "bandit01G",
     "path": "folders/Sprites/mob/bandit/bandit01/bandit01G.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sp_bandit01G_pain",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

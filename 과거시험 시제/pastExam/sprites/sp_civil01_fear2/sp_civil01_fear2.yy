@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sp_civil01_fear2",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b6b631c3-2baf-495b-936e-3ebabf7414e3","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b6b631c3-2baf-495b-936e-3ebabf7414e3","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},"LayerId":{"name":"122d842f-9435-4792-b006-cd1f474d558a","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_civil01_fear2","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},"resourceVersion":"1.0","name":"b6b631c3-2baf-495b-936e-3ebabf7414e3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5d5d18d6-9fa8-4f94-a713-5bfeb9060865","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5d5d18d6-9fa8-4f94-a713-5bfeb9060865","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},"LayerId":{"name":"122d842f-9435-4792-b006-cd1f474d558a","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_civil01_fear2","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},"resourceVersion":"1.0","name":"5d5d18d6-9fa8-4f94-a713-5bfeb9060865","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b6b631c3-2baf-495b-936e-3ebabf7414e3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5d5d18d6-9fa8-4f94-a713-5bfeb9060865",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_civil01_fear2","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sp_civil01_fear2",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 2.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cb862556-b9ae-4e66-9523-7fa65ab0c0ea","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b6b631c3-2baf-495b-936e-3ebabf7414e3","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"5ef73bd1-8c07-4510-a544-4fba1bd5f95c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5d5d18d6-9fa8-4f94-a713-5bfeb9060865","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"cb862556-b9ae-4e66-9523-7fa65ab0c0ea","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b6b631c3-2baf-495b-936e-3ebabf7414e3","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5ef73bd1-8c07-4510-a544-4fba1bd5f95c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5d5d18d6-9fa8-4f94-a713-5bfeb9060865","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -62,22 +63,13 @@
     "yorigin": 192,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_civil01_fear2","path":"sprites/sp_civil01_fear2/sp_civil01_fear2.yy",},
-    "resourceVersion": "1.4",
-    "name": "sp_civil01_fear2",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"122d842f-9435-4792-b006-cd1f474d558a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"122d842f-9435-4792-b006-cd1f474d558a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "stage01Cs",
     "path": "folders/Sprites/csSprite/stage01Cs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sp_civil01_fear2",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

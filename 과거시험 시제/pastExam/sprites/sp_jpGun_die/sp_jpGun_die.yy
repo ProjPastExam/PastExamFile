@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sp_jpGun_die",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4079b282-3e7e-48b6-8901-085a6433afe1","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4079b282-3e7e-48b6-8901-085a6433afe1","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"LayerId":{"name":"fbfba5d6-61d3-4170-a568-e6d7f2c5ead5","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_jpGun_die","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","name":"4079b282-3e7e-48b6-8901-085a6433afe1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e05a6871-57ec-4c4a-b6ea-154bc366f3a0","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e05a6871-57ec-4c4a-b6ea-154bc366f3a0","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"LayerId":{"name":"fbfba5d6-61d3-4170-a568-e6d7f2c5ead5","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_jpGun_die","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","name":"e05a6871-57ec-4c4a-b6ea-154bc366f3a0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"49242b80-0454-41e6-a007-5d2d4ddcee90","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"49242b80-0454-41e6-a007-5d2d4ddcee90","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"LayerId":{"name":"fbfba5d6-61d3-4170-a568-e6d7f2c5ead5","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_jpGun_die","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","name":"49242b80-0454-41e6-a007-5d2d4ddcee90","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"937f1506-8402-4b18-b700-e18c72b6a978","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"937f1506-8402-4b18-b700-e18c72b6a978","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"LayerId":{"name":"fbfba5d6-61d3-4170-a568-e6d7f2c5ead5","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_jpGun_die","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","name":"937f1506-8402-4b18-b700-e18c72b6a978","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4079b282-3e7e-48b6-8901-085a6433afe1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e05a6871-57ec-4c4a-b6ea-154bc366f3a0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"49242b80-0454-41e6-a007-5d2d4ddcee90",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"937f1506-8402-4b18-b700-e18c72b6a978",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_jpGun_die","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sp_jpGun_die",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -46,15 +43,15 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 4.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"646053b0-bc1f-41c5-86d1-480eb2f6c6d5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4079b282-3e7e-48b6-8901-085a6433afe1","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"74e3fb46-5641-4a73-87ab-96cc93cbfb94","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e05a6871-57ec-4c4a-b6ea-154bc366f3a0","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"f8905e68-a050-4550-a757-913d79a779d3","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"49242b80-0454-41e6-a007-5d2d4ddcee90","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"5587a33f-f2a3-435e-989e-40a5282c83ea","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"937f1506-8402-4b18-b700-e18c72b6a978","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"646053b0-bc1f-41c5-86d1-480eb2f6c6d5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4079b282-3e7e-48b6-8901-085a6433afe1","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"74e3fb46-5641-4a73-87ab-96cc93cbfb94","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e05a6871-57ec-4c4a-b6ea-154bc366f3a0","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f8905e68-a050-4550-a757-913d79a779d3","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"49242b80-0454-41e6-a007-5d2d4ddcee90","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5587a33f-f2a3-435e-989e-40a5282c83ea","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"937f1506-8402-4b18-b700-e18c72b6a978","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -70,22 +67,13 @@
     "yorigin": 192,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_jpGun_die","path":"sprites/sp_jpGun_die/sp_jpGun_die.yy",},
-    "resourceVersion": "1.4",
-    "name": "sp_jpGun_die",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fbfba5d6-61d3-4170-a568-e6d7f2c5ead5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fbfba5d6-61d3-4170-a568-e6d7f2c5ead5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "jpGun",
     "path": "folders/Sprites/mob/jp/jpGun.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sp_jpGun_die",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

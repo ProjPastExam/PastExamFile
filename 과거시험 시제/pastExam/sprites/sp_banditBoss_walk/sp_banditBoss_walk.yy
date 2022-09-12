@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sp_banditBoss_walk",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,33 +27,19 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"673a14ce-c847-471a-8508-5910ada89ae3","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"673a14ce-c847-471a-8508-5910ada89ae3","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":{"name":"5fc77c0a-f677-4e4a-8ee8-78a7b2b5c487","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_banditBoss_walk","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"673a14ce-c847-471a-8508-5910ada89ae3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7b585004-a115-4fc2-9fbd-2b0334a85b36","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7b585004-a115-4fc2-9fbd-2b0334a85b36","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":{"name":"5fc77c0a-f677-4e4a-8ee8-78a7b2b5c487","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_banditBoss_walk","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"7b585004-a115-4fc2-9fbd-2b0334a85b36","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6fa69925-ef03-4217-af97-ca37973e7d96","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6fa69925-ef03-4217-af97-ca37973e7d96","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":{"name":"5fc77c0a-f677-4e4a-8ee8-78a7b2b5c487","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_banditBoss_walk","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"6fa69925-ef03-4217-af97-ca37973e7d96","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6a1c57cb-f3bd-4662-9a92-8b1f1e49c6f0","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6a1c57cb-f3bd-4662-9a92-8b1f1e49c6f0","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":{"name":"5fc77c0a-f677-4e4a-8ee8-78a7b2b5c487","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_banditBoss_walk","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"6a1c57cb-f3bd-4662-9a92-8b1f1e49c6f0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e9d25e15-9e0a-4cfa-b57c-1c85f515f9f6","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e9d25e15-9e0a-4cfa-b57c-1c85f515f9f6","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":{"name":"5fc77c0a-f677-4e4a-8ee8-78a7b2b5c487","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_banditBoss_walk","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"e9d25e15-9e0a-4cfa-b57c-1c85f515f9f6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bf6df0a7-006f-4113-9a52-93daacd4b908","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bf6df0a7-006f-4113-9a52-93daacd4b908","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":{"name":"5fc77c0a-f677-4e4a-8ee8-78a7b2b5c487","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_banditBoss_walk","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"bf6df0a7-006f-4113-9a52-93daacd4b908","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b24df0e4-dde3-4ddb-9df7-a32d614380e3","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b24df0e4-dde3-4ddb-9df7-a32d614380e3","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":{"name":"5fc77c0a-f677-4e4a-8ee8-78a7b2b5c487","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_banditBoss_walk","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"b24df0e4-dde3-4ddb-9df7-a32d614380e3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3c2eac91-81f3-4e41-9f5e-51c1bd3a1f1c","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3c2eac91-81f3-4e41-9f5e-51c1bd3a1f1c","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"LayerId":{"name":"5fc77c0a-f677-4e4a-8ee8-78a7b2b5c487","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_banditBoss_walk","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","name":"3c2eac91-81f3-4e41-9f5e-51c1bd3a1f1c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"673a14ce-c847-471a-8508-5910ada89ae3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7b585004-a115-4fc2-9fbd-2b0334a85b36",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6fa69925-ef03-4217-af97-ca37973e7d96",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6a1c57cb-f3bd-4662-9a92-8b1f1e49c6f0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e9d25e15-9e0a-4cfa-b57c-1c85f515f9f6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bf6df0a7-006f-4113-9a52-93daacd4b908",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b24df0e4-dde3-4ddb-9df7-a32d614380e3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3c2eac91-81f3-4e41-9f5e-51c1bd3a1f1c",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_banditBoss_walk","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sp_banditBoss_walk",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -58,19 +47,19 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 8.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f9f963da-0fb9-4416-b66d-8ea651fcb61f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"673a14ce-c847-471a-8508-5910ada89ae3","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"a999c5b0-af76-4a1f-9e76-7485197652c1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b585004-a115-4fc2-9fbd-2b0334a85b36","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"deeabee7-5a6d-4240-83d8-7a4c57291dbc","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6fa69925-ef03-4217-af97-ca37973e7d96","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"239ea9c2-a164-41d9-8b6b-780ab790038e","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6a1c57cb-f3bd-4662-9a92-8b1f1e49c6f0","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"b33519b4-b0be-4442-8c01-e52e1e6779ae","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e9d25e15-9e0a-4cfa-b57c-1c85f515f9f6","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"2a5c58a8-c5cb-47e1-8040-ff64d8bffc0f","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bf6df0a7-006f-4113-9a52-93daacd4b908","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"46af8921-aab4-45b8-ac76-23093aa7cc4e","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b24df0e4-dde3-4ddb-9df7-a32d614380e3","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"9af50fb4-dbb8-4833-8627-f9b53defdd0d","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c2eac91-81f3-4e41-9f5e-51c1bd3a1f1c","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"f9f963da-0fb9-4416-b66d-8ea651fcb61f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"673a14ce-c847-471a-8508-5910ada89ae3","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a999c5b0-af76-4a1f-9e76-7485197652c1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b585004-a115-4fc2-9fbd-2b0334a85b36","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"deeabee7-5a6d-4240-83d8-7a4c57291dbc","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6fa69925-ef03-4217-af97-ca37973e7d96","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"239ea9c2-a164-41d9-8b6b-780ab790038e","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6a1c57cb-f3bd-4662-9a92-8b1f1e49c6f0","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b33519b4-b0be-4442-8c01-e52e1e6779ae","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e9d25e15-9e0a-4cfa-b57c-1c85f515f9f6","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2a5c58a8-c5cb-47e1-8040-ff64d8bffc0f","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bf6df0a7-006f-4113-9a52-93daacd4b908","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"46af8921-aab4-45b8-ac76-23093aa7cc4e","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b24df0e4-dde3-4ddb-9df7-a32d614380e3","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9af50fb4-dbb8-4833-8627-f9b53defdd0d","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c2eac91-81f3-4e41-9f5e-51c1bd3a1f1c","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -86,22 +75,13 @@
     "yorigin": 240,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_banditBoss_walk","path":"sprites/sp_banditBoss_walk/sp_banditBoss_walk.yy",},
-    "resourceVersion": "1.4",
-    "name": "sp_banditBoss_walk",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5fc77c0a-f677-4e4a-8ee8-78a7b2b5c487","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5fc77c0a-f677-4e4a-8ee8-78a7b2b5c487","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "banditBoss",
     "path": "folders/Sprites/mob/bandit/banditBoss.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sp_banditBoss_walk",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

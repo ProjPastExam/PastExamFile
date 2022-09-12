@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sp_banditBoss_pain",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9205e358-c092-41f4-b8ac-28757ed7cbc3","path":"sprites/sp_banditBoss_pain/sp_banditBoss_pain.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9205e358-c092-41f4-b8ac-28757ed7cbc3","path":"sprites/sp_banditBoss_pain/sp_banditBoss_pain.yy",},"LayerId":{"name":"c16228f8-61d6-46f5-afcd-93736651f01e","path":"sprites/sp_banditBoss_pain/sp_banditBoss_pain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_banditBoss_pain","path":"sprites/sp_banditBoss_pain/sp_banditBoss_pain.yy",},"resourceVersion":"1.0","name":"9205e358-c092-41f4-b8ac-28757ed7cbc3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9205e358-c092-41f4-b8ac-28757ed7cbc3",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_banditBoss_pain","path":"sprites/sp_banditBoss_pain/sp_banditBoss_pain.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sp_banditBoss_pain",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a3710b6e-fcca-4cc3-b7b4-a0b4ea68d878","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9205e358-c092-41f4-b8ac-28757ed7cbc3","path":"sprites/sp_banditBoss_pain/sp_banditBoss_pain.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"a3710b6e-fcca-4cc3-b7b4-a0b4ea68d878","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9205e358-c092-41f4-b8ac-28757ed7cbc3","path":"sprites/sp_banditBoss_pain/sp_banditBoss_pain.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -58,22 +61,13 @@
     "yorigin": 240,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_banditBoss_pain","path":"sprites/sp_banditBoss_pain/sp_banditBoss_pain.yy",},
-    "resourceVersion": "1.4",
-    "name": "sp_banditBoss_pain",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c16228f8-61d6-46f5-afcd-93736651f01e","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c16228f8-61d6-46f5-afcd-93736651f01e","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "banditBoss",
     "path": "folders/Sprites/mob/bandit/banditBoss.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sp_banditBoss_pain",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

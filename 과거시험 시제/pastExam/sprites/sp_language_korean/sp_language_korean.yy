@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sp_language_korean",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bc66a9b1-d167-4c24-bdba-4e37f57f5dd5","path":"sprites/sp_language_korean/sp_language_korean.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bc66a9b1-d167-4c24-bdba-4e37f57f5dd5","path":"sprites/sp_language_korean/sp_language_korean.yy",},"LayerId":{"name":"cf03da3b-3e64-4fe9-94c4-add11f8f3d76","path":"sprites/sp_language_korean/sp_language_korean.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_language_korean","path":"sprites/sp_language_korean/sp_language_korean.yy",},"resourceVersion":"1.0","name":"bc66a9b1-d167-4c24-bdba-4e37f57f5dd5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"97c1ed02-c695-4eec-9824-4850de412158","path":"sprites/sp_language_korean/sp_language_korean.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"97c1ed02-c695-4eec-9824-4850de412158","path":"sprites/sp_language_korean/sp_language_korean.yy",},"LayerId":{"name":"cf03da3b-3e64-4fe9-94c4-add11f8f3d76","path":"sprites/sp_language_korean/sp_language_korean.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_language_korean","path":"sprites/sp_language_korean/sp_language_korean.yy",},"resourceVersion":"1.0","name":"97c1ed02-c695-4eec-9824-4850de412158","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc66a9b1-d167-4c24-bdba-4e37f57f5dd5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"97c1ed02-c695-4eec-9824-4850de412158",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_language_korean","path":"sprites/sp_language_korean/sp_language_korean.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sp_language_korean",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"db4506d1-55a3-49e3-ab41-bb018eeb5210","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc66a9b1-d167-4c24-bdba-4e37f57f5dd5","path":"sprites/sp_language_korean/sp_language_korean.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"eeac921d-dba1-43e8-8ccd-169058d7463d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"97c1ed02-c695-4eec-9824-4850de412158","path":"sprites/sp_language_korean/sp_language_korean.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"db4506d1-55a3-49e3-ab41-bb018eeb5210","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc66a9b1-d167-4c24-bdba-4e37f57f5dd5","path":"sprites/sp_language_korean/sp_language_korean.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"eeac921d-dba1-43e8-8ccd-169058d7463d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"97c1ed02-c695-4eec-9824-4850de412158","path":"sprites/sp_language_korean/sp_language_korean.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -62,22 +63,13 @@
     "yorigin": 128,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_language_korean","path":"sprites/sp_language_korean/sp_language_korean.yy",},
-    "resourceVersion": "1.4",
-    "name": "sp_language_korean",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cf03da3b-3e64-4fe9-94c4-add11f8f3d76","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cf03da3b-3e64-4fe9-94c4-add11f8f3d76","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "button",
     "path": "folders/Sprites/interface/button.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sp_language_korean",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

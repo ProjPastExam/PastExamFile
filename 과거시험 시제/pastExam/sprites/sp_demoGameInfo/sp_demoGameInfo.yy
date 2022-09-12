@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sp_demoGameInfo",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c5b1b04e-13b1-4ffc-9079-d65238783c4d","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c5b1b04e-13b1-4ffc-9079-d65238783c4d","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},"LayerId":{"name":"f40305ea-4eaf-4c2d-af85-adce83e52ba4","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_demoGameInfo","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},"resourceVersion":"1.0","name":"c5b1b04e-13b1-4ffc-9079-d65238783c4d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"07830051-5032-4447-81bd-6ace93883b48","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"07830051-5032-4447-81bd-6ace93883b48","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},"LayerId":{"name":"f40305ea-4eaf-4c2d-af85-adce83e52ba4","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_demoGameInfo","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},"resourceVersion":"1.0","name":"07830051-5032-4447-81bd-6ace93883b48","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c5b1b04e-13b1-4ffc-9079-d65238783c4d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"07830051-5032-4447-81bd-6ace93883b48",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_demoGameInfo","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sp_demoGameInfo",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6b976e58-33e7-4cb7-87d8-3aa33e5d0f9e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c5b1b04e-13b1-4ffc-9079-d65238783c4d","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"294176c0-9e75-4631-8e03-3e1ea533d0ab","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"07830051-5032-4447-81bd-6ace93883b48","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"6b976e58-33e7-4cb7-87d8-3aa33e5d0f9e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c5b1b04e-13b1-4ffc-9079-d65238783c4d","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"294176c0-9e75-4631-8e03-3e1ea533d0ab","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"07830051-5032-4447-81bd-6ace93883b48","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -62,22 +63,13 @@
     "yorigin": 128,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_demoGameInfo","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},
-    "resourceVersion": "1.4",
-    "name": "sp_demoGameInfo",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f40305ea-4eaf-4c2d-af85-adce83e52ba4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f40305ea-4eaf-4c2d-af85-adce83e52ba4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "demoSprite",
     "path": "folders/Sprites/interface/demoSprite.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sp_demoGameInfo",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sp_pl_standPeace",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,27 +27,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"60ed481e-a89a-4696-93c7-5c632b034e56","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"60ed481e-a89a-4696-93c7-5c632b034e56","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"LayerId":{"name":"fb45f4b3-9e3a-4b51-b9a4-0b8e3cc8d50f","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_pl_standPeace","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","name":"60ed481e-a89a-4696-93c7-5c632b034e56","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5380f1b8-d1c8-4429-ae11-f7cee08acdf3","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5380f1b8-d1c8-4429-ae11-f7cee08acdf3","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"LayerId":{"name":"fb45f4b3-9e3a-4b51-b9a4-0b8e3cc8d50f","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_pl_standPeace","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","name":"5380f1b8-d1c8-4429-ae11-f7cee08acdf3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"969710f4-b3dd-43e5-a4f3-1bec5150c785","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"969710f4-b3dd-43e5-a4f3-1bec5150c785","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"LayerId":{"name":"fb45f4b3-9e3a-4b51-b9a4-0b8e3cc8d50f","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_pl_standPeace","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","name":"969710f4-b3dd-43e5-a4f3-1bec5150c785","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7316be95-c200-4e49-8300-10ff45149d1a","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7316be95-c200-4e49-8300-10ff45149d1a","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"LayerId":{"name":"fb45f4b3-9e3a-4b51-b9a4-0b8e3cc8d50f","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_pl_standPeace","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","name":"7316be95-c200-4e49-8300-10ff45149d1a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bc7225a7-a138-4204-b13c-f08bd75ad663","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bc7225a7-a138-4204-b13c-f08bd75ad663","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"LayerId":{"name":"fb45f4b3-9e3a-4b51-b9a4-0b8e3cc8d50f","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_pl_standPeace","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","name":"bc7225a7-a138-4204-b13c-f08bd75ad663","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a06a245b-43f9-43a5-a917-ed80efbf06c1","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a06a245b-43f9-43a5-a917-ed80efbf06c1","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"LayerId":{"name":"fb45f4b3-9e3a-4b51-b9a4-0b8e3cc8d50f","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_pl_standPeace","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","name":"a06a245b-43f9-43a5-a917-ed80efbf06c1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"60ed481e-a89a-4696-93c7-5c632b034e56",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5380f1b8-d1c8-4429-ae11-f7cee08acdf3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"969710f4-b3dd-43e5-a4f3-1bec5150c785",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7316be95-c200-4e49-8300-10ff45149d1a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc7225a7-a138-4204-b13c-f08bd75ad663",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a06a245b-43f9-43a5-a917-ed80efbf06c1",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_pl_standPeace","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sp_pl_standPeace",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -52,17 +45,17 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 6.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"06775642-31ca-4b2a-a13a-6b143f15f6cc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"60ed481e-a89a-4696-93c7-5c632b034e56","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"46d55833-3967-4baf-9d6e-21b10ea18d12","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5380f1b8-d1c8-4429-ae11-f7cee08acdf3","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"c2f40335-7343-4924-80df-6c8848c6861a","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"969710f4-b3dd-43e5-a4f3-1bec5150c785","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"1f7557b6-d246-4e95-89f1-c78cbabbe370","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7316be95-c200-4e49-8300-10ff45149d1a","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"3f8b253a-c33d-48e2-a036-8b0fa3396ef0","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc7225a7-a138-4204-b13c-f08bd75ad663","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"39ce97ed-5ce9-4ee9-9f21-642689690c6f","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a06a245b-43f9-43a5-a917-ed80efbf06c1","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"06775642-31ca-4b2a-a13a-6b143f15f6cc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"60ed481e-a89a-4696-93c7-5c632b034e56","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"46d55833-3967-4baf-9d6e-21b10ea18d12","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5380f1b8-d1c8-4429-ae11-f7cee08acdf3","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c2f40335-7343-4924-80df-6c8848c6861a","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"969710f4-b3dd-43e5-a4f3-1bec5150c785","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1f7557b6-d246-4e95-89f1-c78cbabbe370","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7316be95-c200-4e49-8300-10ff45149d1a","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3f8b253a-c33d-48e2-a036-8b0fa3396ef0","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc7225a7-a138-4204-b13c-f08bd75ad663","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"39ce97ed-5ce9-4ee9-9f21-642689690c6f","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a06a245b-43f9-43a5-a917-ed80efbf06c1","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -78,22 +71,13 @@
     "yorigin": 192,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_pl_standPeace","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},
-    "resourceVersion": "1.4",
-    "name": "sp_pl_standPeace",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fb45f4b3-9e3a-4b51-b9a4-0b8e3cc8d50f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fb45f4b3-9e3a-4b51-b9a4-0b8e3cc8d50f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "player",
     "path": "folders/Sprites/player.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sp_pl_standPeace",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

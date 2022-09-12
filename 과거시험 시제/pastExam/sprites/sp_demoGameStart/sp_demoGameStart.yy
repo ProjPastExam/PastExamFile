@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sp_demoGameStart",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5d87fc66-4ae7-4c1a-98d3-8d666be276f5","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5d87fc66-4ae7-4c1a-98d3-8d666be276f5","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},"LayerId":{"name":"23142a0f-a3ae-4b8d-8a33-73f7a4c88f05","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_demoGameStart","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},"resourceVersion":"1.0","name":"5d87fc66-4ae7-4c1a-98d3-8d666be276f5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b6b9ea16-f56e-4687-8d0d-45e059222faf","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b6b9ea16-f56e-4687-8d0d-45e059222faf","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},"LayerId":{"name":"23142a0f-a3ae-4b8d-8a33-73f7a4c88f05","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_demoGameStart","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},"resourceVersion":"1.0","name":"b6b9ea16-f56e-4687-8d0d-45e059222faf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5d87fc66-4ae7-4c1a-98d3-8d666be276f5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b6b9ea16-f56e-4687-8d0d-45e059222faf",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_demoGameStart","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sp_demoGameStart",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3914caf0-f36b-401a-95cc-797a7631cb50","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5d87fc66-4ae7-4c1a-98d3-8d666be276f5","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"2ca92fcc-3b7f-473c-ae3b-ac3251c96df7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b6b9ea16-f56e-4687-8d0d-45e059222faf","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"3914caf0-f36b-401a-95cc-797a7631cb50","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5d87fc66-4ae7-4c1a-98d3-8d666be276f5","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2ca92fcc-3b7f-473c-ae3b-ac3251c96df7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b6b9ea16-f56e-4687-8d0d-45e059222faf","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -62,22 +63,13 @@
     "yorigin": 128,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_demoGameStart","path":"sprites/sp_demoGameStart/sp_demoGameStart.yy",},
-    "resourceVersion": "1.4",
-    "name": "sp_demoGameStart",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"23142a0f-a3ae-4b8d-8a33-73f7a4c88f05","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"23142a0f-a3ae-4b8d-8a33-73f7a4c88f05","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "demoSprite",
     "path": "folders/Sprites/interface/demoSprite.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sp_demoGameStart",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

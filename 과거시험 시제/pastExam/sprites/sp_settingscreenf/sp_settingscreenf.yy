@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sp_settingScreenF",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d857bd59-f4c6-4215-b46b-72fbf8f64296","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d857bd59-f4c6-4215-b46b-72fbf8f64296","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},"LayerId":{"name":"aa484067-579d-4753-8395-60b7e5fa1724","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_settingScreenF","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},"resourceVersion":"1.0","name":"d857bd59-f4c6-4215-b46b-72fbf8f64296","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1452bbc6-3876-4059-a741-07f0a2a5d534","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1452bbc6-3876-4059-a741-07f0a2a5d534","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},"LayerId":{"name":"aa484067-579d-4753-8395-60b7e5fa1724","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_settingScreenF","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},"resourceVersion":"1.0","name":"1452bbc6-3876-4059-a741-07f0a2a5d534","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d857bd59-f4c6-4215-b46b-72fbf8f64296",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1452bbc6-3876-4059-a741-07f0a2a5d534",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_settingScreenF","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sp_settingScreenF",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"578492d2-7ea6-4513-b29e-21da6fdb84af","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d857bd59-f4c6-4215-b46b-72fbf8f64296","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"f0519930-900f-405c-9b70-c34a0aef17df","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1452bbc6-3876-4059-a741-07f0a2a5d534","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"578492d2-7ea6-4513-b29e-21da6fdb84af","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d857bd59-f4c6-4215-b46b-72fbf8f64296","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f0519930-900f-405c-9b70-c34a0aef17df","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1452bbc6-3876-4059-a741-07f0a2a5d534","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -62,22 +63,13 @@
     "yorigin": 72,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_settingScreenF","path":"sprites/sp_settingScreenF/sp_settingScreenF.yy",},
-    "resourceVersion": "1.4",
-    "name": "sp_settingScreenF",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"aa484067-579d-4753-8395-60b7e5fa1724","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"aa484067-579d-4753-8395-60b7e5fa1724","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "setting",
     "path": "folders/Sprites/interface/setting.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sp_settingScreenF",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sp_jpGun_backstep",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5d2e8bbb-0c05-4548-9f7f-a1f2a48f6c41","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5d2e8bbb-0c05-4548-9f7f-a1f2a48f6c41","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"LayerId":{"name":"7e81efc2-563a-4fe9-8392-0c28b644098c","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_jpGun_backstep","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","name":"5d2e8bbb-0c05-4548-9f7f-a1f2a48f6c41","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"286b2e7f-5993-4fcf-9593-eb45049a8cef","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"286b2e7f-5993-4fcf-9593-eb45049a8cef","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"LayerId":{"name":"7e81efc2-563a-4fe9-8392-0c28b644098c","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_jpGun_backstep","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","name":"286b2e7f-5993-4fcf-9593-eb45049a8cef","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b9f46959-115d-44ef-928b-12ec2c55a047","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b9f46959-115d-44ef-928b-12ec2c55a047","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"LayerId":{"name":"7e81efc2-563a-4fe9-8392-0c28b644098c","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_jpGun_backstep","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","name":"b9f46959-115d-44ef-928b-12ec2c55a047","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cc44d339-1a81-493f-b028-13fcadc08c3e","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cc44d339-1a81-493f-b028-13fcadc08c3e","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"LayerId":{"name":"7e81efc2-563a-4fe9-8392-0c28b644098c","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_jpGun_backstep","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","name":"cc44d339-1a81-493f-b028-13fcadc08c3e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1a7b1e4b-dc05-4086-987d-734e772e7bcd","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1a7b1e4b-dc05-4086-987d-734e772e7bcd","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"LayerId":{"name":"7e81efc2-563a-4fe9-8392-0c28b644098c","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_jpGun_backstep","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","name":"1a7b1e4b-dc05-4086-987d-734e772e7bcd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5d2e8bbb-0c05-4548-9f7f-a1f2a48f6c41",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"286b2e7f-5993-4fcf-9593-eb45049a8cef",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b9f46959-115d-44ef-928b-12ec2c55a047",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cc44d339-1a81-493f-b028-13fcadc08c3e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1a7b1e4b-dc05-4086-987d-734e772e7bcd",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_jpGun_backstep","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sp_jpGun_backstep",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -49,16 +44,16 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 5.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cf41ce8e-5d84-44cf-a0c6-2761e13431f9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5d2e8bbb-0c05-4548-9f7f-a1f2a48f6c41","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"c06e4058-53ac-4b22-824f-83532b3763bc","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"286b2e7f-5993-4fcf-9593-eb45049a8cef","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"28c9cc73-b189-4915-8dd5-2595ae57a129","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b9f46959-115d-44ef-928b-12ec2c55a047","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"9573ef43-176f-415b-86db-b5d143c4f0de","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc44d339-1a81-493f-b028-13fcadc08c3e","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"55ced5d5-959e-41f3-8bde-f6afe434833c","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1a7b1e4b-dc05-4086-987d-734e772e7bcd","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"cf41ce8e-5d84-44cf-a0c6-2761e13431f9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5d2e8bbb-0c05-4548-9f7f-a1f2a48f6c41","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c06e4058-53ac-4b22-824f-83532b3763bc","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"286b2e7f-5993-4fcf-9593-eb45049a8cef","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"28c9cc73-b189-4915-8dd5-2595ae57a129","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b9f46959-115d-44ef-928b-12ec2c55a047","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9573ef43-176f-415b-86db-b5d143c4f0de","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc44d339-1a81-493f-b028-13fcadc08c3e","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"55ced5d5-959e-41f3-8bde-f6afe434833c","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1a7b1e4b-dc05-4086-987d-734e772e7bcd","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -74,22 +69,13 @@
     "yorigin": 192,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_jpGun_backstep","path":"sprites/sp_jpGun_backstep/sp_jpGun_backstep.yy",},
-    "resourceVersion": "1.4",
-    "name": "sp_jpGun_backstep",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7e81efc2-563a-4fe9-8392-0c28b644098c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7e81efc2-563a-4fe9-8392-0c28b644098c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "jpGun",
     "path": "folders/Sprites/mob/jp/jpGun.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sp_jpGun_backstep",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

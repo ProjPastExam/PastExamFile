@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sp_banditBoss_counterEf",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"29b33bf0-0b1a-40cc-b2f5-a8eed3c7f03a","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"29b33bf0-0b1a-40cc-b2f5-a8eed3c7f03a","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"LayerId":{"name":"291d8db6-b068-4d1a-9486-0bde0427e2e4","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_banditBoss_counterEf","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"resourceVersion":"1.0","name":"29b33bf0-0b1a-40cc-b2f5-a8eed3c7f03a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"73f36732-e82c-42a0-8a61-267db46d5734","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"73f36732-e82c-42a0-8a61-267db46d5734","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"LayerId":{"name":"291d8db6-b068-4d1a-9486-0bde0427e2e4","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_banditBoss_counterEf","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"resourceVersion":"1.0","name":"73f36732-e82c-42a0-8a61-267db46d5734","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cec37188-8b9b-4de6-8657-6b12301923e6","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cec37188-8b9b-4de6-8657-6b12301923e6","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"LayerId":{"name":"291d8db6-b068-4d1a-9486-0bde0427e2e4","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_banditBoss_counterEf","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"resourceVersion":"1.0","name":"cec37188-8b9b-4de6-8657-6b12301923e6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"29b33bf0-0b1a-40cc-b2f5-a8eed3c7f03a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"73f36732-e82c-42a0-8a61-267db46d5734",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cec37188-8b9b-4de6-8657-6b12301923e6",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_banditBoss_counterEf","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sp_banditBoss_counterEf",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 18.0,
@@ -43,14 +42,14 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 3.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d0ac4d9d-5c9e-4ee4-90c7-785ff51b00c3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"29b33bf0-0b1a-40cc-b2f5-a8eed3c7f03a","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"9fc50e12-6482-4e38-a740-0a3b6edaabee","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"73f36732-e82c-42a0-8a61-267db46d5734","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"518d6e5a-0b13-4815-8758-fe425ce33f18","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cec37188-8b9b-4de6-8657-6b12301923e6","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"d0ac4d9d-5c9e-4ee4-90c7-785ff51b00c3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"29b33bf0-0b1a-40cc-b2f5-a8eed3c7f03a","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9fc50e12-6482-4e38-a740-0a3b6edaabee","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"73f36732-e82c-42a0-8a61-267db46d5734","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"518d6e5a-0b13-4815-8758-fe425ce33f18","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cec37188-8b9b-4de6-8657-6b12301923e6","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -66,22 +65,13 @@
     "yorigin": 240,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_banditBoss_counterEf","path":"sprites/sp_banditBoss_counterEf/sp_banditBoss_counterEf.yy",},
-    "resourceVersion": "1.4",
-    "name": "sp_banditBoss_counterEf",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"291d8db6-b068-4d1a-9486-0bde0427e2e4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"291d8db6-b068-4d1a-9486-0bde0427e2e4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "banditBoss",
     "path": "folders/Sprites/mob/bandit/banditBoss.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sp_banditBoss_counterEf",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
