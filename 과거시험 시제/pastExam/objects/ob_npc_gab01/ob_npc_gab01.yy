@@ -1,0 +1,41 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_npc_gab01",
+  "spriteId": {
+    "name": "sp_sold1_sit",
+    "path": "sprites/sp_sold1_sit/sp_sold1_sit.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "ob_npcBase",
+    "path": "objects/ob_npcBase/ob_npcBase.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"nameS","path":"objects/ob_npcBase/ob_npcBase.yy",},"objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"착호갑사",},
+  ],
+  "parent": {
+    "name": "NPC",
+    "path": "folders/Objects/NPC.yy",
+  },
+}
