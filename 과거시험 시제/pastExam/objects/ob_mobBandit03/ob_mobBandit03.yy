@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_mobBandit03",
   "spriteId": {
     "name": "sp_bandit03_stand",
     "path": "sprites/sp_bandit03_stand/sp_bandit03_stand.yy",
@@ -25,22 +28,19 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"adDistance","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"600","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"hp","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"180","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"down","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"defence","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"adDistance","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"600",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"hp","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"180",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"down","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"20",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"defence","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"20",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"moneyDrop","path":"objects/ob_mobBase/ob_mobBase.yy",},"objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"15",},
   ],
   "parent": {
     "name": "bandit",
     "path": "folders/Objects/mob/bandit.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_mobBandit03",
-  "tags": [],
-  "resourceType": "GMObject",
 }

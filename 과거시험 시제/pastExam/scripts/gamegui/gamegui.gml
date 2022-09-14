@@ -127,13 +127,16 @@ function sc_gameHpUI() {
 }
 
 function sc_printMoney() {
-	draw_sprite(sp_moneyBox, 0, 0, 1000);
+	if		(moneyPrint < global.money)	moneyPrint++;
+	else if	(moneyPrint > global.money)	moneyPrint--;
 	
-	draw_set_halign(fa_left);
-	draw_set_font(f_bigNum);
+	draw_sprite(sp_moneyBox, 0, 1670, 300);
+	
+	draw_set_halign(fa_right);
+	draw_set_font(f_kor);
 	draw_set_color(c_white);
 	
-	draw_text_transformed(180, 1000, global.money, 0.7, 0.7, 0);
+	draw_text(1880, 300, moneyPrint);
 }
 
 function sc_mousePrint(mAlpah = 1) {

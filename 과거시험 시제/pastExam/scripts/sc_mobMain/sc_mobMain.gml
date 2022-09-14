@@ -13,6 +13,10 @@ function sc_mobMain(){
 			//var plX = sc_pl_get("x");
 			//if (x > plX) dir = -1;
 			//else dir = 1;
+			var moneyDropVar = int64(moneyDrop * (100 + irandom_range(0, 20)) / 100);
+			
+			global.money += moneyDropVar;
+			global.moneyBuffer += moneyDropVar;
 			image_xscale = dir;
 			isDie = true;
 			with (ob_roomControl) {
