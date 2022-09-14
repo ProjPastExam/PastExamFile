@@ -114,6 +114,9 @@ global.uiHpMax		= 1;
 global.uiHpIndex	= 1;
 global.uiHpCir		= noone;
 
+global.money = 0;
+global.moneyBuffer	= 0;
+
 //스킬 변수
 
 

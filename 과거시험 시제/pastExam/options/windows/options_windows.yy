@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMWindowsOptions",
+  "resourceVersion": "1.1",
+  "name": "Windows",
   "option_windows_display_name": "문경새재 데모",
   "option_windows_executable_name": "${문경새재}.exe",
-  "option_windows_version": "1.0.3.28",
+  "option_windows_version": "1.0.3.29",
   "option_windows_company_info": "Team Ettu",
   "option_windows_product_info": "문경새재",
   "option_windows_copyright_info": "Team Ettu",
@@ -28,9 +31,4 @@
   "option_windows_enable_steam": false,
   "option_windows_disable_sandbox": false,
   "option_windows_steam_use_alternative_launcher": false,
-  "option_windows_use_x64": true,
-  "resourceVersion": "1.1",
-  "name": "Windows",
-  "tags": [],
-  "resourceType": "GMWindowsOptions",
 }

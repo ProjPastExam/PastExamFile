@@ -27,7 +27,7 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"104ddf59-a265-46b7-9999-993412d11cfb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"882b25d9-5be2-4f74-9da3-c22773bb989a",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -35,7 +35,7 @@
     "name": "sp_startCs_6",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -44,7 +44,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"31f131d3-055c-496f-b62e-7717b4558bec","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"104ddf59-a265-46b7-9999-993412d11cfb","path":"sprites/sp_startCs_6/sp_startCs_6.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"12f85854-e26a-4dbc-b0e8-55335e5af194","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"882b25d9-5be2-4f74-9da3-c22773bb989a","path":"sprites/sp_startCs_6/sp_startCs_6.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -63,7 +63,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9c660212-a7bf-4a32-b663-6754385e906f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"17573628-8269-4eab-a2c3-bc915f6f6aa2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {

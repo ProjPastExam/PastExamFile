@@ -25,6 +25,7 @@ function sc_pl_move() {
 	}
 	
 	//점프
+	if (!isJump && ySpeed >= 0)	{ canJump = true; }
 	if ( jumpLast > 0 ) jumpLast--;
 
 	if ( keyJump ) { 
@@ -33,10 +34,11 @@ function sc_pl_move() {
 			var bottom	= tilemap_get_at_pixel(tileId, x, bbox_bottom);
 			if (bottom == 2) { y += 16; SE_Play(s_jump, global.vol);}
 			}
-		else if ( !isJump && ( canMove == 0 ) ) { 
-			jumpLast = last; ySpeed = jumpSpeed; SE_Play(s_jump, global.vol);;
+		else if ( canJump && ( canMove == 0 ) ) { 
+			jumpLast = last; ySpeed = jumpSpeed; SE_Play(s_jump, global.vol);
 			if (keyRight) xSpeed = walkSpeed;
 			if (keyLeft) xSpeed = -walkSpeed;
+			canJump = false;
 		}
 	}
 	if ( (canMove != 5 && !keyJump2) || ySpeed >= 0 ) {

@@ -2,11 +2,12 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_atkDnJ( index = 0 ){
 	if (index == 0 || index == 1) {
-		if ( nextAtk == 9 && !isJump ) {
+		if ( nextAtk == 9 && canJump ) {
 			canMove = 0;
 			nextAtk = 0;
 			ySpeed = -17.5;
 			jumpLast = 30;
+			canJump = false;
 			if (keyLeft) xSpeed = -8.5;
 			if (keyRight) xSpeed = 8.5;
 			SE_Play(s_jump, global.vol);

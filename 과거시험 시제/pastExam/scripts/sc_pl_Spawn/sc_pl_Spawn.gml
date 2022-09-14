@@ -16,7 +16,7 @@ function sc_pl_Spawn() {
 	}
 	
 	//기본 변수
-	
+	canJump = true;
 	mobAcc	= 0;
 	
 	jumpLast = 0;

@@ -6,3 +6,10 @@ if (state > 6 && isNext) {
 	alarm[1] = 120;
 	BGM_Stop(90);
 }
+
+if (keyboard_check_pressed(global.btEsc) && isNext) {
+	state = 7;
+	isNext = false;
+	alarm[1] = 120;
+	BGM_Stop(90);
+}

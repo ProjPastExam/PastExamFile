@@ -6,7 +6,7 @@ function sc_globalLoad(){
 	
 	global.language		= VSLS_Get("language");
 	
-	global.money		= VSLS_Get("money");
+	//global.money		= VSLS_Get("money");
 	global.coin			= 0;
 	
 	global.fullScreen	= VSLS_Get("fullScreen");

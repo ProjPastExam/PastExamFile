@@ -27,6 +27,9 @@ talkNum = 0;
 talkCnt = 0;
 isEnhance = false;
 
+moneyPrint	= global.money;
+global.moneyBuffer = 0;
+
 cmMode = 0;
 ctIndex = 0;
 

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_sk_chun",
   "spriteId": {
     "name": "sp_skillUi_102",
     "path": "sprites/sp_skillUi_102/sp_skillUi_102.yy",
@@ -25,20 +28,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":3,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":3,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"isChun","path":"objects/ob_sk/ob_sk.yy",},"objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"isChun","path":"objects/ob_sk/ob_sk.yy",},"objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"value":"True",},
   ],
   "parent": {
     "name": "ingameOb",
     "path": "folders/Objects/ingameOb.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_sk_chun",
-  "tags": [],
-  "resourceType": "GMObject",
 }

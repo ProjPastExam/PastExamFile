@@ -23,6 +23,8 @@ if (isGUI) {
 	if (isMinimap) sc_drawMap();
 	
 	sc_gameGUI();
+	
+	//sc_printMoney();
 }
 draw_sprite_stretched_ext(sp_black, 0, 0, 0, 2400, 1500, 0 ,dark/30);
 
