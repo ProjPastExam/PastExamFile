@@ -14,16 +14,16 @@ function sc_itemScaleCalculator(itemKind, itemBuff){
 
 function sc_abScaleCalculator(abIndex) {
 	switch (abIndex) {
-	case 1:	return 2	* global.abAtkDmg;		break;
-	case 2:	return 3	* global.abAtkMana;		break;
-	case 3:	return 1	* global.abAtkCtDmg;	break;
+	case 1:	return 2	* global.abIndex[0];	break;
+	case 2:	return 3	* global.abIndex[1];	break;
+	case 3:	return 1	* global.abIndex[2];	break;
 	
-	case 4:	return 2	* global.abKickDmg;		break;
-	case 5:	return 0.2	* global.abKickComb;	break;
-	case 6:	return 3	* global.abKickCt;		break;
+	case 4:	return 2	* global.abIndex[3];	break;
+	case 5:	return 0.2	* global.abIndex[4];	break;
+	case 6:	return 3	* global.abIndex[5];	break;
 	
-	case 7:	return 2	* global.abFireDmg;		break;
-	case 8:	return 3	* global.abFireCt;		break;
-	case 9:	return 1	* global.abFireCtDmg;	break;
+	case 7:	return 2	* global.abIndex[6];	break;
+	case 8:	return 3	* global.abIndex[7];	break;
+	case 9:	return 1	* global.abIndex[8];	break;
 	}
 }

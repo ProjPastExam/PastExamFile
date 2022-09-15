@@ -4,7 +4,7 @@ if (keyboard_check_pressed(global.btEsc) ) {
 	room_goto(global.roomBuffer);
 }
 
-if (keyboard_check_pressed(global.btLeft) ) {
+if (keyboard_check_pressed(global.btLeft) && !interIndex ) {
 	if (sIndex == 2 || sIndex == 3 || sIndex == 5 || sIndex == 6 || sIndex == 8 || sIndex == 9) {
 		sIndex--;
 	}
@@ -13,7 +13,7 @@ if (keyboard_check_pressed(global.btLeft) ) {
 	}
 }
 
-if (keyboard_check_pressed(global.btRight) ) {
+if (keyboard_check_pressed(global.btRight) && !interIndex ) {
 	if (sIndex == 1 || sIndex == 2 || sIndex == 5 || sIndex == 4 || sIndex == 8 || sIndex == 7) {
 		sIndex++;
 	}
@@ -22,7 +22,7 @@ if (keyboard_check_pressed(global.btRight) ) {
 	}
 }
 
-if (keyboard_check_pressed(global.btUp) ) {
+if (keyboard_check_pressed(global.btUp) && !interIndex ) {
 	if (sIndex == 1 || sIndex == 2 || sIndex == 3) {
 		sIndex += 6;
 	}
@@ -31,7 +31,7 @@ if (keyboard_check_pressed(global.btUp) ) {
 	}
 }
 
-if (keyboard_check_pressed(global.btDown) ) {
+if (keyboard_check_pressed(global.btDown) && !interIndex ) {
 	if (sIndex == 7 || sIndex == 8 || sIndex == 9) {
 		sIndex -= 6;
 	}
@@ -40,6 +40,16 @@ if (keyboard_check_pressed(global.btDown) ) {
 	}
 }
 
+if (keyboard_check_pressed(global.btInter) ) {
+	if (interIndex) {
+		interIndex = false;
+	}
+	else {
+		interIndex = true;
+	}
+}
+
 with (ob_enhanceIcon) {
 	sIndex = other.sIndex;
+	interIndex = other.interIndex;
 }
