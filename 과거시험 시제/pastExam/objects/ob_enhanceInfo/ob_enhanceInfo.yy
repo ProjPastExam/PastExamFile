@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_enhanceInfo",
   "spriteId": {
-    "name": "sp_enhanceInfo01",
-    "path": "sprites/sp_enhanceInfo01/sp_enhanceInfo01.yy",
+    "name": "sp_enhanceInfo1",
+    "path": "sprites/sp_enhanceInfo1/sp_enhanceInfo1.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,15 +24,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "enhance",
     "path": "folders/Objects/gameControl/enhance.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_enhanceInfo",
-  "tags": [],
-  "resourceType": "GMObject",
 }

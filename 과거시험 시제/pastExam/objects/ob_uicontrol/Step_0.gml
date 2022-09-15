@@ -18,4 +18,7 @@ else {
 	with (ob_combUIControl) {
 		isTouch = false;
 	}
+	with (ob_uihpControl) {
+		isTouch = false;
+	}
 }

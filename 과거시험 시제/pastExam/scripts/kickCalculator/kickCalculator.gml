@@ -53,7 +53,7 @@ function sc_pl_kickCtMag(mode = 0) {
 	if (mode == 1) return kickCtMag * sc_pl_kickDmg(1);
 	
 	kickCtMag = global.kickCtMag * sc_itemScaleCalculator(1, 4);
-	if (mode == 0) return kickCtMag * sc_pl_kickDmg(1);
+	if (mode == 0) return kickCtMag;
 	
 	kickCtMag -= global.kickCtMag;
 	if (mode == 2) return kickCtMag * sc_pl_kickDmg(1);

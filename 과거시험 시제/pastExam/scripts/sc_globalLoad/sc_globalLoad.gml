@@ -16,6 +16,15 @@ function sc_globalLoad(){
 	global.abPointMax	= VSLS_Get("abPointMax");
 	global.abPoint		= VSLS_Get("abPoint");
 	
+	global.abAtkDmg		= VSLS_Get("abAtkDmg")+5;
+	global.abAtkMana	= VSLS_Get("abAtkMana")+5;
+	global.abAtkCtDmg	= VSLS_Get("abAtkCtDmg")+5;
+	global.abKickDmg	= VSLS_Get("abKickDmg");
+	global.abKickComb	= VSLS_Get("abKickComb");
+	global.abKickCt		= VSLS_Get("abKickCt");
+	global.abFireDmg	= VSLS_Get("abFireDmg");
+	global.abFireCt		= VSLS_Get("abFireCt");
+	global.abFireCtDmg	= VSLS_Get("abFireCtDmg");
 	}
 
 	//공격 관련 수치

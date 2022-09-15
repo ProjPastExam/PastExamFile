@@ -15,4 +15,7 @@ else {
 	with (ob_combUIControl) {
 		isTouch = false;
 	}
+	with (ob_MapControl) {
+		isTouch = false;
+	}
 }

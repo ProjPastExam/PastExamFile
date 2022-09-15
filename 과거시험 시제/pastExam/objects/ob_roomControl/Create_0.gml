@@ -26,11 +26,13 @@ questionState	= 0;
 talkNum = 0;
 talkCnt = 0;
 isEnhance = false;
+hpProcess = 0;
+dark = 45;
+npcFace = sp_npc_blank;
 
 moneyPrint	= global.money;
 global.moneyBuffer = 0;
 
-cmMode = 0;
 ctIndex = 0;
 
 isHpUI = false;

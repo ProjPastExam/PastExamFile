@@ -1,9 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if ( sc_getRoomValue("pause") == 0 ) {
-	if (instance_exists(ob_roomControl) && ob_roomControl.cmMode == 3) {
-		sc_mobCmMode();
-	}
+	sc_mobCmMode();
 	
 	if ( state != -1 ) {
 		

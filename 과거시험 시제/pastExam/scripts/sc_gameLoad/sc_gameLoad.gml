@@ -20,8 +20,18 @@ function sc_gameLoad(){
 	
 	//특성 관련 수치
 	{
-	if (VSLS_Get("abPointMax")== undefined)	VSLS_Set("abPointMax", 0);
-	if (VSLS_Get("abPoint")== undefined)	VSLS_Set("abPoint", 0);
+	if (VSLS_Get("abPointMax")== undefined)		VSLS_Set("abPointMax", 0);
+	if (VSLS_Get("abPoint")== undefined)		VSLS_Set("abPoint", 0);
+	
+	if (VSLS_Get("abAtkDmg")== undefined)		VSLS_Set("abAtkDmg", 0);
+	if (VSLS_Get("abAtkMana")== undefined)		VSLS_Set("abAtkMana", 0);
+	if (VSLS_Get("abAtkCtDmg")== undefined)		VSLS_Set("abAtkCtDmg", 0);
+	if (VSLS_Get("abKickDmg")== undefined)		VSLS_Set("abKickDmg", 0);
+	if (VSLS_Get("abKickComb")== undefined)		VSLS_Set("abKickComb", 0);
+	if (VSLS_Get("abKickCt")== undefined)		VSLS_Set("abKickCt", 0);
+	if (VSLS_Get("abFireDmg")== undefined)		VSLS_Set("abFireDmg", 0);
+	if (VSLS_Get("abFireCt")== undefined)		VSLS_Set("abFireCt", 0);
+	if (VSLS_Get("abFireCtDmg")== undefined)	VSLS_Set("abFireCtDmg", 0);
 	}
 	
 	{
@@ -48,7 +58,7 @@ function sc_gameLoad(){
 	if (VSLS_Get("comX") == undefined)		VSLS_Set("comX", 50);
 	if (VSLS_Get("comY") == undefined)		VSLS_Set("comY", 390);
 	if (VSLS_Get("hpX") == undefined)		VSLS_Set("hpX", 1700);
-	if (VSLS_Get("hpY") == undefined)		VSLS_Set("hpY", 1000);
+	if (VSLS_Get("hpY") == undefined)		VSLS_Set("hpY", 160);
 	}
 	
 	VSLS_File_Save("saveFile");

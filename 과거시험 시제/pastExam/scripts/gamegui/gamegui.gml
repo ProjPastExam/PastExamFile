@@ -130,13 +130,13 @@ function sc_printMoney() {
 	if		(moneyPrint < global.money)	moneyPrint++;
 	else if	(moneyPrint > global.money)	moneyPrint--;
 	
-	draw_sprite(sp_moneyBox, 0, 1670, 300);
+	draw_sprite(sp_moneyBox, 0, 960, 50);
 	
 	draw_set_halign(fa_right);
-	draw_set_font(f_kor);
+	draw_set_font(f_dmg);
 	draw_set_color(c_white);
 	
-	draw_text(1880, 300, moneyPrint);
+	draw_text(950, 50, moneyPrint);
 }
 
 function sc_mousePrint(mAlpah = 1) {

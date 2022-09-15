@@ -17,7 +17,7 @@ VSLS_Set("UIX", global.UIX);
 VSLS_Set("UIY", global.UIY);
 
 global.hpX	= 1700;
-global.hpY	= 1000;
+global.hpY	= 160;
 VSLS_Set("hpX", global.hpX);
 VSLS_Set("hpY", global.hpY);
 

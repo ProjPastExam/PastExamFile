@@ -54,7 +54,7 @@ function sc_pl_fireCtMag(mode = 0) {
 	if (mode == 1) return fireCtMag * sc_pl_fireDmg(1);
 	
 	fireCtMag = global.fireCtMag * sc_itemScaleCalculator(2, 4);
-	if (mode == 0) return fireCtMag * sc_pl_fireDmg(1);
+	if (mode == 0) return fireCtMag;
 	
 	fireCtMag -= global.fireCtMag;
 	if (mode == 2) return fireCtMag * sc_pl_fireDmg(1);

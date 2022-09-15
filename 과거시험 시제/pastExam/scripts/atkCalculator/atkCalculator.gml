@@ -5,7 +5,7 @@ function sc_pl_atkDmg(mode = 0){
 	var atkDmg = global.atkDmg;
 	if (mode == 1) return atkDmg;
 	
-	atkDmg = global.atkDmg * sc_itemScaleCalculator(0, 0);
+	atkDmg = (global.atkDmg + sc_abScaleCalculator(1)) * sc_itemScaleCalculator(0, 0);
 	if (mode == 0) return atkDmg;
 	
 	atkDmg -= global.atkDmg;
@@ -17,7 +17,7 @@ function sc_pl_atkMana(mode = 0){
 	var atkMana = global.atkMana;
 	if (mode == 1) return atkMana;
 	
-	atkMana = global.atkMana * sc_itemScaleCalculator(0, 1);
+	atkMana = (global.atkMana + sc_abScaleCalculator(2)) * sc_itemScaleCalculator(0, 1);
 	if (mode == 0) return atkMana;
 	
 	atkMana -= global.atkMana;
@@ -54,8 +54,8 @@ function sc_pl_atkCtMag(mode = 0) {
 	
 	if (mode == 1) return atkCtMag * sc_pl_atkDmg(1);
 	
-	atkCtMag = global.atkCtMag * sc_itemScaleCalculator(0, 4);
-	if (mode == 0) return atkCtMag * sc_pl_atkDmg(1);
+	atkCtMag = (global.atkCtMag + sc_abScaleCalculator(3)) * sc_itemScaleCalculator(0, 4);
+	if (mode == 0) return atkCtMag;
 	
 	atkCtMag -= global.atkCtMag;
 	if (mode == 2) return atkCtMag * sc_pl_atkDmg(1);
