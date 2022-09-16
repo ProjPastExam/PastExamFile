@@ -18,6 +18,10 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		if ( process == 1 ) { 
 			sc_dieJp2();
 			alarm[4] = 120;
+			if (global.clearStage == 2) {
+				global.clearStage = 5;
+				VSLS_SetAndSave("clearStage", 5, "saveFile");
+			}
 		}
 		if ( process < 8 ) { image_index = 0; xSpeed = -1 * dir * 15; }
 		else if ( process < 16 ) { image_index = 1; xSpeed = -1 * dir * 13; }

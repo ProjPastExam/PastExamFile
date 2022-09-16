@@ -5,7 +5,7 @@ function sc_stage02BossCs2(){
 	var isT = ob_roomControl.isTalk;
 	
 	var ii = 720;
-	var iy = 1540
+	var iy = 540
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
@@ -19,19 +19,19 @@ function sc_stage02BossCs2(){
 		case 1:
 			var name = "행인 1"
 			var text = "구해주셔서 감사해요...";
-			sc_csBase(name, sp_npc_blank, text, 1500, iy);
+			sc_csBase(name, sp_npc_blank, text, 1110, iy);
 			break;
 			
 		case 2:
 			var name = "행인 2"
 			var text = "덕분에 살았소";
-			sc_csBase(name, sp_npc_blank, text, 1500, iy);
+			sc_csBase(name, sp_npc_blank, text, 1240, iy);
 			break;
 			
 		case 3:
 			var name = "행인 3"
 			var text = "어휴, 무서워 죽는줄 알았어요 \n덕분에 마을로 돌아갈 수 있겠네요";
-			sc_csBase(name, sp_npc_blank, text, 1500, iy);
+			sc_csBase(name, sp_npc_blank, text, 1370, iy);
 			break;
 			
 		case 4:

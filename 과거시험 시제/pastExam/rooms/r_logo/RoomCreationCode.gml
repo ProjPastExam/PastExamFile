@@ -58,6 +58,8 @@ global.hp		= global.hpMax;
 global.mpMax	= 1000;
 global.mp		= 0;
 
+global.abSoulMax	= 999;
+
 global.SM_BGM	= -1;
 global.SM_BGM_SOUND = NULL;
 

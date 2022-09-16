@@ -182,3 +182,8 @@ function VSLS_Delete( var_name )
 	}
 }
 
+
+function VSLS_SetAndSave(var_name, var_value, var_filename) {
+	VSLS_Set(var_name, var_value);
+	VSLS_File_Save(var_filename);
+}

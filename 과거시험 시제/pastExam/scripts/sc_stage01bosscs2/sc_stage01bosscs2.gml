@@ -20,13 +20,13 @@ function sc_stage01BossCs2(){
 		case 1:
 			var name = "성춘향"
 			var text = "해냈어요!";
-			sc_csBase(name, sp_chun_face_laugh, text, -500, iy);
+			sc_csBase(name, sp_chun_face_laugh, text, 480, iy);
 			break;
 			
 		case 2:
 			var name = "성춘향"
 			var text = "산적들의 우두머리를 물리쳤으니, \n놈들도 한동안은 사람들을 괴롭히지 못할 거예요.";
-			sc_csBase(name, sp_chun_face_smile, text, -500, iy);
+			sc_csBase(name, sp_chun_face_smile, text, 480, iy);
 			break;
 			
 		case 3:
@@ -86,7 +86,7 @@ function sc_stage01BossCs2(){
 		case 12:
 			var name = "성춘향"
 			var text = "그래요... \n세상이 이렇게 혼란하지 않았더라면, \n이들도 평범한 삶을 살았을지 몰라요...";
-			sc_csBase(name, sp_chun_face_silence, text, -500, iy);
+			sc_csBase(name, sp_chun_face_silence, text, 1320, 520);
 			break;
 			
 		case 13:

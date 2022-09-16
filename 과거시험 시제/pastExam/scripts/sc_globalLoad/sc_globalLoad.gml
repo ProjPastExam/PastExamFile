@@ -11,10 +11,13 @@ function sc_globalLoad(){
 	
 	global.fullScreen	= VSLS_Get("fullScreen");
 	
+	global.clearStage	= VSLS_Get("clearStage");
+	
 	//특전 관련 수치
 	{
 	global.abPointMax	= VSLS_Get("abPointMax");
 	global.abPoint		= VSLS_Get("abPoint");
+	global.abSoul		= VSLS_Get("abSoul");
 	
 	global.abIndex		= array_create(9, 0);
 	global.abIndex[0]	= VSLS_Get("abAtkDmg");
@@ -80,5 +83,7 @@ function sc_globalLoad(){
 	global.comY		= VSLS_Get("comY");
 	global.hpX		= VSLS_Get("hpX");
 	global.hpY		= VSLS_Get("hpY");
+	global.moneyX	= VSLS_Get("moneyX");
+	global.moneyY	= VSLS_Get("moneyY");
 	}
 }

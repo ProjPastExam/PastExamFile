@@ -20,3 +20,4 @@ draw_surface(mapSurf,global.MapX, global.MapY);
 
 sc_gameGUI();
 sc_gameHpUI();
+sc_printMoney(1);

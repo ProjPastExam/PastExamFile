@@ -18,10 +18,13 @@ function sc_gameLoad(){
 	if (VSLS_Get("fullScreen")== undefined)	VSLS_Set("fullScreen", true);
 	}
 	
+	if (VSLS_Get("clearStage")== undefined)	VSLS_Set("clearStage", -1);
+	
 	//특성 관련 수치
 	{
 	if (VSLS_Get("abPointMax")== undefined)		VSLS_Set("abPointMax", 0);
 	if (VSLS_Get("abPoint")== undefined)		VSLS_Set("abPoint", 0);
+	if (VSLS_Get("abSoul")== undefined)			VSLS_Set("abSoul", 0);
 	
 	if (VSLS_Get("abAtkDmg")== undefined)		VSLS_Set("abAtkDmg", 0);
 	if (VSLS_Get("abAtkMana")== undefined)		VSLS_Set("abAtkMana", 0);
@@ -59,6 +62,8 @@ function sc_gameLoad(){
 	if (VSLS_Get("comY") == undefined)		VSLS_Set("comY", 390);
 	if (VSLS_Get("hpX") == undefined)		VSLS_Set("hpX", 1700);
 	if (VSLS_Get("hpY") == undefined)		VSLS_Set("hpY", 160);
+	if (VSLS_Get("moneyX") == undefined)	VSLS_Set("moneyX", 945);
+	if (VSLS_Get("moneyY") == undefined)	VSLS_Set("moneyY", 25);
 	}
 	
 	VSLS_File_Save("saveFile");

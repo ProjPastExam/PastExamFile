@@ -3,7 +3,7 @@
 
 if ( pause > 0 ) pause--;
 if ( global.gameEnd ) {
-	alarm[9] = 1;
+	alarm[10] = 1;
 	global.gameEnd = false;
 	//room_persistent = false;
 
@@ -93,6 +93,17 @@ if ( keyboard_check_pressed(global.btEsc) && global.hp > 0  ) {
 if (isEnhance) {
 	isEnhance = false;
 	sc_gameRoom(r_enhance);
+}
+
+if (global.abSoulMax <= global.abSoul) {
+	global.abPointMax++;
+	global.abPoint++;
+	global.abSoul -= global.abSoulMax;
+	VSLS_Set("abPointMax", global.abPointMax);
+	VSLS_Set("abPoint", global.abPoint);
+	VSLS_Set("abSoul", global.abSoul);
+	VSLS_File_Save("saveFile");
+	sc_set_abSoulMax();
 }
 
 //if ((isTalk < 4 || isTalk > 7) && !isCt ) alarm[7] = 1;

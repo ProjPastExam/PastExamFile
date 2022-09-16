@@ -18,6 +18,7 @@ if (isRand) {
 	}
 	itemBuff = irandom_range(0, 4);
 }
+if (!sc_itemCheck(itemNum)) instance_destroy();
 /*
 itemStat = array_create(4, 0);
 statNum = 0;

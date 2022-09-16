@@ -126,17 +126,54 @@ function sc_gameHpUI() {
 	draw_sprite(sp_uiHpBox, 0, global.hpX, global.hpY);
 }
 
-function sc_printMoney() {
-	if		(moneyPrint < global.money)	moneyPrint++;
-	else if	(moneyPrint > global.money)	moneyPrint--;
+function sc_printMoney(var_mode = 0) {
+	var i = 0;
+	if (global.clearStage >= 5) i = 1;
 	
-	draw_sprite(sp_moneyBox, 0, 960, 50);
+	draw_sprite(sp_moneyBox, i, global.moneyX, global.moneyY);
 	
 	draw_set_halign(fa_right);
 	draw_set_font(f_dmg);
 	draw_set_color(c_white);
+		
+	if (var_mode == 0) {
+		if		(moneyPrint < global.money)	moneyPrint++;
+		else if	(moneyPrint > global.money)	moneyPrint--;
+		draw_text(global.moneyX - 55, global.moneyY, moneyPrint);
+		
+		if (global.clearStage >= 5) {
+			if		(abSoulPrint < global.abSoul)	abSoulPrint++;
+			else if	(abSoulPrint > global.abSoul)	abSoulPrint--;
+			
+			draw_set_halign(fa_left);
+			draw_text(global.moneyX + 0, global.moneyY, global.abPointMax);
+			
+			draw_set_halign(fa_right);
+			draw_text(global.moneyX + 100, global.moneyY, abSoulPrint);
+			draw_text(global.moneyX + 115, global.moneyY, "/");
+
+			draw_set_halign(fa_left);
+			draw_text(global.moneyX + 120, global.moneyY, global.abSoulMax);
+		}
+	}
+	else if (var_mode == 1) {
+		draw_set_halign(fa_right);
+		draw_text(global.moneyX - 55, global.moneyY, global.money);
+		
+		if (global.clearStage >= 5) {
+			draw_set_halign(fa_left);
+			draw_text(global.moneyX + 0, global.moneyY, global.abPointMax);
+			
+			draw_set_halign(fa_right);
+			draw_text(global.moneyX + 100, global.moneyY, global.abSoul);
+			draw_text(global.moneyX + 115, global.moneyY, "/");
+
+			draw_set_halign(fa_left);
+			draw_text(global.moneyX + 120, global.moneyY, global.abSoulMax);
+		}
+	}
 	
-	draw_text(950, 50, moneyPrint);
+		
 }
 
 function sc_mousePrint(mAlpah = 1) {
@@ -144,6 +181,10 @@ function sc_mousePrint(mAlpah = 1) {
 }
 
 function sc_printTalk(isTalk) {
+	if (isTalk == 5) {
+		draw_sprite(sp_talk, talkZ, talkX, talkY);
+	}
+	
 	draw_sprite(sp_black2, 0, 0, 0);
 	draw_sprite(sp_talkUI, 0, 960, 350);
 	draw_sprite(npcFace, 0, 1398, 77);

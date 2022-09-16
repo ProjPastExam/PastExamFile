@@ -42,7 +42,7 @@ function sc_stage03BossCs1(){
 		case 4:
 			var name = "악령"
 			var text = "불청객이로군...";
-			sc_csBase(name, sp_npc_blank, text, hang2, 540);
+			sc_csBase(name, sp_npc_blank, text, -500, 540);
 			break;
 			
 		case 5:

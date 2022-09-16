@@ -9,8 +9,8 @@ function sc_stage02BossCs1(){
 		with (ob_player) { x += 5; }
 	}
 	
-	var ii = 720;
-	var iy = 540
+	var ii = 1520;
+	var iy = 450;
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {

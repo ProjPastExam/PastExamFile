@@ -17,6 +17,11 @@ if ( sc_getRoomValue("pause") == 0 ) {
 			else if (han == 1) SE_Play(s_jpBdie2, global.vol);
 			else SE_Play(s_jpBdie3, global.vol);
 			alarm[4] = 120;
+			
+			if (global.clearStage == -1) {
+				global.clearStage = 0;
+				VSLS_SetAndSave("clearStage", 0, "saveFile");
+			}
 		}
 		if ( process < 8 ) { image_index = 0; xSpeed = -1 * dir * 15; }
 		else if ( process < 16 ) { image_index = 1; xSpeed = -1 * dir * 10; }

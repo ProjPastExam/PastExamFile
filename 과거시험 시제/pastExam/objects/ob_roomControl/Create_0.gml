@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+sc_set_abSoulMax();
+
 pause = 0;
 slow = 0;
 alarm[0] = 1;
@@ -31,6 +33,7 @@ dark = 45;
 npcFace = sp_npc_blank;
 
 moneyPrint	= global.money;
+abSoulPrint	= global.abSoul;
 global.moneyBuffer = 0;
 
 ctIndex = 0;

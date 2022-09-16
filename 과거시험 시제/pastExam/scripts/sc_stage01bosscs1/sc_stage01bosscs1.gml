@@ -5,8 +5,8 @@ function sc_stage01BossCs1(){
 	var isT = ob_roomControl.isTalk;
 	if (state == 4) x = x + 8;
 	
-	var ii = 720;
-	var iy = 540
+	var ii = 1540;
+	var iy = 520;
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {

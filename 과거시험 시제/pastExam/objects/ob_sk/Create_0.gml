@@ -21,6 +21,9 @@ if (isRand) {
 		if (i > 60) break;
 	}
 }
+if (global.sk1 == skNum) instance_destroy();
+if (global.sk2 == skNum) instance_destroy();
+if (global.sk3 == skNum) instance_destroy();
 alarm[2] = 30;
 
 

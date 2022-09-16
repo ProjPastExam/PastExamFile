@@ -66,9 +66,11 @@ function sc_gameControlUI() {
 		draw_sprite(sp_minimapBox, 0, global.MapX, global.MapY);
 		draw_surface(mapSurf,global.MapX, global.MapY);
 	}
-	
+	sc_printMoney(1);
 	sc_gameGUI();
 	draw_sprite(sp_black2, 0, 0, 0);
+	
+	
 
 }
 
@@ -79,4 +81,9 @@ function sc_gameControlCreate() {
 	surf	= -1;
 	mapSurf	= -1;
 	isMap = true;
+}
+
+function sc_set_abSoulMax() {
+	global.abSoulMax = (global.abPointMax * 15);
+	if (global.abSoulMax > 999) global.abSoulMax = 999;
 }

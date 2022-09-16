@@ -5,7 +5,7 @@ function sc_stage03Cs(){
 	var isT = ob_roomControl.isTalk;
 	
 	var hang1 = 1088;
-	var hang2 = 800;
+	var hang2 = 320;
 	
 	if (state == 1) x += 4;
 	else if (state == 9) {
@@ -48,7 +48,7 @@ function sc_stage03Cs(){
 		case 5:
 			var name = "성춘향"
 			var text = "이곳은 상당히 오싹하네요...?";
-			sc_csBase(name, sp_chun_face, text, hang2, 580);
+			sc_csBase(name, sp_chun_face, text, hang2, 520);
 			break;
 			
 		case 6:
@@ -62,7 +62,7 @@ function sc_stage03Cs(){
 		case 7:
 			var name = "성춘향"
 			var text = "...예, 귀신이 오싹하다는 말을 다 하다니, \n어처구니없으시겠죠";
-			sc_csBase(name, sp_chun_face_embar, text, hang2, 580);
+			sc_csBase(name, sp_chun_face_embar, text, hang2, 520);
 			break;
 			
 		case 8:
@@ -86,7 +86,7 @@ function sc_stage03Cs(){
 		case 11:
 			var name = "성춘향"
 			var text = "저기, 누군가가 있어요!";
-			sc_csBase(name, sp_chun_face, text, hang2, 580);
+			sc_csBase(name, sp_chun_face, text, -500, 520);
 			break;
 			
 		case 12:
