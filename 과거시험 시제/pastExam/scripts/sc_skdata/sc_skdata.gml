@@ -10,7 +10,7 @@ function sc_skData(){
 	global.skMp[104]	= 300;	//연사
 	global.skMp[105]	= 100;	//세총통
 	global.skMp[106]	= 300;	//쌍자총통
-	global.skMp[107]	= 0;	//언월도
+	global.skMp[107]	= 200;	//언월도
 	
 	
 	global.skKulData = array_create(600, 0);
@@ -22,5 +22,5 @@ function sc_skData(){
 	global.skKulData[104]	= 120;
 	global.skKulData[105]	= 90;
 	global.skKulData[106]	= 240;
-	global.skKulData[107]	= 180;
+	global.skKulData[107]	= 120;
 }
