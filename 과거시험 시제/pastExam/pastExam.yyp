@@ -476,6 +476,7 @@
     {"id":{"name":"sp_jpSpearS_atk2","path":"sprites/sp_jpSpearS_atk2/sp_jpSpearS_atk2.yy",},"order":8,},
     {"id":{"name":"sp_cs02_face","path":"sprites/sp_cs02_face/sp_cs02_face.yy",},"order":3,},
     {"id":{"name":"sc_jpSpearAtk","path":"scripts/sc_jpSpearAtk/sc_jpSpearAtk.yy",},"order":1,},
+    {"id":{"name":"sp_text_ab","path":"sprites/sp_text_ab/sp_text_ab.yy",},"order":5,},
     {"id":{"name":"sp_itemScale00","path":"sprites/sp_itemScale00/sp_itemScale00.yy",},"order":0,},
     {"id":{"name":"sp_language_korean","path":"sprites/sp_language_korean/sp_language_korean.yy",},"order":0,},
     {"id":{"name":"sp_keyVk_shift","path":"sprites/sp_keyVk_shift/sp_keyVk_shift.yy",},"order":43,},

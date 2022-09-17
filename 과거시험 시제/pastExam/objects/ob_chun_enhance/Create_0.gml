@@ -10,6 +10,6 @@ var indexTemp = 0;
 for (i = 0; i < 9; i++) {
 	indexTemp += global.abIndex[i];
 }
-
+isCollision = false;
 global.abPoint = global.abPointMax - indexTemp;
 VSLS_SetAndSave("abPoint", global.abPoint, "saveFile");

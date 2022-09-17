@@ -7,3 +7,4 @@ if (keyboard_check_pressed(global.btInter) && instance_exists(ob_roomControl) &&
 		isEnhance = true;
 	}
 }
+isCollision = true;
