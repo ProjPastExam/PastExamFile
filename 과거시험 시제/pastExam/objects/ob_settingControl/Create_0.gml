@@ -7,4 +7,5 @@ settingIndex = 0;
 
 nextIndex = true;
 
+BGM_Play(global.SM_BGM_SOUND, global.volBgm, 0);
 sc_gameControlCreate();

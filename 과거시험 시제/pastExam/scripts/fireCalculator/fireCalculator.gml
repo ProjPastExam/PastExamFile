@@ -4,7 +4,7 @@ function sc_pl_fireDmg(mode = 0){
 	var fireDmg = global.fireDmg;
 	if (mode == 1) return fireDmg;
 	
-	fireDmg = global.fireDmg * sc_itemScaleCalculator(2, 0);
+	fireDmg = (global.fireDmg + sc_abScaleCalculator(7)) * sc_itemScaleCalculator(2, 0);
 	if (mode == 0) return fireDmg;
 	
 	fireDmg -= global.fireDmg;
@@ -40,7 +40,7 @@ function sc_pl_fireCt(mode = 0) {
 	var fireCt = global.fireCt * sc_itemScaleCalculator(2, 3);
 	if (mode == 1) return fireCt*100;
 	
-	fireCt = global.fireCt * sc_itemScaleCalculator(2, 3);
+	fireCt = (global.fireCt + sc_abScaleCalculator(8)) * sc_itemScaleCalculator(2, 3);
 	if (mode == 0) return fireCt;
 	
 	fireCt -= global.fireCt;
@@ -53,7 +53,7 @@ function sc_pl_fireCtMag(mode = 0) {
 	
 	if (mode == 1) return fireCtMag * sc_pl_fireDmg(1);
 	
-	fireCtMag = global.fireCtMag * sc_itemScaleCalculator(2, 4);
+	fireCtMag = (global.fireCtMag + sc_abScaleCalculator(9)) * sc_itemScaleCalculator(2, 4);
 	if (mode == 0) return fireCtMag;
 	
 	fireCtMag -= global.fireCtMag;

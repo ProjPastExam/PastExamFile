@@ -4,7 +4,7 @@ function sc_pl_kickDmg(mode = 0){
 	var kickDmg = global.kickDmg;
 	if (mode == 1) return kickDmg;
 	
-	kickDmg = global.kickDmg * sc_itemScaleCalculator(1, 0);
+	kickDmg = (global.kickDmg + sc_abScaleCalculator(4)) * sc_itemScaleCalculator(1, 0);
 	if (mode == 0) return kickDmg;
 	
 	kickDmg -= global.kickDmg;
@@ -24,11 +24,11 @@ function sc_pl_kickMana(mode = 0){
 }
 
 function sc_pl_kickComb(mode = 0) {
-	var kickComb = global.kickComb * sc_itemScaleCalculator(1, 2);
+	var kickComb = (global.kickComb + sc_abScaleCalculator(5)) * sc_itemScaleCalculator(1, 2);
 	
 	if (mode == 1) return string_format(kickComb, 0, 1);
 	
-	kickComb = global.kickComb * sc_itemScaleCalculator(1, 2);
+	//kickComb = (global.kickComb + sc_abScaleCalculator(5)) * sc_itemScaleCalculator(1, 2);
 	if (mode == 0) return kickComb;
 	
 	kickComb -= global.kickComb;
@@ -40,7 +40,7 @@ function sc_pl_kickCt(mode = 0) {
 	var kickCt = global.kickCt * sc_itemScaleCalculator(1, 3);
 	if (mode == 1) return kickCt * 100;
 	
-	kickCt = global.kickCt * sc_itemScaleCalculator(1, 3);
+	kickCt = (global.kickCt + sc_abScaleCalculator(6)) * sc_itemScaleCalculator(1, 3);
 	if (mode == 0) return kickCt;
 	
 	kickCt -= global.kickCt;

@@ -355,6 +355,7 @@
     {"id":{"name":"sc_tutoBossCs1","path":"scripts/sc_tutoBossCs1/sc_tutoBossCs1.yy",},"order":4,},
     {"id":{"name":"sp_jpSpearS_run","path":"sprites/sp_jpSpearS_run/sp_jpSpearS_run.yy",},"order":2,},
     {"id":{"name":"sp_cs02_IStand","path":"sprites/sp_cs02_IStand/sp_cs02_IStand.yy",},"order":0,},
+    {"id":{"name":"ob_textInter","path":"objects/ob_textInter/ob_textInter.yy",},"order":4,},
     {"id":{"name":"sp_banditBoss01_die","path":"sprites/sp_banditBoss01_die/sp_banditBoss01_die.yy",},"order":9,},
     {"id":{"name":"sp_itemScale01","path":"sprites/sp_itemScale01/sp_itemScale01.yy",},"order":1,},
     {"id":{"name":"sp_st02Cs_npc3_1","path":"sprites/sp_st02Cs_npc3_1/sp_st02Cs_npc3_1.yy",},"order":4,},

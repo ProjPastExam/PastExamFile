@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ob_enhanceEnhance",
+  "name": "ob_textInter",
   "spriteId": {
-    "name": "sp_enhanceEnhance",
-    "path": "sprites/sp_enhanceEnhance/sp_enhanceEnhance.yy",
+    "name": "sp_text_interaction",
+    "path": "sprites/sp_text_interaction/sp_text_interaction.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,14 +24,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enhance",
-    "path": "folders/Objects/gameControl/enhance.yy",
+    "name": "roomControl",
+    "path": "folders/Objects/gameControl/roomControl.yy",
   },
 }

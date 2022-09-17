@@ -53,3 +53,18 @@ with (ob_enhanceIcon) {
 	sIndex = other.sIndex;
 	interIndex = other.interIndex;
 }
+
+with (ob_enhanceBtLeft) {
+	sIndex = other.sIndex;
+	interIndex = other.interIndex;
+}
+
+with (ob_enhanceBtRight) {
+	sIndex = other.sIndex;
+	interIndex = other.interIndex;
+}
+
+with (ob_enhanceEnhance) {
+	sIndex = other.sIndex;
+	interIndex = other.interIndex;
+}
