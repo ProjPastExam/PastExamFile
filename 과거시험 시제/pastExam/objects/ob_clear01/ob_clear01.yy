@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ob_stage02BossCs3Kim",
+  "name": "ob_clear01",
   "spriteId": {
-    "name": "sp_st02Cs_kim",
-    "path": "sprites/sp_st02Cs_kim/sp_st02Cs_kim.yy",
+    "name": "sp_clear01",
+    "path": "sprites/sp_clear01/sp_clear01.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "ob_clearParent",
+    "path": "objects/ob_clearParent/ob_clearParent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,14 +27,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "stage02Cs",
-    "path": "folders/Objects/csOb/stage02Cs.yy",
+    "name": "clear",
+    "path": "folders/Objects/gameControl/clear.yy",
   },
 }
