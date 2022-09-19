@@ -6,8 +6,8 @@ function sc_cs03(){
 	if (state == 1 ) x = x + 8;
 	if (state == 7 ) x = x + 3;
 	
-	var ii = 720;
-	var iy = 640
+	//var ii = 720;
+	//var iy = 640
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {

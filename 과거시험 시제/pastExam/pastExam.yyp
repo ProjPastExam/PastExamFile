@@ -371,7 +371,6 @@
     {"id":{"name":"sp_jpMb_backStep","path":"sprites/sp_jpMb_backStep/sp_jpMb_backStep.yy",},"order":6,},
     {"id":{"name":"sp_black3","path":"sprites/sp_black3/sp_black3.yy",},"order":2,},
     {"id":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"order":0,},
-    {"id":{"name":"ob_jpM","path":"objects/ob_jpM/ob_jpM.yy",},"order":11,},
     {"id":{"name":"sp_Item_jump","path":"sprites/sp_Item_jump/sp_Item_jump.yy",},"order":2,},
     {"id":{"name":"sp_vl_back3","path":"sprites/sp_vl_back3/sp_vl_back3.yy",},"order":3,},
     {"id":{"name":"sp_hitEffect01","path":"sprites/sp_hitEffect01/sp_hitEffect01.yy",},"order":0,},

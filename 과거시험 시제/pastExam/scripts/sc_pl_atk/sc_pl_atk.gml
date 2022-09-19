@@ -6,7 +6,7 @@ function sc_pl_atk(){
 	image_xscale = dir;
 	if (!isJump) sprite_index = sp_pl_atk;
 	else sprite_index = sp_pl_jumpAtk;
-	var atk;
+	//var atk;
 	
 	if ( atkProcess > 0 && atkProcess < 24 && keyAttack ) nextAtk = 1;
 	if ( atkProcess > 28 ) {

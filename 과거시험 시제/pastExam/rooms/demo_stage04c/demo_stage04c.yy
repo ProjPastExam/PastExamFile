@@ -38,7 +38,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18DD2281","properties":[],"isDnd":false,"objectId":{"name":"ob_jpGun","path":"objects/ob_jpGun/ob_jpGun.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":12416.0,"y":1312.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4D5A9985","properties":[],"isDnd":false,"objectId":{"name":"ob_jpGun","path":"objects/ob_jpGun/ob_jpGun.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":11392.0,"y":1312.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7DC7FFA2","properties":[],"isDnd":false,"objectId":{"name":"ob_jpSword","path":"objects/ob_jpSword/ob_jpSword.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":8640.0,"y":1184.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EBC95BB","properties":[],"isDnd":false,"objectId":{"name":"ob_jpM","path":"objects/ob_jpM/ob_jpM.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":15040.0,"y":1088.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"effect2","instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","tilesetId":{"name":"t_stage2","path":"tilesets/t_stage2/t_stage2.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":250,"SerialiseHeight":32,"TileCompressedData":[
@@ -80,7 +79,6 @@
     {"name":"inst_18DD2281","path":"rooms/demo_stage04c/demo_stage04c.yy",},
     {"name":"inst_4D5A9985","path":"rooms/demo_stage04c/demo_stage04c.yy",},
     {"name":"inst_7DC7FFA2","path":"rooms/demo_stage04c/demo_stage04c.yy",},
-    {"name":"inst_EBC95BB","path":"rooms/demo_stage04c/demo_stage04c.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

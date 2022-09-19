@@ -7,7 +7,7 @@ function sc_pl_cannon_temp(){
 	if (!isJump) xSpeed = 0;
 	image_xscale = dir;
 	sprite_index = sp_pl_sk106;
-	var atk;
+	//var atk;
 	
 	if ( atkProcess > 70 ) {
 		if ( keyAttack ) {

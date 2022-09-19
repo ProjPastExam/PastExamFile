@@ -27,5 +27,5 @@ function sc_drawMiniMap(argument0, argument1) {
 	draw_sprite_part(maptest, 0, sprite_x, sprite_y, w, h, map_x, map_y);
 	
 	// 플레이어 위치 트레킹
-	draw_sprite(mapplayer, 0, map_x + ob_player.x / 8, map_y + ob_player.y / 8 )
+	//draw_sprite(mapplayer, 0, map_x + ob_player.x / 8, map_y + ob_player.y / 8 )
 }
