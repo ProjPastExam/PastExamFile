@@ -9,7 +9,7 @@ function sc_pl_sk107(){
 	sprite_index = sp_pl_sk107;
 	var atk;
 	
-	if ( atkProcess > 6 ) {
+	if ( atkProcess > 12 ) {
 		if ( keyAttack ) {
 			if ( keyDown ) 													nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
@@ -57,8 +57,8 @@ function sc_pl_sk107(){
 	else if ( atkProcess < 38 ) { canMove = 0;	atkProcess = -5; }
 	
 	if ( atkProcess < 60 )		{ }
-	else if ( atkProcess < 66 )	{ image_index = 4; xSpeed = dir * 9; }
-	else if ( atkProcess < 72 )	{ image_index = 5; xSpeed = dir * 15; }
+	else if ( atkProcess < 66 )	{ image_index = 4; xSpeed = dir * 9; nextAtk = 0; }
+	else if ( atkProcess < 72 )	{ image_index = 5; xSpeed = dir * 15; nextAtk = 0; }
 	else if ( atkProcess < 78 )	{ image_index = 6; xSpeed = dir * 9; }
 	else if ( atkProcess < 82 )	{ image_index = 7; xSpeed = dir * 4; }
 	else if ( atkProcess < 86 )	{ image_index = 8; }

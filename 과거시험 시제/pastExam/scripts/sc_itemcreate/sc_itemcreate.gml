@@ -22,7 +22,7 @@ function sc_itemData(){
 		function(grade) { other.item4 = true; })
 		
 	//연타 수치 지속시간 증가
-	global.itemData[5]	= new itemStruct ( 5, sp_Item_jump, sp_ItemInfo_jump, 3,
+	global.itemData[5]	= new itemStruct ( 5, sp_Item_05, sp_ItemInfo_05, 3,
 		function(grade) { global.item5 = 1; })
 		
 	//충격 치명타 배율 증가 아이템

@@ -13,7 +13,7 @@ if (global.comCt < 100) {
 	if (hitSum == 0) global.comCt += comIndex;
 	else global.comCt += comIndex/2;
 }
-global.comCtAlarm = global.comAlarm + global.item5 * 45;
+global.comCtAlarm = global.comAlarm + global.item5 * 90;
 hitArray[hitSum] = hitId;
 sc_mobHit(other, dmg, pene, shock, mana, hitUp, hitKind, image_xscale, ctChance);
 if (shake > 0) { uc_shake(shake, 0.1); }

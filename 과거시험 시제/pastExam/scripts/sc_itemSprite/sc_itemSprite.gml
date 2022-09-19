@@ -8,6 +8,7 @@ itemSp[1] = sp_Item_kick;
 itemSp[2] = sp_Item_02;
 itemSp[3] = sp_Item_jump;
 itemSp[4] = sp_Item_04;
+itemSp[5] = sp_Item_05;
 }
 
 {
@@ -17,6 +18,7 @@ itemIn[1] = sp_ItemInfo_kick;
 itemIn[2] = sp_ItemInfo_02;
 itemIn[3] = sp_ItemInfo_jump;
 itemIn[4] = sp_ItemInfo_04;
+itemIn[5] = sp_ItemInfo_05;
 }
 }
 

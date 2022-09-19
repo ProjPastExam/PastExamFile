@@ -16,7 +16,6 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 			kbIndex = shVal;
 		}
 	}
-	if (hitKind == 10) hitKind = 1;
 	
 	if (hitKind == 1 && (isDA && !isDK && isDF)) { 
 		indexStun = true;
@@ -28,6 +27,8 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 		indexStun = true;
 		part_particles_create( global.hitEf, x, y+hitLot, global.mobCounterEfF, 1 );
 	}
+	
+	if (hitKind == 10) hitKind = 1;
 	
 	var ctRange = irandom_range(0, 100);
 	var isCt = false;
