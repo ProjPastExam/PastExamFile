@@ -6,7 +6,7 @@ with (ob_roomControl) {
 if (isCollision && !isActive && mobNum <= 0) {
 	var sY = bbox_bottom - 192;
 	isActive = true;
-	if (global.hp < 9)	{ 
+	if (global.hp < 9 && global.clearStage >= 15)	{ 
 		global.hp++;	
 		instance_create_layer(0, 0, "effect", ob_healEf);	
 	}

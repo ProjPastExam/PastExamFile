@@ -21,3 +21,4 @@ stand2Sp = sp_chang03_stand2;
 walkSp = sp_chang03_walk;
 runSp = sp_chang03_run;
 painSp = sp_chang03_pain;
+shockSp = sp_chang03_pain;

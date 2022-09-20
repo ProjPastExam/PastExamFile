@@ -352,7 +352,7 @@ function sc_banditBossAtk(){
 			state = 22;
 			process = 0;
 		}
-		else if (kbIndex == 1) {
+		if (kbIndex == 1) {
 			sc_banditBossAtkNext(nextState);
 		}
 	}

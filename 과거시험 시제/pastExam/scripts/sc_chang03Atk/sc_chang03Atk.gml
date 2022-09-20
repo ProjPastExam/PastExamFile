@@ -8,11 +8,12 @@ function sc_chang03Atk(){
 	var right2	= tilemap_get_at_pixel(tileId, bbox_right+96, bbox_top + 16 );
 	
 	isDA		= false;
+	isDF		= false;
 	
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
-	if ( state == 12 ) { isDA = true; }
-	else { isDA = false; if (ob != NULL) { instance_destroy(ob); ob = NULL; } }
+	if ( state == 12 ) { isDA = true;	isDF = true; }
+	else { isDA = false;	isDF = false;	if (ob != NULL) { instance_destroy(ob); ob = NULL; } }
 	
 	
 	

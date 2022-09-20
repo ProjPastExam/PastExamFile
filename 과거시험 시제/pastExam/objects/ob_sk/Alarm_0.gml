@@ -21,6 +21,10 @@ if (isDelete) {
 		case 2:	global.sk2 = skNum;	break;
 		case 3:	global.sk3 = skNum; break;
 		}
+		if (isChun) {
+			with (ob_item_chun) { alarm[3] = 1; }
+			with (ob_sk_chun)	{ alarm[3] = 1; }
+		}
 		//global.tabDeleteIs = 0;
 		instance_destroy();
 	}

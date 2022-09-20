@@ -25,6 +25,10 @@ if (isDelete) {
 		with ( ob_player ) {
 			itemCheck = true;
 		}
+		if (isChun) {
+			with (ob_item_chun) { alarm[3] = 1; }
+			with (ob_sk_chun)	{ alarm[3] = 1; }
+		}
 		//global.tabDeleteIs = 0;
 		instance_destroy();
 	}
