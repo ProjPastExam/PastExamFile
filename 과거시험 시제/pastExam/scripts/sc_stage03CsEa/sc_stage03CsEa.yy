@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "sc_tutoChunCs1",
+  "name": "sc_stage03CsEa",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "tutoCs",
-    "path": "folders/Scripts/csScript/tutoCs.yy",
+    "name": "csScript",
+    "path": "folders/Scripts/csScript.yy",
   },
 }

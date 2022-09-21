@@ -5,7 +5,7 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "csScript",
-    "path": "folders/Scripts/csScript.yy",
+    "name": "tutoCs",
+    "path": "folders/Scripts/csScript/tutoCs.yy",
   },
 }

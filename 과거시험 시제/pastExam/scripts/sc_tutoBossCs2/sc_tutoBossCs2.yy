@@ -1,12 +1,11 @@
 {
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "sc_tutoBossCs2",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "csScript",
-    "path": "folders/Scripts/csScript.yy",
+    "name": "tutoCs",
+    "path": "folders/Scripts/csScript/tutoCs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sc_tutoBossCs2",
-  "tags": [],
-  "resourceType": "GMScript",
 }
