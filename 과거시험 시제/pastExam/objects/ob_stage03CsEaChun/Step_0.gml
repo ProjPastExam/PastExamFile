@@ -8,7 +8,7 @@ var state = ob_roomControl.talkCnt;
 
 switch (state) {
 	
-case 2:
+case 17:
 	if (active) {
 		visible = true;
 		active = false;
@@ -17,29 +17,16 @@ case 2:
 	}
 	break;
 	
-case 3:
+case 18:
 	sprite_index = sp_chun_stand2;
-	active = true;
 	break;
 	
-case 4:
-	if (active) {
-		active = false;
-		chunEf = instance_create_layer(x, y+50, "roomControl", ob_tutoChunCs1Ef);
-	}
-	break;
-	
-case 5:
-	active = true;
-	break;
-	
-case 6:
-	sprite_index = sp_chun_spell;
-	if (active) {
-		active = false;
+case 19:
+	if (!active) {
+		sprite_index = sp_chun_spell;
+		active = true;
 		image_index = 0;
 	}
 	break;
-	
 }
 	

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ob_tutoChunCs1Chun",
+  "name": "ob_stage03CsEaChun",
   "spriteId": {
     "name": "sp_chun_stand",
     "path": "sprites/sp_chun_stand/sp_chun_stand.yy",
@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "tutocs",
-    "path": "folders/Objects/csOb/tutocs.yy",
+    "name": "stage03Cs",
+    "path": "folders/Objects/csOb/stage03Cs.yy",
   },
 }

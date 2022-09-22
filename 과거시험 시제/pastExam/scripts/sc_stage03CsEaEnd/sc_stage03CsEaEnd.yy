@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "sc_stage02BossCs1",
+  "name": "sc_stage03CsEaEnd",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "stage02Cs",
-    "path": "folders/Scripts/csScript/stage02Cs.yy",
+    "name": "stage03Cs",
+    "path": "folders/Scripts/csScript/stage03Cs.yy",
   },
 }

@@ -5,7 +5,7 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "csScript",
-    "path": "folders/Scripts/csScript.yy",
+    "name": "stage02Cs",
+    "path": "folders/Scripts/csScript/stage02Cs.yy",
   },
 }

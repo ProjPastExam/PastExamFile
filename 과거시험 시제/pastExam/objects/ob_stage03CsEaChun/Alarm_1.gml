@@ -1,5 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-
-room_goto(r_stage03Village);
+part_particles_create( global.hitEf, x, y, dashEf, 1 );

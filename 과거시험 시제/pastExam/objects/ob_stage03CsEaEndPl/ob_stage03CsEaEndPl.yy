@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ob_tutoChunCs1Chun",
+  "name": "ob_stage03CsEaEndPl",
   "spriteId": {
-    "name": "sp_chun_stand",
-    "path": "sprites/sp_chun_stand/sp_chun_stand.yy",
+    "name": "sp_pl_standPeace",
+    "path": "sprites/sp_pl_standPeace/sp_pl_standPeace.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "ob_csParent",
+    "path": "objects/ob_csParent/ob_csParent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,14 +28,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "tutocs",
-    "path": "folders/Objects/csOb/tutocs.yy",
+    "name": "stage03Cs",
+    "path": "folders/Objects/csOb/stage03Cs.yy",
   },
 }

@@ -1,13 +1,12 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_stage03CsEa(){
+function sc_stage03CsEaEnd(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
 	
 	var rpX = 1150;
 	var rpY = 540;
 	
-	if (state == 6) { x += 8; }
 	
 
 	
@@ -20,130 +19,53 @@ function sc_stage03CsEa(){
 			break;
 			
 		case 1:
-			alarm[1] = 120;
+			alarm[1] = 100;
 			ob_roomControl.isTalk = 8;
 			isTalk = 5;
 			sc_csBase2(rpX, rpY);
 			break;
 			
 		case 2:
-			alarm[1] = 120;
+			alarm[1] = 100;
 			ob_roomControl.isTalk = 8;
 			isTalk = 5;
 			sc_csBase2(rpX, rpY);
 			break;
 			
 		case 3:
-			var name = "저승사자"
-			var text = "이곳은 상태가 말이 아니군.";
-			sc_csBase(name, sp_reaper_face, text, rpX, rpY);
-			BGM_Play(s_mCs_normal, global.volBgm, 0);
+			var name = "성춘향"
+			var text = "...미안해요.";
+			sc_csBase(name, sp_chun_face_silence, text, rpX, rpY);
+			BGM_Play(s_mStart, global.volBgm, 0);
 			break;
 			
 		case 4:
-			var name = "저승사자"
-			var text = "저승으로 데려가야 하는 악령이 수십 명이라니...\n...밤새 일만 하게 생겼군";
-			sc_csBase(name, sp_reaper_face, text, rpX, rpY);
+			var name = "성춘향"
+			var text = "급하게 도망치느라, 이 곳으로 돌아와버렸어요..";
+			sc_csBase(name, sp_chun_face_silence, text, rpX, rpY);
 			break;
 			
 		case 5:
-			alarm[1] = 60;
-			ob_roomControl.isTalk = 4;
-			isTalk = 4;
-			break;
-			
-		case 6:
-			alarm[1] = 80;
-			BGS_Play(s_run, global.vol, 0);
-			isTalk = 7;
-			break;
-			
-		case 7:
-			alarm[1] = 120;
-			BGS_Set(0, 0);
-			sc_csBase2(x-70, 560);
-			sprite_index = sp_pl_stand;
-			isTalk = 5;
-			break;
-			
-		case 8:
-			var name = "저승사자"
-			var text = "...이런 곳에 사람이? \n명부에도 없는 얼굴인데...";
-			sc_csBase(name, sp_reaper_face, text, rpX, rpY);
-			break;
-			
-		case 9:
 			alarm[1] = 120;
 			ob_roomControl.isTalk = 8;
 			isTalk = 5;
 			sc_csBase2(rpX, rpY);
 			break;
 			
-		case 10:
-			var name = "저승사자"
-			var text = "이보시오, 이곳은 악귀들로 위험하오. \n험한 꼴 당하기 싫거든 어서.... 엇?";
-			sc_csBase(name, sp_reaper_face, text, rpX, rpY);
+		case 6:
+			var name = "성춘향"
+			var text = "...하지만 아직은 저승으로 올라갈 수 없어요...";
+			sc_csBase(name, sp_chun_face_silence, text, rpX, rpY);
 			break;
 			
-		case 11:
+		case 7:
 			alarm[1] = 120;
-			ob_roomControl.isTalk = 7;
-			isTalk = 5;
-			sc_csBase2(rpX, rpY);
-			break;
-			
-		case 12:
-			var name = "저승사자"
-			var text = "잠깐,";
-			sc_csBase(name, sp_reaper_face, text, rpX, rpY);
-			break;
-			
-		case 13:
-			var name = "저승사자"
-			var text = "당신에게, 저승에 올라가지 못한 귀신이 붙어있는 게 느껴지오";
-			sc_csBase(name, sp_reaper_face, text, rpX, rpY);
-			break;
-			
-		case 14:
-			var name = "성춘향"
-			var text = "..!!";
-			sc_csBase(name, sp_chun_face_angry, text, -500, 500);
-			break;
-			
-		case 15:
-			var name = "저승사자"
-			var text = "사람의 환각이나 환청 따위가 들리곤 하시오? \n악귀가 붙었다면 내가 도와드릴 수 있소";
-			sc_csBase(name, sp_reaper_face, text, rpX, rpY);
-			break;
-			
-		case 16:
-			var name = "성춘향"
-			var text = "안돼요!";
-			sc_csBase(name, sp_chun_face_angry, text, -500, 500);
-			break;
-			
-		case 17:
-			alarm[1] = 80;
-			ob_roomControl.isTalk = 4;
+			ob_roomControl.isTalk = 8;
+			sc_csBase2(x, 560);
 			isTalk = 4;
-			BGM_Stop(150);
 			break;
 			
-			
-		case 18:
-			alarm[1] = 20;
-			break;
-			
-		case 19:
-			alarm[1] = 30;
-			break;
-			
-		case 20:
-			alarm[1] = 120;
-			instance_create_layer(uc_get_x(), uc_get_y(), "effect", ob_whiteOut);
-			break;
-			
-		case 21:
+		case 8:
 			ob_roomControl.alarm[7] = 1;
 			break;
 			

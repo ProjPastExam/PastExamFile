@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 sc_set_abSoulMax();
+BGS_Set(0, 0);
 
 pause = 0;
 slow = 0;

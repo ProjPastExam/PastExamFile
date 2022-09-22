@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-
-room_goto(r_stage03Village);
+//image_xscale = -1;
+active = true;
+visible = false;
+chunEf = NULL;
