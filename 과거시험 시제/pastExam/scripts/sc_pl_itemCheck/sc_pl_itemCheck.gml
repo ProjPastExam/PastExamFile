@@ -12,6 +12,7 @@ function sc_pl_itemCheck(){
 	item2	= 0;
 	item4	= 0;
 	global.item5 = 0;
+	global.item6 = false;
 	//global.atkCtMagScaleItem	= 1;
 	//global.kickCtMagScaleItem	= 1;
 	//global.fireCtMagScaleItem	= 1;

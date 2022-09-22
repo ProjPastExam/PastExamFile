@@ -9,6 +9,7 @@ itemSp[2] = sp_Item_02;
 itemSp[3] = sp_Item_jump;
 itemSp[4] = sp_Item_04;
 itemSp[5] = sp_Item_05;
+itemSp[6] = sp_Item_06;
 }
 
 {
@@ -19,6 +20,7 @@ itemIn[2] = sp_ItemInfo_02;
 itemIn[3] = sp_ItemInfo_jump;
 itemIn[4] = sp_ItemInfo_04;
 itemIn[5] = sp_ItemInfo_05;
+itemIn[6] = sp_ItemInfo_06;
 }
 }
 

@@ -9,7 +9,7 @@ sc_skillUi();
 sprite_index = skUi[skNum];
 
 if (isRand) {
-	var i = 0;
+	//var i = 0;
 	while (1) {
 		skNum = irandom_range(101, 107);
 		var check = true;
@@ -17,8 +17,8 @@ if (isRand) {
 		if (global.sk2 == skNum) check = false;
 		if (global.sk3 == skNum) check = false;
 		if (check) break;
-		i++;
-		if (i > 60) break;
+		//i++;
+		//if (i > 60) break;
 	}
 }
 if (global.sk1 == skNum) instance_destroy();

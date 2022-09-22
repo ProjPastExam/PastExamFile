@@ -25,9 +25,9 @@ function sc_itemData(){
 	global.itemData[5]	= new itemStruct ( 5, sp_Item_05, sp_ItemInfo_05, 3,
 		function(grade) { global.item5 = 1; })
 		
-	//충격 치명타 배율 증가 아이템
-	global.itemData[6]	= new itemStruct ( 6, sp_Item_jump, sp_ItemInfo_jump, 1,
-		function(grade) { other.item6 = grade; })
+	//화약 스케일업
+	global.itemData[6]	= new itemStruct ( 6, sp_Item_06, sp_ItemInfo_06, 2,
+		function(grade) { global.item6 = true; })
 		
 	//화약 치명타 배율 증가 아이템
 	global.itemData[7]	= new itemStruct ( 7, sp_Item_jump, sp_ItemInfo_jump, 2,

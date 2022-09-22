@@ -15,7 +15,8 @@ if (global.comCt < 100) {
 }
 global.comCtAlarm = global.comAlarm + global.item5 * 90;
 hitArray[hitSum] = hitId;
-sc_mobHit(other, dmg, pene, shock, mana, hitUp, hitKind, image_xscale, ctChance);
+var dir = image_xscale / abs(image_xscale);
+sc_mobHit(other, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance);
 if (shake > 0) { uc_shake(shake, 0.1); }
 
 hitSum++;

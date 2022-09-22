@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 
-room_goto(r_tutorialBossCs2);
+room_goto(r_stage03CsEa);

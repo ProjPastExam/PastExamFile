@@ -7,37 +7,34 @@ function sc_stage03CsEa(){
 	var hang1 = 1088;
 	var hang2 = 320;
 	
-	if (state == 1) x += 4;
-	else if (state == 9) {
-		with (ob_player) { x += 6; }
-	}
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7 || isT == 8) && active == true)) {
 		active = false;
 		switch (state) {
 		case 0:
-			alarm[1] = 30;
+			alarm[1] = 120;
 			isTalk = 4;
 			break;
 			
 		case 1:
-			BGS_Play(s_foot, global.vol, 30);
-			alarm[1] = 150;
-			isTalk = 8;
+			alarm[1] = 120;
+			ob_roomControl.isTalk = 8;
+			isTalk = 5;
+			sc_csBase2(1150, 540);
 			break;
 			
 		case 2:
-			BGS_Set(0, 0);
-			sprite_index = sp_pl_standPeace;
 			alarm[1] = 120;
-			isTalk = 4;
-			sc_csBase2(x, 560);
+			ob_roomControl.isTalk = 8;
+			isTalk = 5;
+			sc_csBase2(1150, 540);
 			break;
 			
 		case 3:
-			isTalk = 4;
-			alarm[1] = 60;
+			var name = "저승사자"
+			var text = "이곳은";
+			sc_csBase(name, sp_reaper_face, text, 1150, 540);
 			break;
 			
 		case 4:
