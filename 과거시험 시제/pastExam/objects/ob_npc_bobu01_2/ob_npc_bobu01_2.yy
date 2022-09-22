@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_npc_bobu01_2",
   "spriteId": {
     "name": "sp_bobu1_stand",
     "path": "sprites/sp_bobu1_stand/sp_bobu1_stand.yy",
@@ -25,20 +28,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"talkNum","path":"objects/ob_npcBase/ob_npcBase.yy",},"objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"sp_bobu1_face","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"talkNum","path":"objects/ob_npcBase/ob_npcBase.yy",},"objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"sp_bobu1_face",},
   ],
   "parent": {
     "name": "NPC",
     "path": "folders/Objects/NPC.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_npc_bobu01_2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

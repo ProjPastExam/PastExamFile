@@ -459,6 +459,7 @@
     {"id":{"name":"sp_banditBoss_run","path":"sprites/sp_banditBoss_run/sp_banditBoss_run.yy",},"order":4,},
     {"id":{"name":"sp_cB1G_atk2","path":"sprites/sp_cB1G_atk2/sp_cB1G_atk2.yy",},"order":2,},
     {"id":{"name":"sp_pl_atkEf103_1","path":"sprites/sp_pl_atkEf103_1/sp_pl_atkEf103_1.yy",},"order":9,},
+    {"id":{"name":"ob_chun_stage02","path":"objects/ob_chun_stage02/ob_chun_stage02.yy",},"order":4,},
     {"id":{"name":"ob_demoSetting","path":"objects/ob_demoSetting/ob_demoSetting.yy",},"order":13,},
     {"id":{"name":"sc_pl_atk","path":"scripts/sc_pl_atk/sc_pl_atk.yy",},"order":0,},
     {"id":{"name":"sh_gaussian_blur_v","path":"shaders/sh_gaussian_blur_v/sh_gaussian_blur_v.yy",},"order":1,},
