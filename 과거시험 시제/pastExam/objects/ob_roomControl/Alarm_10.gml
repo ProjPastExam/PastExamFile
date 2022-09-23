@@ -14,9 +14,13 @@ else {
 	global.money = 0;
 	
 	if (isTuto) {
+		part_system_destroy(global.hitEf);
+		part_system_destroy(global.hitEf2);
 		room_goto(r_main);
 	}
 	else {
+		part_system_destroy(global.hitEf);
+		part_system_destroy(global.hitEf2);
 		room_goto(r_start);
 	}
 }

@@ -10,6 +10,8 @@ else {
 	global.money = 0;
 	
 	if (isTuto) {
+		part_system_destroy(global.hitEf);
+		part_system_destroy(global.hitEf2);
 		room_goto(room);
 	}
 	else {
@@ -18,6 +20,8 @@ else {
 		global.sk2 = 0;
 		global.sk3 = 0;
 		
+		part_system_destroy(global.hitEf);
+		part_system_destroy(global.hitEf2);
 		room_goto(r_start);
 	}
 }
