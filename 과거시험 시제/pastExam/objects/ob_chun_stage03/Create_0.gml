@@ -13,9 +13,9 @@ talk4		= array_create(3);
 talk5		= array_create(3);
 talk6		= array_create(3);
 
-talk1[@0]	= new talkStruct("김세근 장군님은 왜란 이전부터 왜적의 침입을 예상하고 \n이곳 백마산에서 마을 장정들을 모아 \n군사훈련을 해오셨다고 해요.",,sp_chun_face_angry);
-talk1[@1]	= new talkStruct("왜란이 일어나자, 장군님은 의병을 이끌고 \n왜군과 수차례 맞서 싸우다 전사하셨어요.",,sp_chun_face_angry);
-talk1[@2]	= new talkStruct("장군님 같은 분들 덕에  \n왜놈들로부터 조선을 지킬 수 있었죠.",,sp_chun_face_angry);
+talk1[@0]	= new talkStruct("태조께선 활솜씨가 매우 뛰어나셨다고 해요.");
+talk1[@1]	= new talkStruct("태조께서 고려의 무인이셨던 시절, \n백성들을 괴롭히던 호랑이를 직접 처치하셨다는 전설도 있어요.");
+talk1[@2]	= new talkStruct("태조의 어진을 모시던 경기전이 왜란으로 불탄 것과, \n창귀들이 날뛰고 있는 것이 무언가 관련이 있을까요?");
 talk1[@3]	= new talkStruct(,,,1 , talk1)
 
 talk2[@0]	= new talkStruct("왜놈들이 숨겨둔 물건들을 발견했어요!");
@@ -37,12 +37,14 @@ talk5[@2]	= new talkStruct(,,,1 , talk5);
 talk6[@0]	= new talkStruct("왜란 이전에 왜놈들은 수십 게의 세력으로 나뉘어 \n자기들끼리 피 튀기게 싸웠다고 해요.",,sp_chun_face_silence);
 talk6[@1]	= new talkStruct("오랜 싸움으로 인해, \n왜놈들은 무예를 숭상하는 문화를 가지게 되었다고 들었어요.",,sp_chun_face_silence);
 talk6[@2]	= new talkStruct(,,,1 , talk6);
-						
-var i = irandom_range(1, 6);
 
-if (i == 1)			talkIndex = talk1;
-else if (i == 2)	talkIndex = talk2;
-else if (i == 3)	talkIndex = talk3;
-else if (i == 4)	talkIndex = talk4;
-else if (i == 5)	talkIndex = talk5;
-else if (i == 6)	talkIndex = talk6;
+
+talkIndex = talk1;
+//var i = irandom_range(1, 6);
+
+//if (i == 1)			talkIndex = talk1;
+//else if (i == 2)	talkIndex = talk2;
+//else if (i == 3)	talkIndex = talk3;
+//else if (i == 4)	talkIndex = talk4;
+//else if (i == 5)	talkIndex = talk5;
+//else if (i == 6)	talkIndex = talk6;
