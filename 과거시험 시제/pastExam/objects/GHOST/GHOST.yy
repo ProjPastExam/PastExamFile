@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "GHOST",
   "spriteId": {
     "name": "sp_ghost",
     "path": "sprites/sp_ghost/sp_ghost.yy",
@@ -28,8 +31,4 @@
     "name": "player&effect",
     "path": "folders/Objects/player&effect.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "GHOST",
-  "tags": [],
-  "resourceType": "GMObject",
 }

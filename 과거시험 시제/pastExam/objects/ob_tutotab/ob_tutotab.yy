@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_tutotab",
   "spriteId": {
     "name": "sp_kTuto_tab",
     "path": "sprites/sp_kTuto_tab/sp_kTuto_tab.yy",
@@ -28,8 +31,4 @@
     "name": "text",
     "path": "folders/Objects/tutorial/text.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_tutotab",
-  "tags": [],
-  "resourceType": "GMObject",
 }

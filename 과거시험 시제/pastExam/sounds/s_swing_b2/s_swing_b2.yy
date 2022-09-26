@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "s_swing_b2",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "atk",
     "path": "folders/Sounds/mob/atk.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_swing_b2",
-  "tags": [],
-  "resourceType": "GMSound",
 }

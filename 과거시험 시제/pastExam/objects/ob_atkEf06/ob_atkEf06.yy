@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_atkEf06",
   "spriteId": {
     "name": "sp_pl_atkEf101",
     "path": "sprites/sp_pl_atkEf101/sp_pl_atkEf101.yy",
@@ -34,8 +37,4 @@
     "name": "player&effect",
     "path": "folders/Objects/player&effect.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_atkEf06",
-  "tags": [],
-  "resourceType": "GMObject",
 }

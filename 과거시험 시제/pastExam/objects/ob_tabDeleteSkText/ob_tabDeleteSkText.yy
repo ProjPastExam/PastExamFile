@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_tabDeleteSkText",
   "spriteId": {
     "name": "sp_tabDeleteSkText",
     "path": "sprites/sp_tabDeleteSkText/sp_tabDeleteSkText.yy",
@@ -28,8 +31,4 @@
     "name": "tab",
     "path": "folders/Objects/gameControl/tab.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_tabDeleteSkText",
-  "tags": [],
-  "resourceType": "GMObject",
 }

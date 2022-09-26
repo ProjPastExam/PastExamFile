@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "s_arrow01",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "player",
     "path": "folders/Sounds/player.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_arrow01",
-  "tags": [],
-  "resourceType": "GMSound",
 }

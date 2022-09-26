@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_tabMenu_status",
   "spriteId": {
     "name": "sp_tabButton_status",
     "path": "sprites/sp_tabButton_status/sp_tabButton_status.yy",
@@ -27,14 +30,10 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"roomIndex","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"objectId":{"name":"ob_tabMenu","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"value":"r_tab","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"roomIndex","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"objectId":{"name":"ob_tabMenu","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"value":"r_tab",},
   ],
   "parent": {
     "name": "tabMenu",
     "path": "folders/Objects/gameControl/tab/tabMenu.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_tabMenu_status",
-  "tags": [],
-  "resourceType": "GMObject",
 }

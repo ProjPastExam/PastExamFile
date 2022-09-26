@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "FIRE",
   "spriteId": {
     "name": "sp_fire",
     "path": "sprites/sp_fire/sp_fire.yy",
@@ -28,8 +31,4 @@
     "name": "player&effect",
     "path": "folders/Objects/player&effect.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "FIRE",
-  "tags": [],
-  "resourceType": "GMObject",
 }

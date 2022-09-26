@@ -1,12 +1,11 @@
 {
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "talkStruct",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
     "name": "npc Script",
     "path": "folders/Scripts/npc Script.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "talkStruct",
-  "tags": [],
-  "resourceType": "GMScript",
 }

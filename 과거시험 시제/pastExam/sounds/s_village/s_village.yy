@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "s_village",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "music",
     "path": "folders/Sounds/music.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_village",
-  "tags": [],
-  "resourceType": "GMSound",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "Obj_BGS_Manager",
   "spriteId": null,
   "solid": false,
   "visible": false,
@@ -28,8 +31,4 @@
     "name": "Sound_Manager",
     "path": "folders/Sound_Manager.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Obj_BGS_Manager",
-  "tags": [],
-  "resourceType": "GMObject",
 }

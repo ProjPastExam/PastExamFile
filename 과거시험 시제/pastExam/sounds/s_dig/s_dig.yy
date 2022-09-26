@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "s_dig",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.6,
@@ -17,8 +20,4 @@
     "name": "cs",
     "path": "folders/Sounds/cs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_dig",
-  "tags": [],
-  "resourceType": "GMSound",
 }

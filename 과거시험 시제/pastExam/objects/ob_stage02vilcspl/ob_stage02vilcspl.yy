@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_stage02VilCsPl",
   "spriteId": {
     "name": "sp_pl_walk",
     "path": "sprites/sp_pl_walk/sp_pl_walk.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "stage02Cs",
     "path": "folders/Objects/csOb/stage02Cs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_stage02VilCsPl",
-  "tags": [],
-  "resourceType": "GMObject",
 }

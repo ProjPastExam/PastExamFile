@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "s_mr01",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.5,
@@ -17,8 +20,4 @@
     "name": "stage01",
     "path": "folders/Sounds/music/stage01.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_mr01",
-  "tags": [],
-  "resourceType": "GMSound",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "t_stage2",
   "spriteId": {
     "name": "sp_tile_stage2",
     "path": "sprites/sp_tile_stage2/sp_tile_stage2.yy",
@@ -19,7 +22,7 @@
   "out_columns": 20,
   "tile_count": 400,
   "autoTileSets": [
-    {"tiles":[
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"noGrass","tiles":[
         41,
         25,
         24,
@@ -67,8 +70,8 @@
         63,
         5,
         6,
-      ],"closed_edge":false,"resourceVersion":"1.0","name":"noGrass","tags":[],"resourceType":"GMAutoTileSet",},
-    {"tiles":[
+      ],"closed_edge":false,},
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"WGrass","tiles":[
         41,
         25,
         24,
@@ -116,7 +119,7 @@
         63,
         102,
         103,
-      ],"closed_edge":false,"resourceVersion":"1.0","name":"WGrass","tags":[],"resourceType":"GMAutoTileSet",},
+      ],"closed_edge":false,},
   ],
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
@@ -534,8 +537,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "t_stage2",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

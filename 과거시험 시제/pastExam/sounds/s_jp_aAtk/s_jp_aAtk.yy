@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "s_jp_aAtk",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "jp",
     "path": "folders/Sounds/mob/jp.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_jp_aAtk",
-  "tags": [],
-  "resourceType": "GMSound",
 }

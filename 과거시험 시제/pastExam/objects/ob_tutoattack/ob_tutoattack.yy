@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_tutoattack",
   "spriteId": {
     "name": "sp_kTuto_attack",
     "path": "sprites/sp_kTuto_attack/sp_kTuto_attack.yy",
@@ -28,8 +31,4 @@
     "name": "text",
     "path": "folders/Objects/tutorial/text.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_tutoattack",
-  "tags": [],
-  "resourceType": "GMObject",
 }

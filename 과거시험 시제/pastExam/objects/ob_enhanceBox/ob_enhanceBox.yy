@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_enhanceBox",
   "spriteId": {
     "name": "sp_enhanceBox",
     "path": "sprites/sp_enhanceBox/sp_enhanceBox.yy",
@@ -28,8 +31,4 @@
     "name": "enhance",
     "path": "folders/Objects/gameControl/enhance.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_enhanceBox",
-  "tags": [],
-  "resourceType": "GMObject",
 }

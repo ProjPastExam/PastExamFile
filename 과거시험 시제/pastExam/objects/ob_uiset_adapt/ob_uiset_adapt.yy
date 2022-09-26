@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_uiSet_adapt",
   "spriteId": {
     "name": "sp_uiSet_adapt",
     "path": "sprites/sp_uiSet_adapt/sp_uiSet_adapt.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "UISet",
     "path": "folders/Objects/gameControl/UISet.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_uiSet_adapt",
-  "tags": [],
-  "resourceType": "GMObject",
 }

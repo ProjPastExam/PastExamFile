@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "s_mMain",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.8,
@@ -17,8 +20,4 @@
     "name": "music",
     "path": "folders/Sounds/music.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_mMain",
-  "tags": [],
-  "resourceType": "GMSound",
 }

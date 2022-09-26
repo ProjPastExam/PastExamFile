@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "s_hit_counter",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "mob",
     "path": "folders/Sounds/mob.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_hit_counter",
-  "tags": [],
-  "resourceType": "GMSound",
 }

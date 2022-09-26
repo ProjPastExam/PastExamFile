@@ -191,10 +191,12 @@ function sc_jpBossatk(){
 			with (instance_create_layer(x, y, "effect", ob_jpBossDownAtk)) {
 				jpBoss = other.id;
 			}
+			SE_Play(s_jpBoss_up, global.vol);
 		}
 		
 		if ( process == 120 ) { 
 			uc_shake(10, 0.1);
+			SE_Play(s_jpBoss_down, global.vol);
 		}
 		
 		if ( process == 130 ) { 
@@ -493,9 +495,9 @@ function sc_jpBossatk(){
 			state = 16;
 			process = 0;
 		}
-		if (kbIndex == 1) {
+		if (kbIndex == 2) {
 			sc_jpBossAtkNext(nextState);
-			delay = phaseDelay*3;
+			delay = 0;
 		}
 	}
 }

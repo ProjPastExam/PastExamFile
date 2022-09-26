@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "t_collision",
   "spriteId": {
     "name": "sp_tCollision",
     "path": "sprites/sp_tCollision/sp_tCollision.yy",
@@ -39,8 +42,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "t_collision",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

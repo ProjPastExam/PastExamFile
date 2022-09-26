@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_wall",
   "spriteId": {
     "name": "sp_black",
     "path": "sprites/sp_black/sp_black.yy",
@@ -31,8 +34,4 @@
     "name": "Example",
     "path": "folders/Objects/Example.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_wall",
-  "tags": [],
-  "resourceType": "GMObject",
 }

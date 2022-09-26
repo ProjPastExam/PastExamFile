@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_tutodash",
   "spriteId": {
     "name": "sp_kTuto_dash",
     "path": "sprites/sp_kTuto_dash/sp_kTuto_dash.yy",
@@ -28,8 +31,4 @@
     "name": "text",
     "path": "folders/Objects/tutorial/text.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_tutodash",
-  "tags": [],
-  "resourceType": "GMObject",
 }

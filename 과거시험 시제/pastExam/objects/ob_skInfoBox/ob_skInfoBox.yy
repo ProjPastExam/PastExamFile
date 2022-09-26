@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_skInfoBox",
   "spriteId": {
     "name": "sp_skInfoBox",
     "path": "sprites/sp_skInfoBox/sp_skInfoBox.yy",
@@ -28,8 +31,4 @@
     "name": "skInfo",
     "path": "folders/Objects/gameControl/skInfo.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_skInfoBox",
-  "tags": [],
-  "resourceType": "GMObject",
 }

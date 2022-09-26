@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_csEffect",
   "spriteId": {
     "name": "sp_hitEffect_fire01",
     "path": "sprites/sp_hitEffect_fire01/sp_hitEffect_fire01.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "csOb",
     "path": "folders/Objects/csOb.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_csEffect",
-  "tags": [],
-  "resourceType": "GMObject",
 }

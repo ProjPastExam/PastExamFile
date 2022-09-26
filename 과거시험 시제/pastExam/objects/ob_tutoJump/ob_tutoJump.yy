@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_tutoJump",
   "spriteId": {
     "name": "sp_kTuto_jump",
     "path": "sprites/sp_kTuto_jump/sp_kTuto_jump.yy",
@@ -28,8 +31,4 @@
     "name": "text",
     "path": "folders/Objects/tutorial/text.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_tutoJump",
-  "tags": [],
-  "resourceType": "GMObject",
 }

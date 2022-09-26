@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_light_mouse",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -22,19 +25,15 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"light_animation","path":"objects/obj_uls_light/obj_uls_light.yy",},"objectId":{"name":"obj_uls_light","path":"objects/obj_uls_light/obj_uls_light.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"light_animation","path":"objects/obj_uls_light/obj_uls_light.yy",},"objectId":{"name":"obj_uls_light","path":"objects/obj_uls_light/obj_uls_light.yy",},"value":"False",},
   ],
   "parent": {
     "name": "Example",
     "path": "folders/Objects/Example.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_light_mouse",
-  "tags": [],
-  "resourceType": "GMObject",
 }

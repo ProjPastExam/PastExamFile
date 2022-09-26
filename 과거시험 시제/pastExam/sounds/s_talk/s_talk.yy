@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "s_talk",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "ui",
     "path": "folders/Sounds/ui.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_talk",
-  "tags": [],
-  "resourceType": "GMSound",
 }

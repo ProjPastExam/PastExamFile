@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_tutorbreak",
   "spriteId": {
     "name": "sp_kTuto_rbreak",
     "path": "sprites/sp_kTuto_rbreak/sp_kTuto_rbreak.yy",
@@ -28,8 +31,4 @@
     "name": "text",
     "path": "folders/Objects/tutorial/text.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_tutorbreak",
-  "tags": [],
-  "resourceType": "GMObject",
 }

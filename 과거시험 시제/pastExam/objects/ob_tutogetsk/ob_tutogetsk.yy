@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_tutogetsk",
   "spriteId": {
     "name": "sp_kTuto_getsk",
     "path": "sprites/sp_kTuto_getsk/sp_kTuto_getsk.yy",
@@ -28,8 +31,4 @@
     "name": "text",
     "path": "folders/Objects/tutorial/text.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_tutogetsk",
-  "tags": [],
-  "resourceType": "GMObject",
 }

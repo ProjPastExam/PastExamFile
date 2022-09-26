@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_tutoChunCs1Ef",
   "spriteId": {
     "name": "sp_chun_spellEf",
     "path": "sprites/sp_chun_spellEf/sp_chun_spellEf.yy",
@@ -28,8 +31,4 @@
     "name": "tutocs",
     "path": "folders/Objects/csOb/tutocs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_tutoChunCs1Ef",
-  "tags": [],
-  "resourceType": "GMObject",
 }

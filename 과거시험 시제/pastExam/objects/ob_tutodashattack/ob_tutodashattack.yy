@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_tutodashattack",
   "spriteId": {
     "name": "sp_kTuto_dashattack",
     "path": "sprites/sp_kTuto_dashattack/sp_kTuto_dashattack.yy",
@@ -28,8 +31,4 @@
     "name": "text",
     "path": "folders/Objects/tutorial/text.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ob_tutodashattack",
-  "tags": [],
-  "resourceType": "GMObject",
 }

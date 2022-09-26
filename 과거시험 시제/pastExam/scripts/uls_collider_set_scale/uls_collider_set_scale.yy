@@ -1,12 +1,11 @@
 {
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "uls_collider_set_scale",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
     "name": "Custom Shapes",
     "path": "folders/Scripts/Ultimate Light System/Scripts/Custom Shapes.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "uls_collider_set_scale",
-  "tags": [],
-  "resourceType": "GMScript",
 }

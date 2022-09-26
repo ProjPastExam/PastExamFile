@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "s_bandit01atk1",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "bandit",
     "path": "folders/Sounds/mob/bandit.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_bandit01atk1",
-  "tags": [],
-  "resourceType": "GMSound",
 }
