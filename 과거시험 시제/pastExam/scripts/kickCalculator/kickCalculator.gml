@@ -37,10 +37,10 @@ function sc_pl_kickComb(mode = 0) {
 }
 
 function sc_pl_kickCt(mode = 0) {
-	var kickCt = global.kickCt * sc_itemScaleCalculator(1, 3);
+	var kickCt = (global.kickCt + sc_abScaleCalculator(6)/100) * sc_itemScaleCalculator(1, 3);
 	if (mode == 1) return kickCt * 100;
 	
-	kickCt = (global.kickCt + sc_abScaleCalculator(6)) * sc_itemScaleCalculator(1, 3);
+	//kickCt = (global.kickCt + sc_abScaleCalculator(6)) * sc_itemScaleCalculator(1, 3);
 	if (mode == 0) return kickCt;
 	
 	kickCt -= global.kickCt;
@@ -48,11 +48,11 @@ function sc_pl_kickCt(mode = 0) {
 }
 
 function sc_pl_kickCtMag(mode = 0) {
-	var kickCtMag = global.kickCtMag;
+	var kickCtMag = global.kickCtMag * sc_itemScaleCalculator(1, 4);
 	
 	if (mode == 1) return kickCtMag * sc_pl_kickDmg(1);
 	
-	kickCtMag = global.kickCtMag * sc_itemScaleCalculator(1, 4);
+	//kickCtMag = global.kickCtMag * sc_itemScaleCalculator(1, 4);
 	if (mode == 0) return kickCtMag;
 	
 	kickCtMag -= global.kickCtMag;

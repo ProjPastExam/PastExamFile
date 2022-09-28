@@ -11,7 +11,7 @@ sprite_index = skUi[skNum];
 if (isRand) {
 	//var i = 0;
 	while (1) {
-		skNum = irandom_range(101, 107);
+		skNum = irandom_range(101, 108);
 		var check = true;
 		if (global.sk1 == skNum) check = false;
 		if (global.sk2 == skNum) check = false;

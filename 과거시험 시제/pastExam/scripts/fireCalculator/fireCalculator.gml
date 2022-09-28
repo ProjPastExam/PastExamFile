@@ -37,10 +37,10 @@ function sc_pl_fireComb(mode = 0) {
 }
 
 function sc_pl_fireCt(mode = 0) {
-	var fireCt = global.fireCt * sc_itemScaleCalculator(2, 3);
+	var fireCt = (global.fireCt + sc_abScaleCalculator(8)/100) * sc_itemScaleCalculator(2, 3);
 	if (mode == 1) return fireCt*100;
 	
-	fireCt = (global.fireCt + sc_abScaleCalculator(8)) * sc_itemScaleCalculator(2, 3);
+	//fireCt = (global.fireCt + sc_abScaleCalculator(8)) * sc_itemScaleCalculator(2, 3);
 	if (mode == 0) return fireCt;
 	
 	fireCt -= global.fireCt;
@@ -49,11 +49,11 @@ function sc_pl_fireCt(mode = 0) {
 
 
 function sc_pl_fireCtMag(mode = 0) {
-	var fireCtMag = global.fireCtMag;
+	var fireCtMag = (global.fireCtMag + sc_abScaleCalculator(9)) * sc_itemScaleCalculator(2, 4);
 	
 	if (mode == 1) return fireCtMag * sc_pl_fireDmg(1);
 	
-	fireCtMag = (global.fireCtMag + sc_abScaleCalculator(9)) * sc_itemScaleCalculator(2, 4);
+	//fireCtMag = (global.fireCtMag + sc_abScaleCalculator(9)) * sc_itemScaleCalculator(2, 4);
 	if (mode == 0) return fireCtMag;
 	
 	fireCtMag -= global.fireCtMag;

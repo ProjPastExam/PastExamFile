@@ -8,3 +8,7 @@ global.sk2 = 0;
 global.sk3 = 0;
 
 global.money = 0;
+
+with (ob_player) {
+	itemCheck = true;
+}

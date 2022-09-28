@@ -74,7 +74,7 @@ function sc_jpBossatk(){
 		process++;
 		sprite_index = sp_jpBoss_atk2;
 		xSpeed = 0;
-		
+		isDK = true;
 		
 		if ( process == 1 ) { 
 			//SE_Play(s_jp_dAtk, global.vol); 
@@ -111,7 +111,7 @@ function sc_jpBossatk(){
 	else if ( state == 14 ) {
 		process++;
 		sprite_index = sp_jpBoss_atk_rdy2;
-		
+		isDK = true;
 		
 		if ( process == 1 ) { 
 			//SE_Play(s_jp_dAtk, global.vol); 
@@ -136,6 +136,7 @@ function sc_jpBossatk(){
 	else if ( state == 15 ) {
 		process++;
 		sprite_index = sp_jpBoss_atkGRdy2;
+		isDK = true;
 		
 		if ( process == 1 ) { 
 			//SE_Play(s_jp_dAtk, global.vol); 
@@ -160,6 +161,7 @@ function sc_jpBossatk(){
 	else if (state == 16) {
 		process++;
 		sprite_index = sp_jpBoss_counter;
+		isDK = true;
 		
 		if ( process == 24 ) { SE_Play(s_jp_dAtk, global.vol); }
 		
@@ -501,6 +503,11 @@ function sc_jpBossatk(){
 		}
 		if (kbIndex == 1) {
 			sc_jpBossAtkNext(nextState);
+			if (isStun) {
+				isStun = false;
+				state = 9;
+				process = 80;
+			}
 			kbIndex = 0;
 		}
 	}
