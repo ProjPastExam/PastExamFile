@@ -28,7 +28,7 @@ function sc_jpBossatk(){
 		//if ( nextState == 20 )	sc_jpBossRdy();
 		var disIndex1 = 600;
 		var disIndex2 = 300;
-		if (nextState == 20) { disIndex1 = 1200;	disIndex2 = 0; }
+		if (nextState == 19) { disIndex1 = 1200;	disIndex2 = 0; }
 		if (nextState == 18) { disIndex1 = 800;		disIndex2 = 400; }
 		sc_mobRun(12, disIndex1, disIndex2, 30, nextState, plX, left1, left2, right1, right2);
 	}
@@ -226,6 +226,10 @@ function sc_jpBossatk(){
 		else if ( process < 170 ) { image_index = 5; }
 		else { sc_jpBossAtkNext(nextState);	process = 0;	delay = 80 + phaseDelay*2; }
 		
+	}
+	else if ( state == 19 ) {
+		state = 20;
+		sc_jpBossRdy();
 	}
 	
 	else if ( state == 20 ) {
@@ -495,9 +499,9 @@ function sc_jpBossatk(){
 			state = 16;
 			process = 0;
 		}
-		if (kbIndex == 2) {
+		if (kbIndex == 1) {
 			sc_jpBossAtkNext(nextState);
-			delay = 0;
+			kbIndex = 0;
 		}
 	}
 }
@@ -522,12 +526,15 @@ function sc_jpBossAtkNext(index = state){
 	else if (index == 12) {
 		if (ran < 2) { nextState = 12; state = 10; }
 		else if (ran < 6) { nextState = 18; state = 10; }
-		else { nextState = 20;	sc_jpBossRdy(); }
+		else { nextState = 19; state = 10; }
 	}
-	else if (index == 20) {
+	else if (index == 18) {
 		if (ran < 7) { nextState = 12; state = 10; }
-		else if (ran < 10) { nextState = 18; state = 10; }
-		else { nextState = 20;	sc_jpBossRdy(); }
+		else { nextState = 19; state = 10; }
+	}
+	else if (index == 19 || index == 20) {
+		if (ran < 7) { nextState = 12; state = 10; }
+		else { nextState = 18; state = 10; }
 	}
 	else if (index == 90) {
 		if (ran < 8) { state = 21; }
@@ -539,8 +546,7 @@ function sc_jpBossAtkNext(index = state){
 	}
 	else {
 		if (ran < 7) { nextState = 12; state = 10; }
-		else if (ran < 10) { nextState = 18; state = 10; }
-		else { nextState = 20;	sc_jpBossRdy(); }
+		else { nextState = 18; state = 10; }
 	}
 
 }
