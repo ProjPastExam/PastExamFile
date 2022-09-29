@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ob_demo_rest",
+  "name": "ob_reStory",
   "spriteId": {
-    "name": "sp_demo_rest",
-    "path": "sprites/sp_demo_rest/sp_demo_rest.yy",
+    "name": "sp_settingStory",
+    "path": "sprites/sp_settingStory/sp_settingStory.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,14 +25,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ingameOb",
-    "path": "folders/Objects/ingameOb.yy",
+    "name": "setting",
+    "path": "folders/Objects/gameControl/setting.yy",
   },
 }

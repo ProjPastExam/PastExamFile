@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_csManage(var_stageNum, var_nextNum){
 	if (global.clearStage > var_stageNum) {
-		alarm[7] = 1;
+		if (!global.reStory)	alarm[7] = 1;
 	}
 	else {
 		global.clearStage = var_nextNum;

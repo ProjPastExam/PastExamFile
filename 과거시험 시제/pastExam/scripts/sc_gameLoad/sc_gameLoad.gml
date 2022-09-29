@@ -16,6 +16,7 @@ function sc_gameLoad(){
 	{
 	//if (VSLS_Get("money")== undefined)		VSLS_Set("money", 0);
 	if (VSLS_Get("fullScreen")== undefined)	VSLS_Set("fullScreen", true);
+	if (VSLS_Get("reStory")== undefined)	VSLS_Set("reStory", false);
 	}
 	
 	if (VSLS_Get("clearStage")== undefined)	VSLS_Set("clearStage", -1);

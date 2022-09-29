@@ -10,6 +10,7 @@ function sc_globalLoad(){
 	global.coin			= 0;
 	
 	global.fullScreen	= VSLS_Get("fullScreen");
+	global.reStory		= VSLS_Get("reStory");
 	
 	global.clearStage	= VSLS_Get("clearStage");
 	

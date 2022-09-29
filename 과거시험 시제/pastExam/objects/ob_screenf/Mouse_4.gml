@@ -6,3 +6,9 @@ if (!global.fullScreen) {
 	VSLS_File_Save("saveFile");
 	window_set_fullscreen(true);
 }
+else {
+	global.fullScreen	= false;
+	VSLS_Set("fullScreen", false);
+	VSLS_File_Save("saveFile");
+	window_set_fullscreen(false);
+}
