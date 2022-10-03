@@ -10,13 +10,7 @@ function sc_pl_sk101(){
 	var atk;
 	
 	if ( atkProcess > 32 ) {
-		if ( keyAttack ) {
-			if ( keyDown ) 													nextAtk = 5;
-			else if ( keyTop ) 												nextAtk = 6;
-			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
-			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
-			else															nextAtk = 1;
-		}
+		sc_pl_comInter();
 	}
 
 	

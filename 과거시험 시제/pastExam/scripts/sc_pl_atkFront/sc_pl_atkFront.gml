@@ -9,7 +9,7 @@ function sc_pl_atkFront(){
 	
 	if ( atkProcess > 21 && atkProcess < 48 ) {
 		if (keyAttack) {
-			if ( keyDown )													nextAtk = 5;
+			if ( keyDown && isJump )										nextAtk = 5;
 			else if ( keyTop ) 	nextAtk = 6;
 			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
 			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;

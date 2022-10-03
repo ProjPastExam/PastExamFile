@@ -9,7 +9,7 @@ atkProcess++;
 	
 	if ( atkProcess > 9 ) {
 		if (keyAttack) {
-			if ( keyDown )													nextAtk = 5;
+			if ( keyDown && isJump )										nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
 			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
 			else															nextAtk = 2;
@@ -42,7 +42,10 @@ atkProcess++;
 	else if ( atkProcess < 35 )	{ image_index = 4; }
 	else if ( atkProcess < 45 ) { 
 		if ( nextAtk == 2 ) { atkProcess = 0;	canMove = 2; }
-		else if ( nextAtk == 5 ) { atkProcess = 0;	canMove = 5; }
+		else if ( nextAtk == 5 ) { 
+			if (isJump)	{ atkProcess = 0;	canMove = 5; }
+			else		{ atkProcess = 0;	canMove = 2; }
+		}
 		else if ( nextAtk == 6 ) { atkProcess = 0;	canMove = 6; }
 		else if ( nextAtk == 7 ) { atkProcess = 0;	canMove = 7; }
 	}

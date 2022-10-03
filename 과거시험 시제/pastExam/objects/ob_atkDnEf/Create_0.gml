@@ -1,0 +1,10 @@
+/// @description Insert description here
+// You can write your code in this editor
+state		= 0;
+hitArray	= array_create(hitNum, 0);
+hitSum		= 0;
+isHit		= false;
+isCritic	= true;
+
+alarm[0] = 1;
+alarm[1] = 2;

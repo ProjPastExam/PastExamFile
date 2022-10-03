@@ -8,7 +8,8 @@ function sc_pl_atkJumpUp(){
 	
 	if ( atkProcess > 4 ) {
 		if (keyAttack) {
-			if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
+			if ( keyDown && isJump )		nextAtk = 5;
+			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
 			else nextAtk = 2;
 		}
 	}
@@ -39,6 +40,7 @@ function sc_pl_atkJumpUp(){
 	else if ( atkProcess < 35 ) { 
 		if (!isJump)		{ canMove = 0;	atkProcess = -10; }
 		if (nextAtk == 2)	{ canMove = 11;	atkProcess = 15; }
+		else if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
 		else if (nextAtk == 7)	{ canMove = 9;	atkProcess = 0; }
 		
 	}

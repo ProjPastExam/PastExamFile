@@ -27,7 +27,10 @@ function sc_pl_skRepeat(skIndex) {
 	if ( nextAtk == 1 ) { nextAtk = 0; atkProcess = 0; canMove = 1; }
 	else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 	else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
-	else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; }
+	else if ( nextAtk == 5 ) {
+		if (isJump)	{ nextAtk = 0; atkProcess = 0; canMove = 5; }
+		else		{ nextAtk = 0; atkProcess = 0; canMove = 1; }
+	}
 	else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
 	if ( nextAtk == -1 && global.mp >= global.skMp[global.sk1]) {
 		if (global.sk1 == skIndex)			{com = true;}
@@ -46,11 +49,24 @@ function sc_pl_skRepeat(skIndex) {
 	nextAtk = 0;
 }
 
+function sc_pl_comInter() {
+	if ( keyAttack ) {
+		if ( keyDown && isJump ) 										nextAtk = 5;
+		else if ( keyTop ) 												nextAtk = 6;
+		else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
+		else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
+		else															nextAtk = 1;
+	}
+}
+
 function sc_pl_comAfterSk() {
 	if ( nextAtk == 1 ) { nextAtk = 0; atkProcess = 0; canMove = 1; }
 	else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 	else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
-	else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; }
+	else if ( nextAtk == 5 ) {
+		if (isJump)	{ nextAtk = 0; atkProcess = 0; canMove = 5; }
+		else		{ nextAtk = 0; atkProcess = 0; canMove = 1; }
+	}
 	else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
 	else if ( nextAtk == 10 ) {
 		dProcess = 0;

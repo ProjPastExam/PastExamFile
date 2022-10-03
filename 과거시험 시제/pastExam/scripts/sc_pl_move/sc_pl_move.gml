@@ -83,6 +83,7 @@ function sc_pl_move() {
 	
 	if ( keyAttack && atkProcess == -1 && canMove == 0 ) {
 		if (keyTop && isJump) canMove = 8; 
+		else if (keyDown && isJump) canMove = 13;
 		else canMove = 1;
 		atkProcess = 0;
 	}
@@ -119,13 +120,14 @@ function sc_pl_move() {
 			else				sc_pl_atkFront();
 			break;
 		case 4:		sc_pl_atkBack();		break;
-		case 5:		sc_pl_atkDown();		break;
+		case 5:		sc_pl_atkDn1();			break;
 		case 6:		sc_pl_atkUp();			break;
 		case 7:		sc_pl_atkFront2();		break;
 		case 8:		sc_pl_atkJumpUp();		break;
 		case 9:		sc_pl_atkJumpFront();	break;
 		case 11:	sc_pl_atkJump2();		break;
 		case 12:	sc_pl_atk3();			break;
+		case 13:	sc_pl_atkDn2();			break;
 		
 		case 20:	sc_pl_item4();			break;
 		case 21:	sc_pl_item0();			break;

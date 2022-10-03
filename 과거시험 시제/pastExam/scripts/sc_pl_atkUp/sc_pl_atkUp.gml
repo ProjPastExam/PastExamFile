@@ -8,7 +8,7 @@ function sc_pl_atkUp(){
 	var atk;
 	
 	if ( atkProcess > 38 && atkProcess < 58 && keyAttack ) {
-		if ( keyDown ) 	nextAtk = 5;
+		if ( keyDown && isJump ) 	nextAtk = 5;
 	}
 	
 	if ( atkProcess == 6 ) {

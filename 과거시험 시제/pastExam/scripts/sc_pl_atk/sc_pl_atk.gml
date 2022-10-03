@@ -11,13 +11,12 @@ function sc_pl_atk(){
 	if ( atkProcess > 0 && atkProcess < 24 && keyAttack ) nextAtk = 1;
 	if ( atkProcess > 28 ) {
 		if ( keyAttack ) {
-			if ( keyDown ) 													nextAtk = 5;
+			if ( keyDown && isJump)											nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
 			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
 			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
 			else															nextAtk = 2;
 		}
-		
 	}
 	
 	if ( atkProcess == 12 || atkProcess == 30 ) {
@@ -64,7 +63,10 @@ function sc_pl_atk(){
 		if ( nextAtk == 2 ) { nextAtk = 0; atkProcess = 0; canMove = 2; }
 		else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 		else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }
-		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; }
+		else if ( nextAtk == 5 ) { 
+			if (isJump)			 { nextAtk = 0; atkProcess = 0; canMove = 5; }
+			else				 { nextAtk = 0; atkProcess = 0; canMove = 2; }
+		}
 		else if ( nextAtk == 6 ) { nextAtk = 0; atkProcess = 0; canMove = 6; }
 		else if ( nextAtk == 10 ) {
 			dProcess = 0;

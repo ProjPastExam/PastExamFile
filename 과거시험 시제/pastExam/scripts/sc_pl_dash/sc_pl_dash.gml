@@ -5,7 +5,7 @@ function sc_pl_dash(){
 	if ( dProcess > 0 ) {
 		if ( keyJump ) nextAtk = 9;
 		if (keyAttack) {
-			if ( keyDown )													nextAtk = 5;
+			if ( keyDown && isJump )										nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
 			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
 		}

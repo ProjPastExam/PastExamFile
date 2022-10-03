@@ -10,16 +10,8 @@ function sc_pl_sk108(){
 	var atk;
 	
 	if ( atkProcess > 12 ) {
-		if ( keyAttack ) {
-			if ( keyDown ) 													nextAtk = 5;
-			else if ( keyTop ) 												nextAtk = 6;
-			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
-			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
-			else															nextAtk = 1;
-		}
-		if ( keySk1 ) nextAtk = -1;
-		if ( keySk2 ) nextAtk = -2;
-		if ( keySk3 ) nextAtk = -3;
+		sc_pl_comInter();
+		sc_pl_skKey();
 	}
 
 	/*

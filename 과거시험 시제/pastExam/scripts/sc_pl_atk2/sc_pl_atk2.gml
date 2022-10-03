@@ -17,9 +17,9 @@ function sc_pl_atk2(){
 	
 	if ( atkProcess > 18 ) {
 		if (keyAttack) {
-			if ( keyDown )		nextAtk = 5;
-			else if ( keyTop ) 	nextAtk = 6;
-			else				nextAtk = 1;
+			if ( keyDown && isJump )	nextAtk = 5;
+			else if ( keyTop )		 	nextAtk = 6;
+			else						nextAtk = 1;
 		}
 	}
 	sc_pl_skKey();
@@ -46,7 +46,7 @@ function sc_pl_atk2(){
 	else if ( atkProcess < 47 )	{ image_index = 5; }
 	else if ( atkProcess < 55 )	{
 		if ( nextAtk == 1 )	{ canMove = 1;	atkProcess = 0; }
-		else if ( nextAtk == 5 )	{ canMove = 5;	atkProcess = 0; }
+		else if ( nextAtk == 5 && isJump )	{ canMove = 5;	atkProcess = 0; }
 		else if ( nextAtk == 6 )	{ canMove = 6;	atkProcess = 0; }
 		else if ( nextAtk == 10 ) {
 			dProcess = 0;
