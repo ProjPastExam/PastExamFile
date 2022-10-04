@@ -21,9 +21,9 @@ function sc_pl_atkEf( dmg, pene, shock, mana, hitUp, hitKind, hitAfter, sprite, 
 	else if (hitKind == 2)					{ ctC = ctC + sc_pl_fireCt()*global.comCt; }
 	
 	var cIndex			= comIndex;
-	if (hitKind == 0)						{ cIndex = cIndex + sc_pl_atkComb(); }
-	else if (hitKind == 1 || hitKind == 10) { cIndex = cIndex + sc_pl_kickComb(); }
-	else if (hitKind == 2)					{ cIndex = cIndex + sc_pl_fireComb(); }
+	if (hitKind == 0)						{ cIndex = cIndex * sc_itemScaleCalculator(0, 2) + sc_pl_atkComb(); }
+	else if (hitKind == 1 || hitKind == 10) { cIndex = cIndex * sc_itemScaleCalculator(1, 2) + sc_pl_kickComb(); }
+	else if (hitKind == 2)					{ cIndex = cIndex * sc_itemScaleCalculator(2, 2) + sc_pl_fireComb(); }
 	
 	atk.ctChance		= ctC;
 	atk.comIndex		= cIndex;

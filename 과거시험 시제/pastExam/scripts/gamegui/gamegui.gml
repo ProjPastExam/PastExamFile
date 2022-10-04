@@ -116,6 +116,8 @@ function sc_gameHpUI() {
 	
 	var index1 = global.uiHp/global.uiHpMax;
 	var index2 = global.uiHpIndex/global.uiHpMax;
+	if (index1 < 0) index1 = 0;
+	if (index2 < 0) index2 = 0;
 	
 	draw_sprite(sp_uiHpCir, 0, global.hpX, global.hpY);
 	if (global.uiHpCir != noone)	draw_sprite(global.uiHpCir, 0, global.hpX, global.hpY);
