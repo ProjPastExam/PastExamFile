@@ -1,8 +1,16 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_itemSprite(){
+	itemSp = array_create(global.itemMax);
+	itemIn = array_create(global.itemMax);
+	
+	for (var i = 0; i < global.itemMax; i++) {
+		itemSp[i] = global.itemData[i].itemSprite;
+		itemIn[i] = global.itemData[i].infoSprite;
+	}
+	/*
 {
-itemSp = array_create(global.itemMax);
+
 itemSp[0] = sp_Item_sin;
 itemSp[1] = sp_Item_kick;
 itemSp[2] = sp_Item_02;
@@ -13,7 +21,7 @@ itemSp[6] = sp_Item_06;
 }
 
 {
-itemIn = array_create(global.itemMax);
+
 itemIn[0] = sp_ItemInfo_sin;
 itemIn[1] = sp_ItemInfo_kick;
 itemIn[2] = sp_ItemInfo_02;
@@ -22,6 +30,8 @@ itemIn[4] = sp_ItemInfo_04;
 itemIn[5] = sp_ItemInfo_05;
 itemIn[6] = sp_ItemInfo_06;
 }
+*/
+
 }
 
 function sc_itemScaleSprite(_itemKind, _itemBuff) {
