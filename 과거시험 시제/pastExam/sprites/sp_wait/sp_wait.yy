@@ -67,7 +67,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "skInfo",
-    "path": "folders/Sprites/interface/skInfo.yy",
+    "name": "guide",
+    "path": "folders/Sprites/interface/guide.yy",
   },
 }
