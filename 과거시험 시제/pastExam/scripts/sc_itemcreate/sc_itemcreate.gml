@@ -30,6 +30,6 @@ function sc_itemData(){
 		function(grade) { global.item6 = true; })
 		
 	//효시
-	global.itemData[7]	= new itemStruct ( 7, sp_Item_07, sp_ItemInfo_jump, 0,
+	global.itemData[7]	= new itemStruct ( 7, sp_Item_07, sp_ItemInfo_07, 0,
 		function(grade) { other.item7 = true; })
 }

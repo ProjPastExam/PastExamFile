@@ -218,6 +218,7 @@
     {"id":{"name":"uc_flash","path":"scripts/uc_flash/uc_flash.yy",},"order":2,},
     {"id":{"name":"sp_bandit05_die","path":"sprites/sp_bandit05_die/sp_bandit05_die.yy",},"order":6,},
     {"id":{"name":"sp_pl_skEf104","path":"sprites/sp_pl_skEf104/sp_pl_skEf104.yy",},"order":12,},
+    {"id":{"name":"sp_ItemInfo_07","path":"sprites/sp_ItemInfo_07/sp_ItemInfo_07.yy",},"order":7,},
     {"id":{"name":"sp_bandit03_atk","path":"sprites/sp_bandit03_atk/sp_bandit03_atk.yy",},"order":6,},
     {"id":{"name":"sp_demoTitle","path":"sprites/sp_demoTitle/sp_demoTitle.yy",},"order":3,},
     {"id":{"name":"sp_stage03BossCsChang2","path":"sprites/sp_stage03BossCsChang2/sp_stage03BossCsChang2.yy",},"order":3,},
