@@ -10,14 +10,18 @@ if (isCollision && !isActive && mobNum <= 0) {
 		global.hp++;	
 		instance_create_layer(0, 0, "effect", ob_healEf);	
 	}
-	with (instance_create_layer(x-500, sY, "effect2", ob_chun_stageSpawn)) {
+	with (instance_create_layer(x-300, sY, "effect2", ob_chun_stageSpawn)) {
 		nextChun = other.chunSpawn;
 	}
-	with (instance_create_layer(x-300, sY+80, "effect2", ob_itemSpawnEf)) {
+	with (instance_create_layer(x-100, sY+80, "effect2", ob_itemSpawnEf)) {
 
 	}
-	with (instance_create_layer(x-100, sY+80, "effect2", ob_skSpawnEf)) {
+	with (instance_create_layer(x+100, sY+80, "effect2", ob_skSpawnEf)) {
 
+	}
+	
+	if (global.clearStage >= 5) {
+		instance_create_layer(x-500, sY+80, "effect2", ob_chun_enhanceEf);
 	}
 }
 
