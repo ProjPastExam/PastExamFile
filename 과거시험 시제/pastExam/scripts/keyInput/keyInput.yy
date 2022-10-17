@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "sc_getKey",
+  "name": "keyInput",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

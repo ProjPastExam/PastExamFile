@@ -2,6 +2,7 @@
 // You can write your code in this editor
 sc_set_abSoulMax();
 BGS_Set(0, 0);
+instance_create_depth(0, 0, 0, ob_gamepadSlot);
 
 pause = 0;
 slow = 0;

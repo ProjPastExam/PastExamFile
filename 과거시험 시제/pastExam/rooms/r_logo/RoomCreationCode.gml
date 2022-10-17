@@ -119,6 +119,9 @@ global.uiHpCir		= noone;
 global.money = 0;
 global.moneyBuffer	= 0;
 
+global.gamepadSlot	= 0;
+sc_getPadSlot();
+
 //스킬 변수
 
 

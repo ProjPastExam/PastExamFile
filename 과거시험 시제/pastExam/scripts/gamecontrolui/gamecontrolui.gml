@@ -75,6 +75,7 @@ function sc_gameControlUI() {
 }
 
 function sc_gameControlCreate() {
+	instance_create_depth(0, 0, 0, ob_gamepadSlot);
 	sc_skillUi();
 	sc_itemSprite();
 	hpProcess = 0;

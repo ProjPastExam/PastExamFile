@@ -76,6 +76,20 @@ function sc_globalLoad(){
 	global.btEsc		= VSLS_Get("btEsc");
 	global.btTap		= VSLS_Get("btTap");
 	
+	global.gpLeft		= gp_padl;
+	global.gpRight		= gp_padr;
+	global.gpUp			= gp_padu;
+	global.gpDown		= gp_padd;
+	global.gpAtk		= gp_face3;
+	global.gpDash		= gp_shoulderr;
+	global.gpJump		= gp_face1;
+	global.gpSk1		= gp_shoulderl;
+	global.gpSk2		= gp_shoulderlb;
+	global.gpSk3		= gp_shoulderrb;
+	global.gpInter		= gp_face4;
+	global.gpEsc		= gp_start;
+	global.gpTap		= gp_select;
+	
 	global.UIX		= VSLS_Get("UIX");
 	global.UIY		= VSLS_Get("UIY");
 	global.MapX		= VSLS_Get("MapX");
