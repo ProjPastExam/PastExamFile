@@ -531,6 +531,7 @@
     {"id":{"name":"sp_bandit03_run","path":"sprites/sp_bandit03_run/sp_bandit03_run.yy",},"order":5,},
     {"id":{"name":"sc_pl_sk101","path":"scripts/sc_pl_sk101/sc_pl_sk101.yy",},"order":1,},
     {"id":{"name":"r_stage03Npc","path":"rooms/r_stage03Npc/r_stage03Npc.yy",},"order":6,},
+    {"id":{"name":"sc_getKey","path":"scripts/sc_getKey/sc_getKey.yy",},"order":16,},
     {"id":{"name":"sp_pl_atkEf02","path":"sprites/sp_pl_atkEf02/sp_pl_atkEf02.yy",},"order":1,},
     {"id":{"name":"sp_hitEffect_jump","path":"sprites/sp_hitEffect_jump/sp_hitEffect_jump.yy",},"order":5,},
     {"id":{"name":"sp_bandit02_atkEffect","path":"sprites/sp_bandit02_atkEffect/sp_bandit02_atkEffect.yy",},"order":4,},
@@ -1731,6 +1732,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"skillUi","folderPath":"folders/Sprites/interface/skillUi.yy","order":6,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"icon","folderPath":"folders/Sprites/interface/skillUi/icon.yy","order":19,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"info","folderPath":"folders/Sprites/interface/skillUi/info.yy","order":18,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"smith","folderPath":"folders/Sprites/interface/smith.yy","order":26,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"talk","folderPath":"folders/Sprites/interface/talk.yy","order":23,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tapInfo","folderPath":"folders/Sprites/interface/tapInfo.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"text","folderPath":"folders/Sprites/interface/text.yy","order":10,},
@@ -1776,7 +1778,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tileSprite","folderPath":"folders/Tile Sets/tileSprite.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":7,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"smith","folderPath":"folders/Sprites/interface/smith.yy","order":26,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
