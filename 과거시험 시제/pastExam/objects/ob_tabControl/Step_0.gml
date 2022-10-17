@@ -2,19 +2,19 @@
 // You can write your code in this editor
 
 
-if (keyboard_check_pressed(global.btTap) ) {
+if (sc_getKey(global.btTap, global.gpTap, 0) ) {
 	room_goto(global.roomBuffer);
 }
 
-if (keyboard_check_pressed(global.btEsc) ) {
+if (sc_getKey(global.btEsc, global.gpEsc, 0) ) {
 	room_goto(r_setting);
 }
 
-if (keyboard_check_pressed(global.btSk2)) {
+if (sc_getKey(global.btSk2, gp_shoulderl, 0)) {
 	room_goto(r_setting);
 }
 
-if (keyboard_check_pressed(global.btSk3)) {
+if (sc_getKey(global.btSk3, gp_shoulderr, 0)) {
 	room_goto(r_skInfo);
 }
 
@@ -27,28 +27,28 @@ with (ob_tabSelectImage) {tabIndex = other.tabIndex;}
 with (ob_tabInter) {tabIndex = other.tabIndex;}
 with (ob_tabInterB) {interIndex = other.interIndex;}
 
-if (keyboard_check_pressed(global.btLeft)) {
+if (sc_getKey(global.btLeft, gp_padl, 0)) {
 	if (tabIndex == 0 || tabIndex == 3 || tabIndex == 6) { tabIndex += 2; }
 	else { tabIndex--; }
 }
 
-if (keyboard_check_pressed(global.btRight)) {
+if (sc_getKey(global.btRight, gp_padr, 0)) {
 	if (tabIndex == 2 || tabIndex == 5 || tabIndex == 8) { tabIndex -= 2; }
 	else { tabIndex++; }
 }
 
-if (keyboard_check_pressed(global.btUp)) {
+if (sc_getKey(global.btUp, gp_padu, 0)) {
 	if (tabIndex < 3) { tabIndex += 6; }
 	else { tabIndex -= 3; }
 }
 
-if (keyboard_check_pressed(global.btDown)) {
+if (sc_getKey(global.btDown, gp_padd, 0)) {
 	if (tabIndex > 5) { tabIndex -= 6; }
 	else { tabIndex += 3; }
 }
 
 if (tabIndex > 2) {
-	if (keyboard_check(global.btInter)) {
+	if (sc_getKey(global.btInter, global.gpInter, 1)) {
 		interIndex++;
 		skState = 0;
 	}

@@ -1,22 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (keyboard_check_pressed(global.btTap) ) {
+if (sc_getKey(global.btTap, global.gpTap, 0) ) {
 	room_goto(r_tab);
 }
 
-if (keyboard_check_pressed(global.btEsc) ) {
+if (sc_getKey(global.btEsc, global.gpEsc, 0) ) {
 	room_goto(r_setting);
 }
 
-if (keyboard_check_pressed(global.btSk2)) {
+if (sc_getKey(global.btSk2, gp_shoulderl, 0)) {
 	room_goto(r_tab);
 }
 
-if (keyboard_check_pressed(global.btSk3)) {
+if (sc_getKey(global.btSk3, gp_shoulderr, 0)) {
 	room_goto(r_itemInfo);
 }
 
-if (keyboard_check_pressed(global.btUp)) {
+if (sc_getKey(global.btUp, global.gpUp, 0)) {
 	if (state == 0 || state == 8) {
 		state += 7;
 	}
@@ -25,7 +25,7 @@ if (keyboard_check_pressed(global.btUp)) {
 	}
 }
 
-if (keyboard_check_pressed(global.btDown)) {
+if (sc_getKey(global.btDown, global.gpDown, 0)) {
 	if (state == 7 || state == 15) {
 		state -= 7;
 	}
@@ -34,7 +34,7 @@ if (keyboard_check_pressed(global.btDown)) {
 	}
 }
 
-if (keyboard_check_pressed(global.btLeft)) {
+if (sc_getKey(global.btLeft, global.gpLeft, 0)) {
 	if (state < 8) {
 		state += 8;
 	}
@@ -43,7 +43,7 @@ if (keyboard_check_pressed(global.btLeft)) {
 	}
 }
 
-if (keyboard_check_pressed(global.btRight)) {
+if (sc_getKey(global.btRight, global.gpRight, 0)) {
 	if (state < 8) {
 		state += 8;
 	}

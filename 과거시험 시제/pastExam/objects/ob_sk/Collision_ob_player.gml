@@ -3,7 +3,7 @@
 touch = true;
 
 
-if (keyboard_check_pressed(global.btInter)) {
+if (sc_getKey(global.btInter, global.gpInter, 0)) {
 	if (sc_getSk()) {
 		if (isChun) {
 			with (ob_item_chun) { alarm[3] = 1; }

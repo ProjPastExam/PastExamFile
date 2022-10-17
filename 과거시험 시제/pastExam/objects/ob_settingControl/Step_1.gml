@@ -5,20 +5,20 @@ with (ob_keySet) {
 	if (state == 2) other.nextIndex = false;
 }
 
-if (keyboard_check_pressed(global.btEsc)) {
+if (sc_getKey(global.btEsc, global.gpEsc, 0)) {
 	if (nextIndex)	room_goto(global.roomBuffer);
 	
 }
 
-if (keyboard_check_pressed(global.btTap)) {
+if (sc_getKey(global.btTap, global.gpTap, 0)) {
 	if (nextIndex)	room_goto(r_tab);
 	
 	
 }
-if (keyboard_check_pressed(global.btSk2)) {
+if (sc_getKey(global.btSk2, gp_shoulderl, 0)) {
 	if (nextIndex) room_goto(r_itemInfo);
 }
 
-if (keyboard_check_pressed(global.btSk3)) {
+if (sc_getKey(global.btSk3, gp_shoulderr, 0)) {
 	if (nextIndex) room_goto(r_tab);
 }

@@ -3,7 +3,7 @@
 isCollision = true;
 
 
-if (keyboard_check_pressed(global.btInter)) {
+if (sc_getKey(global.btInter, global.gpInter, 0)) {
 	isTalk = true;
 	talkIndex[talkCnt].talkFunction();
 	//talkIndex[talkCnt].talkString;

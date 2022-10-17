@@ -44,12 +44,12 @@ if ( isTalk == 1 )		{
 	//if (instance_exists(ob_player)) ob_player.canMove = -10;
 }
 else if ( isTalk == 2) {
-	if (keyboard_check_pressed(global.btUp)) {
+	if (sc_getKey(global.btUp, global.gpUp, 0)) {
 		if (questionState == 0)	questionState = questionNum-1;
 		else					questionState--;
 	}
 	
-	if (keyboard_check_pressed(global.btDown)) {
+	if (sc_getKey(global.btDown, global.gpDown, 0)) {
 		if (questionState >= questionNum-1)	questionState = 0;
 		else								questionState++;
 	}
@@ -64,7 +64,7 @@ else if ( isTalk == 4 ) {
 }
 else if ( isTalk == 5) {
 	isGUI = false;
-	if ( keyboard_check_pressed(global.btAtk) || keyboard_check_pressed(global.btInter) ) {
+	if ( sc_getKey(global.btAtk, global.gpAtk, 0) || sc_getKey(global.btInter, global.gpInter, 1) ) {
 		talkCnt++;
 		with (ob_csParent) {
 			active = true;
@@ -75,11 +75,11 @@ else if ( isTalk == 5) {
 
 
 
-if ( keyboard_check_pressed(global.btTap) && global.hp > 0 && dark == 0 ) {
+if ( sc_getKey(global.btTap, global.gpTap, 0) && global.hp > 0 && dark == 0 ) {
 	sc_gameRoom(r_tab);
 }
 
-if ( keyboard_check_pressed(global.btEsc) && global.hp > 0  ) {
+if ( sc_getKey(global.btEsc, global.gpEsc, 0) && global.hp > 0  ) {
 	if ( isTalk == 0 && dark == 0) {
 		sc_gameRoom(r_setting);
 	}
