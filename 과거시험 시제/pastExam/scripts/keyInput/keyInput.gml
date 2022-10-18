@@ -17,6 +17,7 @@ function sc_getKey(_keyboard, _gamepad, _mode = 0){
 
 function sc_getPadSlot() {
 	var j = gamepad_get_device_count();
+	global.gamepadSlot = -1;
 	for (var i = 0; i < j; i++) {
 		if (gamepad_is_connected(i)) {
 			global.gamepadSlot = i;

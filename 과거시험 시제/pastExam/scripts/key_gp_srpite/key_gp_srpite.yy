@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "sc_keySprite",
+  "name": "key_gp_srpite",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

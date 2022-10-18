@@ -52,3 +52,22 @@ function sc_keySprite(keyIndex){
 	case ord("Z"):	return sp_key_z;		break;
 	}
 }
+
+function sc_gpSprite(gpIndex) {
+	switch (gpIndex) {
+	case gp_padu:		return sp_gp_up;		break;
+	case gp_padd:		return sp_gp_down;		break;
+	case gp_padl:		return sp_gp_left;		break;
+	case gp_padr:		return sp_gp_right;		break;
+	case gp_face1:		return sp_gp_face1;		break;
+	case gp_face2:		return sp_gp_face2;		break;
+	case gp_face3:		return sp_gp_face3;		break;
+	case gp_face4:		return sp_gp_face4;		break;
+	case gp_shoulderl:	return sp_gp_l;			break;
+	case gp_shoulderlb:	return sp_gp_ld;		break;
+	case gp_shoulderr:	return sp_gp_r;			break;
+	case gp_shoulderrb:	return sp_gp_rd;		break;
+	case gp_start:		return sp_gp_pr;		break;
+	case gp_select:		return sp_gp_pl;		break;
+	}
+}
