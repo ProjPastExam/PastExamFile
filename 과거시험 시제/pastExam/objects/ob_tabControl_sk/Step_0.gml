@@ -25,7 +25,7 @@ if (sc_getKey(global.btRight, gp_padr, 0)) {
 //스킬 UI 설정
 sc_skillUi();
 
-if (sc_getKey(global.btInter, global.gpInter, 1)) {
+if (sc_getKey(global.btInter, gp_face4, 1)) {
 	interIndex++;
 }
 else {

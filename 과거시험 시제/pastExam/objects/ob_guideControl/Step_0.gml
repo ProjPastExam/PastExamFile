@@ -16,7 +16,7 @@ if (sc_getKey(global.btSk3, gp_shoulderr, 0)) {
 	room_goto(r_itemInfo);
 }
 
-if (sc_getKey(global.btUp, global.gpUp, 0)) {
+if (sc_getKey(global.btUp, gp_padu, 0)) {
 	if (state == 0 || state == 8) {
 		state += 7;
 	}
@@ -25,7 +25,7 @@ if (sc_getKey(global.btUp, global.gpUp, 0)) {
 	}
 }
 
-if (sc_getKey(global.btDown, global.gpDown, 0)) {
+if (sc_getKey(global.btDown, gp_padd, 0)) {
 	if (state == 7 || state == 15) {
 		state -= 7;
 	}
@@ -34,7 +34,7 @@ if (sc_getKey(global.btDown, global.gpDown, 0)) {
 	}
 }
 
-if (sc_getKey(global.btLeft, global.gpLeft, 0)) {
+if (sc_getKey(global.btLeft, gp_padl, 0)) {
 	if (state < 8) {
 		state += 8;
 	}
@@ -43,7 +43,7 @@ if (sc_getKey(global.btLeft, global.gpLeft, 0)) {
 	}
 }
 
-if (sc_getKey(global.btRight, global.gpRight, 0)) {
+if (sc_getKey(global.btRight, gp_padr, 0)) {
 	if (state < 8) {
 		state += 8;
 	}

@@ -48,7 +48,7 @@ if (sc_getKey(global.btDown, gp_padd, 0)) {
 }
 
 if (tabIndex > 2) {
-	if (sc_getKey(global.btInter, global.gpInter, 1)) {
+	if (sc_getKey(global.btInter, gp_face4, 1)) {
 		interIndex++;
 		skState = 0;
 	}

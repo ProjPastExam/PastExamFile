@@ -3,13 +3,13 @@
 
 
 if (sIndex == enhanceNum && interIndex) {
-	if (keyboard_check_pressed(global.btLeft)) {
+	if (sc_getKey(global.btLeft, gp_padl, 0)) {
 		if (global.abIndex[enhanceNum-1] > 0 && global.abPointMax > global.abPoint) {
 			global.abPoint++;
 			global.abIndex[enhanceNum-1]--; 
 		}
 	}
-	if (keyboard_check_pressed(global.btRight)) {
+	if (sc_getKey(global.btRight, gp_padr, 0)) {
 		if (global.abIndex[enhanceNum-1] < 10 && global.abPoint > 0) {
 			global.abPoint--;
 			global.abIndex[enhanceNum-1]++; 

@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (keyboard_check_pressed(global.btEsc) ) {
+if (sc_getKey(global.btEsc, global.gpEsc, 0) ) {
 	room_goto(global.roomBuffer);
 }
 
-if (keyboard_check_pressed(global.btLeft) && !interIndex ) {
+if (sc_getKey(global.btLeft, gp_padl, 0) && !interIndex ) {
 	if (sIndex == 2 || sIndex == 3 || sIndex == 5 || sIndex == 6 || sIndex == 8 || sIndex == 9) {
 		sIndex--;
 	}
@@ -13,7 +13,7 @@ if (keyboard_check_pressed(global.btLeft) && !interIndex ) {
 	}
 }
 
-if (keyboard_check_pressed(global.btRight) && !interIndex ) {
+if (sc_getKey(global.btRight, gp_padr, 0) && !interIndex ) {
 	if (sIndex == 1 || sIndex == 2 || sIndex == 5 || sIndex == 4 || sIndex == 8 || sIndex == 7) {
 		sIndex++;
 	}
@@ -22,7 +22,7 @@ if (keyboard_check_pressed(global.btRight) && !interIndex ) {
 	}
 }
 
-if (keyboard_check_pressed(global.btUp) && !interIndex ) {
+if (sc_getKey(global.btUp, gp_padu, 0) && !interIndex ) {
 	if (sIndex == 1 || sIndex == 2 || sIndex == 3) {
 		sIndex += 6;
 	}
@@ -31,7 +31,7 @@ if (keyboard_check_pressed(global.btUp) && !interIndex ) {
 	}
 }
 
-if (keyboard_check_pressed(global.btDown) && !interIndex ) {
+if (sc_getKey(global.btDown, gp_padd, 0) && !interIndex ) {
 	if (sIndex == 7 || sIndex == 8 || sIndex == 9) {
 		sIndex -= 6;
 	}
@@ -40,7 +40,7 @@ if (keyboard_check_pressed(global.btDown) && !interIndex ) {
 	}
 }
 
-if (keyboard_check_pressed(global.btInter) ) {
+if (sc_getKey(global.btInter, gp_face4, 0) ) {
 	if (interIndex) {
 		interIndex = false;
 	}

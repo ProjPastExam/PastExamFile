@@ -5,13 +5,13 @@ with (ob_keySet) {
 	settingIndex = other.settingIndex;
 }
 
-if (sc_getKey(global.btLeft, global.gpLeft, 0)) {
+if (sc_getKey(global.btLeft, gp_padl, 0)) {
 	if (settingIndex > 6 && settingIndex < 13) {
 		settingIndex -= 7;
 	}
 }
 
-if (sc_getKey(global.btRight, global.gpRight, 0)) {
+if (sc_getKey(global.btRight, gp_padr, 0)) {
 	if (settingIndex < 6) {
 		settingIndex += 7;
 	}
@@ -20,7 +20,7 @@ if (sc_getKey(global.btRight, global.gpRight, 0)) {
 	}
 }
 
-if (sc_getKey(global.btDown, global.gpDown, 0)) {
+if (sc_getKey(global.btDown, gp_padd, 0)) {
 	if (settingIndex < 6) {
 		settingIndex++;
 	}
@@ -35,7 +35,7 @@ if (sc_getKey(global.btDown, global.gpDown, 0)) {
 	}
 }
 
-if (sc_getKey(global.btUp, global.gpUp, 0)) {
+if (sc_getKey(global.btUp, gp_padu, 0)) {
 	if (settingIndex < 7 && settingIndex > 0) {
 		settingIndex--;
 	}

@@ -12,7 +12,7 @@ if (tabIndex == (skNum-1)) {
 	ob_tabSkInfo.sprite_index = skInfo[skValue];
 	ob_tabSelectImage.sprite_index = skSprite;
 	
-	if (sc_getKey(global.btInter, global.gpInter, 0)) {
+	if (sc_getKey(global.btInter, gp_face4, 0)) {
 		if (ob_tabControl.skState == 0) {
 			ob_tabControl.skState = skNum;
 		}

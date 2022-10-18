@@ -67,7 +67,9 @@ function sc_gpSprite(gpIndex) {
 	case gp_shoulderlb:	return sp_gp_ld;		break;
 	case gp_shoulderr:	return sp_gp_r;			break;
 	case gp_shoulderrb:	return sp_gp_rd;		break;
-	case gp_start:		return sp_gp_pr;		break;
-	case gp_select:		return sp_gp_pl;		break;
+	case gp_stickr:		return sp_gp_pr;		break;
+	case gp_stickl:		return sp_gp_pl;		break;
+	case gp_start:		return sp_gp_start;		break;
+	case gp_select:		return sp_gp_select;	break;
 	}
 }

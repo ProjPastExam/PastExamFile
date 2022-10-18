@@ -11,7 +11,8 @@ if (state == 2) {
 		settingIndex = other.controlIndex;
 	}
 	state = 2;
-	sc_keySet();
+	if (global.gamepadSlot == -1)	{ sc_keySet(); }
+	else							{ sc_gpSet(); }
 }
 else {
 	if (controlIndex == settingIndex) {
@@ -19,7 +20,7 @@ else {
 			state = 1;
 		}
 		
-		if (keyboard_check_pressed(global.btInter)) {
+		if (sc_getKey(global.btInter, gp_face4, 0)) {
 			state = 2;
 		}
 	}

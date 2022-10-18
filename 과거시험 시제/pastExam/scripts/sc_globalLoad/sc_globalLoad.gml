@@ -76,19 +76,19 @@ function sc_globalLoad(){
 	global.btEsc		= VSLS_Get("btEsc");
 	global.btTap		= VSLS_Get("btTap");
 	
-	global.gpLeft		= gp_padl;
-	global.gpRight		= gp_padr;
-	global.gpUp			= gp_padu;
-	global.gpDown		= gp_padd;
-	global.gpAtk		= gp_face3;
-	global.gpDash		= gp_shoulderr;
-	global.gpJump		= gp_face1;
-	global.gpSk1		= gp_shoulderl;
-	global.gpSk2		= gp_shoulderlb;
-	global.gpSk3		= gp_shoulderrb;
-	global.gpInter		= gp_face4;
-	global.gpEsc		= gp_start;
-	global.gpTap		= gp_select;
+	global.gpLeft		= VSLS_Get("gpLeft");
+	global.gpRight		= VSLS_Get("gpRight");
+	global.gpUp			= VSLS_Get("gpUp");
+	global.gpDown		= VSLS_Get("gpDown");
+	global.gpAtk		= VSLS_Get("gpAtk");
+	global.gpDash		= VSLS_Get("gpDash");
+	global.gpJump		= VSLS_Get("gpJump");
+	global.gpSk1		= VSLS_Get("gpSk1");
+	global.gpSk2		= VSLS_Get("gpSk2");
+	global.gpSk3		= VSLS_Get("gpSk3");
+	global.gpInter		= VSLS_Get("gpInter");
+	global.gpEsc		= VSLS_Get("gpEsc");
+	global.gpTap		= VSLS_Get("gpTap");
 	
 	global.UIX		= VSLS_Get("UIX");
 	global.UIY		= VSLS_Get("UIY");

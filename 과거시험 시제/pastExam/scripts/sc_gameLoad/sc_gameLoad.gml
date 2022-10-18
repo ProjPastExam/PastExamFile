@@ -55,6 +55,20 @@ function sc_gameLoad(){
 	if (VSLS_Get("btEsc") == undefined)		VSLS_Set("btEsc", vk_escape);
 	if (VSLS_Get("btTap") == undefined)		VSLS_Set("btTap", vk_tab);
 	
+	if (VSLS_Get("gpLeft") == undefined)	VSLS_Set("gpLeft", gp_padl);
+	if (VSLS_Get("gpRight") == undefined)	VSLS_Set("gpRight", gp_padr);
+	if (VSLS_Get("gpUp") == undefined)		VSLS_Set("gpUp", gp_padu);
+	if (VSLS_Get("gpDown") == undefined)	VSLS_Set("gpDown", gp_padd);
+	if (VSLS_Get("gpAtk") == undefined)		VSLS_Set("gpAtk", gp_face3);
+	if (VSLS_Get("gpDash") == undefined)	VSLS_Set("gpDash", gp_shoulderr);
+	if (VSLS_Get("gpJump") == undefined)	VSLS_Set("gpJump", gp_face1);
+	if (VSLS_Get("gpSk1") == undefined)		VSLS_Set("gpSk1", gp_shoulderl);
+	if (VSLS_Get("gpSk2") == undefined)		VSLS_Set("gpSk2", gp_shoulderlb);
+	if (VSLS_Get("gpSk3") == undefined)		VSLS_Set("gpSk3", gp_shoulderrb);
+	if (VSLS_Get("gpInter") == undefined)	VSLS_Set("gpInter", gp_face4);
+	if (VSLS_Get("gpEsc") == undefined)		VSLS_Set("gpEsc", gp_start);
+	if (VSLS_Get("gpTap") == undefined)		VSLS_Set("gpTap", gp_select);
+	
 	if (VSLS_Get("UIX") == undefined)		VSLS_Set("UIX", 50);
 	if (VSLS_Get("UIY") == undefined)		VSLS_Set("UIY", 20);
 	if (VSLS_Get("MapX") == undefined)		VSLS_Set("MapX", 1400);
