@@ -7,3 +7,10 @@ switch (global.vol) {
 	case 75:	image_index = 3;	break;
 	case 100:	image_index = 4;	break;
 }
+
+if (settingIndex == 14) {
+	if (sc_getKey(global.btInter, gp_face4, 0)) {
+		if (state)	state = false;
+		else		state = true;
+	}
+}
