@@ -75,8 +75,10 @@ else if ( isTalk == 5) {
 
 
 
-if ( sc_getKey(global.btTap, global.gpTap, 0) && global.hp > 0 && dark == 0 ) {
-	sc_gameRoom(r_tab);
+if ( sc_getKey(global.btTap, global.gpTap, 0) && global.hp > 0 ) {
+	if ( isTalk == 0 && dark == 0) {
+		sc_gameRoom(r_tab);
+	}
 }
 
 if ( sc_getKey(global.btEsc, global.gpEsc, 0) && global.hp > 0  ) {

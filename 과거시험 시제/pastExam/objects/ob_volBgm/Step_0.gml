@@ -14,3 +14,7 @@ if (settingIndex == 15) {
 		else		state = true;
 	}
 }
+
+if (state) {
+	with (ob_settingControl) { settingIndex = 15; }
+}

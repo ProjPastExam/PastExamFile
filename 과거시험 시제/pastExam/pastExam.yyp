@@ -131,6 +131,7 @@
     {"id":{"name":"sp_settingSelect","path":"sprites/sp_settingSelect/sp_settingSelect.yy",},"order":18,},
     {"id":{"name":"uls_set_shadow_color","path":"scripts/uls_set_shadow_color/uls_set_shadow_color.yy",},"order":3,},
     {"id":{"name":"sp_tabDeleteSkText","path":"sprites/sp_tabDeleteSkText/sp_tabDeleteSkText.yy",},"order":14,},
+    {"id":{"name":"sp_settingBtSelect","path":"sprites/sp_settingBtSelect/sp_settingBtSelect.yy",},"order":19,},
     {"id":{"name":"ob_chun_enhance","path":"objects/ob_chun_enhance/ob_chun_enhance.yy",},"order":1,},
     {"id":{"name":"sp_skillUi_100","path":"sprites/sp_skillUi_100/sp_skillUi_100.yy",},"order":1,},
     {"id":{"name":"sp_start_tomb02","path":"sprites/sp_start_tomb02/sp_start_tomb02.yy",},"order":4,},

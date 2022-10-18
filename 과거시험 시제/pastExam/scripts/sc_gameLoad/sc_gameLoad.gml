@@ -66,8 +66,8 @@ function sc_gameLoad(){
 	if (VSLS_Get("gpSk2") == undefined)		VSLS_Set("gpSk2", gp_shoulderlb);
 	if (VSLS_Get("gpSk3") == undefined)		VSLS_Set("gpSk3", gp_shoulderrb);
 	if (VSLS_Get("gpInter") == undefined)	VSLS_Set("gpInter", gp_face4);
-	if (VSLS_Get("gpEsc") == undefined)		VSLS_Set("gpEsc", gp_start);
-	if (VSLS_Get("gpTap") == undefined)		VSLS_Set("gpTap", gp_select);
+	if (VSLS_Get("gpEsc") == undefined)		VSLS_Set("gpEsc", gp_select);
+	if (VSLS_Get("gpTap") == undefined)		VSLS_Set("gpTap", gp_start);
 	
 	if (VSLS_Get("UIX") == undefined)		VSLS_Set("UIX", 50);
 	if (VSLS_Get("UIY") == undefined)		VSLS_Set("UIY", 20);

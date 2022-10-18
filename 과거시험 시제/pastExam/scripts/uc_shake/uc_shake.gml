@@ -45,6 +45,6 @@ function uc_shake() {
 	Camera.shake_enable = true;
 	if (argument_count>=1) Camera.shake_intensity = intensity;
 	if (argument_count==2) Camera.shake_acceleration = acc;
-
-
+	
+//	if (global.gamepadSlot != -1) gamepad_set_vibration(global.gamepadSlot, intensity/50, intensity/50);
 }
