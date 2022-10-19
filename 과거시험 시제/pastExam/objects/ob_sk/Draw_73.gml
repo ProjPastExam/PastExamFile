@@ -12,6 +12,7 @@ if (touch) {
 	draw_text(x+170, y+50, int64(global.skMp[skNum]/100));
 	draw_text(x+240, y+50, int64(global.skKulData[skNum]/60));
 	
-	draw_sprite(sc_keySprite(global.btInter), 0, x+220, y+135);
+	sc_buttonPrint(global.btInter, global.gpInter, x+220, y+135);
+	//draw_sprite(sc_keySprite(global.btInter), 0, x+220, y+135);
 	touch = false;
 }

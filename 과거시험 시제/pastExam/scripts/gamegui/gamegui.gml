@@ -150,12 +150,18 @@ function sc_printMoney(var_mode = 0) {
 			draw_set_halign(fa_left);
 			draw_text(global.moneyX + 0, global.moneyY, global.abPointMax);
 			
-			draw_set_halign(fa_right);
-			draw_text(global.moneyX + 100, global.moneyY, abSoulPrint);
-			draw_text(global.moneyX + 115, global.moneyY, "/");
-
-			draw_set_halign(fa_left);
-			draw_text(global.moneyX + 120, global.moneyY, global.abSoulMax);
+			if (global.abPointMax < 40) {
+				draw_set_halign(fa_right);
+				draw_text(global.moneyX + 100, global.moneyY, abSoulPrint);
+				draw_text(global.moneyX + 115, global.moneyY, "/");
+				
+				draw_set_halign(fa_left);
+				draw_text(global.moneyX + 120, global.moneyY, global.abSoulMax);
+			}
+			else {
+				draw_set_halign(fa_center);
+				draw_text(global.moneyX + 115, global.moneyY, "MAX");
+			}
 		}
 	}
 	else if (var_mode == 1) {
@@ -166,12 +172,18 @@ function sc_printMoney(var_mode = 0) {
 			draw_set_halign(fa_left);
 			draw_text(global.moneyX + 0, global.moneyY, global.abPointMax);
 			
-			draw_set_halign(fa_right);
-			draw_text(global.moneyX + 100, global.moneyY, global.abSoul);
-			draw_text(global.moneyX + 115, global.moneyY, "/");
-
-			draw_set_halign(fa_left);
-			draw_text(global.moneyX + 120, global.moneyY, global.abSoulMax);
+			if (global.abPointMax < 40) {
+				draw_set_halign(fa_right);
+				draw_text(global.moneyX + 100, global.moneyY, global.abSoul);
+				draw_text(global.moneyX + 115, global.moneyY, "/");
+				
+				draw_set_halign(fa_left);
+				draw_text(global.moneyX + 120, global.moneyY, global.abSoulMax);
+			}
+			else {
+				draw_set_halign(fa_center);
+				draw_text(global.moneyX + 115, global.moneyY, "MAX");
+			}
 		}
 	}
 	
@@ -190,7 +202,8 @@ function sc_printTalk(isTalk) {
 	draw_sprite(sp_black2, 0, 0, 0);
 	draw_sprite(sp_talkUI, 0, 960, 350);
 	draw_sprite(npcFace, 0, 1398, 77);
-	draw_sprite(sc_keySprite(global.btAtk), 0, 270, 540);
+	sc_buttonPrint(global.btAtk, global.gpAtk, 270, 520);
+	//draw_sprite(sc_keySprite(global.btAtk), 0, 270, 540);
 	draw_sprite(sp_text_next, 0, 380, 520);
 	
 	

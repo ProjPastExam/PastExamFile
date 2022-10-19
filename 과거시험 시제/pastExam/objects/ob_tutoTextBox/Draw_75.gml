@@ -6,5 +6,6 @@ if (isActive) {
 	draw_sprite(tutoImage, 0, 0, 0);
 	
 	draw_sprite(sp_text_quite, 0, 450, 720);
-	draw_sprite(sc_keySprite(global.btInter), 0, 300, 720);
+	sc_buttonPrint(global.btInter, global.gpInter, 300, 720);
+	//draw_sprite(sc_keySprite(global.btInter), 0, 300, 720);
 }

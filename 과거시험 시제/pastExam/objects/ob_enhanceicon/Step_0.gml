@@ -16,6 +16,18 @@ if (sIndex == enhanceNum && interIndex) {
 		}
 	}
 	
+	if (sc_getKey(global.btSk2, gp_shoulderl, 0)) {
+		global.abPoint += global.abIndex[enhanceNum-1];
+		global.abIndex[enhanceNum-1] = 0;
+	}
+	if (sc_getKey(global.btSk3, gp_shoulderr, 0)) {
+		var index = 10 - global.abIndex[enhanceNum-1];
+		if (index > global.abPoint) index = global.abPoint;
+		
+		global.abPoint -= index;
+		global.abIndex[enhanceNum-1] += index;
+	}
+	
 	switch (enhanceNum) {
 	case 1:	VSLS_SetAndSave("abAtkDmg", global.abIndex[enhanceNum-1], "saveFile");		break;
 	case 2:	VSLS_SetAndSave("abAtkMana", global.abIndex[enhanceNum-1], "saveFile");		break;

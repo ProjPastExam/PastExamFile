@@ -3,7 +3,7 @@
 
 if (isCollision) {
 	isDraw = true;
-	if (keyboard_check_pressed(global.btInter)) {
+	if (sc_getKey(global.btInter, global.gpInter, 0)) {
 		if (isActive) {
 			isActive = false;
 		}

@@ -9,7 +9,7 @@ function sc_npcMain(){
 		else image_xscale = -1;
 	}
 	
-	if (sc_getKey(global.btAtk, global.gpAtk, 1) && isTalk) {
+	if ((sc_getKey(global.btAtk, global.gpAtk, 0)) && isTalk) {
 		talkIndex[talkCnt].talkFunction();
 	}
 	

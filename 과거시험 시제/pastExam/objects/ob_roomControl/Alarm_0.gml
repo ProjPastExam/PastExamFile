@@ -64,7 +64,7 @@ else if ( isTalk == 4 ) {
 }
 else if ( isTalk == 5) {
 	isGUI = false;
-	if ( sc_getKey(global.btAtk, global.gpAtk, 0) || sc_getKey(global.btInter, global.gpInter, 1) ) {
+	if ( sc_getKey(global.btAtk, global.gpAtk, 0) || sc_getKey(global.btInter, global.gpInter, 0) ) {
 		talkCnt++;
 		with (ob_csParent) {
 			active = true;
@@ -97,7 +97,7 @@ if (isEnhance) {
 	sc_gameRoom(r_enhance);
 }
 
-if (global.abSoulMax <= global.abSoul) {
+if (global.abSoulMax <= global.abSoul && global.abPointMax < 40) {
 	global.abPointMax++;
 	global.abPoint++;
 	global.abSoul -= global.abSoulMax;

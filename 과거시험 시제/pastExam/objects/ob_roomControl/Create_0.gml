@@ -37,6 +37,12 @@ npcFace = sp_npc_blank;
 moneyPrint	= global.money;
 abSoulPrint	= global.abSoul;
 global.moneyBuffer = 0;
+if (global.abPointMax >= 40) {
+	global.abSoul = 0;
+	global.abPointMax = 40;
+	VSLS_SetAndSave("abSoul", 0, "saveFile");
+	VSLS_SetAndSave("abPointMax", 40, "saveFile");
+}
 
 ctIndex = 0;
 

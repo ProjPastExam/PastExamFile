@@ -4,4 +4,8 @@ with (ob_settingControl) { other.settingIndex = settingIndex; }
 state = false
 if (settingIndex == 25) {
 	state = true;
+	if (sc_getKey(global.btInter, gp_face4, 0)) {
+		global.gameEnd = true;
+		room_goto(global.roomBuffer);
+	}
 }	
