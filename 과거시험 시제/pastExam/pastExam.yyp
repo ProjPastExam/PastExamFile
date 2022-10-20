@@ -1029,6 +1029,7 @@
     {"id":{"name":"sp_start_back01","path":"sprites/sp_start_back01/sp_start_back01.yy",},"order":0,},
     {"id":{"name":"sc_stage01Cs","path":"scripts/sc_stage01Cs/sc_stage01Cs.yy",},"order":3,},
     {"id":{"name":"sp_skillUi_0Info","path":"sprites/sp_skillUi_0Info/sp_skillUi_0Info.yy",},"order":0,},
+    {"id":{"name":"s_pl_sk109","path":"sounds/s_pl_sk109/s_pl_sk109.yy",},"order":10,},
     {"id":{"name":"ob_startCsImage","path":"objects/ob_startCsImage/ob_startCsImage.yy",},"order":1,},
     {"id":{"name":"sp_itemScale23","path":"sprites/sp_itemScale23/sp_itemScale23.yy",},"order":13,},
     {"id":{"name":"sp_vl_fance","path":"sprites/sp_vl_fance/sp_vl_fance.yy",},"order":4,},
