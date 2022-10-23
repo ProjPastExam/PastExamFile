@@ -24,5 +24,6 @@ skInfo[104] = sp_skillUi_104Info;
 skInfo[105] = sp_skillUi_105Info;
 skInfo[106] = sp_skillUi_106Info;
 skInfo[107] = sp_skillUi_107Info;
-skInfo[109] = sp_skillUi_108Info;
+skInfo[108] = sp_skillUi_108Info;
+skInfo[109] = sp_skillUi_109Info;
 }

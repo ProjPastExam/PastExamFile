@@ -795,6 +795,7 @@
     {"id":{"name":"sp_tapSkInfoIndex","path":"sprites/sp_tapSkInfoIndex/sp_tapSkInfoIndex.yy",},"order":8,},
     {"id":{"name":"s_run","path":"sounds/s_run/s_run.yy",},"order":6,},
     {"id":{"name":"r_stage01Boss","path":"rooms/r_stage01Boss/r_stage01Boss.yy",},"order":12,},
+    {"id":{"name":"sp_skillUi_109Info","path":"sprites/sp_skillUi_109Info/sp_skillUi_109Info.yy",},"order":9,},
     {"id":{"name":"sp_jpSwordS_atk1Ef","path":"sprites/sp_jpSwordS_atk1Ef/sp_jpSwordS_atk1Ef.yy",},"order":8,},
     {"id":{"name":"sp_start_tree04","path":"sprites/sp_start_tree04/sp_start_tree04.yy",},"order":9,},
     {"id":{"name":"ob_chang02","path":"objects/ob_chang02/ob_chang02.yy",},"order":1,},

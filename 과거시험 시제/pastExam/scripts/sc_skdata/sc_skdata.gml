@@ -12,7 +12,7 @@ function sc_skData(){
 	global.skMp[106]	= 300;	//쌍자총통
 	global.skMp[107]	= 200;	//언월도
 	global.skMp[108]	= 300;	//왜검
-	global.skMp[109]	= 0		//공중 화살 사격
+	global.skMp[109]	= 300	//화살비
 	
 	
 	global.skKulData = array_create(600, 0);
@@ -24,7 +24,7 @@ function sc_skData(){
 	global.skKulData[104]	= 120;
 	global.skKulData[105]	= 90;
 	global.skKulData[106]	= 240;
-	global.skKulData[107]	= 120;
+	global.skKulData[107]	= 180;
 	global.skKulData[108]	= 180;
-	global.skKulData[109]	= 10;
+	global.skKulData[109]	= 180;
 }
