@@ -932,6 +932,7 @@
     {"id":{"name":"sp_demoTalk","path":"sprites/sp_demoTalk/sp_demoTalk.yy",},"order":10,},
     {"id":{"name":"sp_pl_atk2","path":"sprites/sp_pl_atk2/sp_pl_atk2.yy",},"order":6,},
     {"id":{"name":"ob_tutoattack","path":"objects/ob_tutoattack/ob_tutoattack.yy",},"order":0,},
+    {"id":{"name":"ob_stage03BossCs3Cg","path":"objects/ob_stage03BossCs3Cg/ob_stage03BossCs3Cg.yy",},"order":11,},
     {"id":{"name":"sp_clear01","path":"sprites/sp_clear01/sp_clear01.yy",},"order":0,},
     {"id":{"name":"sp_key_4","path":"sprites/sp_key_4/sp_key_4.yy",},"order":29,},
     {"id":{"name":"sp_mpbar","path":"sprites/sp_mpbar/sp_mpbar.yy",},"order":3,},

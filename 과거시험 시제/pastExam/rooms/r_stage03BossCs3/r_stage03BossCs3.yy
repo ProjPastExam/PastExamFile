@@ -33,6 +33,7 @@
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E577C90_6_1_1_1_1_1","properties":[],"isDnd":false,"objectId":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":1632.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2139CA72","properties":[],"isDnd":false,"objectId":{"name":"ob_stage03BossCs3Cg","path":"objects/ob_stage03BossCs3Cg/ob_stage03BossCs3Cg.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1040.0,"y":1296.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"effect2","instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","tilesetId":{"name":"t_stage3","path":"tilesets/t_stage3/t_stage3.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":57,"SerialiseHeight":32,"TileCompressedData":[
@@ -52,6 +53,7 @@
     {"name":"inst_5E376E7_6_1_1_1_1_1","path":"rooms/r_stage03BossCs3/r_stage03BossCs3.yy",},
     {"name":"inst_76146EC9_4_1_1_1_1_1","path":"rooms/r_stage03BossCs3/r_stage03BossCs3.yy",},
     {"name":"inst_1E577C90_6_1_1_1_1_1","path":"rooms/r_stage03BossCs3/r_stage03BossCs3.yy",},
+    {"name":"inst_2139CA72","path":"rooms/r_stage03BossCs3/r_stage03BossCs3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
