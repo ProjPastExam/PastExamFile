@@ -10,9 +10,10 @@ case 3:	skValue = global.sk3;	break;
 }
 skSprite = skUi[skValue];
 image_index = global.skMp[skValue] / 100;
-
+/*
 if (tabIndex == (skNum-1)) {
 	ob_tabSkInfo.sprite_index = skInfo[skValue];
 	ob_tabSelectImage.sprite_index = skSprite;
 }
+*/
 

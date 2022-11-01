@@ -3,6 +3,12 @@
 function sc_pl_hit(argument0){
 	var mor = ob_player.isImort;
 	if ( sc_pl_get("hitAfter") == 0 && ob_player.canMove >= 0 && !mor ) {
+		if (global.item8 && global.comCt >= 20) {
+			global.comCt -= 20;
+			ob_player.hitAfter = 60;
+			return;
+		}
+		
 		var plX = sc_pl_get("x");
 		var plY = sc_pl_get("y");
 		switch (argument0) {

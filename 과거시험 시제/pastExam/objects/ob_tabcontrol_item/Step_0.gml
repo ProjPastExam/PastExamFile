@@ -9,7 +9,7 @@ if (sc_getKey(global.btTap, global.gpTap, 0) || sc_getKey(global.btEsc, global.g
 hpProcess = 0;
 sc_itemSprite();
 
-//with (ob_tabSkBox) {tabIndex = other.tabIndex;}
+with (ob_tabSkBox) {tabIndex = other.tabIndex;}
 with (ob_tabItemBox) {tabIndex = other.tabIndex;}
 with (ob_tabSelectImage) {tabIndex = other.tabIndex;}
 //with (ob_tabInter) {tabIndex = other.tabIndex;}

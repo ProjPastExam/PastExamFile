@@ -32,4 +32,8 @@ function sc_itemData(){
 	//효시
 	global.itemData[7]	= new itemStruct ( 7, sp_Item_07, sp_ItemInfo_07, 0,
 		function(grade) { other.item7 = true; })
+		
+	//두정갑
+	global.itemData[8]	= new itemStruct ( 8, sp_Item_08, sp_ItemInfo_07, 3,
+		function(grade) { global.item8 = true; })
 }

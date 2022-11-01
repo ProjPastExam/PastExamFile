@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "infoDemo",
-    "path": "folders/Sprites/interface/item/infoDemo.yy",
+    "name": "infoSprite",
+    "path": "folders/Sprites/interface/item/infoSprite.yy",
   },
 }

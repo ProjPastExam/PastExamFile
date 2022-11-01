@@ -78,7 +78,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "itemDemo",
-    "path": "folders/Sprites/interface/item/itemDemo.yy",
+    "name": "itemSprite",
+    "path": "folders/Sprites/interface/item/itemSprite.yy",
   },
 }
