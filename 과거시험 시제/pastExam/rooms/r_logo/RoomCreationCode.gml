@@ -84,6 +84,8 @@ global.itemNum		= 6;
 
 global.itemData		= array_create(global.itemMax, NULL);
 
+global.item8Index	= 20;
+
 global.tabDeleteIndex	= 0;
 global.tabDeleteIndex2	= 0;
 global.tabDeleteIndex3	= 0;

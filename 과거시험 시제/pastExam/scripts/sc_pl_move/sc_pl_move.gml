@@ -148,6 +148,9 @@ function sc_pl_move() {
 	if (canMove != 10 && dProcess > -1 ) dProcess = -30;
 
 	if (item2 > 0)	sc_pl_item2();
+	if (global.item8 && global.comCt >= global.item8Index && !instance_exists(ob_pl_item8)) {
+		instance_create_layer(x, y, "effect", ob_pl_item8);
+	}
 	
 	if ( hitAfter > 0 ) {
 		if ( hitEffect > 0 ) hitEffect--;

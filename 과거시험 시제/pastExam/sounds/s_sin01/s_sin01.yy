@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_sin01.wav",
-  "duration": 0.697744,
+  "duration": 0.692744,
   "parent": {
     "name": "player",
     "path": "folders/Sounds/player.yy",

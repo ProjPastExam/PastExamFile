@@ -3,9 +3,12 @@
 function sc_pl_hit(argument0){
 	var mor = ob_player.isImort;
 	if ( sc_pl_get("hitAfter") == 0 && ob_player.canMove >= 0 && !mor ) {
-		if (global.item8 && global.comCt >= 20) {
-			global.comCt -= 20;
+		if (global.item8 && global.comCt >= global.item8Index) {
+			global.comCt = 0;
 			ob_player.hitAfter = 60;
+			uc_shake(10, 0.2);
+			if ( sc_getRoomValue("pause") == 0 ) { ob_roomControl.pause = 20; }
+			SE_Play(s_pl_item8, global.vol);
 			return;
 		}
 		
