@@ -97,6 +97,11 @@ if (isEnhance) {
 	sc_gameRoom(r_enhance);
 }
 
+if (isSmith) {
+	isSmith = false;
+	sc_gameRoom(r_smith);
+}
+
 if (global.abSoulMax <= global.abSoul && global.abPointMax < 40) {
 	global.abPointMax++;
 	global.abPoint++;

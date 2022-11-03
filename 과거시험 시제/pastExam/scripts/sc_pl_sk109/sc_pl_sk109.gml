@@ -15,7 +15,7 @@ function sc_pl_sk109(){
 
 	
 	if ( atkProcess == 25 ) {
-		sc_pl_atkEf(sc_pl_atkDmg(), sc_pl_atkPene(), sc_pl_atkShock(), 0, 
+		sc_pl_atkEf(sc_pl_atkDmg(), sc_pl_atkPene(), sc_pl_atkShock()/1.5, 0, 
 			0, 0, 8, sp_pl_atkEf109, dir,,x + dir*240,y-190);
 		SE_Play(s_pl_sk109, global.vol);
 		global.mp -= global.skMp[109];

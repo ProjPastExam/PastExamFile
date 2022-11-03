@@ -30,6 +30,7 @@ questionState	= 0;
 talkNum = 0;
 talkCnt = 0;
 isEnhance = false;
+isSmith	= false;
 hpProcess = 0;
 dark = 45;
 npcFace = sp_npc_blank;
