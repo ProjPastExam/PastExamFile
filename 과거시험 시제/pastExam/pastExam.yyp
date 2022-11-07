@@ -1629,6 +1629,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"main","folderPath":"folders/Objects/gameControl/main.yy","order":6,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"roomControl","folderPath":"folders/Objects/gameControl/roomControl.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"setting","folderPath":"folders/Objects/gameControl/setting.yy","order":0,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"smith","folderPath":"folders/Objects/gameControl/smith.yy","order":11,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tab","folderPath":"folders/Objects/gameControl/tab.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tabMenu","folderPath":"folders/Objects/gameControl/tab/tabMenu.yy","order":12,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UISet","folderPath":"folders/Objects/gameControl/UISet.yy","order":7,},
@@ -1840,7 +1841,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tileSprite","folderPath":"folders/Tile Sets/tileSprite.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":7,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"smith","folderPath":"folders/Objects/gameControl/smith.yy","order":11,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
