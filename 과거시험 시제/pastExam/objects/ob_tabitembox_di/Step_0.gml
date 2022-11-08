@@ -14,6 +14,7 @@ if (tabIndex == (itemNum+3)) {
 	ob_tabSkInfo.sprite_index = itemInfo;
 	ob_tabSelectImage.sprite_index = itemSprite;
 	ob_tabSelectImage.backImage = backSprite;
+	ob_tabSelectImage.itemGrade = itemGrade;
 	
 	if (active) {
 		global.tabDeleteIndex	= itemValue;
