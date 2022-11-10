@@ -2,9 +2,7 @@
 // You can write your code in this editor
 
 
-if (sc_getKey(global.btEsc, global.gpEsc, 0) ) {
-	room_goto(global.roomBuffer);
-}
+
 
 
 
@@ -38,6 +36,9 @@ if (select == 0) {
 			uc_shake(6, 0.2);
 		}
 	}
+	if (sc_getKey(global.btEsc, global.gpEsc, 0) ) {
+		room_goto(global.roomBuffer);
+	}
 }
 else if (select == 1) {
 	if (sc_getKey(global.btUp, gp_padu, 0)) {
@@ -56,6 +57,9 @@ else if (select == 1) {
 			}
 		}
 		else if (select2 == 3) { select = 0;	select2 = 0; }
+	}
+	if (sc_getKey(global.btEsc, global.gpEsc, 0) ) {
+		select = 0;
 	}
 }
 
