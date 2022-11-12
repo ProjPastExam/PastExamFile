@@ -35,5 +35,5 @@ function sc_itemData(){
 		
 	//두정갑
 	global.itemData[8]	= new itemStruct ( 8, sp_Item_08, sp_ItemInfo_08, 3,
-		function(grade) { global.item8 = true;	global.item8Index = 20; })
+		function(grade) { global.item8 = true;	global.item8Index = 50; })
 }

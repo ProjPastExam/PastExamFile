@@ -35,7 +35,7 @@ global.kickDmg		= 10;
 global.kickPene		= 0;
 global.kickShock	= 210;
 global.kickMana		= 45;
-global.kickCt		= 0.2;
+global.kickCt		= 0.0;
 global.kickCtMag	= 10;
 global.kickComb		= 1;
 
@@ -76,7 +76,7 @@ global.fireDmgScale = 1;
 
 //아이템 관련 변수
 {
-global.itemMax		= 8;	//아이템 종류, 패치값
+global.itemMax		= 9;	//아이템 종류, 패치값
 global.itemSum		= 0;
 global.itemGet 		= array_create(10, NULL);
 global.itemGrade	= array_create(10, -1);

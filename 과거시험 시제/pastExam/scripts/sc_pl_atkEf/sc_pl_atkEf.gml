@@ -3,6 +3,8 @@
 function sc_pl_atkEf( dmg, pene, shock, mana, hitUp, hitKind, hitAfter, sprite, dir, 
 					  shake = 5, iX = x, iY = y, ctChance = 0, comIndex = 0, obIndex = ob_atkEf01){
 	var atk = instance_create_layer(iX, iY, "effect", obIndex);
+	dmg = dmg * (1 + global.comCt/200);
+	
 	atk.dmg				= dmg;
 	atk.pene			= pene;
 	atk.shock			= shock;
@@ -16,9 +18,9 @@ function sc_pl_atkEf( dmg, pene, shock, mana, hitUp, hitKind, hitAfter, sprite, 
 	atk.comIndex		= comIndex;
 	
 	var ctC				= ctChance;
-	if (hitKind == 0)						{ ctC = ctC + sc_pl_atkCt()*global.comCt; }
-	else if (hitKind == 1 || hitKind == 10) { ctC = ctC + sc_pl_kickCt()*global.comCt; }
-	else if (hitKind == 2)					{ ctC = ctC + sc_pl_fireCt()*global.comCt; }
+	if (hitKind == 0)						{ ctC = ctC + sc_pl_atkCt()*100; }
+	else if (hitKind == 1 || hitKind == 10) { ctC = ctC + sc_pl_kickCt()*100; }
+	else if (hitKind == 2)					{ ctC = ctC + sc_pl_fireCt()*100; }
 	
 	var cIndex			= comIndex;
 	if (hitKind == 0)						{ cIndex = cIndex * sc_itemScaleCalculator(0, 2) + sc_pl_atkComb(); }

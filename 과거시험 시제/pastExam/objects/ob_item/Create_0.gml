@@ -16,7 +16,7 @@ if (isRand) {
 		//i++;
 		//if (i > 60) break;
 	}
-	itemBuff = irandom_range(0, 4);
+	itemBuff = irandom_range(0, 3);
 }
 if (!sc_itemCheck(itemNum)) instance_destroy();
 /*
