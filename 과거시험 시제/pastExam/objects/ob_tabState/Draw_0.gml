@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var x2 = 225;
-var x3 = 210;
+var x2 = 205;
+var x3 = 230;
+var tempText = "+"
 
 draw_set_font(f_korMini);
 
@@ -11,11 +12,10 @@ draw_set_color(#5B6EE1);
 draw_set_halign(fa_left);
 draw_text(x, y, "화살 공격력");
 draw_set_halign(fa_center);
-draw_text(x+170, y, int64(sc_pl_atkDmg()));
+draw_text(x+170, y, int64(sc_pl_atkDmg(1)));
 if (global.itemScale[0][0] > 0) {
-	var tempText = "(  /6)"
 	draw_text(x+x2, y, tempText);
-	draw_text(x+x3, y, global.itemScale[0][0]);
+	draw_text(x+x3, y, int64(sc_pl_atkDmg(2)));
 }
 //draw_text(x+170, y, int64(sc_pl_atkDmg(1)));
 //draw_text(x+200, y, "+");
@@ -24,11 +24,10 @@ if (global.itemScale[0][0] > 0) {
 draw_set_halign(fa_left);
 draw_text(x, y+30, "집중 회복량");
 draw_set_halign(fa_center);
-draw_text(x+170, y+30, int64(sc_pl_atkMana()));
+draw_text(x+170, y+30, int64(sc_pl_atkMana(1)));
 if (global.itemScale[0][1] > 0) {
-	var tempText = "(  /6)"
 	draw_text(x+x2, y+30, tempText);
-	draw_text(x+x3, y+30, global.itemScale[0][1]);
+	draw_text(x+x3, y+30, int64(sc_pl_atkMana(2)));
 }
 //draw_text(x+170, y+30, int64(sc_pl_atkMana(1)));
 //draw_text(x+200, y+30, "+");
@@ -39,9 +38,8 @@ draw_text(x, y+60, "연타 수치");
 draw_set_halign(fa_center);
 draw_text(x+170, y+60, sc_pl_atkComb(1));
 if (global.itemScale[0][2] > 0) {
-	var tempText = "(  /6)"
 	draw_text(x+x2, y+60, tempText);
-	draw_text(x+x3, y+60, global.itemScale[0][2]);
+	draw_text(x+x3, y+60, sc_pl_atkComb(2));
 }
 //draw_text(x+170, y+60, sc_pl_atkComb(1));
 //draw_text(x+200, y+60, "+");
@@ -52,9 +50,8 @@ draw_text(x, y+90, "치명타 확률");
 draw_set_halign(fa_center);
 draw_text(x+170, y+90, int64(sc_pl_atkCt(1)));
 if (global.itemScale[0][3] > 0) {
-	var tempText = "(  /6)"
 	draw_text(x+x2, y+90, tempText);
-	draw_text(x+x3, y+90, global.itemScale[0][3]);
+	draw_text(x+x3, y+90, int64(sc_pl_atkCt(2)));
 }
 //draw_text(x+170, y+90, int64(sc_pl_atkCt(1)));
 //draw_text(x+200, y+90, "+");
@@ -80,11 +77,10 @@ draw_set_color(#746F00);
 draw_set_halign(fa_left);
 draw_text(x, y+150, "충격 공격력");
 draw_set_halign(fa_center);
-draw_text(x+170, y+150, int64(sc_pl_kickDmg()));
+draw_text(x+170, y+150, int64(sc_pl_kickDmg(1)));
 if (global.itemScale[1][0] > 0) {
-	var tempText = "(  /6)"
 	draw_text(x+x2, y+150, tempText);
-	draw_text(x+x3, y+150, global.itemScale[1][0]);
+	draw_text(x+x3, y+150, int64(sc_pl_kickDmg(2)));
 }
 //draw_text(x+170, y+180, int64(sc_pl_kickDmg(1)));
 //draw_text(x+200, y+180, "+");
@@ -93,11 +89,10 @@ if (global.itemScale[1][0] > 0) {
 draw_set_halign(fa_left);
 draw_text(x, y+180, "집중 회복량");
 draw_set_halign(fa_center);
-draw_text(x+170, y+180, int64(sc_pl_kickMana()));
+draw_text(x+170, y+180, int64(sc_pl_kickMana(1)));
 if (global.itemScale[1][1] > 0) {
-	var tempText = "(  /6)"
 	draw_text(x+x2, y+180, tempText);
-	draw_text(x+x3, y+180, global.itemScale[1][1]);
+	draw_text(x+x3, y+180, int64(sc_pl_kickMana(2)));
 }
 //draw_text(x+170, y+210, int64(sc_pl_kickMana(1)));
 //draw_text(x+200, y+210, "+");
@@ -108,9 +103,8 @@ draw_text(x, y+210, "연타 수치");
 draw_set_halign(fa_center);
 draw_text(x+170, y+210, sc_pl_kickComb(1));
 if (global.itemScale[1][2] > 0) {
-	var tempText = "(  /6)"
 	draw_text(x+x2, y+210, tempText);
-	draw_text(x+x3, y+210, global.itemScale[1][2]);
+	draw_text(x+x3, y+210, sc_pl_kickComb(2));
 }
 //draw_text(x+170, y+240, sc_pl_kickComb(1));
 //draw_text(x+200, y+240, "+");
@@ -121,9 +115,8 @@ draw_text(x, y+240, "치명타 확률");
 draw_set_halign(fa_center);
 draw_text(x+170, y+240, int64(sc_pl_kickCt(1)));
 if (global.itemScale[1][3] > 0) {
-	var tempText = "(  /6)"
 	draw_text(x+x2, y+240, tempText);
-	draw_text(x+x3, y+240, global.itemScale[1][3]);
+	draw_text(x+x3, y+240, int64(sc_pl_kickCt(2)));
 }
 //draw_text(x+170, y+270, int64(sc_pl_kickCt(1)));
 //draw_text(x+200, y+270, "+");
@@ -149,11 +142,10 @@ draw_set_color(#E84B38);
 draw_set_halign(fa_left);
 draw_text(x, y+300, "화약 공격력");
 draw_set_halign(fa_center);
-draw_text(x+170, y+300, int64(sc_pl_fireDmg()));
+draw_text(x+170, y+300, int64(sc_pl_fireDmg(1)));
 if (global.itemScale[2][0] > 0) {
-	var tempText = "(  /6)"
 	draw_text(x+x2, y+300, tempText);
-	draw_text(x+x3, y+300, global.itemScale[2][0]);
+	draw_text(x+x3, y+300, int64(sc_pl_fireDmg(2)));
 }
 //draw_text(x+170, y+360, int64(sc_pl_fireDmg(1)));
 //draw_text(x+200, y+360, "+");
@@ -162,11 +154,10 @@ if (global.itemScale[2][0] > 0) {
 draw_set_halign(fa_left);
 draw_text(x, y+330, "집중 회복량");
 draw_set_halign(fa_center);
-draw_text(x+170, y+330, int64(sc_pl_fireMana()));
+draw_text(x+170, y+330, int64(sc_pl_fireMana(1)));
 if (global.itemScale[2][1] > 0) {
-	var tempText = "(  /6)"
 	draw_text(x+x2, y+330, tempText);
-	draw_text(x+x3, y+330, global.itemScale[2][1]);
+	draw_text(x+x3, y+330, int64(sc_pl_fireMana(2)));
 }
 //draw_text(x+170, y+390, int64(sc_pl_fireMana(1)));
 //draw_text(x+200, y+390, "+");
@@ -177,9 +168,8 @@ draw_text(x, y+360, "연타 수치");
 draw_set_halign(fa_center);
 draw_text(x+170, y+360, sc_pl_fireComb(1));
 if (global.itemScale[2][2] > 0) {
-	var tempText = "(  /6)"
 	draw_text(x+x2, y+360, tempText);
-	draw_text(x+x3, y+360, global.itemScale[2][2]);
+	draw_text(x+x3, y+360, sc_pl_fireComb(2));
 }
 //draw_text(x+170, y+420, sc_pl_fireComb(1));
 //draw_text(x+200, y+420, "+");
@@ -190,9 +180,8 @@ draw_text(x, y+390, "치명타 확률");
 draw_set_halign(fa_center);
 draw_text(x+170, y+390, int64(sc_pl_fireCt(1)));
 if (global.itemScale[2][3] > 0) {
-	var tempText = "(  /6)"
 	draw_text(x+x2, y+390, tempText);
-	draw_text(x+x3, y+390, global.itemScale[2][3]);
+	draw_text(x+x3, y+390, int64(sc_pl_fireCt(2)));
 }
 //draw_text(x+170, y+450, int64(sc_pl_fireCt(1)));
 //draw_text(x+200, y+450, "+");

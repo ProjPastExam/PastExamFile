@@ -29,16 +29,16 @@ if (sIndex == enhanceNum && interIndex) {
 	}
 	
 	switch (enhanceNum) {
-	case 1:	VSLS_SetAndSave("abAtkDmg", global.abIndex[enhanceNum-1], "saveFile");		break;
-	case 2:	VSLS_SetAndSave("abAtkMana", global.abIndex[enhanceNum-1], "saveFile");		break;
-	case 3:	VSLS_SetAndSave("abAtkCtDmg", global.abIndex[enhanceNum-1], "saveFile");	break;
+	case 1:	VSLS_SetAndSave("abAtk0", global.abIndex[enhanceNum-1], "saveFile");	break;
+	case 2:	VSLS_SetAndSave("abAtk1", global.abIndex[enhanceNum-1], "saveFile");	break;
+	case 3:	VSLS_SetAndSave("abAtk2", global.abIndex[enhanceNum-1], "saveFile");	break;
 	
-	case 4:	VSLS_SetAndSave("abKickDmg", global.abIndex[enhanceNum-1], "saveFile");		break;
-	case 5:	VSLS_SetAndSave("abKickComb", global.abIndex[enhanceNum-1], "saveFile");	break;
-	case 6:	VSLS_SetAndSave("abKickCt", global.abIndex[enhanceNum-1], "saveFile");		break;
+	case 4:	VSLS_SetAndSave("abKick0", global.abIndex[enhanceNum-1], "saveFile");	break;
+	case 5:	VSLS_SetAndSave("abKick1", global.abIndex[enhanceNum-1], "saveFile");	break;
+	case 6:	VSLS_SetAndSave("abKick2", global.abIndex[enhanceNum-1], "saveFile");	break;
 	
-	case 7:	VSLS_SetAndSave("abFireDmg", global.abIndex[enhanceNum-1], "saveFile");		break;
-	case 8:	VSLS_SetAndSave("abFireCt", global.abIndex[enhanceNum-1], "saveFile");		break;
-	case 9:	VSLS_SetAndSave("abFireCtDmg", global.abIndex[enhanceNum-1], "saveFile");	break;
+	case 7:	VSLS_SetAndSave("abFire0", global.abIndex[enhanceNum-1], "saveFile");	break;
+	case 8:	VSLS_SetAndSave("abFire1", global.abIndex[enhanceNum-1], "saveFile");	break;
+	case 9:	VSLS_SetAndSave("abFire2", global.abIndex[enhanceNum-1], "saveFile");	break;
 	}
 }

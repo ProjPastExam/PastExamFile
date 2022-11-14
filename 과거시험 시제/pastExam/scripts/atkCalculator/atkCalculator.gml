@@ -2,50 +2,45 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_atkDmg(mode = 0){
 	//기본 데미지 및 아이템 배율 적용
-	var atkDmg = global.atkDmg;
-	if (mode == 1) return atkDmg;
+	var dmg = global.atkDmg + sc_abScaleCalculator(1);
+	if (mode == 1) return dmg;
 	
-	atkDmg = (global.atkDmg + sc_abScaleCalculator(1)) * sc_itemScaleCalculator(0, 0);
-	if (mode == 0) return atkDmg;
+	var dmgItem = sc_itemScaleCalculator(0, 0);
+	if (mode == 2) return dmgItem;
 	
-	atkDmg -= global.atkDmg;
-	if (mode == 2) return atkDmg;
+	if (mode == 0) return dmg + dmgItem;
 }
 
 
 function sc_pl_atkMana(mode = 0){
-	var atkMana = global.atkMana;
-	if (mode == 1) return atkMana;
+	var mana = global.atkMana + sc_abScaleCalculator(2);
+	if (mode == 1) return mana;
 	
-	atkMana = (global.atkMana + sc_abScaleCalculator(2)) * sc_itemScaleCalculator(0, 1);
-	if (mode == 0) return atkMana;
+	var manaItem = sc_itemScaleCalculator(0, 1)*3;
+	if (mode == 2) return manaItem;
 	
-	atkMana -= global.atkMana;
-	if (mode == 2) return atkMana;
+	if (mode == 0) return mana + manaItem;
 }
 
 function sc_pl_atkComb(mode = 0) {
-	var atkComb = global.atkComb * sc_itemScaleCalculator(0, 2);
+	var comb = global.atkComb;
+	if (mode == 1) return string_format(comb, 0, 1);
 	
-	if (mode == 1) return string_format(atkComb, 0, 1);
+	var combItem = sc_itemScaleCalculator(0, 2)/5;
+	if (mode == 2) return string_format(combItem, 0, 1);
 	
-	atkComb = global.atkComb * sc_itemScaleCalculator(0, 2);
-	if (mode == 0) return atkComb;
-	
-	atkComb -= global.atkComb;
-	if (mode == 2) return string_format(atkComb, 0, 1);
+	if (mode == 0) return comb + combItem;
 	
 }
 
 function sc_pl_atkCt(mode = 0) {
-	var atkCt = global.atkCt * sc_itemScaleCalculator(0, 3);
-	if (mode == 1) return atkCt*100;
+	var ct = global.atkCt + sc_abScaleCalculator(3);
+	if (mode == 1) return ct*100;
 	
-	atkCt = global.atkCt * sc_itemScaleCalculator(0, 3);
-	if (mode == 0) return atkCt;
+	var ctItem = sc_itemScaleCalculator(0, 3)/20;
+	if (mode == 2) return ctItem*100;
 	
-	atkCt -= global.atkCt;
-	if (mode == 2) return atkCt*100;
+	if (mode == 0) return ct + ctItem;
 }
 
 

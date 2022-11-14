@@ -1,50 +1,46 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_fireDmg(mode = 0){
-	var fireDmg = global.fireDmg;
-	if (mode == 1) return fireDmg;
+	//기본 데미지 및 아이템 배율 적용
+	var dmg = global.fireDmg + sc_abScaleCalculator(7);
+	if (mode == 1) return dmg;
 	
-	fireDmg = (global.fireDmg + sc_abScaleCalculator(7)) * sc_itemScaleCalculator(2, 0);
-	if (mode == 0) return fireDmg;
+	var dmgItem = sc_itemScaleCalculator(2, 0);
+	if (mode == 2) return dmgItem;
 	
-	fireDmg -= global.fireDmg;
-	if (mode == 2) return fireDmg;
+	if (mode == 0) return dmg + dmgItem;
 }
 
 
 function sc_pl_fireMana(mode = 0){
-	var atkMana = global.fireMana;
-	if (mode == 1) return atkMana;
+	var mana = global.fireMana;
+	if (mode == 1) return mana;
 	
-	atkMana = global.fireMana * sc_itemScaleCalculator(2, 1);
-	if (mode == 0) return atkMana;
+	var manaItem = sc_itemScaleCalculator(2, 1)*3;
+	if (mode == 2) return manaItem;
 	
-	atkMana -= global.fireMana;
-	if (mode == 2) return atkMana;
+	if (mode == 0) return mana + manaItem;
 }
 
 function sc_pl_fireComb(mode = 0) {
-	var fireComb = global.fireComb * sc_itemScaleCalculator(2, 2);
+	var comb = global.fireComb + sc_abScaleCalculator(8);
+	if (mode == 1) return string_format(comb, 0, 1);
 	
-	if (mode == 1) return string_format(fireComb, 0, 1);
+	var combItem = sc_itemScaleCalculator(2, 2)/10;
+	if (mode == 2) return string_format(combItem, 0, 1);
 	
-	fireComb = global.fireComb * sc_itemScaleCalculator(2, 2);
-	if (mode == 0) return fireComb;
-	
-	fireComb -= global.fireComb;
-	if (mode == 2) return string_format(fireComb, 0, 1);
+	if (mode == 0) return comb + combItem;
 	
 }
 
 function sc_pl_fireCt(mode = 0) {
-	var fireCt = (global.fireCt + sc_abScaleCalculator(8)/100) * sc_itemScaleCalculator(2, 3);
-	if (mode == 1) return fireCt*100;
+	var ct = global.fireCt + sc_abScaleCalculator(9);
+	if (mode == 1) return ct*100;
 	
-	//fireCt = (global.fireCt + sc_abScaleCalculator(8)) * sc_itemScaleCalculator(2, 3);
-	if (mode == 0) return fireCt;
+	var ctItem = sc_itemScaleCalculator(2, 3)/100;
+	if (mode == 2) return ctItem*100;
 	
-	fireCt -= global.fireCt;
-	if (mode == 2) return fireCt*100;
+	if (mode == 0) return ct + ctItem;
 }
 
 

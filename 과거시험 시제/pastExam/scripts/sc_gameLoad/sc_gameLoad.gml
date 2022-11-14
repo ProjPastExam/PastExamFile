@@ -27,15 +27,15 @@ function sc_gameLoad(){
 	if (VSLS_Get("abPoint")== undefined)		VSLS_Set("abPoint", 0);
 	if (VSLS_Get("abSoul")== undefined)			VSLS_Set("abSoul", 0);
 	
-	if (VSLS_Get("abAtkDmg")== undefined)		VSLS_Set("abAtkDmg", 0);
-	if (VSLS_Get("abAtkMana")== undefined)		VSLS_Set("abAtkMana", 0);
-	if (VSLS_Get("abAtkCtDmg")== undefined)		VSLS_Set("abAtkCtDmg", 0);
-	if (VSLS_Get("abKickDmg")== undefined)		VSLS_Set("abKickDmg", 0);
-	if (VSLS_Get("abKickComb")== undefined)		VSLS_Set("abKickComb", 0);
-	if (VSLS_Get("abKickCt")== undefined)		VSLS_Set("abKickCt", 0);
-	if (VSLS_Get("abFireDmg")== undefined)		VSLS_Set("abFireDmg", 0);
-	if (VSLS_Get("abFireCt")== undefined)		VSLS_Set("abFireCt", 0);
-	if (VSLS_Get("abFireCtDmg")== undefined)	VSLS_Set("abFireCtDmg", 0);
+	if (VSLS_Get("abAtk0")== undefined)		VSLS_Set("abAtk0", 0);
+	if (VSLS_Get("abAtk1")== undefined)		VSLS_Set("abAtk1", 0);
+	if (VSLS_Get("abAtk2")== undefined)		VSLS_Set("abAtk2", 0);
+	if (VSLS_Get("abKick0")== undefined)	VSLS_Set("abKick0", 0);
+	if (VSLS_Get("abKick1")== undefined)	VSLS_Set("abKick1", 0);
+	if (VSLS_Get("abKick2")== undefined)	VSLS_Set("abKick2", 0);
+	if (VSLS_Get("abFire0")== undefined)	VSLS_Set("abFire0", 0);
+	if (VSLS_Get("abFire1")== undefined)	VSLS_Set("abFire1", 0);
+	if (VSLS_Get("abFire2")== undefined)	VSLS_Set("abFire2", 0);
 	}
 	
 	{

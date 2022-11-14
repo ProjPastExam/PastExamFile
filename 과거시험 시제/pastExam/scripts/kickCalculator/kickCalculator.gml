@@ -1,50 +1,46 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_kickDmg(mode = 0){
-	var kickDmg = global.kickDmg;
-	if (mode == 1) return kickDmg;
+	//기본 데미지 및 아이템 배율 적용
+	var dmg = global.kickDmg + sc_abScaleCalculator(4);
+	if (mode == 1) return dmg;
 	
-	kickDmg = (global.kickDmg + sc_abScaleCalculator(4)) * sc_itemScaleCalculator(1, 0);
-	if (mode == 0) return kickDmg;
+	var dmgItem = sc_itemScaleCalculator(1, 0);
+	if (mode == 2) return dmgItem;
 	
-	kickDmg -= global.kickDmg;
-	if (mode == 2) return kickDmg;
+	if (mode == 0) return dmg + dmgItem;
 }
 
 
 function sc_pl_kickMana(mode = 0){
-	var atkMana = global.kickMana;
-	if (mode == 1) return atkMana;
+	var mana = global.kickMana + sc_abScaleCalculator(5);
+	if (mode == 1) return mana;
 	
-	atkMana = global.kickMana * sc_itemScaleCalculator(1, 1);
-	if (mode == 0) return atkMana;
+	var manaItem = sc_itemScaleCalculator(1, 1)*3;
+	if (mode == 2) return manaItem;
 	
-	atkMana -= global.kickMana;
-	if (mode == 2) return atkMana;
+	if (mode == 0) return mana + manaItem;
 }
 
 function sc_pl_kickComb(mode = 0) {
-	var kickComb = (global.kickComb + sc_abScaleCalculator(5)) * sc_itemScaleCalculator(1, 2);
+	var comb = global.kickComb + sc_abScaleCalculator(6);
+	if (mode == 1) return string_format(comb, 0, 1);
 	
-	if (mode == 1) return string_format(kickComb, 0, 1);
+	var combItem = sc_itemScaleCalculator(1, 2)/10;
+	if (mode == 2) return string_format(combItem, 0, 1);
 	
-	//kickComb = (global.kickComb + sc_abScaleCalculator(5)) * sc_itemScaleCalculator(1, 2);
-	if (mode == 0) return kickComb;
-	
-	kickComb -= global.kickComb;
-	if (mode == 2) return string_format(kickComb, 0, 1);
+	if (mode == 0) return comb + combItem;
 	
 }
 
 function sc_pl_kickCt(mode = 0) {
-	var kickCt = (global.kickCt + sc_abScaleCalculator(6)/100) * sc_itemScaleCalculator(1, 3);
-	if (mode == 1) return kickCt * 100;
+	var ct = global.kickCt;
+	if (mode == 1) return ct*100;
 	
-	//kickCt = (global.kickCt + sc_abScaleCalculator(6)) * sc_itemScaleCalculator(1, 3);
-	if (mode == 0) return kickCt;
+	var ctItem = sc_itemScaleCalculator(1, 3)/100;
+	if (mode == 2) return ctItem*100;
 	
-	kickCt -= global.kickCt;
-	if (mode == 2) return kickCt * 100;
+	if (mode == 0) return ct + ctItem;
 }
 
 function sc_pl_kickCtMag(mode = 0) {

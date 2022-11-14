@@ -36,7 +36,7 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	
 	var calDmg = sc_mobDmg(dmg, pene);
 	if (isCt) {
-		calDmg = calDmg * 1.5;
+		calDmg = calDmg * 2;
 		/*
 		if (hitKind == 0) calDmg = calDmg + sc_pl_atkCtMag();
 		else if (hitKind == 1) calDmg = calDmg + sc_pl_kickCtMag();

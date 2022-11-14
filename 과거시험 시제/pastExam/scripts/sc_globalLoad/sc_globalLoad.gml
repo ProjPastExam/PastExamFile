@@ -21,15 +21,15 @@ function sc_globalLoad(){
 	global.abSoul		= VSLS_Get("abSoul");
 	
 	global.abIndex		= array_create(9, 0);
-	global.abIndex[0]	= VSLS_Get("abAtkDmg");
-	global.abIndex[1]	= VSLS_Get("abAtkMana");
-	global.abIndex[2]	= VSLS_Get("abAtkCtDmg");
-	global.abIndex[3]	= VSLS_Get("abKickDmg");
-	global.abIndex[4]	= VSLS_Get("abKickComb");
-	global.abIndex[5]	= VSLS_Get("abKickCt");
-	global.abIndex[6]	= VSLS_Get("abFireDmg");
-	global.abIndex[7]	= VSLS_Get("abFireCt");
-	global.abIndex[8]	= VSLS_Get("abFireCtDmg");
+	global.abIndex[0]	= VSLS_Get("abAtk0");
+	global.abIndex[1]	= VSLS_Get("abAtk1");
+	global.abIndex[2]	= VSLS_Get("abAtk2");
+	global.abIndex[3]	= VSLS_Get("abKick0");
+	global.abIndex[4]	= VSLS_Get("abKick1");
+	global.abIndex[5]	= VSLS_Get("abKick2");
+	global.abIndex[6]	= VSLS_Get("abFire0");
+	global.abIndex[7]	= VSLS_Get("abFire1");
+	global.abIndex[8]	= VSLS_Get("abFire2");
 	}
 
 	//공격 관련 수치
