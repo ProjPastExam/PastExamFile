@@ -50,7 +50,7 @@ global.fireComb		= 1;
 global.comCt		= 0;
 global.comCtAlarm	= 0;
 global.comIndex		= 4;
-global.comAlarm		= 150;
+global.comAlarm		= 180;
 	
 global.hpMax	= 9;
 global.hp		= global.hpMax;
