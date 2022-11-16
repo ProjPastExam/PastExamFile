@@ -8,9 +8,6 @@ function sc_stage03Cs(){
 	var hang2 = 320;
 	
 	if (state == 1) x += 4;
-	else if (state == 9) {
-		with (ob_player) { x += 6; }
-	}
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7 || isT == 8) && active == true)) {
@@ -47,8 +44,8 @@ function sc_stage03Cs(){
 			
 		case 5:
 			var name = "성춘향"
-			var text = "이곳은 상당히 오싹하네요...?";
-			sc_csBase(name, sp_chun_face, text, hang2, 520);
+			var text = "이 마을은 파손된 건물도 있고, 조금 오싹하네요...?";
+			sc_csBase(name, sp_chun_face_silence, text, hang2, 520);
 			break;
 			
 		case 6:
@@ -67,15 +64,15 @@ function sc_stage03Cs(){
 			
 		case 8:
 			alarm[1] = 120;
-			ob_roomControl.isTalk = 8;
+			ob_roomControl.isTalk = 4;
 			isTalk = 4;
 			sc_csBase2(x, 560);
 			break;
 			
 		case 9:
-			image_xscale = 1;
-			alarm[1] = 180;
-			isTalk = 4;
+			var name = "착호갑사"
+			var text = "";
+			sc_csBase(name, sp_npc_blank, text, hang2, 520);
 			break;
 			
 		case 10:

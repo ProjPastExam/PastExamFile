@@ -20,6 +20,7 @@ function sc_mobSpawn(){
 	
 	isStun		= false;
 	indexStun	= false;
+	isCounter	= false;
 	
 	nextState	= 0;
 	

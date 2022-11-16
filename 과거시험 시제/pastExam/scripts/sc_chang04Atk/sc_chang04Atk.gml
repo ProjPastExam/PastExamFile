@@ -9,7 +9,7 @@ function sc_chang04Atk(){
 	
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
-	isDA = false;	isDF = false;
+	isDA = false;	isDK = false;
 	
 	var plX = sc_pl_get("x");
 	if ( state == 10 ) {
@@ -29,7 +29,7 @@ function sc_chang04Atk(){
 		sprite_index = sp_chang04_atk;
 		xSpeed = 0;
 		
-		isDA = true;	isDF = true;
+		isDA = true;	isDK = true;
 		
 		//if ( process == 1 ) { audio_play_sound(s_bandit01atk1, 8, false); }
 		if ( process == 45 || process == 105 ) { 

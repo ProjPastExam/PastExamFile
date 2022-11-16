@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 
-room_goto(r_stage03_1_1);
+room_goto(r_stage03VillageCs);
