@@ -4,8 +4,8 @@ function sc_stage03Cs(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
 	
-	var hang1 = 1088;
-	var hang2 = 320;
+	var hang1 = 1180;
+	var hang2 = 410;
 	
 	if (state == 1) x += 4;
 
@@ -43,6 +43,7 @@ function sc_stage03Cs(){
 			break;
 			
 		case 5:
+			BGM_Play(s_mCs_normal, global.volBgm, 0);
 			var name = "성춘향"
 			var text = "이 마을은 파손된 건물도 있고, 조금 오싹하네요...?";
 			sc_csBase(name, sp_chun_face_silence, text, hang2, 520);
@@ -64,36 +65,56 @@ function sc_stage03Cs(){
 			
 		case 8:
 			alarm[1] = 120;
-			ob_roomControl.isTalk = 4;
-			isTalk = 4;
+			ob_roomControl.isTalk = 8;
+			isTalk = 5;
 			sc_csBase2(x, 560);
 			break;
 			
 		case 9:
 			var name = "착호갑사"
-			var text = "";
-			sc_csBase(name, sp_npc_blank, text, hang2, 520);
+			var text = "거기, 과거길에 오르시는 중이오?";
+			sc_csBase(name, sp_npc_blank, text, hang1, 540);
 			break;
 			
 		case 10:
-			alarm[1] = 45;
+			image_xscale = 1;
+			ob_roomControl.isTalk = 7;
+			alarm[1] = 120;
 			isTalk = 5;
+			sc_csBase2(hang2, 520);
 			break;
 			
 		case 11:
-			var name = "성춘향"
-			var text = "저기, 누군가가 있어요!";
-			sc_csBase(name, sp_chun_face, text, -500, 520);
+			var name = "착호갑사"
+			var text = "소인은 호환을 막기 위해 임명된 착호갑사로, \n이 마을에 호환이 자주 일어난다고 있다는 소식을 듣고 왔소.";
+			sc_csBase(name, sp_npc_blank, text, hang1, 540);
 			break;
 			
 		case 12:
-			alarm[1] = 90;
-			ob_roomControl.isTalk = 4;
-			isTalk = 4;
-			BGM_Stop(90);
+			var name = "착호갑사"
+			var text = "허나 직접 와서 보니, \n단순한 호환 따위가 아니오.";
+			sc_csBase(name, sp_npc_blank, text, hang1, 540);
 			break;
 			
 		case 13:
+			var name = "착호갑사"
+			var text = "범에게 당한 시체에 창귀가 들러붙어, \n그야말로 시체들이 걸어 다니고 있소.";
+			sc_csBase(name, sp_npc_blank, text, hang1, 540);
+			break;
+			
+		case 14:
+			var name = "착호갑사"
+			var text = "지금 이 앞은 매우 위험하니, \n지나가지 않는 게 최선이오.";
+			sc_csBase(name, sp_npc_blank, text, hang1, 540);
+			break;
+			
+		case 15:
+			ob_roomControl.isTalk = 4;
+			alarm[1] = 120;
+			isTalk = 4;
+			break;
+			
+		case 16:
 			ob_roomControl.alarm[7] = 1;
 			break;
 			

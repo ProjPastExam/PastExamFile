@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 var state = ob_roomControl.talkCnt;
-//if (state == 8) x = x - 36;
+if (state == 10) image_alpha = image_alpha - 0.008;
 
 
 
