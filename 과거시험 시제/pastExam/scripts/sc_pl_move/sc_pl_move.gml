@@ -102,13 +102,13 @@ function sc_pl_move() {
 	}
 	// && atkProcess == -1 && canMove == 0
 	if ( global.mp < 0 ) global.mp = 0;
-	/*
-	if ( isAtk3 == 20 && canMove == 0) {
+	
+	if ( isAtk3 == 20 && canMove == 0 && item9) {
 		canMove = 12;
 		isAtk3 = 0;
 		atkProcess = 0;
 	}
-	*/
+	
 	
 	if ( atkProcess > -1 ) {
 		switch(canMove) {

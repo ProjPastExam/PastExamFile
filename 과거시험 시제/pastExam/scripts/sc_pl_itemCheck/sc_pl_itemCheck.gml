@@ -18,6 +18,8 @@ function sc_pl_itemCheck(){
 	global.item6 = false;
 	item7	= false;
 	global.item8	= false;
+	item9 = false;
+	global.item10	= false;
 	//global.atkCtMagScaleItem	= 1;
 	//global.kickCtMagScaleItem	= 1;
 	//global.fireCtMagScaleItem	= 1;

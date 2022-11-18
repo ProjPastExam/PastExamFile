@@ -1279,6 +1279,7 @@
     {"id":{"name":"sp_st01_trap01","path":"sprites/sp_st01_trap01/sp_st01_trap01.yy",},"order":6,},
     {"id":{"name":"sp_jpMb_dieCs","path":"sprites/sp_jpMb_dieCs/sp_jpMb_dieCs.yy",},"order":19,},
     {"id":{"name":"sp_settingBtUi","path":"sprites/sp_settingBtUi/sp_settingBtUi.yy",},"order":12,},
+    {"id":{"name":"sp_tuto_SA","path":"sprites/sp_tuto_SA/sp_tuto_SA.yy",},"order":10,},
     {"id":{"name":"sp_key_k","path":"sprites/sp_key_k/sp_key_k.yy",},"order":10,},
     {"id":{"name":"back_demo","path":"sprites/back_demo/back_demo.yy",},"order":1,},
     {"id":{"name":"sp_chun_appear","path":"sprites/sp_chun_appear/sp_chun_appear.yy",},"order":2,},

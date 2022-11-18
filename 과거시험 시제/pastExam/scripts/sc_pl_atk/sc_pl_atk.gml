@@ -8,6 +8,10 @@ function sc_pl_atk(){
 	else sprite_index = sp_pl_jumpAtk;
 	//var atk;
 	
+	if ( atkProcess == 1 ) {
+		if (keyLeft)		{ dir = -1; }
+		else if (keyRight)	{ dir = 1; }
+	}
 	if ( atkProcess > 0 && atkProcess < 24 && keyAttack ) nextAtk = 1;
 	if ( atkProcess > 28 ) {
 		if ( keyAttack ) {
