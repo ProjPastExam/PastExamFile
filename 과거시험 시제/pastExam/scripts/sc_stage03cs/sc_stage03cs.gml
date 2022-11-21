@@ -73,7 +73,7 @@ function sc_stage03Cs(){
 		case 9:
 			var name = "착호갑사"
 			var text = "거기, 과거길에 오르시는 중이오?";
-			sc_csBase(name, sp_npc_blank, text, hang1, 540);
+			sc_csBase(name, sp_sold1_face, text, hang1, 540);
 			break;
 			
 		case 10:
@@ -87,25 +87,25 @@ function sc_stage03Cs(){
 		case 11:
 			var name = "착호갑사"
 			var text = "소인은 호환을 막기 위해 임명된 착호갑사로, \n이 마을에 호환이 자주 일어난다고 있다는 소식을 듣고 왔소.";
-			sc_csBase(name, sp_npc_blank, text, hang1, 540);
+			sc_csBase(name, sp_sold1_face, text, hang1, 540);
 			break;
 			
 		case 12:
 			var name = "착호갑사"
 			var text = "허나 직접 와서 보니, \n단순한 호환 따위가 아니오.";
-			sc_csBase(name, sp_npc_blank, text, hang1, 540);
+			sc_csBase(name, sp_sold1_face, text, hang1, 540);
 			break;
 			
 		case 13:
 			var name = "착호갑사"
 			var text = "범에게 당한 시체에 창귀가 들러붙어, \n그야말로 시체들이 걸어 다니고 있소.";
-			sc_csBase(name, sp_npc_blank, text, hang1, 540);
+			sc_csBase(name, sp_sold1_face, text, hang1, 540);
 			break;
 			
 		case 14:
 			var name = "착호갑사"
 			var text = "지금 이 앞은 매우 위험하니, \n지나가지 않는 게 최선이오.";
-			sc_csBase(name, sp_npc_blank, text, hang1, 540);
+			sc_csBase(name, sp_sold1_face, text, hang1, 540);
 			break;
 			
 		case 15:

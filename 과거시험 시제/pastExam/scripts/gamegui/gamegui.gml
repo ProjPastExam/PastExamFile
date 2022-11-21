@@ -201,7 +201,7 @@ function sc_printTalk(isTalk) {
 	
 	draw_sprite(sp_black2, 0, 0, 0);
 	draw_sprite(sp_talkUI, 0, 960, 350);
-	draw_sprite(npcFace, 0, 1398, 77);
+	draw_sprite(npcFace, 0, 0, 0);
 	sc_buttonPrint(global.btAtk, global.gpAtk, 270, 520);
 	//draw_sprite(sc_keySprite(global.btAtk), 0, 270, 540);
 	draw_sprite(sp_text_next, 0, 380, 520);

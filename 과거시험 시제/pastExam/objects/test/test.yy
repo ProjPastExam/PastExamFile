@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "test",
   "spriteId": {
-    "name": "sp_chun_face",
-    "path": "sprites/sp_chun_face/sp_chun_face.yy",
+    "name": "sp_chun_face_old",
+    "path": "sprites/sp_chun_face_old/sp_chun_face_old.yy",
   },
   "solid": false,
   "visible": true,
