@@ -5,8 +5,8 @@
 if (isCt) {
 	draw_sprite_stretched_ext(sp_black, 0, 0, 0, 2400, 150, 0, 1);
 	draw_sprite_stretched_ext(sp_black, 0, 0, 930, 2400, 150, 0, 1);
-	draw_sprite(sp_text_quite, 0, 1820, 1020);
-	sc_buttonPrint(global.btEsc, global.gpEsc, 1680, 1020);
+	draw_sprite(sp_text_quite, 0, 220, 1020);
+	sc_buttonPrint(global.btEsc, global.gpEsc, 80, 1020);
 	//draw_sprite(sc_keySprite(global.btEsc), 0, 1680, 1020);
 }
 
