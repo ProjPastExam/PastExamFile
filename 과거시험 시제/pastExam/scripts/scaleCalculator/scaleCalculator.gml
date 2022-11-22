@@ -2,9 +2,14 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_itemScaleCalculator(itemKind, itemBuff){
 	var tempIndex = global.itemScale[itemKind][itemBuff];
-	
-	if (tempIndex > 6) return (6 + tempIndex);
-	else return tempIndex * 2;
+	if (tempIndex == 0)			return 0;
+	else if (tempIndex == 1)	return 4;
+	else if (tempIndex == 2)	return 7;
+	else if (tempIndex == 3)	return 10;
+	else if (tempIndex == 4)	return 12;
+	else if (tempIndex == 5)	return 14;
+	else if (tempIndex == 6)	return 16;
+	else return tempIndex + 10;
 }
 
 function sc_abScaleCalculator(abIndex) {
