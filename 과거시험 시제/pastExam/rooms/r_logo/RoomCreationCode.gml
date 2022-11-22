@@ -23,7 +23,7 @@ surface_resize(application_surface, 1920, 1080);
 global.gameEnd		= false;
 	
 //공격 관련 변수
-global.atkDmg		= 10;
+global.atkDmg		= 20;
 global.atkPene		= 0;
 global.atkShock		= 150;
 global.atkMana		= 20;
@@ -31,7 +31,7 @@ global.atkCt		= 0.0;
 global.atkCtMag		= 10;
 global.atkComb		= 1;
 
-global.kickDmg		= 10;
+global.kickDmg		= 20;
 global.kickPene		= 0;
 global.kickShock	= 210;
 global.kickMana		= 20;
@@ -39,7 +39,7 @@ global.kickCt		= 0.0;
 global.kickCtMag	= 10;
 global.kickComb		= 1;
 
-global.fireDmg		= 10;
+global.fireDmg		= 20;
 global.firePene		= 0;
 global.fireShock	= 200;
 global.fireMana		= 20;

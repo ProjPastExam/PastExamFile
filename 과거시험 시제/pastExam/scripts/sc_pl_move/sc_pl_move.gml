@@ -82,8 +82,10 @@ function sc_pl_move() {
 	if ( dProcess < -1 ) dProcess++;
 	
 	if ( keyAttack && atkProcess == -1 && canMove == 0 ) {
-		if (keyTop && isJump) canMove = 8; 
+		if (keyTop && isJump) { canMove = 8; }
 		else if (keyDown && isJump) canMove = 13;
+		//else if (keyRight) { canMove = 3; dir = 1; }
+		//else if (keyLeft) { canMove = 3; dir = -1; }
 		else canMove = 1;
 		atkProcess = 0;
 	}
