@@ -3,6 +3,6 @@
 
 
 if (global.item6 && hitKind == 2) {
-	image_xscale = image_xscale * 1.3;
-	image_yscale = image_yscale * 1.3;
+	image_xscale = image_xscale * (1.05 + global.item6/10);
+	image_yscale = image_yscale * (1.05 + global.item6/10);
 }

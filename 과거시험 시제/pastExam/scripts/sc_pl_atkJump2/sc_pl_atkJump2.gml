@@ -5,7 +5,8 @@ function sc_pl_atkJump2(){
 	if (!isJump) xSpeed = 0;
 	var atk;
 	image_xscale = dir;
-	if (isSin && global.comCt >= 15) {
+	
+	if (isSin && global.comCt >= (20 - isSin*5)) {
 		if ( isJump ) sprite_index = sp_pl_jumpSin;
 		else sprite_index = sp_pl_atk2sin;
 	}
@@ -29,7 +30,7 @@ function sc_pl_atkJump2(){
 	}
 	
 	if ( atkProcess == 24 ) {
-		if (isSin && global.comCt >= 15) {
+		if (isSin && global.comCt >= (20 - isSin*5)) {
 			atk = instance_create_layer(x, y, "effect", ob_sinEf01);
 			//atk.damage = 10;
 			//atk.shock = 10;
@@ -40,7 +41,7 @@ function sc_pl_atkJump2(){
 			atk.dir = dir;
 			SE_Play(s_arrow02, global.vol);
 			//audio_play_sound(s_arrow02, 5, false);
-			global.comCt -= 15;
+			global.comCt -= (20 - isSin*5);
 		}
 		else {
 			sc_pl_atkEf(sc_pl_atkDmg()*2.5, sc_pl_atkPene(), sc_pl_atkShock()*1.2, sc_pl_atkMana(), 

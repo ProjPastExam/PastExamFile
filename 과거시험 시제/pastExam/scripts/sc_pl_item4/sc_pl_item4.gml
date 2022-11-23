@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_item4(){
-	var dmg = sc_pl_kickDmg()*8;
+	var dmg = sc_pl_kickDmg()*6;
 	
 	atkProcess++;
 	if (!isJump) xSpeed = 0;
@@ -33,8 +33,8 @@ function sc_pl_item4(){
 	}
 	
 	if ( atkProcess == 14 ) {
-		sc_pl_atkEf(dmg, sc_pl_kickPene()+20, sc_pl_kickShock()+50, 0, 
-			0, 1, 0, sp_pl_itemEf4, dir);
+		sc_pl_atkEf(dmg, sc_pl_kickPene(), sc_pl_kickShock()+50, 0, 
+			0, 1, 0, sp_pl_itemEf4, dir,,,,(global.item4-1) * 20);
 		SE_Play(s_bandit02atk2, global.vol);
 		global.comCt -= 20;
 	}

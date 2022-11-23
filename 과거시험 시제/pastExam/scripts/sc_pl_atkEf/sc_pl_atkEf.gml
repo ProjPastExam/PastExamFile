@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_atkEf( dmg, pene, shock, mana, hitUp, hitKind, hitAfter, sprite, dir, 
-					  shake = 5, iX = x, iY = y, ctChance = 0, comIndex = 1, obIndex = ob_atkEf01){
+					  shake = 5, iX = x, iY = y, ctChance = 0, comIndex = 0, obIndex = ob_atkEf01){
 	var atk = instance_create_layer(iX, iY, "effect", obIndex);
 	dmg = dmg * (1 + global.comCt/200);
 	
@@ -23,9 +23,9 @@ function sc_pl_atkEf( dmg, pene, shock, mana, hitUp, hitKind, hitAfter, sprite, 
 	else if (hitKind == 2)					{ ctC = ctC + sc_pl_fireCt()*100; }
 	
 	var cIndex			= comIndex;
-	if (hitKind == 0)						{ cIndex = cIndex * sc_pl_atkComb(); }
-	else if (hitKind == 1 || hitKind == 10) { cIndex = cIndex * sc_pl_kickComb(); }
-	else if (hitKind == 2)					{ cIndex = cIndex * sc_pl_fireComb(); }
+	if (hitKind == 0)						{ cIndex = cIndex + sc_pl_atkComb(); }
+	else if (hitKind == 1 || hitKind == 10) { cIndex = cIndex + sc_pl_kickComb(); }
+	else if (hitKind == 2)					{ cIndex = cIndex + sc_pl_fireComb(); }
 	
 	atk.ctChance		= ctC;
 	atk.comIndex		= cIndex;

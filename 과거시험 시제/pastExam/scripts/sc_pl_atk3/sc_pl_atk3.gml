@@ -5,10 +5,9 @@ function sc_pl_atk3(){
 	if (!isJump) xSpeed = 0;
 	image_xscale = dir;
 	sprite_index = sp_pl_sk_baby;
-	var atk;
 	isAtk3 = 0;
 	
-	if ( atkProcess > 38 && atkProcess < 58 ) {
+	if ( atkProcess > 20 && atkProcess < 58 ) {
 		if ( keyAttack ) {
 			if ( keyDown ) 													nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
@@ -20,9 +19,9 @@ function sc_pl_atk3(){
 	}
 
 	
-	if ( atkProcess == 42 ) {
-		sc_pl_atkEf(sc_pl_atkDmg()*4, sc_pl_atkPene()+60, sc_pl_atkShock()+75, sc_pl_atkMana()*2, 
-			0, 0, 0, sp_pl_atkEf100, dir);
+	if ( atkProcess == 30 ) {
+		sc_pl_atkEf(sc_pl_atkDmg()*4, sc_pl_atkPene(), sc_pl_atkShock()+75, sc_pl_atkMana()*2, 
+			0, 0, 0, sp_pl_atkEf100, dir,,,,(global.item9-1)*20);
 		uc_shake(4, 0.1);
 		SE_Play(s_pl_sk100, global.vol);
 		//audio_play_sound(s_pl_sk100, 5, false);
@@ -31,22 +30,22 @@ function sc_pl_atk3(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 38 && atkProcess < 64) ) {
+	if ( (atkProcess > 1 && atkProcess < 64) ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
 	}
 		
-	if ( (atkProcess > 43 && atkProcess < 64) ) {
+	if ( (atkProcess > 10 && atkProcess < 64) ) {
 		sc_pl_atkDnJ();
 	}
 	
 	if ( atkProcess < 6 )		{ image_index = 0; nextAtk = 0; }
 	else if ( atkProcess < 14 )	{ image_index = 1; }
-	else if ( atkProcess < 42 )	{ image_index = 2; }
-	else if ( atkProcess < 48 )	{ image_index = 3; xSpeed = dir * -8; }
-	else if ( atkProcess < 53 )	{ image_index = 4; xSpeed = dir * -5; }
-	else if ( atkProcess < 68 )	{ image_index = 5; xSpeed = dir * -2; }
-	else if ( atkProcess < 76 )	{
+	else if ( atkProcess < 30 )	{ image_index = 2; }
+	else if ( atkProcess < 35 )	{ image_index = 3; xSpeed = dir * -8; }
+	else if ( atkProcess < 40 )	{ image_index = 4; xSpeed = dir * -5; }
+	else if ( atkProcess < 55 )	{ image_index = 5; xSpeed = dir * -2; }
+	else if ( atkProcess < 60 )	{
 		if ( nextAtk == 1 ) { nextAtk = 0; atkProcess = 0; canMove = 1; }
 		else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 		else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 4; }

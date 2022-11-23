@@ -13,7 +13,8 @@ if (global.comCt < 100) {
 	if (hitSum == 0) global.comCt += comIndex;
 	//else global.comCt += comIndex/2;
 }
-global.comCtAlarm = global.comAlarm + global.item5 * 90;
+global.comCtAlarm = global.comAlarm
+if (global.item5 > 0)	global.comCtAlarm += 60 + global.item5 * 30;
 hitArray[hitSum] = hitId;
 var dir = image_xscale / abs(image_xscale);
 sc_mobHit(other, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance);

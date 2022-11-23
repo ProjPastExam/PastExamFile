@@ -8,18 +8,18 @@ function sc_pl_itemCheck(){
 	{
 	isSin = 0;
 	isFront = 0;
-	itemJump = 0;
 	item2	= 0;
-	item4	= 0;
+	global.item3 = 0;
+	global.item4	= 0;
 	item2Index1 = 0;
 	item2Index2 = 0;
 	item2Index3 = 0;
 	global.item5 = 0;
-	global.item6 = false;
-	item7	= false;
-	global.item8	= false;
-	item9 = false;
-	global.item10	= false;
+	global.item6 = 0;
+	item7	= 0;
+	global.item8	= 0;
+	global.item9	= 0;
+	global.item10	= 0;
 	//global.atkCtMagScaleItem	= 1;
 	//global.kickCtMagScaleItem	= 1;
 	//global.fireCtMagScaleItem	= 1;

@@ -1,13 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 if ( sc_getRoomValue("pause") == 0 ) {
-	var dmg = sc_pl_atkDmg()*(grade*5+5)/10;
+	var cal = (grade+1)*0.25;
 	
 	process++;
 	image_xscale = dir;
 	
 	if ((state == 1 && process == 12) || ((state == 0 || state == 2)&&process==18)) {
-		sc_pl_atkEf(dmg, sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana(), 
+		sc_pl_atkEf(sc_pl_atkDmg()*cal, sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana()*cal, 
 			0, 0, 0, sp_pl_atkEf01, dir);
 		SE_Play(s_arrow01, global.vol);
 	}
