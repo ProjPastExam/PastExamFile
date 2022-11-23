@@ -63,13 +63,14 @@ backSprite	= sp_skillUi_0;
 itemKind	= global.itemData[itemNum].itemKind;
 itemGrade	= global.itemData[itemNum].itemGrade;
 
-if (itemKind == 3) itemKind = irandom_range(0, 2);
+//if (itemKind == 3) itemKind = irandom_range(0, 2);
 
 if (itemKind == 0) backSprite = sp_itemBackAtk;
 if (itemKind == 1) backSprite = sp_itemBackKick;
 if (itemKind == 2) backSprite = sp_itemBackFire;
+if (itemKind == 3) backSprite = sp_itemBackNormal;
 
-
+image_index = itemGrade;
 
 //alarm[5] = 10;
 alarm[0] = 1;

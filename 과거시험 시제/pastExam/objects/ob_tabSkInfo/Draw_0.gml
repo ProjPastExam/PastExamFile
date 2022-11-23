@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (sprite_index != NULL) {
-	draw_sprite_ext(sprite_index, image_index, x, y, 1, 1, 0, c_white, 1);
 	
 	if (state < 3) {
+		
 		var i = 0;
 		if (state == 0) i = global.sk1;
 		else if (state == 1) i = global.sk2;
@@ -17,8 +17,13 @@ if (sprite_index != NULL) {
 			draw_text(x-140, y+200, int64(global.skMp[i]/100));
 			draw_text(x-40, y+200, int64(global.skKulData[i]/60));
 		}
+		image_index = global.lan;
 	}
+	
+	
 	else {
+		
+		/*
 		if (global.itemGet[state - 3] != NULL) {
 			var _itemKind	= global.itemGet[state-3].itemKind;
 			var _itemGrade	= global.itemGet[state-3].itemGrade;
@@ -26,7 +31,9 @@ if (sprite_index != NULL) {
 			
 			draw_sprite(sc_itemScaleSprite(_itemKind, _itemBuff), _itemGrade-1, x-200, y+200)
 		}
+		*/
 	}
+	draw_sprite_ext(sprite_index, image_index, x, y, 1, 1, 0, c_white, 1);
 }
 	
 

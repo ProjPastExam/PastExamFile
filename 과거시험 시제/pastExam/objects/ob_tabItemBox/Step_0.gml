@@ -14,5 +14,8 @@ if (tabIndex == (itemNum+3)) {
 	ob_tabSkInfo.sprite_index = itemInfo;
 	ob_tabSelectImage.sprite_index = itemSprite;
 	ob_tabSelectImage.backImage = backSprite;
-	if (global.itemGet[itemNum] != NULL) ob_tabSelectImage.itemGrade = itemGrade;
+	if (global.itemGet[itemNum] != NULL) {
+		ob_tabSelectImage.itemGrade = itemGrade;
+		ob_tabSkInfo.image_index = 3*global.lan + itemGrade;
+	}
 }

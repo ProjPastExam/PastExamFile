@@ -29,13 +29,13 @@ function sc_pl_itemCheck(){
 	//global.atkDmgScale = 1;
 	//global.kickDmgScale = 1;
 	//global.fireDmgScale = 1;
-	
+	/*
 	for (var i = 0; i < 3; i++) {
 		for (var j = 0; j < 5; j++) {
 			global.itemScale[i][j] = 0;
 		}
 	}
-	
+	*/
 	if (global.itemSum == 0) {
 		itemCheck = false;
 		return;
@@ -46,10 +46,12 @@ function sc_pl_itemCheck(){
 		if (global.itemGet[i] == NULL) { itemCheck = false;	break; }
 		global.itemGet[i].itemFunc(global.itemGet[i].itemGrade);
 		//dmgScale[global.itemGet[i].itemKind]++;
+		/*
 		var aGrade	= global.itemGet[i].itemGrade;
 		var aKind	= global.itemGet[i].itemKind;
 		var aBuff	= global.itemGet[i].itemBuff;
 		global.itemScale[aKind][aBuff] += aGrade;
+		*/
 		//if (global.itemScale[aKind][aBuff] > 6) global.itemScale[aKind][aBuff] = 6;
 		
 	}

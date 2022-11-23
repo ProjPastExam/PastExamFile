@@ -14,6 +14,7 @@ if (global.itemGet[itemNum] != NULL) {
 	if (itemKind == 0) backSprite = sp_itemBackAtk;
 	if (itemKind == 1) backSprite = sp_itemBackKick;
 	if (itemKind == 2) backSprite = sp_itemBackFire;
+	if (itemKind == 3) backSprite = sp_itemBackNormal;
 }
 else {
 	itemValue	= -1;

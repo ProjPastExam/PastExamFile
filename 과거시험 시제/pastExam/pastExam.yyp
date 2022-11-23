@@ -390,6 +390,7 @@
     {"id":{"name":"sp_pl_atkEf103_2","path":"sprites/sp_pl_atkEf103_2/sp_pl_atkEf103_2.yy",},"order":10,},
     {"id":{"name":"sp_chang01_stand2","path":"sprites/sp_chang01_stand2/sp_chang01_stand2.yy",},"order":1,},
     {"id":{"name":"r_UISet","path":"rooms/r_UISet/r_UISet.yy",},"order":7,},
+    {"id":{"name":"sp_itemBackNormal","path":"sprites/sp_itemBackNormal/sp_itemBackNormal.yy",},"order":11,},
     {"id":{"name":"sp_st03_tree02","path":"sprites/sp_st03_tree02/sp_st03_tree02.yy",},"order":3,},
     {"id":{"name":"uc_set_y","path":"scripts/uc_set_y/uc_set_y.yy",},"order":7,},
     {"id":{"name":"ob_pl_item8","path":"objects/ob_pl_item8/ob_pl_item8.yy",},"order":15,},

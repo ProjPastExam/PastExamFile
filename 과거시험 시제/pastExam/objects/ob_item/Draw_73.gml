@@ -9,6 +9,6 @@ if (touch) {
 	//draw_sprite(sc_keySprite(global.btInter), 0, x+220, y+135);
 	sc_buttonPrint(global.btInter, global.gpInter, x+220, y+135);
 	
-	draw_sprite_ext(sc_itemScaleSprite(itemKind, itemBuff), itemGrade-1, x+130, y+40, 3/4, 3/4, 0, c_white, 1);
+	//draw_sprite_ext(sc_itemScaleSprite(itemKind, itemBuff), itemGrade-1, x+130, y+40, 3/4, 3/4, 0, c_white, 1);
 	touch = false;
 }
