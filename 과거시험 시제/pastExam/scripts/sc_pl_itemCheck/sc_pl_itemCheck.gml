@@ -6,17 +6,17 @@
 function sc_pl_itemCheck(){
 	var dmgScale = array_create(4, 0);
 	{
-	isSin = 0;
-	isFront = 0;
-	item2	= 0;
-	global.item3 = 0;
+	isSin			= 0;
+	isFront			= 0;
+	item2			= 0;
+	global.item3	= 0;
 	global.item4	= 0;
-	item2Index1 = 0;
-	item2Index2 = 0;
-	item2Index3 = 0;
-	global.item5 = 0;
-	global.item6 = 0;
-	item7	= 0;
+	item2Index1		= 0;
+	item2Index2		= 0;
+	item2Index3		= 0;
+	global.item5	= 0;
+	global.item6	= 0;
+	item7			= 0;
 	global.item8	= 0;
 	global.item9	= 0;
 	global.item10	= 0;

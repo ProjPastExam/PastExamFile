@@ -20,7 +20,7 @@ function sc_skData(){
 	global.skKulData[100]	= 120;
 	global.skKulData[101]	= 180;
 	global.skKulData[102]	= 120;
-	global.skKulData[103]	= 120;
+	global.skKulData[103]	= 60;
 	global.skKulData[104]	= 120;
 	global.skKulData[105]	= 90;
 	global.skKulData[106]	= 240;

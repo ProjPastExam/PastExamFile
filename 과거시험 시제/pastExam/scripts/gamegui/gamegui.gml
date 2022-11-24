@@ -139,8 +139,14 @@ function sc_printMoney(var_mode = 0) {
 	draw_set_color(c_white);
 		
 	if (var_mode == 0) {
-		if		(moneyPrint < global.money)	moneyPrint++;
-		else if	(moneyPrint > global.money)	moneyPrint--;
+		if	(moneyPrint < global.money)	{
+			if	(moneyPrint < global.money - 100)	moneyPrint += 10;
+			else									moneyPrint++;
+		}
+		else if	(moneyPrint > global.money)	{
+			if	(moneyPrint > global.money + 100)	moneyPrint -= 10;
+			else									moneyPrint--;
+		}
 		draw_text(global.moneyX - 55, global.moneyY, moneyPrint);
 		
 		if (global.clearStage >= 5) {

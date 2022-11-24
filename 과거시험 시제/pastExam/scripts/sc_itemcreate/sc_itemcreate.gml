@@ -42,4 +42,10 @@ function sc_itemData(){
 	//편전
 	global.itemData[9]	= new itemStruct ( 9, sp_Item_09, sp_ItemInfo_09, 0,
 		function(grade) { global.item9 = grade; })
+		
+	//창포검, 치명타 확률 2배 및 연타수치 공격증가 제거
+	global.itemData[10]	= new itemStruct ( 10, sp_Item_10, sp_ItemInfo_10, 3,
+		function(grade) { global.item10 = grade; })
+	
+	
 }

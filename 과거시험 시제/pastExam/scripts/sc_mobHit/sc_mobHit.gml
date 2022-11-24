@@ -30,9 +30,10 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	
 	if (hitKind == 10) hitKind = 1;
 	
-	var ctRange = irandom_range(0, 100);
+	var ctRange = irandom_range(0, 99);
 	var isCt = false;
-	if (ctRange <= ctChance) isCt = true;
+	if (global.item10)	{ ctChance += (1 + global.item10) * ctChance * 0.25; }
+	if (ctRange < ctChance) isCt = true;
 	
 	var calDmg = sc_mobDmg(dmg, pene);
 	if (isCt) {
