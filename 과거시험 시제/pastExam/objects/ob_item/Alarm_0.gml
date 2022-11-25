@@ -26,8 +26,10 @@ if (isDelete) {
 			itemCheck = true;
 		}
 		if (isChun) {
-			with (ob_item_chun) { alarm[3] = 1; }
-			with (ob_sk_chun)	{ alarm[3] = 1; }
+			with (ob_item_chun)		{ alarm[3] = 1; }
+			with (ob_sk_chun)		{ alarm[3] = 1; }
+			with (ob_coinReward)	{ alarm[3] = 1; }
+			with (ob_hpReward)		{ alarm[3] = 1; }
 		}
 		//global.tabDeleteIs = 0;
 		instance_destroy();

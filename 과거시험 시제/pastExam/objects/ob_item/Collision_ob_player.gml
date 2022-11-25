@@ -6,8 +6,10 @@ touch = true;
 if (sc_getKey(global.btInter, global.gpInter, 0)) {
 	if (sc_getItem()) {
 		if (isChun) {
-			with (ob_item_chun) { alarm[3] = 1; }
-			with (ob_sk_chun)	{ alarm[3] = 1; }
+			with (ob_item_chun)		{ alarm[3] = 1; }
+			with (ob_sk_chun)		{ alarm[3] = 1; }
+			with (ob_coinReward)	{ alarm[3] = 1; }
+			with (ob_hpReward)		{ alarm[3] = 1; }
 		}
 		instance_destroy();
 	}
