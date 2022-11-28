@@ -373,6 +373,7 @@
     {"id":{"name":"sp_cs_plWake3","path":"sprites/sp_cs_plWake3/sp_cs_plWake3.yy",},"order":4,},
     {"id":{"name":"sp_pl_jump","path":"sprites/sp_pl_jump/sp_pl_jump.yy",},"order":5,},
     {"id":{"name":"sp_jpMb_stand","path":"sprites/sp_jpMb_stand/sp_jpMb_stand.yy",},"order":0,},
+    {"id":{"name":"sp_coinReward","path":"sprites/sp_coinReward/sp_coinReward.yy",},"order":4,},
     {"id":{"name":"sp_key_w","path":"sprites/sp_key_w/sp_key_w.yy",},"order":22,},
     {"id":{"name":"sc_pl_atkJumpDown","path":"scripts/sc_pl_atkJumpDown/sc_pl_atkJumpDown.yy",},"order":13,},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},"order":27,},
