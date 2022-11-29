@@ -5,5 +5,10 @@ touch = false;
 sin_t = 0;
 isDelete = false;
 
+levelIndex = 0;
+with (ob_roomControl) { other.levelIndex = stage; }
+
+coinIndex = irandom_range(50*levelIndex+50, 50*levelIndex + 100);
+
 alarm[2] = 30;
 alarm[0] = 1;

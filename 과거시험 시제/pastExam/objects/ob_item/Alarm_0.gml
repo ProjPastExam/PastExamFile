@@ -31,6 +31,10 @@ if (isDelete) {
 			with (ob_coinReward)	{ alarm[3] = 1; }
 			with (ob_hpReward)		{ alarm[3] = 1; }
 		}
+		if (isSell) {
+			global.money -= costIndex; 
+			with (ob_item_sell)		{ costIndex += 50; }
+		}
 		//global.tabDeleteIs = 0;
 		instance_destroy();
 	}

@@ -7,16 +7,23 @@ touch = false;
 sin_t = 0;
 alarm[2] = 30;
 isDelete = false;
+costIndex = irandom_range(80, 120);
 
 if (isRand) {
-	//var i = 0;
-	while (1) {
+	var i = true;
+	while (i) {
+		randomize();
 		itemNum = irandom_range(0, global.itemMax-1);
-		if (sc_itemCheck(itemNum)) { break; }
-		//i++;
-		//if (i > 60) break;
+		if (sc_itemCheck(itemNum)) { i = false; }
+		var j = 0;
+		with (ob_item) {
+			if (variable_instance_exists(id, "itemNum")) {
+				if (other.itemNum == itemNum)	{ j++; } 
+			}
+		}
+		if (j > 1) { i = true; }
 	}
-	itemBuff = irandom_range(0, 3);
+	alarm[4] = 1;
 }
 if (!sc_itemCheck(itemNum)) instance_destroy();
 /*

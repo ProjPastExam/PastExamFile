@@ -17,6 +17,10 @@ jumoTalk2[@1]	= new talkStruct("내 나이는 이래도, \n기억력은 아직 �
 jumoTalk2[@2]	= new talkStruct(,,,1 , jumoTalk2);
 							
 talkIndex		= jumoTalk1;
+
+instance_create_layer(x-180, y, "effect2", ob_item_sell);
+instance_create_layer(x-340, y, "effect2", ob_item_sell);
+instance_create_layer(x-500, y, "effect2", ob_item_sell);
 /*
 
 talkLine[0] = 3;
