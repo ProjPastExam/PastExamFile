@@ -323,6 +323,7 @@
     {"id":{"name":"sp_pl_atkEf100","path":"sprites/sp_pl_atkEf100/sp_pl_atkEf100.yy",},"order":5,},
     {"id":{"name":"sp_talkMul","path":"sprites/sp_talkMul/sp_talkMul.yy",},"order":2,},
     {"id":{"name":"sp_pl_atkDownEf1","path":"sprites/sp_pl_atkDownEf1/sp_pl_atkDownEf1.yy",},"order":17,},
+    {"id":{"name":"sp_bobu_reset","path":"sprites/sp_bobu_reset/sp_bobu_reset.yy",},"order":19,},
     {"id":{"name":"sp_settingLine","path":"sprites/sp_settingLine/sp_settingLine.yy",},"order":4,},
     {"id":{"name":"sp_jpBoss_die","path":"sprites/sp_jpBoss_die/sp_jpBoss_die.yy",},"order":23,},
     {"id":{"name":"s_bandit01atk2","path":"sounds/s_bandit01atk2/s_bandit01atk2.yy",},"order":4,},
