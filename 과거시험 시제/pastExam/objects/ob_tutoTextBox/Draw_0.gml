@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//room_goto(nextRoom);
-//room_goto(r_stage04_1_1);
+draw_self();
+if (!isUse) {
+	draw_sprite(sp_talkMul, 14, x, y-160);
+}

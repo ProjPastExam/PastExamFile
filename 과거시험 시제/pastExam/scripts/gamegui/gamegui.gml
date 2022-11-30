@@ -72,7 +72,7 @@ function sc_gameGUI(){
 	skMpVar = (global.skMp[global.sk3]/100);
 	draw_sprite(sp_skillBox, skMpVar, GUIX+280, GUIY+225);
 	
-	//draw_sprite_ext(sp_uiLowHp, 0, 0, 0, 1, 1, 0, c_white, (3-global.hp)/6);
+	draw_sprite_ext(sp_uiLowHp, 0, 0, 0, 1, 1, 0, c_white, (4-global.hp)/6);
 	}
 	/*
 	//아이템 UI 표시

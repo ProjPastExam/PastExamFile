@@ -28,6 +28,7 @@ if (isDelete) {
 			with (ob_hpReward)		{ alarm[3] = 1; }
 		}
 		//global.tabDeleteIs = 0;
+		if (isSell) global.money -= costIndex;
 		instance_destroy();
 	}
 	else {

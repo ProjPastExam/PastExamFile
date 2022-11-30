@@ -10,6 +10,7 @@ if (isCollision) {
 		else {
 			isActive = true;
 		}
+		isUse = true;
 	}
 }
 else {

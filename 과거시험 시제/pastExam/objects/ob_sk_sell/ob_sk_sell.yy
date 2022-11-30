@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ob_item_sell",
+  "name": "ob_sk_sell",
   "spriteId": {
-    "name": "sp_Item_02",
-    "path": "sprites/sp_Item_02/sp_Item_02.yy",
+    "name": "sp_skillUi_104",
+    "path": "sprites/sp_skillUi_104/sp_skillUi_104.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "ob_item",
-    "path": "objects/ob_item/ob_item.yy",
+    "name": "ob_sk",
+    "path": "objects/ob_sk/ob_sk.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -33,7 +33,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"isSell","path":"objects/ob_item/ob_item.yy",},"objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"value":"True",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"isSell","path":"objects/ob_sk/ob_sk.yy",},"objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"value":"True",},
   ],
   "parent": {
     "name": "ingameOb",

@@ -3,24 +3,15 @@
 sc_npcCreate();
 isRest = false;
 
-jumoTalk1		= array_create(5);
+jumoTalk1		= array_create(3);
 jumoTalk2		= array_create(3);
 
-jumoTalk1[@0]	= new talkStruct("전 마을을 오가며 물건들을 판매하는 보부상이오.");
-jumoTalk1[@1]	= new talkStruct("아쉽게도... 이 마을에서 팔 물건들은 다 팔아서 \n선비님에게 팔 물건은 없구려...");
-jumoTalk1[@2]	= new talkStruct("아쉬운 대로, 다음에라도 뵈면 싸게 드리겠소");
-jumoTalk1[@3]	= new talkStruct("내 나이는 이래도, \n기억력은 아직 쓸만하다오, 껄껄껄");
-jumoTalk1[@4]	= new talkStruct(,,,1 , jumoTalk2)
-
-jumoTalk2[@0]	= new talkStruct("다음에라도 뵈면 싸게 드리겠소");
-jumoTalk2[@1]	= new talkStruct("내 나이는 이래도, \n기억력은 아직 쓸만하다오, 껄껄껄")
-jumoTalk2[@2]	= new talkStruct(,,,1 , jumoTalk2);
+jumoTalk1[@0]	= new talkStruct("전 마을을 오가며 물건들을 판매하는 보부상이오. \n필요한 물건이 있으면 한번 둘러보시오.");
+jumoTalk1[@1]	= new talkStruct("다른 물건을 원하신다면 보따리를 더 풀어드릴 수 있소");
+jumoTalk1[@2]	= new talkStruct(,,,1 , jumoTalk1)
 							
 talkIndex		= jumoTalk1;
 
-instance_create_layer(x-180, y, "effect2", ob_item_sell);
-instance_create_layer(x-340, y, "effect2", ob_item_sell);
-instance_create_layer(x-500, y, "effect2", ob_item_sell);
 /*
 
 talkLine[0] = 3;

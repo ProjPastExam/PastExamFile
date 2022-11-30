@@ -7,3 +7,5 @@ if (isDraw) {
 	//draw_sprite(keySprite, 0, x-120, y+110);
 }
 
+
+

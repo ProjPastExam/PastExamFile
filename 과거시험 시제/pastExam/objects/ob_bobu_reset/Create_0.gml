@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+isCol = false;
+costIndex = 50;
 
-//room_goto(nextRoom);
-//room_goto(r_stage04_1_1);
+alarm[1] = 1;
