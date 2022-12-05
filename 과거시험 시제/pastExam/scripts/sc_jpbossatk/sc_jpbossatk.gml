@@ -513,6 +513,12 @@ function sc_jpBossatk(){
 			kbIndex = 0;
 		}
 	}
+	
+	else if ( state == 9 ) {
+		if (process == 1) {
+			sc_jpBossAtkNext(nextState);
+		}
+	}
 }
 
 function sc_jpBossAtkNext(index = state){
