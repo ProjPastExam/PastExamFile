@@ -16,7 +16,7 @@ if (touch) {
 	draw_text(x, y+80, coinIndex);
 	*/
 	
-	draw_sprite(sp_text_get, 0, x+50, y+135);
-	sc_buttonPrint(global.btInter, global.gpInter, x-50, y+135);
+	draw_sprite(sp_text_get, global.lan, x-20, y+135);
+	sc_buttonPrint(global.btInter, global.gpInter, x-60, y+135);
 	touch = false;
 }

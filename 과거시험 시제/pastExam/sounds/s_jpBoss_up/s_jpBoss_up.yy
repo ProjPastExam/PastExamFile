@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_jpBoss_up.wav",
-  "duration": 0.624807,
+  "duration": 0.865986,
   "parent": {
     "name": "jp",
     "path": "folders/Sounds/mob/jp.yy",

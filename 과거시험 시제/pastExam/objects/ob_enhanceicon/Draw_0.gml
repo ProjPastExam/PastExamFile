@@ -16,4 +16,4 @@ draw_set_halign(fa_center);
 draw_set_font(f_dmg);
 draw_set_color(c_black);
 	
-draw_text(x, y+57, global.abIndex[enhanceNum-1]);
+draw_text(x, y+60, global.abIndex[enhanceNum-1]);

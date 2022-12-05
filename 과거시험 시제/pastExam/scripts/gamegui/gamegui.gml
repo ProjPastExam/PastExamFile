@@ -211,14 +211,14 @@ function sc_printTalk(isTalk) {
 	draw_sprite(npcFace, 0, 0, 0);
 	sc_buttonPrint(global.btAtk, global.gpAtk, 270, 520);
 	//draw_sprite(sc_keySprite(global.btAtk), 0, 270, 540);
-	draw_sprite(sp_text_next, 0, 380, 520);
+	draw_sprite(sp_text_next, global.lan, 310, 520);
 	
 	
 	draw_set_font(f_kor);
 	draw_set_color(c_black);
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
-	draw_text(270, 160, nameS);
+	draw_text_transformed(270, 160, nameS, 1.3, 1.3, 0);
 	
 	if (isTalk == 1) {
 		draw_text_ext(280, 250, talkString, 65, 1200);
