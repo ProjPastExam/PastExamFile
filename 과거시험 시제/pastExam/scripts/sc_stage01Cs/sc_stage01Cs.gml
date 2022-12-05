@@ -60,7 +60,7 @@ function sc_stage01Cs(){
 			var name = "산적"
 			var text = "험한 꼴 당하기 싫으면, 순순히 가진 거 다 내놔!";
 			BGM_Play(s_mB01_1, global.volBgm, 0);
-			sc_csBase(name, sp_cs01_face1, text, hang1, 580);
+			sc_csBase(name, sp_bandit_face, text, hang1, 580);
 			uc_shake(8, 0.1);
 			break;
 			
