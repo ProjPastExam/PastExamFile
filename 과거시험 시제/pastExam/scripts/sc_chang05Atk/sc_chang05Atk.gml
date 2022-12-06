@@ -32,7 +32,7 @@ function sc_chang05Atk(){
 		isDA = true;	isDF = true;
 		isCounter = true;
 		
-		//if ( process == 1 ) { audio_play_sound(s_bandit01atk1, 8, false); }
+		if ( process == 1 ) { audio_play_sound(s_chang_atk4, 8, false); }
 		if ( process == 50 ) { 
 			SE_Play(s_swing_b1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);

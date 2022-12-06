@@ -31,7 +31,7 @@ function sc_chang04Atk(){
 		
 		isDA = true;	isDK = true;
 		
-		//if ( process == 1 ) { audio_play_sound(s_bandit01atk1, 8, false); }
+		if ( process == 1 ) { audio_play_sound(s_chang_atk4, 8, false); }
 		if ( process == 45 || process == 105 ) { 
 			SE_Play(s_swing_b2, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);

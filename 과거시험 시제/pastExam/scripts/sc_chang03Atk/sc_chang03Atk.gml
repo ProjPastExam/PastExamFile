@@ -35,7 +35,7 @@ function sc_chang03Atk(){
 		sprite_index = sp_chang03_atk;
 		xSpeed = 0;
 		
-		//if ( process == 1 ) { audio_play_sound(s_jp_aAtk, 8, false); }
+		if ( process == 1 ) { audio_play_sound(s_chang_atk3, 8, false); }
 		if ( process == 50 ) { 
 			SE_Play(s_bandit01atk2, global.vol);
 			ob = instance_create_layer(x, y, "effect", ob_jpSpearAtk);

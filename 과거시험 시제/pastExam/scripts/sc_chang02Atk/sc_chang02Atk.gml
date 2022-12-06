@@ -30,7 +30,7 @@ function sc_chang02Atk(){
 		sprite_index = sp_chang02_atk;
 		xSpeed = 0;
 		
-		//if ( process == 1 ) { audio_play_sound(s_bandit02atk1, 8, false); }
+		if ( process == 1 ) { audio_play_sound(s_chang_atk2, 8, false); }
 		
 		if ( process == 36 ) { 
 			SE_Play(s_bandit02atk2, global.vol);

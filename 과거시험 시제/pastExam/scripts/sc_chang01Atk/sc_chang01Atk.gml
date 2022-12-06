@@ -29,7 +29,7 @@ function sc_chang01Atk(){
 		sprite_index = sp_chang01_atk;
 		xSpeed = 0;
 		
-		//if ( process == 1 ) { audio_play_sound(s_bandit01atk1, 8, false); }
+		if ( process == 1 ) { audio_play_sound(s_chang_atk1, 8, false); }
 		if ( process == 37 ) { 
 			SE_Play(s_bandit01atk2, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
