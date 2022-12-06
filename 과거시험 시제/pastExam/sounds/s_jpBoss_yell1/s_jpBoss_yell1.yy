@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_jpBoss_yell1.wav",
-  "duration": 1.881995,
+  "duration": 0.970998,
   "parent": {
     "name": "jp",
     "path": "folders/Sounds/mob/jp.yy",

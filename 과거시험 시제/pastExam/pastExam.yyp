@@ -1829,6 +1829,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"mob","folderPath":"folders/Sounds/mob.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"atk","folderPath":"folders/Sounds/mob/atk.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"bandit","folderPath":"folders/Sounds/mob/bandit.yy","order":0,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"chang","folderPath":"folders/Sounds/mob/chang.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"jp","folderPath":"folders/Sounds/mob/jp.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"music","folderPath":"folders/Sounds/music.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"stage01","folderPath":"folders/Sounds/music/stage01.yy","order":1,},
@@ -1936,7 +1937,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tileSprite","folderPath":"folders/Tile Sets/tileSprite.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":6,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"chang","folderPath":"folders/Sounds/mob/chang.yy","order":7,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
