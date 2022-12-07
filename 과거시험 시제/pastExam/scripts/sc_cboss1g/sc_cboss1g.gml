@@ -28,9 +28,12 @@ function sc_cBoss1G(){
 	else if (state == 1) {
 		process++;
 		sprite_index = sp_cB1G_atk1;
+		if ( process == 112 ) { 
+			SE_Play(s_cB1_atkG, global.vol);
+		}
 		
 		if ( process == 128 ) { 
-			SE_Play(s_swing_b1, global.vol);
+			//SE_Play(s_swing_b1, global.vol);
 		}
 
 		if (process < 8) { image_index = 0; }
@@ -62,8 +65,12 @@ function sc_cBoss1G(){
 		process++;
 		sprite_index = sp_cB1G_atk2;
 		
+		if ( process == 26 ) { 
+			SE_Play(s_cB1_atkG, global.vol);
+		}
+		
 		if ( process == 128 ) { 
-			SE_Play(s_swing_b1, global.vol);
+			//SE_Play(s_swing_b1, global.vol);
 		}
 
 		if (process < 6) { image_index = 0; }
@@ -86,8 +93,12 @@ function sc_cBoss1G(){
 		process++;
 		sprite_index = sp_cB1G_counter;
 		
+		if ( process == 20 ) { 
+			SE_Play(s_cB1_atkG, global.vol);
+		}
+		
 		if ( process == 128 ) { 
-			SE_Play(s_swing_b1, global.vol);
+			//SE_Play(s_swing_b1, global.vol);
 		}
 
 		if (process < 6) { image_index = 0; }

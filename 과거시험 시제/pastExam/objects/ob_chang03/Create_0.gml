@@ -14,7 +14,6 @@ sc_obPValue();
 sc_mobSpawn();
 alarm[0] = 1;
 alarm[5] = 5;
-ob = NULL;
 
 standSp = sp_chang03_stand;
 stand2Sp = sp_chang03_stand2;
