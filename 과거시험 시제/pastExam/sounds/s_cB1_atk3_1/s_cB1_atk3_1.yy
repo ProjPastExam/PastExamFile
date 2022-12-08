@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_cB1_atk3_1.wav",
-  "duration": 0.948617,
+  "duration": 1.028889,
   "parent": {
     "name": "chang",
     "path": "folders/Sounds/mob/chang.yy",

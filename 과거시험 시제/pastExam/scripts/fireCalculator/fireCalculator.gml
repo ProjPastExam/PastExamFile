@@ -3,6 +3,7 @@
 function sc_pl_fireDmg(mode = 0){
 	//기본 데미지 및 아이템 배율 적용
 	var dmg = global.fireDmg + sc_abScaleCalculator(7);
+	if (global.ranStage2 == 2) dmg += dmg/2;
 	if (mode == 1) return dmg;
 	
 	var dmgItem = sc_itemScaleCalculator(2, 0);
@@ -35,12 +36,16 @@ function sc_pl_fireComb(mode = 0) {
 
 function sc_pl_fireCt(mode = 0) {
 	var ct = global.fireCt + sc_abScaleCalculator(9);
+	if (global.ranStage2 == 3) ct += 0.50;
+	if (global.item10)	{ ct += (1 + global.item10) * ct * 0.25; }
 	if (mode == 1) return ct*100;
 	
 	var ctItem = sc_itemScaleCalculator(2, 3)/100;
 	if (mode == 2) return ctItem*100;
 	
-	if (mode == 0) return ct + ctItem;
+	ct = global.fireCt + sc_abScaleCalculator(9);
+	if (global.ranStage2 == 3) ct += 0.50;
+	if (mode == 0) return ct;
 }
 
 

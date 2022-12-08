@@ -3,6 +3,7 @@
 sc_set_abSoulMax();
 BGS_Set(0, 0);
 instance_create_depth(0, 0, 0, ob_gamepadSlot);
+randomize();
 
 pause = 0;
 slow = 0;
@@ -60,6 +61,19 @@ sc_itemSprite();
 sc_skillUi();
 //instance_create_depth(0, 0, 0, ob_UIControl);
 //sc_setMinimap();
+
+
+global.ranStage1 = 0;
+global.ranStage2 = 0;
+
+if (isRanStage) {
+	var ranIndex = irandom_range(0, 99);
+	if (ranIndex < 30) {
+		instance_create_layer(x, y, "effect2", ob_ranSunbi);
+	}
+}
+
+
 
 //파티클 시스템
 

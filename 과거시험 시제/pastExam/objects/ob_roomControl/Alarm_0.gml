@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (global.lanChange) {
+	with (ob_npcBase) {
+		alarm[9] = 1;
+	}
+	global.lanChange = false;
+}
 if ( pause > 0 ) pause--;
 if ( global.gameEnd ) {
 	alarm[10] = 1;

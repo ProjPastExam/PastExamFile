@@ -31,6 +31,23 @@ function sc_pl_hit(argument0){
 			part_particles_create( global.hitEf, plX, plY, global.hitEf04T, 1 );
 			global.comCt = 0;
 			break;
+			
+		case 1:
+			global.hp -= 2;
+			uc_shake(12, 0.2);
+			if ( sc_getRoomValue("pause") == 0 ) { ob_roomControl.pause = 30; }
+			SE_Play(s_plHit, global.vol);
+			//audio_play_sound(s_plHit, 5, false);
+			ob_player.hitAfter = 90;
+			ob_player.atkProcess = -1;
+			ob_player.dProcess = -1;
+			ob_player.canMove = 0;
+			ob_player.sprite_index = sp_pl_hit;
+			ob_player.xSpeed = ob_player.dir * -20;
+			if (instance_exists(ob_roomControl)) ob_roomControl.hpProcess = 24;
+			part_particles_create( global.hitEf, plX, plY, global.hitEf04T, 1 );
+			global.comCt = 0;
+			break;
 		}
 	}
 }

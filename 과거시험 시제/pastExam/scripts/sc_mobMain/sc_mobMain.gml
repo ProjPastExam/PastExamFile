@@ -23,6 +23,11 @@ function sc_mobMain(){
 				VSLS_SetAndSave("abSoul", global.abSoul, "saveFile");
 			}
 			
+			if (global.ranStage2 == 1 && global.hp < 9) {
+				global.hp++;	
+				instance_create_layer(0, 0, "effect", ob_healEf);	
+			}
+			
 			image_xscale = dir;
 			isDie = true;
 			with (ob_roomControl) {

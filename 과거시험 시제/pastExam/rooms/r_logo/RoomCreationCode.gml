@@ -22,6 +22,7 @@ surface_resize(application_surface, 1920, 1080);
 {
 global.gameEnd		= false;
 global.lan			= 0;
+global.lanChange	= false;
 	
 //공격 관련 변수
 global.atkDmg		= 10;
@@ -124,6 +125,12 @@ global.moneyBuffer	= 0;
 
 global.gamepadSlot	= 0;
 sc_getPadSlot();
+
+//0 : 기본	1 : 체력	2 : 공격력	3 : 경직도	4 : 이동속도
+global.ranStage1	= 0;
+
+//0 : 기본	1 : 체력회복	2 : 공격력	3 : 치명타	4 : 돈
+global.ranStage2	= 0
 
 //스킬 변수
 
