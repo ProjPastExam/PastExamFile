@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+/*
 if (select == 0) {
 	var col = #999999;
 	draw_set_font(f_dmg);
@@ -58,3 +58,4 @@ if (select == 1) {
 	
 	draw_sprite(sp_smithSelectSelect, 0, 260, 600 + (select2 * 80));
 }
+*/

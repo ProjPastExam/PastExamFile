@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "ob_npc_bobu01_1",
-  "spriteId": {
-    "name": "sp_bobu1_stand",
-    "path": "sprites/sp_bobu1_stand/sp_bobu1_stand.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

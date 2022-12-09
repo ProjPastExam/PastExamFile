@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "ob_npc_bobu_1",
   "spriteId": {
-    "name": "sp_bobu1_stand",
-    "path": "sprites/sp_bobu1_stand/sp_bobu1_stand.yy",
+    "name": "sp_bobu_stand",
+    "path": "sprites/sp_bobu_stand/sp_bobu_stand.yy",
   },
   "solid": false,
   "visible": true,

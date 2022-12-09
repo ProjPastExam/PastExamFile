@@ -28,7 +28,7 @@ if (select == 0) {
 	}
 	
 	if (sc_getKey(global.btInter, gp_face4, 0) ) {
-		if (global.itemGet[state] != NULL) {
+		if (global.itemGet[state] != NULL && global.itemGet[state].itemGrade < 3) {
 			select = 1;
 			select2 = 0;
 		}
@@ -42,12 +42,12 @@ if (select == 0) {
 }
 else if (select == 1) {
 	if (sc_getKey(global.btUp, gp_padu, 0)) {
-		if (select2 == 0) { select2 = 3; }
+		if (select2 == 0) { select2 = 1; }
 		else { select2--; }
 	}
 	
 	if (sc_getKey(global.btDown, gp_padd, 0)) {
-		if (select2 == 3) { select2 = 0; }
+		if (select2 == 1) { select2 = 0; }
 		else { select2++; }
 	}
 	if (sc_getKey(global.btInter, gp_face4, 0) ) {
@@ -71,7 +71,16 @@ with (ob_smithItemInfo) {
 	state	= other.state;
 	select	= other.select;
 }
+with (ob_smithItemInfo2) {
+	state	= other.state;
+	select	= other.select;
+}
 with (ob_smithSelectImage) {
 	state	= other.state;
 	select	= other.select;
+}
+with (ob_smithButton1) {
+	state	= other.state;
+	select	= other.select;
+	select2	= other.select2;
 }
