@@ -4,7 +4,7 @@ alarm[1] = 30;
 xSpeed = 0;
 ySpeed = 0;
 isDelete = false;
-costIndex = irandom_range(80, 120);
+costIndex = irandom_range(120, 180);
 
 sc_skillUi();
 sprite_index = skUi[skNum];

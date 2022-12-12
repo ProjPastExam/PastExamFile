@@ -37,7 +37,10 @@ function sc_bandit02Atk(){
 		if ( process == 36 ) {
 			SE_Play(s_bandit02atk2, global.vol);
 			//audio_play_sound(s_bandit02atk2, 8, false);
-			var axe = instance_create_layer(x-(10*dir), y, "effect", ob_mobBandit02Atk);
+			var axe = instance_create_layer(x-(10*dir), y, "effect", ob_mobAtkThrow);
+			axe.sprite_index	= sp_bandit02_atkEffect;
+			axe.atkSprite		= sp_bandit02_atkEffect;
+			axe.stopSprite		= sp_bandit02_atkEffect2;
 			if ( x > plX ) axe.dir = -1; else axe.dir = 1;
 			var xs = (plX-x)/80;
 			if (xs*dir > 0) axe.xSpeed = xs;

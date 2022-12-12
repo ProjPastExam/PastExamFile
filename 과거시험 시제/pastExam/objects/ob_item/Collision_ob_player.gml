@@ -17,7 +17,7 @@ if (sc_getKey(global.btInter, global.gpInter, 0)) {
 			}
 			if (isSell) {
 				global.money -= costIndex;
-				with (ob_item_sell)		{ costIndex += 50; }
+				//with (ob_item_sell)		{ costIndex += 50; }
 			}
 			instance_destroy();
 		}

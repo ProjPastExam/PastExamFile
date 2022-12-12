@@ -33,7 +33,7 @@ if (isDelete) {
 		}
 		if (isSell) {
 			global.money -= costIndex; 
-			with (ob_item_sell)		{ costIndex += 50; }
+			//with (ob_item_sell)		{ costIndex += 50; }
 		}
 		//global.tabDeleteIs = 0;
 		instance_destroy();

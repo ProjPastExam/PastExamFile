@@ -139,7 +139,7 @@ global.skKul	= array_create(3, 0);
 sc_skData();
 
 //대장간 변수
-global.smith1	= 50;
+global.smith1	= 40;
 global.smith2	= 50;
 global.smith3	= 50;
 

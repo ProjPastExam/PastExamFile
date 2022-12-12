@@ -7,7 +7,7 @@ touch = false;
 sin_t = 0;
 alarm[2] = 30;
 isDelete = false;
-costIndex = irandom_range(80, 120);
+costIndex = irandom_range(120, 180);
 
 if (isRand) {
 	var i = true;

@@ -85,13 +85,14 @@ function sc_chang05Atk(){
 		
 		
 		if ( process < 20 ) { image_index = 0; xSpeed = dir*(process-20);  }
-		else if ( process < 60 ) { image_index = 1; }
-		else if ( process < 80 ) { image_index = 1; xSpeed = dir*24; }
-		else if ( process < 85 ) { image_index = 2; }
-		else if ( process < 90 ) { image_index = 3; }
-		else if ( process < 95 ) { image_index = 4; }
-		else if ( process < 100 ) { image_index = 5; }
-		else if ( process < 105 ) { image_index = 6; }
+		else if ( process < 30 ) { image_index = 1; }
+		else if ( process < 60 ) { image_index = 2; }
+		else if ( process < 80 ) { image_index = 2; xSpeed = dir*24; }
+		else if ( process < 85 ) { image_index = 3; }
+		else if ( process < 90 ) { image_index = 4; }
+		else if ( process < 95 ) { image_index = 5; }
+		else if ( process < 100 ) { image_index = 6; }
+		else if ( process < 105 ) { image_index = 7; }
 		else { state = 9;	process = 80;	delay = random_range(150, 200); }
 	}
 	else if ( state == 5 || state == 6 || state == 7 || state == 8) {

@@ -41,7 +41,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_484C9C73","properties":[],"isDnd":false,"objectId":{"name":"ob_npc_bobu_1","path":"objects/ob_npc_bobu_1/ob_npc_bobu_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2624.0,"y":1632.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_114591AE","properties":[],"isDnd":false,"objectId":{"name":"ob_npc_jumo_1","path":"objects/ob_npc_jumo_1/ob_npc_jumo_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3264.0,"y":1632.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_73CC5864","properties":[],"isDnd":false,"objectId":{"name":"ob_sell_rest","path":"objects/ob_sell_rest/ob_sell_rest.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2912.0,"y":1640.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26ACD97C","properties":[],"isDnd":false,"objectId":{"name":"ob_smithTool","path":"objects/ob_smithTool/ob_smithTool.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1312.0,"y":1632.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_DC44DB0","properties":[],"isDnd":false,"objectId":{"name":"ob_sell_smith","path":"objects/ob_sell_smith/ob_sell_smith.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1312.0,"y":1632.0,},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"effect2","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2CF43FBA","properties":[],"isDnd":false,"objectId":{"name":"ob_bobu_reset","path":"objects/ob_bobu_reset/ob_bobu_reset.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2368.0,"y":1632.0,},
@@ -82,7 +82,7 @@
     {"name":"inst_114591AE","path":"rooms/r_stage02Village/r_stage02Village.yy",},
     {"name":"inst_73CC5864","path":"rooms/r_stage02Village/r_stage02Village.yy",},
     {"name":"inst_2CF43FBA","path":"rooms/r_stage02Village/r_stage02Village.yy",},
-    {"name":"inst_26ACD97C","path":"rooms/r_stage02Village/r_stage02Village.yy",},
+    {"name":"inst_DC44DB0","path":"rooms/r_stage02Village/r_stage02Village.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

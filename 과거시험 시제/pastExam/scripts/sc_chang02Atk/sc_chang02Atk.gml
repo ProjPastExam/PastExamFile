@@ -34,7 +34,10 @@ function sc_chang02Atk(){
 		
 		if ( process == 36 ) { 
 			SE_Play(s_bandit02atk2, global.vol);
-			var axe = instance_create_layer(x-(10*dir), y, "effect", ob_mobBandit02Atk);
+			var axe = instance_create_layer(x-(10*dir), y, "effect", ob_mobAtkThrow);
+			axe.sprite_index	= sp_chang02_atkEf1;
+			axe.atkSprite		= sp_chang02_atkEf1;
+			axe.stopSprite		= sp_chang02_atkEf2;
 			if ( x > plX ) axe.dir = -1; else axe.dir = 1;
 			var xs = (plX-x)/80;
 			if (xs*dir > 0) axe.xSpeed = xs;

@@ -1,10 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-
-
-
+if (global.itemGet[state] == NULL) {
+	enD = 0;
+}
+else {
+	enD = 80 + global.smith1 * global.itemGet[state].itemGrade;
+}
 
 if (select == 0) {
 	if (sc_getKey(global.btLeft, gp_padl, 0)) {
@@ -33,7 +35,7 @@ if (select == 0) {
 			select2 = 0;
 		}
 		else {
-			uc_shake(6, 0.2);
+			uc_shake(4, 0.2);
 		}
 	}
 	if (sc_getKey(global.btEsc, global.gpEsc, 0) ) {
@@ -41,6 +43,11 @@ if (select == 0) {
 	}
 }
 else if (select == 1) {
+	if (global.itemGet[state].itemGrade >= 3) {
+		select = 0;
+		select2 = 0;
+	}
+	
 	if (sc_getKey(global.btUp, gp_padu, 0)) {
 		if (select2 == 0) { select2 = 1; }
 		else { select2--; }
@@ -50,18 +57,19 @@ else if (select == 1) {
 		if (select2 == 1) { select2 = 0; }
 		else { select2++; }
 	}
+	
 	if (sc_getKey(global.btInter, gp_face4, 0) ) {
 		if (select2 == 0) {
-			if (global.itemGet[state].itemGrade < 3) {
-				global.itemGet[state].itemGrade++;
-			}
+			alarm[1] = 1;
 		}
-		else if (select2 == 3) { select = 0;	select2 = 0; }
+		else if (select2 == 1) { select = 0;	select2 = 0; }
 	}
+	
 	if (sc_getKey(global.btEsc, global.gpEsc, 0) ) {
 		select = 0;
 	}
 }
+
 
 with (ob_smithItemBox) {
 	state	= other.state;
@@ -83,4 +91,5 @@ with (ob_smithButton1) {
 	state	= other.state;
 	select	= other.select;
 	select2	= other.select2;
+	enD		= other.enD;
 }

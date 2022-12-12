@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "ob_sell_smith",
   "spriteId": {
-    "name": "sp_sell_rest",
-    "path": "sprites/sp_sell_rest/sp_sell_rest.yy",
+    "name": "sp_jumo_smithTool",
+    "path": "sprites/sp_jumo_smithTool/sp_jumo_smithTool.yy",
   },
   "solid": false,
   "visible": true,
