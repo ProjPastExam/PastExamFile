@@ -1,1 +1,0 @@
-coinIndex = 500;

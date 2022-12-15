@@ -12,13 +12,16 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		sc_cBoss1Atk();
 	}
 	else {
-		sprite_index = sp_jpBoss_die;
+		sprite_index = sp_cB1_pain;
 		if ( process < 280 ) process++;
 		if ( process == 1 ) { 
-			sc_dieJp2();
-			alarm[4] = 360;
+			//sc_dieJp2();
+			alarm[4] = 30;
 			BGM_Stop(0);
 		}
+		xSpeed = 0
+		
+		/*
 		if ( process < 8 ) { image_index = 0; xSpeed = -1 * dir * 18; }
 		else if ( process < 16 ) { image_index = 1; xSpeed = -1 * dir * 12; }
 		else if ( process < 24 ) { image_index = 2; xSpeed = -1 * dir * 9; }
@@ -55,6 +58,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		else if ( process < 272 ) { image_index = 30; }
 		else if ( process < 280 ) { image_index = 31; }
 		else if (!isJump) { image_index = 32; xSpeed = 0;   }
+		*/
 	}
 	sc_mobfixlotation();
 	sc_obPhysics();

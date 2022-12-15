@@ -12,18 +12,24 @@ function sc_stage03BossCs2(){
 			alarm[1] = 90;
 			isTalk = 4;
 			break;
-			
+		
 		case 1:
-			alarm[1] = 120;
-			isTalk = 5;
+			alarm[1] = 60;
+			isTalk = 4;
 			break;
 			
+		case 2:
+			alarm[1] = 1;
+			isTalk = 4;
+			break;
+		/*
 		case 2:
 			var name = "성춘향"
 			var text = "해치운건가요?";
 			sc_csBase(name, sp_chun_face_angry, text, 230, 520);
 			break;
 			
+			*/
 		case 3:
 			ob_roomControl.isTalk = 8;
 			sc_csBase2(1170, 520);
@@ -33,17 +39,19 @@ function sc_stage03BossCs2(){
 			
 		case 4:
 			alarm[1] = 80;
+			SE_Play(s_cB1_atkG, global.vol);
 			isTalk = 4;
 			break;
 			
 		case 5:
-			alarm[1] = 30;
+			alarm[1] = 20;
 			isTalk = 4;
 			break;
 			
 		case 6:
 			alarm[1] = 90;
 			isTalk = 4;
+			SE_Play(s_st3_boss1, global.vol);
 			break;
 			
 		case 7:

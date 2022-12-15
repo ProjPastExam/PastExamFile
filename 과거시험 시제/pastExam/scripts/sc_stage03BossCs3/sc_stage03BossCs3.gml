@@ -6,18 +6,22 @@ function sc_stage03BossCs3(){
 	
 	if (state == 2 && alarm[1] = 135) {
 		uc_shake(10, 0.1);
+		SE_Play(s_st3_boss3, global.vol);
 	}
 	
 	if (state == 2 && alarm[1] = 45) {
 		uc_shake(12, 0.1);
+		SE_Play(s_st3_boss1, global.vol);
 	}
 	
 	if (state == 4 && alarm[1] = 145) {
 		uc_shake(12, 0.1);
+		SE_Play(s_st3_boss2, global.vol);
 	}
 	
 	if (state == 4 && alarm[1] = 25) {
 		uc_shake(8, 0.1);
+		SE_Play(s_cB1_atkG, global.vol);
 	}
 	
 	

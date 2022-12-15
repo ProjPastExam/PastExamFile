@@ -42,12 +42,13 @@ function sc_stage03BossCs1(){
 		case 4:
 			var name = "악령"
 			var text = "불청객이로군...";
-			sc_csBase(name, sp_npc_blank, text, -500, 540);
+			sc_csBase(name, sp_cB_face, text, -500, 540);
 			break;
 			
 		case 5:
 			ob_roomControl.isTalk = 4;
 			alarm[1] = 300;
+			SE_Play(s_cB1_atkG, global.vol);
 			isTalk = 4;
 			break;
 			
