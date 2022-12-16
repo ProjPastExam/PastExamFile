@@ -6,10 +6,11 @@ function sc_itemSet(){
 	//global.itemNum		= 4;
 	var i = 0;
 	for (i = 0; i < 10; i++) {
-		global.itemGet[i] = -1;
+		global.itemGet[i] = NULL;
 		//global.itemGrade[i] = -1;
 	}
 	
+	sc_itemData();
 
 	//신기전 모션변경 아이템
 

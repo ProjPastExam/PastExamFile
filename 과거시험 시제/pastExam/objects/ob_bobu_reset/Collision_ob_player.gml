@@ -11,8 +11,8 @@ if (sc_getKey(global.btInter, global.gpInter, 0)) {
 	else {
 		global.money -= costIndex;
 		costIndex += 20;
-		with (ob_item_sell) { instance_destroy(); }
-		with (ob_sk_sell)	{ instance_destroy(); }
+		with (ob_item)	{ instance_destroy(); }
+		with (ob_sk)	{ instance_destroy(); }
 		alarm[1] = 1;
 	}
 }

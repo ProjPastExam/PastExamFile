@@ -43,6 +43,18 @@ function sc_obPhysics() {
 		if ( xSpeed > 0 ) xSpeed = 0; 
 		if (middle == 3 ) x -= 5;
 	}
+	if ( ( right1 == 3 || right2 == 3 ) && ( left1 == 3 || left2 == 3)) {
+		var left3	= tilemap_get_at_pixel(tileId, bbox_left-32, (bbox_top+bbox_bottom)/2 );
+		var right3	= tilemap_get_at_pixel(tileId, bbox_right+32, (bbox_top+bbox_bottom)/2 );
+		
+		if (right3 == 3) {
+			x -= 32;
+		}
+		else if (left3 == 3) {
+			x += 32;
+		}
+	}
+	
 	
 	if (instance_exists(ob_roomControl) && ob_roomControl.cmMode == 1) {
 		var i = uc_get_x();

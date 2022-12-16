@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_st3_boss2.wav",
-  "duration": 1.051519,
+  "duration": 1.699138,
   "parent": {
     "name": "cs",
     "path": "folders/Sounds/cs.yy",
