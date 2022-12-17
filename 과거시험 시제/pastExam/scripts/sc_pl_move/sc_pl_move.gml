@@ -52,65 +52,66 @@ function sc_pl_move() {
 	else if (canMove == 0) { sc_pl_sprite(2); }
 
 	
-	if ( canMove == 0 ) {
-		//좌우 이동
-		if ( keyLeft )	{ 
-			if ( xSpeed > -walkSpeed )	xSpeed -= accSpeed;
-			else xSpeed = -walkSpeed;
-			dir = -1;
-			if ( !isJump && canMove == 0 ) sc_pl_sprite(1);
-		}
-		else if ( keyRight )	{
-			if (( xSpeed < walkSpeed ))	xSpeed += accSpeed; 
-			else xSpeed = walkSpeed;
-			dir = 1;
-			if ( !isJump && canMove == 0 ) sc_pl_sprite(1);
-		}
-
-	}
-
-	//입력 없을시 정지
-	if ( !keyLeft && !keyRight && ( canMove == 0 ) ) {
-		if ( !isJump && canMove == 0 ) { sc_pl_sprite(0);	spIndex = false; }
-		if ( xSpeed > accSpeed )		xSpeed -= accSpeed;
-		else if ( xSpeed < -accSpeed )	xSpeed += accSpeed;
-		//if (xSpeed > 1 && xSpeed < -1)	xSpeed = xSpeed / 1.1;
-		else							xSpeed = 0;
-	}
-	
 	if ( atkProcess < -1 ) atkProcess++;
 	if ( dProcess < -1 ) dProcess++;
-	
-	if ( keyAttack && atkProcess == -1 && canMove == 0 ) {
-		if (keyTop && isJump) { canMove = 8; }
-		else if (keyDown && isJump) canMove = 13;
-		//else if (keyRight) { canMove = 3; dir = 1; }
-		//else if (keyLeft) { canMove = 3; dir = -1; }
-		else canMove = 1;
-		atkProcess = 0;
-	}
-	if ( keyDash && dProcess == -1 && canMove == 0 && isDash) {
-		dProcess = 0;
-		canMove = 10;
-	}
-	if ( keySk1 && atkProcess == -1 && canMove == 0 && global.mp >= global.skMp[global.sk1] && global.skKul[0] == 0 ) {
-		{ atkProcess = 0; canMove = global.sk1; skState = 0; }
-	}
-	if ( keySk2 && atkProcess == -1 && canMove == 0 && global.mp >= global.skMp[global.sk2] && global.skKul[1] == 0 ) {
-		{ atkProcess = 0; canMove = global.sk2; skState = 1; }
-	}
-	if ( keySk3 && atkProcess == -1 && canMove == 0 && global.mp >= global.skMp[global.sk3] && global.skKul[2] == 0 ) {
-		 { atkProcess = 0; canMove = global.sk3; skState = 2; }
-	}
-	// && atkProcess == -1 && canMove == 0
 	if ( global.mp < 0 ) global.mp = 0;
 	
-	if ( isAtk3 == 20 && canMove == 0 && global.item9) {
-		canMove = 12;
-		isAtk3 = 0;
-		atkProcess = 0;
+	if ( canMove == 0 ) {
+		//좌우 이동
+		if ( keyLeft )	{ //좌로 이동
+			if ( xSpeed > -walkSpeed )	{
+				if (isJump)	xSpeed -= accSpeed;
+				else		xSpeed = -walkSpeed;
+			}
+			else xSpeed = -walkSpeed;
+			dir = -1;
+			if ( !isJump ) sc_pl_sprite(1);
+		}
+		else if ( keyRight )	{	//우로 이동
+			if (( xSpeed < walkSpeed ))	{
+				if (isJump)	xSpeed += accSpeed; 
+				else		xSpeed = walkSpeed;
+			}
+			else xSpeed = walkSpeed;
+			dir = 1;
+			if ( !isJump ) sc_pl_sprite(1);
+		}
+		else {	//입력 없을시 정지
+			if ( !isJump ) { sc_pl_sprite(0);	spIndex = false; }
+			if ( xSpeed > accSpeed )		xSpeed -= accSpeed;
+			else if ( xSpeed < -accSpeed )	xSpeed += accSpeed;
+			else							xSpeed = 0;
+		}
+		
+		//공격 함수
+		if ( keyAttack && atkProcess == -1 ) {
+			if (keyTop && isJump) { canMove = 8; }
+			else if (keyDown && isJump) canMove = 13;
+			//else if (keyRight) { canMove = 3; dir = 1; }
+			//else if (keyLeft) { canMove = 3; dir = -1; }
+			else canMove = 1;
+			atkProcess = 0;
+		}
+		if ( keyDash && dProcess == -1 && isDash) {
+			dProcess = 0;
+			canMove = 10;
+		}
+		if ( keySk1 && atkProcess == -1 && global.mp >= global.skMp[global.sk1] && global.skKul[0] == 0 ) {
+			{ atkProcess = 0; canMove = global.sk1; skState = 0; }
+		}
+		if ( keySk2 && atkProcess == -1 && global.mp >= global.skMp[global.sk2] && global.skKul[1] == 0 ) {
+			{ atkProcess = 0; canMove = global.sk2; skState = 1; }
+		}
+		if ( keySk3 && atkProcess == -1 && global.mp >= global.skMp[global.sk3] && global.skKul[2] == 0 ) {
+			 { atkProcess = 0; canMove = global.sk3; skState = 2; }
+		}
+		
+		if ( isAtk3 == 20 && global.item9) {
+			canMove = 12;
+			isAtk3 = 0;
+			atkProcess = 0;
+		}
 	}
-	
 	
 	if ( atkProcess > -1 ) {
 		switch(canMove) {
