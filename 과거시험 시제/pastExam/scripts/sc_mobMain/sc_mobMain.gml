@@ -28,6 +28,14 @@ function sc_mobMain(){
 				instance_create_layer(0, 0, "effect", ob_healEf);	
 			}
 			
+			if (!isHpUI) {
+				var ran		= irandom_range(0, 99);
+				var ran2	= sqrt(global.hpMax - global.hp)*10;
+				if (ran < ran2) {
+					instance_create_layer(x, y, "effect", ob_heart);
+				}
+			}
+			
 			image_xscale = dir;
 			isDie = true;
 			with (ob_roomControl) {

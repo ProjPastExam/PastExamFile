@@ -72,7 +72,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "mob",
-    "path": "folders/Sprites/mob.yy",
+    "name": "parent",
+    "path": "folders/Sprites/mob/parent.yy",
   },
 }
