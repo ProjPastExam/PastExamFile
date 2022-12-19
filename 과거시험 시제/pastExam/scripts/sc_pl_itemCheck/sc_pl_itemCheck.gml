@@ -20,6 +20,7 @@ function sc_pl_itemCheck(){
 	global.item8	= 0;
 	global.item9	= 0;
 	global.item10	= 0;
+	global.item11	= 0;
 	//global.atkCtMagScaleItem	= 1;
 	//global.kickCtMagScaleItem	= 1;
 	//global.fireCtMagScaleItem	= 1;

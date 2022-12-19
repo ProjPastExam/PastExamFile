@@ -47,5 +47,7 @@ function sc_itemData(){
 	global.itemData[10]	= new itemStruct ( 10, sp_Item_10, sp_ItemInfo_10, 3,
 		function(grade) { global.item10 = grade; })
 	
-	
+	//불화살
+	global.itemData[11]	= new itemStruct ( 11, sp_Item_11, sp_ItemInfo_11, 2,
+		function(grade) { global.item11 = grade; })
 }
