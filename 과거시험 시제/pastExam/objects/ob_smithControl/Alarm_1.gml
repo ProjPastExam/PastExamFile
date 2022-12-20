@@ -6,7 +6,7 @@ if (global.itemGet[state].itemGrade < 3) {
 	if (enD <= global.money) {
 		global.itemGet[state].itemGrade++;
 		global.money -= enD;
-		
+		SE_Play(s_smith, global.vol);
 		with (ob_smithItemBox) { alarm[2] = 1; }
 	}
 	else {

@@ -25,10 +25,17 @@ function sc_pl_atk2(){
 	sc_pl_skKey();
 	
 	if ( atkProcess == 26 ) {
-		sc_pl_atkEf(sc_pl_atkDmg()*2.5, sc_pl_atkPene(), sc_pl_atkShock()*1.2, sc_pl_atkMana(), 
-			0, 0, 0, sp_pl_atkEf02, dir);
-		SE_Play(s_arrow02, global.vol);
-		//audio_play_sound(s_arrow02, 5, false);
+		if (global.item11) {
+			var fDmg = 2.5*sc_pl_fireDmg() * (1+global.item11)/2;
+			sc_pl_atkEf(fDmg, sc_pl_firePene(), sc_pl_fireShock()*1.2, sc_pl_fireMana(), 
+				0, 11, 0, sp_pl_itemEf11_2, dir,,,,,,ob_atkEfItem11);
+			SE_Play(s_item11_2, global.vol);
+		}
+		else {
+			sc_pl_atkEf(sc_pl_atkDmg()*2.5, sc_pl_atkPene(), sc_pl_atkShock()*1.2, sc_pl_atkMana(), 
+				0, 0, 0, sp_pl_atkEf02, dir);
+			SE_Play(s_arrow02, global.vol);
+		}
 	}
 	
 	//대쉬 제어

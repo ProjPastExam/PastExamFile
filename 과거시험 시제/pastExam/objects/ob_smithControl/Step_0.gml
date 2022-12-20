@@ -31,6 +31,7 @@ if (select == 0) {
 	
 	if (sc_getKey(global.btInter, gp_face4, 0) ) {
 		if (global.itemGet[state] != NULL && global.itemGet[state].itemGrade < 3) {
+			SE_Play(s_talk, global.vol);
 			select = 1;
 			select2 = 0;
 		}
@@ -62,7 +63,11 @@ else if (select == 1) {
 		if (select2 == 0) {
 			alarm[1] = 1;
 		}
-		else if (select2 == 1) { select = 0;	select2 = 0; }
+		else if (select2 == 1) { 
+			select = 0;	
+			select2 = 0;	
+			SE_Play(s_talk, global.vol); 
+		}
 	}
 	
 	if (sc_getKey(global.btEsc, global.gpEsc, 0) ) {

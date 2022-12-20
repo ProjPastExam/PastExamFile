@@ -7,7 +7,8 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 		if ( state != 9 ) {
 			if ( state == 8 ) { kbIndex = 16; ySpeed = -11*(100-down/2)/100; }
 			else {
-				if (!isDA && (hitKind == 0 || hitKind == 10)) { state = 5 kbIndex = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
+				if (!isDA && (hitKind == 0 || hitKind == 10 || hitKind == 11)) 
+					{ state = 5 kbIndex = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
 				else if (!isDK && hitKind == 1 ) { state = 6; kbIndex = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
 				else if (!isDF && hitKind == 2 ) { state = 7; kbIndex = shVal; ySpeed -= hitUp*(100-down/2)/100;  }
 			}
@@ -29,6 +30,7 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 	}
 	
 	if (hitKind == 10) hitKind = 1;
+	if (hitKind == 11) hitKind = 2;
 	
 	var ctRange = irandom_range(0, 99);
 	var isCt = false;

@@ -19,8 +19,18 @@ function sc_pl_atkUp(){
 	}
 	
 	if ( atkProcess == 32 ) {
-		var atk = sc_pl_atkEf(sc_pl_atkDmg()*2.5, sc_pl_atkPene(), sc_pl_atkShock()*1.2, sc_pl_atkMana(), 
-			0, 0, 0, sp_pl_atkEf02, dir);
+		var atk
+		if (global.item11) {
+			var fDmg = 2.5*sc_pl_fireDmg() * (1+global.item11)/2;
+			atk = sc_pl_atkEf(fDmg, sc_pl_firePene(), sc_pl_fireShock()*1.2, sc_pl_fireMana(), 
+				0, 11, 0, sp_pl_itemEf11_2, dir,,,,,,ob_atkEfItem11);
+			SE_Play(s_item11_2, global.vol);
+		}
+		else {
+			atk = sc_pl_atkEf(sc_pl_atkDmg()*2.5, sc_pl_atkPene(), sc_pl_atkShock()*1.2, sc_pl_atkMana(), 
+				0, 0, 0, sp_pl_atkEf02, dir);
+			SE_Play(s_arrow02, global.vol);
+		}
 		
 		if ( dir == 1 )		atk.image_angle = 35;
 		if ( dir == -1 )	atk.image_angle = -35;

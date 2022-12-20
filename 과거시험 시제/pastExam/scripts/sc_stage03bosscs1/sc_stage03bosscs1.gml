@@ -40,6 +40,7 @@ function sc_stage03BossCs1(){
 			break;
 			
 		case 4:
+			BGM_Play(s_mB03_1, global.volBgm, 0);
 			var name = "악령"
 			var text = "불청객이로군...";
 			sc_csBase(name, sp_cB_face, text, -500, 540);
@@ -60,6 +61,7 @@ function sc_stage03BossCs1(){
 		case 7:
 			ob_roomControl.alarm[7] = 1;
 			BGS_Set(0, 30);
+			BGM_Stop(30);
 			break;
 		}
 	}

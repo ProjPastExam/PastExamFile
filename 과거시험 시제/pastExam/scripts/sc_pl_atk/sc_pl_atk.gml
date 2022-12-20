@@ -29,6 +29,12 @@ function sc_pl_atk(){
 				0, 0, 0, sp_pl_atkEf01, dir,,,,,5 + item7*10);
 			SE_Play(s_pl_item7, global.vol);
 		}
+		else if (global.item11) {
+			var fDmg = sc_pl_fireDmg() * (1+global.item11)/2;
+			sc_pl_atkEf(fDmg, sc_pl_firePene(), sc_pl_fireShock(), sc_pl_fireMana(), 
+				0, 11, 0, sp_pl_itemEf11_1, dir,,,,,,ob_atkEfItem11);
+			SE_Play(s_item11_1, global.vol);
+		}
 		else {
 			sc_pl_atkEf(sc_pl_atkDmg(), sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana(), 
 				0, 0, 0, sp_pl_atkEf01, dir);
@@ -37,9 +43,17 @@ function sc_pl_atk(){
 	}
 	
 	if ( atkProcess == 30 ) {
-		sc_pl_atkEf(sc_pl_atkDmg(), sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana(), 
-			0, 0, 0, sp_pl_atkEf01, dir);
-		SE_Play(s_arrow01, global.vol);
+		if (global.item11) {
+			var fDmg = sc_pl_fireDmg() * (1+global.item11)/2;
+			sc_pl_atkEf(fDmg, sc_pl_firePene(), sc_pl_fireShock(), sc_pl_fireMana(), 
+				0, 11, 0, sp_pl_itemEf11_1, dir,,,,,,ob_atkEfItem11);
+			SE_Play(s_item11_1, global.vol);
+		}
+		else {
+			sc_pl_atkEf(sc_pl_atkDmg(), sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana(), 
+				0, 0, 0, sp_pl_atkEf01, dir);
+			SE_Play(s_arrow01, global.vol);
+		}
 	}
 	/*
 	if ( atkProcess == 20 && isAtk3 == 20 ) {

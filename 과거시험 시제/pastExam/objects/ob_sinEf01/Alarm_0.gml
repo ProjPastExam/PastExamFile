@@ -17,17 +17,8 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	if (center == 3) act = true;
 	
 	if (act) {
-		with (instance_create_layer(x, y, "effect", ob_atkEf05)) {
-			sprite_index = sp_hitEffect_sin;
-			dmg = sc_pl_fireDmg()*5;
-			shock = sc_pl_fireShock();
-			pene = sc_pl_firePene();
-			mana = sc_pl_fireMana();
-			hitKind = 2;
-			hitUp = 8;
-			
-			image_xscale = other.dir;
-		}
+		sc_pl_atkEf(sc_pl_fireDmg()*5, sc_pl_firePene(), sc_pl_fireShock(), sc_pl_fireMana(), 
+				9, 2, 0, sp_hitEffect_sin, dir);
 		
 		/*
 		var atk = instance_create_layer(x, y, "effect", ob_atkEf05)
