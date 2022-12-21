@@ -50,4 +50,8 @@ function sc_itemData(){
 	//불화살
 	global.itemData[11]	= new itemStruct ( 11, sp_Item_11, sp_ItemInfo_11, 2,
 		function(grade) { global.item11 = grade; })
+		
+	//은장도
+	global.itemData[12]	= new itemStruct ( 12, sp_Item_11, sp_ItemInfo_11, 1,
+		function(grade) { global.item12 = grade; })
 }

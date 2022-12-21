@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_item11_1.wav",
-  "duration": 0.692744,
+  "duration": 0.50675,
   "parent": {
     "name": "player",
     "path": "folders/Sounds/player.yy",
