@@ -14,9 +14,12 @@ function sc_pl_dash(){
 	//if ( !isDash ) { canMove = 0; dProcess = -1; return; }
 	
 	if ( dProcess == 4 && global.item12) {
-		var kDmg = sc_pl_kickDmg()*global.item12;
-		sc_pl_atkEf(kDmg, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
-			0, 1, 0, sp_pl_itemEf12, dir,,,,,,ob_atkEfTrack);
+		var kDmg = sc_pl_kickDmg()/2;
+		var kt = 0;
+		if (global.item12 == 2)			kt = 10;
+		else if (global.item12 == 3)	kt = 6;
+		sc_pl_atkEf(kDmg, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana()/2, 
+			0, 10, kt, sp_pl_itemEf12, dir,,,,,,ob_atkEfTrack);
 		SE_Play(s_swing_c1, global.vol);
 		//audio_play_sound(s_kick01, 5, false);
 	}

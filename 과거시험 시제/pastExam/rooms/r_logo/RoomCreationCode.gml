@@ -78,7 +78,7 @@ global.fireDmgScale = 1;
 
 //아이템 관련 변수
 {
-global.itemMax		= 11;	//아이템 종류, 패치값
+global.itemMax		= 13;	//아이템 종류, 패치값
 global.itemSum		= 0;
 global.itemGet 		= array_create(10, NULL);
 global.itemGrade	= array_create(10, -1);
