@@ -11,6 +11,7 @@ function sc_globalLoad(){
 	
 	global.fullScreen	= VSLS_Get("fullScreen");
 	global.reStory		= VSLS_Get("reStory");
+	global.level		= VSLS_Get("level");
 	
 	global.clearStage	= VSLS_Get("clearStage");
 	

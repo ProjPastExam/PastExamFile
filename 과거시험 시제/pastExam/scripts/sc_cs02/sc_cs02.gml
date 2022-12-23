@@ -28,7 +28,7 @@ function sc_cs02(){
 			BGM_Play(s_mB01_1, global.volBgm, 0);
 			SE_Play(s_talk, global.vol);
 			sprite_index = sp_pl_standPeace;
-			var name = "???"
+			var name = "????"
 			var text = "으아앙!";
 			sc_csBase(name, sp_npc_blank, text, -50, 540);
 			uc_shake(10, 0.05);
@@ -55,7 +55,7 @@ function sc_cs02(){
 		
 		case 6:
 			var name = "어린아이"
-			var text = "제발..저좀 도와주세요.. 엉엉";
+			var text = "제발.. 저 좀 도와주세요.. 엉엉";
 			sc_csBase(name, sp_cs02_face, text, ii, iy);
 			break;
 			
@@ -107,7 +107,7 @@ function sc_cs02(){
 		
 		case 14:
 			var name = "어린아이"
-			var text = "저희 가족들좀 구해주세요!.. 엉엉..";
+			var text = "저희 가족들 좀 구해주세요!.. 엉엉..";
 			sc_csBase(name, sp_cs02_face, text, ii, iy);
 			break;
 			

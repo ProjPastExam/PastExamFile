@@ -37,7 +37,7 @@ function sc_jpSwordSAtk(){
 		isDA = true;	isDF = true;
 		
 		if ( process == 1 ) { SE_Play(s_jp_eAtk, global.vol);	isCounter = true; }
-		if ( process == 52 ) { 
+		if ( process == 52+lvDly ) { 
 			SE_Play(s_swing_a1, global.vol);
 			//audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
@@ -46,12 +46,12 @@ function sc_jpSwordSAtk(){
 		}
 		
 		
-		if ( process < 40 ) { image_index = 0; }
-		else if ( process < 44 ) { image_index = 1; xSpeed = dir*20; }
-		else if ( process < 48 ) { image_index = 1; xSpeed = dir*22; }
-		else if ( process < 52 ) { image_index = 1; xSpeed = dir*24; }
-		else if ( process < 57 ) { image_index = 2; }
-		else if ( process < 65 ) { image_index = 3; }
+		if ( process < 40+lvDly ) { image_index = 0; }
+		else if ( process < 44+lvDly ) { image_index = 1; xSpeed = dir*20; }
+		else if ( process < 48+lvDly ) { image_index = 1; xSpeed = dir*22; }
+		else if ( process < 52+lvDly ) { image_index = 1; xSpeed = dir*24; }
+		else if ( process < 57+lvDly ) { image_index = 2; }
+		else if ( process < 65+lvDly ) { image_index = 3; }
 		else { state = 14;	process = 0; }
 	}
 	
@@ -59,7 +59,7 @@ function sc_jpSwordSAtk(){
 		process++;
 		sprite_index = sp_jpSwordS_backstep;
 		
-		isDA = true;	isDF = true;
+		isDA = true;	isDK = true;	isDF = true;
 		
 		if ( process < 4 ) { image_index = 0; }
 		else if ( process < 10 ) { image_index = 1; xSpeed = dir*16*-1; }
@@ -103,7 +103,7 @@ function sc_jpSwordSAtk(){
 		if ( process == 1 ) { isStun = false; }
 		if ( process == 24 ) { SE_Play(s_jp_eAtk, global.vol); }
 		
-		if ( process == 77 ) { 
+		if ( process == 77+lvDly ) { 
 			SE_Play(s_swing_a2, global.vol);
 			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
@@ -114,12 +114,12 @@ function sc_jpSwordSAtk(){
 		
 		if ( process < 24 ) { image_index = 0; xSpeed = dir * (process-30)/1.5; }
 		else if ( process < 30 ) { image_index = 1; xSpeed = dir * (process-30)/1.5; }
-		else if ( process < 58 ) { image_index = 1; }
-		else if ( process < 64 ) { image_index = 2; xSpeed = 9 * dir; }
-		else if ( process < 70 ) { image_index = 2; xSpeed = 18 * dir; }
-		else if ( process < 77 ) { image_index = 2; xSpeed = 27 * dir; }
-		else if ( process < 82 ) { image_index = 3; xSpeed = 6 * dir; }
-		else if ( process < 100 ) { image_index = 4; }
+		else if ( process < 58+lvDly ) { image_index = 1; }
+		else if ( process < 64+lvDly ) { image_index = 2; xSpeed = 9 * dir; }
+		else if ( process < 70+lvDly ) { image_index = 2; xSpeed = 18 * dir; }
+		else if ( process < 77+lvDly ) { image_index = 2; xSpeed = 27 * dir; }
+		else if ( process < 82+lvDly ) { image_index = 3; xSpeed = 6 * dir; }
+		else if ( process < 100+lvDly ) { image_index = 4; }
 		else { state = 9;	process = 80;	delay = 0; }
 	}
 	

@@ -29,6 +29,9 @@ function sc_mobSpawn(){
 	
 	isDie		= false;
 	
+	lvDly		= 0;
+	if (global.level == 0)	lvDly = 10;
+	
 	if (isHpUI) {
 		global.uiHp = hp;
 		global.uiHpIndex = hp;

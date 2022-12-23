@@ -27,7 +27,7 @@ talk3[@1]	= new talkStruct("왜란으로도 충분히 끔찍했는데... \n큰�
 talk3[@2]	= new talkStruct(,,,1 , talk3);
 
 talk4[@0]	= new talkStruct("왜놈들은 검을 다루는데 능숙하다고 해요.",,sp_chun_face_silence);
-talk4[@1]	= new talkStruct("이놈들이 비록 산적화된 패잔병이라고 해도, \n놈들과 싸울 땐 조심하세요.",,sp_chun_face_angry);
+talk4[@1]	= new talkStruct("이놈들이 비록 패잔병이라고 해도, \n놈들과 싸울 땐 조심하세요.",,sp_chun_face_angry);
 talk4[@2]	= new talkStruct(,,,1 , talk4);
 
 talk5[@0]	= new talkStruct("왜놈들이 사용하던 조총은, \n먼 서쪽 나라 상인들에게서 들여왔다고 해요.",,sp_chun_face_silence);

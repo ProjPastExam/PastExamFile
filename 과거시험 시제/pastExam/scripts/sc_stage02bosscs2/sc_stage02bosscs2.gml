@@ -24,13 +24,13 @@ function sc_stage02BossCs2(){
 			
 		case 2:
 			var name = "행인 2"
-			var text = "덕분에 살았소";
+			var text = "덕분에 살았소.";
 			sc_csBase(name, sp_st02Cs_npc3_face, text, 1240, iy);
 			break;
 			
 		case 3:
 			var name = "행인 3"
-			var text = "어휴, 무서워 죽는줄 알았어요 \n덕분에 마을로 돌아갈 수 있겠네요";
+			var text = "어휴, 무서워 죽는 줄 알았어요. \n덕분에 마을로 돌아갈 수 있겠네요.";
 			sc_csBase(name, sp_st02Cs_npc2_face, text, 1370, iy);
 			break;
 			

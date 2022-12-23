@@ -18,7 +18,7 @@ function sc_tutoChunCs1(){
 			break;
 			
 		case 1:
-			var name = "????";
+			var name = "???";
 			var text = "거기! 제가 도와드릴게요!";
 			sc_csBase(name, sp_chun_face, text, -50, -50);
 			break;

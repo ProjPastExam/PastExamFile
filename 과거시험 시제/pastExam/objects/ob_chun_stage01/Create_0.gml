@@ -26,7 +26,7 @@ talk3[@0]	= new talkStruct("안 그래도 왜란으로 다들 힘들었는데, \
 talk3[@1]	= new talkStruct("참 못된 놈들이에요!",,sp_chun_face_angry);
 talk3[@2]	= new talkStruct(,,,1 , talk3);
 
-talk4[@0]	= new talkStruct("이 사람들도 먹고살기 힘들었겠지만...",,sp_chun_face_silence);
+talk4[@0]	= new talkStruct("이 사람들도 먹고 살기 힘들었겠지만...",,sp_chun_face_silence);
 talk4[@1]	= new talkStruct("그래도 산적질을 하는 건 잘못된 거죠!",,sp_chun_face_angry);
 talk4[@2]	= new talkStruct(,,,1 , talk4);
 

@@ -121,7 +121,7 @@ function sc_stage02BossCs3(){
 			
 		case 17:
 			var name = "저승사자"
-			var text = "마음이 정리되신 것 같군요";
+			var text = "마음이 정리되신 것 같군요.";
 			sc_csBase(name, sp_reaper_face, text, 510, iy);
 			break;
 			

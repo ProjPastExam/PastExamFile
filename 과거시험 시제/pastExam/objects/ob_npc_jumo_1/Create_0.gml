@@ -29,7 +29,7 @@ talkq1[@3]	= new talkStruct(,,,1 , talk1);
 
 talkq2[@0]	= new talkStruct("왜란이 끝나고, 남은 왜놈 잔당들이 \n백마산에 숨어서 산적질을 일삼고 있어요.");
 talkq2[@1]	= new talkStruct("본래 의병장을 이끌던 김세근 장군님이 \n백마산에 터를 잡고 마을을 지켜주셨는데");
-talkq2[@2]	= new talkStruct("장군님은 왜란 중에 돌아가시고, \n지금은 백마산이 왜놈들의 소굴이 되었으니, \n장군님이 통곡할 노릇이죠");
+talkq2[@2]	= new talkStruct("장군님은 왜란 중에 돌아가시고, \n지금은 백마산이 왜놈들의 소굴이 되었으니, \n장군님이 저승에서 통곡할 상황이죠");
 talkq2[@3]	= new talkStruct(,,,1 , talk1);
 							
 talkIndex		= talk1;

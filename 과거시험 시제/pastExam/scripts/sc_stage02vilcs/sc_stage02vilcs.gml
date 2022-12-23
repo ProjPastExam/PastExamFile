@@ -51,13 +51,13 @@ function sc_stage02VilCs(){
 		
 		case 6:
 			var name = "성춘향"
-			var text = "백마산은 왜란이 한창일 때, \n의병을 일으켜 왜군에게 맞서 싸운 \n김세근 장군님이 활약하던 곳이에요";
+			var text = "백마산은 왜란이 한창일 때, \n의병을 일으켜 왜군에게 맞서 싸운 \n김세근 장군님이 활약하던 곳이에요.";
 			sc_csBase(name, sp_chun_face, text, ii, iy);
 			break;
 			
 		case 7:
 			var name = "성춘향"
-			var text = "하지만 지금은 왜군 잔당의 소굴이 되어버렸네요";
+			var text = "하지만 지금은 왜군 잔당의 소굴이 되어버렸네요.";
 			sc_csBase(name, sp_chun_face_silence, text, ii, iy);
 			break;
 			

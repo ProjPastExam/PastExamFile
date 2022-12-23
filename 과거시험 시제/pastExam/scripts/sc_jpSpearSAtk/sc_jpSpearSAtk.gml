@@ -10,9 +10,7 @@ function sc_jpSpearSAtk(){
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
 	
-	if ( state == 12 || state == 13 || state == 14 ) { isDA = true; isDK = true; }
-	else { isDA = false; isDK = false; }
-	
+	isDA = false;	isDK = false;	isDF = false;
 	
 	var plX = sc_pl_get("x");
 	if ( state == 10 ) {
@@ -32,8 +30,10 @@ function sc_jpSpearSAtk(){
 		sprite_index = sp_jpSpearS_atk1;
 		xSpeed = 0;
 		
+		isDA = true; isDK = true;
+		
 		if ( process == 1 ) { SE_Play(s_jp_dAtk, global.vol); }
-		if ( process == 61 ) {
+		if ( process == 61+lvDly ) {
 			SE_Play(s_swing_a1, global.vol);
 			//audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
@@ -42,17 +42,19 @@ function sc_jpSpearSAtk(){
 		}
 		
 		
-		if ( process < 45 ) { image_index = 0; }
-		else if ( process < 53 ) { image_index = 1; xSpeed = dir*10; }
-		else if ( process < 61 ) { image_index = 1; xSpeed = dir*18; }
-		else if ( process < 65 ) { image_index = 2; xSpeed = dir*10;}
-		else if ( process < 68 ) { image_index = 3; xSpeed = dir*4;}
+		if ( process < 45+lvDly ) { image_index = 0; }
+		else if ( process < 53+lvDly ) { image_index = 1; xSpeed = dir*10; }
+		else if ( process < 61+lvDly ) { image_index = 1; xSpeed = dir*18; }
+		else if ( process < 65+lvDly ) { image_index = 2; xSpeed = dir*10;}
+		else if ( process < 68+lvDly ) { image_index = 3; xSpeed = dir*4;}
 		else { state = 14;	process = 0; }
 	}
 	
 	else if ( state == 13 ) {
 		process++;
 		sprite_index = sp_jpSpearS_backstep;
+		
+		isDA = true;	isDF = true; isDK = true;
 		
 		if ( process < 4 ) { image_index = 0; }
 		else if ( process < 15 ) { image_index = 1; xSpeed = dir*16*-1; }
@@ -66,7 +68,8 @@ function sc_jpSpearSAtk(){
 		process++;
 		sprite_index = sp_jpSpearS_atk2;
 		xSpeed = 0;
-
+		isDA = true; isDK = true;
+		
 		if ( process == 24 ) { 
 			SE_Play(s_swing_a2, global.vol);
 			//audio_play_sound(s_swing_a2, 8, false);

@@ -36,7 +36,7 @@ function sc_jpSpearAtk(){
 		
 		if ( process == 1 ) { SE_Play(s_jp_aAtk, global.vol); }
 		
-		if ( process == 55 ) { 
+		if ( process == 55+lvDly ) { 
 			SE_Play(s_bandit01atk2, global.vol);
 			//audio_play_sound(s_bandit01atk2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtkTrack);
@@ -58,11 +58,11 @@ function sc_jpSpearAtk(){
 		}
 		*/
 		
-		if ( process < 25 ) { image_index = 0; if (isJump) xSpeed = dir*6; }
-		else if ( process < 55 ) { image_index = 1; if (isJump) xSpeed = dir*6; }
-		else if ( process < 70 ) { image_index = 2; xSpeed = dir*24; }
-		else if ( process < 80 ) { image_index = 2; xSpeed = dir*8; }
-		else if ( process < 90 ) { image_index = 3; xSpeed = dir*4; }
+		if ( process < 25+lvDly ) { image_index = 0; if (isJump) xSpeed = dir*6; }
+		else if ( process < 55+lvDly ) { image_index = 1; if (isJump) xSpeed = dir*6; }
+		else if ( process < 70+lvDly ) { image_index = 2; xSpeed = dir*24; }
+		else if ( process < 80+lvDly ) { image_index = 2; xSpeed = dir*8; }
+		else if ( process < 90+lvDly ) { image_index = 3; xSpeed = dir*4; }
 		else { state = 10;	process = 0;	delay = random_range(120, 180); }
 	}
 	

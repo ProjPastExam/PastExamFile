@@ -30,7 +30,7 @@ function sc_cs01(){
 			
 		case 2:
 			var name = "행인 2"
-			var text = "이 앞길을 따라 가다보면 백마산이 나오지, \n산길을 따라가면 다음 마을에 도착할거요.";
+			var text = "이 앞길을 따라 가다 보면 백마산이 나오지, \n산길을 따라가면 다음 마을에 도착할거요.";
 			sc_csBase(name, sp_cs01_face2, text, hang2, 540);
 			break;
 			
@@ -43,7 +43,7 @@ function sc_cs01(){
 			
 		case 4:
 			var name = "주모"
-			var text = "아이고, 아직 소식도 못들었어요? \n백마산길은 피해가는게 좋을거에요!";
+			var text = "아이고, 아직 소식도 못 들었어요? \n백마산길은 피해가는게 좋을 거예요!";
 			sc_csBase(name, sp_jumo_face, text, jumo, 580);
 			break;
 			
@@ -62,13 +62,13 @@ function sc_cs01(){
 		
 		case 7:
 			var name = "주모"
-			var text = "왜란때 들어왔던 왜놈 몇몇이 백마산이 제 집인양 \n들어앉았지 뭐에요!";
+			var text = "왜란 때 들어왔던 왜놈 몇몇이 \n 백마산이 제 집인 양 들어앉았지 뭐예요!";
 			sc_csBase(name, sp_jumo_face, text, jumo, 580);
 			break;
 			
 		case 8:
 			var name = "주모"
-			var text = "행인들이 보이면 모조리 약탈하고 있는데도, \n관청에서는 그냥 작은 산적떼라면서 손을 놓아버렸어요.";
+			var text = "행인들이 보이면 모조리 약탈하고 있는데도, \n관청에서는 그냥 작은 산적 떼라면서 손을 놓아버렸어요.";
 			sc_csBase(name, sp_jumo_face, text, jumo, 580);
 			break;
 			

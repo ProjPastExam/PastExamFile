@@ -43,7 +43,7 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 5:
-			var name = "????";
+			var name = "???";
 			var text = "정신이 좀 드세요?";
 			sc_csBase(name, sp_chun_face_laugh, text, ix, iy);
 			BGM_Play(s_mChun, global.volBgm, 0);
@@ -105,7 +105,7 @@ function sc_tutoChunCs2(){
 			
 		case 15:
 			var name = "성춘향";
-			var text = "제가 당신을 도와드린게 \n단지 묘를 수습해주신 게 고마워서는 아니거든요.";
+			var text = "제가 당신을 도와드린 게, \n단지 묘를 수습해주신 게 고마워서는 아니거든요.";
 			sc_csBase(name, sp_chun_face, text, ix, iy);
 			break;
 			
@@ -117,7 +117,7 @@ function sc_tutoChunCs2(){
 			
 		case 17:
 			var name = "성춘향";
-			var text = "저는 이미 죽어 귀신이 된 몸이지만, \n저승으로 가기 전에, 한양에 보고싶은 분이 있어요";
+			var text = "저는 이미 죽어 귀신이 된 몸이지만, \n저승으로 가기 전에, 한양에 보고싶은 분이 있어요.";
 			sc_csBase(name, sp_chun_face_silence, text, ix, iy);
 			break;
 			
@@ -147,7 +147,7 @@ function sc_tutoChunCs2(){
 			
 		case 22:
 			var name = "성춘향";
-			var text = "설마, 고결한 선비께서 \n생명의 은인이자, 슬픔에 빠진 가녀린 소녀의 간청을 \n못 들은 척 하시진 않으시겠죠?";
+			var text = "설마, 고결한 선비께서 \n생명의 은인이자, 슬픔에 빠진 가녀린 소녀의 간청을 \n못 들은 척 하시지는 않으시겠죠?";
 			sc_csBase(name, sp_chun_face_smile, text, ix, iy);
 			break;
 			

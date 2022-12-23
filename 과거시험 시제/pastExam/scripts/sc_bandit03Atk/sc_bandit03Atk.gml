@@ -33,7 +33,7 @@ function sc_bandit03Atk(){
 		xSpeed = 0;
 		
 		if ( process == 1 ) { SE_Play(s_bandit01atk1, global.vol); }
-		if ( process == 85 ) { 
+		if ( process == 85+lvDly ) { 
 			SE_Play(s_swing_b1, global.vol);
 			//audio_play_sound(s_swing_b1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
@@ -44,13 +44,13 @@ function sc_bandit03Atk(){
 		
 		if ( process < 18 ) { image_index = 0; }
 		else if ( process < 36 ) { image_index = 1; }
-		else if ( process < 57 ) { image_index = 2; }
-		else if ( process < 75 ) { image_index = 3; xSpeed = dir*18; }
-		else if ( process < 81 ) { image_index = 4; xSpeed = dir*21; }
-		else if ( process < 85 ) { image_index = 4; xSpeed = dir*24; }
-		else if ( process < 89 ) { image_index = 5; }
-		else if ( process < 95 ) { image_index = 6; }
-		else if ( process < 110 ) { image_index = 7; }
+		else if ( process < 57+lvDly ) { image_index = 2; }
+		else if ( process < 75+lvDly ) { image_index = 3; xSpeed = dir*18; }
+		else if ( process < 81+lvDly ) { image_index = 4; xSpeed = dir*21; }
+		else if ( process < 85+lvDly ) { image_index = 4; xSpeed = dir*24; }
+		else if ( process < 89+lvDly ) { image_index = 5; }
+		else if ( process < 95+lvDly ) { image_index = 6; }
+		else if ( process < 110+lvDly ) { image_index = 7; }
 		else { state = 10;	process = 0; delay = irandom_range(80, 100); }
 	}
 	

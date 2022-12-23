@@ -40,7 +40,7 @@ function sc_jpBossatk(){
 		isCounter = true;
 		
 		//if ( process == 1 ) { SE_Play(s_bandit01atk1, global.vol); }
-		if ( process == 45 + phaseDelay ) { 
+		if ( process == 45+lvDly ) { 
 			SE_Play(s_jpBoss_atk1_1, global.vol);
 			//audio_play_sound(s_bandit01atk2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
@@ -48,7 +48,7 @@ function sc_jpBossatk(){
 			ob.sprite_index = sp_jpBoss_atk1Ef1;
 		}
 		
-		if ( process == 75 + phaseDelay ) { 
+		if ( process == 75+lvDly ) { 
 			SE_Play(s_jpBoss_atk1_2, global.vol);
 			//audio_play_sound(s_bandit01atk2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
@@ -57,16 +57,16 @@ function sc_jpBossatk(){
 		}
 		
 		
-		if ( process < 25 + phaseDelay ) { image_index = 0; }
-		else if ( process < 35 + phaseDelay ) { image_index = 1; xSpeed = dir*25; }
-		else if ( process < 45 + phaseDelay ) { image_index = 2; xSpeed = dir*25; }
-		else if ( process < 55 + phaseDelay ) { image_index = 3; }
-		else if ( process < 60 + phaseDelay ) { image_index = 4; }
-		else if ( process < 65 + phaseDelay ) { image_index = 5; xSpeed = dir*25; }
-		else if ( process < 75 + phaseDelay ) { image_index = 6; xSpeed = dir*25; }
-		else if ( process < 85 + phaseDelay ) { image_index = 7; }
-		else if ( process < 90 + phaseDelay ) { image_index = 8; }
-		else if ( process < 105 + phaseDelay * 2 ) { image_index = 9; }
+		if ( process < 25+lvDly ) { image_index = 0; }
+		else if ( process < 35+lvDly ) { image_index = 1; xSpeed = dir*25; }
+		else if ( process < 45+lvDly ) { image_index = 2; xSpeed = dir*25; }
+		else if ( process < 55+lvDly ) { image_index = 3; }
+		else if ( process < 60+lvDly ) { image_index = 4; }
+		else if ( process < 65+lvDly ) { image_index = 5; xSpeed = dir*25; }
+		else if ( process < 75+lvDly ) { image_index = 6; xSpeed = dir*25; }
+		else if ( process < 85+lvDly ) { image_index = 7; }
+		else if ( process < 90+lvDly ) { image_index = 8; }
+		else if ( process < 105+lvDly ) { image_index = 9; }
 		else { sc_jpBossAtkNext(80);	delay = 50;	process = 0; isCounter = false; }
 	}
 	
@@ -166,7 +166,7 @@ function sc_jpBossatk(){
 		
 		if ( process == 24 ) { SE_Play(s_jpBoss_yell2, global.vol); }
 		
-		if ( process == 54 ) { 
+		if ( process == 60+lvDly ) { 
 			SE_Play(s_jpBoss_atk1_1, global.vol);
 			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
@@ -177,11 +177,11 @@ function sc_jpBossatk(){
 		isDK = true;
 		if ( process < 24 ) { image_index = 0; xSpeed = dir * (process-30)/1.5; }
 		else if ( process < 30 ) { image_index = 1; xSpeed = dir * (process-30)/1.5; }
-		else if ( process < 48 ) { image_index = 2; }
-		else if ( process < 54 ) { image_index = 2; xSpeed = 12 * dir; }
-		else if ( process < 60 ) { image_index = 3; xSpeed = 24 * dir; }
-		else if ( process < 66 ) { image_index = 3; xSpeed = 12 * dir; }
-		else if ( process < 78 ) { image_index = 4; }
+		else if ( process < 54+lvDly ) { image_index = 2; }
+		else if ( process < 60+lvDly ) { image_index = 2; xSpeed = 12 * dir; }
+		else if ( process < 66+lvDly ) { image_index = 3; xSpeed = 24 * dir; }
+		else if ( process < 72+lvDly ) { image_index = 3; xSpeed = 12 * dir; }
+		else if ( process < 84+lvDly ) { image_index = 4; }
 		else { sc_jpBossAtkNext(nextState); state = 9;	process = 80;	delay = 60 + phaseDelay*4; }
 		
 	}
@@ -189,7 +189,7 @@ function sc_jpBossatk(){
 	else if (state == 18) {
 		process++;
 		sprite_index = sp_jpBoss_atkDown; 
-		if ( process == 30 ) { 
+		if ( process == 30+lvDly ) { 
 			//ySpeed = -20; 
 			with (instance_create_layer(x, y, "effect", ob_jpBossDownAtk)) {
 				jpBoss = other.id;
@@ -197,12 +197,12 @@ function sc_jpBossatk(){
 			SE_Play(s_jpBoss_up, global.vol);
 		}
 		
-		if ( process == 120 ) { 
+		if ( process == 120+lvDly ) { 
 			uc_shake(10, 0.1);
 			SE_Play(s_jpBoss_down, global.vol);
 		}
 		
-		if ( process == 130 ) { 
+		if ( process == 130+lvDly ) { 
 			//SE_Play(s_swing_a2, global.vol);
 			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
@@ -214,19 +214,19 @@ function sc_jpBossatk(){
 		
 		if ( process < 6 ) { image_index = 0; }
 		else if ( process < 12 ) { image_index = 1; }
-		else if ( process < 30 ) { image_index = 2; }
-		else if ( process < 50 ) { image_index = 3; ySpeed = 1.6*(process - 50); }
-		else if ( process < 70 ) { image_index = 3; ySpeed = 0; }
-		else if ( process < 120 ) { 
+		else if ( process < 30+lvDly ) { image_index = 2; }
+		else if ( process < 50+lvDly ) { image_index = 3; ySpeed = 1.6*(process-lvDly - 50); }
+		else if ( process < 70+lvDly ) { image_index = 3; ySpeed = 0; }
+		else if ( process < 120+lvDly ) { 
 			image_index = 3; 
 			xSpeed = 50 * dir;
 			ySpeed = 40;
-			if (!isJump) process = 119;
+			if (!isJump) process = 119+lvDly;
 		}
-		else if ( process < 125 ) { image_index = 3; }
-		else if ( process < 130 ) { image_index = 3; }
-		else if ( process < 135 ) { image_index = 4; }
-		else if ( process < 170 ) { image_index = 5; }
+		else if ( process < 125+lvDly ) { image_index = 3; }
+		else if ( process < 130+lvDly ) { image_index = 3; }
+		else if ( process < 135+lvDly ) { image_index = 4; }
+		else if ( process < 170+lvDly ) { image_index = 5; }
 		else { sc_jpBossAtkNext(nextState);	process = 0;	delay = 80 + phaseDelay*2; }
 		
 	}
@@ -276,7 +276,7 @@ function sc_jpBossatk(){
 		process++;
 		sprite_index = sp_jpBoss_atkG;
 		
-		if ( process == 10 ) { 
+		if ( process == 10+lvDly ) { 
 			SE_Play(s_jpBoss_atk3_1, global.vol);
 			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y+175, "effect", ob_mobAtk);
@@ -287,10 +287,10 @@ function sc_jpBossatk(){
 		}
 		
 		if ( process < 5 ) { image_index = 0; }
-		else if ( process < 10 ) { image_index = 1; }
-		else if ( process < 15 ) { image_index = 2; }
-		else if ( process < 20 ) { image_index = 3; }
-		else if ( process < 25 ) { image_index = 4; }
+		else if ( process < 10+lvDly ) { image_index = 1; }
+		else if ( process < 15+lvDly ) { image_index = 2; }
+		else if ( process < 20+lvDly ) { image_index = 3; }
+		else if ( process < 25+lvDly ) { image_index = 4; }
 		else { sc_jpBossAtkNext();	delay = 0; }
 	}
 	
@@ -298,7 +298,7 @@ function sc_jpBossatk(){
 		process++;
 		sprite_index = sp_jpBoss_atkG;
 		
-		if ( process == 10 ) { 
+		if ( process == 10+lvDly ) { 
 			SE_Play(s_jpBoss_atk3_2, global.vol);
 			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y+175, "effect", ob_mobAtk);
@@ -309,11 +309,11 @@ function sc_jpBossatk(){
 		}
 		
 		if ( process < 5 ) { image_index = 4; }
-		else if ( process < 10 ) { image_index = 5; }
-		else if ( process < 15 ) { image_index = 6; }
-		else if ( process < 20 ) { image_index = 7; }
-		else if ( process < 25 ) { image_index = 8; }
-		else if ( process < 50 ) { image_index = 9; }
+		else if ( process < 10+lvDly ) { image_index = 5; }
+		else if ( process < 15+lvDly ) { image_index = 6; }
+		else if ( process < 20+lvDly ) { image_index = 7; }
+		else if ( process < 25+lvDly ) { image_index = 8; }
+		else if ( process < 50+lvDly ) { image_index = 9; }
 		else { sc_jpBossAtkNext(nextState);	process = 0;	delay = 0; }
 	}
 	
@@ -321,7 +321,7 @@ function sc_jpBossatk(){
 		process++;
 		sprite_index = sp_jpBoss_atkGUp;
 		
-		if ( process == 30 ) { 
+		if ( process == 30+lvDly ) { 
 			SE_Play(s_jpBoss_atk3_2, global.vol);
 			//audio_play_sound(s_swing_a2, 8, false);
 			var ob = instance_create_layer(x, y-50, "effect", ob_mobAtk);
@@ -332,16 +332,16 @@ function sc_jpBossatk(){
 		}
 		
 		if ( process < 6 ) { image_index = 0; }
-		else if ( process < 12 ) { image_index = 1; }
-		else if ( process < 18 ) { image_index = 2; }
-		else if ( process < 24 ) { image_index = 3; }
-		else if ( process < 30 ) { image_index = 4; }
-		else if ( process < 36 ) { image_index = 5; }
-		else if ( process < 42 ) { image_index = 6; }
-		else if ( process < 48 ) { image_index = 7; }
-		else if ( process < 54 ) { image_index = 8; }
-		else if ( process < 60 ) { image_index = 9; }
-		else if ( process < 90 ) { image_index = 10; }
+		else if ( process < 12+lvDly ) { image_index = 1; }
+		else if ( process < 18+lvDly ) { image_index = 2; }
+		else if ( process < 24+lvDly ) { image_index = 3; }
+		else if ( process < 30+lvDly ) { image_index = 4; }
+		else if ( process < 36+lvDly ) { image_index = 5; }
+		else if ( process < 42+lvDly ) { image_index = 6; }
+		else if ( process < 48+lvDly ) { image_index = 7; }
+		else if ( process < 54+lvDly ) { image_index = 8; }
+		else if ( process < 60+lvDly ) { image_index = 9; }
+		else if ( process < 90+lvDly ) { image_index = 10; }
 		else { sc_jpBossAtkNext(nextState);	process = 0;	delay = 100; }
 	}
 	
@@ -554,6 +554,10 @@ function sc_jpBossAtkNext(index = state){
 	else if (index == 90) {
 		if (ran < 8) { state = 21; }
 		else { state = 21; }
+	}
+	else if (index == 21) {
+		if (ran < 6) { nextState = 12; process = 0; }
+		else { nextState = 18; process = 0; }
 	}
 	else if (index == 22) {
 		if (ran < 6) { state = 23; process = 0; }

@@ -5,7 +5,7 @@ if (global.itemGet[state] == NULL) {
 	enD = 0;
 }
 else {
-	enD = 80 + global.smith1 * global.itemGet[state].itemGrade;
+	enD = global.smith1 * global.itemGet[state].itemGrade;
 }
 
 if (select == 0) {

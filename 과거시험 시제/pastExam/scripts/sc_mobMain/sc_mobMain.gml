@@ -19,7 +19,7 @@ function sc_mobMain(){
 			global.moneyBuffer += moneyDropVar;
 			
 			if (global.clearStage >= 5) {
-				global.abSoul += int64(moneyDropVar/5);
+				global.abSoul += int64(moneyDropVar/5) + global.level;
 				VSLS_SetAndSave("abSoul", global.abSoul, "saveFile");
 			}
 			
@@ -28,9 +28,9 @@ function sc_mobMain(){
 				instance_create_layer(0, 0, "effect", ob_healEf);	
 			}
 			
-			if (!isHpUI) {
+			if (!isHpUI && global.level < 2) {
 				var ran		= irandom_range(0, 99);
-				var ran2	= sqrt(global.hpMax - global.hp)*10;
+				var ran2	= sqrt(global.hpMax - global.hp)*8;
 				if (ran < ran2) {
 					instance_create_layer(x, y, "effect", ob_heart);
 				}
