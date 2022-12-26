@@ -10,7 +10,7 @@ with (ob_volBgm)	{ settingIndex = other.settingIndex; }
 
 if (sc_getKey(global.btLeft, gp_padl, 0)) {
 	if (settingIndex < 7) {
-		settingIndex = 24;
+		settingIndex = 23;
 	}
 	else if (settingIndex < 13) {
 		settingIndex -= 7;
@@ -20,6 +20,12 @@ if (sc_getKey(global.btLeft, gp_padl, 0)) {
 	}
 	else if (settingIndex == 17) {
 		settingIndex = 16;
+	}
+	else if (settingIndex == 21) {
+		settingIndex = 14;
+	}
+	else if (settingIndex == 22 || settingIndex == 23) {
+		settingIndex--;
 	}
 	else if (settingIndex > 23) {
 		settingIndex = 14;
@@ -40,9 +46,12 @@ if (sc_getKey(global.btRight, gp_padr, 0)) {
 		settingIndex = 17;
 	}
 	else if (settingIndex == 14 || settingIndex == 15 || settingIndex == 17) {
-		settingIndex = 24;
+		settingIndex = 21;
 	}
-	else if (settingIndex > 23) {
+	else if (settingIndex == 21 || settingIndex == 22) {
+		settingIndex++;
+	}
+	else if (settingIndex >= 23) {
 		settingIndex = 0;
 	}
 }
@@ -62,6 +71,9 @@ if (sc_getKey(global.btDown, gp_padd, 0)) {
 	}
 	else if (settingIndex == 14 || settingIndex == 15) {
 		settingIndex++;
+	}
+	else if (settingIndex == 21 || settingIndex == 22 || settingIndex == 23) {
+		settingIndex = 24;
 	}
 	else if (settingIndex == 24 || settingIndex == 25) {
 		settingIndex++;
@@ -86,6 +98,12 @@ if (sc_getKey(global.btUp, gp_padu, 0)) {
 	}
 	else if (settingIndex == 17) {
 		settingIndex = 15;
+	}
+	else if (settingIndex == 21 || settingIndex == 22 || settingIndex == 23) {
+		settingIndex = 26;
+	}
+	else if (settingIndex == 24) {
+		settingIndex = 21;
 	}
 	else if (settingIndex == 26 || settingIndex == 25) {
 		settingIndex--;

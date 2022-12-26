@@ -23,6 +23,7 @@ surface_resize(application_surface, 1920, 1080);
 global.gameEnd		= false;
 global.lan			= 0;
 global.lanChange	= false;
+global.stage		= 0;
 	
 //공격 관련 변수
 global.atkDmg		= 10;

@@ -73,6 +73,7 @@ if (isRanStage) {
 	}
 }
 
+global.stage	= stage;
 
 
 //파티클 시스템

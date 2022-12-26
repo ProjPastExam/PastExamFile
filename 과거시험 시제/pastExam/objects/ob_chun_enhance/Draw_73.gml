@@ -3,7 +3,7 @@
 
 
 if (isCollision) {
-	draw_sprite(sc_keySprite(global.btInter), 0, x-60, y+130);
-	draw_sprite(sp_text_ab, 0, x-20, y+130);
+	sc_buttonPrint(global.btInter, global.gpInter, x-60, y+130);
+	draw_sprite(sp_text_ab, global.lan, x-20, y+130);
 	isCollision = false;
 }
