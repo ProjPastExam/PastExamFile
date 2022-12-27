@@ -20,9 +20,9 @@ phaseDelay = 10;
 nextState = 12;
 isCounter = false;
 
-standSp = sp_cB1_stand;
-stand2Sp = sp_cB1_stand;
-walkSp = sp_cB1_walk;
-runSp = sp_cB1_run;
-painSp = sp_cB1_pain;
-shockSp	= sp_cB1_shock;
+standSp = sp_cB2_stand;
+stand2Sp = sp_cB2_stand;
+walkSp = sp_cB2_walk;
+runSp = sp_cB2_walk;
+painSp = sp_cB2_pain;
+shockSp	= sp_cB2_shock;

@@ -11,7 +11,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		
 		//이하 몹 개인 코드
 		//sc_jpBossatk();
-		sc_cBoss1Atk();
+		sc_cBoss2Atk();
 	}
 	else {
 		sprite_index = sp_jpBoss_die;
