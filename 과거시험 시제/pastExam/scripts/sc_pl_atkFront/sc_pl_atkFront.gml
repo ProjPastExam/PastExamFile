@@ -7,7 +7,7 @@ function sc_pl_atkFront(){
 	sprite_index = sp_pl_atkFront1;
 	var atk;
 	
-	if ( atkProcess > 21 && atkProcess < 48 ) {
+	if ( atkProcess > 9 ) {
 		if (keyAttack) {
 			if ( keyDown && isJump )										nextAtk = 5;
 			else if ( keyTop ) 	nextAtk = 6;
@@ -45,7 +45,7 @@ function sc_pl_atkFront(){
 	//}
 	sc_pl_skKey();
 		
-	if ( atkProcess > 21 || (atkProcess > 6 && atkProcess < 15) ) {
+	if ( atkProcess > 21 || (atkProcess > 6 && atkProcess < 18) ) {
 		sc_pl_atkDnJ();
 		sc_pl_skComb();
 	}

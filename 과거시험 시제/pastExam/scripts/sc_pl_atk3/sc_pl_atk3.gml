@@ -7,7 +7,7 @@ function sc_pl_atk3(){
 	sprite_index = sp_pl_sk_baby;
 	isAtk3 = 0;
 	
-	if ( atkProcess > 20 && atkProcess < 58 ) {
+	if ( atkProcess > 10 && atkProcess < 58 ) {
 		if ( keyAttack ) {
 			if ( keyDown ) 													nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
@@ -35,7 +35,7 @@ function sc_pl_atk3(){
 		if ( keyJump ) nextAtk = 9;
 	}
 		
-	if ( (atkProcess > 10 && atkProcess < 64) ) {
+	if ( atkProcess > 10 ) {
 		sc_pl_atkDnJ();
 	}
 	

@@ -32,7 +32,7 @@ atkProcess++;
 	}
 	
 	//대쉬 제어
-	if ( atkProcess > 15 ) {
+	if ( atkProcess > 9 ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
 	}

@@ -7,7 +7,7 @@ function sc_pl_atkJumpDown(){
 	var atk;
 	
 	if ( atkProcess > 0 && atkProcess < 24 && keyAttack ) nextAtk = 1;
-	if ( atkProcess > 28 ) {
+	if ( atkProcess > 9 ) {
 		if ( keyAttack ) {
 			if ( keyDown ) 													nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;

@@ -13,7 +13,7 @@ function sc_pl_atk(){
 		else if (keyRight)	{ dir = 1; }
 	}
 	if ( atkProcess > 0 && atkProcess < 24 && keyAttack ) nextAtk = 1;
-	if ( atkProcess > 28 ) {
+	if ( atkProcess > 24 ) {
 		if ( keyAttack ) {
 			if ( keyDown && isJump)											nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
@@ -69,6 +69,7 @@ function sc_pl_atk(){
 	//}
 	sc_pl_skKey();
 	if ( (atkProcess > 30) || (atkProcess > 12 && atkProcess < 22) ) {
+		sc_pl_atkDnJ();
 		sc_pl_atkDnJ();
 		sc_pl_skComb();
 	}

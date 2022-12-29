@@ -17,7 +17,7 @@ function sc_pl_atkJump2(){
 	
 
 	
-	if ( atkProcess > 18 && atkProcess < 50 && keyAttack) {
+	if ( atkProcess > 9 && keyAttack) {
 		if ( keyDown )		nextAtk = 5;
 		else				nextAtk = 1;
 	}
@@ -57,7 +57,7 @@ function sc_pl_atkJump2(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 16 ) ) {
+	if ( (atkProcess > 9 ) ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
 		sc_pl_skKey();
