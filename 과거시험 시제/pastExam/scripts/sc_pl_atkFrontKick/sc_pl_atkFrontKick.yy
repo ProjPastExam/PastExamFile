@@ -5,7 +5,7 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "npc Script",
-    "path": "folders/Scripts/npc Script.yy",
+    "name": "itemMotion",
+    "path": "folders/Scripts/player Script/itemMotion.yy",
   },
 }

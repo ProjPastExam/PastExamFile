@@ -43,6 +43,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53C6F3E1","properties":[],"isDnd":false,"objectId":{"name":"ob_smithItemInfo2","path":"objects/ob_smithItemInfo2/ob_smithItemInfo2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1422.0,"y":564.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3594312D","properties":[],"isDnd":false,"objectId":{"name":"ob_smithButton1","path":"objects/ob_smithButton1/ob_smithButton1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":213.0,"y":588.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62673F6","properties":[],"isDnd":false,"objectId":{"name":"ob_smithCoin","path":"objects/ob_smithCoin/ob_smithCoin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":636.0,"y":848.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B2A0134","properties":[],"isDnd":false,"objectId":{"name":"ob_smithButton2","path":"objects/ob_smithButton2/ob_smithButton2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":213.0,"y":696.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":12,"gridY":12,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6EF806E1","properties":[],"isDnd":false,"objectId":{"name":"ob_smithBox","path":"objects/ob_smithBox/ob_smithBox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":544.0,},
@@ -68,6 +69,7 @@
     {"name":"inst_53C6F3E1","path":"rooms/r_smith/r_smith.yy",},
     {"name":"inst_3594312D","path":"rooms/r_smith/r_smith.yy",},
     {"name":"inst_62673F6","path":"rooms/r_smith/r_smith.yy",},
+    {"name":"inst_5B2A0134","path":"rooms/r_smith/r_smith.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

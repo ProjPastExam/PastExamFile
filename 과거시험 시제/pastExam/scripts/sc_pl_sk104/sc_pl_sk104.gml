@@ -9,7 +9,7 @@ function sc_pl_sk104(){
 	sprite_index = sp_pl_sk104;
 	var atk;
 	
-	if ( atkProcess > 40 ) {
+	if ( atkProcess > 10 ) {
 		sc_pl_comInter();
 		sc_pl_skKey();
 	}
@@ -33,10 +33,10 @@ function sc_pl_sk104(){
 		{ atk.image_angle = -3; atk.y +=+10; }
 	
 	//대쉬 제어
-	if ( (atkProcess > 10 ) ) {
+	//if ( (atkProcess > 10 ) ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
-	}
+	//}
 		
 	if ( (atkProcess > 10 ) ) { sc_pl_atkDnJ(); }
 	

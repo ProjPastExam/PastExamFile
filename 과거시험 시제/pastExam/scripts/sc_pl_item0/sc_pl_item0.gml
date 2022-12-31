@@ -9,7 +9,7 @@ function sc_pl_item0(){
 	if ( isJump ) sprite_index = sp_pl_jumpSin;
 	else sprite_index = sp_pl_atk2sin;
 	
-	if ( atkProcess > 18 ) {
+	if ( atkProcess > 10 ) {
 		if (keyAttack) {
 			if ( keyDown )		nextAtk = 5;
 			else if ( keyTop ) 	nextAtk = 6;

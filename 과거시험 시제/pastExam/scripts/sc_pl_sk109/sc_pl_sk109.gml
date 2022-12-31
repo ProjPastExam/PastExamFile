@@ -11,6 +11,9 @@ function sc_pl_sk109(){
 	
 	if ( atkProcess > 10 ) {
 		sc_pl_comInter();
+		if ( keyDash ) nextAtk = 10;
+		if ( keyJump ) nextAtk = 9;
+		sc_pl_skKey();
 	}
 
 	
@@ -20,12 +23,6 @@ function sc_pl_sk109(){
 		SE_Play(s_pl_sk109, global.vol);
 		global.mp -= global.skMp[109];
 		global.skKul[skState] = global.skKulData[109];
-	}
-	
-	if ( atkProcess > 10 ) {
-		if ( keyDash ) nextAtk = 10;
-		if ( keyJump ) nextAtk = 9;
-		sc_pl_skKey()
 	}
 		
 	if ( (atkProcess > 25 ) ) {

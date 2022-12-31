@@ -9,9 +9,11 @@ function sc_pl_sk108(){
 	sprite_index = sp_pl_sk108;
 	var atk;
 	
-	if ( atkProcess > 12 ) {
+	if ( atkProcess > 10 ) {
 		sc_pl_comInter();
 		sc_pl_skKey();
+		if ( keyDash ) nextAtk = 10;
+		if ( keyJump ) nextAtk = 9;
 	}
 
 	/*
@@ -38,12 +40,7 @@ function sc_pl_sk108(){
 		x += i * dir;
 		*/
 	}
-	
-	//대쉬 제어
-		if ( (atkProcess > 12 ) ) {
-		if ( keyDash ) nextAtk = 10;
-		if ( keyJump ) nextAtk = 9;
-	}
+
 		
 	if ( (atkProcess > 24 ) ) {
 		sc_pl_atkDnJ();

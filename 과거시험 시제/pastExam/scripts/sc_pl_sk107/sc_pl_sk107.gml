@@ -9,16 +9,13 @@ function sc_pl_sk107(){
 	sprite_index = sp_pl_sk107;
 	var atk;
 	
-	if ( atkProcess > 12 ) {
+	if ( atkProcess > 10 ) {
 		sc_pl_comInter();
 		sc_pl_skKey();
+		if ( keyDash ) nextAtk = 10;
+		if ( keyJump ) nextAtk = 9;
 	}
 
-	/*
-	if ( atkProcess == 18 ) {
-		
-	}
-	*/
 	if ( atkProcess == 12 || atkProcess == 78 || atkProcess == 144 ) {
 		SE_Play(s_swing_a1, global.vol);
 		//audio_play_sound(s_swing_c1, 5, false);
@@ -32,11 +29,6 @@ function sc_pl_sk107(){
 	if ( atkProcess == 78 ) { atk.sprite_index = sp_pl_atkEf107_2; atk.hitUp = 15;}
 	if ( atkProcess == 144 ) { atk.sprite_index = sp_pl_atkEf107_3; uc_shake(12, 0.08); }
 	
-	//대쉬 제어
-	if ( (atkProcess > 10 ) ) {
-		if ( keyDash ) nextAtk = 10;
-		if ( keyJump ) nextAtk = 9;
-	}
 		
 	if ( (atkProcess > 24 ) ) { sc_pl_atkDnJ(); }
 	

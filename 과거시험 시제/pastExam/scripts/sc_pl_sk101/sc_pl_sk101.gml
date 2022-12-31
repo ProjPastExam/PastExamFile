@@ -9,11 +9,6 @@ function sc_pl_sk101(){
 	sprite_index = sp_pl_sk_gun;
 	var atk;
 	
-	if ( atkProcess > 32 ) {
-		sc_pl_comInter();
-	}
-
-	
 	if ( atkProcess == 24 ) {
 		sc_pl_atkEf(sc_pl_fireDmg()*5, sc_pl_firePene(), sc_pl_fireShock(), 0, 
 			4, 2, 5, sp_pl_atkEf101, dir, 0);
@@ -27,10 +22,11 @@ function sc_pl_sk101(){
 		global.skKul[skState] = global.skKulData[101];
 	}
 	
-	if ( atkProcess > 14 ) {
+	if ( atkProcess > 10 ) {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
-		sc_pl_skKey()
+		sc_pl_skKey();
+		sc_pl_comInter();
 	}
 		
 	if ( (atkProcess > 24 ) ) {

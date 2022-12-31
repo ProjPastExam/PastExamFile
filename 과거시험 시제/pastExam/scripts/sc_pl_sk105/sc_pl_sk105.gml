@@ -7,11 +7,13 @@ function sc_pl_sk105(){
 	if (!isJump) xSpeed = 0;
 	image_xscale = dir;
 	sprite_index = sp_pl_sk105;
-	var atk;
+	//var atk;
 	
-	if ( atkProcess > 22 ) {
+	if ( atkProcess > 10 ) {
 		sc_pl_comInter();
 		sc_pl_skKey();
+		if ( keyDash ) nextAtk = 10;
+		if ( keyJump ) nextAtk = 9;
 	}
 
 	if ( atkProcess == 12 ) {
@@ -27,11 +29,6 @@ function sc_pl_sk105(){
 		global.skKul[skState] = global.skKulData[105];
 	}
 	
-	//대쉬 제어
-	if ( (atkProcess > 14 ) ) {
-		if ( keyDash ) nextAtk = 10;
-		if ( keyJump ) nextAtk = 9;
-	}
 		
 	if ( (atkProcess > 24 ) ) {
 		sc_pl_atkDnJ();

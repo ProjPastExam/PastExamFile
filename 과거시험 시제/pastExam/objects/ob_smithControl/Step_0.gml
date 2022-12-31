@@ -98,3 +98,8 @@ with (ob_smithButton1) {
 	select2	= other.select2;
 	enD		= other.enD;
 }
+with (ob_smithButton2) {
+	state	= other.state;
+	select	= other.select;
+	select2	= other.select2;
+}

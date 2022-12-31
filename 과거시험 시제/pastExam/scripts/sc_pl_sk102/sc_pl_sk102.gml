@@ -13,6 +13,8 @@ function sc_pl_sk102(){
 	if ( atkProcess > 6 ) {
 		sc_pl_comInter();
 		sc_pl_skKey();
+		if ( keyDash ) nextAtk = 10;
+		if ( keyJump ) nextAtk = 9;
 	}
 
 	/*
@@ -35,13 +37,8 @@ function sc_pl_sk102(){
 		global.skKul[skState] = global.skKulData[102];
 	}
 	
-	//대쉬 제어
-	if ( (atkProcess > 10 ) ) {
-		if ( keyDash ) nextAtk = 10;
-		if ( keyJump ) nextAtk = 9;
-	}
-		
-	if ( (atkProcess > 24 ) ) {
+
+	if ( (atkProcess > 16 ) ) {
 		sc_pl_atkDnJ();
 	}
 	
