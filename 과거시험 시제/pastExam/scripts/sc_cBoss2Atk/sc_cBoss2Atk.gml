@@ -58,26 +58,26 @@ function sc_cBoss2Atk(){
 		isCounter = true;
 		
 		if ( process == 1 ) { SE_Play(s_cB1_atk1_1, global.vol); }
-		if ( process == 114 ) {
+		if ( process == 134 ) {
 			var plX = sc_pl_get("x");
 			if (plX > x)	dir = 1;
 			else			dir = -1;
 		}
-		if ( process == 70 ) { 
+		if ( process == 80 ) { 
 			SE_Play(s_jpBoss_atk1_1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.sprite_index = sp_cB2_atk1Ef_1;
 			ob.image_xscale = dir;
 		}
 		
-		if ( process == 102 ) { 
+		if ( process == 122 ) { 
 			SE_Play(s_jpBoss_atk1_1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.sprite_index = sp_cB2_atk1Ef_2;
 			ob.image_xscale = dir;
 		}
 		
-		if ( process == 150 ) { 
+		if ( process == 180 ) { 
 			SE_Play(s_jpBoss_atk1_2, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.sprite_index = sp_cB2_atk1Ef_3;
@@ -88,17 +88,17 @@ function sc_cBoss2Atk(){
 		if ( process < 6 ) { image_index = 0; }
 		else if ( process < 12 ) { image_index = 1; }
 		else if ( process < 60 ) { image_index = 2; }
-		else if ( process < 70 ) { image_index = 3; xSpeed = dir*20; }
-		else if ( process < 86 ) { image_index = 4; }
-		else if ( process < 92 ) { image_index = 5; }
-		else if ( process < 102 ) { image_index = 6; xSpeed = dir*20; }
-		else if ( process < 108 ) { image_index = 7; }
-		else if ( process < 114 ) { image_index = 8; }
-		else if ( process < 120 ) { image_index = 9; }
-		else if ( process < 140 ) { image_index = 10; }
-		else if ( process < 150 ) { image_index = 11; xSpeed = dir*30; }
-		else if ( process < 160 ) { image_index = 12; }
-		else if ( process < 180 ) { image_index = 13; }
+		else if ( process < 80 ) { image_index = 3; xSpeed = dir*20; }
+		else if ( process < 96 ) { image_index = 4; }
+		else if ( process < 102 ) { image_index = 5; }
+		else if ( process < 122 ) { image_index = 6; xSpeed = dir*20; }
+		else if ( process < 128 ) { image_index = 7; }
+		else if ( process < 134 ) { image_index = 8; }
+		else if ( process < 140 ) { image_index = 9; }
+		else if ( process < 160 ) { image_index = 10; }
+		else if ( process < 180 ) { image_index = 11; xSpeed = dir*30; }
+		else if ( process < 190 ) { image_index = 12; }
+		else if ( process < 210 ) { image_index = 13; }
 		else { state = 10;	delay = 50;	process = 0;	isCounter = false; }
 	}
 	else if ( state == 14 ) {
@@ -236,7 +236,7 @@ function sc_cBoss2Atk(){
 		if (isCounter) {
 			isCounter = false;
 			isStun = false;
-			state = 16;
+			state = 15;
 			process = 0;
 		}
 		
