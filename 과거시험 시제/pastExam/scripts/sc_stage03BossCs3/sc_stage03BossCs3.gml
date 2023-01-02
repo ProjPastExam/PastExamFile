@@ -21,7 +21,7 @@ function sc_stage03BossCs3(){
 	
 	if (state == 4 && alarm[1] = 25) {
 		uc_shake(8, 0.1);
-		SE_Play(s_cB1_atkG, global.vol);
+		SE_Play(s_st3_boss4, global.vol);
 	}
 	
 	

@@ -56,6 +56,7 @@
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fb2fe4fd-c453-4925-a907-f8e9e192d52b",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7f3f40dd-3729-4a3f-904f-f176ecd551fc",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0e0d3d54-96d2-4a99-a36d-cf4088994b08",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"94cee753-be9d-44b1-9846-bb9ab752efb7",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -67,7 +68,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 28.0,
+    "length": 29.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -100,6 +101,7 @@
             {"id":"de3c14c7-8980-4ce0-9408-e55e5faf84c6","Key":25.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fb2fe4fd-c453-4925-a907-f8e9e192d52b","path":"sprites/sp_cB2_die/sp_cB2_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2e9f5d8f-1482-4ccd-a79b-777d5807683a","Key":26.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f3f40dd-3729-4a3f-904f-f176ecd551fc","path":"sprites/sp_cB2_die/sp_cB2_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3e2a3d43-1422-4a23-9101-5cf6cf8ca84e","Key":27.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0e0d3d54-96d2-4a99-a36d-cf4088994b08","path":"sprites/sp_cB2_die/sp_cB2_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ab356145-8be0-4081-bec6-67a598d88ac3","Key":28.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"94cee753-be9d-44b1-9846-bb9ab752efb7","path":"sprites/sp_cB2_die/sp_cB2_die.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

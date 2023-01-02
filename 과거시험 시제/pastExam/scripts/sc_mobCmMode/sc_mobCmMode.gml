@@ -7,10 +7,10 @@ function sc_mobCmMode(){
 	if (cmMode == 3) {
 		var plX = sc_pl_get("x");
 		var plY = sc_pl_get("y");
-		uc_set_target_position((x+plX*3)/4,(y+plY*3)/4);
+		uc_set_target_position((x+plX*3)/4,(y+plY*3)/4-180);
 	}
 	else if	(cmMode == 4) {
-		uc_set_target_position(x, y);
+		uc_set_target_position(x, y-180);
 	}
 	
 }

@@ -164,8 +164,12 @@ function sc_cBoss1Atk(){
 	else if (state == 16) {
 		process++;
 		sprite_index = sp_cB1_command1;
-		
 		isDK = true;	isDF = true;
+		
+		if (process == 1) {
+			SE_Play(s_cB1_atk4_1, global.vol);
+		}
+		
 		if ( process < 6 ) { image_index = 0; }
 		else if ( process < 12 ) { image_index = 1; }
 		else if ( process < 18 ) { image_index = 2; }
@@ -183,6 +187,8 @@ function sc_cBoss1Atk(){
 		sprite_index = sp_cB1_command2;
 		isDK = true;	isDF = true;
 		
+		
+		
 		if (process == 10) {
 			sc_cBoss1Command(0);
 		}
@@ -196,7 +202,7 @@ function sc_cBoss1Atk(){
 		}
 		
 		if ( process == 90 ) { 
-			//SE_Play(s_jp_dAtk, global.vol); 
+			SE_Play(s_cB1_atk4_2, global.vol);
 			with (ob_cB1G) {
 				state = 2;	process = 0;
 			}

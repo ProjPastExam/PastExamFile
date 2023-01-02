@@ -24,7 +24,7 @@ function sc_pl_sk108(){
 	if ( atkProcess == 24 ) {
 		SE_Play(s_swing_c2, global.vol);
 		//audio_play_sound(s_swing_c1, 5, false);
-		atk = sc_pl_atkEf(sc_pl_kickDmg()*1.5, sc_pl_kickPene(), sc_pl_kickShock(), 0, 
+		atk = sc_pl_atkEf(sc_pl_kickDmg()*2, sc_pl_kickPene(), sc_pl_kickShock(), 0, 
 			0, 1, 4, sp_pl_atkEf108, dir);
 		global.mp -= global.skMp[108];
 		global.skKul[skState] = global.skKulData[108];

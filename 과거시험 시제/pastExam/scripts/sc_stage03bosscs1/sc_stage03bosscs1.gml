@@ -50,6 +50,7 @@ function sc_stage03BossCs1(){
 			ob_roomControl.isTalk = 4;
 			alarm[1] = 300;
 			SE_Play(s_cB1_atkG, global.vol);
+			SE_Play(s_st3_bossa1, global.vol);
 			isTalk = 4;
 			break;
 			

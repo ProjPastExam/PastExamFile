@@ -21,8 +21,8 @@ function sc_cBoss2Atk(){
 		if ( x > plX ) dir = -1;
 		else dir = 1;
 		if ( delay == 0 ) {
-			//nextState = sc_cBoss2AtkNext();
-			nextState = 13;
+			nextState = sc_cBoss2AtkNext();
+			//nextState = 13;
 			state = 11;
 		}
 		
@@ -30,8 +30,8 @@ function sc_cBoss2Atk(){
 	else if ( state == 11 ){
 		//if ( nextState == 20 )	sc_jpBossRdy();
 		var disIndex1 = 800;
-		var disIndex2 = 0;
-		if (nextState == 14) { disIndex1 = 1000;	disIndex2 = 500; }
+		var disIndex2 = 400;
+		if (nextState == 14) { disIndex1 = 1000;	disIndex2 = 600; }
 		if (nextState == 15) { disIndex1 = 600;	disIndex2 = 0; }
 		//sc_mobRun(12, disIndex1, disIndex2, 30, nextState, plX, left1, left2, right1, right2);
 		sc_mobRun(6, disIndex1, disIndex2, 12, nextState, plX, left1, left2, right1, right2);
@@ -125,7 +125,8 @@ function sc_cBoss2Atk(){
 		
 		
 		if ( process < 6 ) { image_index = 0; }
-		else if ( process < 30 ) { image_index = 1; }
+		else if ( process < 20 ) { image_index = 1; }
+		else if ( process < 30 ) { image_index = 2; xSpeed = dir*10; }
 		else if ( process < 60 ) { image_index = 2; xSpeed = dir*20; }
 		else if ( process < 65 ) { image_index = 3;  }
 		else if ( process < 70 ) { image_index = 4; }
@@ -143,9 +144,10 @@ function sc_cBoss2Atk(){
 		isDK = true;
 		isCounter = true;
 		
-		if ( process == 1 ) { SE_Play(s_cB1_atk1_1, global.vol); }
+		if ( process == 24 ) { SE_Play(s_st3_boss4, global.vol); }
 		if ( process == 54 ) { 
-			SE_Play(s_jpBoss_atk1_1, global.vol);
+			uc_shake(10, 0.1);
+			SE_Play(s_st3_boss3, global.vol);
 			var ob = instance_create_layer(x, y-100, "effect", ob_mobAtk2);
 			ob.sprite_index = sp_cB2_counterEf;
 			ob.image_xscale = dir;
@@ -254,18 +256,18 @@ function sc_cBoss2Atk(){
 function sc_cBoss2AtkNext(index = nextState){
 	var ran = random_range(0, 10);
 	
-	if (index == 12) {
-		if (ran < 2)		{ return 12; }
-		else if (ran < 6)	{ return 12; }
-		else if (ran < 8)	{ return 12; }
-		else				{ return 12; }
+	if (index == 13) {
+		if (ran < 2)		{ return 13; }
+		else if (ran < 8)	{ return 14; }
+		else				{ return 14; }
 	}
-	else if (index == 13) {	
-		if (ran < 4)		{ return 12; }
-		else if (ran < 6)	{ return 12; }
-		else if (ran < 8)	{ return 12; }
-		else				{ return 12; }
+	else if (index == 14) {	
+		if (ran < 4)		{ return 14; }
+		else if (ran < 8)	{ return 13; }
+		else				{ return 13; }
 	}
-
+	else {
+		return 13;
+	}
 
 }
