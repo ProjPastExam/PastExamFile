@@ -17,7 +17,7 @@ function sc_npc_ranSunbi(){
 	talk1		= array_create(3);
 	talk2		= array_create(3);
 	talkq1		= array_create(2);
-	talkq2		= array_create(5);
+	talkq2		= array_create(6);
 	talkq3		= array_create(2);
 	
 	qst1		= array_create(3);
@@ -73,9 +73,10 @@ function sc_npc_ranSunbi(){
 		
 		talkq2[@0]	= new talkStruct("소인은 어느 한적한 시골의 이름 없는 선비로, \n소일거리로 점괘를 보고 있소.");
 		talkq2[@1]	= new talkStruct("점괘는 그대의 길을 가로막는 적들에 대한 것으로, \n흉조 혹은 길조가 있소.");
-		talkq2[@2]	= new talkStruct("원하신다면 점괘를 봐드리겠소.");
-		talkq2[@3]	= new talkStruct(,,,2,,3,qst1);
-		talkq2[@4]	= new talkStruct(,,,3 , qst1Index);
+		talkq2[@2]	= new talkStruct("길조가 나온다면 여행길에 큰 도움이 되겠지만, \n흉조가 나온다면 적들을 상대하기 버거워질 것이오.");
+		talkq2[@3]	= new talkStruct("원하신다면 점괘를 봐드리겠소.");
+		talkq2[@4]	= new talkStruct(,,,2,,3,qst1);
+		talkq2[@5]	= new talkStruct(,,,3 , qst1Index);
 		
 		talkq3[@0]	= new talkStruct("알겠소. \n괴력난신에 의지하지 않음은 군자다운 선택이오.");
 		talkq3[@1]	= new talkStruct(,,,1 , talk2);
