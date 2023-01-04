@@ -3,10 +3,13 @@
 function sc_stage04VilCs(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
-	if (state == 1) x = x + 4;
+	if (state == 1 || state == 8) x = x + 4;
 	
 	var ii = 220;
-	var iy = 520
+	var iy = 520;
+	
+	var sx = 1152;
+	var sy = 580;
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
@@ -38,48 +41,64 @@ function sc_stage04VilCs(){
 			break;
 			
 		case 4:
-			isTalk = 5;
+			isTalk = 7;
 			alarm[1] = 60;
 			break;
 			
 		case 5:
-			BGM_Play(s_mChun, global.volBgm, 0);
-			var name = "성춘향"
-			var text = "드디어, 백마산 앞 마을까지 돌아왔네요.";
-			sc_csBase(name, sp_chun_face_smile, text, ii, iy);
+			//ob_roomControl.isTalk = 7;
+			sc_csBase2(ii, iy);
+			isTalk = 5;
+			alarm[1] = 120;
 			break;
 		
 		case 6:
-			var name = "성춘향"
-			var text = "백마산은 왜란이 한창일 때, \n의병을 일으켜 왜군에게 맞서 싸운 \n김세근 장군님이 활약하던 곳이에요.";
+			var name = "성춘향";
+			var text = "저기 누군가 있어요! \n복장을 보아선 높은 관리 같은데...";
 			sc_csBase(name, sp_chun_face, text, ii, iy);
 			break;
 			
 		case 7:
-			var name = "성춘향"
-			var text = "하지만 지금은 왜군 잔당의 소굴이 되어버렸네요.";
-			sc_csBase(name, sp_chun_face_silence, text, ii, iy);
-			break;
-			
-		case 8:
-			var name = "성춘향"
-			var text = "왜놈들은 지나가는 행인들을 납치하고 있다고 하니, \n그냥 지나칠 순 없죠..!";
-			sc_csBase(name, sp_chun_face_angry, text, ii, iy);
-			break;
-		
-		case 9:
-			var name = "성춘향"
-			var text = "게다가, 당신은 놈들에게 갚아줘야 할 설욕도 있고요!";
-			sc_csBase(name, sp_chun_face_smile, text, ii, iy);
-			break;
-			
-		case 10:
-			ob_roomControl.isTalk = 4;
+			ob_roomControl.isTalk = 8;
+			sc_csBase2(x, 560);
 			isTalk = 4;
 			alarm[1] = 120;
 			break;
 			
+		case 8:
+			BGS_Play(s_foot, global.vol, 30);
+			sprite_index = sp_pl_walk;
+			isTalk = 4;
+			alarm[1] = 150;
+			break;
+		
+		case 9:
+			BGS_Set(0, 0);
+			sprite_index = sp_cs02_plSit;
+			image_index = 0
+			isTalk = 4;
+			alarm[1] = 40;
+			break;
+			
+		case 10:
+			sprite_index = sp_cs02_plSitDown;
+			isTalk = 7;
+			alarm[1] = 60;
+			break;
+			
 		case 11:
+			isTalk = 5;
+			sc_csBase2(sx, sy);
+			alarm[1] = 120;
+			break;
+			
+		case 12:
+			var name = "감찰사";
+			var text = "앗";
+			sc_csBase(name, sp_officer1_face, text, sx, sy);
+			break;
+			
+		case 110:
 			ob_roomControl.alarm[7] = 1;
 			break;
 		
