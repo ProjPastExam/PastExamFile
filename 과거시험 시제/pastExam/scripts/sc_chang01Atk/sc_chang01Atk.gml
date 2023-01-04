@@ -30,7 +30,7 @@ function sc_chang01Atk(){
 		xSpeed = 0;
 		
 		if ( process == 1 ) { audio_play_sound(s_chang_atk1, 8, false); }
-		if ( process == 37 ) { 
+		if ( process == 37+lvDly ) { 
 			SE_Play(s_bandit01atk2, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
 			ob.image_xscale = dir;
@@ -39,10 +39,10 @@ function sc_chang01Atk(){
 		
 		
 		if ( process < 25 ) { image_index = 0; }
-		else if ( process < 27 ) { image_index = 1; }
-		else if ( process < 37 ) { image_index = 1; xSpeed = dir*24; }
-		else if ( process < 42 ) { image_index = 2; }
-		else if ( process < 58 ) { image_index = 3; }
+		else if ( process < 27+lvDly ) { image_index = 1; }
+		else if ( process < 37+lvDly ) { image_index = 1; xSpeed = dir*24; }
+		else if ( process < 42+lvDly ) { image_index = 2; }
+		else if ( process < 58+lvDly ) { image_index = 3; }
 		else { state = 10;	process = 0;	delay = random_range(150, 200); }
 	}
 }

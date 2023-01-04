@@ -5,7 +5,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	if (talkIndex == talkq1) {
 		if (global.ranStage1 == 0)	{
 			global.ranStage1 = ranStage1;
-			if (ranStage1 == 1) { with (ob_mobBase) { hp += hp/2; } }
+			if (ranStage1 == 1) { with (ob_mobBase) { hpFull += hpFull/2;	hp += hp/2; } }
 			if (ranStage1 == 3) { with (ob_mobBase) { down += 20; } }
 		}
 		if (global.ranStage2 == 0)	{
