@@ -284,6 +284,7 @@
     {"id":{"name":"sp_startCs_1","path":"sprites/sp_startCs_1/sp_startCs_1.yy",},"order":0,},
     {"id":{"name":"uc_add_instance_following_list","path":"scripts/uc_add_instance_following_list/uc_add_instance_following_list.yy",},"order":2,},
     {"id":{"name":"uc_set_view_size","path":"scripts/uc_set_view_size/uc_set_view_size.yy",},"order":2,},
+    {"id":{"name":"ob_chun_stage03Vil","path":"objects/ob_chun_stage03Vil/ob_chun_stage03Vil.yy",},"order":8,},
     {"id":{"name":"r_stage02BossCs2","path":"rooms/r_stage02BossCs2/r_stage02BossCs2.yy",},"order":13,},
     {"id":{"name":"spr_slope","path":"sprites/spr_slope/spr_slope.yy",},"order":1,},
     {"id":{"name":"sc_pl_sk104","path":"scripts/sc_pl_sk104/sc_pl_sk104.yy",},"order":4,},
