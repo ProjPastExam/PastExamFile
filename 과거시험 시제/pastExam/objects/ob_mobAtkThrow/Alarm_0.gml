@@ -10,6 +10,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		if (alarm[2] == -1) alarm[2] = 60;
 	}
 	if ( bottom1 == 2 && bottom2 != 2 && ySpeed > 0 ) { y += 16; }
+	if (ySpeed > 20) ySpeed = 20;
 	sc_obPhysics();
 	image_xscale = dir;
 	image_speed = 1;

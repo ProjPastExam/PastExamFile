@@ -1120,6 +1120,7 @@
     {"id":{"name":"r_setting","path":"rooms/r_setting/r_setting.yy",},"order":0,},
     {"id":{"name":"r_stage01_2_2","path":"rooms/r_stage01_2_2/r_stage01_2_2.yy",},"order":6,},
     {"id":{"name":"sp_startCs_4","path":"sprites/sp_startCs_4/sp_startCs_4.yy",},"order":3,},
+    {"id":{"name":"sp_chang03_shock","path":"sprites/sp_chang03_shock/sp_chang03_shock.yy",},"order":8,},
     {"id":{"name":"r_stage02_pace2","path":"rooms/r_stage02_pace2/r_stage02_pace2.yy",},"order":11,},
     {"id":{"name":"sp_talk2","path":"sprites/sp_talk2/sp_talk2.yy",},"order":1,},
     {"id":{"name":"sp_jpGun_atk","path":"sprites/sp_jpGun_atk/sp_jpGun_atk.yy",},"order":8,},
