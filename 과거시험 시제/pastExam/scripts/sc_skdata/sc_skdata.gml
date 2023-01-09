@@ -13,6 +13,7 @@ function sc_skData(){
 	global.skMp[107]	= 200;	//언월도
 	global.skMp[108]	= 300;	//왜검
 	global.skMp[109]	= 300	//화살비
+	global.skMp[110]	= 0	//화창
 	
 	
 	global.skKulData = array_create(600, 0);
@@ -27,4 +28,5 @@ function sc_skData(){
 	global.skKulData[107]	= 180;
 	global.skKulData[108]	= 180;
 	global.skKulData[109]	= 180;
+	global.skKulData[110]	= 80;
 }

@@ -54,4 +54,8 @@ function sc_itemData(){
 	//은장도
 	global.itemData[12]	= new itemStruct ( 12, sp_Item_12, sp_ItemInfo_12, 1,
 		function(grade) { global.item12 = grade; })
+		
+	//두석린갑, 피격시 모션끊김 없고 무적시간 증가
+	global.itemData[13]	= new itemStruct ( 13, sp_Item_13, sp_ItemInfo_13, 2,
+		function(grade) { global.item13 = grade; })
 }
