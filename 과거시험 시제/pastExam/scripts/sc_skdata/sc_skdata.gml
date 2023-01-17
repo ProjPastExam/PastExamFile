@@ -11,9 +11,11 @@ function sc_skData(){
 	global.skMp[105]	= 100;	//세총통
 	global.skMp[106]	= 300;	//쌍자총통
 	global.skMp[107]	= 200;	//언월도
-	global.skMp[108]	= 300;	//왜검
+	//global.skMp[108]	= 300;	//왜검
 	global.skMp[109]	= 300	//화살비
 	global.skMp[110]	= 0	//화창
+	global.skMp[144]	= 300;	//왜검
+	global.skMp[161]	= 300;	//사전총통
 	
 	
 	global.skKulData = array_create(600, 0);
@@ -26,7 +28,9 @@ function sc_skData(){
 	global.skKulData[105]	= 90;
 	global.skKulData[106]	= 240;
 	global.skKulData[107]	= 180;
-	global.skKulData[108]	= 180;
+	//global.skKulData[108]	= 180;
 	global.skKulData[109]	= 180;
 	global.skKulData[110]	= 80;
+	global.skKulData[144]	= 600;
+	global.skKulData[161]	= 180;
 }

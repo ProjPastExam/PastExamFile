@@ -6,6 +6,7 @@ function sc_pl_atkDn2(){
 	xSpeed = 0;
 	image_xscale = dir;
 	sprite_index = sp_pl_atkDn2;
+	if (spAtk == 1) { sprite_index = sp_pl_sk144_dn2; }
 	var atk;
 	
 	if ( atkProcess == 1 ) {

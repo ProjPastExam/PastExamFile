@@ -25,14 +25,16 @@ function sc_pl_dash(){
 	}
 	
 	if ( dProcess % 4 == 0 ) { 
+		part_type_sprite(global.dashEf, sprite_index, true, true, false);
 		part_type_scale( global.dashEf, dir, 1 );
 		part_particles_create( global.hitEf2, x, y, global.dashEf, 1 );
 	}
 	
 	if (dProcess == 0) SE_Play(s_dash01, global.vol);//audio_play_sound(s_dash01, 5, false);
 	dProcess++;
-	if (global.item12)	sprite_index = sp_pl_item12;
-	else				sprite_index = sp_pl_dash;
+	if (global.item12)		sprite_index = sp_pl_item12;
+	else if (spAtk == 1)	sprite_index = sp_pl_sk144_dash; 
+	else					sprite_index = sp_pl_dash;
 	image_xscale = dir;
 	xSpeed = 20*dir*(25-dProcess)/14;
 	ySpeed = 0;

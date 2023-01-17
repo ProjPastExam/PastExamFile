@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_skillUi(){
-skUi = array_create(300, sp_skillUi_0);
+skUi = array_create(200, sp_skillUi_0);
 skUi[0] = sp_skillUi_0;
 skUi[100] = sp_skillUi_101;
 skUi[101] = sp_skillUi_101;
