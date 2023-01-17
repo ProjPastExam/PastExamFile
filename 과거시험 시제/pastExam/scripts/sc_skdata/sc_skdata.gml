@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_skData(){
-	global.skMp = array_create(600, 0);
+	global.skMp = array_create(200, 0);
 	global.skMp[0]		= 0;	//null	
 	global.skMp[100]	= 200;	//편전
 	global.skMp[101]	= 400;	//총
@@ -14,11 +14,12 @@ function sc_skData(){
 	//global.skMp[108]	= 300;	//왜검
 	global.skMp[109]	= 300	//화살비
 	global.skMp[110]	= 0	//화창
+	global.skMp[133]	= 200;	//협도
 	global.skMp[144]	= 300;	//왜검
 	global.skMp[161]	= 300;	//사전총통
 	
 	
-	global.skKulData = array_create(600, 0);
+	global.skKulData = array_create(200, 0);
 	global.skKulData[0]		= 0;
 	global.skKulData[100]	= 120;
 	global.skKulData[101]	= 180;
@@ -31,6 +32,7 @@ function sc_skData(){
 	//global.skKulData[108]	= 180;
 	global.skKulData[109]	= 180;
 	global.skKulData[110]	= 80;
+	global.skKulData[133]	= 180;
 	global.skKulData[144]	= 600;
 	global.skKulData[161]	= 180;
 }

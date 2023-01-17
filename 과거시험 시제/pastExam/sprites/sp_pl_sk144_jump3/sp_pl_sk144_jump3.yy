@@ -71,6 +71,6 @@
   "nineSlice": null,
   "parent": {
     "name": "sk144",
-    "path": "folders/Sprites/player/skillSprite/sk144.yy",
+    "path": "folders/Sprites/player/skillSprite/kick/sk144.yy",
   },
 }

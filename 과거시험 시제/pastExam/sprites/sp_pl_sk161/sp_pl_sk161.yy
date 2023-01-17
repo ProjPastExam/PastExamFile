@@ -78,7 +78,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "skillSprite",
-    "path": "folders/Sprites/player/skillSprite.yy",
+    "name": "fire",
+    "path": "folders/Sprites/player/skillSprite/fire.yy",
   },
 }

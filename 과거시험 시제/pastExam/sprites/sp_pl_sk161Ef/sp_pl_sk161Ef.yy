@@ -76,7 +76,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "atkEffectSprite",
-    "path": "folders/Sprites/player/atkEffectSprite.yy",
+    "name": "fire",
+    "path": "folders/Sprites/player/skillSprite/fire.yy",
   },
 }

@@ -59,6 +59,6 @@ function sc_pl_sk107(){
 	else if ( atkProcess < 150 )	{ image_index = 12; }
 	else if ( atkProcess < 156 )	{ image_index = 13; }
 	else if ( atkProcess < 168 )	{ image_index = 14; }
-	else if ( atkProcess < 170 ){ image_index = 14; sc_pl_comAfterSk(); }
+	else if ( atkProcess < 170 )	{ image_index = 14; sc_pl_skComb();	sc_pl_comAfterSk(); }
 	else						{ canMove = 0;	atkProcess = -5; global.skKul[skState] = global.skKulData[103]; }
 }
