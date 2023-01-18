@@ -137,17 +137,23 @@ function sc_pl_move() {
 		
 		//스킬
 		case 101:	sc_pl_sk101();			break;
-		case 102:	sc_pl_sk102();			break;
-		case 103:	sc_pl_sk103();			break;
+		//case 102:	sc_pl_sk102();			break;
+		//case 103:	sc_pl_sk103();			break;
 		case 104:	sc_pl_sk104();			break;
 		case 105:	sc_pl_sk105();			break;
 		case 106:	sc_pl_sk106();			break;
-		case 107:	sc_pl_sk107();			break;
+		//case 107:	sc_pl_sk107();			break;
 		//case 108:	sc_pl_sk108();			break;
 		case 109:	sc_pl_sk109();			break;
-		case 110:	sc_pl_sk110();			break;
+		//case 110:	sc_pl_sk110();			break;
+		case 131:	sc_pl_sk131();			break;
+		case 132:	sc_pl_sk132();			break;
 		case 133:	sc_pl_sk133();			break;
+		case 141:	sc_pl_sk141();			break;
+		case 142:	sc_pl_sk142();			break;
+		case 143:	sc_pl_sk143();			break;
 		case 144:	sc_pl_sk144();			break;
+		case 145:	sc_pl_sk145();			break;
 		case 161:	sc_pl_sk161();			break;
 		}
 	}

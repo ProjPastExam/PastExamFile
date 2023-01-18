@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "ob_mobAtk",
+    "path": "objects/ob_mobAtk/ob_mobAtk.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

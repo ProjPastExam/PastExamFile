@@ -11,6 +11,7 @@ function sc_pl_keyCheck() {
 	keySk1			= false;
 	keySk2			= false;
 	keySk3			= false;
+	keySkDown		= false;
 	
 	var axisH =  gamepad_axis_value(global.gamepadSlot, gp_axislh);
 	var axisV =  gamepad_axis_value(global.gamepadSlot, gp_axislv);
@@ -32,6 +33,9 @@ function sc_pl_keyCheck() {
 	if ( sc_getKey(global.btSk1, global.gpSk1, 0) )		{ keySk1	= true; }
 	if ( sc_getKey(global.btSk2, global.gpSk2, 0) )		{ keySk2	= true; }
 	if ( sc_getKey(global.btSk3, global.gpSk3, 0) )		{ keySk3	= true; }
+	if ( sc_getKey(global.btSk1, global.gpSk1, 1) )		{ keySkDown	= true; }
+	if ( sc_getKey(global.btSk2, global.gpSk2, 1) )		{ keySkDown	= true; }
+	if ( sc_getKey(global.btSk3, global.gpSk3, 1) )		{ keySkDown	= true; }
 	
 	
 }
