@@ -1,12 +1,12 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_pl_sk105(){
+function sc_pl_sk162(){
 	sc_pl_skDir();
 	
 	atkProcess++;
 	if (!isJump) xSpeed = 0;
 	image_xscale = dir;
-	sprite_index = sp_pl_sk105;
+	sprite_index = sp_pl_sk162;
 	//var atk;
 	
 	if ( atkProcess > 10 ) {
@@ -17,16 +17,14 @@ function sc_pl_sk105(){
 	}
 
 	if ( atkProcess == 12 ) {
-		sc_pl_atkEf(sc_pl_fireDmg()*2, sc_pl_firePene(), sc_pl_fireShock()/1.2, 0, 
-			4, 2, 0, sp_pl_atkEf105, dir, 0, x);
+		sc_pl_atkEf(sc_pl_fireDmg(), sc_pl_firePene(), sc_pl_fireShock()/1.2, 0, 
+			4, 2, 0, sp_pl_sk162Ef, dir, 0, x);
 		uc_shake(8, 0.1);
 		SE_Play(s_jp_bAtk2, global.vol);
-		//audio_play_sound(s_pl_sk101, 5, false);
 		part_type_scale(global.gunEf, dir, 1);
 		part_particles_create( global.hitEf, x-(20*dir), y-10, global.gunEf, 1 );
-		//if (sc_getRoomValue("pause") != NULL) ob_roomControl.pause = 20;
-		global.mp -= global.skMp[105];
-		global.skKul[skState] = global.skKulData[105];
+		global.mp -= global.skMp[162];
+		global.skKul[skState] = global.skKulData[162];
 	}
 	
 		

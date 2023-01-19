@@ -7,7 +7,7 @@ function sc_pl_sprite(argument0) {
 	switch ( argument0 ) {
 		case 0:
 			sprite_index = sp_pl_stand;
-			if (spAtk == 1) { sprite_index = sp_pl_stand; }
+			if (spAtk == 1) { sprite_index = sp_pl_sk144_stand; }
 			break;
 	
 		case 1:
