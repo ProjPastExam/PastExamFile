@@ -9,8 +9,8 @@ function sc_pl_skComb(){
 		{ nextAtk = 0; atkProcess = 0; canMove = global.sk3; skState = 2; }
 }
 
-function sc_pl_skDir() {
-	if (atkProcess == 1) {
+function sc_pl_skDir(proIndex = 1) {
+	if (atkProcess == proIndex) {
 		if (keyLeft)		dir = -1;
 		else if (keyRight)	dir = 1;
 	}
@@ -75,4 +75,9 @@ function sc_pl_comAfterSk() {
 		if ( keyRight ) dir = 1;
 		if ( keyLeft ) dir = -1
 	}
+}
+
+function sc_pl_kulNMana(skNum) {
+	global.mp -= global.skMp[skNum];
+	global.skKul[skState] = global.skKulData[skNum];
 }

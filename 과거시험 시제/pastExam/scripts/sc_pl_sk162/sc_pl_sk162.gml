@@ -23,8 +23,7 @@ function sc_pl_sk162(){
 		SE_Play(s_jp_bAtk2, global.vol);
 		part_type_scale(global.gunEf, dir, 1);
 		part_particles_create( global.hitEf, x-(20*dir), y-10, global.gunEf, 1 );
-		global.mp -= global.skMp[162];
-		global.skKul[skState] = global.skKulData[162];
+		sc_pl_kulNMana(162);
 	}
 	
 		

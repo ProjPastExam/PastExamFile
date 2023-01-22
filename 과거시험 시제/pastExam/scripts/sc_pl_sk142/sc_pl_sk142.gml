@@ -24,16 +24,14 @@ function sc_pl_sk142(){
 		sc_pl_atkEf(sc_pl_kickDmg()*8, sc_pl_kickPene(), sc_pl_kickShock()+100, 0, 
 			0, 1, 0, sp_pl_sk142Ef1, dir);
 		SE_Play(s_bandit02atk2, global.vol);
-		global.mp -= global.skMp[142];
-		global.skKul[skState] = global.skKulData[142];
+		sc_pl_kulNMana(142);
 	}
 	
 	if ( atkProcess == 82 ) {
 		sc_pl_atkEf(sc_pl_kickDmg()*6, sc_pl_kickPene(), sc_pl_kickShock()+100, 0, 
 			0, 1, 0, sp_pl_sk142Ef2, dir);
 		SE_Play(s_bandit02atk2, global.vol);
-		global.mp -= global.skMp[142];
-		global.skKul[skState] = global.skKulData[142];
+		sc_pl_kulNMana(142);
 	}
 	
 

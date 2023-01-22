@@ -20,8 +20,7 @@ function sc_pl_sk146(){
 		SE_Play(s_swing_a1, global.vol);
 		atk = sc_pl_atkEf(sc_pl_kickDmg()*4, sc_pl_kickPene(), sc_pl_kickShock()+60, 0, 
 			0, 1, 0, sp_pl_sk133Ef, dir);
-		global.mp -= global.skMp[146];
-		global.skKul[skState] = global.skKulData[146];
+		sc_pl_kulNMana(146);
 	}
 	
 	if ( atkProcess == 27 || atkProcess == 87 ) {

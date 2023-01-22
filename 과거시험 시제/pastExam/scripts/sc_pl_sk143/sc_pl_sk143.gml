@@ -25,8 +25,7 @@ function sc_pl_sk143(){
 		sc_pl_atkEf(dmg, sc_pl_kickPene(), sc_pl_kickShock(), 0, 
 			0, 1, 0, sp_pl_itemEf4, dir);
 		SE_Play(s_bandit02atk2, global.vol);
-		global.mp -= global.skMp[143];
-		global.skKul[skState] = global.skKulData[143];
+		sc_pl_kulNMana(143);
 	}
 	
 	if ( atkProcess == 92 ) {

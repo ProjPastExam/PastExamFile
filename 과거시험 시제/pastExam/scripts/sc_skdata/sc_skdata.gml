@@ -18,7 +18,7 @@ function sc_skData(){
 	global.skMp[132]	= 100;	//환도
 	global.skMp[133]	= 200;	//협도
 	global.skMp[143]	= 200	//화창
-	global.skMp[144]	= 300;	//왜검
+	global.skMp[144]	= 0;	//왜검
 	global.skMp[145]	= 200;	//언월도
 	global.skMp[161]	= 300;	//사전총통
 	

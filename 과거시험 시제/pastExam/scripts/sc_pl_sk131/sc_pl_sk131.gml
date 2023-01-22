@@ -31,10 +31,7 @@ function sc_pl_sk131(){
 		sc_pl_atkEf(sc_pl_kickDmg()*5, sc_pl_kickPene(), sc_pl_kickShock()+100, 0, 
 			0, 1, 0, sp_pl_sk131Ef, dir);
 		SE_Play(s_bandit02atk2, global.vol);
-		//audio_play_sound(s_bandit02atk2, 5, false);
-		global.mp -= global.skMp[131];
-		//if (sc_getRoomValue("pause") != NULL) ob_roomControl.pause = 20;
-		global.skKul[skState] = global.skKulData[131];
+		sc_pl_kulNMana(131);
 	}
 	
 

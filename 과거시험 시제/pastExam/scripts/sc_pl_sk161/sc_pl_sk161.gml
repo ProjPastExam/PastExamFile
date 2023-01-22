@@ -16,8 +16,7 @@ function sc_pl_sk161(){
 		SE_Play(s_pl_sk101, global.vol);
 		part_type_scale(global.gunEf, dir, 1);
 		part_particles_create( global.hitEf, x, y, global.gunEf, 1 );
-		global.mp -= global.skMp[161];
-		global.skKul[skState] = global.skKulData[161];
+		sc_pl_kulNMana(161);
 	}
 	
 	if ( atkProcess > 10 ) {

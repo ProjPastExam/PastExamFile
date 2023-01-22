@@ -21,8 +21,7 @@ function sc_pl_sk145(){
 		//audio_play_sound(s_swing_c1, 5, false);
 		atk = sc_pl_atkEf(sc_pl_kickDmg()*6, sc_pl_kickPene(), sc_pl_kickShock()+120, 0, 
 			0, 1, 0, sp_pl_sk145Ef1, dir);
-		global.mp -= global.skMp[145];
-		global.skKul[skState] = global.skKulData[107];
+		sc_pl_kulNMana(145);
 	}
 	
 	if ( atkProcess == 12 ) { atk.sprite_index = sp_pl_sk145Ef1; }
