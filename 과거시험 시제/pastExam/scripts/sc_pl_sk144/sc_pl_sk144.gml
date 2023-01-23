@@ -87,16 +87,22 @@ function sc_pl_sk144_atk() {
 		SE_Play(s_swing_c1, global.vol);
 		atk = sc_pl_atkEf(sc_pl_kickDmg()*3, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
 			0, 1, 0, sp_pl_sk144_atkEf1, dir);
+		spAtk = 1;
+		alarm[6] = 600;
 	}
 	else if (atkProcess == 60) {
 		SE_Play(s_swing_c1, global.vol);
 		atk = sc_pl_atkEf(sc_pl_kickDmg()*3, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
 			0, 1, 0, sp_pl_sk144_atkEf2, dir);
+		spAtk = 1;
+		alarm[6] = 600;
 	}
 	else if (atkProcess == 110) {
 		SE_Play(s_swing_c1, global.vol);
 		atk = sc_pl_atkEf(sc_pl_kickDmg()*3, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
 			0, 1, 0, sp_pl_sk144_atkEf3, dir);
+		spAtk = 1;
+		alarm[6] = 600;
 	}
 
 
@@ -106,7 +112,7 @@ function sc_pl_sk144_atk() {
 	}
 
 	
-	if ( atkProcess < 8 )		{ image_index = 0;	xSpeed = dir*18; }
+	if ( atkProcess < 8 )		{ image_index = 0;	xSpeed = dir*18; ySpeed = 0; }
 	else if ( atkProcess < 16 )	{ image_index = 1;	xSpeed = dir*18; }
 	else if ( atkProcess < 24 )	{ image_index = 2; }
 	else if ( atkProcess < 32 )	{ image_index = 3; }
@@ -119,7 +125,7 @@ function sc_pl_sk144_atk() {
 	else if ( atkProcess < 50 )	{ canMove = 0;	atkProcess = -5; }
 	
 	if ( atkProcess < 50 ) {}
-	else if ( atkProcess < 55 )	{ image_index = 4;	xSpeed = dir*18; }
+	else if ( atkProcess < 55 )	{ image_index = 4;	xSpeed = dir*18; ySpeed = 0;  }
 	else if ( atkProcess < 60 )	{ image_index = 5;	xSpeed = dir*18; }
 	else if ( atkProcess < 65 )	{ image_index = 6; }
 	else if ( atkProcess < 70 )	{ image_index = 7; }
@@ -132,7 +138,7 @@ function sc_pl_sk144_atk() {
 	else if ( atkProcess < 82 )	{ canMove = 0;	atkProcess = -5; }
 	
 	if ( atkProcess < 100 ) {}
-	else if ( atkProcess < 105 )	{ image_index = 4;	xSpeed = dir*18; }
+	else if ( atkProcess < 105 )	{ image_index = 4;	xSpeed = dir*18; ySpeed = 0;  }
 	else if ( atkProcess < 110 )	{ image_index = 5;	xSpeed = dir*18; }
 	else if ( atkProcess < 115 )	{ image_index = 6; }
 	else if ( atkProcess < 120 )	{ image_index = 7; }
@@ -143,4 +149,49 @@ function sc_pl_sk144_atk() {
 	}
 	else { canMove = 0;	atkProcess = -5; }
 	
+}
+
+function sc_pl_sk144_up(){
+	atkProcess++;
+	image_xscale = dir;
+	sprite_index = sp_pl_sk144_atkUp;
+	var atk;
+	
+	if ( atkProcess > 4 ) {
+		if (keyAttack) {
+			if ( keyDown && isJump )		nextAtk = 5;
+			else nextAtk = 1;
+		}
+	}
+	
+	if (!isJump) xSpeed = 0;
+	
+	if ( atkProcess == 8 ) {
+		sc_pl_atkEf(sc_pl_kickDmg()*2, sc_pl_kickPene(), sc_pl_kickShock()-80, sc_pl_kickMana(), 
+			18, 1, 0, sp_pl_atkEf04, dir);
+		SE_Play(s_kick01, global.vol);
+	}
+	
+	//대쉬 제어
+	if ( (atkProcess > 4) ) {
+		if ( keyDash && isDash ) nextAtk = 10;
+		sc_pl_skKey();
+	}
+		
+	if ( (atkProcess > 8) ) {
+		sc_pl_atkDnJ(2);
+		sc_pl_skComb();
+	}
+	
+	if ( atkProcess < 8 )		{ image_index = 0; nextAtk = 0; if (isJump) { ySpeed = -6; } }
+	else if ( atkProcess < 12 )	{ image_index = 1; if (isJump) { ySpeed = -12; } }
+	else if ( atkProcess < 16 )	{ image_index = 2; if (isJump) { ySpeed = -6; } }
+	else if ( atkProcess < 21 )	{ image_index = 3; }
+	else if ( atkProcess < 35 ) { 
+		if (!isJump)		{ canMove = 0;	atkProcess = -10; }
+		if (nextAtk == 1)	{ canMove = 50;	atkProcess = 0; }
+		else if (nextAtk == 5)	{ canMove = 5;	atkProcess = 0; }
+		
+	}
+	else	{ canMove = 0;	atkProcess = -10; }
 }

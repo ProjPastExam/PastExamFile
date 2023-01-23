@@ -113,7 +113,10 @@ function sc_pl_move() {
 		}
 	}
 	
-	if (spAtk == 1 && (canMove==1||canMove==2||canMove==3||canMove==7)) canMove = 50;
+	if (spAtk == 1) {
+		if (canMove==1||canMove==2||canMove==3||canMove==4||canMove==7)	canMove = 50;
+		if (canMove==6||canMove==8)	canMove = 51;
+	}
 	
 	if ( atkProcess > -1 ) {
 		switch(canMove) {
@@ -138,6 +141,7 @@ function sc_pl_move() {
 		case 21:	sc_pl_item0();			break;
 		
 		case 50:	sc_pl_sk144_atk();		break;
+		case 51:	sc_pl_sk144_up();		break;
 		
 		//스킬
 		case 101:	sc_pl_sk101();			break;

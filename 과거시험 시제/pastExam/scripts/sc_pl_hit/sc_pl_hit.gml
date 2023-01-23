@@ -30,6 +30,7 @@ function sc_pl_hit(argument0){
 					xSpeed = ob_player.dir * -15;
 					atkProcess = -1;
 					dProcess = -1;
+					spAtk = 0;
 				}
 			}
 			
@@ -53,6 +54,7 @@ function sc_pl_hit(argument0){
 					xSpeed = ob_player.dir * -20;
 					atkProcess = -1;
 					dProcess = -1;
+					spAtk = 0;
 				}
 			}
 
