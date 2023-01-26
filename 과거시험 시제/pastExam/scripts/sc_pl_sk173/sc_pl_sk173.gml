@@ -1,12 +1,12 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_pl_sk106(){
+function sc_pl_sk173(){
 	sc_pl_skDir();
 	
 	atkProcess++;
 	if (!isJump) xSpeed = 0;
 	image_xscale = dir;
-	sprite_index = sp_pl_sk106;
+	sprite_index = sp_pl_sk173;
 	var atk;
 	
 	if ( atkProcess > 10 ) {
@@ -19,22 +19,19 @@ function sc_pl_sk106(){
 	
 	if ( atkProcess == 24 || atkProcess = 68 ) {
 		sc_pl_atkEf(sc_pl_fireDmg()*3, sc_pl_firePene(), 100, 0, 
-			4, 2, 5, sp_pl_atkEf101, dir, 0, , y-20);
+			4, 2, 5, sp_pl_sk173Ef, dir, 0, , y-20);
 		uc_shake(8, 0.1);
 		SE_Play(s_pl_sk101, global.vol);
-		//audio_play_sound(s_pl_sk101, 5, false);
 		part_type_scale(global.gunEf, dir, 1);
 		part_particles_create( global.hitEf, x, y-20, global.gunEf, 1 );
-		//if (sc_getRoomValue("pause") != NULL) ob_roomControl.pause = 20;
-		global.mp -= global.skMp[106];
-		global.skKul[skState] = global.skKulData[106];
+		sc_pl_kulNMana(173);
 	}
 	
 	if ( (atkProcess > 24 ) ) {
 		sc_pl_atkDnJ();
 	}
 	
-	if (atkProcess > 32 && atkProcess < 60)	{ if (sc_pl_skRepeat(106))	atkProcess = 60; }
+	if (atkProcess > 32 && atkProcess < 60)	{ if (sc_pl_skRepeat(173))	atkProcess = 60; }
 	
 	if ( atkProcess < 8 )		{ image_index = 0; nextAtk = 0; }
 	else if ( atkProcess < 16 )	{ image_index = 1; }

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "sc_pl_sk106",
+  "name": "sc_pl_sk173",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

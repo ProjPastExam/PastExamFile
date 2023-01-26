@@ -149,7 +149,7 @@ function sc_pl_move() {
 		//case 103:	sc_pl_sk103();			break;
 		case 104:	sc_pl_sk104();			break;
 		//case 105:	sc_pl_sk105();			break;
-		case 106:	sc_pl_sk106();			break;
+		//case 106:	sc_pl_sk106();			break;
 		//case 107:	sc_pl_sk107();			break;
 		//case 108:	sc_pl_sk108();			break;
 		case 109:	sc_pl_sk109();			break;
@@ -168,6 +168,7 @@ function sc_pl_move() {
 		case 163:	sc_pl_sk163();			break;
 		case 171:	sc_pl_sk171();			break;
 		case 172:	sc_pl_sk172();			break;
+		case 173:	sc_pl_sk173();			break;
 		}
 	}
 	if (dProcess > -1 && canMove == 10) sc_pl_dash();
