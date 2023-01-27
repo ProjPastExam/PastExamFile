@@ -17,9 +17,12 @@ function sc_skData(){
 	global.skMp[131]	= 200;	//창 찌르기
 	global.skMp[132]	= 100;	//환도
 	global.skMp[133]	= 200;	//협도
+	global.skMp[141]	= 200	//당파
+	global.skMp[142]	= 200	//표창
 	global.skMp[143]	= 200	//화창
-	global.skMp[144]	= 0;	//왜검
+	global.skMp[144]	= 400;	//왜검
 	global.skMp[145]	= 200;	//언월도
+	global.skMp[146]	= 200;	//편곤
 	global.skMp[161]	= 300;	//사전총통
 	
 	
@@ -36,11 +39,14 @@ function sc_skData(){
 	//global.skKulData[108]	= 180;
 	global.skKulData[109]	= 180;
 	global.skKulData[110]	= 80;
-	global.skKulData[131]	= 120;
+	global.skKulData[131]	= 180;
 	global.skKulData[132]	= 60;
 	global.skKulData[133]	= 180;
-	global.skKulData[143]	= 180;
-	global.skKulData[144]	= 600;
-	global.skKulData[145]	= 180;
+	global.skKulData[141]	= 240;
+	global.skKulData[142]	= 240;
+	global.skKulData[143]	= 240;
+	global.skKulData[144]	= 480;
+	global.skKulData[145]	= 240;
+	global.skKulData[146]	= 240;
 	global.skKulData[161]	= 180;
 }
