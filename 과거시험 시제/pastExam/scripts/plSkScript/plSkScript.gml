@@ -77,7 +77,7 @@ function sc_pl_comAfterSk() {
 	}
 }
 
-function sc_pl_kulNMana(skNum) {
-	global.mp -= global.skMp[skNum];
+function sc_pl_kulNMana(skNum, mpIndex = 1) {
+	global.mp -= global.skMp[skNum]/mpIndex;
 	global.skKul[skState] = global.skKulData[skNum];
 }

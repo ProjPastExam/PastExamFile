@@ -1,12 +1,12 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_pl_sk104(){
+function sc_pl_sk111(){
 	sc_pl_skDir();
 	
 	atkProcess++;
 	if (!isJump) xSpeed = 0;
 	image_xscale = dir;
-	sprite_index = sp_pl_sk104;
+	sprite_index = sp_pl_sk101;
 	var atk;
 	
 	if ( atkProcess > 10 ) {
@@ -18,11 +18,9 @@ function sc_pl_sk104(){
 	if ( atkProcess == 8 || atkProcess == 16 ||atkProcess == 24 ||atkProcess == 32 ||
 			atkProcess == 40) {
 		SE_Play(s_arrow01, global.vol);
-		//audio_play_sound(s_arrow01, 5, false);
-		atk = sc_pl_atkEf(sc_pl_atkDmg()*1.5, sc_pl_atkPene(), sc_pl_atkShock(), 0, 
-			0, 0, 0, sp_pl_atkEf104, dir);
-		global.mp -= global.skMp[104]/5;
-		global.skKul[skState] = global.skKulData[104];
+		atk = sc_pl_atkEf(sc_pl_atkDmg()*2, sc_pl_atkPene(), sc_pl_atkShock(), 0, 
+			0, 0, 0, sp_pl_sk111Ef, dir);
+		sc_pl_kulNMana(111, 5);
 	}
 	
 	if ( atkProcess == 8 || atkProcess == 32 ) 

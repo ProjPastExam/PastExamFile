@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "sc_pl_sk104",
+  "name": "sc_pl_skgun",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
