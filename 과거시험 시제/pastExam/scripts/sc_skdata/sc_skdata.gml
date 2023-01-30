@@ -3,17 +3,19 @@
 function sc_skData(){
 	global.skMp = array_create(200, 0);
 	global.skMp[0]		= 0;	//null	
-	global.skMp[100]	= 200;	//편전
-	global.skMp[101]	= 400;	//총
-//	global.skMp[102]	= 200;	//창 찌르기
+	global.skMp[101]	= 300;	//연속 사격
+	global.skMp[102]	= 200;	//다발 사격
 //	global.skMp[103]	= 100;	//환도
-	global.skMp[104]	= 300;	//연사
-	global.skMp[105]	= 100;	//세총통
-	global.skMp[106]	= 300;	//쌍자총통
+//	global.skMp[104]	= 300;	//연사
+//	global.skMp[105]	= 100;	//세총통
+//	global.skMp[106]	= 300;	//쌍자총통
 //	global.skMp[107]	= 200;	//언월도
 	//global.skMp[108]	= 300;	//왜검
-	global.skMp[109]	= 300	//화살비
+//	global.skMp[109]	= 300	//화살비
 //	global.skMp[110]	= 0	//화창
+	global.skMp[111]	= 300;	//강화 연속 사격
+	global.skMp[112]	= 400;	//광역 사격
+	global.skMp[113]	= 200;	//강화 다발 사격
 	global.skMp[131]	= 200;	//창 찌르기
 	global.skMp[132]	= 100;	//환도
 	global.skMp[133]	= 200;	//협도

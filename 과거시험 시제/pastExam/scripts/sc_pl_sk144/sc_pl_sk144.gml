@@ -16,11 +16,6 @@ function sc_pl_sk144(){
 		if ( keyJump ) nextAtk = 9;
 	}
 
-	/*
-	if ( atkProcess == 18 ) {
-		
-	}
-	*/
 	if ( atkProcess == 24 ) {
 		SE_Play(s_swing_c2, global.vol);
 		//audio_play_sound(s_swing_c1, 5, false);

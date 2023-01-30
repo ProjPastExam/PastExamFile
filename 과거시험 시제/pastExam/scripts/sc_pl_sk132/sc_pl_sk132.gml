@@ -14,11 +14,6 @@ function sc_pl_sk132(){
 		sc_pl_skKey();
 	}
 
-	/*
-	if ( atkProcess == 18 ) {
-		
-	}
-	*/
 	if ( atkProcess == 8 || atkProcess == 48 || atkProcess == 88 ) {
 		SE_Play(s_swing_c1, global.vol);
 		//audio_play_sound(s_swing_c1, 5, false);

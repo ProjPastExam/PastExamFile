@@ -17,14 +17,8 @@ function sc_pl_sk141(){
 		if ( keyJump ) nextAtk = 9;
 	}
 
-	/*
-	if ( atkProcess == 18 ) {
-		
-	}
-	*/
 	if ( atkProcess == 1 ) {
 		SE_Play(s_dash01, global.vol);
-		//audio_play_sound(s_dash01, 5, false);
 	}
 	
 	if ( atkProcess == 14 ) {
