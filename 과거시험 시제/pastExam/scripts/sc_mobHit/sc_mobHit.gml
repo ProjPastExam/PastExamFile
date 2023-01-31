@@ -30,7 +30,7 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 		indexStun = true;
 		part_particles_create( global.hitEf, x, y+hitLot, global.mobCounterEfF, 1 );
 	}
-	if (hitKind == 12 && !isDK) { 
+	if (hitKind == 12 && !isDF) { 
 		isStun = true; 
 		indexStun = true;
 		part_particles_create( global.hitEf, x, y+hitLot, global.mobCounterEfF, 1 );

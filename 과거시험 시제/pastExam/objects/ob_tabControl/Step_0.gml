@@ -79,7 +79,7 @@ if (skState2 != 0) {
 				global.sk1 = global.sk2;
 				global.sk2 = buffer;
 				
-				global.skKul[0] = buffer;
+				buffer = global.skKul[0];
 				global.skKul[0] = global.skKul[1];
 				global.skKul[1] = buffer;
 			}
@@ -88,7 +88,7 @@ if (skState2 != 0) {
 				global.sk1 = global.sk3;
 				global.sk3 = buffer;
 				
-				global.skKul[0] = buffer;
+				buffer = global.skKul[0];
 				global.skKul[0] = global.skKul[2];
 				global.skKul[2] = buffer;
 			}
@@ -99,7 +99,7 @@ if (skState2 != 0) {
 				global.sk2 = global.sk1;
 				global.sk1 = buffer;
 				
-				global.skKul[1] = buffer;
+				buffer = global.skKul[1];
 				global.skKul[1] = global.skKul[0];
 				global.skKul[0] = buffer;
 			}
@@ -108,7 +108,7 @@ if (skState2 != 0) {
 				global.sk2 = global.sk3;
 				global.sk3 = buffer;
 				
-				global.skKul[1] = buffer;
+				buffer = global.skKul[1];
 				global.skKul[1] = global.skKul[2];
 				global.skKul[2] = buffer;
 			}
@@ -119,7 +119,7 @@ if (skState2 != 0) {
 				global.sk3 = global.sk1;
 				global.sk1 = buffer;
 				
-				global.skKul[2] = buffer;
+				buffer = global.skKul[2];
 				global.skKul[2] = global.skKul[0];
 				global.skKul[0] = buffer;
 			}
@@ -128,7 +128,7 @@ if (skState2 != 0) {
 				global.sk3 = global.sk2;
 				global.sk2 = buffer;
 				
-				global.skKul[2] = buffer;
+				buffer = global.skKul[2];
 				global.skKul[2] = global.skKul[1];
 				global.skKul[1] = buffer;
 			}

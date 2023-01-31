@@ -18,7 +18,7 @@ function sc_pl_sk111(){
 	if ( atkProcess == 8 || atkProcess == 16 ||atkProcess == 24 ||atkProcess == 32 ||
 			atkProcess == 40) {
 		SE_Play(s_arrow02, global.vol);
-		atk = sc_pl_atkEf(sc_pl_atkDmg()*2, sc_pl_atkPene(), sc_pl_atkShock(), 0, 
+		atk = sc_pl_atkEf(sc_pl_atkDmg()*2.1, sc_pl_atkPene(), sc_pl_atkShock(), 0, 
 			0, 0, 0, sp_pl_sk111Ef, dir);
 		sc_pl_kulNMana(111, 5);
 	}

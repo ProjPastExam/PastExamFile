@@ -7,7 +7,7 @@ function sc_skSpawn(stage = 0){
 		var grade	= 0;
 		var atk		= irandom_range(0, 2);
 		var index = irandom_range(0, 100);
-		if (index < stage*15 + 10) grade = 1;
+		if (index < stage*sqrt(stage+1)*6 + 10) grade = 1;
 		
 		if (grade == 0) {
 			if		(atk == 0)	{ skNum = irandom_range(101, 102); }
