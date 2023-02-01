@@ -18,7 +18,7 @@ function sc_pl_sk173(){
 
 	
 	if ( atkProcess == 24 || atkProcess = 68 ) {
-		sc_pl_atkEf(sc_pl_fireDmg()*3, sc_pl_firePene(), 100, 0, 
+		sc_pl_atkEf(sc_pl_fireDmg()*2.5, sc_pl_firePene(), 100, 0, 
 			4, 2, 5, sp_pl_sk173Ef, dir, 0, , y-20);
 		uc_shake(8, 0.1);
 		SE_Play(s_pl_sk101, global.vol);
