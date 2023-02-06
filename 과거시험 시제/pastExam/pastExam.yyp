@@ -1404,6 +1404,7 @@
     {"id":{"name":"sp_banditBoss_face_old","path":"sprites/sp_banditBoss_face_old/sp_banditBoss_face_old.yy",},"order":4,},
     {"id":{"name":"ob_MapControl","path":"objects/ob_MapControl/ob_MapControl.yy",},"order":2,},
     {"id":{"name":"sp_stage03BossCsChang1","path":"sprites/sp_stage03BossCsChang1/sp_stage03BossCsChang1.yy",},"order":2,},
+    {"id":{"name":"sp_dok2_run","path":"sprites/sp_dok2_run/sp_dok2_run.yy",},"order":0,},
     {"id":{"name":"sp_demoTalk","path":"sprites/sp_demoTalk/sp_demoTalk.yy",},"order":10,},
     {"id":{"name":"sp_pl_atk2","path":"sprites/sp_pl_atk2/sp_pl_atk2.yy",},"order":6,},
     {"id":{"name":"sp_skillUi_172","path":"sprites/sp_skillUi_172/sp_skillUi_172.yy",},"order":29,},
