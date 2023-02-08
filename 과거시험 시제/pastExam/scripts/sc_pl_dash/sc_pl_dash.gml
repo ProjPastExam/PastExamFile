@@ -7,7 +7,8 @@ function sc_pl_dash(){
 		if (keyAttack) {
 			if ( keyDown && isJump )										nextAtk = 5;
 			else if ( keyTop ) 												nextAtk = 6;
-			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
+			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 1;
+			else															nextAtk = 3;
 		}
 		sc_pl_skKey();
 	}
@@ -47,6 +48,7 @@ function sc_pl_dash(){
 			else							{ canMove = 3; }
 			nextAtk = 0; atkProcess = 0;  dProcess = -30; isDash = false; 
 		}
+		else if ( nextAtk == 1 ) { nextAtk = 0; atkProcess = 0; canMove = 1; dProcess = -30; isDash = false; dir = dir*-1; }
 		else if ( nextAtk == 5 ) { nextAtk = 0; atkProcess = 0; canMove = 5; dProcess = -30; isDash = false; }
 		else if ( nextAtk == 6 ) { 
 			if (!isJump) { nextAtk = 0; atkProcess = 0; canMove = 6; dProcess = -30; isDash = false; }

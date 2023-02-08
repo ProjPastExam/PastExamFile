@@ -37,7 +37,7 @@ function sc_jpSwordSAtk(){
 		isDA = true;	isDF = true;
 		
 		if ( process == 1 ) { SE_Play(s_jp_eAtk, global.vol);	isCounter = true; }
-		if ( process == 52+lvDly ) { 
+		if ( process == 60+lvDly ) { 
 			SE_Play(s_swing_a1, global.vol);
 			//audio_play_sound(s_swing_a1, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
@@ -46,10 +46,10 @@ function sc_jpSwordSAtk(){
 		}
 		
 		
-		if ( process < 40+lvDly ) { image_index = 0; }
-		else if ( process < 44+lvDly ) { image_index = 1; xSpeed = dir*20; }
-		else if ( process < 48+lvDly ) { image_index = 1; xSpeed = dir*22; }
-		else if ( process < 52+lvDly ) { image_index = 1; xSpeed = dir*24; }
+		if ( process < 48+lvDly ) { image_index = 0; }
+		else if ( process < 52+lvDly ) { image_index = 1; xSpeed = dir*20; }
+		else if ( process < 54+lvDly ) { image_index = 1; xSpeed = dir*22; }
+		else if ( process < 60+lvDly ) { image_index = 1; xSpeed = dir*24; }
 		else if ( process < 57+lvDly ) { image_index = 2; }
 		else if ( process < 65+lvDly ) { image_index = 3; }
 		else { state = 14;	process = 0; }

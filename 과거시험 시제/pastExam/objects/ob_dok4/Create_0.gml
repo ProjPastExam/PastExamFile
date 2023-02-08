@@ -20,4 +20,4 @@ stand2Sp	= sp_dok4_stand2;
 walkSp		= sp_dok4_walk;
 runSp		= sp_dok4_run;
 painSp		= sp_dok4_pain;
-shockSp		= sp_dok4_pain;
+shockSp		= sp_dok4_shock;
