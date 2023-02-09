@@ -32,7 +32,7 @@ function sc_chang01Atk(){
 		if ( process == 1 ) { audio_play_sound(s_chang_atk1, 8, false); }
 		if ( process == 38+lvDly ) { 
 			SE_Play(s_bandit01atk2, global.vol);
-			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
+			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_bandit01_atkEffect;
 		}

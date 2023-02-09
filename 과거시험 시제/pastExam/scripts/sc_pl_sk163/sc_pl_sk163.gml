@@ -10,7 +10,7 @@ function sc_pl_sk163(){
 	var atk;
 	
 	if ( atkProcess == 24 ) {
-		sc_pl_atkEf(sc_pl_fireDmg()*6, sc_pl_firePene(), sc_pl_fireShock(), 0, 
+		sc_pl_atkEf(sc_pl_fireDmg()*8, sc_pl_firePene(), sc_pl_fireShock(), 0, 
 			4, 12, 0, sp_pl_sk163Ef, dir, 0,,y-20);
 		uc_shake(8, 0.1);
 		SE_Play(s_pl_sk101, global.vol);

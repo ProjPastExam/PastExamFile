@@ -32,7 +32,7 @@ function sc_dok1Atk(){
 		if ( process == 1 ) { SE_Play(s_jp_cAtk, global.vol); }
 		if ( process == 36+lvDly ) { 
 			SE_Play(s_swing_b1, global.vol);
-			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
+			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_dok1_atkEf;
 		}

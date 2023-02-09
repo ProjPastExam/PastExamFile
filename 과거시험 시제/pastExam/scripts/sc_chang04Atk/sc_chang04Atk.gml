@@ -34,7 +34,7 @@ function sc_chang04Atk(){
 		if ( process == 1 ) { audio_play_sound(s_chang_atk4, 8, false); }
 		if ( process == 60+lvDly || process == 120+lvDly ) { 
 			SE_Play(s_swing_b2, global.vol);
-			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
+			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_chang04_atkEf;
 		}

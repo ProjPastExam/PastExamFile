@@ -35,14 +35,14 @@ function sc_chang05Atk(){
 		if ( process == 1 ) { audio_play_sound(s_chang_atk4, 8, false); }
 		if ( process == 50+lvDly ) { 
 			SE_Play(s_swing_b1, global.vol);
-			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
+			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_chang05_atkEf1;
 		}
 		
 		if ( process == 130+lvDly ) { 
 			SE_Play(s_swing_b2, global.vol);
-			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
+			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_chang05_atkEf2;
 		}
@@ -78,7 +78,7 @@ function sc_chang05Atk(){
 		
 		if ( process == 80+lvDly ) { 
 			SE_Play(s_swing_b2, global.vol);
-			var ob = instance_create_layer(x, y, "effect", ob_mobAtk);
+			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_chang05_atkEf2;
 		}
