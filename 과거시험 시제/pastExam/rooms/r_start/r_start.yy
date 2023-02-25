@@ -16,6 +16,7 @@
     {"name":"inst_D81CADF","path":"rooms/r_start/r_start.yy",},
     {"name":"inst_3E03EB0E","path":"rooms/r_start/r_start.yy",},
     {"name":"inst_3F6B725A","path":"rooms/r_start/r_start.yy",},
+    {"name":"inst_3B4848A5","path":"rooms/r_start/r_start.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -54,6 +55,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"propertyId":{"name":"skNum","path":"objects/ob_sk/ob_sk.yy",},"value":"114",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"propertyId":{"name":"isRand","path":"objects/ob_sk/ob_sk.yy",},"value":"False",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1952.0,"y":1632.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B4848A5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_testArr","path":"objects/ob_testArr/ob_testArr.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":1376.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"effect2","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":32,"SerialiseWidth":38,"TileCompressedData":[

@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_gameLoad(){
 	//global.version = 2;
-	VSLS_File_Load("saveFile")
+	VSLS_File_Load("saveFile");
 	/*
 	var isOld = false;
 	if (VSLS_Get("version") == undefined)			isOld = true;
@@ -18,6 +18,11 @@ function sc_gameLoad(){
 	if (VSLS_Get("fullScreen")== undefined)	VSLS_Set("fullScreen", true);
 	if (VSLS_Get("reStory")== undefined)	VSLS_Set("reStory", false);
 	if (VSLS_Get("level")== undefined)		VSLS_Set("level", 0); 
+	}
+	
+	if (VSLS_Get("testArr")== undefined) {
+		testArr = array_create(3, 0);
+		VSLS_Set("testArr", testArr); 
 	}
 	
 	if (VSLS_Get("clearStage")== undefined)	VSLS_Set("clearStage", -1);

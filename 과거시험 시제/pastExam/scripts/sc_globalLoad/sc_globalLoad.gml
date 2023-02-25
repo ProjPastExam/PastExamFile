@@ -13,6 +13,9 @@ function sc_globalLoad(){
 	global.reStory		= VSLS_Get("reStory");
 	global.level		= VSLS_Get("level");
 	
+	global.testArr		= array_create(3, -1);
+	global.testArr		= VSLS_Get("testArr");
+	
 	global.clearStage	= VSLS_Get("clearStage");
 	
 	//특전 관련 수치
