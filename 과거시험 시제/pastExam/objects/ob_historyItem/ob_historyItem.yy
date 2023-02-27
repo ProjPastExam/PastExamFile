@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ob_historyEntity",
+  "name": "ob_historyItem",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
@@ -12,7 +12,10 @@
     "name": "history",
     "path": "folders/Objects/gameControl/history.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "ob_historyParent",
+    "path": "objects/ob_historyParent/ob_historyParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

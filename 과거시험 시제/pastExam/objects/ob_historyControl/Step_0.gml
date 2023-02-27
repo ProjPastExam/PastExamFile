@@ -16,3 +16,4 @@ if (sc_getKey(global.btSk3, gp_shoulderr, 0)) {
 	room_goto(r_setting);
 }
 
+with (ob_historyParent) { selectIndex = other.selectIndex; }
