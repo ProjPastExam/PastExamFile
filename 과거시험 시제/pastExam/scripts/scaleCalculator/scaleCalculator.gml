@@ -20,10 +20,10 @@ function sc_abScaleCalculator(abIndex) {
 	
 	case 4:	return 1	* global.abIndex[3];	break;
 	case 5:	return 3	* global.abIndex[4];	break;
-	case 6:	return 0.2	* global.abIndex[5];	break;
+	case 6:	return 0.1	* global.abIndex[5];	break;
 	
 	case 7:	return 1	* global.abIndex[6];	break;
-	case 8:	return 0.2	* global.abIndex[7];	break;
+	case 8:	return 0.1	* global.abIndex[7];	break;
 	case 9:	return 0.03	* global.abIndex[8];	break;
 	}
 }

@@ -11,6 +11,7 @@ for (var i = 0; i < hitSum; i++) {
 
 if (global.comCt < 100) {
 	if (hitSum == 0) global.comCt += comIndex;
+	global.comCt += 1;
 	//else global.comCt += comIndex/2;
 }
 global.comCtAlarm = global.comAlarm

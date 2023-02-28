@@ -31,7 +31,7 @@ global.atkShock		= 150;
 global.atkMana		= 30;
 global.atkCt		= 0.0;
 global.atkCtMag		= 10;
-global.atkComb		= 1;
+global.atkComb		= 0.5;
 
 global.kickDmg		= 10;
 global.kickPene		= 0;
@@ -39,7 +39,7 @@ global.kickShock	= 210;
 global.kickMana		= 30;
 global.kickCt		= 0.0;
 global.kickCtMag	= 10;
-global.kickComb		= 1;
+global.kickComb		= 0.5;
 
 global.fireDmg		= 10;
 global.firePene		= 0;
@@ -47,7 +47,7 @@ global.fireShock	= 200;
 global.fireMana		= 30;
 global.fireCt		= 0.0;
 global.fireCtMag	= 20;
-global.fireComb		= 1;
+global.fireComb		= 0.5;
 
 global.comCt		= 0;
 global.comCtAlarm	= 0;
