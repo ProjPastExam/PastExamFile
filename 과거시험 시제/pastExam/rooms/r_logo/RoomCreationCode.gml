@@ -17,6 +17,8 @@ window_set_fullscreen(global.fullScreen);
 window_set_size(global.screenX, global.screenY);
 surface_resize(application_surface, 1920, 1080);
 
+display_mouse_set(0, 0);
+
 //정적
 {
 global.gameEnd		= false;
