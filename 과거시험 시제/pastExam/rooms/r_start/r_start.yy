@@ -16,7 +16,6 @@
     {"name":"inst_D81CADF","path":"rooms/r_start/r_start.yy",},
     {"name":"inst_3E03EB0E","path":"rooms/r_start/r_start.yy",},
     {"name":"inst_3F6B725A","path":"rooms/r_start/r_start.yy",},
-    {"name":"inst_3B4848A5","path":"rooms/r_start/r_start.yy",},
     {"name":"inst_16BFA43D","path":"rooms/r_start/r_start.yy",},
     {"name":"inst_96E6153","path":"rooms/r_start/r_start.yy",},
   ],
@@ -57,7 +56,6 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"propertyId":{"name":"skNum","path":"objects/ob_sk/ob_sk.yy",},"value":"114",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_sk","path":"objects/ob_sk/ob_sk.yy",},"propertyId":{"name":"isRand","path":"objects/ob_sk/ob_sk.yy",},"value":"False",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1952.0,"y":1632.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B4848A5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_testArr","path":"objects/ob_testArr/ob_testArr.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":1376.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_16BFA43D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"propertyId":{"name":"itemNum","path":"objects/ob_item/ob_item.yy",},"value":"67",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_item","path":"objects/ob_item/ob_item.yy",},"propertyId":{"name":"isRand","path":"objects/ob_item/ob_item.yy",},"value":"False",},

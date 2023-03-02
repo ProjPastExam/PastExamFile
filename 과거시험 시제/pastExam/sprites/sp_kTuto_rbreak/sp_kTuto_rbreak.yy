@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "korean",
-    "path": "folders/Sprites/tutorial/korean.yy",
+    "name": "tutotext",
+    "path": "folders/Sprites/tutorial/tutotext.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
