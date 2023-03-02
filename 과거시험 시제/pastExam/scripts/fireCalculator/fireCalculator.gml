@@ -37,7 +37,10 @@ function sc_pl_fireComb(mode = 0) {
 function sc_pl_fireCt(mode = 0) {
 	var ct = global.fireCt + sc_abScaleCalculator(9);
 	if (global.ranStage2 == 3) ct += 0.50;
-	if (global.item10)	{ ct += (1 + global.item10) * ct * 0.25; }
+	var ctAdd = ct;
+	if (global.item10)	{ ctAdd += (global.item10) * ct * 0.5; }
+	if (global.item66)	{ ctAdd += (global.item66) * ct * 0.5 * global.comCt/100; }
+	ct = ctAdd;
 	if (mode == 1) return ct*100;
 	
 	var ctItem = sc_itemScaleCalculator(2, 3)/100;

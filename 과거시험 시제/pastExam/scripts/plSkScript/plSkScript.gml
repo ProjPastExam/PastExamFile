@@ -79,5 +79,8 @@ function sc_pl_comAfterSk() {
 
 function sc_pl_kulNMana(skNum, mpIndex = 1) {
 	global.mp -= global.skMp[skNum]/mpIndex;
-	global.skKul[skState] = global.skKulData[skNum];
+	
+	var kul = global.skKulData[skNum];
+	if (global.item67)	{ kul -= kul*(global.item67+1)*global.comCt/500; }
+	global.skKul[skState] = int64(kul);
 }

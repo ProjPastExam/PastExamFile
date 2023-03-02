@@ -28,7 +28,7 @@ function sc_pl_item4(){
 	
 	if ( atkProcess == 14 ) {
 		sc_pl_atkEf(dmg, sc_pl_kickPene(), sc_pl_kickShock()+50, 0, 
-			0, 1, 0, sp_pl_itemEf4, dir,,,,(global.item4-1) * 25);
+			0, 1, 0, sp_pl_itemEf4, dir,,,,(global.item4-1) * 20);
 		SE_Play(s_bandit02atk2, global.vol);
 		global.comCt -= 15;
 	}

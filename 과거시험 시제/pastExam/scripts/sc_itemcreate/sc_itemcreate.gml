@@ -69,5 +69,12 @@ function sc_itemData(){
 	global.itemData[65]	= new itemStruct ( 65, sp_Item_65, sp_ItemInfo_65, 3,
 		function(grade) { global.item10 = grade; })
 		
+	//띠돈
+	global.itemData[66]	= new itemStruct ( 66, sp_Item_66, sp_ItemInfo_66, 3,
+		function(grade) { global.item66 = grade; })
+		
+	//광다회
+	global.itemData[67]	= new itemStruct ( 67, sp_Item_67, sp_ItemInfo_67, 3,
+		function(grade) { global.item67 = grade; })
 	
 }
