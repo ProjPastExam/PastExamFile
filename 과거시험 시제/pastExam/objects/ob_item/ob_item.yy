@@ -41,8 +41,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sp_Item_sin",
-    "path": "sprites/sp_Item_sin/sp_Item_sin.yy",
+    "name": "sp_Item_41",
+    "path": "sprites/sp_Item_41/sp_Item_41.yy",
   },
   "spriteMaskId": null,
   "visible": true,

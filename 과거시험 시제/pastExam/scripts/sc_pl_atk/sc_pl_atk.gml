@@ -26,7 +26,7 @@ function sc_pl_atk(){
 	if ( atkProcess == 12 ) {
 		if (item7 && global.comCt <= 0) {
 			sc_pl_atkEf(sc_pl_atkDmg(), sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana(), 
-				0, 0, 0, sp_pl_atkEf01, dir,,,,,5 + item7*10);
+				0, 0, 0, sp_pl_atkEf01, dir,,,,,10 + item7*5);
 			SE_Play(s_pl_item7, global.vol);
 		}
 		else if (global.item11) {

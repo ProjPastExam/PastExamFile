@@ -25,7 +25,7 @@ function sc_pl_fireMana(mode = 0){
 
 function sc_pl_fireComb(mode = 0) {
 	var comb = global.fireComb + sc_abScaleCalculator(8);
-	if (mode == 1) return string_format(comb, 0, 1);
+	if (mode == 1) return comb*100;
 	
 	var combItem = sc_itemScaleCalculator(2, 2)/10;
 	if (mode == 2) return string_format(combItem, 0, 1);

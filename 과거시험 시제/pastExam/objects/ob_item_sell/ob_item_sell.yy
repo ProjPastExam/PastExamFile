@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sp_Item_02",
-    "path": "sprites/sp_Item_02/sp_Item_02.yy",
+    "name": "sp_Item_01",
+    "path": "sprites/sp_Item_01/sp_Item_01.yy",
   },
   "spriteMaskId": null,
   "visible": true,

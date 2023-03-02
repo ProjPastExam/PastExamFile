@@ -20,7 +20,7 @@ function sc_pl_atkEf( dmg, pene, shock, mana, hitUp, hitKind, hitAfter, sprite, 
 	atk.sprite_index	= sprite;
 	atk.image_xscale	= dir;
 	atk.shake			= shake;
-	//atk.comIndex		= comIndex;
+	atk.comIndex		= comIndex;
 	
 	var ctC				= ctChance;
 	if (hitKind == 0)						{ ctC = ctC + sc_pl_atkCt()*100; }
@@ -35,6 +35,5 @@ function sc_pl_atkEf( dmg, pene, shock, mana, hitUp, hitKind, hitAfter, sprite, 
 	else if (hitKind == 2 || hitKind == 11)	{ cIndex = cIndex + sc_pl_fireComb(); }
 	atk.comIndex		= cIndex;
 	*/
-	atk.comIndex = comIndex;
 	return atk;
 }

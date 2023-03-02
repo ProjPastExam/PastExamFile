@@ -2,60 +2,72 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_itemData(){
 	
+	//화살 속성 소지품
 	
-	//신기전 아이템
-	global.itemData[0]	= new itemStruct ( 0, sp_Item_sin, sp_ItemInfo_sin, 2,
-		function(grade) { other.isSin = grade; })
-	
-	//전방 3연속 발차기 아이템
-	global.itemData[1]	= new itemStruct ( 1, sp_Item_kick, sp_ItemInfo_kick, 1,
-		function(grade) { other.isFront = grade; })
-	
-	//마나소모시 화살 공격 아이템
-	global.itemData[2]	= new itemStruct ( 2, sp_Item_02, sp_ItemInfo_02, 0,
+	//여우의 활
+	global.itemData[1]	= new itemStruct ( 1, sp_Item_01, sp_ItemInfo_01, 0,
 		function(grade) { other.item2 = grade;	other.item2Index1 = 0;	other.item2Index2 = global.mp;	other.item2Index3 = 0; })
 	
-	//공중의 적 공격 시 추가데미지 아이템
-	global.itemData[3]	= new itemStruct ( 3, sp_Item_jump, sp_ItemInfo_jump, 3,
-		function(grade) { global.item3 = grade; })
-		
-	//전방공격 시 죽창 찌르기 아이템
-	global.itemData[4]	= new itemStruct ( 4, sp_Item_04, sp_ItemInfo_04, 1,
-		function(grade) { global.item4 = grade; })
-		
-	//연타 수치 지속시간 증가
-	global.itemData[5]	= new itemStruct ( 5, sp_Item_05, sp_ItemInfo_05, 3,
-		function(grade) { global.item5 = grade; })
-		
-	//화약 스케일업
-	global.itemData[6]	= new itemStruct ( 6, sp_Item_06, sp_ItemInfo_06, 2,
-		function(grade) { global.item6 = grade; })
-		
 	//효시
-	global.itemData[7]	= new itemStruct ( 7, sp_Item_07, sp_ItemInfo_07, 0,
+	global.itemData[2]	= new itemStruct ( 2, sp_Item_02, sp_ItemInfo_02, 0,
 		function(grade) { other.item7 = grade; })
 		
-	//두정갑
-	global.itemData[8]	= new itemStruct ( 8, sp_Item_08, sp_ItemInfo_08, 3,
-		function(grade) { global.item8 = grade;	global.item8Index = 80-(global.item8*10); })
-		
 	//편전
-	global.itemData[9]	= new itemStruct ( 9, sp_Item_09, sp_ItemInfo_09, 0,
+	global.itemData[3]	= new itemStruct ( 3, sp_Item_03, sp_ItemInfo_03, 0,
 		function(grade) { global.item9 = grade; })
 		
-	//창포검, 치명타 확률 2배 및 연타수치 공격증가 제거
-	global.itemData[10]	= new itemStruct ( 10, sp_Item_10, sp_ItemInfo_10, 3,
-		function(grade) { global.item10 = grade; })
-	
-	//불화살
-	global.itemData[11]	= new itemStruct ( 11, sp_Item_11, sp_ItemInfo_11, 2,
-		function(grade) { global.item11 = grade; })
+		
+	//충격 속성 소지품
+		
+	//수화자
+	global.itemData[21]	= new itemStruct ( 21, sp_Item_21, sp_ItemInfo_21, 1,
+		function(grade) { other.isFront = grade; })
+		
+	//죽창
+	global.itemData[22]	= new itemStruct ( 22, sp_Item_22, sp_ItemInfo_22, 1,
+		function(grade) { global.item4 = grade; })
 		
 	//은장도
-	global.itemData[12]	= new itemStruct ( 12, sp_Item_12, sp_ItemInfo_12, 1,
+	global.itemData[23]	= new itemStruct ( 23, sp_Item_23, sp_ItemInfo_23, 1,
 		function(grade) { global.item12 = grade; })
 		
+		
+	//화약 속성 소지품
+	
+	//신기전
+	global.itemData[41]	= new itemStruct ( 41, sp_Item_41, sp_ItemInfo_41, 2,
+		function(grade) { other.isSin = grade; })
+	
+	//염초
+	global.itemData[42]	= new itemStruct ( 42, sp_Item_42, sp_ItemInfo_42, 2,
+		function(grade) { global.item6 = grade; })
+	
+	//불화살
+	global.itemData[43]	= new itemStruct ( 43, sp_Item_43, sp_ItemInfo_43, 2,
+		function(grade) { global.item11 = grade; })
+
+	
+	//중립 속성 소지품
+	
+	//깃털 장식
+	global.itemData[61]	= new itemStruct ( 61, sp_Item_61, sp_ItemInfo_61, 3,
+		function(grade) { global.item3 = grade; })
+		
+	//머리띠
+	global.itemData[62]	= new itemStruct ( 62, sp_Item_62, sp_ItemInfo_62, 3,
+		function(grade) { global.item5 = grade; })
+
+	//두정갑
+	global.itemData[63]	= new itemStruct ( 63, sp_Item_63, sp_ItemInfo_63, 3,
+		function(grade) { global.item8 = grade;	global.item8Index = 80-(global.item8*10); })
+		
 	//두석린갑, 피격시 모션끊김 없고 무적시간 증가
-	global.itemData[13]	= new itemStruct ( 13, sp_Item_13, sp_ItemInfo_13, 2,
+	global.itemData[64]	= new itemStruct ( 64, sp_Item_64, sp_ItemInfo_64, 3,
 		function(grade) { global.item13 = grade; })
+		
+	//창포검, 치명타 확률 2배 및 연타수치 공격증가 제거
+	global.itemData[65]	= new itemStruct ( 65, sp_Item_65, sp_ItemInfo_65, 3,
+		function(grade) { global.item10 = grade; })
+		
+	
 }

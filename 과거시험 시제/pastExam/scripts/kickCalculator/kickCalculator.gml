@@ -25,7 +25,7 @@ function sc_pl_kickMana(mode = 0){
 
 function sc_pl_kickComb(mode = 0) {
 	var comb = global.kickComb + sc_abScaleCalculator(6);
-	if (mode == 1) return string_format(comb, 0, 1);
+	if (mode == 1) return comb*100;
 	
 	var combItem = sc_itemScaleCalculator(1, 2)/10;
 	if (mode == 2) return string_format(combItem, 0, 1);

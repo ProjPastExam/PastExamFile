@@ -1,12 +1,14 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_itemSprite(){
-	itemSp = array_create(global.itemMax);
-	itemIn = array_create(global.itemMax);
+	itemSp = array_create(100, sp_skillUi_0);
+	itemIn = array_create(100, sp_skillUi_0);
 	
-	for (var i = 0; i < global.itemMax; i++) {
-		itemSp[i] = global.itemData[i].itemSprite;
-		itemIn[i] = global.itemData[i].infoSprite;
+	for (var i = 0; i < 100; i++) {
+		if (global.itemData[i] != NULL) {
+			itemSp[i] = global.itemData[i].itemSprite;
+			itemIn[i] = global.itemData[i].infoSprite;
+		}
 	}
 	/*
 {

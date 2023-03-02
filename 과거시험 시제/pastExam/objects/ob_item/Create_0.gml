@@ -10,19 +10,7 @@ isDelete = false;
 costIndex = irandom_range(120, 180);
 
 if (isRand) {
-	var i = true;
-	while (i) {
-		randomize();
-		itemNum = irandom_range(0, global.itemMax-1);
-		if (sc_itemCheck(itemNum)) { i = false; }
-		var j = 0;
-		with (ob_item) {
-			if (variable_instance_exists(id, "itemNum")) {
-				if (other.itemNum == itemNum)	{ j++; } 
-			}
-		}
-		if (j > 1) { i = true; }
-	}
+	sc_itemSpawn();
 	alarm[4] = 1;
 }
 if (!sc_itemCheck(itemNum)) instance_destroy();

@@ -25,7 +25,7 @@ function sc_pl_atkMana(mode = 0){
 
 function sc_pl_atkComb(mode = 0) {
 	var comb = global.atkComb;
-	if (mode == 1) return string_format(comb, 0, 1);
+	if (mode == 1) return comb*100;
 	
 	var combItem = sc_itemScaleCalculator(0, 2)/5;
 	if (mode == 2) return string_format(combItem, 0, 1);

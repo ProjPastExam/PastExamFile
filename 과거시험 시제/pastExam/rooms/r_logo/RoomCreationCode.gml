@@ -86,7 +86,7 @@ global.itemGet 		= array_create(10, NULL);
 global.itemGrade	= array_create(10, -1);
 global.itemNum		= 6;
 
-global.itemData		= array_create(global.itemMax, NULL);
+global.itemData		= array_create(100, NULL);
 
 global.item8Index	= 20;
 

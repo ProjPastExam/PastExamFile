@@ -44,7 +44,7 @@ function sc_pl_dash(){
 	
 	if ( dProcess > 5 ) { 
 		if ( nextAtk == 3 ) { 
-			if (global.item4 && global.comCt >= 20)	{ canMove = 20; }
+			if (global.item4 && global.comCt >= 15)	{ canMove = 20; }
 			else							{ canMove = 3; }
 			nextAtk = 0; atkProcess = 0;  dProcess = -30; isDash = false; 
 		}

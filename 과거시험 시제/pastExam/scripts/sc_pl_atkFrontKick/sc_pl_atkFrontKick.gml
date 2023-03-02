@@ -41,21 +41,21 @@ function sc_pl_atkFrontKick(){
 	
 	if ( atkProcess == 6 ) {
 		var atk = sc_pl_atkEf(dmg, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
-			0, 1, 0, sp_pl_atkEf03, dir);
+			0, 1, 0, sp_pl_atkEf03, dir,,,,,1);
 		SE_Play(s_kick01, global.vol);
 		//audio_play_sound(s_kick01, 5, false);
 	}
 	
 	if ( atkProcess == 45 ) {
 		var atk = sc_pl_atkEf(dmg, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
-			0, 1, 0, sp_pl_atkEf03, dir);
+			0, 1, 0, sp_pl_atkEf03, dir,,,,,1);
 		SE_Play(s_kick01, global.vol);
 		//audio_play_sound(s_kick01, 5, false);
 	}
 	
 	if ( atkProcess == 87 ) {
 		var atk = sc_pl_atkEf(dmg, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
-			0, 1, 0, sp_pl_atkEf03, dir);
+			0, 1, 0, sp_pl_atkEf03, dir,,,,,1);
 		SE_Play(s_kick01, global.vol);
 		//audio_play_sound(s_kick01, 5, false);
 	}

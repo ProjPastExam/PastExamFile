@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sp_Item_kick",
-    "path": "sprites/sp_Item_kick/sp_Item_kick.yy",
+    "name": "sp_Item_21",
+    "path": "sprites/sp_Item_21/sp_Item_21.yy",
   },
   "spriteMaskId": null,
   "visible": true,

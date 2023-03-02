@@ -21,7 +21,7 @@ function sc_pl_atk3(){
 	
 	if ( atkProcess == 30 ) {
 		sc_pl_atkEf(sc_pl_atkDmg()*4, sc_pl_atkPene(), sc_pl_atkShock()+75, sc_pl_atkMana()*2, 
-			0, 0, 0, sp_pl_atkEf100, dir,,,,(global.item9-1)*20);
+			0, 0, 0, sp_pl_atkEf100, dir,,,,,,,(global.item9)*0.5);
 		uc_shake(4, 0.1);
 		SE_Play(s_pl_sk100, global.vol);
 		//audio_play_sound(s_pl_sk100, 5, false);
