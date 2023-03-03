@@ -5,6 +5,7 @@ hitSum		= 0;
 isHit		= false;
 isCritic	= true;
 spIndex		= 0;
+dotStack	= 0;
 
 alarm[0] = 1;
 alarm[1] = 2;

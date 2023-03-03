@@ -4,6 +4,7 @@ hitArray	= array_create(hitNum, 0);
 hitSum		= 0;
 isHit		= false;
 isCritic	= true;
+dotStack	= 2;
 
 alarm[0] = 1;
 alarm[1] = 2;

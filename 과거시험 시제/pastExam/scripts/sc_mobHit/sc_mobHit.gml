@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance ){ with (mobId) {
+function sc_mobHit(mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance, dotStack){ with (mobId) {
 	
 	var shVal = (shock- down)/10;
 	if ( knockback && (shVal > 0)) { 
@@ -84,6 +84,8 @@ function sc_mobHit( mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance
 		}
 		SE_Play(s_hit01, global.vol);
 	}
+	
+	if (dotStack > 0) {	sc_mobDot(hitKind, dotStack);	}
 	
 	/*
 	if ( isJump && global.item3) {
