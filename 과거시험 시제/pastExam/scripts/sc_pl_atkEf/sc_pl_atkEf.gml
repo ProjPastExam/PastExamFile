@@ -22,6 +22,8 @@ function sc_pl_atkEf( dmg, pene, shock, mana, hitUp, hitKind, hitAfter, sprite, 
 	atk.shake			= shake;
 	atk.comIndex		= comIndex;
 	
+	atk.dotStack		= 0;
+	
 	var ctC				= ctChance;
 	if (hitKind == 0)						{ ctC = ctC + sc_pl_atkCt()*100; }
 	else if (hitKind == 1 || hitKind == 10) { ctC = ctC + sc_pl_kickCt()*100; }
