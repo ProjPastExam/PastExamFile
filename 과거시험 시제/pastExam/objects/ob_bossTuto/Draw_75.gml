@@ -3,7 +3,7 @@
 if (isActive) {
 	
 	draw_sprite(sp_black2, 0, 0, 0);
-	draw_sprite(tutoImage, 0, 0, 0);
+	draw_sprite(sp_tuto_boss, 0, 0, 0);
 	
 	draw_sprite(sp_text_quite, 0, 360, 720);
 	sc_buttonPrint(global.btInter, global.gpInter, 300, 720);
