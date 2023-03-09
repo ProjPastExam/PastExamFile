@@ -1645,6 +1645,7 @@
     {"name":"sp_settingBtUi","order":12,"path":"sprites/sp_settingBtUi/sp_settingBtUi.yy",},
     {"name":"sp_tuto_SA","order":10,"path":"sprites/sp_tuto_SA/sp_tuto_SA.yy",},
     {"name":"sp_dok4_atk","order":6,"path":"sprites/sp_dok4_atk/sp_dok4_atk.yy",},
+    {"name":"r_stage01_2_4","order":19,"path":"rooms/r_stage01_2_4/r_stage01_2_4.yy",},
     {"name":"sp_key_k","order":10,"path":"sprites/sp_key_k/sp_key_k.yy",},
     {"name":"back_demo","order":1,"path":"sprites/back_demo/back_demo.yy",},
     {"name":"sp_chun_appear","order":2,"path":"sprites/sp_chun_appear/sp_chun_appear.yy",},
