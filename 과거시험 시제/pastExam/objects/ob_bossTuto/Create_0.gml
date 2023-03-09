@@ -6,3 +6,4 @@ with (ob_roomControl)
 }
 
 isActive = true;
+alp = 0;

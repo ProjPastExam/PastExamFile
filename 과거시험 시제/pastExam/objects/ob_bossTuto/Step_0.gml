@@ -6,3 +6,5 @@ if (sc_getKey(global.btInter, global.gpInter, 0) && isActive) {
 		pause = 0;
 	}
 }
+
+if (alp < 90) alp += 1;

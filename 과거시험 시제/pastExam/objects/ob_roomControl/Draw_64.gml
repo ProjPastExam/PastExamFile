@@ -28,11 +28,12 @@ if (isGUI) {
 	sc_printMoney();
 }
 draw_sprite_stretched_ext(sp_black, 0, 0, 0, 2400, 1500, 0 ,dark/30);
-
+/*
 if (pause == -1) {
 	draw_sprite(sp_demoPause, 0, 0, 0);
 }
-else if (pause == -10 || pause == -21) {
+*/
+if (pause == -10 || pause == -21) {
 	draw_sprite(sp_black2, 0, 0, 0);
 }
 

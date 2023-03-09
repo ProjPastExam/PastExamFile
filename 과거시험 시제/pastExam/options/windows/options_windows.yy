@@ -8,7 +8,7 @@
   "option_windows_copy_exe_to_dest": false,
   "option_windows_copyright_info": "Team Ettu",
   "option_windows_description_info": "조선 설화를 바탕으로 한 횡스크롤 액션 게임 문경새재",
-  "option_windows_disable_sandbox": false,
+  "option_windows_disable_sandbox": true,
   "option_windows_display_cursor": false,
   "option_windows_display_name": "문경새재",
   "option_windows_enable_steam": false,
@@ -29,6 +29,6 @@
   "option_windows_steam_use_alternative_launcher": false,
   "option_windows_texture_page": "8192x8192",
   "option_windows_use_splash": false,
-  "option_windows_version": "1.1.1.1",
+  "option_windows_version": "1.1.1.2",
   "option_windows_vsync": false,
 }
