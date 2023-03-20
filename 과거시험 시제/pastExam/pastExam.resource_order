@@ -249,6 +249,8 @@
     {"name":"Tile Sets","order":13,"path":"folders/Tile Sets.yy",},
     {"name":"tileSprite","order":2,"path":"folders/Tile Sets/tileSprite.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
+    {"name":"particle","order":14,"path":"folders/particle.yy",},
+    {"name":"hitEf","order":1,"path":"folders/particle/hitEf.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"uc_set_window_size","order":3,"path":"scripts/uc_set_window_size/uc_set_window_size.yy",},
