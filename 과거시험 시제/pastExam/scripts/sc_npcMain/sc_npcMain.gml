@@ -13,5 +13,10 @@ function sc_npcMain(){
 		talkIndex[talkCnt].talkFunction();
 	}
 	
+	if (isLan) {
+		if (npcScript != noone) npcScript();
+		isLan = false;
+	}
+	
 	isCollision = false;
 }

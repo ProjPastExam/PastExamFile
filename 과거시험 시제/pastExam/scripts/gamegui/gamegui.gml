@@ -102,7 +102,9 @@ function sc_gameCombUi(actionX = 0){
 	draw_set_font(f_bigNum);
 	
 	draw_set_color(c_black);
-	var ctText = string(int64(global.comCt)) + " 연타";
+	var lanText = " 연타";
+	if (global.lan == 1) lanText = " Combo"
+	var ctText = string(int64(global.comCt)) + lanText;
 	draw_text(global.comX + 60 + actionX * 4, global.comY - 15, ctText);
 	draw_text(global.comX + 60 + actionX * 4, global.comY - 25, ctText);
 	draw_text(global.comX + 65 + actionX * 4, global.comY - 20, ctText);

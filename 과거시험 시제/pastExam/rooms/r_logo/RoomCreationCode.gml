@@ -1,7 +1,6 @@
  VSLS_Init();
 
 //window_set_fullscreen(true);
-
 sc_gameLoad();
 
 global.screenX = window_get_width();
