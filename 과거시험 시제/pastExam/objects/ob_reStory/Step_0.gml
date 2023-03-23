@@ -2,10 +2,10 @@
 // You can write your code in this editor
 
 if (global.reStory) {
-	image_index = 0;
+	image_index = 0 + (global.lan*2);
 }
 else {
-	image_index = 1;
+	image_index = 1 + (global.lan*2);
 }
 
 with (ob_settingControl) {

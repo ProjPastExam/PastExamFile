@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 draw_self();
-/*
-if (settingIndex == 17) {
+
+if (settingIndex == 20) {
 	draw_sprite(sp_settingSelect, 0, x, y);
 }
-*/
+

@@ -11,14 +11,10 @@ else {
 with (ob_settingControl) {
 	other.settingIndex = settingIndex;
 }
-/*
-if (settingIndex == 17 && sc_getKey(global.btInter, gp_face4, 0)) {
-	if (!global.reStory) {
-		global.reStory	= true;
-		VSLS_SetAndSave("reStory", true, "saveFile");
-	}
-	else {
-		global.reStory	= false;
-		VSLS_SetAndSave("reStory", false, "saveFile");
+
+if (settingIndex == 20 && sc_getKey(global.btInter, gp_face4, 0)) {
+	if (global.lan != 1) {
+		global.lan	= 1;
+		VSLS_SetAndSave("lan", 1, "saveFile");
 	}
 }

@@ -4,7 +4,7 @@ function sc_globalLoad(){
 	global.vol		= VSLS_Get("vol");
 	global.volBgm	= VSLS_Get("volBgm");
 	
-	global.language		= VSLS_Get("language");
+	global.lan		= VSLS_Get("lan");
 	
 	//global.money		= VSLS_Get("money");
 	global.coin			= 0;

@@ -18,6 +18,7 @@ function sc_gameLoad(){
 	if (VSLS_Get("fullScreen")== undefined)	VSLS_Set("fullScreen", true);
 	if (VSLS_Get("reStory")== undefined)	VSLS_Set("reStory", false);
 	if (VSLS_Get("level")== undefined)		VSLS_Set("level", 0); 
+	if (VSLS_Get("lan")== undefined)		VSLS_Set("lan", -1); 
 	}
 	
 	if (VSLS_Get("testArr")== undefined) {
