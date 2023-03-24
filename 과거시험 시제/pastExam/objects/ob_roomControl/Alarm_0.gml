@@ -16,7 +16,7 @@ if ( global.gameEnd ) {
 }
 //if ( slow > 0 )	slow--;
 if (room_persistent) {
-	with (ob_npcBase) { isLan = true; }
+	//with (ob_npcBase) { isLan = true; }
 	room_persistent = false;
 	//application_surface_draw_enable(true);
 	BGM_Set(global.volBgm, 0);

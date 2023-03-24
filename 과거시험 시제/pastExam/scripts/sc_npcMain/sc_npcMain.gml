@@ -12,11 +12,11 @@ function sc_npcMain(){
 	if ((sc_getKey(global.btAtk, global.gpAtk, 0)) && isTalk) {
 		talkIndex[talkCnt].talkFunction();
 	}
-	
+	/*
 	if (isLan) {
 		if (npcScript != noone) npcScript();
 		isLan = false;
 	}
-	
+	*/
 	isCollision = false;
 }
