@@ -245,6 +245,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"dok2","folderPath":"folders/Sprites/mob/dok/dok2.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"dok3","folderPath":"folders/Sprites/mob/dok/dok3.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"dok4","folderPath":"folders/Sprites/mob/dok/dok4.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"dokBoss","folderPath":"folders/Sprites/mob/dok/dokBoss.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"jp","folderPath":"folders/Sprites/mob/jp.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"jpBoss","folderPath":"folders/Sprites/mob/jp/jpBoss.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"jpGun","folderPath":"folders/Sprites/mob/jp/jpGun.yy",},
@@ -276,7 +277,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tileSprite","folderPath":"folders/Tile Sets/tileSprite.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"dokBoss","folderPath":"folders/Sprites/mob/dok/dokBoss.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"npcTalk.csv","CopyToMask":-1,"filePath":"datafiles",},

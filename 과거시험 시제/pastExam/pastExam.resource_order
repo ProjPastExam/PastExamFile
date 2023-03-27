@@ -221,6 +221,7 @@
     {"name":"dok2","order":3,"path":"folders/Sprites/mob/dok/dok2.yy",},
     {"name":"dok3","order":4,"path":"folders/Sprites/mob/dok/dok3.yy",},
     {"name":"dok4","order":1,"path":"folders/Sprites/mob/dok/dok4.yy",},
+    {"name":"dokBoss","order":5,"path":"folders/Sprites/mob/dok/dokBoss.yy",},
     {"name":"jp","order":1,"path":"folders/Sprites/mob/jp.yy",},
     {"name":"jpBoss","order":8,"path":"folders/Sprites/mob/jp/jpBoss.yy",},
     {"name":"jpGun","order":3,"path":"folders/Sprites/mob/jp/jpGun.yy",},
@@ -251,7 +252,6 @@
     {"name":"Tile Sets","order":13,"path":"folders/Tile Sets.yy",},
     {"name":"tileSprite","order":2,"path":"folders/Tile Sets/tileSprite.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
-    {"name":"dokBoss","order":5,"path":"folders/Sprites/mob/dok/dokBoss.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"uc_set_window_size","order":3,"path":"scripts/uc_set_window_size/uc_set_window_size.yy",},
