@@ -3,7 +3,8 @@ Skill
 Skill is a powerful attack that consumes Focus,
 and player can acquire up to three Skills
 
-Player can view acquired Skills in the Status
+Player can view acquired Skills in the Status,
+and can change thr order of shorcuts.
 
 : Focus consumption
 : Cooldown
@@ -11,41 +12,43 @@ Player can view acquired Skills in the Status
 
 Item
 
-Item have a variety of unique effects,
-which make various playstyle in the game
-Players can enhance Items in the blacksmith
+Items have a variety of unique effects
+that enable various playstyles in the game. 
+
+Players can enhance Items at the Blacksmith.
 
 
 Arrow Attack
 
-Arrow Attack have blue effect
-It have a moderate range,
-but can't break enemy's SuperArmor
+Arrow Attack is identified by blue effect.
+It has a moderate range 
+but cannot break the enemy's SuperArmor.
 
 
 Melee Attack
 
-Melee Attack have yellow effect
-It have a short range,
-but can break yellow SuperArmor
+Melee Attack is identified by yellow effect.
+It has a short range 
+but can break the enemy's yellow SuperArmor.
 
 
 Fire Attack
 
-Fire Attack have red effect
-To use It, you need Fire Skill or Item,
-but can break red SuperArmor
+Fire Attack is identified by red effect.
+To use it, you need a Fire Skill or Item,
+but can break the enemy's red SuperArmor.
 
 
 SuperArmor
 
-If the enemy attacks with SuperArmor
-The enemy will have an outline visual effect,
-You can break it with the color of outline
+If the enemy has SuperArmor, 
+it will have a visual outline effect. 
+You can break it with attacks
+that match the color of the outline.
 
-Melee Attack can break yellow SuperArmor
-Fire Attack can break red SuperArmor
-but you can't break purple SuperArmor
+Melee Attack can break yellow SuperArmor.
+Fire Attack can break red SuperArmor.
+However, purple SuperArmor cannot be broken.
 
 
 Combo Damage
@@ -53,88 +56,97 @@ Combo Damage
 When you hit an enemy,
 Combo increases by 1 per hit, up to 100
 
-As the Combo increases, all damage increases,
-by up to Combo Damage
+As your Combo increases, damage increases,
+up to the maximum Combo Damage.
 
-Some Skill or Item have special effect,
-When the combo is above a certain amount
+Some Skills or Items have a special effect
+when the combo is above a certain amount.
 
 
 Critical Hit
 
-Critical Hit deal doubles damage to the enemy
+A Critical Hit deals double damage 
 
-In Status, you can check Critical Chance
-Some Skill or Item affect Critical Chance
+In the Status, you can check Critical Chance.
+
+Some Skills or Items affect Critical Chance.
+
 
 
 MoveSet
 
-일반 공격, 회피, 도약, 기술 사용 등, 행동 중에
-방향키를 누르며 공격키를 입력하는 것으로
-연속 공격을 발동할 수 있습니다.
+During actions such as attacks, dash, jumping, 
+and using skills, inputting direction keys and attack keys 
+will lead to various attack MoveSets.
 
-방향키에 따라 다양한 연속 공격이 있으며,
-일부 기술, 소지품은 연속 공격을 바꾸기도 합니다.
-
-
-일반 공격
-
-기본 설정 :
-
-방향키 입력 없이 공격 키를 연타하면
-두 발의 화살을 사격해 화살 공격 피해를 입히는
-기본 공격이 나갑니다.
-
-공격 키를 다시 입력하면 마무리 공격으로 이어집니다.
+Some Skills or Items can change the move set.
 
 
-마무리 공격
+Basic Attack
 
-기본 설정 :
+Default Setting:
 
-일반 공격이나 연속 공격 후 공격 키를 입력하면
-한 번에 세발의 화살을 사격하는
-마무리 공격으로 이어집니다.
+If you repeatedly press the attack key 
+without inputting any direction keys, 
+you will perform a basic attack that 
+shoots two arrows, dealing arrow damage.
 
-
-전방 공격
-
-기본 설정 :
-
-행동 중에 선비가 바라보고 있는 방향의
-방향키를 누른 상태로 공격 키를 입력하거나,
-회피 중 공격 키를 입력하면
-충격 속성의 발차기를 가하는 전방 공격이 나갑니다.
+Pressing the attack key again 
+will follow up with a Finishing attack.
 
 
-후방 공격
+Finishing Attack
 
-행동 중에 선비가 바라보고 있는 방향과 반대 방향의
-방향키를 누른 상태로 공격 키를 입력하면
-뒤로 물러나며 화살 속성의 사격을 가하는
-후방 공격이 나갑니다.
+Default Setting:
 
-
-상단 공격
-
-행동 중, 위 방향키를 누른 상태로 공격 키를 입력하면
-적중당한 적을 공중에 띄우는 충격 속성의 발차기 후
-대각선 방향으로 화살 속성의 사격을 가하는
-상단 공격이 나갑니다.
+After a Basic Attack, inputting the attack key 
+will follow up with a finishing attack that 
+shoots three arrows at once.
 
 
-공중 상단 공격
+Front Attack
 
-공중에서
+Default Setting:
 
-공중에서 위 방향키를 누른 상태로 공격 키를 입력하면
-짧은 높이를 추가로 도약하며, 적중당한 적을
-공중에 띄우는 충격 속성의 발차기를 가하는
-공중 상단 공격이 나갑니다.
+While performing an action, inputting 
+the attack key while holding down 
+the direction key for the direction
+that the player is facing will result in a 
+Front Attack that dealing Melee damage
 
 
-공중 하단 공격
+Back Attack
+
+While performing an action, inputting
+the attack key while holding down
+the direction key opposite to the direction 
+that the player is facing will result in a 
+Back Attack that shoots arrows 
+with Arrow Damage while backstepping
+
+
+Up Attack
+
+While performing an action, inputting
+the attack key while holding down
+the up directional key will result in an 
+Up Attack that dealing Melee damage
+This attack launches the enemy into the air
+
+
+Jump Up Attack
+
+While Jumping
+
+While Jumping, inputting the attack key
+while holding down the up directional key
+will result in an Jump Up Attack that
+dealing Melee damage with
+short additional jump
+This attack launches the enemy into the air
+
+
+Jump Down Attack
 
 공중에서 아래 방향키를 누른 상태로
 공격 키를 입력하면
