@@ -75,8 +75,9 @@ Some Skills or Items affect Critical Chance.
 
 MoveSet
 
-During actions such as attacks, dash, jumping, 
-and using skills, inputting direction keys and attack keys 
+During actions such as attacks, dash, 
+jumping, and using skills, 
+inputting direction keys and attack keys 
 will lead to various attack MoveSets.
 
 Some Skills or Items can change the move set.
@@ -148,7 +149,8 @@ This attack launches the enemy into the air
 
 Jump Down Attack
 
-공중에서 아래 방향키를 누른 상태로
-공격 키를 입력하면
-빠르게 하강하며, 충격 속성의 내리찍기를 가하는
-공중 하단 공격이 나갑니다.
+While Jumping, inputting the attack key
+while holding down the down directional
+key will result in an Jump Down Attack
+that dealing Melee damage with
+a rapid descent.

@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-var x1 = 230;
-var x2 = 255;
-var x3 = 25;
+var x1 = 195;
+var x2 = 220;
+var x3 = 5;
 if (global.lan == 0) {
 	x1 = 190;
 	x2 = 215;
@@ -22,7 +22,7 @@ draw_set_color(#5B6EE1);
 draw_set_halign(fa_left);
 draw_text(x-x3, y, tempString[global.lan][0]);
 draw_set_halign(fa_right);
-draw_text(x+x2, y, int64(sc_pl_atkDmg(1)));
+draw_text(x+x1, y, int64(sc_pl_atkDmg(1)));
 /*
 if (global.itemScale[0][0] > 0) {
 	draw_text(x+x2, y, tempText);
@@ -36,7 +36,7 @@ if (global.itemScale[0][0] > 0) {
 draw_set_halign(fa_left);
 draw_text(x-x3, y+y1, tempString[global.lan][1]);
 draw_set_halign(fa_right);
-draw_text(x+x2, y+y1, int64(sc_pl_atkMana(1)));
+draw_text(x+x1, y+y1, int64(sc_pl_atkMana(1)));
 /*
 if (global.itemScale[0][1] > 0) {
 	draw_text(x+x2, y+y1, tempText);
@@ -97,7 +97,7 @@ draw_set_color(#746F00);
 draw_set_halign(fa_left);
 draw_text(x-x3, y+y2 + y1*3, tempString[global.lan][4]);
 draw_set_halign(fa_right);
-draw_text(x+x2, y+y2 + y1*3, int64(sc_pl_kickDmg(1)));
+draw_text(x+x1, y+y2 + y1*3, int64(sc_pl_kickDmg(1)));
 /*
 if (global.itemScale[1][0] > 0) {
 	draw_text(x+x2, y+150, tempText);
@@ -111,7 +111,7 @@ if (global.itemScale[1][0] > 0) {
 draw_set_halign(fa_left);
 draw_text(x-x3, y+y2 + y1*4, tempString[global.lan][5]);
 draw_set_halign(fa_right);
-draw_text(x+x2, y+y2 + y1*4, int64(sc_pl_kickMana(1)));
+draw_text(x+x1, y+y2 + y1*4, int64(sc_pl_kickMana(1)));
 /*
 if (global.itemScale[1][1] > 0) {
 	draw_text(x+x2, y+180, tempText);
@@ -172,7 +172,7 @@ draw_set_color(#E84B38);
 draw_set_halign(fa_left);
 draw_text(x-x3, y+y2*2 + y1*6, tempString[global.lan][8]);
 draw_set_halign(fa_right);
-draw_text(x+x2, y+y2*2 + y1*6, int64(sc_pl_fireDmg(1)));
+draw_text(x+x1, y+y2*2 + y1*6, int64(sc_pl_fireDmg(1)));
 /*
 if (global.itemScale[2][0] > 0) {
 	draw_text(x+x2, y+300, tempText);
@@ -186,7 +186,7 @@ if (global.itemScale[2][0] > 0) {
 draw_set_halign(fa_left);
 draw_text(x-x3, y+y2*2 + y1*7, tempString[global.lan][9]);
 draw_set_halign(fa_right);
-draw_text(x+x2, y+y2*2 + y1*7, int64(sc_pl_fireMana(1)));
+draw_text(x+x1, y+y2*2 + y1*7, int64(sc_pl_fireMana(1)));
 /*
 if (global.itemScale[2][1] > 0) {
 	draw_text(x+x2, y+330, tempText);
