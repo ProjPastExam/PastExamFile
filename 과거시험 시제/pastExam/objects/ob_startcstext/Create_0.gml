@@ -13,3 +13,15 @@ case 4:	printText = "이에 조선의 혼란을 바로잡고자";	break;
 case 5:	printText = "활 한 자루에 의지하여";	break;	
 case 6:	printText = "한 이름없는 선비가 과거길에 오른다.";	break;	
 }
+
+if (global.lan == 1) {
+switch (imageNum) {
+case 0:	printText = "In 1592, Toyotomi Hideyoshi, who had unified Japan,\nlaunched a large-scale invasion of Joseon, \na country on the Korean peninsula.";	break;	
+case 1:	printText = "The war lasted for six grueling years, but eventually, \nthanks to the heroic efforts of many, \nJoseon was able to repel Japan's invasion";	break;	
+case 2:	printText = "However, the long-lasting war caused \nthe foundation of people's livelihoods to crumble.";	break;	
+case 3:	printText = "With the country in chaos, bandits sprang up all over the nation \nand corrupt officials took advantage of the confusion \nto exploit the people.";	break;	
+case 4:	printText = "To address the turmoil in Joseon,";	break;	
+case 5:	printText = "Relying on just one bow,";	break;	
+case 6:	printText = "The unnamed scholar sets out on a journey to Hanyang, \nCapital of Joseon";	break;	
+}
+}

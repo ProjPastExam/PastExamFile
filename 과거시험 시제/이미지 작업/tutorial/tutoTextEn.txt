@@ -1,0 +1,92 @@
+Game UI
+
+1 : Flower icon represents player's HP
+
+2 : Bamboo icon represents player's Focus
+It is obtained by attacking enemies
+and consumed by using skills.
+
+3 : This is a skill you have acquired.
+The required Focus is displayed.
+
+
+Attack Type
+
+There are three types for player's Attack
+Arrow, Melee, Fire
+
+Arrow Attack is identified by blue effect.
+Melee Attack is identified by yellow effect.
+Fire Attack is identified by red effect.
+
+
+MoveSet
+
+During actions such as attacks, dash, 
+jumping, and using skills, 
+inputting direction keys and attack keys 
+will lead to various attack MoveSets.
+
+You can find detailed information 
+about the MoveSet in the game guide.
+
+
+Combo
+
+When player hit an enemy,
+Combo increases by 1 per hit, up to 100
+As your Combo increases, damage increases,
+up to the maximum Combo Damage.
+
+If time passes or player is hit by an enemy 
+the combo count will be reset.
+
+
+Skill
+
+Skill is a powerful attack that consumes Focus,
+and player can acquire up to three Skills
+
+Player can view acquired Skills in the Status,
+and can change thr order of shorcuts.
+
+: Focus consumption
+: Cooldown
+
+
+Item
+
+Items have a variety of unique effects
+that enable various playstyles in the game. 
+
+Players can enhance Items at the Blacksmith.
+
+
+SuperArmor 1
+
+When a yellow visual outline effect 
+appears on an enemy, that enemy 
+cannot be staggered by normal attacks
+
+Player can break this yellow SuperArmor
+by Melee Attack
+
+
+
+SuperArmor 2
+
+When a red visual outline effect 
+appears on an enemy, that enemy 
+cannot be staggered by normal attacks
+
+Player can break this red SuperArmor
+by Fire Attack
+
+
+Boss
+
+Boss cannot be staggered by arrow attacks,
+but can be staggered by Melee and Fire attacks.
+
+Some enemies, including bosses, also use
+an unbreakable purple SuperArmor

@@ -50,7 +50,6 @@
     {"name":"inst_62AA504E","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_3E584320","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_27B93E35","path":"rooms/r_tutorial/r_tutorial.yy",},
-    {"name":"inst_7D04241C","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_6CD42A0","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_35C151B0","path":"rooms/r_tutorial/r_tutorial.yy",},
     {"name":"inst_1FAD4FF7","path":"rooms/r_tutorial/r_tutorial.yy",},
@@ -193,10 +192,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E584320","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_tutodashattack","path":"objects/ob_tutodashattack/ob_tutodashattack.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6256.0,"y":1220.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27B93E35","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"propertyId":{"name":"keyIndex","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"value":"btAtk",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6464.0,"y":1280.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7D04241C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"propertyId":{"name":"keyIndex","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"value":"btDash",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6048.0,"y":1280.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6368.0,"y":1280.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_35C151B0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_tutoupattack","path":"objects/ob_tutoupattack/ob_tutoupattack.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":7408.0,"y":1220.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1FAD4FF7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"propertyId":{"name":"keyIndex","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"value":"btAtk",},

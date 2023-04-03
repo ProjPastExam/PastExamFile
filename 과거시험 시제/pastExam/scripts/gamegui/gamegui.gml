@@ -140,7 +140,7 @@ function sc_printMoney(var_mode = 0) {
 	draw_set_halign(fa_right);
 	draw_set_font(f_dmg);
 	draw_set_color(c_white);
-		
+	
 	if (var_mode == 0) {
 		if	(moneyPrint < global.money)	{
 			if	(moneyPrint < global.money - 100)	moneyPrint += 10;

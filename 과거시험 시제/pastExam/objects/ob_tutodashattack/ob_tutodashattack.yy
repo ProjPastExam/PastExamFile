@@ -9,7 +9,10 @@
     "name": "text",
     "path": "folders/Objects/tutorial/text.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "ob_tutoText",
+    "path": "objects/ob_tutoText/ob_tutoText.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
