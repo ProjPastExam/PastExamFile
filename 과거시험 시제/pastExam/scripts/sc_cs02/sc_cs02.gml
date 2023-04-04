@@ -99,7 +99,7 @@ function sc_cs02(){
 			name[0] = "어린아이"
 			text[0] = "갑자기 왜놈들이 나타나서.. 가족과 일행을 다 잡아갔어요!..";
 			name[1] = "Child"
-			text[1] = "Suddenly, some invaders appeared and took away my family!";
+			text[1] = "Suddenly, some Japanese invaders appeared and took away my family!";
 			sc_csBase(name, sp_cs02_face, text, ii, iy);
 			break;
 			

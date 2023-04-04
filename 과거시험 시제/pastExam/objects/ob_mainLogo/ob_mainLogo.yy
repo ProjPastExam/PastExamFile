@@ -32,8 +32,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sp_title",
-    "path": "sprites/sp_title/sp_title.yy",
+    "name": "sp_titleDemo",
+    "path": "sprites/sp_titleDemo/sp_titleDemo.yy",
   },
   "spriteMaskId": null,
   "visible": true,

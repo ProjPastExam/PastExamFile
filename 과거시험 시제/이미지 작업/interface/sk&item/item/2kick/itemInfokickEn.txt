@@ -1,0 +1,31 @@
+
+Officer's Boots
+
+Change Front Attack
+MoveSet to 3 hit kick
+that deal x1 Melee
+Damage with 1 
+additional combo
+
+
+죽창
+
+연타 수치를 20 소모해
+회피 직후의 전방 공격이
+6배율의 충격 피해를
+주는 죽창 찌르기로
+변경된다.
+
+이 공격은 20%의 추가
+치명타 확률을 가진다.
+
+
+은장도
+
+회피 시 은장도를 휘둘러
+0.5배율의 충격 피해와
+집중 회복량을 가진
+공격을 최대 1회 가한다.
+
+이 공격은 적의
+경직 저항을 깰 수 없다.

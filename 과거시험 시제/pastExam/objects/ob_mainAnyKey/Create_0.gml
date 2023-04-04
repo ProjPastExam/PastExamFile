@@ -3,3 +3,4 @@
 image_alpha = 0;
 alarm[1] = delay;
 alarm[4] = 60;
+image_index = global.lan;

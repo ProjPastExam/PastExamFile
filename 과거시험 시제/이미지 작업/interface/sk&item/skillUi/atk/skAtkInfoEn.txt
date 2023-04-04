@@ -1,0 +1,38 @@
+Rapid Shoot
+
+Rapidly shoot 
+5 arrows, deal 
+x1.5 Arrow Damage
+per shoot
+
+Player can stop 
+shooting by 
+dash or jump
+
+
+강화 연속사격
+
+
+다발사격
+
+다수의 화살을 두 번 
+발사해 공격당 2.5배율의
+화살 피해를 준다.
+
+
+강화 다발사격
+
+
+광역사격
+
+앞뒤로 화살을 연사해
+최대 12배율의 화살
+피해를 준다.
+
+
+화살비
+
+전방에 화살비를 퍼부어
+범위 내의 적에게
+1.5배율의 화살 피해를
+최대 8회 입힌다.

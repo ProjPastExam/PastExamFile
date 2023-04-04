@@ -8,6 +8,9 @@ function sc_tutoChunCs1(){
 	var ix = 1700;
 	var iy = 480;
 	
+	var name	= array_create(2, "");
+	var text	= array_create(2, "");
+	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7 || isT == 8) && active == true)) {
 		active = false;
 		switch (state) {
@@ -18,8 +21,10 @@ function sc_tutoChunCs1(){
 			break;
 			
 		case 1:
-			var name = "???";
-			var text = "거기! 제가 도와드릴게요!";
+			name[0] = "???";
+			text[0] = "거기! 제가 도와드릴게요!";
+			name[1] = "???";
+			text[1] = "Hey there! I'll help you!";
 			sc_csBase(name, sp_chun_face, text, -50, -50);
 			break;
 			

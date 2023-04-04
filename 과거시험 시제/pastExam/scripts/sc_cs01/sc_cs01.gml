@@ -75,7 +75,7 @@ function sc_cs01(){
 			name[0] = "주모"
 			text[0] = "왜란 때 들어왔던 왜놈 몇몇이 \n 백마산이 제 집인 양 들어앉았지 뭐예요!";
 			name[1] = "Jumo"
-			text[1] = "Some of the Japanese invaders who couldn't go back during the war \nmade themselves at home at Baekma Mountain.";
+			text[1] = "Some of the Japanese invaders who couldn't \ngo back during the war \nmade themselves at home at Baekma Mountain.";
 			sc_csBase(name, sp_jumo_face, text, jumo, 580);
 			break;
 			
