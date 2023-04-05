@@ -66,7 +66,7 @@ function sc_gameControlUI() {
 		draw_sprite(sp_minimapBox, 0, global.MapX, global.MapY);
 		draw_surface(mapSurf,global.MapX, global.MapY);
 	}
-	sc_printMoney(1);
+	//sc_printMoney(1);
 	sc_gameGUI();
 	draw_sprite(sp_black2, 0, 0, 0);
 	
