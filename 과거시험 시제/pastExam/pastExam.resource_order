@@ -270,6 +270,7 @@
     {"name":"Tile Sets","order":13,"path":"folders/Tile Sets.yy",},
     {"name":"tileSprite","order":2,"path":"folders/Tile Sets/tileSprite.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
+    {"name":"stage04Cs","order":11,"path":"folders/Sprites/csSprite/stage04Cs.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"uc_set_window_size","order":3,"path":"scripts/uc_set_window_size/uc_set_window_size.yy",},
@@ -329,6 +330,7 @@
     {"name":"sp_skillUi_113Info","order":22,"path":"sprites/sp_skillUi_113Info/sp_skillUi_113Info.yy",},
     {"name":"sp_jpSword_dig","order":9,"path":"sprites/sp_jpSword_dig/sp_jpSword_dig.yy",},
     {"name":"obj_uls_light","order":4,"path":"objects/obj_uls_light/obj_uls_light.yy",},
+    {"name":"ob_stage04DBCs1","order":2,"path":"objects/ob_stage04DBCs1/ob_stage04DBCs1.yy",},
     {"name":"uc_get_mouse_borders_size","order":2,"path":"scripts/uc_get_mouse_borders_size/uc_get_mouse_borders_size.yy",},
     {"name":"sp_pl_cannon_temp","order":4,"path":"sprites/sp_pl_cannon_temp/sp_pl_cannon_temp.yy",},
     {"name":"sp_keyVk_down","order":40,"path":"sprites/sp_keyVk_down/sp_keyVk_down.yy",},

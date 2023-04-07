@@ -95,7 +95,7 @@ function sc_stage04VilCs(){
 			
 		case 12:
 			var name = "감찰사";
-			var text = "음? \n귀공은 누구시오?";
+			var text = "음? \n당신은 누구시오?";
 			sc_csBase(name, sp_officer1_face, text, sx, sy);
 			break;
 			
