@@ -182,6 +182,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"stage01Cs","folderPath":"folders/Sprites/csSprite/stage01Cs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"stage02Cs","folderPath":"folders/Sprites/csSprite/stage02Cs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"stage03Cs","folderPath":"folders/Sprites/csSprite/stage03Cs.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"stage04Cs","folderPath":"folders/Sprites/csSprite/stage04Cs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"startCs","folderPath":"folders/Sprites/csSprite/startCs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tutorialCs","folderPath":"folders/Sprites/csSprite/tutorialCs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"cs01","folderPath":"folders/Sprites/csSprite/tutorialCs/cs01.yy",},
@@ -295,7 +296,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tileSprite","folderPath":"folders/Tile Sets/tileSprite.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"stage04Cs","folderPath":"folders/Sprites/csSprite/stage04Cs.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"npcTalk.csv","CopyToMask":3035426170322551022,"filePath":"datafiles",},
