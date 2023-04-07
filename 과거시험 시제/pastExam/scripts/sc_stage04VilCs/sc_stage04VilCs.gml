@@ -54,9 +54,7 @@ function sc_stage04VilCs(){
 		
 		case 6:
 			BGM_Play(s_mCs_normal, global.volBgm, 0);
-			var name = "성춘향";
-			var text = "저기 누군가 있어요! \n복장을 보아선 높은 관리 같은데...";
-			sc_csBase(name, sp_chun_face, text, ii, iy);
+			sc_csBase(0, 1, sp_chun_face, ii, iy);
 			break;
 			
 		case 7:
@@ -94,9 +92,7 @@ function sc_stage04VilCs(){
 			break;
 			
 		case 12:
-			var name = "감찰사";
-			var text = "음? \n당신은 누구시오?";
-			sc_csBase(name, sp_officer1_face, text, sx, sy);
+			sc_csBase(0, 2, sp_officer1_face, sx, sy);
 			break;
 			
 		case 13:
@@ -107,21 +103,15 @@ function sc_stage04VilCs(){
 			break;
 			
 		case 14:
-			var name = "감찰사";
-			var text = "아아, 과거길에 오르는 선비로군 \n본관은 충청감영의 감찰사요.";
-			sc_csBase(name, sp_officer1_face, text, sx, sy);
+			sc_csBase(0, 3, sp_officer1_face, sx, sy);
 			break;
 			
 		case 15:
-			var name = "감찰사";
-			var text = "시찰을 위해 마을로 내려오던 길에, \n한 무리의 도깨비들을 만나 물건을 빼앗기고 \n딸아이가 납치당해 곤란한 상황이오...";
-			sc_csBase(name, sp_officer1_face, text, sx, sy);
+			sc_csBase(0, 4, sp_officer1_face, sx, sy);
 			break;
 			
 		case 16:
-			var name = "감찰사";
-			var text = "동행한 병사도 없으니, 한동안 이 마을에 발이 묶였소... \n이를 어찌하면 좋담...";
-			sc_csBase(name, sp_officer1_face, text, sx, sy);
+			sc_csBase(0, 5, sp_officer1_face, sx, sy);
 			break;
 			
 		case 17:
