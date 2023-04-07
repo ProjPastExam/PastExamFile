@@ -47,15 +47,11 @@ function sc_stage02BossCs1(){
 			break;
 			
 		case 5:
-			var name = "성춘향"
-			var text = "왜군에게 잡혀간 사람들이에요!";
-			sc_csBase(name, sp_chun_face_angry, text, -500, iy);
+			sc_csBase(4, 1, sp_chun_face_angry, -500, iy);
 			break;
 		
 		case 6:
-			var name = "성춘향"
-			var text = "어서 구해드려야... \n..앗!";
-			sc_csBase(name, sp_chun_face_angry, text, -500, iy);
+			sc_csBase(4, 2, sp_chun_face_angry, -500, iy);
 			break;
 			
 		case 7:
@@ -73,21 +69,15 @@ function sc_stage02BossCs1(){
 			break
 		
 		case 9:
-			var name = "사무라이"
-			var text = "...";
-			sc_csBase(name, sp_jpBoss_face, text, ii, iy);
+			sc_csBase(4, 3, sp_jpBoss_face, ii, iy);
 			break;
 		
 		case 10:
-			var name = "사무라이"
-			var text = "용케도 살아서 다시 왔군...";
-			sc_csBase(name, sp_jpBoss_face, text, ii, iy);
+			sc_csBase(4, 4, sp_jpBoss_face, ii, iy);
 			break;
 			
 		case 11:
-			var name = "사무라이"
-			var text = "...이번에야말로 확실하게 죽여주마";
-			sc_csBase(name, sp_jpBoss_face, text, ii, iy);
+			sc_csBase(4, 5, sp_jpBoss_face, ii, iy);
 			break;
 			
 		case 12:

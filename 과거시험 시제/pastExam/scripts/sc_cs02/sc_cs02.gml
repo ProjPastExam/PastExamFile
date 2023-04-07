@@ -5,9 +5,6 @@ function sc_cs02(){
 	var isT = ob_roomControl.isTalk;
 	if (state == 1 || state == 18 || state == 19) x = x + 3;
 	
-	var name	= array_create(2, "");
-	var text	= array_create(2, "");
-	
 	var ii = 720;
 	var iy = 640
 
@@ -31,11 +28,7 @@ function sc_cs02(){
 			BGM_Play(s_mB01_1, global.volBgm, 0);
 			SE_Play(s_talk, global.vol);
 			sprite_index = sp_pl_standPeace;
-			name[0] = "????"
-			text[0] = "으아앙!";
-			name[1] = "????"
-			text[1] = "Ahhh!"
-			sc_csBase(name, sp_npc_blank, text, -50, 540);
+			sc_csBase(4, 1, sp_npc_blank, -50, 540);
 			uc_shake(10, 0.05);
 			break;
 			
@@ -59,11 +52,7 @@ function sc_cs02(){
 			break;
 		
 		case 6:
-			name[0] = "어린아이"
-			text[0] = "제발.. 저 좀 도와주세요.. 엉엉";
-			name[1] = "Child"
-			text[1] = "Please... help me...";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
+			sc_csBase(4, 2, sp_cs02_face, ii, iy);
 			break;
 			
 		case 7:
@@ -88,27 +77,15 @@ function sc_cs02(){
 			break;
 		
 		case 10:
-			name[0] = "어린아이"
-			text[0] = "저희 가족들이.. 다른 마을에 볼일이 있어.. \n백마산 길을 지나는데..";
-			name[1] = "Child"
-			text[1] = "My family... have some business in another village... \nso we were passing through the Baekma Mountain trail...";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
+			sc_csBase(4, 3, sp_cs02_face, ii, iy);
 			break;
 		
 		case 11:
-			name[0] = "어린아이"
-			text[0] = "갑자기 왜놈들이 나타나서.. 가족과 일행을 다 잡아갔어요!..";
-			name[1] = "Child"
-			text[1] = "Suddenly, some Japanese invaders appeared and took away my family!";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
+			sc_csBase(4, 4, sp_cs02_face, ii, iy);
 			break;
 			
 		case 12:
-			name[0] = "어린아이"
-			text[0] = "어떻게 저만 간신히 도망쳤는데...";
-			name[1] = "Child"
-			text[1] = "How could I barely manage to escape alone...";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
+			sc_csBase(4, 5, sp_cs02_face, ii, iy);
 			break;
 		
 		case 13:
@@ -119,11 +96,7 @@ function sc_cs02(){
 			break;
 		
 		case 14:
-			name[0] = "어린아이"
-			text[0] = "저희 가족들 좀 구해주세요!.. 엉엉..";
-			name[1] = "Child"
-			text[1] = "Please save my family!..";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
+			sc_csBase(4, 6, sp_cs02_face, ii, iy);
 			break;
 			
 		case 15:

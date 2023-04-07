@@ -6,7 +6,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_csParent","path":"objects/ob_csParent/ob_csParent.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_csParent/ob_csParent.yy",},"value":"st02Cs.csv",},
+  ],
   "parent": {
     "name": "stage02Cs",
     "path": "folders/Objects/csOb/stage02Cs.yy",

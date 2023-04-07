@@ -43,9 +43,7 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 5:
-			var name = "???";
-			var text = "정신이 좀 드세요?";
-			sc_csBase(name, sp_chun_face_laugh, text, ix, iy);
+			sc_csBase(20, 1, sp_chun_face_laugh, ix, iy);
 			BGM_Play(s_mChun, global.volBgm, 0);
 			break;
 			
@@ -56,15 +54,11 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 7:
-			var name = "성춘향";
-			var text = "전 성춘향이라고 해요.";
-			sc_csBase(name, sp_chun_face_smile, text, ix, iy);
+			sc_csBase(20, 2, sp_chun_face_smile, ix, iy);
 			break;
 			
 		case 8:
-			var name = "성춘향";
-			var text = "당신이 백마산에서 수습해주었던 묘의 주인이죠.";
-			sc_csBase(name, sp_chun_face_smile, text, ix, iy);
+			sc_csBase(20, 3, sp_chun_face_smile, ix, iy);
 			break;
 			
 		case 9:
@@ -74,21 +68,15 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 10:
-			var name = "성춘향";
-			var text = "그래요.";
-			sc_csBase(name, sp_chun_face_smile, text, ix, iy);
+			sc_csBase(20, 4, sp_chun_face_smile, ix, iy);
 			break;
 		
 		case 11:
-			var name = "성춘향";
-			var text = "묘에서부터 당신을 지켜보다가,";
-			sc_csBase(name, sp_chun_face_smile, text, ix, iy);
+			sc_csBase(20, 5, sp_chun_face_smile, ix, iy);
 			break;
 		
 		case 12:
-			var name = "성춘향";
-			var text = "위험에 빠진 당신을 보고 \n제가 좀 도와드렸죠.";
-			sc_csBase(name, sp_chun_face_smile, text, ix, iy);
+			sc_csBase(20, 6, sp_chun_face_smile, ix, iy);
 			break;
 			
 		case 13:
@@ -98,15 +86,11 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 14:
-			var name = "성춘향";
-			var text = "당신은 과거길에 오르시는 중이죠?";
-			sc_csBase(name, sp_chun_face, text, ix, iy);
+			sc_csBase(20, 7, sp_chun_face, ix, iy);
 			break;
 			
 		case 15:
-			var name = "성춘향";
-			var text = "제가 당신을 도와드린 게, \n단지 묘를 수습해주신 게 고마워서는 아니거든요.";
-			sc_csBase(name, sp_chun_face, text, ix, iy);
+			sc_csBase(20, 8, sp_chun_face, ix, iy);
 			break;
 			
 		case 16:
@@ -116,15 +100,11 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 17:
-			var name = "성춘향";
-			var text = "저는 이미 죽어 귀신이 된 몸이지만, \n저승으로 가기 전에, 한양에 보고싶은 분이 있어요.";
-			sc_csBase(name, sp_chun_face_silence, text, ix, iy);
+			sc_csBase(20, 9, sp_chun_face_silence, ix, iy);
 			break;
 			
 		case 18:
-			var name = "성춘향";
-			var text = "하지만 지금 이 몸으로 먼 길을 가는 것은 어려워 \n고민하고 있었는데...";
-			sc_csBase(name, sp_chun_face_angry, text, ix, iy);
+			sc_csBase(20, 10, sp_chun_face_angry, ix, iy);
 			break;
 			
 		case 19:
@@ -134,9 +114,7 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 20:
-			var name = "성춘향";
-			var text = "... 그때 당신이 나타난 거죠!";
-			sc_csBase(name, sp_chun_face_laugh, text, ix, iy);
+			sc_csBase(20, 11, sp_chun_face_laugh, ix, iy);
 			break;
 			
 		case 21:
@@ -146,9 +124,7 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 22:
-			var name = "성춘향";
-			var text = "설마, 고결한 선비께서 \n생명의 은인이자, 슬픔에 빠진 가녀린 소녀의 간청을 \n못 들은 척 하시지는 않으시겠죠?";
-			sc_csBase(name, sp_chun_face_smile, text, ix, iy);
+			sc_csBase(20, 12, sp_chun_face_smile, ix, iy);
 			break;
 			
 		case 23:

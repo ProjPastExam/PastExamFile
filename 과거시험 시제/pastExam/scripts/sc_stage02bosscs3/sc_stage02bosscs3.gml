@@ -19,15 +19,11 @@ function sc_stage02BossCs3(){
 			break;
 			
 		case 1:
-			var name = "성춘향"
-			var text = "아이의 부탁대로, \n납치된 사람들을 전부 구했네요!";
-			sc_csBase(name, sp_chun_face_laugh, text, 890, iy);
+			sc_csBase(12, 1, sp_chun_face_laugh, 890, iy);
 			break;
 			
 		case 2:
-			var name = "성춘향"
-			var text = "그럼, 다시 여행길에 올라볼까요? \n한양까지 아직 갈 길이 멀어요!";
-			sc_csBase(name, sp_chun_face_smile, text, 890, iy);
+			sc_csBase(12, 2, sp_chun_face_smile, 890, iy);
 			break;
 			
 		case 3:
@@ -64,27 +60,19 @@ function sc_stage02BossCs3(){
 			
 		case 8:
 			BGM_Play(s_mCs_normal, global.volBgm, 0);
-			var name = "김세근 장군"
-			var text = "왜란으로 혼란한 조선을 구하고자 \n이곳, 백마산에서 의병을 일으켰었소.";
-			sc_csBase(name, sp_st02Cs_kim_face, text, 770, iy);
+			sc_csBase(12, 3, sp_st02Cs_kim_face, 770, iy);
 			break;
 			
 		case 9:
-			var name = "김세근 장군"
-			var text = "난 백성들을 위해 왜놈들과 싸우다 \n끝내 목숨을 잃었지만,";
-			sc_csBase(name, sp_st02Cs_kim_face, text, 770, iy);
+			sc_csBase(12, 4, sp_st02Cs_kim_face, 770, iy);
 			break;
 			
 		case 10:
-			var name = "김세근 장군"
-			var text = "전쟁이 끝나고도 이어지는 혼란과 \n고통에 빠진 백성들을 보며";
-			sc_csBase(name, sp_st02Cs_kim_face, text, 770, iy);
+			sc_csBase(12, 5, sp_st02Cs_kim_face, 770, iy);
 			break;
 			
 		case 11:
-			var name = "김세근 장군"
-			var text = "죽어서도 마음 편히 \n저승으로 올라갈 수 없었소...";
-			sc_csBase(name, sp_st02Cs_kim_face, text, 770, iy);
+			sc_csBase(12, 6, sp_st02Cs_kim_face, 770, iy);
 			break;
 			
 		case 12:
@@ -95,15 +83,11 @@ function sc_stage02BossCs3(){
 			break;
 			
 		case 13:
-			var name = "김세근 장군"
-			var text = "허나, 저렇게 훌륭한 선비가 \n도탄에 빠진 백성들을 구원하고, \n조선을 바로잡고자 한다면";
-			sc_csBase(name, sp_st02Cs_kim_face, text, 770, iy);
+			sc_csBase(12, 7, sp_st02Cs_kim_face, 770, iy);
 			break;
 			
 		case 14:
-			var name = "김세근 장군"
-			var text = "더 이상 남는 미련은 없소이다.";
-			sc_csBase(name, sp_st02Cs_kim_face, text, 770, iy);
+			sc_csBase(12, 8, sp_st02Cs_kim_face, 770, iy);
 			break;
 			
 		case 15:
@@ -120,15 +104,11 @@ function sc_stage02BossCs3(){
 			break;
 			
 		case 17:
-			var name = "저승사자"
-			var text = "마음이 정리되신 것 같군요.";
-			sc_csBase(name, sp_reaper_face, text, 510, iy);
+			sc_csBase(12, 9, sp_reaper_face, 510, iy);
 			break;
 			
 		case 18:
-			var name = "저승사자"
-			var text = "그럼, 이제 저승으로 올라갑시다.";
-			sc_csBase(name, sp_reaper_face, text, 510, iy);
+			sc_csBase(12, 10, sp_reaper_face, 510, iy);
 			break;
 			
 		case 19:

@@ -52,9 +52,7 @@ function sc_stage01BossCs1(){
 		case 5:
 			BGS_Set(0, 0);
 			sprite_index = sp_pl_stand;
-			var name = "산적 두목"
-			var text = "거기 멈춰라!";
-			sc_csBase(name, sp_banditBoss_face, text, -500, iy);
+			sc_csBase(4, 1, sp_banditBoss_face, -500, iy);
 			uc_shake(10, 0.05);
 			BGM_Play(s_mB01_1, global.volBgm, 0);
 			break;
@@ -79,15 +77,11 @@ function sc_stage01BossCs1(){
 			break
 		
 		case 9:
-			var name = "산적 두목"
-			var text = "비실해 보이는 선비 놈이 성가시게도 구는군. \n내가 직접 박살 내주마!";
-			sc_csBase(name, sp_banditBoss_face, text, ii, iy);
+			sc_csBase(4, 2, sp_banditBoss_face, ii, iy);
 			break;
 		
 		case 10:
-			var name = "산적 두목"
-			var text = "가지고 있는 건 다 내놔라! \n물론 네놈의 목숨까지도 말이지 흐흐";
-			sc_csBase(name, sp_banditBoss_face, text, ii, iy);
+			sc_csBase(4, 3, sp_banditBoss_face, ii, iy);
 			break;
 			
 		case 11:

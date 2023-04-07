@@ -6,7 +6,7 @@ function sc_stage01BossCs3(){
 	if (state == 12 || state == 13) x = x + 3;
 	
 	var ii = 720;
-	var iy = 540
+	var iy = 540;
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
@@ -25,9 +25,7 @@ function sc_stage01BossCs3(){
 			break;
 			
 		case 2:
-			var name = "성춘향"
-			var text = "그래도... 이들의 죽음이 아무런 의미가 없는 건 아니에요.";
-			sc_csBase(name, sp_chun_face_angry, text, 1450, 520);
+			sc_csBase(12, 1, sp_chun_face_angry, 1450, 520);
 			break;
 			
 		case 3:
@@ -38,27 +36,19 @@ function sc_stage01BossCs3(){
 			break;
 			
 		case 4:
-			var name = "성춘향"
-			var text = "이들이 살아생전 느꼈던 고통과 사념들...";
-			sc_csBase(name, sp_chun_face_silence, text, 1450, 520);
+			sc_csBase(12, 2, sp_chun_face_silence, 1450, 520);
 			break;
 			
 		case 5:
-			var name = "성춘향"
-			var text = "... 음의 기운들을 제가 모아서, \n당신의 여정을 돕는 힘으로 삼을 수 있어요.";
-			sc_csBase(name, sp_chun_face_smile, text, 1450, 520);
+			sc_csBase(12, 3, sp_chun_face_smile, 1450, 520);
 			break;
 		
 		case 6:
-			var name = "성춘향"
-			var text = "이 힘으로 한양까지 도달해, \n조선의 혼란을 바로잡으시는 거예요..!";
-			sc_csBase(name, sp_chun_face_angry, text, 1450, 520);
+			sc_csBase(12, 4, sp_chun_face_angry, 1450, 520);
 			break;
 			
 		case 7:
-			var name = "성춘향"
-			var text = "이 산적들처럼, \n살아남기 위해서 잘못된 길로 빠지는 사람들이 \n다시는 생기지 않도록...";
-			sc_csBase(name, sp_chun_face_silence, text, 1450, 520);
+			sc_csBase(12, 5, sp_chun_face_silence, 1450, 520);
 			break;
 		case 8:
 			ob_roomControl.isTalk = 8;

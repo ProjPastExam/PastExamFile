@@ -57,17 +57,13 @@ function sc_stage01Cs(){
 			break;
 			
 		case 1:
-			var name = "산적"
-			var text = "험한 꼴 당하기 싫으면, 순순히 가진 거 다 내놔!";
 			BGM_Play(s_mB01_1, global.volBgm, 0);
-			sc_csBase(name, sp_bandit_face, text, hang1, 580);
+			sc_csBase(0, 1, sp_bandit_face, hang1, 580);
 			uc_shake(8, 0.1);
 			break;
 			
 		case 2:
-			var name = "행인"
-			var text = "히익!";
-			sc_csBase(name, sp_civil03Face, text, hang2, 580);
+			sc_csBase(0, 2, sp_civil03Face, hang2, 580);
 			break;
 			
 		case 3:
@@ -115,9 +111,7 @@ function sc_stage01Cs(){
 		case 10:
 			sprite_index = sp_pl_standPeace;
 			image_xscale = -1;
-			var name = "행인"
-			var text = "아이구머니나!";
-			sc_csBase(name, sp_civil03Face, text, hang2, 580);
+			sc_csBase(0, 3, sp_civil03Face, hang2, 580);
 			break;
 			
 		case 11:
@@ -132,9 +126,7 @@ function sc_stage01Cs(){
 			break;
 			
 		case 13:
-			var name = "행인"
-			var text = "고.. 고맙소!";
-			sc_csBase(name, sp_civil01Face, text, 640, 580);
+			sc_csBase(0, 4, sp_civil01Face, 640, 580);
 			break;
 			
 		case 14:
@@ -160,27 +152,19 @@ function sc_stage01Cs(){
 			break;
 			
 		case 18:
-			var name = "성춘향"
-			var text = "전쟁이 끝난 후, 산적들이 부쩍 늘어났어요.";
-			sc_csBase(name, sp_chun_face_silence, text, 1280, 560);
+			sc_csBase(0, 5, sp_chun_face_silence, 1280, 560);
 			break;
 			
 		case 19:
-			var name = "성춘향"
-			var text = "그런데 관청에서는 이를 진압할 사람이 없다고 \n손을 놓아버리거나...";
-			sc_csBase(name, sp_chun_face_angry, text, 1280, 560);
+			sc_csBase(0, 6, sp_chun_face_angry, 1280, 560);
 			break;
 			
 		case 20:
-			var name = "성춘향"
-			var text = "심지어 욕심 많은 사또들은, 이런 혼란을 기회 삼아 \n자기 잇속이나 채우고 있어요..!";
-			sc_csBase(name, sp_chun_face_angry, text, 1280, 560);
+			sc_csBase(0, 7, sp_chun_face_angry, 1280, 560);
 			break;
 			
 		case 21:
-			var name = "성춘향"
-			var text = "결국 평범한 사람들만 더욱 힘들어지고 있어요..";
-			sc_csBase(name, sp_chun_face_silence, text, 1280, 560);
+			sc_csBase(0, 8, sp_chun_face_silence, 1280, 560);
 			break;
 			
 		case 22:
@@ -191,21 +175,15 @@ function sc_stage01Cs(){
 			break;
 			
 		case 23:
-			var name = "성춘향"
-			var text = "...이대로 그냥 지나칠 순 없어요. \n사람들을 괴롭히는 산적들을 몰아내야 해요!";
-			sc_csBase(name, sp_chun_face_angry, text, 1280, 560);
+			sc_csBase(0, 9, sp_chun_face_angry, 1280, 560);
 			break;
 			
 		case 24:
-			var name = "성춘향"
-			var text = "저도 최대한 도와드릴게요!";
-			sc_csBase(name, sp_chun_face, text, 1280, 560);
+			sc_csBase(0, 10, sp_chun_face, 1280, 560);
 			break;
 			
 		case 25:
-			var name = "성춘향"
-			var text = "각 지역의 산적들을 전부 몰아내면, \n여정에 필요한 물건들을 찾아드릴 수 있을 거예요.";
-			sc_csBase(name, sp_chun_face_smile, text, 1280, 560);
+			sc_csBase(0, 11, sp_chun_face_smile, 1280, 560);
 			break;
 			
 		case 26:

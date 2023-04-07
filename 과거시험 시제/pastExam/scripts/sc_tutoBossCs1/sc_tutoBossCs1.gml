@@ -5,9 +5,6 @@ function sc_tutoBossCs1(){
 	var isT = ob_roomControl.isTalk;
 	if (state == 5) x = x + 8;
 	
-	var name	= array_create(2, "");
-	var text	= array_create(2, "");
-	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
 		active = false;
 		switch (state) {
@@ -59,11 +56,7 @@ function sc_tutoBossCs1(){
 			break;
 			
 		case 7:
-			name[0] = "왜군 정예병";
-			text[0] = "거기까지다!";
-			name[1] = "Ashigaru elite";
-			text[1] = "That's far enough!";
-			sc_csBase(name, sp_jpMb_face, text, -50, -50);
+			sc_csBase(8, 1, sp_jpMb_face, -50, -50);
 			break;
 			
 		case 8:

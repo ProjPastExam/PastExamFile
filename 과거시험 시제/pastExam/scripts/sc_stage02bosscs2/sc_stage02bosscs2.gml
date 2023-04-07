@@ -17,21 +17,15 @@ function sc_stage02BossCs2(){
 			break;
 			
 		case 1:
-			var name = "행인 1"
-			var text = "구해주셔서 감사해요...";
-			sc_csBase(name, sp_st02Cs_npc1_face, text, 1110, iy);
+			sc_csBase(8, 1, sp_st02Cs_npc1_face, 1110, iy);
 			break;
 			
 		case 2:
-			var name = "행인 2"
-			var text = "덕분에 살았소.";
-			sc_csBase(name, sp_st02Cs_npc3_face, text, 1240, iy);
+			sc_csBase(8, 2, sp_st02Cs_npc3_face, 1240, iy);
 			break;
 			
 		case 3:
-			var name = "행인 3"
-			var text = "어휴, 무서워 죽는 줄 알았어요. \n덕분에 마을로 돌아갈 수 있겠네요.";
-			sc_csBase(name, sp_st02Cs_npc2_face, text, 1370, iy);
+			sc_csBase(8, 3, sp_st02Cs_npc2_face, 1370, iy);
 			break;
 			
 		case 4:

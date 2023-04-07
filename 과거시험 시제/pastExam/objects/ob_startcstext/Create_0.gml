@@ -3,7 +3,11 @@
 
 printText = "";
 state = 0;
+textFile = load_csv("opening.csv");
 
+printText = sc_csvToString(textFile, global.lan, imageNum+1);
+
+/*
 switch (imageNum) {
 case 0:	printText = "전국시대의 일본을 통일한 도요토미 히데요시는 \n1592년에 대대적인 조선 침략을 감행한다.";	break;	
 case 1:	printText = "전쟁은 오랬동안 처절하게 이어졌지만, \n결국 많은 이들의 활약으로 조선 팔도를 지켜낼 수 있었다.";	break;	
@@ -25,3 +29,4 @@ case 5:	printText = "Relying on just one bow,";	break;
 case 6:	printText = "The unnamed Sunbi sets out on a journey to Hanyang, \nCapital of Joseon";	break;	
 }
 }
+*/
