@@ -41,9 +41,7 @@ function sc_stage03BossCs1(){
 			
 		case 4:
 			BGM_Play(s_mB03_1, global.volBgm, 0);
-			var name = "악령"
-			var text = "불청객이로군...";
-			sc_csBase(name, sp_cB_face, text, -500, 540);
+			sc_csBase(4, 1, sp_cB_face, -500, 540);
 			break;
 			
 		case 5:

@@ -1,0 +1,41 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_stage04DBCs1Pl",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_csParent","path":"objects/ob_csParent/ob_csParent.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_csParent/ob_csParent.yy",},"value":"st04Cs.csv",},
+  ],
+  "parent": {
+    "name": "stage04Cs",
+    "path": "folders/Objects/csOb/stage04Cs.yy",
+  },
+  "parentObjectId": {
+    "name": "ob_csParent",
+    "path": "objects/ob_csParent/ob_csParent.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
+  "spriteId": {
+    "name": "sp_pl_run",
+    "path": "sprites/sp_pl_run/sp_pl_run.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
+}

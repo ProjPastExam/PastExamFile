@@ -44,9 +44,7 @@ function sc_stage03Cs(){
 			
 		case 5:
 			BGM_Play(s_mCs_normal, global.volBgm, 0);
-			var name = "성춘향"
-			var text = "이 마을은 파손된 건물도 있고, 조금 오싹하네요...?";
-			sc_csBase(name, sp_chun_face_silence, text, hang2, 520);
+			sc_csBase(0, 1, sp_chun_face_silence, hang2, 520);
 			break;
 			
 		case 6:
@@ -58,9 +56,7 @@ function sc_stage03Cs(){
 			break;
 			
 		case 7:
-			var name = "성춘향"
-			var text = "...예, 귀신이 오싹하다는 말을 다 하다니, \n어처구니없으시겠죠";
-			sc_csBase(name, sp_chun_face_embar, text, hang2, 520);
+			sc_csBase(0, 2, sp_chun_face_embar, hang2, 520);
 			break;
 			
 		case 8:
@@ -71,9 +67,7 @@ function sc_stage03Cs(){
 			break;
 			
 		case 9:
-			var name = "착호갑사"
-			var text = "거기, 과거길에 오르시는 중이오?";
-			sc_csBase(name, sp_sold1_face, text, hang1, 540);
+			sc_csBase(0, 3, sp_sold1_face, hang1, 540);
 			break;
 			
 		case 10:
@@ -85,27 +79,19 @@ function sc_stage03Cs(){
 			break;
 			
 		case 11:
-			var name = "착호갑사"
-			var text = "소인은 호환을 막기 위해 임명된 착호갑사로, \n이 마을에 호환이 자주 일어난다고 있다는 소식을 듣고 왔소.";
-			sc_csBase(name, sp_sold1_face, text, hang1, 540);
+			sc_csBase(0, 4, sp_sold1_face, hang1, 540);
 			break;
 			
 		case 12:
-			var name = "착호갑사"
-			var text = "허나 직접 와서 보니, \n단순한 호환 따위가 아니오.";
-			sc_csBase(name, sp_sold1_face, text, hang1, 540);
+			sc_csBase(0, 5, sp_sold1_face, hang1, 540);
 			break;
 			
 		case 13:
-			var name = "착호갑사"
-			var text = "범에게 당한 시체에 창귀가 들러붙어, \n그야말로 시체들이 걸어 다니고 있소.";
-			sc_csBase(name, sp_sold1_face, text, hang1, 540);
+			sc_csBase(0, 6, sp_sold1_face, hang1, 540);
 			break;
 			
 		case 14:
-			var name = "착호갑사"
-			var text = "지금 이 앞은 매우 위험하니, \n지나가지 않는 게 최선이오.";
-			sc_csBase(name, sp_sold1_face, text, hang1, 540);
+			sc_csBase(0, 7, sp_sold1_face, hang1, 540);
 			break;
 			
 		case 15:
