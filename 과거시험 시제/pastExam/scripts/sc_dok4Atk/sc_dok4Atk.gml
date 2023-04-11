@@ -10,6 +10,8 @@ function sc_dok4Atk(){
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
 	
+	isDA = false;	isDK = false;
+	
 	
 	var plX = sc_pl_get("x");
 	if ( state == 10 ) {
@@ -22,15 +24,16 @@ function sc_dok4Atk(){
 		
 	}
 	if ( state == 11 ){
-		sc_mobRun(8, 240, 150, 13, 12, plX, left1, left2, right1, right2);		
+		sc_mobRun(8, 400, 300, 13, 12, plX, left1, left2, right1, right2);		
 	}
 	else if ( state == 12 ) {
 		process++;
 		sprite_index = sp_dok4_atk;
 		xSpeed = 0;
+		isDA = true;	isDK = true;
 		
 		if ( process == 1 ) { SE_Play(s_jp_cAtk, global.vol); }
-		if ( process == 40 ) { 
+		if ( process == 44+lvDly ) { 
 			SE_Play(s_swing_b1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtkTrack);
 			ob.image_xscale = dir;
@@ -39,7 +42,7 @@ function sc_dok4Atk(){
 			ob.ob = id;
 		}
 		
-		if ( process == 115 ) { 
+		if ( process == 100+lvDly ) { 
 			SE_Play(s_swing_b1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
@@ -49,21 +52,21 @@ function sc_dok4Atk(){
 		
 		if ( process < 6 ) { image_index = 0; }
 		else if ( process < 12 ) { image_index = 1; }
-		else if ( process < 36 ) { image_index = 2; }
-		else if ( process < 40 ) { image_index = 3; xSpeed = dir*24; }
-		else if ( process < 44 ) { image_index = 4; xSpeed = dir*24; }
-		else if ( process < 48 ) { image_index = 5; xSpeed = dir*24; }
-		else if ( process < 52 ) { image_index = 6; xSpeed = dir*18; }
-		else if ( process < 56 ) { image_index = 7; xSpeed = dir*12; }
-		else if ( process < 80 ) { image_index = 8; }
-		else if ( process < 86 ) { image_index = 9; xSpeed = dir*3; }
-		else if ( process < 92 ) { image_index = 10; xSpeed = dir*4; }
-		else if ( process < 100 ) { image_index = 11; }
-		else if ( process < 115 ) { image_index = 11; xSpeed = dir*24; }
-		else if ( process < 120 ) { image_index = 12; }
-		else if ( process < 125 ) { image_index = 13; }
-		else if ( process < 123 ) { image_index = 14; }
-		else if ( process < 140 ) { image_index = 15; }
+		else if ( process < 40+lvDly ) { image_index = 2; }
+		else if ( process < 44+lvDly ) { image_index = 3; xSpeed = dir*30; }
+		else if ( process < 48+lvDly ) { image_index = 4; xSpeed = dir*27; }
+		else if ( process < 52+lvDly ) { image_index = 5; xSpeed = dir*24; }
+		else if ( process < 56+lvDly ) { image_index = 6; xSpeed = dir*21; }
+		else if ( process < 60+lvDly ) { image_index = 7; xSpeed = dir*18; }
+		else if ( process < 65+lvDly ) { image_index = 8; }
+		else if ( process < 70+lvDly ) { image_index = 9; xSpeed = dir*6; }
+		else if ( process < 75+lvDly ) { image_index = 10; xSpeed = dir*12; }
+		else if ( process < 85+lvDly ) { image_index = 11; }
+		else if ( process < 100+lvDly ) { image_index = 11; xSpeed = dir*24; }
+		else if ( process < 105+lvDly ) { image_index = 12; }
+		else if ( process < 110+lvDly ) { image_index = 13; }
+		else if ( process < 115+lvDly ) { image_index = 14; }
+		else if ( process < 130+lvDly ) { image_index = 15; }
 		else { state = 10;	process = 0;	delay = random_range(50, 70); }
 	}
 	
@@ -72,8 +75,8 @@ function sc_dok4Atk(){
 		sprite_index = sp_dok4_backstep;
 		
 		if ( process < 4 ) { image_index = 0; }
-		else if ( process < 10 ) { image_index = 1; xSpeed = dir*15*-1; }
-		else if ( process < 14 ) { image_index = 2; xSpeed = dir*5*-1; }
+		else if ( process < 10 ) { image_index = 1; xSpeed = dir*18*-1; }
+		else if ( process < 14 ) { image_index = 2; xSpeed = dir*9*-1; }
 		else if ( process < 18 ) { image_index = 3; }
 		else if ( process < 20 ) { image_index = 4; }
 		else { state = 12;	process = 0;	delay = 0; }

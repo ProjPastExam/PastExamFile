@@ -8,11 +8,11 @@ isTemp = false;
 
 isPace = true;
 
-mobStack = array_create(paceMax, -1);
+mobStack = array_create(paceMax);
 mobNum = array_create(paceMax, -1);
 
 for (var i = 0; i < paceMax; i++) {
-	mobStack[i] = array_create(mobNum[i], -1);
+	mobStack[i] = array_create(mobNum[i], int64(-1));
 }
 
 alarm[0] = 1;

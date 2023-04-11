@@ -6,7 +6,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	if (ob != NULL) {
 		x = ob.x;
 		y = ob.y;
-		if (ob.state == 5 || ob.state == 6 || ob.state == 7 || ob.state == 8 || ob.state == 9) {
+		if (ob.state == 5 || ob.state == 6 || ob.state == 7 || ob.state == 8 || ob.state == 9 || ob.state == -1) {
 			instance_destroy();
 		}
 	}

@@ -115,7 +115,7 @@ function sc_dok3Atk(){
 			SE_Play(s_swing_b1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
-			ob.sprite_index = sp_dok3_atkEf3;
+			ob.sprite_index = sp_dok3_atkEf2;
 		}
 		if ( process < 24 ) { image_index = 0; xSpeed = dir * (process-30)/1.5; }
 		else if ( process < 30 ) { image_index = 0; xSpeed = dir * (process-30)/1.5; }
