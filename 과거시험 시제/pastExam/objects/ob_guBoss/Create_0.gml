@@ -20,6 +20,8 @@ phaseDelay = 10;
 nextState = 12;
 isCounter = false;
 
+spawnIndex	= 0;
+
 standSp		= sp_gu_stand;
 stand2Sp	= sp_gu_stand;
 walkSp		= sp_gu_walk;

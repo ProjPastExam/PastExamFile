@@ -31,7 +31,7 @@ function sc_guBossAtk(){
 		if (nextState == 13) { disIndex1 = 400;		disIndex2 = 300; }
 		if (nextState == 14) { disIndex1 = 1200;	disIndex2 = 600; }
 		if (nextState == 15) { disIndex1 = 800;		disIndex2 = 0; }
-		sc_mobRun(12, disIndex1, disIndex2, 30, 12, plX, left1, left2, right1, right2);
+		sc_mobRun(12, disIndex1, disIndex2, 30, 13, plX, left1, left2, right1, right2);
 	}
 	else if ( state == 12 ) {
 		process++;
@@ -70,7 +70,7 @@ function sc_guBossAtk(){
 	}
 	else if ( state == 13 ) {
 		process++;
-		sprite_index = sp_dokBoss_atk2;
+		sprite_index = sp_gu_atk2;
 		xSpeed = 0;
 		isDF = true;
 		isCounter = 2;
@@ -81,111 +81,81 @@ function sc_guBossAtk(){
 			//audio_play_sound(s_bandit01atk2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
-			ob.sprite_index = sp_dokBoss_atk2Ef1;
-		}
-		
-		if ( process == 96+lvDly ) { 
-			SE_Play(s_jpBoss_atk1_2, global.vol);
-			//audio_play_sound(s_bandit01atk2, 8, false);
-			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
-			ob.image_xscale = dir;
-			ob.sprite_index = sp_dokBoss_atk2Ef2;
+			ob.sprite_index = sp_gu_atk2Ef;
 		}
 		
 		
-		if ( process < 8 )				{ image_index = 0; }
-		else if ( process < 16 )		{ image_index = 1; }
-		else if ( process < 24 )		{ image_index = 2; }
-		else if ( process < 32+lvDly )	{ image_index = 2; xSpeed = 15*dir; }
-		else if ( process < 40+lvDly )	{ image_index = 3; }
-		else if ( process < 48+lvDly )	{ image_index = 4; }
-		else if ( process < 56+lvDly )	{ image_index = 5; }
-		else if ( process < 64+lvDly )	{ image_index = 6; }
-		else if ( process < 72+lvDly )	{ image_index = 7; }
-		else if ( process < 80+lvDly )	{ image_index = 8;	xSpeed = 8*dir; }
-		else if ( process < 88+lvDly )	{ image_index = 9;	xSpeed = 16*dir; }
-		else if ( process < 96+lvDly )	{ image_index = 10; xSpeed = 24*dir; }
-		else if ( process < 104+lvDly )	{ image_index = 11; }
-		else if ( process < 112+lvDly )	{ image_index = 12; }
-		else if ( process < 120+lvDly )	{ image_index = 13; }
-		else if ( process < 130+lvDly )	{ image_index = 14; }
+		if ( process < 6 )				{ image_index = 0; }
+		else if ( process < 12 )		{ image_index = 1; }
+		else if ( process < 18 )		{ image_index = 2; }
+		else if ( process < 30+lvDly )	{ image_index = 3; }
+		else if ( process < 36+lvDly )	{ image_index = 4; }
+		else if ( process < 42+lvDly )	{ image_index = 5; }
+		else if ( process < 48+lvDly )	{ image_index = 6; }
+		else if ( process < 54+lvDly )	{ image_index = 7; }
+		else if ( process < 60+lvDly )	{ image_index = 8; }
+		else if ( process < 66+lvDly )	{ image_index = 9; }
+		else if ( process < 72+lvDly )	{ image_index = 10; }
+		else if ( process < 78+lvDly )	{ image_index = 11; }
+		else if ( process < 84+lvDly )	{ image_index = 12; }
+		else if ( process < 90+lvDly )	{ image_index = 13; }
+		else if ( process < 96+lvDly )	{ image_index = 14; }
+		else if ( process < 110+lvDly )	{ image_index = 15; }
 		else { sc_dokBossNS();	state = 10;	delay = 20;	process = 0; isCounter = 0; }
 	}
 	
 	else if ( state == 14 ) {
 		process++;
-		sprite_index = sp_dokBoss_atk3;
+		sprite_index = sp_gu_atk3;
 		xSpeed = 0;
-		
-		if (process == 1 || process == 101 || process == 161) {
-			if ( x > plX ) dir = -1;
-			else dir = 1;
-			//SE_Play(s_jp_dAtk, global.vol); 
-		}
-		
-		if ( process == 48+lvDly || process == 118+lvDly*2 || process == 178+lvDly*3 ) { 
+
+		if ( process == 36) { 
 			SE_Play(s_jpBoss_atk2, global.vol);
-			var ob = instance_create_layer(plX, y-150, "effect", ob_mobAtkRdy);
+			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
-			ob.sprite_index = sp_dokBoss_atk3Ef1;
-			ob.obCreate = ob_mobAtk2;
-			ob.obSprite = sp_dokBoss_atk3Ef2;
+			ob.sprite_index = sp_gu_atk3Ef;
 		}
 		
 		if ( process < 6 )				{ image_index = 0; }
 		else if ( process < 12 )		{ image_index = 1; }
 		else if ( process < 18 )		{ image_index = 2; }
-		else if ( process < 24 )		{ image_index = 3; }
-		else if ( process < 30 )		{ image_index = 4; }
-		else if ( process < 36 )		{ image_index = 5; }
+		else if ( process < 24 )		{ image_index = 3;	xSpeed = 6*dir; }
+		else if ( process < 30 )		{ image_index = 4;	xSpeed = 12*dir; }
+		else if ( process < 36 )		{ image_index = 5;	xSpeed = 18*dir; }
 		else if ( process < 42 )		{ image_index = 6; }
-		else if ( process < 48+lvDly )	{ image_index = 7; }
-		else if ( process < 54+lvDly )	{ image_index = 8; }
-		else if ( process < 60+lvDly )	{ image_index = 9; }
-		else if ( process < 66+lvDly )	{ image_index = 10; }
-		else if ( process < 72+lvDly )	{ image_index = 11; }
-		else if ( process < 75+lvDly )
-		{
-			if (irandom_range(0, 5) > 4)
-			{
-				sc_dokBossNS();	state = 10;	delay = 80;	process = 0; 
-			}
-			else { 
-				process = 100; 
-				if (abs(plX-x) < 300) { state = 15;	process = 0; }
-			}
-		}
-		else if ( process < 106+lvDly )		{ image_index = 12; }
-		else if ( process < 112+lvDly )		{ image_index = 13; }
-		else if ( process < 118+lvDly*2 )	{ image_index = 14; }
-		else if ( process < 124+lvDly*2 )	{ image_index = 15; }
-		else if ( process < 130+lvDly*2 )	{ image_index = 16; }
-		else if ( process < 136+lvDly*2 )	{ image_index = 17; }
-		else if ( process < 142+lvDly*2 )	{ image_index = 18; }
-		else if ( process < 145+lvDly )
-		{
-			if (irandom_range(0, 5) > 1)
-			{
-				sc_dokBossNS();	state = 10;	delay = 80;	process = 0;
-			}
-			else { 
-				process = 160; 
-				if (abs(plX-x) < 300) { state = 15;	process = 0; }
-			}
-		}
-		else if ( process < 166+lvDly*2 )	{ image_index = 12; }
-		else if ( process < 172+lvDly*2 )	{ image_index = 13; }
-		else if ( process < 178+lvDly*3 )	{ image_index = 14; }
-		else if ( process < 184+lvDly*3 )	{ image_index = 15; }
-		else if ( process < 190+lvDly*3 )	{ image_index = 16; }
-		else if ( process < 196+lvDly*3 )	{ image_index = 17; }
-		else if ( process < 210+lvDly*3 )	{ image_index = 18; }
+		else if ( process < 48 )		{ image_index = 7; }
+		else if ( process < 54 )		{ image_index = 8; }
+		else if ( process < 60 )		{ image_index = 9; }
+		else if ( process < 66 )		{ image_index = 10; }
+		else if ( process < 72 )		{ image_index = 11; }
 		else { sc_dokBossNS();	state = 10;	delay = 80;	process = 0; }
 	}
 	
 	else if ( state == 15 ) {
 		process++;
-		sprite_index = sp_dokBoss_atk4;
+		sprite_index = sp_gu_backstep;
+		var bSpd = 25;
+		//if (nextState == 12)	bSpd = 27;
+		
+		isDK = true;	isDF = true;
+		
+		if (process == 1) {
+			if ( abs(x - plX) < 400 )	 { state = 16;	process = 0;	delay = 0; }
+		}
+		
+		if ( process < 4 ) { image_index = 0; }
+		else if ( process < 8 ) { image_index = 1; xSpeed = dir*bSpd/2; }
+		else if ( process < 16 ) { image_index = 2; xSpeed = dir*bSpd; }
+		else if ( process < 24 ) { image_index = 3; xSpeed = dir*bSpd/2; }
+		else if ( process < 28 ) { image_index = 4; xSpeed = dir*bSpd/3; }
+		else if ( process < 32 ) { image_index = 5; }
+		else if ( process < 36 ) { image_index = 6; }
+		else { state = 16;	process = 20+lvDly;	delay = 0; }
+	}
+	
+	else if ( state == 16 ) {
+		process++;
+		sprite_index = sp_gu_atk4;
 		xSpeed = 0;
 		isDK = true;
 		
@@ -195,34 +165,37 @@ function sc_guBossAtk(){
 			//SE_Play(s_jp_dAtk, global.vol); 
 		}
 		
-		if ( process == 60 ) { 
+		if ( process == 67+lvDly ) { 
 			SE_Play(s_jpBoss_atk2, global.vol);
-			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
+			var ob = instance_create_layer(x, y-20, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
-			ob.sprite_index = sp_dokBoss_atk4Ef;
+			ob.sprite_index = sp_gu_atk4Ef;
 		}
 		
-		if ( process < 5 )				{ image_index = 0; }
-		else if ( process < 10 )		{ image_index = 1; }
-		else if ( process < 15 )		{ image_index = 2; }
-		else if ( process < 20 )		{ image_index = 3; }
-		else if ( process < 25 )		{ image_index = 4; }
-		else if ( process < 30 )		{ image_index = 5; }
-		else if ( process < 35 )		{ image_index = 6; }
-		else if ( process < 40 )		{ image_index = 7; }
-		else if ( process < 45 )		{ image_index = 8; }
-		else if ( process < 50 )		{ image_index = 9; }
-		else if ( process < 55 )		{ image_index = 10; }
-		else if ( process < 60 )		{ image_index = 11; }
+		if ( process < 5+lvDly*0.3 )		{ image_index = 0; }
+		else if ( process < 10+lvDly*0.6 )	{ image_index = 1; }
+		else if ( process < 20+lvDly )		{ image_index = 2; }
+		else if ( process < 25+lvDly )		{ image_index = 3; }
+		else if ( process < 30+lvDly )		{ image_index = 4;	ySpeed = -20; }
+		else if ( process < 36+lvDly )		{ image_index = 5;	ySpeed = -10; }
+		else if ( process < 42+lvDly )		{ image_index = 6;	ySpeed = -5; }
+		else if ( process < 48+lvDly )		{ image_index = 7;	ySpeed = 0; }
+		else if ( process < 54+lvDly )		{ image_index = 8;	ySpeed = 0; }
+		else if ( process < 60+lvDly )		{ image_index = 9;	ySpeed = 0; }
+		else if ( process < 66+lvDly )		{ image_index = 10; ySpeed = 25; }
+		else if ( process < 72+lvDly )		{ image_index = 11; }
+		else if ( process < 78+lvDly )		{ image_index = 12; }
+		else if ( process < 84+lvDly )		{ image_index = 13; }
+		else if ( process < 90+lvDly )		{ image_index = 14; }
 		else { sc_dokBossNS();	state = 10;	delay = 50;	process = 0; }
 	}
 
 	
 	else if ( state == 30 ) {
 		process++;
-		sprite_index = sp_dokBoss_backstep;
-		var bSpd = 15;
-		if (nextState == 12)	bSpd = 27;
+		sprite_index = sp_gu_backstep;
+		var bSpd = 18;
+		//if (nextState == 12)	bSpd = 27;
 		
 		isDK = true;	isDF = true;
 		
@@ -232,10 +205,12 @@ function sc_guBossAtk(){
 		}
 		
 		if ( process < 4 ) { image_index = 0; }
-		else if ( process < 18 ) { image_index = 1; xSpeed = dir*bSpd*-1; }
-		else if ( process < 30 ) { image_index = 2; xSpeed = dir*bSpd*-1/2; }
-		else if ( process < 34 ) { image_index = 3; }
-		else if ( process < 38 ) { image_index = 4; }
+		else if ( process < 8 ) { image_index = 1; xSpeed = dir*bSpd*-1/3; }
+		else if ( process < 18 ) { image_index = 2; xSpeed = dir*bSpd*-1; }
+		else if ( process < 24 ) { image_index = 3; xSpeed = dir*bSpd*-1/2; }
+		else if ( process < 28 ) { image_index = 4; xSpeed = dir*bSpd*-1/3; }
+		else if ( process < 32 ) { image_index = 5; }
+		else if ( process < 36 ) { image_index = 6; }
 		else { state = nextState;	process = 0;	delay = 0; }
 	}
 	
