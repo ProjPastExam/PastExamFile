@@ -31,7 +31,7 @@ function sc_guBossAtk(){
 		if (nextState == 13) { disIndex1 = 400;		disIndex2 = 300; }
 		if (nextState == 14) { disIndex1 = 1200;	disIndex2 = 600; }
 		if (nextState == 15) { disIndex1 = 800;		disIndex2 = 0; }
-		sc_mobRun(12, disIndex1, disIndex2, 30, 13, plX, left1, left2, right1, right2);
+		sc_mobRun(12, disIndex1, disIndex2, 30, 15, plX, left1, left2, right1, right2);
 	}
 	else if ( state == 12 ) {
 		process++;
@@ -133,7 +133,7 @@ function sc_guBossAtk(){
 	
 	else if ( state == 15 ) {
 		process++;
-		sprite_index = sp_gu_backstep;
+		sprite_index = sp_gu_dash;
 		var bSpd = 25;
 		//if (nextState == 12)	bSpd = 27;
 		
@@ -143,13 +143,13 @@ function sc_guBossAtk(){
 			if ( abs(x - plX) < 400 )	 { state = 16;	process = 0;	delay = 0; }
 		}
 		
-		if ( process < 4 ) { image_index = 0; }
-		else if ( process < 8 ) { image_index = 1; xSpeed = dir*bSpd/2; }
-		else if ( process < 16 ) { image_index = 2; xSpeed = dir*bSpd; }
-		else if ( process < 24 ) { image_index = 3; xSpeed = dir*bSpd/2; }
-		else if ( process < 28 ) { image_index = 4; xSpeed = dir*bSpd/3; }
-		else if ( process < 32 ) { image_index = 5; }
-		else if ( process < 36 ) { image_index = 6; }
+		if ( process < 4 ) { image_index = 0;		xSpeed = dir*bSpd/3; }
+		else if ( process < 8 ) { image_index = 1;	xSpeed = dir*bSpd/2; }
+		else if ( process < 12 ) { image_index = 2; xSpeed = dir*bSpd; }
+		else if ( process < 16 ) { image_index = 3; xSpeed = dir*bSpd; }
+		else if ( process < 28 ) { image_index = 4; xSpeed = dir*bSpd; }
+		else if ( process < 32 ) { image_index = 5; xSpeed = dir*bSpd/2; }
+		else if ( process < 36 ) { image_index = 6; xSpeed = dir*bSpd/3; }
 		else { state = 16;	process = 20+lvDly;	delay = 0; }
 	}
 	

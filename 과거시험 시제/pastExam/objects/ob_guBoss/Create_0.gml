@@ -27,4 +27,4 @@ stand2Sp	= sp_gu_stand;
 walkSp		= sp_gu_walk;
 runSp		= sp_gu_run;
 painSp		= sp_gu_pain;
-shockSp		= sp_jpBoss_shock;
+shockSp		= sp_gu_shock;

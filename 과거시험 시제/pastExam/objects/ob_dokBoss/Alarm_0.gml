@@ -18,7 +18,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 			sc_dieJp2();
 			alarm[4] = 320;
 			BGM_Stop(0);
-			
+			image_index = 0;
 			if (global.clearStage == 11) {
 				global.clearStage = 15;
 				VSLS_SetAndSave("clearStage", 15, "saveFile");

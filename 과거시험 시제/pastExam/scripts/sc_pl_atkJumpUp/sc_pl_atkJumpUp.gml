@@ -33,9 +33,9 @@ function sc_pl_atkJumpUp(){
 		sc_pl_skComb();
 	}
 	
-	if ( atkProcess < 8 )		{ image_index = 0; nextAtk = 0; if (isJump) { ySpeed = -6; } }
-	else if ( atkProcess < 12 )	{ image_index = 1; if (isJump) { ySpeed = -12; } }
-	else if ( atkProcess < 16 )	{ image_index = 2; if (isJump) { ySpeed = -6; } }
+	if ( atkProcess < 8 )		{ image_index = 0; nextAtk = 0; if (isJump) { ySpeed = -7; } }
+	else if ( atkProcess < 12 )	{ image_index = 1; if (isJump) { ySpeed = -15; } }
+	else if ( atkProcess < 16 )	{ image_index = 2; if (isJump) { ySpeed = -7; } }
 	else if ( atkProcess < 21 )	{ image_index = 3; }
 	else if ( atkProcess < 35 ) { 
 		if (!isJump)		{ canMove = 0;	atkProcess = -10; }

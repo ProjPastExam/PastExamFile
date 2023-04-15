@@ -40,10 +40,6 @@ function sc_dokBossAtk(){
 		isDK = true;
 		isCounter = 1;
 		
-		if (process == 84+lvDly) {
-			if ( x > plX ) dir = -1;
-			else dir = 1;
-		}
 		
 		//if ( process == 1 ) { SE_Play(s_bandit01atk1, global.vol); }
 		if ( process == 36+lvDly ) { 
@@ -52,11 +48,11 @@ function sc_dokBossAtk(){
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtkTrack);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_dokBoss_atk1Ef1;
-			ob.life = 25;
+			ob.life = 19;
 			ob.ob = id;
 		}
 		
-		if ( process == 114+lvDly ) { 
+		if ( process == 84+lvDly ) { 
 			SE_Play(s_jpBoss_atk1_2, global.vol);
 			//audio_play_sound(s_bandit01atk2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
@@ -71,19 +67,16 @@ function sc_dokBossAtk(){
 		else if ( process < 24 )		{ image_index = 3; }
 		else if ( process < 30 )		{ image_index = 4; }
 		else if ( process < 36+lvDly )	{ image_index = 5; }
-		else if ( process < 60+lvDly )	{ image_index = 6;	xSpeed = 40*dir; }
-		else if ( process < 66+lvDly )	{ image_index = 7; }
-		else if ( process < 72+lvDly )	{ image_index = 8; }
-		else if ( process < 78+lvDly )	{ image_index = 9; }
-		else if ( process < 84+lvDly )	{ image_index = 10 }
-		else if ( process < 90+lvDly )	{ image_index = 11; }
-		else if ( process < 96+lvDly )	{ image_index = 12; }
-		else if ( process < 102+lvDly )	{ image_index = 13;xSpeed = 12*dir; }
-		else if ( process < 114+lvDly )	{ image_index = 14 xSpeed = 24*dir; }
+		else if ( process < 54+lvDly )	{ image_index = 6;	xSpeed = 40*dir; }
+		else if ( process < 60+lvDly )	{ image_index = 7;	xSpeed = 20*dir; }
+		else if ( process < 66+lvDly )	{ image_index = 8;	xSpeed = 20*dir; }
+		else if ( process < 72+lvDly )	{ image_index = 9;	xSpeed = 20*dir; }
+		else if ( process < 78+lvDly )	{ image_index = 10;xSpeed = 20*dir; }
+		else if ( process < 84+lvDly )	{ image_index = 11 xSpeed = 24*dir; }
+		else if ( process < 90+lvDly )	{ image_index = 12; }
+		else if ( process < 96+lvDly )	{ image_index = 13; }
+		else if ( process < 102+lvDly )	{ image_index = 14; }
 		else if ( process < 120+lvDly )	{ image_index = 15; }
-		else if ( process < 126+lvDly )	{ image_index = 16; }
-		else if ( process < 132+lvDly )	{ image_index = 17; }
-		else if ( process < 140+lvDly )	{ image_index = 18; }
 		else { sc_dokBossNS();	state = 10;	delay = 15;	process = 0; isCounter = 0; }
 	}
 	else if ( state == 13 ) {
