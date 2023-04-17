@@ -5,6 +5,7 @@ function sc_globalLoad(){
 	global.volBgm	= VSLS_Get("volBgm");
 	
 	global.lan		= VSLS_Get("lan");
+	global.camUp	= VSLS_Get("camUp");
 	
 	//global.money		= VSLS_Get("money");
 	global.coin			= 0;
@@ -96,6 +97,8 @@ function sc_globalLoad(){
 	
 	global.UIX		= VSLS_Get("UIX");
 	global.UIY		= VSLS_Get("UIY");
+	global.UISkX	= VSLS_Get("UISkX");
+	global.UISkY	= VSLS_Get("UISkY");
 	global.MapX		= VSLS_Get("MapX");
 	global.MapY		= VSLS_Get("MapY");
 	global.comX		= VSLS_Get("comX");

@@ -7,8 +7,9 @@ function sc_setMinimap() {
 	surfMinimapTrap	= -1;
 	surfMinimap = -1;
 	mScale = 10;
-	mw = 480;
-	mh = 210;
+	//480 210
+	mw = 320;
+	mh = 140;
 	mww = room_width/mScale;
 	mwh = room_height/mScale;
 }

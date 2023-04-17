@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if (!surface_exists(mapSurf)) {
-	mapSurf = surface_create(480, 210);
+	mapSurf = surface_create(320, 140);
 	if (global.mapBuffer != -1) {
 		buffer_set_surface(global.mapBuffer, mapSurf, 0);
 	}

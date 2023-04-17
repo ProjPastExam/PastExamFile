@@ -19,6 +19,7 @@ function sc_gameLoad(){
 	if (VSLS_Get("reStory")== undefined)	VSLS_Set("reStory", false);
 	if (VSLS_Get("level")== undefined)		VSLS_Set("level", 0); 
 	if (VSLS_Get("lan")== undefined)		VSLS_Set("lan", -1); 
+	if (VSLS_Get("camUp")== undefined)		VSLS_Set("camUp", 1); 
 	}
 	
 	if (VSLS_Get("testArr")== undefined) {
@@ -78,7 +79,9 @@ function sc_gameLoad(){
 	
 	if (VSLS_Get("UIX") == undefined)		VSLS_Set("UIX", 50);
 	if (VSLS_Get("UIY") == undefined)		VSLS_Set("UIY", 20);
-	if (VSLS_Get("MapX") == undefined)		VSLS_Set("MapX", 1400);
+	if (VSLS_Get("UISkX") == undefined)		VSLS_Set("UISkX", 100);
+	if (VSLS_Get("UISkY") == undefined)		VSLS_Set("UISkY", 205);
+	if (VSLS_Get("MapX") == undefined)		VSLS_Set("MapX", 1560);
 	if (VSLS_Get("MapY") == undefined)		VSLS_Set("MapY", 30);
 	if (VSLS_Get("comX") == undefined)		VSLS_Set("comX", 50);
 	if (VSLS_Get("comY") == undefined)		VSLS_Set("comY", 390);
