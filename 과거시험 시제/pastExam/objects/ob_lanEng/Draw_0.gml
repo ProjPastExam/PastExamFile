@@ -3,7 +3,7 @@
 
 draw_self();
 
-if (settingIndex == 20) {
+if (settingIndex == 22) {
 	draw_sprite(sp_settingSelect, 0, x, y);
 }
 

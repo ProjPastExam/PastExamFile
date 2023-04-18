@@ -2,10 +2,10 @@
 /// @param (optional)intensity
 /// @param (optional)acceleration
 function uc_shake() {
-
+	if (!global.isShake)	return;
 	if (argument_count>=1) var intensity = argument[0];
 	if (argument_count==2) var acc = argument[1];
-
+	
 	/*
 		With this function you can make the screen shake. The intensity and the acceleration of the shake can be specified.
 	

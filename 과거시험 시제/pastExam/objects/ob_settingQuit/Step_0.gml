@@ -3,7 +3,7 @@
 with (ob_settingControl) { other.settingIndex = settingIndex; }
 state = false;
 image_index = global.lan;
-if (settingIndex == 25) {
+if (settingIndex == 27) {
 	state = true;
 	if (sc_getKey(global.btInter, gp_face4, 0)) {
 		global.gameEnd = true;

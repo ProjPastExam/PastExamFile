@@ -6,6 +6,7 @@ function sc_globalLoad(){
 	
 	global.lan		= VSLS_Get("lan");
 	global.camUp	= VSLS_Get("camUp");
+	global.isShake	= VSLS_Get("isShake");
 	
 	//global.money		= VSLS_Get("money");
 	global.coin			= 0;

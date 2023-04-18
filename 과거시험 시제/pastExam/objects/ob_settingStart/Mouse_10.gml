@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 
-with (ob_settingControl) { settingIndex = 24; }
+with (ob_settingControl) { settingIndex = 26; }

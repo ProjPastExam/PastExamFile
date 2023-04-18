@@ -12,7 +12,7 @@ with (ob_settingControl) {
 	other.settingIndex = settingIndex;
 }
 
-if (settingIndex == 20 && sc_getKey(global.btInter, gp_face4, 0)) {
+if (settingIndex == 22 && sc_getKey(global.btInter, gp_face4, 0)) {
 	if (global.lan != 1) {
 		global.lan	= 1;
 		VSLS_SetAndSave("lan", 1, "saveFile");

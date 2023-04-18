@@ -3,7 +3,7 @@
 with (ob_settingControl) { other.settingIndex = settingIndex; }
 state = false;
 image_index = global.lan;
-if (settingIndex == 24) {
+if (settingIndex == 26) {
 	state = true;
 	if (sc_getKey(global.btInter, gp_face4, 0)) {
 		room_goto(global.roomBuffer);
