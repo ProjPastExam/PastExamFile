@@ -1996,6 +1996,7 @@
     {"name":"uc_get_view_scale_acceleration","order":4,"path":"scripts/uc_get_view_scale_acceleration/uc_get_view_scale_acceleration.yy",},
     {"name":"sp_demoGameInfo","order":6,"path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},
     {"name":"sc_pl_keyCheck","order":2,"path":"scripts/sc_pl_keyCheck/sc_pl_keyCheck.yy",},
+    {"name":"sp_uiOutline","order":19,"path":"sprites/sp_uiOutline/sp_uiOutline.yy",},
     {"name":"sp_ItemInfo_66","order":14,"path":"sprites/sp_ItemInfo_66/sp_ItemInfo_66.yy",},
     {"name":"sp_civil02_run","order":3,"path":"sprites/sp_civil02_run/sp_civil02_run.yy",},
     {"name":"r_stage03Cs","order":5,"path":"rooms/r_stage03Cs/r_stage03Cs.yy",},

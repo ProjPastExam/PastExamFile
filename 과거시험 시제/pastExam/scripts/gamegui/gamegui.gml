@@ -1,6 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_gameGUI(){
+	draw_sprite(sp_uiOutline, 0, 0, 0);
+	
 	var GUIX = global.UIX;
 	var GUIY = global.UIY;
 	var GUISX = global.UISkX;

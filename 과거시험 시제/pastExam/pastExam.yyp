@@ -2247,6 +2247,7 @@
     {"id":{"name":"uc_get_view_scale_acceleration","path":"scripts/uc_get_view_scale_acceleration/uc_get_view_scale_acceleration.yy",},},
     {"id":{"name":"sp_demoGameInfo","path":"sprites/sp_demoGameInfo/sp_demoGameInfo.yy",},},
     {"id":{"name":"sc_pl_keyCheck","path":"scripts/sc_pl_keyCheck/sc_pl_keyCheck.yy",},},
+    {"id":{"name":"sp_uiOutline","path":"sprites/sp_uiOutline/sp_uiOutline.yy",},},
     {"id":{"name":"sp_ItemInfo_66","path":"sprites/sp_ItemInfo_66/sp_ItemInfo_66.yy",},},
     {"id":{"name":"sp_civil02_run","path":"sprites/sp_civil02_run/sp_civil02_run.yy",},},
     {"id":{"name":"r_stage03Cs","path":"rooms/r_stage03Cs/r_stage03Cs.yy",},},
