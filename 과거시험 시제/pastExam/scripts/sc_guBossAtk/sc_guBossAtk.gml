@@ -31,7 +31,7 @@ function sc_guBossAtk(){
 		if (nextState == 13) { disIndex1 = 400;		disIndex2 = 300; }
 		if (nextState == 14) { disIndex1 = 1200;	disIndex2 = 600; }
 		if (nextState == 15) { disIndex1 = 800;		disIndex2 = 0; }
-		sc_mobRun(12, disIndex1, disIndex2, 30, 15, plX, left1, left2, right1, right2);
+		sc_mobRun(12, disIndex1, disIndex2, 30, nextState, plX, left1, left2, right1, right2);
 	}
 	else if ( state == 12 ) {
 		process++;
@@ -66,7 +66,7 @@ function sc_guBossAtk(){
 		else if ( process < 54+lvDly )		{ image_index = 8; }
 		else if ( process < 60+lvDly )		{ image_index = 9; }
 		else if ( process < 72+lvDly )		{ image_index = 10 }
-		else { sc_dokBossNS();	state = 10;	delay = 50;	process = 0; isCounter = 0; }
+		else { sc_guBossNS();	state = 10;	delay = 50;	process = 0; isCounter = 0; }
 	}
 	else if ( state == 13 ) {
 		process++;
@@ -101,7 +101,7 @@ function sc_guBossAtk(){
 		else if ( process < 90+lvDly )	{ image_index = 13; }
 		else if ( process < 96+lvDly )	{ image_index = 14; }
 		else if ( process < 110+lvDly )	{ image_index = 15; }
-		else { sc_dokBossNS();	state = 10;	delay = 20;	process = 0; isCounter = 0; }
+		else { sc_guBossNS();	state = 10;	delay = 20;	process = 0; isCounter = 0; }
 	}
 	
 	else if ( state == 14 ) {
@@ -128,7 +128,7 @@ function sc_guBossAtk(){
 		else if ( process < 60 )		{ image_index = 9; }
 		else if ( process < 66 )		{ image_index = 10; }
 		else if ( process < 72 )		{ image_index = 11; }
-		else { sc_dokBossNS();	state = 10;	delay = 80;	process = 0; }
+		else { sc_guBossNS();	state = 10;	delay = 80;	process = 0; }
 	}
 	
 	else if ( state == 15 ) {
@@ -187,7 +187,7 @@ function sc_guBossAtk(){
 		else if ( process < 78+lvDly )		{ image_index = 12; }
 		else if ( process < 84+lvDly )		{ image_index = 13; }
 		else if ( process < 90+lvDly )		{ image_index = 14; }
-		else { sc_dokBossNS();	state = 10;	delay = 50;	process = 0; }
+		else { sc_guBossNS();	state = 10;	delay = 50;	process = 0; }
 	}
 
 	
@@ -310,7 +310,7 @@ function sc_guBossAtk(){
 			process = 0;
 		}
 		if (kbIndex == 1) {
-			sc_dokBossNS(nextState);
+			sc_guBossNS(nextState);
 			if (isStun) {
 				isStun = false;
 				state = 9;
@@ -321,7 +321,7 @@ function sc_guBossAtk(){
 	}
 	
 	else if ( state == 9 ) {
-		sc_dokBossNS(nextState);
+		sc_guBossNS(nextState);
 	}
 }
 
