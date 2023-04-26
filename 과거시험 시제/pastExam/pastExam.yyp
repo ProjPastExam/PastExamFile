@@ -2050,6 +2050,7 @@
     {"id":{"name":"sp_demoUnpause","path":"sprites/sp_demoUnpause/sp_demoUnpause.yy",},},
     {"id":{"name":"ob_demoUnpause","path":"objects/ob_demoUnpause/ob_demoUnpause.yy",},},
     {"id":{"name":"sp_hitEffect_counterF","path":"sprites/sp_hitEffect_counterF/sp_hitEffect_counterF.yy",},},
+    {"id":{"name":"sp_st06_back1","path":"sprites/sp_st06_back1/sp_st06_back1.yy",},},
     {"id":{"name":"sp_settingKeyTitle","path":"sprites/sp_settingKeyTitle/sp_settingKeyTitle.yy",},},
     {"id":{"name":"sp_jpMb_pain","path":"sprites/sp_jpMb_pain/sp_jpMb_pain.yy",},},
     {"id":{"name":"sp_pl_standPeace","path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},},

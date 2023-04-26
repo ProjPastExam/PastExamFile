@@ -1817,6 +1817,7 @@
     {"name":"sp_demoUnpause","order":15,"path":"sprites/sp_demoUnpause/sp_demoUnpause.yy",},
     {"name":"ob_demoUnpause","order":14,"path":"objects/ob_demoUnpause/ob_demoUnpause.yy",},
     {"name":"sp_hitEffect_counterF","order":9,"path":"sprites/sp_hitEffect_counterF/sp_hitEffect_counterF.yy",},
+    {"name":"sp_st06_back1","order":6,"path":"sprites/sp_st06_back1/sp_st06_back1.yy",},
     {"name":"sp_settingKeyTitle","order":2,"path":"sprites/sp_settingKeyTitle/sp_settingKeyTitle.yy",},
     {"name":"sp_jpMb_pain","order":4,"path":"sprites/sp_jpMb_pain/sp_jpMb_pain.yy",},
     {"name":"sp_pl_standPeace","order":14,"path":"sprites/sp_pl_standPeace/sp_pl_standPeace.yy",},
