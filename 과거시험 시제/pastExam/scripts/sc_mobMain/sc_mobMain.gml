@@ -13,15 +13,20 @@ function sc_mobMain(){
 			//var plX = sc_pl_get("x");
 			//if (x > plX) dir = -1;
 			//else dir = 1;
-			var moneyDropVar = int64(moneyDrop * (100 + irandom_range(0, 40)) / 100);
+			moneyDropVar = int64(moneyDrop * (100 + irandom_range(0, 40)) / 100);
 			
 			global.money += moneyDropVar;
 			global.moneyBuffer += moneyDropVar;
+			with (instance_create_layer(x, bbox_bottom, "effect", ob_moneySpawn))
+			{
+				moneyIndex = other.moneyDropVar;
+			}
 			
 			if (global.clearStage >= 5) {
 				global.abSoul += int64(moneyDropVar/5) + global.level;
 				VSLS_SetAndSave("abSoul", global.abSoul, "saveFile");
 			}
+			
 			
 			if (global.ranStage2 == 1 && global.hp < 9) {
 				global.hp++;	

@@ -182,4 +182,23 @@ global.mobCtEf = part_type_create();
 
 part_type_sprite(global.mobCtEf, sp_hitEffect_critical, true, 1, false);
 part_type_life(global.mobCtEf, 15, 15);
+
+
+
+//돈
+global.moneyEf = array_create(8);
+
+for (var i = 0; i < 8; i++)
+{
+	global.moneyEf[i] = part_type_create();
+	part_type_life(global.moneyEf[i], 60, 60);
+}
+part_type_sprite(global.moneyEf[0], sp_money1, true, 1, false);
+part_type_sprite(global.moneyEf[1], sp_money2, true, 1, false);
+part_type_sprite(global.moneyEf[2], sp_money3, true, 1, false);
+part_type_sprite(global.moneyEf[3], sp_money4, true, 1, false);
+part_type_sprite(global.moneyEf[4], sp_money5, true, 1, false);
+part_type_sprite(global.moneyEf[5], sp_money6, true, 1, false);
+part_type_sprite(global.moneyEf[6], sp_money7, true, 1, false);
+part_type_sprite(global.moneyEf[7], sp_money8, true, 1, false);
 }

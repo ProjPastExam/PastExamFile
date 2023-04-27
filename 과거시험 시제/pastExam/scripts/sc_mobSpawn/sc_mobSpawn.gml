@@ -28,6 +28,7 @@ function sc_mobSpawn(){
 	hitLot		= 0;
 	
 	isDie		= false;
+	isMoney		= false;
 	
 	atkDot		= 0;
 	kickDot		= 0;

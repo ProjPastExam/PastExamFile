@@ -4,7 +4,7 @@
   "name": "sp_tree01",
   "bbox_bottom": 959,
   "bbox_left": 3,
-  "bbox_right": 959,
+  "bbox_right": 947,
   "bbox_top": 63,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"261c0c9f-d8e1-4957-8e83-146c82de9629",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3d55288d-e2f4-4a42-b8d6-ea9b72bc70c5",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 960,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d425abf9-afab-42b2-8f55-c0f27d2a3853","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"87af6626-488f-4909-baf4-89e7f3d679d4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"261c0c9f-d8e1-4957-8e83-146c82de9629","path":"sprites/sp_tree01/sp_tree01.yy",},},},"Disabled":false,"id":"aff3dc08-e55f-430f-b320-38e3ca6253d4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3d55288d-e2f4-4a42-b8d6-ea9b72bc70c5","path":"sprites/sp_tree01/sp_tree01.yy",},},},"Disabled":false,"id":"006a9be3-af66-4fef-9813-130efba14305","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
