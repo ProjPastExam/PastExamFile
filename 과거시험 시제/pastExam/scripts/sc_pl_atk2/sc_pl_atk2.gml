@@ -5,7 +5,7 @@ function sc_pl_atk2(){
 	if (!isJump) xSpeed = 0;
 	var atk;
 	image_xscale = dir;
-	if (isSin && global.comCt >= (20 - isSin*5)) {
+	if (isSin) {
 		canMove = 21;
 	}
 

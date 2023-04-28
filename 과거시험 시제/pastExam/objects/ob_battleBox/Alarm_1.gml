@@ -29,7 +29,7 @@ for (var i = 0; i < mobNum[pace]; i++) {
 			tempX = x-cX-200;
 		}
 		
-		var mob = instance_create_layer(tempX, bbox_bottom - 300, "Instances", mobStack[pace][i])
+		var mob = instance_create_layer(tempX, bbox_bottom - spawnY, "Instances", mobStack[pace][i])
 		mob.state = 10;
 		mob.ad = true;
 		mob.delay = 50

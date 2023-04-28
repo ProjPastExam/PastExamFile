@@ -39,13 +39,16 @@ function sc_mobHit(mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance,
 	if (hitKind == 10) hitKind = 1;
 	if (hitKind == 11 || hitKind == 12) hitKind = 2;
 	
-	var ctRange = irandom_range(0, 99);
 	var isCt = false;
-	var ctAdd = ctChance;
-	if (global.item10)	{ ctAdd += (global.item10) * ctChance * 0.5; }
-	if (global.item66)	{ ctAdd += global.item66*ctChance*0.5*global.comCt/100; }
-	ctChance = ctAdd;
-	if (ctRange < ctChance) isCt = true;
+	if (ctChance != -1)
+	{
+		var ctRange = irandom_range(0, 99);
+		var ctAdd = ctChance;
+		if (global.item10)	{ ctAdd += (global.item10) * ctChance * 0.5; }
+		if (global.item66)	{ ctAdd += global.item66*ctChance*0.5*global.comCt/100; }
+		ctChance = ctAdd;
+		if (ctRange < ctChance) isCt = true;
+	}
 	
 	var calDmg = sc_mobDmg(dmg, pene);
 	if (isCt) {

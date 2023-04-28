@@ -31,7 +31,7 @@ function sc_sinBossAtk(){
 		if (nextState == 13) { disIndex1 = 400;		disIndex2 = 300; }
 		if (nextState == 14) { disIndex1 = 1200;	disIndex2 = 600; }
 		if (nextState == 15) { disIndex1 = 800;		disIndex2 = 0; }
-		sc_mobRun(12, disIndex1, disIndex2, 30, 12, plX, left1, left2, right1, right2);
+		sc_mobRun(12, disIndex1, disIndex2, 30, nextState, plX, left1, left2, right1, right2);
 	}
 	else if ( state == 12 ) {
 		process++;
@@ -62,7 +62,7 @@ function sc_sinBossAtk(){
 		else if ( process < 36+lvDly )		{ image_index = 3;	xSpeed = 12*dir; }
 		else if ( process < 42+lvDly )		{ image_index = 4;	xSpeed = 12*dir; }
 		else if ( process < 48+lvDly )		{ image_index = 5; }
-		else { sc_dokBossNS();	state = 13;	process = 0; isCounter = 0; }
+		else { sc_sinBossNS();	state = 13;	process = 0; isCounter = 0; }
 	}
 	else if ( state == 13 ) {
 		process++;
@@ -91,7 +91,7 @@ function sc_sinBossAtk(){
 		else if ( process < 24 )		{ image_index = 7;	xSpeed = 24*dir; }
 		else if ( process < 30 )		{ image_index = 8; }
 		else if ( process < 36 )		{ image_index = 9; }
-		else { sc_dokBossNS();	state = 14;	process = 0; isCounter = 0; }
+		else { sc_sinBossNS();	state = 14;	process = 0; isCounter = 0; }
 	}
 	
 	else if ( state == 14 ) {
@@ -122,7 +122,7 @@ function sc_sinBossAtk(){
 		else if ( process < 18 )		{ image_index = 11;	xSpeed = 24*dir; }
 		else if ( process < 24 )		{ image_index = 12; }
 		else if ( process < 30 )		{ image_index = 13; }
-		else { sc_dokBossNS();	state = 15;	process = 0; isCounter = 0; }
+		else { sc_sinBossNS();	state = 15;	process = 0; isCounter = 0; }
 	}
 	
 	else if ( state == 15 ) {
@@ -154,7 +154,7 @@ function sc_sinBossAtk(){
 		else if ( process < 24 )		{ image_index = 17; }
 		else if ( process < 30 )		{ image_index = 18; }
 		else if ( process < 48 )		{ image_index = 19; }
-		else { sc_dokBossNS();	state = 10;	delay = 50;	process = 0; isCounter = 0; }
+		else { sc_sinBossNS();	state = 10;	delay = 50;	process = 0; isCounter = 0; }
 	}
 	
 	else if ( state == 20 ) {
@@ -199,7 +199,7 @@ function sc_sinBossAtk(){
 		else if ( process < 90+lvDly )		{ image_index = 12; }
 		else if ( process < 96+lvDly )		{ image_index = 13; }
 		else if ( process < 120+lvDly )		{ image_index = 14; }
-		else { sc_dokBossNS();	state = 10;	delay = 50;	process = 0;	isCounter = 0; }
+		else { sc_sinBossNS();	state = 10;	delay = 50;	process = 0;	isCounter = 0; }
 	}
 	
 	else if ( state == 21 ) {
@@ -245,7 +245,7 @@ function sc_sinBossAtk(){
 		else if ( process < 90+lvDly )		{ image_index = 11; }
 		else if ( process < 96+lvDly )		{ image_index = 12; }
 		else if ( process < 120+lvDly )		{ image_index = 13; }
-		else { sc_dokBossNS();	state = 10;	delay = 50;	process = 0;	isCounter = 0; }
+		else { sc_sinBossNS();	state = 10;	delay = 50;	process = 0;	isCounter = 0; }
 	}
 	
 	else if ( state == 22 ) {
@@ -291,7 +291,7 @@ function sc_sinBossAtk(){
 		else if ( process < 48 )		{ image_index = 4; }
 		else if ( process < 54 )		{ image_index = 5; }
 		else if ( process < 60 )		{ image_index = 6; }
-		else { sc_dokBossNS();	state = 21;	process = 0; }
+		else { sc_sinBossNS();	state = 21;	process = 0; }
 	}
 	
 	else if ( state == 30 ) {
@@ -423,17 +423,19 @@ function sc_sinBossAtk(){
 
 function sc_sinBossNS(nState = nextState) {
 	var rIndex = irandom_range(0, 10);
-	if (nState == 12)
+	if (nState == 12 || nState == 13 || nState == 14 || nState == 15)
 	{
-		if (rIndex < 2)			nextState = 12;
-		else if (rIndex < 6)	nextState = 13;
-		else					nextState = 14;
+		if (rIndex < 2)			nextState = 13;
+		else if (rIndex < 4)	nextState = 14;
+		else if (rIndex < 8)	nextState = 20;
+		else					nextState = 20;
 	}
-	else if (nState == 13)
+	else if (nState == 20)
 	{
-		if (rIndex < 5)			nextState = 12;
-		else if (rIndex < 7)	nextState = 13;
-		else					nextState = 14;
+		if (rIndex < 3)			nextState = 12;
+		else if (rIndex < 7)	nextState = 22;
+		else if (rIndex < 9)	nextState = 20;
+		else					nextState = 20;
 	}
 	else 
 	{

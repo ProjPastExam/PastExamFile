@@ -20,16 +20,11 @@ function sc_pl_item0(){
 	
 	if ( atkProcess == 26 ) {
 		atk = instance_create_layer(x, y, "effect", ob_sinEf01);
-		//atk.damage = 10;
-		//atk.shock = 10;
-		//atk.pene = 0;
-		//atk.hitAfter = 15;
 		atk.grade = isSin;
 		atk.image_xscale = dir;
 		atk.dir = dir;
 		SE_Play(s_arrow02, global.vol);
-		//audio_play_sound(s_arrow02, 5, false);
-		global.comCt -= (20 - isSin*5);
+		//global.comCt -= (20 - isSin*5);
 	}
 	
 	//대쉬 제어
