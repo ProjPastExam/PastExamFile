@@ -5,8 +5,8 @@ function sc_stage04DBCs1(){
 	var isT = ob_roomControl.isTalk;
 	if (state == 12) x = x + 8;
 	
-	var ii = 600;
-	var iy = 600;
+	var ii = 620;
+	var iy = 680;
 	
 	var dx = 384;
 	var dy = 580;

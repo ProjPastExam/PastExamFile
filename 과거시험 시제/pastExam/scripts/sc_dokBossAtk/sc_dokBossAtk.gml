@@ -69,10 +69,10 @@ function sc_dokBossAtk(){
 		else if ( process < 36+lvDly )	{ image_index = 5; }
 		else if ( process < 54+lvDly )	{ image_index = 6;	xSpeed = 40*dir; }
 		else if ( process < 60+lvDly )	{ image_index = 7;	xSpeed = 20*dir; }
-		else if ( process < 66+lvDly )	{ image_index = 8;	xSpeed = 20*dir; }
-		else if ( process < 72+lvDly )	{ image_index = 9;	xSpeed = 20*dir; }
-		else if ( process < 78+lvDly )	{ image_index = 10;xSpeed = 20*dir; }
-		else if ( process < 84+lvDly )	{ image_index = 11 xSpeed = 24*dir; }
+		else if ( process < 66+lvDly )	{ image_index = 8;	xSpeed = 15*dir; }
+		else if ( process < 72+lvDly )	{ image_index = 9;	xSpeed = 10*dir; }
+		else if ( process < 78+lvDly )	{ image_index = 10;	xSpeed = 15*dir; }
+		else if ( process < 84+lvDly )	{ image_index = 11;	xSpeed = 24*dir; }
 		else if ( process < 90+lvDly )	{ image_index = 12; }
 		else if ( process < 96+lvDly )	{ image_index = 13; }
 		else if ( process < 102+lvDly )	{ image_index = 14; }

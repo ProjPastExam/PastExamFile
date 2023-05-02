@@ -1,10 +1,14 @@
-신기전
+Singijeon
 
-연타 수치를 15 소모해
-마무리 공격으로
-3개의 화살 대신
-5배율의 화약 피해를
-주는 신기전을 발사한다.
+As a finish attack, 
+fires a Shingijeon 
+that deals x3 
+fire damage
+
+This attack is 
+not affected by 
+critical hits 
+or combo damage.
 
 
 Saltpeter
@@ -14,13 +18,12 @@ of Fire attacks
 by 15%.
 
 
-불화살
 
-화살 속성의 일반 공격이
-1배율의 화약 피해를
-주는 불화살 사격으로
-변경된다.
+Flame Arrow
 
-불화살 사격은 거리에
-따라 공격력이 감소하며,
-경직 저항을 깰 수 없다.
+Changes the Basic attack
+to deal x1 fire damage
+
+This attack's damage
+decrease as the distance,
+and cannot break SuperArmor.
