@@ -325,7 +325,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"uc_set_window_size","path":"scripts/uc_set_window_size/uc_set_window_size.yy",},},
