@@ -3,8 +3,9 @@
 //window_set_fullscreen(true);
 sc_gameLoad();
 
-global.screenX = window_get_width();
-global.screenY = window_get_height();
+global.screenX = display_get_width();
+global.screenY = display_get_height();
+
 instance_create_depth(0, 0, 0, Camera);
 
 //불러오기 전역
@@ -13,7 +14,12 @@ instance_create_depth(0, 0, 0, Camera);
 }
 //global.fullScreen = false;
 window_set_fullscreen(global.fullScreen);
-window_set_size(global.screenX, global.screenY);
+if (global.fullScreen)
+{
+	//window_set_showborder(!global.fullScreen);
+	//window_set_size(global.screenX, global.screenY);
+	//window_set_position(0, 0);
+}
 surface_resize(application_surface, 1920, 1080);
 
 display_mouse_set(0, 0);
