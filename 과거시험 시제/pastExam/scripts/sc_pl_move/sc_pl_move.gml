@@ -11,8 +11,8 @@ function sc_pl_move() {
 	if (global.skKul[2] > 0) global.skKul[2]--;
 	
 	//무적프래임 설정
-	isImort = false;
-	if ((dProcess >= 0 && dProcess <= 10)) isImort = true;
+	//isImort = false;
+	//if ((dProcess >= 0 && dProcess <= 10)) isImort = true;
 	
 	//아이템 버프 시간 설정
 	if (dmgBuffT > -1) dmgBuffT--;

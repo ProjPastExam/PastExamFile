@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sp_chun_stand",
-  "bbox_bottom": 360,
+  "bbox_bottom": 440,
   "bbox_left": 170,
   "bbox_right": 400,
   "bbox_top": 220,

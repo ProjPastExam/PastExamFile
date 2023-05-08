@@ -19,6 +19,7 @@ function sc_pl_sk141(){
 
 	if ( atkProcess == 1 ) {
 		SE_Play(s_dash01, global.vol);
+		sc_hitAfter(50);
 	}
 	
 	if ( atkProcess == 14 ) {
@@ -32,10 +33,7 @@ function sc_pl_sk141(){
 	if ( (atkProcess > 16 ) ) {
 		sc_pl_atkDnJ();
 	}
-	if ( atkProcess < 22 ) {
-		isImort = true;
-	}
-	
+
 	
 	
 	if ( atkProcess < 3 )		{ image_index = 0; nextAtk = 0; xSpeed = dir * 8; }

@@ -14,6 +14,10 @@ function sc_pl_dash(){
 	}
 	//if ( !isDash ) { canMove = 0; dProcess = -1; return; }
 	
+	if ( dProcess == 1) {
+		sc_hitAfter(10);
+	}
+	
 	if ( dProcess == 4 && global.item12) {
 		var kDmg = sc_pl_kickDmg()/2;
 		var kt = 0;

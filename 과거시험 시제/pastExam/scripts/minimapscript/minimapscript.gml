@@ -62,9 +62,19 @@ function sc_initMinimapEntity() {
 			if (hp > 0) draw_sprite_ext(sp_mapIconMob, 0, x/mScale, bbox_bottom/mScale, 1, 1, 0.0, c_white, 1.0);
 		}
 		
+		with (ob_boxBase) {
+			var mScale = other.mScale;
+			draw_sprite_ext(sp_mapIconBox, 0, x/mScale, bbox_bottom/mScale, 1, 1, 0.0, c_white, 1.0);
+		}
+		
+		with (ob_npcBase) {
+			var mScale = other.mScale;
+			draw_sprite_ext(sp_mapIconNPC, 0, x/mScale, bbox_bottom/mScale, 1, 1, 0.0, c_white, 1.0);
+		}
+		
 		with (ob_player) {
 			var mScale = other.mScale;
-			draw_sprite_ext(sp_mapIcon, 0, x/mScale, y/mScale, 0.5, 0.5, 0.0, c_green, 1.0);
+			draw_sprite_ext(sp_mapIcon, 0, x/mScale, bbox_bottom/mScale, 1, 1, 0.0, c_white, 1.0);
 		}
 	surface_reset_target();
 }
