@@ -14,12 +14,12 @@ if ( hitAfter == 0 ) {
 
 	if ( dir == -1 )	{
 		part_type_direction( global.hitEf01T, 135, 205, 0, 0 );
-		hitDir = -1;
+		//hitDir = -1;
 		//dir = 1;
 	}
 	else			{
 		part_type_direction( global.hitEf01T, -25, 45, 0, 0 );
-		hitDir = 1;
+		//hitDir = 1;
 		//dir = -1;
 	}
 	part_type_color3(global.hitEf01T, c_white, c_yellow, c_black);

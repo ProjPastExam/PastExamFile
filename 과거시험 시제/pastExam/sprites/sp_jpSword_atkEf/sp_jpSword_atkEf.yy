@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sp_jpSword_atkEf",
-  "bbox_bottom": 308,
+  "bbox_bottom": 323,
   "bbox_left": 72,
-  "bbox_right": 326,
-  "bbox_top": 54,
+  "bbox_right": 329,
+  "bbox_top": 42,
   "bboxMode": 0,
   "collisionKind": 4,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c5e80bc2-06bb-4d56-9d90-a619055feda1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6ca0ea3a-3fa9-4f5b-8226-10132e50a4ae",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 384,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"71ee6960-07a0-4310-b8ef-e8132290ab7b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2ff582e6-4374-4d63-bd23-8e3c8c249a8b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -67,7 +67,7 @@
     "eventStubScript": null,
     "eventToFunction": {},
     "length": 1.0,
-    "lockOrigin": false,
+    "lockOrigin": true,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c5e80bc2-06bb-4d56-9d90-a619055feda1","path":"sprites/sp_jpSword_atkEf/sp_jpSword_atkEf.yy",},},},"Disabled":false,"id":"7a3a72a2-6679-4e8f-93ae-69725437a71f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6ca0ea3a-3fa9-4f5b-8226-10132e50a4ae","path":"sprites/sp_jpSword_atkEf/sp_jpSword_atkEf.yy",},},},"Disabled":false,"id":"3991884e-79e4-4f86-84cd-e925cf582c1c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
