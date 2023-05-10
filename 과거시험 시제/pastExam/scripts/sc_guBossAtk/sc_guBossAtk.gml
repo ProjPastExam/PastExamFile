@@ -26,24 +26,18 @@ function sc_guBossAtk(){
 	}
 	else if ( state == 11 ){
 		//if ( nextState == 20 )	sc_jpBossRdy();
-		var disIndex1 = 800;
-		var disIndex2 = 600;
-		if (nextState == 13) { disIndex1 = 400;		disIndex2 = 300; }
-		if (nextState == 14) { disIndex1 = 1200;	disIndex2 = 600; }
+		var disIndex1 = 600;
+		var disIndex2 = 300;
+		if (nextState == 13) { disIndex1 = 600;		disIndex2 = 300; }
+		if (nextState == 14) { disIndex1 = 400;	disIndex2 = 400; }
 		if (nextState == 15) { disIndex1 = 800;		disIndex2 = 0; }
 		sc_mobRun(12, disIndex1, disIndex2, 30, nextState, plX, left1, left2, right1, right2);
 	}
 	else if ( state == 12 ) {
+		
 		process++;
 		sprite_index = sp_gu_atk1;
 		xSpeed = 0;
-		isDK = true;
-		isCounter = 1;
-		
-		if (process == 84+lvDly) {
-			if ( x > plX ) dir = -1;
-			else dir = 1;
-		}
 		
 		//if ( process == 1 ) { SE_Play(s_bandit01atk1, global.vol); }
 		if ( process == 36+lvDly ) { 
@@ -66,14 +60,14 @@ function sc_guBossAtk(){
 		else if ( process < 54+lvDly )		{ image_index = 8; }
 		else if ( process < 60+lvDly )		{ image_index = 9; }
 		else if ( process < 72+lvDly )		{ image_index = 10 }
-		else { sc_guBossNS();	state = 10;	delay = 50;	process = 0; isCounter = 0; }
+		else { state = 10;	delay = 20;	process = 0; sc_guBossNS(); }
 	}
 	else if ( state == 13 ) {
 		process++;
 		sprite_index = sp_gu_atk2;
 		xSpeed = 0;
-		isDF = true;
-		isCounter = 2;
+		//isDF = true;
+		//isCounter = 1;
 		
 		//if ( process == 1 ) { SE_Play(s_bandit01atk1, global.vol); }
 		if ( process == 40+lvDly ) { 
@@ -101,13 +95,15 @@ function sc_guBossAtk(){
 		else if ( process < 90+lvDly )	{ image_index = 13; }
 		else if ( process < 96+lvDly )	{ image_index = 14; }
 		else if ( process < 110+lvDly )	{ image_index = 15; }
-		else { sc_guBossNS();	state = 10;	delay = 20;	process = 0; isCounter = 0; }
+		else { state = 10;	delay = 20;	process = 0; sc_guBossNS(); }
 	}
 	
 	else if ( state == 14 ) {
 		process++;
 		sprite_index = sp_gu_atk3;
 		xSpeed = 0;
+		isDF = true;
+		isCounter = 1;
 
 		if ( process == 36) { 
 			SE_Play(s_jpBoss_atk2, global.vol);
@@ -128,7 +124,7 @@ function sc_guBossAtk(){
 		else if ( process < 60 )		{ image_index = 9; }
 		else if ( process < 66 )		{ image_index = 10; }
 		else if ( process < 72 )		{ image_index = 11; }
-		else { sc_guBossNS();	state = 10;	delay = 80;	process = 0; }
+		else { sc_guBossNS();	state = 10;	delay = 50;	process = 0;	isCounter = 0; }
 	}
 	
 	else if ( state == 15 ) {
@@ -137,7 +133,7 @@ function sc_guBossAtk(){
 		var bSpd = 25;
 		//if (nextState == 12)	bSpd = 27;
 		
-		isDK = true;	isDF = true;
+		isDK = true;
 		
 		if (process == 1) {
 			if ( abs(x - plX) < 400 )	 { state = 16;	process = 0;	delay = 0; }
@@ -187,7 +183,7 @@ function sc_guBossAtk(){
 		else if ( process < 78+lvDly )		{ image_index = 12; }
 		else if ( process < 84+lvDly )		{ image_index = 13; }
 		else if ( process < 90+lvDly )		{ image_index = 14; }
-		else { sc_guBossNS();	state = 10;	delay = 50;	process = 0; }
+		else { sc_guBossNS();	state = 10;	delay = 20;	process = 0; }
 	}
 
 	
@@ -216,34 +212,28 @@ function sc_guBossAtk(){
 	
 	else if ( state == 31 ) {
 		process++;
-		sprite_index = sp_dokBoss_counter1;
+		sprite_index = sp_gu_counter;
 		
-		isDF = true;
+		isDK = true;
 		
-		if (process == 65+lvDly) {
+		if (process == 48+lvDly) {
 			//SE_Play(s_swing_a2, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
-			ob.sprite_index = sp_dokBoss_counter1Ef;
+			ob.sprite_index = sp_gu_counterEf;
 		}
 		
 		
-		if ( process < 5 ) { image_index = 0; xSpeed = dir*18*-1;}
-		else if ( process < 10 ) { image_index = 1; xSpeed = dir*15*-1; }
-		else if ( process < 15 ) { image_index = 2; xSpeed = dir*12*-1; }
-		else if ( process < 20 ) { image_index = 3; xSpeed = dir*9*-1;}
-		else if ( process < 25 ) { image_index = 4; xSpeed = dir*6*-1;}
-		else if ( process < 30 ) { image_index = 5; xSpeed = dir*3*-1;}
-		else if ( process < 40+lvDly ) { image_index = 6; }
-		else if ( process < 65+lvDly ) { image_index = 7; xSpeed = dir*15}
-		else if ( process < 63+lvDly ) { image_index = 8; xSpeed = dir*10}
-		else if ( process < 71+lvDly ) { image_index = 9; xSpeed = dir*5}
-		else if ( process < 79+lvDly ) { image_index = 10; }
-		else if ( process < 87+lvDly ) { image_index = 11; }
-		else if ( process < 95+lvDly ) { image_index = 12; }
-		else if ( process < 103+lvDly ) { image_index = 13; }
-		else if ( process < 140+lvDly ) { image_index = 14; }
-		else { state = 9;	process = 30;	delay = 0; }
+		if ( process < 6 ) { image_index = 0; xSpeed = dir*18*-1;}
+		else if ( process < 12 ) { image_index = 1; xSpeed = dir*14*-1; }
+		else if ( process < 18 ) { image_index = 2; xSpeed = dir*7*-1; }
+		else if ( process < 24 ) { image_index = 3; xSpeed = dir*3*-1;}
+		else if ( process < 40+lvDly ) { image_index = 4; }
+		else if ( process < 48+lvDly ) { image_index = 5; xSpeed = dir*15}
+		else if ( process < 56+lvDly ) { image_index = 6; }
+		else if ( process < 64+lvDly ) { image_index = 7; }
+		else if ( process < 80+lvDly ) { image_index = 8; }
+		else { state = 9;	process = 90;	delay = 0; }
 	}
 	
 	else if ( state == 32 ) {
@@ -329,19 +319,28 @@ function sc_guBossNS(nState = nextState) {
 	var rIndex = irandom_range(0, 10);
 	if (nState == 12)
 	{
-		if (rIndex < 2)			nextState = 12;
-		else if (rIndex < 6)	nextState = 13;
-		else					nextState = 14;
+		if (rIndex < 2)			{ nextState = 12; }
+		else if (rIndex < 5)	{ nextState = 13; }
+		else if (rIndex < 8)	{ nextState = 14;	delay = 0; }
+		else					{ nextState = 15; }
 	}
 	else if (nState == 13)
 	{
-		if (rIndex < 5)			nextState = 12;
-		else if (rIndex < 7)	nextState = 13;
-		else					nextState = 14;
+		if (rIndex < 3)			{ nextState = 12; }
+		else if (rIndex < 5)	{ nextState = 13; }
+		else if (rIndex < 8)	{ nextState = 14;	delay = 0; }
+		else					{ nextState = 15; }
+	}
+	else if (nState == 14)
+	{
+		if (rIndex < 2)			nextState = 12;
+		else if (rIndex < 4)	nextState = 13;
+		else					nextState = 15;
 	}
 	else 
 	{
-		if (rIndex < 5)	nextState = 12;
-		else			nextState = 13;
+		if (rIndex < 3)			{ nextState = 12; }
+		else if (rIndex < 6)	{ nextState = 13; }
+		else					{ nextState = 14;	delay = 0; }
 	}
 }

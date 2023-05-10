@@ -11,6 +11,7 @@
     {"name":"inst_76146EC9_4_1_1_4","path":"rooms/r_stage05Boss/r_stage05Boss.yy",},
     {"name":"inst_1E577C90_6_1_1_4","path":"rooms/r_stage05Boss/r_stage05Boss.yy",},
     {"name":"inst_27C42FB0","path":"rooms/r_stage05Boss/r_stage05Boss.yy",},
+    {"name":"inst_E30DBDD","path":"rooms/r_stage05Boss/r_stage05Boss.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -36,7 +37,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27C42FB0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_guBoss","path":"objects/ob_guBoss/ob_guBoss.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1920.0,"y":1536.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E577C90_6_1_1_4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":1632.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"effect2","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"effect2","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E30DBDD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_guSpawn2","path":"objects/ob_guSpawn2/ob_guSpawn2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2176.0,"y":1536.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":32,"SerialiseWidth":38,"TileCompressedData":[
 -1026,0,-38,81,-152,41,],"TileDataFormat":1,},"tilesetId":{"name":"t_stage5","path":"tilesets/t_stage5/t_stage5.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"trap","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},

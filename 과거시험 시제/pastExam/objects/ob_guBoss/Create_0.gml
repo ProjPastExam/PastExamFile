@@ -16,7 +16,7 @@ alarm[0] = 1;
 alarm[5] = 5;
 
 hitLot = 150;
-phaseDelay = 10;
+phaseDelay = 0;
 nextState = 12;
 isCounter = false;
 
