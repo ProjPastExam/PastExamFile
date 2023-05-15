@@ -43,7 +43,7 @@ function sc_guSpawn2Atk(){
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_guSpawn2_atk1Ef;
 			ob.ob = id;
-			ob.life = 15;
+			ob.life = 25;
 		}
 		
 		if ( process < 6 )				{ image_index = 0; }
@@ -70,6 +70,7 @@ function sc_guSpawn2Atk(){
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_guSpawn2_atk2Ef;
+			uc_shake(8, 0.1);
 		}
 		
 		if ( process < 6 )				{ image_index = 0; }
