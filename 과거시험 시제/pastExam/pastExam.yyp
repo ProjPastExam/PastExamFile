@@ -257,7 +257,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"dokBoss","folderPath":"folders/Sprites/mob/dok/dokBoss.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"gu","folderPath":"folders/Sprites/mob/gu.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"guBoss","folderPath":"folders/Sprites/mob/gu/guBoss.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"guSpawn1","folderPath":"folders/Sprites/mob/gu/guSpawn1.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"guSpawn2","folderPath":"folders/Sprites/mob/gu/guSpawn2.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"guSpawn3","folderPath":"folders/Sprites/mob/gu/guSpawn3.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"jp","folderPath":"folders/Sprites/mob/jp.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"jpBoss","folderPath":"folders/Sprites/mob/jp/jpBoss.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"jpGun","folderPath":"folders/Sprites/mob/jp/jpGun.yy",},
@@ -311,8 +313,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tileSprite","folderPath":"folders/Tile Sets/tileSprite.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"guSpawn1","folderPath":"folders/Sprites/mob/gu/guSpawn1.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"guSpawn3","folderPath":"folders/Sprites/mob/gu/guSpawn3.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"npcTalk.csv","CopyToMask":3035426170322551022,"filePath":"datafiles",},
