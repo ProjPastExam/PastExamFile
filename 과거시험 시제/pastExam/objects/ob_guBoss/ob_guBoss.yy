@@ -12,11 +12,11 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"hpFull","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"3000",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"adDistance","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"2400",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"down","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"40",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"down","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"60",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"defence","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"0",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"adHeight","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"300",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"isHpUI","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"True",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"uiHpCir","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"sp_jpBoss_cir",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"uiHpCir","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"sp_gu_cir",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"moneyDrop","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"150",},
   ],
   "parent": {

@@ -7,7 +7,7 @@ draw_self();
 if (!isDie) {
 	if (!isHpUI) {
 		var hpIndex = hp/hpFull;
-		
+		if (hpIndex < 0) hpIndex = 0;
 		if (hpIndex < 1) {
 			draw_sprite(sp_mobHp3, 0, x-39, bbox_bottom+30);
 			draw_sprite_ext(sp_mobHp2, 0, x-39, bbox_bottom+30, hpIndex, 1, 0, c_white, 1);

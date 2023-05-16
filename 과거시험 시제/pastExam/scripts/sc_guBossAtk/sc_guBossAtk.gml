@@ -31,7 +31,7 @@ function sc_guBossAtk(){
 		if (nextState == 13) { disIndex1 = 600;		disIndex2 = 300; }
 		if (nextState == 14) { disIndex1 = 400;	disIndex2 = 400; }
 		if (nextState == 15) { disIndex1 = 800;		disIndex2 = 0; }
-		sc_mobRun(12, disIndex1, disIndex2, 30, 20, plX, left1, left2, right1, right2);
+		sc_mobRun(12, disIndex1, disIndex2, 30, nextState, plX, left1, left2, right1, right2);
 	}
 	else if ( state == 12 ) {
 		
@@ -199,10 +199,17 @@ function sc_guBossAtk(){
 		}
 		
 		if ( process == 80+lvDly ) { 
-			//SE_Play(s_jpBoss_atk2, global.vol);
-			var ob = instance_create_layer(x, y, "effect", ob_guSpawn);
-			ob.image_xscale = dir;
-			//ob.sprite_index = sp_gu_atk4Ef;
+			with (instance_create_layer(x, y, "effect", ob_guSpawn))
+			{
+				image_xscale = other.dir
+				switch (other.spawnIndex)
+				{
+				case 0:	obIndex = ob_guSpawn1;	sprite_index = sp_guSpawn1_spawn;	break;
+				case 1:	obIndex = ob_guSpawn2;	sprite_index = sp_guSpawn2_spawn;	break;
+				case 2:	obIndex = ob_guSpawn3;	sprite_index = sp_guSpawn3_spawn;	break;
+				}
+			}
+			spawnIndex += 3;
 		}
 		
 		if ( process < 5+lvDly*0.3 )		{ image_index = 0; }
@@ -239,7 +246,7 @@ function sc_guBossAtk(){
 		else if ( process < 192+lvDly )		{ image_index = 31;	ySpeed = -8; }
 		else if ( process < 198+lvDly )		{ image_index = 32;	ySpeed = -4; }
 		else if ( process < 204+lvDly )		{ image_index = 32;	ySpeed = 0; }
-		else if ( process < 210+lvDly )		{ image_index = 33;	ySpeed = 25; }
+		else if ( process < 210+lvDly )		{ image_index = 33;	ySpeed = 10; }
 		else if ( process < 216+lvDly )		{ image_index = 34; }
 		else if ( process < 222+lvDly )		{ image_index = 35; }
 		else if ( process < 228+lvDly )		{ image_index = 36; }
@@ -378,6 +385,12 @@ function sc_guBossAtk(){
 }
 
 function sc_guBossNS(nState = nextState) {
+	if (spawnIndex < 3)
+	{
+		nextState = 20;
+		return;
+	}
+	
 	var rIndex = irandom_range(0, 10);
 	if (nState == 12)
 	{

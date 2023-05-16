@@ -17,10 +17,10 @@ alarm[5] = 5;
 
 hitLot = 150;
 phaseDelay = 0;
-nextState = 12;
+nextState = 20;
 isCounter = false;
 
-spawnIndex	= 0;
+spawnIndex	= irandom_range(0, 2);
 
 standSp		= sp_gu_stand;
 stand2Sp	= sp_gu_stand;

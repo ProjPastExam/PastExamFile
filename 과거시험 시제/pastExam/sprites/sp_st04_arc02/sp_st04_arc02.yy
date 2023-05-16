@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "sp_st04_arc02",
   "bbox_bottom": 959,
-  "bbox_left": 15,
+  "bbox_left": 18,
   "bbox_right": 944,
-  "bbox_top": 18,
+  "bbox_top": 21,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fa51414c-7c4e-4daa-bd8b-2f3e3e799048",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"210f7f94-1506-4b32-88b0-ca9a5a660b3a",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 960,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d1b0af87-6831-4436-aa6c-98a75cb4cd94","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4e2ad757-5033-4cec-be74-ca8df4a9e01e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fa51414c-7c4e-4daa-bd8b-2f3e3e799048","path":"sprites/sp_st04_arc02/sp_st04_arc02.yy",},},},"Disabled":false,"id":"3df06e88-1d2c-4130-9ac5-39e798be4677","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"210f7f94-1506-4b32-88b0-ca9a5a660b3a","path":"sprites/sp_st04_arc02/sp_st04_arc02.yy",},},},"Disabled":false,"id":"d5757739-837c-4241-bea6-6fc6252c904a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

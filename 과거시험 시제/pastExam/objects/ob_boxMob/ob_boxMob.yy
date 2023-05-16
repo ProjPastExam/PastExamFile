@@ -1,0 +1,47 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "ob_boxMob",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"moneyIndex","path":"objects/ob_boxBase/ob_boxBase.yy",},"value":"50",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"maxHp","path":"objects/ob_boxBase/ob_boxBase.yy",},"value":"100",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"standSp","path":"objects/ob_boxBase/ob_boxBase.yy",},"value":"sp_box",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"dieSp","path":"objects/ob_boxBase/ob_boxBase.yy",},"value":"sp_box_fake",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"hitSp","path":"objects/ob_boxBase/ob_boxBase.yy",},"value":"sp_box_hit",},
+  ],
+  "parent": {
+    "name": "box",
+    "path": "folders/Objects/mob/box.yy",
+  },
+  "parentObjectId": {
+    "name": "ob_boxBase",
+    "path": "objects/ob_boxBase/ob_boxBase.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"mobIndex","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"ob_dok1","varType":5,},
+  ],
+  "solid": false,
+  "spriteId": {
+    "name": "sp_box",
+    "path": "sprites/sp_box/sp_box.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
+}
