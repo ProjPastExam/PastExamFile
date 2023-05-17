@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "ob_box2Mob",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_boxMob","path":"objects/ob_boxMob/ob_boxMob.yy",},"propertyId":{"name":"mobIndex","path":"objects/ob_boxMob/ob_boxMob.yy",},"value":"ob_dok1",},
@@ -11,6 +13,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"dieSp","path":"objects/ob_boxBase/ob_boxBase.yy",},"value":"sp_box2_fake",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"maxHp","path":"objects/ob_boxBase/ob_boxBase.yy",},"value":"100",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"moneyIndex","path":"objects/ob_boxBase/ob_boxBase.yy",},"value":"50",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_boxMob","path":"objects/ob_boxMob/ob_boxMob.yy",},"propertyId":{"name":"mobChance","path":"objects/ob_boxMob/ob_boxMob.yy",},"value":"50",},
   ],
   "parent": {
     "name": "box",

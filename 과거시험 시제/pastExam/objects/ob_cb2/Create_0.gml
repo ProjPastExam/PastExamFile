@@ -19,6 +19,7 @@ hitLot = 100;
 phaseDelay = 10;
 nextState = 12;
 isCounter = false;
+atk5Index	= 0;
 
 standSp = sp_cB2_stand;
 stand2Sp = sp_cB2_stand;

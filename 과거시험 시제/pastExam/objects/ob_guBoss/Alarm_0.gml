@@ -23,6 +23,9 @@ if ( sc_getRoomValue("pause") == 0 ) {
 				global.clearStage = 15;
 				VSLS_SetAndSave("clearStage", 15, "saveFile");
 			}
+			with (ob_guSpawn1)	{ hp = 0; }
+			with (ob_guSpawn2)	{ hp = 0; }
+			with (ob_guSpawn3)	{ hp = 0; }
 		}
 		if ( process < 8 ) { xSpeed = -1 * dir * 18; }
 		else if ( process < 16 ) { xSpeed = -1 * dir * 12; }

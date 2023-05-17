@@ -16,11 +16,14 @@ if ( sc_getRoomValue("pause") == 0 ) {
 			//SE_Play(s_jpAdie1, global.vol);
 			with (ob_guBoss)
 			{
-				isCounter	= 0;
-				state		= 6;
-				isStun		= true;
-				kbIndex		= 30;
-				spawnIndex	-= 2;
+				if (state > 0)
+				{
+					isCounter	= 0;
+					state		= 6;
+					isStun		= true;
+					kbIndex		= 30;
+					spawnIndex	= 2;
+				}
 			}
 		}
 		if ( process < 5 )			{ image_index = 0; }
