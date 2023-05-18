@@ -45,7 +45,7 @@
   "origin": 4,
   "parent": {
     "name": "sinB",
-    "path": "folders/Sprites/mob/sin/sinB.yy",
+    "path": "folders/Sprites/mob/sin/sinBs/sinB.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
