@@ -270,6 +270,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"spSword","folderPath":"folders/Sprites/mob/jp/spSword.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"parent","folderPath":"folders/Sprites/mob/parent.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sin","folderPath":"folders/Sprites/mob/sin.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sinBs","folderPath":"folders/Sprites/mob/sin/sinBs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sinB","folderPath":"folders/Sprites/mob/sin/sinBs/sinB.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sinB2","folderPath":"folders/Sprites/mob/sin/sinBs/sinB2.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"money","folderPath":"folders/Sprites/money.yy",},
@@ -313,7 +314,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tileSprite","folderPath":"folders/Tile Sets/tileSprite.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sinBs","folderPath":"folders/Sprites/mob/sin/sinBs.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"npcTalk.csv","CopyToMask":3035426170322551022,"filePath":"datafiles",},

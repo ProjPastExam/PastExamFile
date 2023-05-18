@@ -34,7 +34,7 @@ function sc_guSpawn1Atk(){
 		sprite_index = sp_guSpawn1_atk1;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { SE_Play(s_jp_aAtk, global.vol); }
+		//if ( process == 1 ) { SE_Play(s_jp_aAtk, global.vol); }
 		
 		if ( process == 42+lvDly ) { 
 			SE_Play(s_bandit01atk2, global.vol);

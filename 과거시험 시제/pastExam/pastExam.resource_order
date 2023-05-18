@@ -246,6 +246,7 @@
     {"name":"spSword","order":2,"path":"folders/Sprites/mob/jp/spSword.yy",},
     {"name":"parent","order":9,"path":"folders/Sprites/mob/parent.yy",},
     {"name":"sin","order":11,"path":"folders/Sprites/mob/sin.yy",},
+    {"name":"sinBs","order":3,"path":"folders/Sprites/mob/sin/sinBs.yy",},
     {"name":"sinB","order":1,"path":"folders/Sprites/mob/sin/sinBs/sinB.yy",},
     {"name":"money","order":18,"path":"folders/Sprites/money.yy",},
     {"name":"NPC","order":13,"path":"folders/Sprites/NPC.yy",},
@@ -287,7 +288,6 @@
     {"name":"Tile Sets","order":13,"path":"folders/Tile Sets.yy",},
     {"name":"tileSprite","order":2,"path":"folders/Tile Sets/tileSprite.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
-    {"name":"sinBs","order":3,"path":"folders/Sprites/mob/sin/sinBs.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"ob_trapL","order":3,"path":"objects/ob_trapL/ob_trapL.yy",},
