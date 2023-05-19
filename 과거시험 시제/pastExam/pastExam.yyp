@@ -1016,6 +1016,7 @@
     {"id":{"name":"ob_coinReward","path":"objects/ob_coinReward/ob_coinReward.yy",},},
     {"id":{"name":"s_mB02_2","path":"sounds/s_mB02_2/s_mB02_2.yy",},},
     {"id":{"name":"ob_mobAtkRdy","path":"objects/ob_mobAtkRdy/ob_mobAtkRdy.yy",},},
+    {"id":{"name":"r_stage02_2_6","path":"rooms/r_stage02_2_6/r_stage02_2_6.yy",},},
     {"id":{"name":"sp_pl_itemEf8_1","path":"sprites/sp_pl_itemEf8_1/sp_pl_itemEf8_1.yy",},},
     {"id":{"name":"sp_banditBoss_atk3","path":"sprites/sp_banditBoss_atk3/sp_banditBoss_atk3.yy",},},
     {"id":{"name":"sp_chang04_stand2","path":"sprites/sp_chang04_stand2/sp_chang04_stand2.yy",},},
@@ -2624,6 +2625,7 @@
     {"roomId":{"name":"r_stage04_2_1","path":"rooms/r_stage04_2_1/r_stage04_2_1.yy",},},
     {"roomId":{"name":"r_stage04_2_2","path":"rooms/r_stage04_2_2/r_stage04_2_2.yy",},},
     {"roomId":{"name":"r_stage04_pace1_1","path":"rooms/r_stage04_pace1_1/r_stage04_pace1_1.yy",},},
+    {"roomId":{"name":"r_stage02_2_6","path":"rooms/r_stage02_2_6/r_stage02_2_6.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

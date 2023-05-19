@@ -334,6 +334,7 @@ function sc_sinBossAtk(){
 			ob.obCreate		= ob_mobAtk2;
 			ob.obSprite		= sp_sinB3_atk1Ef2;
 			ob.soundEf		= s_cB1_atk1_1
+			ob.dmg			= 1;
 			
 			instance_create_layer(x+600, y+50, "Instances", ob_sinSo);
 			instance_create_layer(x-600, y+50, "Instances", ob_sinSo);
@@ -378,6 +379,7 @@ function sc_sinBossAtk(){
 			ob.obCreate		= ob_mobAtk2;
 			ob.obSprite		= sp_sinB3_atk2Ef2;
 			ob.soundEf		= s_cB1_atk1_1
+			ob.dmg			= 1;
 		}
 		
 		if ( process == 200 ) 

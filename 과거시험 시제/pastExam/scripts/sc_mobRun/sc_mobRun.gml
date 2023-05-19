@@ -19,8 +19,8 @@ function sc_mobRun (runSpeed, atkDist, backDist, backState, atkState, plX, left1
 		process = 0;
 		state = atkState;
 	}
-	if ( !isJump && dir == -1 && (( left1 == 3 || left2 == 3)))	
-		{ ySpeed = -15; }
-	if ( !isJump && dir == 1 && (( right1 == 3 || right2 == 3 )))
-		{ ySpeed = -15; }
+	if ( !isJump && dir == -1 && (( left1 == 3 || left2 == 3)) && !isHpUI)	
+		{ ySpeed = -18; }
+	if ( !isJump && dir == 1 && (( right1 == 3 || right2 == 3 )) && !isHpUI)
+		{ ySpeed = -18;	 }
 }

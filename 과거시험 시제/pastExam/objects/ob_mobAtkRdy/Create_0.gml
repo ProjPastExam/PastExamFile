@@ -3,5 +3,6 @@
 obCreate	= ob_mobAtk2;
 obSprite	= sp_bandit01_atkEffect;
 dir = 1;
+dmg = 0;
 
 soundEf		= NULL;

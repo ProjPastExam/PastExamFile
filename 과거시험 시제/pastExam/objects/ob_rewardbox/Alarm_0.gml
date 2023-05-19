@@ -8,7 +8,7 @@ if (isCollision && !isActive && mobNum <= 0) {
 	isActive = true;
 	SE_Play(s_chun_reward, global.vol);
 	if (global.hp < 9 && global.clearStage >= 15)	{ 
-		global.hp++;	
+		global.hp++;
 		instance_create_layer(0, 0, "effect", ob_healEf);	
 	}
 	var hpIndex = global.hpMax - global.hp;
