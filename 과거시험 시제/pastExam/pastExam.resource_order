@@ -1466,6 +1466,7 @@
     {"name":"r_tutorial2","order":11,"path":"rooms/r_tutorial2/r_tutorial2.yy",},
     {"name":"ob_volBgm","order":3,"path":"objects/ob_volBgm/ob_volBgm.yy",},
     {"name":"sp_enhanceIconSelect2","order":9,"path":"sprites/sp_enhanceIconSelect2/sp_enhanceIconSelect2.yy",},
+    {"name":"f_kor9","order":6,"path":"fonts/f_kor9/f_kor9.yy",},
     {"name":"sp_bandit02_die","order":2,"path":"sprites/sp_bandit02_die/sp_bandit02_die.yy",},
     {"name":"sp_jpBoss_atkG","order":15,"path":"sprites/sp_jpBoss_atkG/sp_jpBoss_atkG.yy",},
     {"name":"sc_obPValue","order":1,"path":"scripts/sc_obPValue/sc_obPValue.yy",},

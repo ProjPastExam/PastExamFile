@@ -1654,6 +1654,7 @@
     {"id":{"name":"r_tutorial2","path":"rooms/r_tutorial2/r_tutorial2.yy",},},
     {"id":{"name":"ob_volBgm","path":"objects/ob_volBgm/ob_volBgm.yy",},},
     {"id":{"name":"sp_enhanceIconSelect2","path":"sprites/sp_enhanceIconSelect2/sp_enhanceIconSelect2.yy",},},
+    {"id":{"name":"f_kor9","path":"fonts/f_kor9/f_kor9.yy",},},
     {"id":{"name":"sp_bandit02_die","path":"sprites/sp_bandit02_die/sp_bandit02_die.yy",},},
     {"id":{"name":"sp_jpBoss_atkG","path":"sprites/sp_jpBoss_atkG/sp_jpBoss_atkG.yy",},},
     {"id":{"name":"sc_obPValue","path":"scripts/sc_obPValue/sc_obPValue.yy",},},

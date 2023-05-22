@@ -21,12 +21,12 @@ qst1Index[@1]	= talkq2;
 qst1Index[@2]	= talkq3;
 
 
-talk1[@0]	= new talkStruct("한양까지 갈 길이 멀어요. \n오랜 여정이 될 거 같네요.");
+talk1[@0]	= new talkStruct("한양까지 갈 길이 멀어요. 오랜 여정이 될 거 같네요.");
 talk1[@1]	= new talkStruct(,,,2,,3,qst1);
 talk1[@2]	= new talkStruct(,,,3,qst1Index);
 
 talkq1[@0]	= new talkStruct("음... 그게 말이죠",,sp_chun_face_embar);
-talkq1[@1]	= new talkStruct("백마산에서 조금 남쪽에 있는 \n공동묘지 지역이에요.",,sp_chun_face_embar);
+talkq1[@1]	= new talkStruct("백마산에서 조금 남쪽에 있는 공동묘지 지역이에요.",,sp_chun_face_embar);
 talkq1[@2]	= new talkStruct("... 네, 한양에서 좀 더 멀어진 곳이에요.",,sp_chun_face_embar);
 talkq1[@3]	= new talkStruct("백마산에서 당신을 빼내는 과정에서, \n음기가 강한 이곳으로 이끌려 오게 되었나 봐요..",,sp_chun_face_embar);
 talkq1[@4]	= new talkStruct("... 뭐, 죽는 것보단 여행길이 멀어진 게 낫죠! \n불평하기 없기예요!",,sp_chun_face_angry);
