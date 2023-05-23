@@ -1,6 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_hit(argument0){
+	//return;
+	
 	var mor = ob_player.isImort;
 	if ( sc_pl_get("hitAfter") == 0 && ob_player.canMove >= 0 && !mor ) {
 		if (global.item8 && global.comCt >= global.item8Index) {
