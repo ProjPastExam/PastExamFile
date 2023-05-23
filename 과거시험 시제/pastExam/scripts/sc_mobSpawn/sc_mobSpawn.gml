@@ -35,7 +35,8 @@ function sc_mobSpawn(){
 	fireDot		= 0;
 	
 	lvDly		= 0;
-	if (global.level == 0)	lvDly = 10;
+	if (global.level == 0)		lvDly = 12;
+	else if (global.level == 1)	lvDly = 6;
 	
 	if (isHpUI) {
 		global.uiHp = hp;

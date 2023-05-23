@@ -61,7 +61,7 @@ function sc_cBoss1Atk(){
 		else if ( process < 90+lvDly ) { image_index = 7; xSpeed = dir*12; }
 		else if ( process < 106+lvDly ) { image_index = 8; xSpeed = dir*6; }
 		else if ( process < 118+lvDly ) { image_index = 9; }
-		else { state = 10;	delay = 50;	process = 0;	isCounter = false; sc_cBoss1AtkNext(12); }
+		else { state = 10;	delay = 45+lvDly;	process = 0;	isCounter = false; sc_cBoss1AtkNext(12); }
 	}
 	
 	else if ( state == 13 ) {
@@ -93,7 +93,7 @@ function sc_cBoss1Atk(){
 		else if ( process < 90+lvDly ) { image_index = 7; xSpeed = dir*12;	ySpeed = 0; }
 		else if ( process < 106+lvDly ) { image_index = 8; xSpeed = dir*6;	ySpeed = 0; }
 		else if ( process < 112+lvDly ) { image_index = 9; }
-		else { state = 10;	delay = 50;	process = 0;	isCounter = false; sc_cBoss1AtkNext(13); }
+		else { state = 10;	delay = 45+lvDly;	process = 0;	isCounter = false; sc_cBoss1AtkNext(13); }
 	}
 	
 	else if ( state == 14 ) {
@@ -127,7 +127,7 @@ function sc_cBoss1Atk(){
 		else if ( process < 82+lvDly ) { image_index = 6; }
 		else if ( process < 88+lvDly ) { image_index = 7; }
 		else if ( process < 110+lvDly ) { image_index = 8; }
-		else { state = 10;	delay = 50;	process = 0; sc_cBoss1AtkNext(14);}
+		else { state = 10;	delay = 45+lvDly;	process = 0; sc_cBoss1AtkNext(14);}
 	}
 	
 	else if ( state == 15 ) {
@@ -158,7 +158,7 @@ function sc_cBoss1Atk(){
 		else if ( process < 90+lvDly ) { image_index = 7; }
 		else if ( process < 98+lvDly ) { image_index = 8; }
 		else if ( process < 106+lvDly ) { image_index = 9; }
-		else { state = 10;	process = 0;	delay = 80; sc_cBoss1AtkNext(nextState); }
+		else { state = 10;	process = 0;	delay = 55+lvDly*2; sc_cBoss1AtkNext(nextState); }
 	}
 	
 	else if (state == 16) {
@@ -223,7 +223,7 @@ function sc_cBoss1Atk(){
 		else if ( process < 18 ) { image_index = 15; }
 		else if ( process < 24 ) { image_index = 16; }
 		else if ( process < 50 ) { image_index = 17; }
-		else { state = 10;	process = 0;	delay = 120; sc_cBoss1AtkNext(); }
+		else { state = 10;	process = 0;	delay = 95+lvDly*2; sc_cBoss1AtkNext(); }
 		
 	}
 	

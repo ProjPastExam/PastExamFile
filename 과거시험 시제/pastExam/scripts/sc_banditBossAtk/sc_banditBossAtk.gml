@@ -153,7 +153,7 @@ function sc_banditBossAtk(){
 		else if ( process < 105 ) { image_index = 9; }
 		else if ( process < 110 ) { image_index = 10; }
 		else if ( process < 125 ) { image_index = 11; }
-		else { sc_banditBossAtkNext(state);	state = 10;	process = 0;	delay = random_range(60, 80); }
+		else { sc_banditBossAtkNext(state);	state = 10;	process = 0;	delay = 45+lvDly*2; }
 	}
 	
 	else if ( state == 16 ) {
@@ -240,7 +240,7 @@ function sc_banditBossAtk(){
 		else if ( process < 90 ) { image_index = 7;}
 		else if ( process < 105 ) { image_index = 8;}
 		else { sc_banditBossAtkNext(state);	isCounter = false;
-			state = 10;	process = 0;	delay = random_range(80, 120); }
+			state = 10;	process = 0;	delay = 75+lvDly*2; }
 	}
 	
 	else if ( state == 18 ) {
@@ -282,7 +282,7 @@ function sc_banditBossAtk(){
 		else if ( process < 135+lvDly ) { image_index = 10; xSpeed = dir*24; }
 		else if ( process < 145+lvDly ) { image_index = 11; }
 		else if ( process < 160+lvDly ) { image_index = 12; }
-		else { sc_banditBossAtkNext(state);	state = 10;	process = 0;	delay = random_range(80, 120); }
+		else { sc_banditBossAtkNext(state);	state = 10;	process = 0;	delay = 75+lvDly*2; }
 	}
 	
 	else if ( state == 20 ) {
@@ -342,7 +342,7 @@ function sc_banditBossAtk(){
 		
 		
 		
-		else { state = 10;	process = 0;	delay = 120;	sc_banditBossAtkNext(nextState); }
+		else { state = 10;	process = 0;	delay = 95+lvDly*2;	sc_banditBossAtkNext(nextState); }
 		
 	}
 	
