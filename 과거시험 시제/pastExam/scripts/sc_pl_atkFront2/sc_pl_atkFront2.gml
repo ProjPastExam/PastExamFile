@@ -7,7 +7,8 @@ function sc_pl_atkFront2(){
 	image_xscale = dir;
 	sprite_index = sp_pl_atkFront2;
 	
-	if ( atkProcess == 24 && isAtk3 == 20 ) {
+	
+	if ( atkProcess == 24 && isAtk3 == 20 && global.item9 > 0 ) {
 		canMove = 12;
 		isAtk3 = 0;
 		atkProcess = 0;
