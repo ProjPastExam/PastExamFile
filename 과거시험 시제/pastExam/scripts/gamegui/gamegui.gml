@@ -123,6 +123,7 @@ function sc_printMoney(var_mode = 0) {
 	draw_sprite(sp_moneyBox, i, global.moneyX, global.moneyY);
 	
 	draw_set_halign(fa_right);
+	draw_set_valign(fa_middle);
 	draw_set_font(f_dmg);
 	draw_set_color(c_white);
 	

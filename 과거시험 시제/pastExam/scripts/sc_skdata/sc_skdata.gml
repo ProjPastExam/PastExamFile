@@ -4,7 +4,7 @@ function sc_skData(){
 	global.skMp = array_create(200, 0);
 	global.skMp[0]		= 0;	//null	
 	global.skMp[101]	= 300;	//연속 사격
-	global.skMp[102]	= 200;	//다발 사격
+	global.skMp[102]	= 300;	//다발 사격
 
 	global.skMp[111]	= 300;	//강화 연속 사격
 	global.skMp[112]	= 400;	//광역 사격

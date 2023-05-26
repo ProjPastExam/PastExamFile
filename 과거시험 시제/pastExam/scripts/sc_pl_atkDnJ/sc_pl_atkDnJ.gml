@@ -5,6 +5,15 @@ function sc_pl_atkDnJ( index = 0 ){
 		if ( nextAtk == 9 && canJump ) {
 			canMove = 0;
 			nextAtk = 0;
+			var tileId	= layer_tilemap_get_id("Tile_Collision");
+			var bottom	= tilemap_get_at_pixel(tileId, x, bbox_bottom);
+			if ( keyDown && bottom == 2 ) 
+			{ 
+				y += 16; 
+				SE_Play(s_jump, global.vol);
+				return;
+			}
+			
 			ySpeed = -17.5;
 			jumpLast = 30;
 			canJump = false;

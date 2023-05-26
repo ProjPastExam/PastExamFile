@@ -30,7 +30,7 @@ function sc_dok1Atk(){
 		xSpeed = 0;
 		
 		if ( process == 1 ) { SE_Play(s_jp_cAtk, global.vol); }
-		if ( process == 36+lvDly ) { 
+		if ( process == 40+lvDly ) { 
 			SE_Play(s_swing_b1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
@@ -40,12 +40,12 @@ function sc_dok1Atk(){
 		
 		if ( process < 6 ) { image_index = 0; }
 		else if ( process < 12 ) { image_index = 1; }
-		else if ( process < 26 ) { image_index = 2; }
-		else if ( process < 36+lvDly ) { image_index = 2; xSpeed = dir*24; }
-		else if ( process < 42+lvDly ) { image_index = 3; }
-		else if ( process < 48+lvDly ) { image_index = 4; }
-		else if ( process < 54+lvDly ) { image_index = 5; }
-		else if ( process < 60+lvDly ) { image_index = 6; }
+		else if ( process < 30+lvDly ) { image_index = 2; }
+		else if ( process < 40+lvDly ) { image_index = 2; xSpeed = dir*24; }
+		else if ( process < 46+lvDly ) { image_index = 3; }
+		else if ( process < 52+lvDly ) { image_index = 4; }
+		else if ( process < 58+lvDly ) { image_index = 5; }
+		else if ( process < 65+lvDly ) { image_index = 6; }
 		else { state = 10;	process = 0;	delay = random_range(50, 70); }
 	}
 	

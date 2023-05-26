@@ -13,15 +13,15 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"67eba5c5-e742-4c44-9c5d-29b7b94754e2",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a2e051ba-b923-43ba-9cbb-d673d221b442",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ab88eadd-ab9b-4084-a5fe-25fc6a115713",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6dd5eff1-9ebd-46e0-9c94-728391d7b372",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b4ca63a9-6e25-4995-aa68-704885301e23","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"50dca74e-2adf-43b8-804d-37e14ba1d8b1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"67eba5c5-e742-4c44-9c5d-29b7b94754e2","path":"sprites/sp_moneyBox/sp_moneyBox.yy",},},},"Disabled":false,"id":"1cef12de-d9eb-4f62-bf2b-565e2d9f3143","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a2e051ba-b923-43ba-9cbb-d673d221b442","path":"sprites/sp_moneyBox/sp_moneyBox.yy",},},},"Disabled":false,"id":"f8ccf23e-dd09-4634-a800-b844737410db","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ab88eadd-ab9b-4084-a5fe-25fc6a115713","path":"sprites/sp_moneyBox/sp_moneyBox.yy",},},},"Disabled":false,"id":"5dcef409-0d0f-4089-b4db-87ba0077a3c4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6dd5eff1-9ebd-46e0-9c94-728391d7b372","path":"sprites/sp_moneyBox/sp_moneyBox.yy",},},},"Disabled":false,"id":"bbe6859a-97b9-42f5-9c5f-16e79f3d3aaa","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
