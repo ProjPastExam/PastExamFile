@@ -1,4 +1,4 @@
-paceMax = 6;
+paceMax = 7;
 
 mobNum[0] = 2;
 mobStack[0][0] = ob_chang01;

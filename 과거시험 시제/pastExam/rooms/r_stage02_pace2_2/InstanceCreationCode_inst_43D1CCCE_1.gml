@@ -1,12 +1,10 @@
 paceMax = 9;
 
-mobNum[0] = 2;
-mobStack[0][1] = ob_jpSword;
-mobStack[0][0] = ob_jpGun;
+mobNum[0] = 1;
+mobStack[0][0] = ob_jpSpear;
 
-mobNum[1] = 5;
-mobStack[1][3] = ob_jpSword;
-mobStack[1][4] = ob_jpGun;
+mobNum[1] = 4;
+mobStack[1][3] = ob_jpSpear;
 
 mobNum[2] = 1;
 mobStack[2][0] = ob_jpSpearS;

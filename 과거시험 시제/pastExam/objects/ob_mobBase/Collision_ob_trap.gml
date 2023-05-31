@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if ( hitAfter == 0 ) {
-	var calDmg = 20;
+	var calDmg = 10 + hpFull/15;
 	var dmgId = instance_create_layer(x, bbox_top - 50, "effect", ob_mobDmg);
 	dmgId.dmg = calDmg;
 	dmgId.colo = 1;

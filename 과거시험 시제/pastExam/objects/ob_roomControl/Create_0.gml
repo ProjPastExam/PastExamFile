@@ -69,7 +69,7 @@ global.ranStage2 = 0;
 if (isRanStage) {
 	var ranIndex = irandom_range(0, 99);
 	if (ranIndex < 30) {
-		instance_create_layer(x, y, "effect2", ob_ranSunbi);
+		//instance_create_layer(x, y, "effect2", ob_ranSunbi);
 	}
 }
 

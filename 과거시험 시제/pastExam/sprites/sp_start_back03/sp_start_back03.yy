@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sp_start_back03",
-  "bbox_bottom": 1439,
+  "bbox_bottom": 1079,
   "bbox_left": 0,
-  "bbox_right": 2879,
+  "bbox_right": 1619,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0e97ff25-a18f-4d4a-8a2a-3f714da14652",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0925ca33-9006-4734-ac1e-ab957ddf8cfa",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1440,
+  "height": 1080,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a7512d1e-56ae-4b46-aecc-c66ce6a00773","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"00531718-3571-4f39-986c-e80e8eefe1bc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0e97ff25-a18f-4d4a-8a2a-3f714da14652","path":"sprites/sp_start_back03/sp_start_back03.yy",},},},"Disabled":false,"id":"8d3344ee-8e98-457a-8a18-1b03e5def759","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0925ca33-9006-4734-ac1e-ab957ddf8cfa","path":"sprites/sp_start_back03/sp_start_back03.yy",},},},"Disabled":false,"id":"d1e1f17e-93e8-483e-ab7d-19eb45dbbbda","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 2880,
+  "width": 1620,
 }

@@ -136,26 +136,26 @@ function sc_printMoney(var_mode = 0) {
 			if	(moneyPrint > global.money + 100)	moneyPrint -= 10;
 			else									moneyPrint--;
 		}
-		draw_text(global.moneyX - 55, global.moneyY, moneyPrint);
+		draw_text(global.moneyX - 55, global.moneyY+2, moneyPrint);
 		
 		if (global.clearStage >= 5) {
 			if		(abSoulPrint < global.abSoul)	abSoulPrint++;
 			else if	(abSoulPrint > global.abSoul)	abSoulPrint--;
 			
 			draw_set_halign(fa_left);
-			draw_text(global.moneyX + 0, global.moneyY, global.abPointMax);
+			draw_text(global.moneyX + 0, global.moneyY+2, global.abPointMax);
 			
 			if (global.abPointMax < 40) {
 				draw_set_halign(fa_right);
-				draw_text(global.moneyX + 100, global.moneyY, abSoulPrint);
-				draw_text(global.moneyX + 115, global.moneyY, "/");
+				draw_text(global.moneyX + 100, global.moneyY+2, abSoulPrint);
+				draw_text(global.moneyX + 115, global.moneyY+2, "/");
 				
 				draw_set_halign(fa_left);
-				draw_text(global.moneyX + 120, global.moneyY, global.abSoulMax);
+				draw_text(global.moneyX + 120, global.moneyY+2, global.abSoulMax);
 			}
 			else {
 				draw_set_halign(fa_center);
-				draw_text(global.moneyX + 115, global.moneyY, "MAX");
+				draw_text(global.moneyX + 115, global.moneyY+2, "MAX");
 			}
 		}
 	}
