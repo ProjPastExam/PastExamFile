@@ -49,8 +49,8 @@ function sc_initMinimapTrap() {
 		with (ob_trap) {
 			var mScale = other.mScale;
 			var xS = 0.4;
-			var yS = 0.1;
-			if (isHor)	{ xS = 0.1; yS = 0.4 }
+			var yS = 0.15;
+			if (isHor)	{ xS = 0.15; yS = 0.4 }
 			draw_sprite_ext(sp_mapBox, 0, x/mScale, y/mScale, xS, yS, 0.0, c_red, 1.0);
 		}
 	surface_reset_target();
