@@ -1,0 +1,1 @@
+standSp = sp_bandit02_stand2;

@@ -318,6 +318,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tileSprite","folderPath":"folders/Tile Sets/tileSprite.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"adCs","folderPath":"folders/Objects/csOb/adCs.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"adCs","folderPath":"folders/Scripts/csScript/adCs.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"npcTalk.csv","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -621,6 +623,7 @@
     {"id":{"name":"ob_demoInfo5","path":"objects/ob_demoInfo5/ob_demoInfo5.yy",},},
     {"id":{"name":"sp_vl_ong2","path":"sprites/sp_vl_ong2/sp_vl_ong2.yy",},},
     {"id":{"name":"sc_loadCsv","path":"scripts/sc_loadCsv/sc_loadCsv.yy",},},
+    {"id":{"name":"ob_adCsPl","path":"objects/ob_adCsPl/ob_adCsPl.yy",},},
     {"id":{"name":"sc_itemCreate","path":"scripts/sc_itemCreate/sc_itemCreate.yy",},},
     {"id":{"name":"r_language","path":"rooms/r_language/r_language.yy",},},
     {"id":{"name":"sc_jpMbSprite","path":"scripts/sc_jpMbSprite/sc_jpMbSprite.yy",},},
@@ -1965,6 +1968,7 @@
     {"id":{"name":"ob_tabBox","path":"objects/ob_tabBox/ob_tabBox.yy",},},
     {"id":{"name":"ob_historyInfo","path":"objects/ob_historyInfo/ob_historyInfo.yy",},},
     {"id":{"name":"sp_mobHp3","path":"sprites/sp_mobHp3/sp_mobHp3.yy",},},
+    {"id":{"name":"r_adVdCs","path":"rooms/r_adVdCs/r_adVdCs.yy",},},
     {"id":{"name":"r_stage01_4_1","path":"rooms/r_stage01_4_1/r_stage01_4_1.yy",},},
     {"id":{"name":"sp_chang02_shock","path":"sprites/sp_chang02_shock/sp_chang02_shock.yy",},},
     {"id":{"name":"sp_banditBoss01_atk02","path":"sprites/sp_banditBoss01_atk02/sp_banditBoss01_atk02.yy",},},
@@ -2729,6 +2733,7 @@
     {"roomId":{"name":"r_stage03_pace2","path":"rooms/r_stage03_pace2/r_stage03_pace2.yy",},},
     {"roomId":{"name":"r_stage03_pace2_2","path":"rooms/r_stage03_pace2_2/r_stage03_pace2_2.yy",},},
     {"roomId":{"name":"r_stage03_pace2_3","path":"rooms/r_stage03_pace2_3/r_stage03_pace2_3.yy",},},
+    {"roomId":{"name":"r_adVdCs","path":"rooms/r_adVdCs/r_adVdCs.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
