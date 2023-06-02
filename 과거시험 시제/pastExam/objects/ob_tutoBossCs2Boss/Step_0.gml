@@ -51,6 +51,11 @@ case 13:
 	sprite_index = sp_jpBoss_cs3;
 	image_index = 4;
 	break;
+	
+case 14:
+	sprite_index = sp_jpBoss_cs3;
+	image_index = 5;
+	break;
 /*
 case 10:
 	sprite_index = sp_jpMb_stand;

@@ -34,6 +34,10 @@ function sc_dok3Atk(){
 		if ( process == 125 ) {
 			if ( x > plX ) dir = -1;
 			else dir = 1;
+			if ( !isJump && dir == -1 && (( left1 == 3 || left2 == 3)))	
+				{ ySpeed = -18; }
+			if ( !isJump && dir == 1 && (( right1 == 3 || right2 == 3 )))
+				{ ySpeed = -18;	 }
 		}
 		if ( process == 50+lvDly ) { 
 			SE_Play(s_swing_b1, global.vol);
@@ -49,7 +53,7 @@ function sc_dok3Atk(){
 			ob.sprite_index = sp_dok3_atkEf1;
 		}
 		
-		if ( process = 165+lvDly ) { 
+		if ( process = 175+lvDly*2 ) { 
 			SE_Play(s_swing_b1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
@@ -79,14 +83,14 @@ function sc_dok3Atk(){
 		else if ( process < 135+lvDly ) { image_index = 15; }
 		else if ( process < 140+lvDly ) { image_index = 16; }
 		else if ( process < 145+lvDly ) { image_index = 17; }
-		else if ( process < 150+lvDly ) { image_index = 18; }
-		else if ( process < 165+lvDly ) { image_index = 18; xSpeed = dir*24;}
-		else if ( process < 170+lvDly ) { image_index = 19; }
-		else if ( process < 175+lvDly ) { image_index = 20; }
-		else if ( process < 180+lvDly ) { image_index = 21; }
-		else if ( process < 185+lvDly ) { image_index = 22; }
-		else if ( process < 190+lvDly ) { image_index = 23; }
-		else if ( process < 200+lvDly ) { image_index = 24; }
+		else if ( process < 160+lvDly*2 ) { image_index = 18; }
+		else if ( process < 175+lvDly*2 ) { image_index = 18; xSpeed = dir*24;}
+		else if ( process < 180+lvDly*2 ) { image_index = 19; }
+		else if ( process < 185+lvDly*2 ) { image_index = 20; }
+		else if ( process < 190+lvDly*2 ) { image_index = 21; }
+		else if ( process < 195+lvDly*2 ) { image_index = 22; }
+		else if ( process < 200+lvDly*2 ) { image_index = 23; }
+		else if ( process < 210+lvDly*2 ) { image_index = 24; }
 		else { state = 10;	process = 0;	delay = random_range(50, 70); }
 	}
 	

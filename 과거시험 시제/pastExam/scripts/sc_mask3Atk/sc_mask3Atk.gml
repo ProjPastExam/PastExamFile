@@ -54,12 +54,12 @@ function sc_mask3Atk(){
 			else dir = 1;
 		}
 		
-		if (process == 70 || process == 108)
+		if (process == 108)
 		{
 			if ( !isJump && dir == -1 && (( left1 == 3 || left2 == 3)))	
-				{ ySpeed = -18; }
+				{ ySpeed = -16; }
 			if ( !isJump && dir == 1 && (( right1 == 3 || right2 == 3 )))
-				{ ySpeed = -18;	 }
+				{ ySpeed = -16;	 }
 		}
 		
 		

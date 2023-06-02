@@ -22,15 +22,20 @@ function sc_dok1Atk(){
 		
 	}
 	if ( state == 11 ){
-		sc_mobRun(8, 240, 120, 13, 12, plX, left1, left2, right1, right2);		
+		sc_mobRun(8, 450, 250, 13, 12, plX, left1, left2, right1, right2);		
 	}
 	else if ( state == 12 ) {
 		process++;
 		sprite_index = sp_dok1_atk;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { SE_Play(s_jp_cAtk, global.vol); }
-		if ( process == 40+lvDly ) { 
+		if ( process == 1 ) 
+		{ 
+			SE_Play(s_jp_cAtk, global.vol); 
+			var i = irandom_range(0, 1);
+			if (i == 0 && !isJump) ySpeed = -16;
+		}
+		if ( process == 45+lvDly ) { 
 			SE_Play(s_swing_b1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
@@ -41,11 +46,11 @@ function sc_dok1Atk(){
 		if ( process < 6 ) { image_index = 0; }
 		else if ( process < 12 ) { image_index = 1; }
 		else if ( process < 30+lvDly ) { image_index = 2; }
-		else if ( process < 40+lvDly ) { image_index = 2; xSpeed = dir*24; }
-		else if ( process < 46+lvDly ) { image_index = 3; }
-		else if ( process < 52+lvDly ) { image_index = 4; }
-		else if ( process < 58+lvDly ) { image_index = 5; }
-		else if ( process < 65+lvDly ) { image_index = 6; }
+		else if ( process < 45+lvDly ) { image_index = 2; xSpeed = dir*24;	ySpeed = 18; }
+		else if ( process < 51+lvDly ) { image_index = 3; }
+		else if ( process < 57+lvDly ) { image_index = 4; }
+		else if ( process < 63+lvDly ) { image_index = 5; }
+		else if ( process < 70+lvDly ) { image_index = 6; }
 		else { state = 10;	process = 0;	delay = random_range(50, 70); }
 	}
 	
@@ -54,8 +59,8 @@ function sc_dok1Atk(){
 		sprite_index = sp_dok1_backstep;
 		
 		if ( process < 4 ) { image_index = 0; }
-		else if ( process < 10 ) { image_index = 1; xSpeed = dir*15*-1; }
-		else if ( process < 14 ) { image_index = 2; xSpeed = dir*5*-1; }
+		else if ( process < 10 ) { image_index = 1; xSpeed = dir*20*-1; }
+		else if ( process < 14 ) { image_index = 2; xSpeed = dir*10*-1; }
 		else if ( process < 18 ) { image_index = 3; }
 		else if ( process < 20 ) { image_index = 4; }
 		else { state = 12;	process = 0;	delay = 0; }
