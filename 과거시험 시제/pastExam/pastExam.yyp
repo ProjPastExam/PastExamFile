@@ -322,6 +322,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
   "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"adCs.csv","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"npcTalk.csv","CopyToMask":3035426170322551022,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"opening.csv","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"st01Cs.csv","CopyToMask":-1,"filePath":"datafiles",},
@@ -1268,6 +1269,7 @@
     {"id":{"name":"sp_key_8","path":"sprites/sp_key_8/sp_key_8.yy",},},
     {"id":{"name":"r_stage01_pace","path":"rooms/r_stage01_pace/r_stage01_pace.yy",},},
     {"id":{"name":"r_stage05_1_1","path":"rooms/r_stage05_1_1/r_stage05_1_1.yy",},},
+    {"id":{"name":"sc_adCs","path":"scripts/sc_adCs/sc_adCs.yy",},},
     {"id":{"name":"sp_jpSpear_backstep","path":"sprites/sp_jpSpear_backstep/sp_jpSpear_backstep.yy",},},
     {"id":{"name":"ob_cs02pl","path":"objects/ob_cs02pl/ob_cs02pl.yy",},},
     {"id":{"name":"sp_keyVk_left","path":"sprites/sp_keyVk_left/sp_keyVk_left.yy",},},

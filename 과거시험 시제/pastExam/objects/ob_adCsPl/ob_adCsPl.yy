@@ -4,9 +4,12 @@
   "name": "ob_adCsPl",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_csParent","path":"objects/ob_csParent/ob_csParent.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_csParent/ob_csParent.yy",},"value":"adCs.csv",},
+  ],
   "parent": {
     "name": "adCs",
     "path": "folders/Objects/csOb/adCs.yy",
