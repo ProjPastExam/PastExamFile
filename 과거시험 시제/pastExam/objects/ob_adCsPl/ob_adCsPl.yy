@@ -11,8 +11,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_csParent","path":"objects/ob_csParent/ob_csParent.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_csParent/ob_csParent.yy",},"value":"adCs.csv",},
   ],
   "parent": {
-    "name": "adCs",
-    "path": "folders/Objects/csOb/adCs.yy",
+    "name": "ETC Cs",
+    "path": "folders/Objects/csOb/ETC Cs.yy",
   },
   "parentObjectId": {
     "name": "ob_csParent",

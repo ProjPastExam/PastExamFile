@@ -162,7 +162,7 @@ function sc_dokBossAtk(){
 		{
 			if (irandom_range(0, 5) > 4)
 			{
-				sc_dokBossNS();	state = 10;	delay = 80;	process = 0; 
+				sc_dokBossNS();	state = 10;	delay = 55+lvDly*2;	process = 0; 
 			}
 			else { 
 				process = 100; 
@@ -180,7 +180,7 @@ function sc_dokBossAtk(){
 		{
 			if (irandom_range(0, 5) > 1)
 			{
-				sc_dokBossNS();	state = 10;	delay = 80;	process = 0;
+				sc_dokBossNS();	state = 10;	delay = 55+lvDly*2;	process = 0;
 			}
 			else { 
 				process = 160; 
@@ -194,7 +194,7 @@ function sc_dokBossAtk(){
 		else if ( process < 190+lvDly*3 )	{ image_index = 16; }
 		else if ( process < 196+lvDly*3 )	{ image_index = 17; }
 		else if ( process < 210+lvDly*3 )	{ image_index = 18; }
-		else { sc_dokBossNS();	state = 10;	delay = 80;	process = 0; }
+		else { sc_dokBossNS();	state = 10;	delay = 55+lvDly*2;	process = 0; }
 	}
 	
 	else if ( state == 15 ) {
@@ -235,7 +235,7 @@ function sc_dokBossAtk(){
 		else if ( process < 102+lvDly )	{ image_index = 15; }
 		else if ( process < 108+lvDly )	{ image_index = 16; }
 		else if ( process < 130+lvDly )	{ image_index = 17; }
-		else { sc_dokBossNS();	state = 10;	delay = 50;	process = 0; }
+		else { sc_dokBossNS();	state = 10;	delay = 30+lvDly*2;	process = 0; }
 	}
 
 	

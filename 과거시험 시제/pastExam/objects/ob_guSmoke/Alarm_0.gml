@@ -6,7 +6,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	{
 		with(ob)
 		{
-			image_alpha -= 0.03;
+			image_alpha -= 0.05;
 		}
 	}
 	if (image_index > 8)

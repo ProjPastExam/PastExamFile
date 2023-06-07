@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "back_demo",
   "bbox_bottom": 959,
-  "bbox_left": 114,
+  "bbox_left": 201,
   "bbox_right": 2138,
-  "bbox_top": 63,
+  "bbox_top": 147,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"68ca6272-22b2-47b5-a6ca-460d640f89f8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8e9f7a90-4a65-417a-8220-a0d90e515023",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 960,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"abe7b8e5-9b0b-4a23-9e02-d839c77075f1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f7e1ade5-8470-4ed8-927b-7fdcb034af9f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"68ca6272-22b2-47b5-a6ca-460d640f89f8","path":"sprites/back_demo/back_demo.yy",},},},"Disabled":false,"id":"035ecf09-c92e-45b9-a2fc-af0f6c66f8df","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8e9f7a90-4a65-417a-8220-a0d90e515023","path":"sprites/back_demo/back_demo.yy",},},},"Disabled":false,"id":"4965e252-a57c-4688-8b3b-3f2e01775bfe","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -28,6 +28,11 @@ function sc_mask2Atk(){
 	else if ( state == 12 ) {
 		process++;
 		sprite_index = sp_mask2_atk;
+		if (dir = -1)
+		{
+			sprite_index = sp_mask2_atkL;
+			image_xscale = 1;
+		}
 		xSpeed = 0;
 		
 		if ( process == 1 ) { SE_Play(s_jp_cAtk, global.vol); }
