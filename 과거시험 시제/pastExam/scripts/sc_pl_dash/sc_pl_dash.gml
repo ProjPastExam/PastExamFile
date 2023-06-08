@@ -15,7 +15,8 @@ function sc_pl_dash(){
 	//if ( !isDash ) { canMove = 0; dProcess = -1; return; }
 	
 	if ( dProcess == 1) {
-		sc_hitAfter(10);
+		var hIndex = 10 + 3*(2-global.level);
+		sc_hitAfter(hIndex);
 	}
 	
 	if ( dProcess == 4 && global.item12) {
@@ -45,8 +46,12 @@ function sc_pl_dash(){
 	ySpeed = 0;
 	
 	sc_pl_atkDnJ( 1 );
+	if ( dProcess < (2-global.level)*3.5 ) 
+	{ 
+		mobCol = false;
+	}
 	
-	if ( dProcess > 5 ) { 
+	if ( dProcess > 2 ) { 
 		if ( nextAtk == 3 ) { 
 			if (global.item4 && global.comCt >= 15)	{ canMove = 20; }
 			else							{ canMove = 3; }

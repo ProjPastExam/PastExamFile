@@ -10,6 +10,7 @@ function sc_pl_move() {
 	if (global.skKul[1] > 0) global.skKul[1]--;
 	if (global.skKul[2] > 0) global.skKul[2]--;
 	
+	mobCol = true;
 	//무적프래임 설정
 	//isImort = false;
 	//if ((dProcess >= 0 && dProcess <= 10)) isImort = true;

@@ -20,6 +20,7 @@ function sc_pl_Spawn() {
 	mobAcc	= 0;
 	
 	jumpLast = 0;
+	mobCol = true;
 	
 	//0 : 평시  1 : 기본공격
 	canMove = 0;

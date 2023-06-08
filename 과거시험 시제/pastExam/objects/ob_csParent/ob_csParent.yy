@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "csOb",
-    "path": "folders/Objects/csOb.yy",
+    "name": "ETC Cs",
+    "path": "folders/Objects/csOb/ETC Cs.yy",
   },
   "parentObjectId": null,
   "persistent": false,

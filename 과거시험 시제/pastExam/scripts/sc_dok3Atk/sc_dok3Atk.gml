@@ -31,7 +31,7 @@ function sc_dok3Atk(){
 		xSpeed = 0;
 		
 		if ( process == 1 ) { SE_Play(s_jp_cAtk, global.vol); }
-		if ( process == 125 ) {
+		if ( process == 125+lvDly ) {
 			if ( x > plX ) dir = -1;
 			else dir = 1;
 			if ( !isJump && dir == -1 && (( left1 == 3 || left2 == 3)))	

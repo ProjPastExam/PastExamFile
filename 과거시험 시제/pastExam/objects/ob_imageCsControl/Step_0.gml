@@ -1,14 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (state > 6 && isNext) {
+if (state > endIndex && isNext) {
 	isNext = false;
 	alarm[1] = 120;
 	BGM_Stop(90);
 }
 
 if (sc_getKey(global.btEsc, global.gpEsc, 0) && isNext) {
-	state = 7;
+	state = endIndex+1;
 	isNext = false;
 	alarm[1] = 120;
 	BGM_Stop(90);
