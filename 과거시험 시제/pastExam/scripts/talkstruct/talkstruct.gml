@@ -1,19 +1,18 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function talkStruct(_talkString = "", _nameS = other.nameS, _npcFace = other.npcFace, 
+function talkStruct(_hor = 0, _ver = 0, _nameHor = 0, _npcFace = other.npcFace, 
 					_talkNext = 0, _nextIndex = -1, _questionNum = 0, _questionStruct = 0
 					) constructor{
-	talkString		= _talkString;
 	talkNext		= _talkNext;
 	nextIndex		= _nextIndex;
 	questionNum		= _questionNum;
 	questionStruct	= _questionStruct;
 	npcFace			= _npcFace;
-	nameS			= _nameS;
 
 	npcInst			= other;
 	
-	
+	nameS			= sc_csvToString(other.textFile, _nameHor+global.lan, 0);
+	talkString		= sc_csvToString(other.textFile, _hor+global.lan, _ver);
 	talkFunction	= function() {
 		if (talkNext == 0) {
 			npcInst.talkCnt++;

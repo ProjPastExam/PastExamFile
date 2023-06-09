@@ -169,6 +169,7 @@
     {"name":"face","order":6,"path":"folders/Sprites/Chun/face.yy",},
     {"name":"csSprite","order":12,"path":"folders/Sprites/csSprite.yy",},
     {"name":"ETC Cs","order":8,"path":"folders/Sprites/csSprite/ETC Cs.yy",},
+    {"name":"stage01End","order":16,"path":"folders/Sprites/csSprite/stage01Cs/stage01End.yy",},
     {"name":"stage02Cs","order":5,"path":"folders/Sprites/csSprite/stage02Cs.yy",},
     {"name":"stage03Cs","order":3,"path":"folders/Sprites/csSprite/stage03Cs.yy",},
     {"name":"stage04Cs","order":6,"path":"folders/Sprites/csSprite/stage04Cs.yy",},
@@ -293,7 +294,6 @@
     {"name":"Tile Sets","order":13,"path":"folders/Tile Sets.yy",},
     {"name":"tileSprite","order":2,"path":"folders/Tile Sets/tileSprite.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
-    {"name":"stage01End","order":16,"path":"folders/Sprites/csSprite/stage01Cs/stage01End.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"ob_trapL","order":3,"path":"objects/ob_trapL/ob_trapL.yy",},

@@ -12,4 +12,5 @@ function sc_npcCreate(){
 	talkIndex	= [];
 	talkCnt		= 0;
 	isTalk		= false;
+	textFile	= load_csv(csvFile);
 }
