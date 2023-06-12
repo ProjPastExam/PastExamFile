@@ -1286,6 +1286,7 @@
     {"name":"sp_chun_face_embar_old","order":5,"path":"sprites/sp_chun_face_embar_old/sp_chun_face_embar_old.yy",},
     {"name":"Obj_Steam_Overlay_Players","order":5,"path":"objects/Obj_Steam_Overlay_Players/Obj_Steam_Overlay_Players.yy",},
     {"name":"ob_enhanceInfo","order":2,"path":"objects/ob_enhanceInfo/ob_enhanceInfo.yy",},
+    {"name":"npcTalkScript","order":6,"path":"scripts/npcTalkScript/npcTalkScript.yy",},
     {"name":"demo_stage02","order":18,"path":"rooms/demo_stage02/demo_stage02.yy",},
     {"name":"ob_text_abControl","order":8,"path":"objects/ob_text_abControl/ob_text_abControl.yy",},
     {"name":"sp_kTuto_jump","order":1,"path":"sprites/sp_kTuto_jump/sp_kTuto_jump.yy",},

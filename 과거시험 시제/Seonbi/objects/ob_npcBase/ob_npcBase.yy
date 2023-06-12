@@ -33,7 +33,6 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"csvFile","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"chunStageTalk.csv","varType":2,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"isCollision","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"talkNum","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":1,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"nameS","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":2,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"npcFace","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"sp_npc_blank","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"npcScript","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":5,},
   ],

@@ -217,12 +217,12 @@ function sc_printTalk(isTalk) {
 	
 	if (isTalk == 2) {
 		for (var i = 0; i < questionNum; i++) {
-			draw_text(280, 250 + i*70, questionString[i]);
+			draw_text(280, 250 + i*70, questionString[i].talkString[global.lan]);
 		}
 		
 		draw_sprite(sp_questionSelect, 0, 210, 280 + questionState*70);
 		draw_set_color(c_white);
-		draw_text(280, 250 + questionState*70, questionString[questionState]);
+		draw_text(280, 250 + questionState*70, questionString[questionState].talkString[global.lan]);
 		draw_set_color(c_black);
 		//draw_sprite(sc_keySprite(global.btEsc), 0, 510, 540);
 		//draw_sprite(sp_text_quite, 0, 640, 520);
