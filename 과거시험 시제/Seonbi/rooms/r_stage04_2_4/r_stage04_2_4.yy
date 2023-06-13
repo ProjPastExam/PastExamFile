@@ -61,7 +61,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_roomControl","path":"objects/ob_roomControl/ob_roomControl.yy",},"propertyId":{"name":"nextRoom","path":"objects/ob_roomControl/ob_roomControl.yy",},"value":"r_stage04BossCs1",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":1440.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D9543BD_4_2_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_rewardBox","path":"objects/ob_rewardBox/ob_rewardBox.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_rewardBox","path":"objects/ob_rewardBox/ob_rewardBox.yy",},"propertyId":{"name":"chunSpawn","path":"objects/ob_rewardBox/ob_rewardBox.yy",},"value":"ob_chun_stage02",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_rewardBox","path":"objects/ob_rewardBox/ob_rewardBox.yy",},"propertyId":{"name":"chunSpawn","path":"objects/ob_rewardBox/ob_rewardBox.yy",},"value":"ob_chun_stage04",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":9312.0,"y":864.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

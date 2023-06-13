@@ -1,18 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ob_npc_jumo_1",
+  "name": "ob_chun_stage04",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"sp_chun_face",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"talkNum","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"2",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"sp_jumo_face",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcScript","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"sc_npcJumo01",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"npcTalk.csv",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcScript","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"sc_chunSt03",},
   ],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Objects/NPC.yy",
+    "name": "chun",
+    "path": "folders/Objects/NPC/chun.yy",
   },
   "parentObjectId": {
     "name": "ob_npcBase",
@@ -34,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sp_jumo_stand",
-    "path": "sprites/sp_jumo_stand/sp_jumo_stand.yy",
+    "name": "sp_chun_stand",
+    "path": "sprites/sp_chun_stand/sp_chun_stand.yy",
   },
   "spriteMaskId": null,
   "visible": true,
