@@ -47,6 +47,17 @@ function sc_npcJumo01()
 	talkIndex		= talk1;
 }
 
+function sc_npcSmith01()
+{
+	jumoTalk1		= array_create(3);
+
+	jumoTalk1[@0]	= new talkStruct("4대째 대장간을 이어가고 있는 김개똥이오.");
+	jumoTalk1[@1]	= new talkStruct("이곳에서 소지품을 강화할 수 있소.");
+	jumoTalk1[@2]	= new talkStruct(,,,1 , jumoTalk1)
+							
+talkIndex		= jumoTalk1;
+}
+
 function sc_npcChild()
 {
 	talk1		= array_create(3);
@@ -56,24 +67,24 @@ function sc_npcChild()
 	qst1		= array_create(2);
 	qst1Index	= array_create(2);
 	
-	qst1[@0]	= "지난번에 만난 이후로 어떻게 지냈는지";
-	qst1[@1]	= "백마산 왜군에 대해";
+	qst1[@0]	= new questionStruct(10,3);
+	qst1[@1]	= new questionStruct(10,4);
 	qst1Index[@0]	= talkq1;
 	qst1Index[@1]	= talkq2;
 	
 	
-	talk1[@0]	= new talkStruct("아... 아저씨는..?");
-	talk1[@1]	= new talkStruct(,,,2,,2,qst1);
-	talk1[@2]	= new talkStruct(,,,3,qst1Index);
+	talk1[@0]	= new talkStruct(10,1,3);
+	talk1[@1]	= new talkStruct(,,,,2,,2,qst1);
+	talk1[@2]	= new talkStruct(,,,,3,qst1Index);
 	
-	talkq1[@0]	= new talkStruct("... 전 무사히 마을에 도착해서, \n주막 아줌마의 도움으로 지내고 있었어요.");
-	talkq1[@1]	= new talkStruct("하지만... 왜놈들에게 잡힌 가족들은 \n아직 소식이 없어요....");
-	talkq1[@2]	= new talkStruct("....훌쩍");
+	talkq1[@0]	= new talkStruct(10,9,3);
+	talkq1[@1]	= new talkStruct(10,10,3);
+	talkq1[@2]	= new talkStruct(10,11,3);
 	talkq1[@3]	= new talkStruct(,,,1 , talk1);
 	
-	talkq2[@0]	= new talkStruct("가족과 함께 백마산을 지나던 중, \n왜놈들에게 습격을 받았어요...");
-	talkq2[@1]	= new talkStruct("놈들은 우리 가족들을 납치해, \n깊은 동굴 속으로 끌고 갔어요...");
-	talkq2[@2]	= new talkStruct("....훌쩍");
+	talkq2[@0]	= new talkStruct(10,13,3);
+	talkq2[@1]	= new talkStruct(10,14,3);
+	talkq2[@2]	= new talkStruct(10,15,3);
 	talkq2[@3]	= new talkStruct(,,,1 , talk1);
 								
 	talkIndex		= talk1;
