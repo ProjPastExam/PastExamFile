@@ -37,6 +37,7 @@ function sc_stage04VilCs(){
 			
 		case 3:
 			alarm[1] = 60;
+			SE_Play(s_chun_reward, global.vol);
 			isTalk = 4;
 			break;
 			

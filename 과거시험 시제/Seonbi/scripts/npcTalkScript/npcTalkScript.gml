@@ -160,5 +160,33 @@ function sc_npcGab()
 
 function sc_npcOfficer()
 {
+	talk1		= array_create(3);
+	talkq1		= array_create(4);
+	talkq2		= array_create(4);
+	//talkq3		= array_create(5);
 	
+	qst1		= array_create(2);
+	qst1Index	= array_create(2);
+	
+	qst1[@0]	= new questionStruct(22,3);
+	qst1[@1]	= new questionStruct(22,4);
+	qst1Index[@0]	= talkq1;
+	qst1Index[@1]	= talkq2;
+	
+	
+	talk1[@0]	= new talkStruct(22,1,6);
+	talk1[@1]	= new talkStruct(,,6,,2,,2,qst1);
+	talk1[@2]	= new talkStruct(,,6,,3,qst1Index);
+	
+	talkq1[@0]	= new talkStruct(22,9,6);
+	talkq1[@1]	= new talkStruct(22,10,6);
+	talkq1[@2]	= new talkStruct(22,11,6);
+	talkq1[@3]	= new talkStruct(,,,,1 , talk1);
+	
+	talkq2[@0]	= new talkStruct(22,13,6);
+	talkq2[@1]	= new talkStruct(22,14,6);
+	talkq2[@2]	= new talkStruct(22,15,6);
+	talkq2[@3]	= new talkStruct(,,,,1 , talk1);
+								
+	talkIndex		= talk1;
 }
