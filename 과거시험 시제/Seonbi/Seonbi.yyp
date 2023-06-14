@@ -2352,6 +2352,7 @@
     {"id":{"name":"ob_smithCoin","path":"objects/ob_smithCoin/ob_smithCoin.yy",},},
     {"id":{"name":"sp_kTuto_move","path":"sprites/sp_kTuto_move/sp_kTuto_move.yy",},},
     {"id":{"name":"sp_jpBoss_walk","path":"sprites/sp_jpBoss_walk/sp_jpBoss_walk.yy",},},
+    {"id":{"name":"ob_chun_stage04Vil","path":"objects/ob_chun_stage04Vil/ob_chun_stage04Vil.yy",},},
     {"id":{"name":"sp_tabSkInter","path":"sprites/sp_tabSkInter/sp_tabSkInter.yy",},},
     {"id":{"name":"sp_talkNug","path":"sprites/sp_talkNug/sp_talkNug.yy",},},
     {"id":{"name":"uc_get_mouse_shooter_acceleration","path":"scripts/uc_get_mouse_shooter_acceleration/uc_get_mouse_shooter_acceleration.yy",},},

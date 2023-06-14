@@ -2084,6 +2084,7 @@
     {"name":"sc_csvToString","order":28,"path":"scripts/sc_csvToString/sc_csvToString.yy",},
     {"name":"ob_smithCoin","order":7,"path":"objects/ob_smithCoin/ob_smithCoin.yy",},
     {"name":"sp_jpBoss_walk","order":3,"path":"sprites/sp_jpBoss_walk/sp_jpBoss_walk.yy",},
+    {"name":"ob_chun_stage04Vil","order":10,"path":"objects/ob_chun_stage04Vil/ob_chun_stage04Vil.yy",},
     {"name":"sp_tabSkInter","order":9,"path":"sprites/sp_tabSkInter/sp_tabSkInter.yy",},
     {"name":"sp_talkNug","order":3,"path":"sprites/sp_talkNug/sp_talkNug.yy",},
     {"name":"sp_banditBoss_backStep","order":15,"path":"sprites/sp_banditBoss_backStep/sp_banditBoss_backStep.yy",},
