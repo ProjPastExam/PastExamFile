@@ -209,7 +209,7 @@ function sc_printTalk(isTalk) {
 	draw_text_transformed(270, 160, nameS, 1.3, 1.3, 0);
 	
 	if (isTalk == 1) {
-		draw_text_ext(280, 250, talkString, 65, 1200);
+		draw_text_ext(280, 250, talkString, 65, 1100);
 		
 		//draw_sprite(sc_keySprite(global.btEsc), 0, 510, 540);
 		//draw_sprite(sp_text_quite, 0, 640, 520);
@@ -229,6 +229,6 @@ function sc_printTalk(isTalk) {
 	}
 	
 	if (isTalk == 5) {
-		draw_text_ext(280, 250, talkArray[0], 65, 1200);
+		draw_text_ext(280, 250, talkArray[0], 65, 1100);
 	}
 }

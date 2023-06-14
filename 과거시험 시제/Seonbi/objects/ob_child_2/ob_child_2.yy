@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sp_cs02_IStand",
-    "path": "sprites/sp_cs02_IStand/sp_cs02_IStand.yy",
+    "name": "sp_child_stand",
+    "path": "sprites/sp_child_stand/sp_child_stand.yy",
   },
   "spriteMaskId": null,
   "visible": true,

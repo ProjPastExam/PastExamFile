@@ -111,30 +111,53 @@ function sc_stage04VilCs(){
 			break;
 			
 		case 16:
-			sc_csBase(0, 5, sp_officer1_face, sx, sy);
+			ob_roomControl.isTalk = 8;
+			sc_csBase2(sx, sy);
+			isTalk = 5;
+			alarm[1] = 120;
 			break;
 			
 		case 17:
+			sc_csBase(0, 5, sp_officer1_face, sx, sy);
+			break;
+			
+		case 18:
+			sc_csBase(0, 6, sp_officer1_face, sx, sy);
+			isTalk = 7
+			break;
+			
+		case 19:
+			ob_roomControl.isTalk = 7;
+			sc_csBase2(ii, iy);
+			isTalk = 5;
+			alarm[1] = 120;
+			break;
+			
+		case 20:
+			sc_csBase(0, 7, sp_chun_face_silence, ii, iy);
+			break;
+			
+		case 21:
 			ob_roomControl.isTalk = 8;
 			sc_csBase2(x, 560);
 			isTalk = 4;
 			alarm[1] = 120;
 			break;
 			
-		case 18:
+		case 22:
 			sprite_index = sp_cs02_plStand;
 			image_index = 0
 			isTalk = 4;
 			alarm[1] = 40;
 			break;
 			
-		case 19:
+		case 23:
 			sprite_index = sp_pl_standPeace;
 			isTalk = 4;
 			alarm[1] = 120;
 			break;
 			
-		case 20:
+		case 24:
 			ob_roomControl.alarm[7] = 1;
 			break;
 		
