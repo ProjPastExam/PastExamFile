@@ -1,11 +1,14 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_stage01Cs(){
+function sc_ending2Cs(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
 	
-	var hang1 = 1088;
-	var hang2 = 800;
+	var vstX	= 1749;
+	var vstY	= 420;
+	
+	var ppX		= 960;
+	var ppY		= 600;
 	
 	if (state == 4) x += 9;
 	else if (state == 5) {
