@@ -3,4 +3,4 @@
 isTalk = 4;
 active = true;
 process = 0;
-textFile = load_csv(csvFile);
+sc_dialogueDataLoad();

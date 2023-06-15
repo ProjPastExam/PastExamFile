@@ -30,8 +30,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "ETC Cs",
-    "path": "folders/Sprites/csSprite/ETC Cs.yy",
+    "name": "endingCs",
+    "path": "folders/Sprites/csSprite/endingCs.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

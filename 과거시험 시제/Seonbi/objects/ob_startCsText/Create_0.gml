@@ -3,7 +3,7 @@
 
 printText = "";
 state = 0;
-textFile = load_csv("opening.csv");
+textFile = load_csv("dialogueData\\opening.csv");
 
 printText = sc_csvToString(textFile, global.lan, imageNum+1);
 
