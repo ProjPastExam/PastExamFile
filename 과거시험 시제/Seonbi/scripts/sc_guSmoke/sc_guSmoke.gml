@@ -5,7 +5,7 @@ function sc_guSmoke(procIndex, smokeIndex){
 	{
 		smokeSp = sp_guSmoke1;
 		if (smokeIndex == 2)	smokeSp = sp_guSmoke2;
-		with (instance_create_layer(x, y+hitLot, "effect", ob_guSmoke)) {
+		with (instance_create_layer(x, bbox_bottom-50, "effect", ob_guSmoke)) {
 			ob = other.id;
 			sprite_index = other.smokeSp;
 		}

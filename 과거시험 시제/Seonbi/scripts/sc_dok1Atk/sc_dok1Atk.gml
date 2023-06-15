@@ -31,7 +31,7 @@ function sc_dok1Atk(){
 		
 		if ( process == 1 ) 
 		{ 
-			SE_Play(s_jp_cAtk, global.vol); 
+			SE_Play(s_dok1Atk, global.vol); 
 			var i = irandom_range(0, 1);
 			if (i == 0 && !isJump) ySpeed = -16;
 		}

@@ -8,6 +8,8 @@ isTemp = false;
 
 isPace = true;
 
+remMob = 0;
+
 mobStack = array_create(paceMax);
 mobNum = array_create(paceMax, -1);
 

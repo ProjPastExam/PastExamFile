@@ -15,9 +15,6 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		if ( process == 1 ) { 
 			sc_dieBandit1();
 		}
-		if ( process == 1 ) { 
-			sc_dieBandit1();
-		}
 		if ( process < 8 ) { image_index = 0; xSpeed = -1 * dir * 15; }
 		else if ( process < 16 ) { image_index = 1; xSpeed = -1 * dir * 10; }
 		else if ( process < 24 ) { image_index = 2; xSpeed = -1 * dir * 5; }
@@ -25,8 +22,8 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		{ 
 			image_index = 3; 
 			xSpeed = 0; 
-			sc_guSmoke(80, 1);
 		}
+		sc_guSmoke(80, 1);
 	}
 	sc_mobfixlotation();
 	sc_obPhysics();

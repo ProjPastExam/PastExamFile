@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "sp_st05_rock01",
   "bbox_bottom": 554,
-  "bbox_left": 0,
-  "bbox_right": 959,
-  "bbox_top": 6,
+  "bbox_left": 3,
+  "bbox_right": 956,
+  "bbox_top": 9,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"65635502-5350-49be-ac27-89b00a7dc8ce",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a7eaa6bc-deb9-4af8-9ee4-906e0c003762",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 561,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fd1e4a33-4ddc-421a-b2b4-68cff13d1e0d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e6a2fb64-b498-4685-be94-77ee835e1b2e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"65635502-5350-49be-ac27-89b00a7dc8ce","path":"sprites/sp_st05_rock01/sp_st05_rock01.yy",},},},"Disabled":false,"id":"9b0a3c35-bc65-4e85-af9d-59c3ae904398","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a7eaa6bc-deb9-4af8-9ee4-906e0c003762","path":"sprites/sp_st05_rock01/sp_st05_rock01.yy",},},},"Disabled":false,"id":"10adb30d-7e3d-47b1-b575-f616f81f82a3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -35,6 +35,8 @@ for (var i = 0; i < mobNum[pace]; i++) {
 		mob.delay = 50
 		mob.isJump = true;
 		mob.xSpeed = tempSpd;
+		
+		remMob++;
 	}
 }
 

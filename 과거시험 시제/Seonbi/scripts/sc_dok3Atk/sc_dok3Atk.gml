@@ -30,8 +30,9 @@ function sc_dok3Atk(){
 		sprite_index = sp_dok3_atk;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { SE_Play(s_jp_cAtk, global.vol); }
+		if ( process == 1 ) { SE_Play(s_dok3Atk1, global.vol); }
 		if ( process == 125+lvDly ) {
+			SE_Play(s_dok3Atk2, global.vol);
 			if ( x > plX ) dir = -1;
 			else dir = 1;
 			if ( !isJump && dir == -1 && (( left1 == 3 || left2 == 3)))	
@@ -113,7 +114,7 @@ function sc_dok3Atk(){
 		
 		isDA = true;	isDK = true;
 		
-		if ( process == 1 ) { SE_Play(s_jp_cAtk, global.vol); }
+		if ( process == 30 ) { SE_Play(s_dok3Atk2, global.vol); }
 		
 		if ( process = 65+lvDly ) { 
 			SE_Play(s_swing_b1, global.vol);

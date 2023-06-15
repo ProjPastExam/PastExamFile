@@ -33,7 +33,7 @@ function sc_mobSpawn(){
 	atkDot		= 0;
 	kickDot		= 0;
 	fireDot		= 0;
-	
+
 	lvDly		= 0;
 	if (global.level == 0)		lvDly = 12;
 	else if (global.level == 1)	lvDly = 6;

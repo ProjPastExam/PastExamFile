@@ -32,7 +32,7 @@ function sc_dok4Atk(){
 		xSpeed = 0;
 		isDA = true;	isDK = true;
 		
-		if ( process == 1 ) { SE_Play(s_jp_cAtk, global.vol); }
+		if ( process == 1 ) { SE_Play(s_dok4Atk, global.vol); }
 		if ( process == 44+lvDly ) { 
 			SE_Play(s_swing_b1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtkTrack);

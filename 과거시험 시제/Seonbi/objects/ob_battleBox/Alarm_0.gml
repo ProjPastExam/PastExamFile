@@ -3,7 +3,7 @@
 if ( sc_getRoomValue("pause") == 0 ) {
 	if (isActive) {
 		if (pace < paceMax) {
-			if (isTerm || ob_roomControl.mobNum <= 0) {
+			if (isTerm || remMob <= 0) {
 				if (isPace) {
 					alarm[1] = 30;
 					isPace = false;
@@ -13,7 +13,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		else {
 			if (isTemp) {
 				with (ob_roomControl) {
-					if (mobNum <= 0)	cmMode = 0;
+					if (other.remMob <= 0)	cmMode = 0;
 				}
 			}
 		}
@@ -23,4 +23,5 @@ if ( sc_getRoomValue("pause") == 0 ) {
 else {
 	image_speed = 0;
 }
+isMob = false;
 alarm[0] = 1;

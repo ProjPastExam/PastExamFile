@@ -7,6 +7,10 @@ function sc_boxMob(){
 		{
 			depth = 100;
 			instance_create_layer(x, y, "Instances", mobIndex);
+			with (ob_battleBox)
+			{
+				remMob++;
+			}
 		}
 		
 		sprite_index = dieSp;

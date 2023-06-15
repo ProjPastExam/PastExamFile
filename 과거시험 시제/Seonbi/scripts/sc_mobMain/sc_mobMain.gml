@@ -10,6 +10,10 @@ function sc_mobMain(){
 	if ( hp <= 0 ) { 
 		state = -1; process = 0; hitAfter = -1;
 		if (!isDie) {
+			with (ob_battleBox)
+			{
+				remMob--;
+			}
 			//var plX = sc_pl_get("x");
 			//if (x > plX) dir = -1;
 			//else dir = 1;

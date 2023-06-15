@@ -4,8 +4,8 @@
   "name": "sp_st05_rock02",
   "bbox_bottom": 569,
   "bbox_left": 3,
-  "bbox_right": 953,
-  "bbox_top": 6,
+  "bbox_right": 950,
+  "bbox_top": 9,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"33ea2917-770c-4a4f-b082-26d8655ef211",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0c2bc58d-91b2-498d-8048-f9a2b3581a99",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 576,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"586947b5-a968-4331-b69f-ca23e91a1db6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4d77a2e4-4cf9-463a-a914-85ff87ed9804","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"33ea2917-770c-4a4f-b082-26d8655ef211","path":"sprites/sp_st05_rock02/sp_st05_rock02.yy",},},},"Disabled":false,"id":"708409e7-7cbf-4f05-9dde-9c98fe7d0ec0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0c2bc58d-91b2-498d-8048-f9a2b3581a99","path":"sprites/sp_st05_rock02/sp_st05_rock02.yy",},},},"Disabled":false,"id":"9aa2e56e-c853-478c-abb3-14bfd08ea5ce","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
