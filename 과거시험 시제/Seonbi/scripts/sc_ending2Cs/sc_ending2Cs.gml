@@ -12,7 +12,7 @@ function sc_ending2Cs(){
 	
 	if (state == 4) x += 9;
 	else if (state == 5) {
-		process++
+		process++;
 		x += 30;
 		if ( process % 4 == 0 ) { 
 			part_type_sprite(global.dashEf, sp_pl_dash, true, true, false);
@@ -59,7 +59,7 @@ function sc_ending2Cs(){
 			alarm[1] = 210;
 			isTalk = 5;
 			break;
-			
+			 
 		case 1:
 			BGM_Play(s_mB01_1, global.volBgm, 0);
 			sc_csBase(0, 1, sp_bandit_face, hang1, 580);
