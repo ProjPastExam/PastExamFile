@@ -5,8 +5,9 @@ BGS_Set(0, 0);
 instance_create_depth(0, 0, 0, ob_gamepadSlot);
 randomize();
 
-pause = 0;
-slow = 0;
+isTalk	= 0;
+pause	= 0;
+slow	= 0;
 alarm[0] = 1;
 
 talkX	= 0;
@@ -74,7 +75,10 @@ if (isRanStage) {
 }
 
 global.stage	= stage;
-
+if (isCt && csMgIndex != -1)
+{
+	sc_csManage(csMgIndex);
+}
 
 //파티클 시스템
 

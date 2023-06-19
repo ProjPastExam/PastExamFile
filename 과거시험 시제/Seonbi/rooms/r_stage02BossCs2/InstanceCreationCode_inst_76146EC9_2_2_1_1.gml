@@ -1,1 +1,0 @@
-sc_csManage(15, 16);

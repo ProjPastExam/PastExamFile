@@ -1,1 +1,0 @@
-sc_csManage(5, 6);

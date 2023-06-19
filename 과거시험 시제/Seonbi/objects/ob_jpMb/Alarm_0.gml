@@ -18,7 +18,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 			else SE_Play(s_jpBdie3, global.vol);
 			alarm[4] = 120;
 			
-			if (global.clearStage == -1) {
+			if (global.clearStage < 0) {
 				global.clearStage = 0;
 				VSLS_SetAndSave("clearStage", 0, "saveFile");
 			}
