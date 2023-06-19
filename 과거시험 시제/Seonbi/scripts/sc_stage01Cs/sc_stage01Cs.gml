@@ -143,6 +143,7 @@ function sc_stage01Cs(){
 			break;
 			
 		case 16:
+			SE_Play(s_chun_reward, global.vol);
 			alarm[1] = 56;
 			break;
 			
