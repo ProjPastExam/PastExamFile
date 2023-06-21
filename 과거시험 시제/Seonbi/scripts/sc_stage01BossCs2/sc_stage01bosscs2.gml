@@ -8,6 +8,7 @@ function sc_stage01BossCs2(){
 	var ii = 720;
 	var iy = 540
 
+	var csvHor = 16;
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
 		active = false;
@@ -18,11 +19,11 @@ function sc_stage01BossCs2(){
 			break;
 			
 		case 1:
-			sc_csBase(8, 1, sp_chun_face_laugh, 480, iy);
+			sc_csBase(csvHor, 1, sp_chun_face_laugh, 480, iy);
 			break;
 			
 		case 2:
-			sc_csBase(8, 2, sp_chun_face_smile, 480, iy);
+			sc_csBase(csvHor, 2, sp_chun_face_smile, 480, iy);
 			break;
 			
 		case 3:
@@ -74,13 +75,16 @@ function sc_stage01BossCs2(){
 			
 		case 11:
 			ob_roomControl.isTalk = 8;
-			sc_csBase2(1320, 520);
+			sc_csBase2(x, 580);
 			isTalk = 5;
 			alarm[1] = 120;
 			break;
 			
 		case 12:
-			sc_csBase(8, 3, sp_chun_face_silence, 1320, 520);
+			ob_roomControl.isTalk = 8;
+			sc_csBase2(1320, 520);
+			isTalk = 5;
+			alarm[1] = 120;
 			break;
 			
 		case 13:

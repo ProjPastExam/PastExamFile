@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "clear",
-    "path": "folders/Objects/gameControl/clear.yy",
+    "path": "folders/Objects/csOb/clear.yy",
   },
   "parentObjectId": {
     "name": "ob_clearParent",

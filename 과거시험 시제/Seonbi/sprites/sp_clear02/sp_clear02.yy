@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "clear",
-    "path": "folders/Sprites/interface/clear.yy",
+    "path": "folders/Sprites/csSprite/clear.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
