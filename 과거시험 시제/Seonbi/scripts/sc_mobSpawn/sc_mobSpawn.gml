@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_mobSpawn(){
-	hp			= hpFull;
+	
 	state		= 0;
 	hitAfter	= 0;
 	//hitAfter2	= 0;
@@ -35,8 +35,21 @@ function sc_mobSpawn(){
 	fireDot		= 0;
 
 	lvDly		= 0;
-	if (global.level == 0)		lvDly = 12;
-	else if (global.level == 1)	lvDly = 6;
+	if (global.level == 0)
+	{
+		lvDly = 12;
+		hpFull -= hpFull/5;
+	}
+	else if (global.level == 1)	
+	{
+		lvDly = 6;
+	}
+	else
+	{
+		hpFull += hpFull/5;
+	}
+	
+	hp			= hpFull;
 	
 	if (isHpUI) {
 		global.uiHp = hp;

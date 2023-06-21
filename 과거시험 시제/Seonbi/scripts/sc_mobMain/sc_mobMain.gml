@@ -17,7 +17,7 @@ function sc_mobMain(){
 			//var plX = sc_pl_get("x");
 			//if (x > plX) dir = -1;
 			//else dir = 1;
-			moneyDropVar = int64(moneyDrop * (100 + irandom_range(0, 40)) / 100);
+			moneyDropVar = round(moneyDrop * (100 + irandom_range(0, 20) + global.level*20) / 100);
 			
 			global.money += moneyDropVar;
 			global.moneyBuffer += moneyDropVar;
@@ -27,7 +27,8 @@ function sc_mobMain(){
 			}
 			
 			if (global.clearStage >= 5) {
-				global.abSoul += int64(moneyDropVar/5) + global.level;
+				var soulIndex = round(soulDrop*(1 + global.level/5));
+				global.abSoul += soulIndex;
 				VSLS_SetAndSave("abSoul", global.abSoul, "saveFile");
 			}
 			
@@ -36,7 +37,7 @@ function sc_mobMain(){
 				global.hp++;	
 				instance_create_layer(0, 0, "effect", ob_healEf);	
 			}
-			
+			/*
 			if (!isHpUI && global.level < 2) {
 				var ran		= irandom_range(0, 99);
 				var ran2	= sqrt(global.hpMax - global.hp)*8;
@@ -44,6 +45,7 @@ function sc_mobMain(){
 					instance_create_layer(x, y, "effect", ob_heart);
 				}
 			}
+			*/
 			
 			image_xscale = dir;
 			isDie = true;

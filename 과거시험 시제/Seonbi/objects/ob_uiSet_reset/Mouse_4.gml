@@ -26,8 +26,8 @@ global.hpY	= 160;
 VSLS_Set("hpX", global.hpX);
 VSLS_Set("hpY", global.hpY);
 
-global.moneyX	= 945;
-global.moneyY	= 25;
+global.moneyX	= 180;
+global.moneyY	= 1060;
 VSLS_Set("moneyX", global.moneyX);
 VSLS_Set("moneyY", global.moneyY);
 

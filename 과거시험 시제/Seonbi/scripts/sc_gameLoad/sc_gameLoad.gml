@@ -88,8 +88,8 @@ function sc_gameLoad(){
 	if (VSLS_Get("comY") == undefined)		VSLS_Set("comY", 390);
 	if (VSLS_Get("hpX") == undefined)		VSLS_Set("hpX", 1700);
 	if (VSLS_Get("hpY") == undefined)		VSLS_Set("hpY", 160);
-	if (VSLS_Get("moneyX") == undefined)	VSLS_Set("moneyX", 945);
-	if (VSLS_Get("moneyY") == undefined)	VSLS_Set("moneyY", 25);
+	if (VSLS_Get("moneyX") == undefined)	VSLS_Set("moneyX", 180);
+	if (VSLS_Get("moneyY") == undefined)	VSLS_Set("moneyY", 1060);
 	}
 	
 	VSLS_File_Save("saveFile");
