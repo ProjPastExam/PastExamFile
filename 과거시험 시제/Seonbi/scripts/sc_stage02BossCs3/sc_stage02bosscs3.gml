@@ -7,6 +7,8 @@ function sc_stage02BossCs3(){
 	var ii = 720;
 	var iy = 500;
 	
+	var csvHor = 24;
+	
 	if (state == 4)	{ x += 5; }
 
 	
@@ -19,11 +21,11 @@ function sc_stage02BossCs3(){
 			break;
 			
 		case 1:
-			sc_csBase(12, 1, sp_chun_face_laugh, 890, iy);
+			sc_csBase(csvHor, 1, sp_chun_face_laugh, 890, iy);
 			break;
 			
 		case 2:
-			sc_csBase(12, 2, sp_chun_face_smile, 890, iy);
+			sc_csBase(csvHor, 2, sp_chun_face_smile, 890, iy);
 			break;
 			
 		case 3:
@@ -37,13 +39,13 @@ function sc_stage02BossCs3(){
 			sprite_index = sp_pl_walk;
 			image_xscale = 1;
 			isTalk = 4;
-			alarm[1] = 240;
+			alarm[1] = 230;
 			break;
 			
 		case 5:
 			BGS_Set(0, 0);
 			isTalk = 4;
-			alarm[1] = 90;
+			alarm[1] = 120;
 			break;
 			
 		case 6:
@@ -60,13 +62,19 @@ function sc_stage02BossCs3(){
 			
 		case 8:
 			BGM_Play(s_mCs_normal, global.volBgm, 0);
-			sc_csBase(12, 3, sp_st02Cs_kim_face, 770, iy);
+			sc_csBase(csvHor, 3, sp_st02Cs_kim_face, 770, iy);
 			break;
 			
 		case 9:
-			sc_csBase(12, 4, sp_st02Cs_kim_face, 770, iy);
+			sc_csBase(csvHor, 4, sp_st02Cs_kim_face, 770, iy);
 			break;
 			
+		case 10:
+			ob_roomControl.isTalk = 4;
+			ob_roomControl.alarm[7] = 1;
+			break;
+			
+		/*
 		case 10:
 			sc_csBase(12, 5, sp_st02Cs_kim_face, 770, iy);
 			break;
@@ -120,6 +128,8 @@ function sc_stage02BossCs3(){
 		case 20:
 			ob_roomControl.alarm[7] = 1;
 			break;
+			
+		*/
 		
 		}
 	}

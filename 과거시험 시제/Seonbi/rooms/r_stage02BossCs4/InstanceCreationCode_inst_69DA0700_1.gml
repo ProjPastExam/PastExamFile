@@ -1,0 +1,1 @@
+if (global.clearStage == 20) nextRoom = r_stage02Clear;

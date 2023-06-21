@@ -6,7 +6,8 @@ function sc_stage02BossCs2(){
 	
 	var ii = 720;
 	var iy = 540
-
+	
+	var csvHor = 16;
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
 		active = false;
@@ -17,15 +18,15 @@ function sc_stage02BossCs2(){
 			break;
 			
 		case 1:
-			sc_csBase(8, 1, sp_st02Cs_npc1_face, 1110, iy);
+			sc_csBase(csvHor, 1, sp_st02Cs_npc1_face, 1110, iy);
 			break;
 			
 		case 2:
-			sc_csBase(8, 2, sp_st02Cs_npc3_face, 1240, iy);
+			sc_csBase(csvHor, 2, sp_st02Cs_npc3_face, 1240, iy);
 			break;
 			
 		case 3:
-			sc_csBase(8, 3, sp_st02Cs_npc2_face, 1370, iy);
+			sc_csBase(csvHor, 3, sp_st02Cs_npc2_face, 1370, iy);
 			break;
 			
 		case 4:

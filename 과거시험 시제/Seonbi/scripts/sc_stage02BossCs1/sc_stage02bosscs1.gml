@@ -9,6 +9,8 @@ function sc_stage02BossCs1(){
 		with (ob_player) { x += 5; }
 	}
 	
+	var csvHor = 8;
+	
 	var ii = 1520;
 	var iy = 450;
 
@@ -47,11 +49,11 @@ function sc_stage02BossCs1(){
 			break;
 			
 		case 5:
-			sc_csBase(4, 1, sp_chun_face_angry, -500, iy);
+			sc_csBase(csvHor, 1, sp_chun_face_angry, -500, iy);
 			break;
 		
 		case 6:
-			sc_csBase(4, 2, sp_chun_face_angry, -500, iy);
+			sc_csBase(csvHor, 2, sp_chun_face_angry, -500, iy);
 			break;
 			
 		case 7:
@@ -69,15 +71,15 @@ function sc_stage02BossCs1(){
 			break
 		
 		case 9:
-			sc_csBase(4, 3, sp_jpBoss_face, ii, iy);
+			sc_csBase(csvHor, 3, sp_jpBoss_face, ii, iy);
 			break;
 		
 		case 10:
-			sc_csBase(4, 4, sp_jpBoss_face, ii, iy);
+			sc_csBase(csvHor, 4, sp_jpBoss_face, ii, iy);
 			break;
 			
 		case 11:
-			sc_csBase(4, 5, sp_jpBoss_face, ii, iy);
+			sc_csBase(csvHor, 5, sp_jpBoss_face, ii, iy);
 			break;
 			
 		case 12:
