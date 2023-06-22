@@ -4,22 +4,22 @@ function sc_stage03BossCs3(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
 	
-	if (state == 2 && alarm[1] = 135) {
+	if (state == 2 && alarm[1] = 115) {
 		uc_shake(10, 0.1);
 		SE_Play(s_st3_boss3, global.vol);
 	}
 	
-	if (state == 2 && alarm[1] = 45) {
+	if (state == 2 && alarm[1] = 60) {
 		uc_shake(12, 0.1);
 		SE_Play(s_st3_boss1, global.vol);
 	}
 	
-	if (state == 4 && alarm[1] = 145) {
+	if (state == 4 && alarm[1] = 95) {
 		uc_shake(12, 0.1);
 		SE_Play(s_st3_boss2, global.vol);
 	}
 	
-	if (state == 4 && alarm[1] = 25) {
+	if (state == 4 && alarm[1] = 15) {
 		uc_shake(8, 0.1);
 		SE_Play(s_st3_boss4, global.vol);
 	}
@@ -40,19 +40,19 @@ function sc_stage03BossCs3(){
 			break;
 			
 		case 2:
-			alarm[1] = 240;
+			alarm[1] = 180;
 			sprite_index = sp_stage03BossCs2Cs1;
 			image_index = 0;
 			break;
 			
 		case 3:
-			alarm[1] = 120;
+			alarm[1] = 100;
 			sprite_index = sp_stage03BossCs2Cs2;
 			image_index = 0;
 			break;
 			
 		case 4:
-			alarm[1] = 180;
+			alarm[1] = 120;
 			sprite_index = sp_stage03BossCs2Cs3;
 			image_index = 0;
 			break;

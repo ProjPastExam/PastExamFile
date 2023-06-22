@@ -145,7 +145,12 @@ function sc_printMoney(var_mode = 0) {
 			draw_set_halign(fa_left);
 			draw_text(global.moneyX + 0, global.moneyY+2, global.abPointMax);
 			
-			if (global.abPointMax < 40) {
+			var lIndex = true;
+			if (global.abPointMax >= 40 && global.clearStage < 25 )	lIndex = false;
+			if (global.abPointMax >= 50 && global.clearStage < 45 )	lIndex = false;
+			if (global.abPointMax >= 60)							lIndex = false;
+			
+			if (lIndex) {
 				draw_set_halign(fa_right);
 				draw_text(global.moneyX + 100, global.moneyY+2, abSoulPrint);
 				draw_text(global.moneyX + 115, global.moneyY+2, "/");
@@ -167,7 +172,12 @@ function sc_printMoney(var_mode = 0) {
 			draw_set_halign(fa_left);
 			draw_text(global.moneyX + 0, global.moneyY, global.abPointMax);
 			
-			if (global.abPointMax < 40) {
+			var lIndex = true;
+			if (global.abPointMax >= 40 && global.clearStage < 25 )	lIndex = false;
+			if (global.abPointMax >= 50 && global.clearStage < 45 )	lIndex = false;
+			if (global.abPointMax >= 60)							lIndex = false;
+			
+			if (lIndex) {
 				draw_set_halign(fa_right);
 				draw_text(global.moneyX + 100, global.moneyY, global.abSoul);
 				draw_text(global.moneyX + 115, global.moneyY, "/");

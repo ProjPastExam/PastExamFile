@@ -85,6 +85,22 @@ function sc_gameControlCreate() {
 }
 
 function sc_set_abSoulMax() {
-	global.abSoulMax = (global.abPointMax * 15);
-	if (global.abSoulMax > 999) global.abSoulMax = 999;
+	global.abSoulMax = (global.abPointMax * 12);
+	if (global.abSoulMax > 500) global.abSoulMax = 500;
+}
+
+function sc_abSoulLvUp()
+{
+	global.abPointMax++;
+	global.abPoint++;
+	global.abSoul -= global.abSoulMax;
+	VSLS_Set("abPointMax", global.abPointMax);
+	VSLS_Set("abPoint", global.abPoint);
+	VSLS_Set("abSoul", global.abSoul);
+	VSLS_File_Save("saveFile");
+	sc_set_abSoulMax();
+	with (ob_player)
+	{
+		instance_create_layer(x, y, "effect", ob_plLvUpEf);
+	}
 }

@@ -40,11 +40,18 @@ npcFace = sp_npc_blank;
 moneyPrint	= global.money;
 abSoulPrint	= global.abSoul;
 global.moneyBuffer = 0;
-if (global.abPointMax >= 40) {
+
+var lIndex	= true;
+var lIndex2	= 40;
+if (global.abPointMax >= 40 && global.clearStage < 25 )	{ lIndex = false; }
+if (global.abPointMax >= 50 && global.clearStage < 45 )	{ lIndex = false;	lIndex2 = 50; }
+if (global.abPointMax >= 60)							{ lIndex = false;	lIndex2 = 60; }
+
+if (!lIndex) {
 	global.abSoul = 0;
-	global.abPointMax = 40;
+	global.abPointMax = lIndex2;
 	VSLS_SetAndSave("abSoul", 0, "saveFile");
-	VSLS_SetAndSave("abPointMax", 40, "saveFile");
+	VSLS_SetAndSave("abPointMax", lIndex2, "saveFile");
 }
 
 ctIndex = 0;

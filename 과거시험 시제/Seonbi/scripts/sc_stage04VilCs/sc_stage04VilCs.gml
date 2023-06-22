@@ -23,7 +23,7 @@ function sc_stage04VilCs(){
 		case 1:
 			BGS_Play(s_foot, global.vol, 30);
 			isTalk = 5;
-			alarm[1] = 120;
+			alarm[1] = 115;
 			break;
 			
 		case 2:
@@ -69,7 +69,7 @@ function sc_stage04VilCs(){
 			BGS_Play(s_foot, global.vol, 30);
 			sprite_index = sp_pl_walk;
 			isTalk = 4;
-			alarm[1] = 150;
+			alarm[1] = 145;
 			break;
 		
 		case 9:

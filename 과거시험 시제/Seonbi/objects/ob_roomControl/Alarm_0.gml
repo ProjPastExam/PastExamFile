@@ -109,15 +109,14 @@ if (isSmith) {
 	sc_gameRoom(r_smith);
 }
 
-if (global.abSoulMax <= global.abSoul && global.abPointMax < 40) {
-	global.abPointMax++;
-	global.abPoint++;
-	global.abSoul -= global.abSoulMax;
-	VSLS_Set("abPointMax", global.abPointMax);
-	VSLS_Set("abPoint", global.abPoint);
-	VSLS_Set("abSoul", global.abSoul);
-	VSLS_File_Save("saveFile");
-	sc_set_abSoulMax();
+if (global.abSoulMax <= global.abSoul) 
+{
+	var lIndex = true;
+	if (global.abPointMax >= 40 && global.clearStage < 25 )	lIndex = false;
+	if (global.abPointMax >= 50 && global.clearStage < 45 )	lIndex = false;
+	if (global.abPointMax >= 60)							lIndex = false;
+	
+	if (lIndex)	sc_abSoulLvUp();
 }
 
 //if ((isTalk < 4 || isTalk > 7) && !isCt ) alarm[7] = 1;

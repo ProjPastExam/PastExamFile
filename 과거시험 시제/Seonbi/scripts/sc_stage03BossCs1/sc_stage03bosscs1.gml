@@ -8,6 +8,8 @@ function sc_stage03BossCs1(){
 	var hang1 = 505;
 	var hang2 = 775;
 	
+	var csvHor = 8;
+	
 	if (state == 2)		{ x += 8; }
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
@@ -20,7 +22,7 @@ function sc_stage03BossCs1(){
 			
 		case 1:
 			//BGM_Play(s_mB01_2, global.volBgm, 0);
-			alarm[1] = 200;
+			alarm[1] = 120;
 			isTalk = 4;
 			break;
 			
@@ -41,19 +43,19 @@ function sc_stage03BossCs1(){
 			
 		case 4:
 			BGM_Play(s_mB03_1, global.volBgm, 0);
-			sc_csBase(4, 1, sp_cB_face, -500, 540);
+			sc_csBase(csvHor, 1, sp_cB_face, -500, 540);
 			break;
 			
 		case 5:
 			ob_roomControl.isTalk = 4;
-			alarm[1] = 300;
+			alarm[1] = 280;
 			SE_Play(s_cB1_atkG, global.vol);
 			SE_Play(s_st3_bossa1, global.vol);
 			isTalk = 4;
 			break;
 			
 		case 6:
-			alarm[1] = 250;
+			alarm[1] = 1+50;
 			isTalk = 4;
 			break;
 			

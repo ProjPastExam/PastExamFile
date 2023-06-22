@@ -38,7 +38,7 @@ function sc_stage03BossCs2(){
 			break;
 			
 		case 4:
-			alarm[1] = 80;
+			alarm[1] = 70;
 			SE_Play(s_cB1_atkG, global.vol);
 			isTalk = 4;
 			break;
@@ -49,7 +49,7 @@ function sc_stage03BossCs2(){
 			break;
 			
 		case 6:
-			alarm[1] = 90;
+			alarm[1] = 80;
 			isTalk = 4;
 			SE_Play(s_st3_boss1, global.vol);
 			break;

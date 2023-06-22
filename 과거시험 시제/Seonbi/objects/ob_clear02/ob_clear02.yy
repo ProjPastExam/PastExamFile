@@ -4,7 +4,9 @@
   "name": "ob_clear02",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_clearParent","path":"objects/ob_clearParent/ob_clearParent.yy",},"propertyId":{"name":"nextRoom","path":"objects/ob_clearParent/ob_clearParent.yy",},"value":"r_stage03VillageCs",},
+  ],
   "parent": {
     "name": "clear",
     "path": "folders/Objects/csOb/clear.yy",

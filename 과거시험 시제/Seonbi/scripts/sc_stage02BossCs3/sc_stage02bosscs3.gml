@@ -71,6 +71,10 @@ function sc_stage02BossCs3(){
 			
 		case 10:
 			ob_roomControl.isTalk = 4;
+			alarm[1] = 60;
+			break;
+			
+		case 11:
 			ob_roomControl.alarm[7] = 1;
 			break;
 			

@@ -9,6 +9,8 @@ function sc_stage03BossCs4(){
 	var soldY	= 540;
 	var plX		= 1050;
 	
+	var csvHor = 16;
+	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7 || isT == 8) && active == true)) {
 		active = false;
 		switch (state) {
@@ -31,7 +33,7 @@ function sc_stage03BossCs4(){
 		case 3:
 			BGM_Play(s_mChun, global.volBgm, 0);
 			isTalk = 8;
-			sc_csBase(8, 1, sp_sold1_face, soldX, soldY);
+			sc_csBase(csvHor, 1, sp_sold1_face, soldX, soldY);
 			image_xscale = -1;
 			break;
 			
@@ -43,9 +45,20 @@ function sc_stage03BossCs4(){
 			break;
 			
 		case 5:
-			sc_csBase(8, 2, sp_sold1_face, soldX, soldY);
+			sc_csBase(csvHor, 2, sp_sold1_face, soldX, soldY);
 			break;
 			
+		case 6:
+			ob_roomControl.isTalk = 4;
+			isTalk = 4
+			alarm[1] = 60;
+			break;
+			
+		case 7:
+			ob_roomControl.alarm[7] = 1;
+			break;
+			
+		/*
 		case 6:
 			sc_csBase(8, 3, sp_sold1_face, soldX, soldY);
 			break;
@@ -97,6 +110,7 @@ function sc_stage03BossCs4(){
 		case 16:
 			ob_roomControl.alarm[7] = 1;
 			break;
+		*/
 		}
 	}
 }
