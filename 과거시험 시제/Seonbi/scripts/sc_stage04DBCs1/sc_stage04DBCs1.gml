@@ -13,6 +13,8 @@ function sc_stage04DBCs1(){
 	
 	var sx = 1485;
 	var sy = 500;
+	
+	var csvHor = 16
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
@@ -38,11 +40,11 @@ function sc_stage04DBCs1(){
 			
 		case 3:
 			BGM_Play(s_mB04_1, global.volBgm, 0);
-			sc_csBase(8, 1, sp_dokBoss_face, sx, sy);
+			sc_csBase(csvHor, 1, sp_dokBoss_face, sx, sy);
 			break;
 			
 		case 4:
-			sc_csBase(8, 2, sp_npc_blank, ii, iy);
+			sc_csBase(csvHor, 2, sp_npc_blank, ii, iy);
 			break;
 			
 		case 5:
@@ -53,7 +55,7 @@ function sc_stage04DBCs1(){
 			break;
 		
 		case 6:
-			sc_csBase(8, 3, sp_dokBoss_face, sx, sy);
+			sc_csBase(csvHor, 3, sp_dokBoss_face, sx, sy);
 			isTalk = 4;
 			break;
 			
@@ -82,7 +84,7 @@ function sc_stage04DBCs1(){
 			break;
 			
 		case 11:
-			sc_csBase(8, 4, sp_dokBoss_face, sx, sy);
+			sc_csBase(csvHor, 4, sp_dokBoss_face, sx, sy);
 			break;
 			
 		case 12:
@@ -100,7 +102,7 @@ function sc_stage04DBCs1(){
 			break;
 			
 		case 14:
-			sc_csBase(8, 5, sp_npc_blank, ii, iy);
+			sc_csBase(csvHor, 5, sp_npc_blank, ii, iy);
 			break;
 			
 		case 15:
@@ -118,7 +120,7 @@ function sc_stage04DBCs1(){
 			break;
 			
 		case 17:
-			sc_csBase(8, 6, sp_dokBoss_face, sx, sy);
+			sc_csBase(csvHor, 6, sp_dokBoss_face, sx, sy);
 			break;
 			
 		case 18:
@@ -140,7 +142,7 @@ function sc_stage04DBCs1(){
 			break;
 			
 		case 21:
-			sc_csBase(8, 7, sp_dokBoss_face2, sx-30, sy);
+			sc_csBase(csvHor, 7, sp_dokBoss_face2, sx-30, sy);
 			BGM_Play(s_mB04_2, global.volBgm, 0);
 			break;
 			

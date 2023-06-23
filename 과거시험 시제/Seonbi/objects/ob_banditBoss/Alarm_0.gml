@@ -16,6 +16,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		sprite_index = sp_banditBoss_die;
 		if ( process < 40 ) process++;
 		if ( process == 1 ) { 
+			BGM_Stop(90);
 			sc_dieJp2();
 			alarm[4] = 120;
 			//if (global.clearStage == 2) {

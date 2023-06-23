@@ -17,7 +17,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		if ( process == 1 ) { 
 			//sc_dieJp2();
 			alarm[4] = 30;
-			BGM_Stop(0);
+			BGM_Stop(30);
 		}
 		xSpeed = 0
 		

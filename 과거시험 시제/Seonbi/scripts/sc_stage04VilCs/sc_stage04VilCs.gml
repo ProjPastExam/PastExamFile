@@ -10,7 +10,8 @@ function sc_stage04VilCs(){
 	
 	var sx = 1152;
 	var sy = 600;
-
+	
+	var csvHor = 0;
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
 		active = false;
@@ -55,7 +56,7 @@ function sc_stage04VilCs(){
 		
 		case 6:
 			BGM_Play(s_mCs_normal, global.volBgm, 0);
-			sc_csBase(0, 1, sp_chun_face, ii, iy);
+			sc_csBase(csvHor, 1, sp_chun_face, ii, iy);
 			break;
 			
 		case 7:
@@ -93,7 +94,7 @@ function sc_stage04VilCs(){
 			break;
 			
 		case 12:
-			sc_csBase(0, 2, sp_officer1_face, sx, sy);
+			sc_csBase(csvHor, 2, sp_officer1_face, sx, sy);
 			break;
 			
 		case 13:
@@ -104,11 +105,11 @@ function sc_stage04VilCs(){
 			break;
 			
 		case 14:
-			sc_csBase(0, 3, sp_officer1_face, sx, sy);
+			sc_csBase(csvHor, 3, sp_officer1_face, sx, sy);
 			break;
 			
 		case 15:
-			sc_csBase(0, 4, sp_officer1_face, sx, sy);
+			sc_csBase(csvHor, 4, sp_officer1_face, sx, sy);
 			break;
 			
 		case 16:
@@ -119,11 +120,11 @@ function sc_stage04VilCs(){
 			break;
 			
 		case 17:
-			sc_csBase(0, 5, sp_officer1_face, sx, sy);
+			sc_csBase(csvHor, 5, sp_officer1_face, sx, sy);
 			break;
 			
 		case 18:
-			sc_csBase(0, 6, sp_officer1_face, sx, sy);
+			sc_csBase(csvHor, 6, sp_officer1_face, sx, sy);
 			isTalk = 7
 			break;
 			
@@ -135,7 +136,7 @@ function sc_stage04VilCs(){
 			break;
 			
 		case 20:
-			sc_csBase(0, 7, sp_chun_face_silence, ii, iy);
+			sc_csBase(csvHor, 7, sp_chun_face_silence, ii, iy);
 			break;
 			
 		case 21:

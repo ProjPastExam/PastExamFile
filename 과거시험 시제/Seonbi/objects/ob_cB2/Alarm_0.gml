@@ -19,7 +19,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		if ( process == 1 ) { 
 			SE_Play(s_cB2_die, global.vol);
 			alarm[4] = 330;
-			BGM_Stop(0);
+			BGM_Stop(90);
 		}
 		xSpeed = 0
 		if ( process < 8 ) { image_index = 0; }

@@ -8,6 +8,8 @@ function sc_stage04Cs(){
 	
 	var ii = 220;
 	var iy = 520;
+	
+	var csvHor = 8;
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
@@ -25,7 +27,7 @@ function sc_stage04Cs(){
 			break;
 			
 		case 2:
-			sc_csBase(4, 1, sp_chun_face_angry, ii, -500);
+			sc_csBase(csvHor, 1, sp_chun_face_angry, ii, -500);
 			sprite_index = sp_pl_standPeace;
 			BGS_Set(0, 0);
 			break;
@@ -50,12 +52,12 @@ function sc_stage04Cs(){
 			break;
 		
 		case 6:
-			BGM_Play(s_mCs_normal, global.volBgm, 0);
-			sc_csBase(4, 2, sp_chun_face_angry, ii, iy);
+			//BGM_Play(s_mCs_normal, global.volBgm, 0);
+			sc_csBase(csvHor, 2, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 7:
-			sc_csBase(4, 3, sp_chun_face_angry, ii, iy);
+			sc_csBase(csvHor, 3, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 8:
@@ -66,23 +68,23 @@ function sc_stage04Cs(){
 			break;
 		
 		case 9:
-			sc_csBase(4, 4, sp_chun_face_angry, ii, iy);
+			sc_csBase(csvHor, 4, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 10:
-			sc_csBase(4, 5, sp_chun_face_angry, ii, iy);
+			sc_csBase(csvHor, 5, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 11:
-			sc_csBase(4, 6, sp_chun_face_angry, ii, iy);
+			sc_csBase(csvHor, 6, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 12:
-			sc_csBase(4, 7, sp_chun_face_angry, ii, iy);
+			sc_csBase(csvHor, 7, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 13:
-			BGM_Stop(90);
+			//BGM_Stop(90);
 			ob_roomControl.isTalk = 8;
 			sc_csBase2(ii, iy);
 			isTalk = 5;
@@ -90,24 +92,24 @@ function sc_stage04Cs(){
 			break;
 			
 		case 14:
-			sc_csBase(4, 8, sp_chun_face_angry, ii, iy);
+			sc_csBase(csvHor, 8, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 15:
 			BGM_Play(s_mB04_1, global.volBgm, 0);
-			sc_csBase(4, 9, sp_chun_face_angry, ii, iy);
+			sc_csBase(csvHor, 9, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 16:
-			sc_csBase(4, 10, sp_chun_face_angry, ii, iy);
+			sc_csBase(csvHor, 10, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 17:
-			sc_csBase(4, 11, sp_chun_face_angry, ii, iy);
+			sc_csBase(csvHor, 11, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 18:
-			sc_csBase(4, 12, sp_chun_face_angry, ii, iy);
+			sc_csBase(csvHor, 12, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 19:
