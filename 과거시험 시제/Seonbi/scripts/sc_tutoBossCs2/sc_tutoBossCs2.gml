@@ -14,6 +14,8 @@ function sc_tutoBossCs2(){
 	var ix = 1700;
 	var iy = 480;
 	
+	var csvHor = 24;
+	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7 || isT == 8) && active == true)) {
 		active = false;
 		switch (state) {
@@ -37,7 +39,7 @@ function sc_tutoBossCs2(){
 			break;
 			
 		case 3:
-			sc_csBase(12, 1, sp_jpBoss_face, -50, -50);
+			sc_csBase(csvHor, 1, sp_jpBoss_face, -50, -50);
 			break;
 			
 		case 4:
@@ -52,7 +54,7 @@ function sc_tutoBossCs2(){
 			break;
 		
 		case 5:
-			sc_csBase(12, 2, sp_jpBoss_face, ix, iy);
+			sc_csBase(csvHor, 2, sp_jpBoss_face, ix, iy);
 			break;
 			
 		case 6:

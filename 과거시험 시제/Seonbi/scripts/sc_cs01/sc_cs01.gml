@@ -74,7 +74,7 @@ function sc_cs01(){
 			break;
 		
 		case 11:
-			sc_csBase(0, 8, sp_cs01_face1, hang1, 530);
+			sc_csBase(csvHor, 8, sp_cs01_face1, hang1, 530);
 			break;
 			
 		case 12:

@@ -5,6 +5,8 @@ function sc_tutoBossCs1(){
 	var isT = ob_roomControl.isTalk;
 	if (state == 5) x = x + 8;
 	
+	var csvHor = 16;
+	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
 		active = false;
 		switch (state) {
@@ -56,7 +58,7 @@ function sc_tutoBossCs1(){
 			break;
 			
 		case 7:
-			sc_csBase(8, 1, sp_jpMb_face, -50, -50);
+			sc_csBase(csvHor, 1, sp_jpMb_face, -50, -50);
 			break;
 			
 		case 8:

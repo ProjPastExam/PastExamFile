@@ -8,6 +8,8 @@ function sc_tutoChunCs2(){
 	var ix = 1120;
 	var iy = 540;
 	
+	var csvHor = 40;
+	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7 || isT == 8) && active == true)) {
 		active = false;
 		switch (state) {
@@ -43,7 +45,7 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 5:
-			sc_csBase(20, 1, sp_chun_face_laugh, ix, iy);
+			sc_csBase(csvHor, 1, sp_chun_face_laugh, ix, iy);
 			BGM_Play(s_mChun, global.volBgm, 0);
 			break;
 			
@@ -54,11 +56,11 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 7:
-			sc_csBase(20, 2, sp_chun_face_smile, ix, iy);
+			sc_csBase(csvHor, 2, sp_chun_face_smile, ix, iy);
 			break;
 			
 		case 8:
-			sc_csBase(20, 3, sp_chun_face_smile, ix, iy);
+			sc_csBase(csvHor, 3, sp_chun_face_smile, ix, iy);
 			break;
 			
 		case 9:
@@ -68,15 +70,15 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 10:
-			sc_csBase(20, 4, sp_chun_face_smile, ix, iy);
+			sc_csBase(csvHor, 4, sp_chun_face_smile, ix, iy);
 			break;
 		
 		case 11:
-			sc_csBase(20, 5, sp_chun_face_smile, ix, iy);
+			sc_csBase(csvHor, 5, sp_chun_face_smile, ix, iy);
 			break;
 		
 		case 12:
-			sc_csBase(20, 6, sp_chun_face_smile, ix, iy);
+			sc_csBase(csvHor, 6, sp_chun_face_smile, ix, iy);
 			break;
 			
 		case 13:
@@ -86,11 +88,11 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 14:
-			sc_csBase(20, 7, sp_chun_face, ix, iy);
+			sc_csBase(csvHor, 7, sp_chun_face, ix, iy);
 			break;
 			
 		case 15:
-			sc_csBase(20, 8, sp_chun_face, ix, iy);
+			sc_csBase(csvHor, 8, sp_chun_face, ix, iy);
 			break;
 			
 		case 16:
@@ -100,11 +102,11 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 17:
-			sc_csBase(20, 9, sp_chun_face_silence, ix, iy);
+			sc_csBase(csvHor, 9, sp_chun_face_silence, ix, iy);
 			break;
 			
 		case 18:
-			sc_csBase(20, 10, sp_chun_face_angry, ix, iy);
+			sc_csBase(csvHor, 10, sp_chun_face_angry, ix, iy);
 			break;
 			
 		case 19:
@@ -114,7 +116,7 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 20:
-			sc_csBase(20, 11, sp_chun_face_laugh, ix, iy);
+			sc_csBase(csvHor, 11, sp_chun_face_laugh, ix, iy);
 			break;
 			
 		case 21:
@@ -124,7 +126,7 @@ function sc_tutoChunCs2(){
 			break;
 			
 		case 22:
-			sc_csBase(20, 12, sp_chun_face_smile, ix, iy);
+			sc_csBase(csvHor, 12, sp_chun_face_smile, ix, iy);
 			break;
 			
 		case 23:

@@ -7,6 +7,8 @@ function sc_cs02(){
 	
 	var ii = 720;
 	var iy = 640
+	
+	var csvHor = 8;
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
@@ -28,7 +30,7 @@ function sc_cs02(){
 			BGM_Play(s_mB01_1, global.volBgm, 0);
 			SE_Play(s_talk, global.vol);
 			sprite_index = sp_pl_standPeace;
-			sc_csBase(4, 1, sp_npc_blank, -50, 540);
+			sc_csBase(csvHor, 1, sp_npc_blank, -50, 540);
 			uc_shake(10, 0.05);
 			break;
 			
@@ -52,7 +54,7 @@ function sc_cs02(){
 			break;
 		
 		case 6:
-			sc_csBase(4, 2, sp_cs02_face, ii, iy);
+			sc_csBase(csvHor, 2, sp_cs02_face, ii, iy);
 			break;
 			
 		case 7:
@@ -77,15 +79,15 @@ function sc_cs02(){
 			break;
 		
 		case 10:
-			sc_csBase(4, 3, sp_cs02_face, ii, iy);
+			sc_csBase(csvHor, 3, sp_cs02_face, ii, iy);
 			break;
 		
 		case 11:
-			sc_csBase(4, 4, sp_cs02_face, ii, iy);
+			sc_csBase(csvHor, 4, sp_cs02_face, ii, iy);
 			break;
 			
 		case 12:
-			sc_csBase(4, 5, sp_cs02_face, ii, iy);
+			sc_csBase(csvHor, 5, sp_cs02_face, ii, iy);
 			break;
 		
 		case 13:
@@ -96,7 +98,7 @@ function sc_cs02(){
 			break;
 		
 		case 14:
-			sc_csBase(4, 6, sp_cs02_face, ii, iy);
+			sc_csBase(csvHor, 6, sp_cs02_face, ii, iy);
 			break;
 			
 		case 15:
