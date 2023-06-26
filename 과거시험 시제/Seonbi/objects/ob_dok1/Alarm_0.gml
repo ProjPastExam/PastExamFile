@@ -12,9 +12,9 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		if ( process < 24 ) process++;
 		if ( process == 1 ) { 
 			var han = irandom_range(0, 2);
-			if (han == 0) SE_Play(s_jpAdie1, global.vol);
-			else if (han == 1) SE_Play(s_jpAdie2, global.vol);
-			else SE_Play(s_jpAdie3, global.vol);
+			if (han == 0)		SE_Play(s_dokADie1, global.vol);
+			else if (han == 1)	SE_Play(s_dokADie2, global.vol);
+			else				SE_Play(s_dokADie3, global.vol);
 		}
 		if ( process < 8 ) { image_index = 0; xSpeed = -1 * dir * 15; }
 		else if ( process < 16 ) { image_index = 1; xSpeed = -1 * dir * 10; }

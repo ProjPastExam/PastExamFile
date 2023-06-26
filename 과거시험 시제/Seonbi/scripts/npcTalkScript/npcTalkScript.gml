@@ -81,6 +81,39 @@ function sc_npcJumo02()
 	talkIndex		= talk1;
 }
 
+function sc_npcJumo03()
+{
+	talk1		= array_create(3);
+	talkq1		= array_create(4);
+	talkq2		= array_create(5);
+	
+	qst1		= array_create(2);
+	qst1Index	= array_create(2);
+	
+	qst1[@0]	= new questionStruct(6,51);
+	qst1[@1]	= new questionStruct(6,52);
+	qst1Index[@0]	= talkq1;
+	qst1Index[@1]	= talkq2;
+	
+	
+	talk1[@0]	= new talkStruct(6,49,2);
+	talk1[@1]	= new talkStruct(,,2,,2,,2,qst1);
+	talk1[@2]	= new talkStruct(,,2,,3,qst1Index);
+	
+	talkq1[@0]	= new talkStruct(6,57,2);
+	talkq1[@1]	= new talkStruct(6,58,2);
+	talkq1[@2]	= new talkStruct(6,59,2);
+	talkq1[@3]	= new talkStruct(,,,,1 , talk1);
+	
+	talkq2[@0]	= new talkStruct(6,61,2);
+	talkq2[@1]	= new talkStruct(6,62,2);
+	talkq2[@2]	= new talkStruct(6,63,2);
+	talkq2[@3]	= new talkStruct(6,64,2);
+	talkq2[@4]	= new talkStruct(,,,,1 , talk1);
+							
+	talkIndex		= talk1;
+}
+
 function sc_npcSmith01()
 {
 	jumoTalk1		= array_create(3);
