@@ -10,4 +10,4 @@ draw_set_halign(fa_left);
 draw_set_font(f_kor);
 draw_set_color(c_white);
 draw_set_alpha(image_alpha);
-draw_text_ext_transformed(x+300, y+290, printText, 60, 1500, scale, scale, 0);
+draw_text_ext_transformed(x+300, y+15, printText, 60, 1500, scale, scale, 0);

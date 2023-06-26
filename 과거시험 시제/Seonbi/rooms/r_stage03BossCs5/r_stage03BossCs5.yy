@@ -41,7 +41,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_imageCsText","path":"objects/ob_imageCsText/ob_imageCsText.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_imageCsText/ob_imageCsText.yy",},"value":"st03Cs.csv",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_imageCsText","path":"objects/ob_imageCsText/ob_imageCsText.yy",},"propertyId":{"name":"csvVer","path":"objects/ob_imageCsText/ob_imageCsText.yy",},"value":"24",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_imageCsText","path":"objects/ob_imageCsText/ob_imageCsText.yy",},"propertyId":{"name":"imageNum","path":"objects/ob_imageCsText/ob_imageCsText.yy",},"value":"6",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":580.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":940.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"control","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69DA0700_1_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_imageCsControl","path":"objects/ob_imageCsControl/ob_imageCsControl.yy",},"properties":[

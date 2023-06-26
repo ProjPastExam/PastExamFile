@@ -61,7 +61,7 @@ function sc_stage02BossCs3(){
 			break;
 			
 		case 8:
-			BGM_Play(s_mCs_normal, global.volBgm, 0);
+			BGM_Play(s_mChun, global.volBgm, 0);
 			sc_csBase(csvHor, 3, sp_st02Cs_kim_face, 770, iy);
 			break;
 			
@@ -71,6 +71,7 @@ function sc_stage02BossCs3(){
 			
 		case 10:
 			ob_roomControl.isTalk = 4;
+			isTalk = 4;
 			alarm[1] = 60;
 			break;
 			

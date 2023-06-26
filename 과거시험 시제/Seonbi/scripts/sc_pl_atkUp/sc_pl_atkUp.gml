@@ -12,7 +12,7 @@ function sc_pl_atkUp(){
 	}
 	
 	if ( atkProcess == 6 ) {
-		sc_pl_atkEf(sc_pl_kickDmg()*2, sc_pl_kickPene(), sc_pl_kickShock()-80, sc_pl_kickMana(), 
+		sc_pl_atkEf(sc_pl_kickDmg(), sc_pl_kickPene(), sc_pl_kickShock()-80, sc_pl_kickMana(), 
 			18, 1, 0, sp_pl_atkEf04, dir);
 		SE_Play(s_kick01, global.vol);
 		//audio_play_sound(s_kick01, 5, false);
