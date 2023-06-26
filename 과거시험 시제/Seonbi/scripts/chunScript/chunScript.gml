@@ -225,6 +225,7 @@ function sc_chunSt03Vil(){
 
 function sc_chunSt04(){
 	image_alpha = 0.8;
+	var csvHor = 14;
 	
 	sc_npcCreate();
 	isRest = false;
@@ -236,31 +237,31 @@ function sc_chunSt04(){
 	talk5		= array_create(3);
 	//talk6		= array_create(3);
 	
-	talk1[@0]	= new talkStruct(10,1);
-	talk1[@1]	= new talkStruct(10,2);
-	talk1[@2]	= new talkStruct(10,3,,sp_chun_face_angry);
+	talk1[@0]	= new talkStruct(csvHor,1);
+	talk1[@1]	= new talkStruct(csvHor,2,,sp_chun_face_angry);
+	talk1[@2]	= new talkStruct(csvHor,3,,sp_chun_face_angry);
 	talk1[@3]	= new talkStruct(,,,,1 , talk1)
 	
-	talk2[@0]	= new talkStruct(10,5);
-	talk2[@1]	= new talkStruct(10,6,,sp_chun_face_embar);
+	talk2[@0]	= new talkStruct(csvHor,5);
+	talk2[@1]	= new talkStruct(csvHor,6);
 	talk2[@2]	= new talkStruct(,,,,1 , talk2);
 	
-	talk3[@0]	= new talkStruct(10,9,,sp_chun_face_angry);
-	talk3[@1]	= new talkStruct(10,10,,sp_chun_face_angry);
-	talk3[@2]	= new talkStruct(10,11,,sp_chun_face_angry);
+	talk3[@0]	= new talkStruct(csvHor,9);
+	talk3[@1]	= new talkStruct(csvHor,10,,sp_chun_face_silence);
+	talk3[@2]	= new talkStruct(csvHor,11,,sp_chun_face_silence);
 	talk3[@3]	= new talkStruct(,,,,1 , talk3);
 	
-	talk4[@0]	= new talkStruct(10,13,,sp_chun_face_silence);
-	talk4[@1]	= new talkStruct(10,14,,sp_chun_face_angry);
+	talk4[@0]	= new talkStruct(csvHor,13,,sp_chun_face_silence);
+	talk4[@1]	= new talkStruct(csvHor,14,,sp_chun_face_angry);
 	talk4[@2]	= new talkStruct(,,,,1 , talk4);
 	
-	talk5[@0]	= new talkStruct(10,17,,sp_chun_face_angry);
-	talk5[@1]	= new talkStruct(10,18,,sp_chun_face_angry);
+	talk5[@0]	= new talkStruct(csvHor,17,,sp_chun_face_angry);
+	talk5[@1]	= new talkStruct(csvHor,18,,sp_chun_face_angry);
 	talk5[@2]	= new talkStruct(,,,,1 , talk5);
 	
-	//talk6[@0]	= new talkStruct(10,21,,sp_chun_face_silence);
-	//talk6[@1]	= new talkStruct(10,22,,sp_chun_face_silence);
-	//talk6[@2]	= new talkStruct(,,,,1 , talk6);
+	talk6[@0]	= new talkStruct(csvHor,21);
+	talk6[@1]	= new talkStruct(csvHor,22,,sp_chun_face_silence);
+	talk6[@2]	= new talkStruct(,,,,1 , talk6);
 	
 	
 	//talkIndex = talk1;
@@ -276,15 +277,15 @@ function sc_chunSt04(){
 	
 function sc_chunSt04Vil(){
 	image_alpha = 0.8;
+	var csvHor = 14;
 	
 	sc_npcCreate();
 	isRest = false;
 	
-	talk1		= array_create(3);
+	talk1		= array_create(2);
 	
-	talk1[@0]	= new talkStruct(10,25,,sp_chun_face_silence);
-	talk1[@1]	= new talkStruct(10,26,,sp_chun_face_angry);
-	talk1[@2]	= new talkStruct(,,,,1 , talk1)
+	talk1[@0]	= new talkStruct(csvHor,25,,sp_chun_face_silence);
+	talk1[@1]	= new talkStruct(,,,,1 , talk1)
 
 	talkIndex = talk1;
 
