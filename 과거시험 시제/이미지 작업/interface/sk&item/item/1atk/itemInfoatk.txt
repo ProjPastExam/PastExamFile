@@ -23,6 +23,13 @@ x0.5 Arrow Damage
 15의 추가 연타 수치를
 쌓는다.
 
+Whistling arrow
+
+When Combo is 0,
+First Basic attack
+will add an 
+15 additional combo
+
 
 편전
 
@@ -32,3 +39,18 @@ x0.5 Arrow Damage
 
 이 공격은 50%의 추가
 연타 공격력을 가진다.
+
+Pyeonjeon 
+
+Holding attack key, 
+launches an arrow 
+that deals 4x 
+Arrow damage
+
+This attack has 
+an additional 
+50% combo damage
+
+
+
+

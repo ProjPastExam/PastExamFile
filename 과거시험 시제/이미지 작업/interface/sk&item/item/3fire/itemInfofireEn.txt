@@ -21,9 +21,11 @@ by 15%.
 
 Flame Arrow
 
-Changes the Basic attack
-to deal x1 fire damage
+Changes the Basic 
+attack to deals x1 
+Fire Damage
 
 This attack's damage
-decrease as the distance,
-and cannot break SuperArmor.
+decrease as the 
+distance, and can't 
+break SuperArmor.
