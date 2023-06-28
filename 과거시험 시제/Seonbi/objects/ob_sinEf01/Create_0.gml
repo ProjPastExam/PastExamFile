@@ -6,5 +6,6 @@ alarm[2] = 8;
 
 act = false;
 dir = 1;
+dAdd = 1;
 SE_Play(s_sin01, global.vol);
 global.sin = id;

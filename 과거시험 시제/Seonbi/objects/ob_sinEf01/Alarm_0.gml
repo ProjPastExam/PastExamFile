@@ -17,7 +17,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	if (center == 3) act = true;
 	
 	if (act) {
-		sc_pl_atkEf(sc_pl_fireDmg()*(grade+2), sc_pl_firePene(), sc_pl_fireShock(), sc_pl_fireMana(), 
+		sc_pl_atkEf(dAdd*sc_pl_fireDmg()*(grade+2), sc_pl_firePene(), sc_pl_fireShock(), sc_pl_fireMana(), 
 				9, 2, 0, sp_hitEffect_sin, dir,,,,-1,,,-1);
 		
 		/*

@@ -1,27 +1,29 @@
 Spear
 
-Charge forward with 
-a spear and deal
-x5 Melee Damage
+Charges forward 
+with a spear and 
+deals x5 Melee Dmg.
 
 
-환도
+Hwando-Sword
 
-2배율의 충격 피해를
-주며, 최대 3회 연속 
-공격할 수 있다.
+deals x2 Melee Dmg.
 
-적에게 공격이 적중하면
-집중을 회복하지만
-적의 경직 저항을
-깰 수 없다.
+Can be used 3 times 
+in succession.
+
+This attack regains 
+Focus, but can't 
+break SuperArmor.
 
 
-협도
 
-4배율의 충격 피해를
-주며, 최대 2회 연속
-공격할 수 있다.
+Hyeopdo-Polearm
+
+deals x4 Melee Dmg.
+
+Can be used 2 times 
+in succession.
 
 
 당파
@@ -65,7 +67,7 @@ x5 Melee Damage
 왜검 휘두르기가 된다.
 
 
-언월도
+Woldo-Polearm
 
 6배율의 충격 피해를
 주며, 최대 3회 연속

@@ -3,12 +3,12 @@ Singijeon
 As a finish attack, 
 fires a Shingijeon 
 that deals x3 
-fire damage
+fire Dmg.
 
 This attack is 
 not affected by 
 critical hits 
-or combo damage.
+or combo Dmg.
 
 
 Saltpeter
@@ -23,9 +23,9 @@ Flame Arrow
 
 Changes the Basic 
 attack to deals x1 
-Fire Damage
+Fire Dmg
 
-This attack's damage
+This attack's Dmg
 decrease as the 
 distance, and can't 
 break SuperArmor.

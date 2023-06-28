@@ -1,55 +1,50 @@
-FourArrow Gun
+Four-Jeon Gun
 
-Fire four arrow to
-deal x3 Fire Damage
-2 times
-
-사전총통
-
-세전 4발을 발사해
-3배율의 화약 피해를
-2회 준다.
+Fire four arrow
+deals x3 Fire Dmg
+up to 2 times.
 
 
-세총통
+Narrow Gun
 
-차세전 1발을 발사해
-1배율의 화약 피해를
-준다.
-
-
-삼총통
-
-대형 화살을 발사해
-8배율의 화약 피해를
-주고, 경직 저항이 없는 
-적을 기절시킨다.
+Fire a single arrow
+deals x1 Fire Dmg.
 
 
-팔전총통
+Third Gun
 
-세전 8발을 발사해
-4.5배율의 화약 피해를
-2회 준다.
-
-
-승자총통
-
-철환 15발을 발사해
-4배율의 화약 피해를
-최대 4회 준다.
-
-적과 거리가 가까울수록
-타격 횟수가 증가한다.
+Fire large arrow
+deals x8 Fire Dmg,
+and stunning enemies
+without SuperArmor
 
 
-쌍자총통
+Eight-Jeon Gun
 
-2.5배율의 화약 피해를
-최대 4회 준다.
+Fire eight arrow
+deals x4.5 Fire Dmg
+up to 2 times.
 
-적과 거리가 가까울수록
-타격 횟수가 증가한다.
 
-기술을 두번 연속
-사용할 수 있다.
+Seung-Ja Gun
+
+Fire 15 bullet
+deals x4 Fire Dmg
+up to 4 times.
+
+The number of 
+hits increases
+to closer enemy.
+
+
+Ssang-Ja Gun
+
+deals x2.5 Fire Dmg
+up to 4 times.
+
+The number of 
+hits increases
+to closer enemy.
+
+Can be used 2 times 
+in succession.

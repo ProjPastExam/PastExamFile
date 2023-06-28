@@ -4,7 +4,7 @@ Officer's Boots
 Change Front Attack
 MoveSet to 3 hit kick
 that deal x1 Melee
-Damage with 1 
+Dmg with 1 
 additional combo
 
 
@@ -15,7 +15,7 @@ front attack after
 dash is changed 
 to a bamboo spear 
 thrust that deals 
-6x Melee Damage
+6x Melee Dmg.
 
 This attack has 
 an additional 20% 
@@ -27,11 +27,11 @@ Silver knife
 When dashing,
 wield a knife and
 deals 0.5x Melee 
-Damage one time.
+Dmg 1 time.
 
 This attack can't 
 break enemy's
-SuperArmor
+SuperArmor.
 
 회피 시 은장도를 휘둘러
 0.5배율의 충격 피해와

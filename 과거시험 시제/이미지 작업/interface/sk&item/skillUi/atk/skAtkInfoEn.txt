@@ -2,7 +2,7 @@ Rapid Shoot
 
 Rapidly shoot 
 5 arrows, deal 
-x1.5 Arrow Damage
+x1.5 Arrow Dmg
 per shoot
 
 Player can stop 
@@ -10,24 +10,46 @@ shooting by
 dash or jump
 
 
-강화 연속사격
+Rapid Shoot +
+
+Rapidly shoot 
+5 arrows, deal 
+x2.1 Arrow Dmg
+per shoot
+
+Player can stop 
+shooting by 
+dash or jump
 
 
-다발사격
 
-다수의 화살을 두 번 
-발사해 공격당 2.5배율의
-화살 피해를 준다.
+Multi Shot
+
+Perform the Finish 
+Attack twice,
+which is the
+default MoveSet.
+
+Shoot multiple 
+arrows twice, 
+deals x2.5 Arrow 
+Dmg per hit.
 
 
-강화 다발사격
+Multi Shot+
 
 
-광역사격
+Barrage Shot
 
-앞뒤로 화살을 연사해
-최대 12배율의 화살
-피해를 준다.
+Rapidly shoot 
+arrows forward 
+and backward,
+deals up to
+x12 Arrow Dmg.
+
+Player can stop 
+shooting by 
+dash or jump
 
 
 화살비
@@ -36,3 +58,11 @@ dash or jump
 범위 내의 적에게
 1.5배율의 화살 피해를
 최대 8회 입힌다.
+
+Arrow Rain
+
+Shoot a rain of 
+arrows forward, 
+deals x1.5 Arrow 
+Dmg per hit,
+up to 8 times.

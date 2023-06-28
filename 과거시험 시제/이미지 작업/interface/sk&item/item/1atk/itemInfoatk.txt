@@ -7,7 +7,7 @@ When Player use
 Focus, an illusion 
 appears and shoot 
 an arrow that deals
-x0.5 Arrow Damage
+x0.5 Arrow Dmg.
 
 집중을 소모할 때마다
 선비의 환영이 나타나
@@ -45,11 +45,11 @@ Pyeonjeon
 Holding attack key, 
 launches an arrow 
 that deals 4x 
-Arrow damage
+Arrow Dmg.
 
 This attack has 
 an additional 
-50% combo damage
+50% combo Dmg.
 
 
 
