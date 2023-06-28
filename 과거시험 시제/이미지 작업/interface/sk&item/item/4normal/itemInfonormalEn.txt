@@ -1,0 +1,72 @@
+Hawk's feather
+
+Deals an additional 
+20% Dmg to 
+airborne enemies.
+
+
+Headband
+
+Increases the 
+duration of Combo
+by 1.5 seconds.
+
+
+Brigandine
+
+When taking hit,
+if Combo is over 70,
+Combo resets to 0 
+and no HP is lost.
+
+
+Scale armour
+
+When taking hit,
+Player's action
+does not interrupted.
+
+Invincibility frames
+after being hit are
+increased by 50%.
+
+
+창포검
+
+연타 수치에 따른 공격력
+증가를 제거하는 대신,
+모든 치명타 확률이
+1.5배로 적용된다.
+
+Cane sword
+
+Disable Combo Dmg.
+Instead, all critical
+chances are 
+increased by x1.5
+
+
+Sheath clip
+
+Increase critical 
+chances 
+proportionally 
+to the Combo, 
+up to x1.5
+
+
+광다회
+
+연타 수치에 비례하여
+기술 재사용 대기시간이
+줄어들어, 최대 25%까지
+줄어든다.
+
+Belt
+
+Reduce skill 
+cooldown
+proportionally 
+to the Combo,
+up to 25%.
+
