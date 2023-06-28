@@ -31,13 +31,6 @@ after being hit are
 increased by 50%.
 
 
-창포검
-
-연타 수치에 따른 공격력
-증가를 제거하는 대신,
-모든 치명타 확률이
-1.5배로 적용된다.
-
 Cane sword
 
 Disable Combo Dmg.

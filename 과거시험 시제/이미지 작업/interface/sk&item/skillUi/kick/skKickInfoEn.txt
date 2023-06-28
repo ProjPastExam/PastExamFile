@@ -26,55 +26,64 @@ Can be used 2 times
 in succession.
 
 
-당파
+Dangpa-Spear
 
-당파를 들고 전방으로
-긴 거리를 돌진한다.
-적에게 6배율의
-충격 피해를 주며,
-돌진 중 적의 공격을
-무시한다.
+Charges forward 
+with a Dangpa and 
+deals x6 Melee Dmg.
 
-
-표창
-
-표창으로 전방을 찔러 
-8배율의 충격 피해를 준다.
-
-기술 버튼을 길게 누르면
-표창을 투척해, 5배율의
-충격 피해를 준다.
+This attack has
+invincibility frames.
 
 
-화창
+Pyochang-Spear
 
-창으로 적에게 6배율의
-충격 피해를 준다.
+If the key is 
+pressed shortly,
+Thrusts forward
+with a Pyochang and 
+deals x8 Melee Dmg.
 
-기술을 한번 더 사용하면
-2배율의 화약 피해를
-최대 3회 입히는
-사격을 가한다.
+If the key is held,
+throws Pyochang and
+deals 5x Melee Dmg.
 
 
-왜검
+Huachang-Spear
 
-앞으로 돌진해 2배율의
-충격 피해를 5회 준다.
+Charges forward 
+with a Huachang and 
+deals x6 Melee Dmg.
 
-기술 사용 후, 일반 공격이
-3배율의 충격 피해를 주는
-왜검 휘두르기가 된다.
+If the key is
+pressed once more,
+fire powder canister
+deals x2 Fire Dmg
+up to 3 times.
+
+
+Japanese sword
+
+Charges forward 
+with a sword and 
+deals x2 Melee Dmg
+up to 5 times.
+
+After using the skill,
+Basic attacks
+become sword strike
+deals 3x Melee Dmg.
 
 
 Woldo-Polearm
 
-6배율의 충격 피해를
-주며, 최대 3회 연속
-공격할 수 있다.
+deals x6 Melee Dmg.
+
+Can be used 3 times 
+in succession.
 
 
-편곤
+Pyeongon-Polearm
 
 4배율의 충격 피해를
 주며, 무기 끝에 적중한
