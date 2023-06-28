@@ -85,10 +85,11 @@ in succession.
 
 Pyeongon-Polearm
 
-4배율의 충격 피해를
-주며, 무기 끝에 적중한
-적에게 피해를 한번 더
-입힌다.
+deals x4 Melee Dmg,
+and 1 extra hit 
+to the enemy 
+hit by weapon's tip.
 
-2회 연속 공격할 수 있다.
+Can be used 2 times 
+in succession.
 
