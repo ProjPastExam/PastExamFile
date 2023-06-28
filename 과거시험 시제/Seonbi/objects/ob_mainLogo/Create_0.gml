@@ -3,3 +3,5 @@
 image_alpha = 0;
 alarm[1] = delay;
 image_index = global.lan;
+
+//sprite_index = sp_titleDemo;
