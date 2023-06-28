@@ -239,6 +239,6 @@ function sc_printTalk(isTalk) {
 	}
 	
 	if (isTalk == 5) {
-		draw_text_ext(280, 250, talkArray[0], 65, 1100);
+		draw_text_ext(280, 250, talkArray[0], 65, 1000);
 	}
 }
