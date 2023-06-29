@@ -8,4 +8,4 @@ comEffect = 0;
 depth -= 50;
 
 
-alarm[5] = 60;
+//alarm[5] = 60;
