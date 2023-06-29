@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+image_index = global.lan;
 draw_self();
 
 draw_set_font(f_bigNum);

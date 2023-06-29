@@ -6,4 +6,4 @@ with (ob_enhanceControl) {
 	other.sIndex = sIndex;
 }
 
-image_index = sIndex - 1;
+image_index = sIndex - 1 + global.lan*9;

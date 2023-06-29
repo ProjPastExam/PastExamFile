@@ -144,6 +144,7 @@ function sc_dokBossAtk(){
 			ob.sprite_index = sp_dokBoss_atk3Ef1;
 			ob.obCreate = ob_mobAtk2;
 			ob.obSprite = sp_dokBoss_atk3Ef2;
+			ob.soundEf	= s_thun;
 		}
 		
 		if ( process < 6 )				{ image_index = 0; }

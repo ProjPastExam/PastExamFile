@@ -76,13 +76,83 @@
 치명타 확률이 3% 증가한다.
 
 
-Tendon reinforcement
+Tendon Enhancing
 
-Strengthen the elasticity of the bow 
-by reinforcing the tendon used in the bow.
+Strengthen bow elasticity
+by enhancing the bow's tendon.
 
-Arrow damag is increased by 1
-for each step of reinforcement.
+Each point increases
+Arrow Dmg by 1
 
 
+Glue Enhancement
+
+Strengthen bow durability
+by enhancing the bow's glue.
+
+Each point increases
+Arrow Focus Gain by 3
+
+
+Horn Enhancing
+
+Strengthen bow elasticity
+by enhancing the bow's horn.
+
+Each point increases
+Arrow Critical Chance by 3%
+
+
+Strength Training
+
+Train strength for 
+melee attacks.
+
+Each point increases
+Melee Dmg by 1
+
+
+Mental Training
+
+Train the mind for
+melee attacks.
+
+Each point increases
+Melee Focus Gain by 3
+
+
+Agility Training
+
+Train agility for 
+melee attacks.
+
+Each point increases
+Melee Combo Dmg by 10%
+
+
+Charcoal Mixing
+
+Mix high-quality charcoal
+to enhance gunpowder.
+
+Each point increases
+Fire Dmg by 1
+
+
+Saltpeter Mixing
+
+Mix high-quality saltpeter
+to enhance gunpowder.
+
+Each point increases
+Fire Combo Dmg by 10%
+
+
+Sulfur Mixing
+
+Mix high-quality sulfur
+to enhance gunpowder.
+
+Each point increases
+Fire Critical Chance by 3%
 
