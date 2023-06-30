@@ -12,8 +12,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "player&effect",
-    "path": "folders/Objects/player&effect.yy",
+    "name": "SpecialEf",
+    "path": "folders/Objects/player&effect/SpecialEf.yy",
   },
   "parentObjectId": null,
   "persistent": false,

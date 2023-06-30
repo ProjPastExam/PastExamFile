@@ -24,11 +24,13 @@ function sc_skData(){
 	
 	global.skMp[161]	= 300;	//사전총통
 	global.skMp[162]	= 100;	//세총통
-	global.skMp[163]	= 500;	//삼총통
+	global.skMp[163]	= 400;	//삼총통
 	
 	global.skMp[171]	= 300;	//팔전총통
 	global.skMp[172]	= 400;	//승자총통
 	global.skMp[173]	= 300;	//쌍자총통
+	
+	global.skMp[181]	= 0	//일총통
 	
 	
 	global.skKulData = array_create(200, 0);
@@ -60,4 +62,6 @@ function sc_skData(){
 	global.skKulData[171]	= 300;
 	global.skKulData[172]	= 300;
 	global.skKulData[173]	= 300;
+	
+	global.skKulData[181]	= 10;
 }

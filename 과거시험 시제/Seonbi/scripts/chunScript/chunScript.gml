@@ -235,7 +235,7 @@ function sc_chunSt04(){
 	talk3		= array_create(4);
 	talk4		= array_create(3);
 	talk5		= array_create(3);
-	//talk6		= array_create(3);
+	talk6		= array_create(3);
 	
 	talk1[@0]	= new talkStruct(csvHor,1);
 	talk1[@1]	= new talkStruct(csvHor,2,,sp_chun_face_angry);

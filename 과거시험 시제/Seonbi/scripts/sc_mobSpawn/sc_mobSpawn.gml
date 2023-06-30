@@ -13,6 +13,8 @@ function sc_mobSpawn(){
 	ctCount		= 0;
 	dir			= -1;
 	
+	sk121Index	= -1;
+	
 	isDA		= false;
 	isDK		= false;
 	isDF		= false;

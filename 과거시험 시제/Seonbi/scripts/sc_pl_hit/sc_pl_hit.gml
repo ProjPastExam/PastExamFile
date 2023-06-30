@@ -3,14 +3,19 @@
 function sc_pl_hit(argument0){
 	//return;
 	
-	var mor = ob_player.isImort;
-	if ( sc_pl_get("hitAfter") == 0 && ob_player.canMove >= 0 && !mor ) {
+	//var mor = ob_player.isImort;
+	if ( sc_pl_get("hitAfter") <= 0 && ob_player.canMove >= 0 ) {
 		if (global.item8 && global.comCt >= global.item8Index) {
 			global.comCt = 0;
-			ob_player.hitAfter = 60*(1 + global.item13*0.3);
 			uc_shake(10, 0.2);
 			if ( sc_getRoomValue("pause") == 0 ) { ob_roomControl.pause = 20; }
 			SE_Play(s_pl_item8, global.vol);
+			
+			with (ob_player)
+			{
+				sc_hitAfter(60, false);
+			}
+			
 			return;
 		}
 		
@@ -22,9 +27,9 @@ function sc_pl_hit(argument0){
 			uc_shake(10, 0.2);
 			if ( sc_getRoomValue("pause") == 0 ) { ob_roomControl.pause = 20; }
 			SE_Play(s_plHit, global.vol);
-			//audio_play_sound(s_plHit, 5, false);
+
 			with (ob_player) {
-				hitAfter = 90*(1 + global.item13*0.3);
+				sc_hitAfter(90, false);
 				
 				if (global.item13 == 0) {
 					canMove = 0;
@@ -48,7 +53,7 @@ function sc_pl_hit(argument0){
 			SE_Play(s_plHit, global.vol);
 			//audio_play_sound(s_plHit, 5, false);
 			with (ob_player) {
-				hitAfter = 90*(1 + global.item13*0.3);
+				sc_hitAfter(90, false);
 
 				if (global.item13 == 0) {
 					canMove = 0;

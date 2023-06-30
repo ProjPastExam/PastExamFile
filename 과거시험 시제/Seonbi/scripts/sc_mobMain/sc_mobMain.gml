@@ -5,10 +5,13 @@ function sc_mobMain(){
 	if ( hitAfter > 0 )		hitAfter--;
 	if ( isHpUI )	global.uiHp = hp;
 	image_xscale = dir;
+	
+	
 		
 	if ( patrol ) sc_mobPatrol();
 	if ( hp <= 0 ) { 
 		state = -1; process = 0; hitAfter = -1;
+
 		if (!isDie) {
 			with (ob_battleBox)
 			{

@@ -4,6 +4,7 @@
 
 draw_self();
 
+if (sk121Index > -1)	draw_sprite(sp_pl_sk121Ef3, int64(sk121Index/5), x, bbox_bottom-96);
 /*
 if (!isDie) {
 	if (!isHpUI) {

@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sp_ghost",
-    "path": "sprites/sp_ghost/sp_ghost.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
