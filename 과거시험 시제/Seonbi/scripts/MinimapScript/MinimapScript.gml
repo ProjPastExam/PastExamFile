@@ -60,6 +60,16 @@ function sc_initMinimapEntity() {
 	if (!surface_exists(surfMinimapEntities)) surfMinimapEntities = surface_create(mww, mwh);
 	surface_set_target(surfMinimapEntities);
 		draw_clear_alpha(c_black, 0.0);
+		with (ob_skEf176) {
+			var mScale = other.mScale;
+			draw_sprite_ext(sp_pl_sk176Ind, 0, x/mScale, y/mScale, 0.4, 0.4, 0.0, c_red, 1.0);
+		}
+		
+		with (ob_skEf182) {
+			var mScale = other.mScale;
+			draw_sprite_ext(sp_pl_sk176Ind, 0, x/mScale, y/mScale, 0.4, 0.4, 0.0, c_red, 1.0);
+		}
+		
 		with (ob_mobBase) {
 			var mScale = other.mScale;
 			if (hp > 0) draw_sprite_ext(sp_mapIconMob, 0, x/mScale, bbox_bottom/mScale, 1, 1, 0.0, c_white, 1.0);

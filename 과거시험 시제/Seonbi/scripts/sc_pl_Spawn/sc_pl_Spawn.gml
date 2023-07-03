@@ -49,6 +49,10 @@ function sc_pl_Spawn() {
 	
 	spAtk	= 0;
 	
+	sk176Index	= false;
+	sk176Index2	= 0;
+	sk176Index3	= 0;
+	
 	global.skKul[0] = 0;
 	global.skKul[1] = 0;
 	global.skKul[2] = 0;

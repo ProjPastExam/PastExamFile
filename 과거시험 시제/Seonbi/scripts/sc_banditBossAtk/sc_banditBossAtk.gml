@@ -46,7 +46,7 @@ function sc_banditBossAtk(){
 		var atkDistance = 850;
 		if (nextState == 15) atkDistance = 1000;
 		if (nextState == 16) atkDistance = 700;
-		sc_mobRun(6, atkDistance, 0, nextState, nextState, plX, left1, left2, right1, right2);
+		sc_mobRun(10, atkDistance, 0, nextState, nextState, plX, left1, left2, right1, right2);
 		/*
 		if ( plX > x + atkDistance ) {
 			dir = 1;

@@ -9,7 +9,7 @@ function sc_pl_sk181(){
 	sprite_index = sp_pl_sk181;
 	var atk;
 	
-	if ( atkProcess > 10 ) {
+	if ( atkProcess > 40 ) {
 		sc_pl_comInter();
 		sc_pl_skKey();
 		if ( keyDash ) nextAtk = 10;
