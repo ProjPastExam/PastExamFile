@@ -28,7 +28,7 @@ function sc_bandit04Atk(){
 		process++;
 		sprite_index = sp_bandit04_atk;
 		xSpeed = 0;
-		isDA = true;	isDK = true;	isDF = true;
+		isDA = true;	isDK = true;
 		
 		if ( process == 1 ) { SE_Play(s_bandit01atk1, global.vol); }
 		if ( process == 76+lvDly ) { 
@@ -52,7 +52,7 @@ function sc_bandit04Atk(){
 	else if ( state == 13 ) {
 		process++;
 		sprite_index = sp_bandit04_backStep;
-		isDA = true;	isDK = true;
+		isDA = true;	isDK = true;	isDF = true;
 		
 		if ( process < 4 ) { image_index = 0; }
 		else if ( process < 12 ) { image_index = 1; xSpeed = dir*15*-1; }
