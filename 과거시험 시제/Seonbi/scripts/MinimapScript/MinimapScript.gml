@@ -65,7 +65,7 @@ function sc_initMinimapEntity() {
 			draw_sprite_ext(sp_pl_sk176Ind, 0, x/mScale, y/mScale, 0.4, 0.4, 0.0, c_red, 1.0);
 		}
 		
-		with (ob_skEf182) {
+		with (ob_skEf187) {
 			var mScale = other.mScale;
 			draw_sprite_ext(sp_pl_sk176Ind, 0, x/mScale, y/mScale, 0.4, 0.4, 0.0, c_red, 1.0);
 		}

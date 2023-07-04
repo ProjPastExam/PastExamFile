@@ -8,7 +8,7 @@ if (sk176Index)
 	{
 		var xI = x+(sk176Index2*i*5);
 		var yI = y+60+ ((sk176Index3+(1.5*i))*i*5);
-		draw_sprite_ext(sp_pl_sk176Ind, 0, xI, yI,1,1,0,c_white, (n-i)/n);
+		draw_sprite_ext(sp_pl_sk176Ind, 0, xI, yI,1,1,0,c_white, (n+3-i)/n);
 	}
 }
 sk176Index = false;

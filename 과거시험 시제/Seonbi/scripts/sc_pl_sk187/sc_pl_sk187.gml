@@ -1,12 +1,12 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_pl_sk182(){
+function sc_pl_sk187(){
 	sc_pl_skDir();
 	
 	atkProcess++;
 	if (!isJump) xSpeed = 0;
 	image_xscale = dir;
-	sprite_index = sp_pl_sk182;
+	sprite_index = sp_pl_sk187;
 	var atk;
 	
 	if ( atkProcess > 80 ) {
@@ -47,10 +47,10 @@ function sc_pl_sk182(){
 		}
 		else
 		{
-			sc_pl_atkEf(sc_pl_fireDmg(), sc_pl_firePene(), 100, 0, 
+			sc_pl_atkEf(sc_pl_fireDmg(), sc_pl_firePene(), 250, 0, 
 				4, 2, 0, sp_pl_sk176Ef1, dir, 0);
-			var atk = sc_pl_atkEf(sc_pl_fireDmg()*5, sc_pl_firePene(), 100, 0, 
-				0, 2, 5, sp_pl_sk182Ef1, dir, 0,,y+50,,,ob_skEf182);
+			var atk = sc_pl_atkEf(sc_pl_fireDmg()*5, sc_pl_firePene(), 200, 0, 
+				0, 2, 0, sp_pl_sk187Ef1, dir, 0,,y+50,,,ob_skEf187);
 			sk176Index2	= (atkProcess)/4*dir;
 			sk176Index3	= (atkProcess)/4*-1;
 			atk.xSpeed	= sk176Index2;
@@ -58,7 +58,7 @@ function sc_pl_sk182(){
 				
 			uc_shake(8, 0.1);
 			SE_Play(s_pl_sk101, global.vol);
-			sc_pl_kulNMana(182);
+			sc_pl_kulNMana(187);
 			atkProcess = 80;
 		}
 	}

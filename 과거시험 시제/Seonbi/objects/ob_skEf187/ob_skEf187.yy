@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ob_skEf182",
+  "name": "ob_skEf187",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sp_pl_sk182Ef1",
-    "path": "sprites/sp_pl_sk182Ef1/sp_pl_sk182Ef1.yy",
+    "name": "sp_pl_sk187Ef1",
+    "path": "sprites/sp_pl_sk187Ef1/sp_pl_sk187Ef1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
