@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "s_pl_sk100.mp3",
-  "duration": 0.548542,
+  "soundFile": "s_arrow02.wav",
+  "duration": 0.450907,
   "parent": {
     "name": "player",
     "path": "folders/Sounds/player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_pl_sk100",
+  "name": "s_arrow02",
   "tags": [],
   "resourceType": "GMSound",
 }

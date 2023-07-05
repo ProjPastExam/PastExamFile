@@ -26,7 +26,7 @@ function sc_pl_cannon_temp(){
 		sc_pl_atkEf(sc_pl_fireDmg()*1.5, sc_pl_firePene()+40, sc_pl_fireShock()+150, 0, 
 			4, 2, 0, sp_pl_atkEf106, dir, 0, x-(60*dir), y+70);
 		uc_shake(12, 0.1);
-		SE_Play(s_pl_sk101, global.vol);
+		SE_Play(s_gun2, global.vol);
 		//audio_play_sound(s_pl_sk101, 5, false);
 		part_type_scale(global.gunEf, dir, 1);
 		part_particles_create( global.hitEf, x-(80*dir), y+60, global.gunEf, 1 );

@@ -57,7 +57,7 @@ function sc_pl_sk176(){
 			atk.ySpeed	= sk176Index3;
 				
 			uc_shake(8, 0.1);
-			SE_Play(s_pl_sk101, global.vol);
+			SE_Play(s_gun3, global.vol);
 			sc_pl_kulNMana(176);
 			atkProcess = 80;
 		}

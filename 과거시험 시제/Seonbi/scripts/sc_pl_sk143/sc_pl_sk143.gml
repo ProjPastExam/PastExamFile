@@ -32,7 +32,7 @@ function sc_pl_sk143(){
 		sc_pl_atkEf(sc_pl_fireDmg()*2, sc_pl_firePene(), sc_pl_fireShock(), 0, 
 			4, 2, 5, sp_pl_sk143Ef, dir, 0);
 		uc_shake(8, 0.1);
-		SE_Play(s_pl_sk110, global.vol);
+		SE_Play(s_gun1, global.vol);
 		//audio_play_sound(s_pl_sk101, 5, false);
 		part_type_scale(global.gunEf, dir, 1);
 		part_particles_create( global.hitEf, x, y, global.gunEf, 1 );

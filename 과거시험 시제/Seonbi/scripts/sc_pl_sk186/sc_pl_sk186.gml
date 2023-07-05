@@ -23,7 +23,7 @@ function sc_pl_sk186(){
 		sc_pl_atkEf(sc_pl_fireDmg()*5, sc_pl_firePene(), 200, 0, 
 			4, 2, 5, sp_pl_sk186Ef2, dir, 0, , y);
 		uc_shake(8, 0.1);
-		SE_Play(s_pl_sk101, global.vol);
+		SE_Play(s_gun3, global.vol);
 		sc_pl_kulNMana(186);
 	}
 	

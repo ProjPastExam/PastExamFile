@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "s_pl_sk101",
+  "name": "s_gun3",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "s_pl_sk101.wav",
+  "soundFile": "s_gun3.wav",
   "type": 0,
   "volume": 1.0,
 }

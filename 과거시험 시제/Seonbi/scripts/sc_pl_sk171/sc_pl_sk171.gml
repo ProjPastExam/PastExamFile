@@ -13,7 +13,7 @@ function sc_pl_sk171(){
 		sc_pl_atkEf(sc_pl_fireDmg()*4.5, sc_pl_firePene(), sc_pl_fireShock(), 0, 
 			4, 2, 10, sp_pl_sk171Ef, dir, 0,,y-20);
 		uc_shake(8, 0.1);
-		SE_Play(s_pl_sk101, global.vol);
+		SE_Play(s_gun2, global.vol);
 		part_type_scale(global.gunEf, dir, 1);
 		part_particles_create( global.hitEf, x, y, global.gunEf, 1 );
 		sc_pl_kulNMana(171);
