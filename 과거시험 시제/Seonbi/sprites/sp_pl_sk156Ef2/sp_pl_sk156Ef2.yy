@@ -27,7 +27,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"321fa46f-7d31-4acb-a4eb-ac7cd18db79f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "kick",
     "path": "folders/Sprites/player/skillSprite/kick.yy",
@@ -68,7 +68,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 960,
-    "yorigin": 192,
+    "yorigin": 160,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
