@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sp_pl_sk121Ef2",
-    "path": "sprites/sp_pl_sk121Ef2/sp_pl_sk121Ef2.yy",
+    "name": "sp_pl_sk126Ef2",
+    "path": "sprites/sp_pl_sk126Ef2/sp_pl_sk126Ef2.yy",
   },
   "spriteMaskId": null,
   "visible": true,

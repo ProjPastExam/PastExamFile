@@ -11,7 +11,7 @@ for (var i = 0; i < hitSum; i++) {
 if (isActive)
 {
 	var atk = sc_pl_atkEf(sc_pl_atkDmg()*2, sc_pl_atkPene(), sc_pl_atkShock(), 0, 
-			0, 0, 5, sp_pl_sk121Ef2, image_xscale,, other.x, other.bbox_bottom,,,ob_skEf121_2);
+			0, 0, 5, sp_pl_sk126Ef2, image_xscale,, other.x, other.bbox_bottom,,,ob_skEf121_2);
 	atk.trackId = other.id;
 	isActive = false;
 }
