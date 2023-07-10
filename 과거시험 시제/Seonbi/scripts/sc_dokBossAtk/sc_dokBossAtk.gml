@@ -41,10 +41,9 @@ function sc_dokBossAtk(){
 		isCounter = 1;
 		
 		
-		//if ( process == 1 ) { SE_Play(s_bandit01atk1, global.vol); }
+		if ( process == 1 ) { SE_Play(s_dokBossYell1, global.vol); }
 		if ( process == 36+lvDly ) { 
-			SE_Play(s_jpBoss_atk1_1, global.vol);
-			//audio_play_sound(s_bandit01atk2, 8, false);
+			SE_Play(s_dokBossAtk3, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtkTrack);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_dokBoss_atk1Ef1;
@@ -53,8 +52,7 @@ function sc_dokBossAtk(){
 		}
 		
 		if ( process == 96+lvDly ) { 
-			SE_Play(s_jpBoss_atk1_2, global.vol);
-			//audio_play_sound(s_bandit01atk2, 8, false);
+			SE_Play(s_dokBossAtk4, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_dokBoss_atk1Ef2;
@@ -91,16 +89,14 @@ function sc_dokBossAtk(){
 		
 		//if ( process == 1 ) { SE_Play(s_bandit01atk1, global.vol); }
 		if ( process == 48+lvDly ) { 
-			SE_Play(s_jpBoss_atk1_1, global.vol);
-			//audio_play_sound(s_bandit01atk2, 8, false);
+			SE_Play(s_dokBossAtk1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_dokBoss_atk2Ef1;
 		}
 		
 		if ( process == 90+lvDly ) { 
-			SE_Play(s_jpBoss_atk1_2, global.vol);
-			//audio_play_sound(s_bandit01atk2, 8, false);
+			SE_Play(s_dokBossAtk2, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_dokBoss_atk2Ef2;
@@ -137,8 +133,14 @@ function sc_dokBossAtk(){
 			//SE_Play(s_jp_dAtk, global.vol); 
 		}
 		
+		if (process == 1) {
+			if ( x > plX ) dir = -1;
+			else dir = 1;
+			SE_Play(s_dokBossYell1, global.vol); 
+		}
+		
 		if ( process == 48+lvDly || process == 118+lvDly*2 || process == 178+lvDly*3 ) { 
-			SE_Play(s_jpBoss_atk2, global.vol);
+			SE_Play(s_dokBossAtk1, global.vol);
 			var ob = instance_create_layer(plX, y-150, "effect", ob_mobAtkRdy);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_dokBoss_atk3Ef1;
@@ -207,8 +209,10 @@ function sc_dokBossAtk(){
 		if (process == 1) {
 			if ( x > plX ) dir = -1;
 			else dir = 1;
-			//SE_Play(s_jp_dAtk, global.vol); 
+			SE_Play(s_dokBossYell2, global.vol);
 		}
+		
+		if ( process == 51+lvDly/4 ) { SE_Play(s_dokBossAtk3, global.vol); }
 		
 		if ( process == 80+lvDly) { 
 			uc_shake(10, 0.1);
@@ -267,6 +271,9 @@ function sc_dokBossAtk(){
 		
 		isDK = true;	isDF = true;
 		
+		if ( process == 1 ) { SE_Play(s_dokBossYell2, global.vol); }
+		if ( process == 40+lvDly ) { SE_Play(s_dokBossAtk3, global.vol); }
+		
 		if (process == 72+lvDly) {
 			uc_shake(10, 0.1);
 			SE_Play(s_st3_boss3, global.vol);
@@ -289,8 +296,8 @@ function sc_dokBossAtk(){
 		else if ( process < 72+lvDly ) { image_index = 8; xSpeed = dir*24; }
 		else if ( process < 78+lvDly ) { image_index = 9; }
 		else if ( process < 84+lvDly ) { image_index = 10; }
-		else if ( process < 100+lvDly ) { image_index = 11; }
-		else { state = 9;	process = 90;	delay = 0; }
+		else if ( process < 90+lvDly ) { image_index = 11; }
+		else { state = 9;	process = 60+lvDly*2;	delay = 0; }
 	}
 	
 	else if ( state == 32 ) {
@@ -299,8 +306,10 @@ function sc_dokBossAtk(){
 		
 		isDK = true;
 		
+		if ( process == 1 ) { SE_Play(s_dokBossYell1, global.vol); }
+		
 		if (process == 65+lvDly) {
-			//SE_Play(s_swing_a2, global.vol);
+			SE_Play(s_dokBossAtk2, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_dokBoss_counter2Ef;
@@ -321,7 +330,7 @@ function sc_dokBossAtk(){
 		else if ( process < 87+lvDly ) { image_index = 11; }
 		else if ( process < 95+lvDly ) { image_index = 12; }
 		else if ( process < 103+lvDly ) { image_index = 13; }
-		else if ( process < 140+lvDly ) { image_index = 14; }
+		else if ( process < 120+lvDly*3 ) { image_index = 14; }
 		else { state = 9;	process = 30;	delay = 0; }
 	}
 	

@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "cs01",
-    "path": "folders/Sprites/csSprite/tutorialCs/cs01.yy",
+    "name": "face",
+    "path": "folders/Sprites/NPC/face.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -44,7 +44,7 @@ function sc_stage04DBCs1(){
 			break;
 			
 		case 4:
-			sc_csBase(csvHor, 2, sp_npc_blank, ii, iy);
+			sc_csBase(csvHor, 2, sp_child2_face, ii, iy);
 			break;
 			
 		case 5:
@@ -67,10 +67,12 @@ function sc_stage04DBCs1(){
 			break;
 			
 		case 8:
+			BGS_Play(s_foot, global.vol, 0);
 			alarm[1] = 120;
 			break;
 		
 		case 9:
+			BGS_Set(0, 0)
 			alarm[1] = 90;
 			isTalk = 6;
 			uc_shake(10, 0.2);
@@ -88,12 +90,14 @@ function sc_stage04DBCs1(){
 			break;
 			
 		case 12:
+			BGS_Play(s_run, global.vol, 0);
 			ob_roomControl.isTalk = 4;
 			isTalk = 4;
 			alarm[1] = 115;
 			break;
 			
 		case 13:
+			BGS_Set(0, 0);
 			ob_roomControl.isTalk = 7;
 			isTalk = 5;
 			sc_csBase2(ii, iy);
@@ -102,16 +106,18 @@ function sc_stage04DBCs1(){
 			break;
 			
 		case 14:
-			sc_csBase(csvHor, 5, sp_npc_blank, ii, iy);
+			sc_csBase(csvHor, 5, sp_child2_face, ii, iy);
 			break;
 			
 		case 15:
+			BGS_Play(s_run, global.vol, 0);
 			ob_roomControl.isTalk = 4;
 			isTalk = 5;
 			alarm[1] = 150;
 			break;
 			
 		case 16:
+			BGS_Set(0, 60);
 			ob_roomControl.isTalk = 8;
 			sc_csBase2(sx, sy);
 			isTalk = 5;
@@ -124,6 +130,7 @@ function sc_stage04DBCs1(){
 			break;
 			
 		case 18:
+			SE_Play(s_dokBossCs, global.vol);
 			ob_roomControl.isTalk = 4;
 			isTalk = 4;
 			alarm[1] = 210;
