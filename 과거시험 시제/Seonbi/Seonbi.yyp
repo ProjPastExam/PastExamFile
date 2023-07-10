@@ -1199,6 +1199,7 @@
     {"id":{"name":"sc_mobMain","path":"scripts/sc_mobMain/sc_mobMain.yy",},},
     {"id":{"name":"sp_mask2_shock","path":"sprites/sp_mask2_shock/sp_mask2_shock.yy",},},
     {"id":{"name":"ob_smithSelectImage","path":"objects/ob_smithSelectImage/ob_smithSelectImage.yy",},},
+    {"id":{"name":"r_stage04BossCs3","path":"rooms/r_stage04BossCs3/r_stage04BossCs3.yy",},},
     {"id":{"name":"sp_cB1_cir","path":"sprites/sp_cB1_cir/sp_cB1_cir.yy",},},
     {"id":{"name":"sp_dok1_run","path":"sprites/sp_dok1_run/sp_dok1_run.yy",},},
     {"id":{"name":"sp_skillUi_141","path":"sprites/sp_skillUi_141/sp_skillUi_141.yy",},},
@@ -2934,6 +2935,7 @@
     {"roomId":{"name":"r_stage03Clear","path":"rooms/r_stage03Clear/r_stage03Clear.yy",},},
     {"roomId":{"name":"r_erEnd","path":"rooms/r_erEnd/r_erEnd.yy",},},
     {"roomId":{"name":"r_stage04BossCs1","path":"rooms/r_stage04BossCs1/r_stage04BossCs1.yy",},},
+    {"roomId":{"name":"r_stage04BossCs3","path":"rooms/r_stage04BossCs3/r_stage04BossCs3.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

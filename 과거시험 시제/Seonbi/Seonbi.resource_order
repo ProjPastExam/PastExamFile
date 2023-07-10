@@ -1062,6 +1062,7 @@
     {"name":"sc_mobMain","order":4,"path":"scripts/sc_mobMain/sc_mobMain.yy",},
     {"name":"sp_mask2_shock","order":3,"path":"sprites/sp_mask2_shock/sp_mask2_shock.yy",},
     {"name":"ob_smithSelectImage","order":3,"path":"objects/ob_smithSelectImage/ob_smithSelectImage.yy",},
+    {"name":"r_stage04BossCs3","order":20,"path":"rooms/r_stage04BossCs3/r_stage04BossCs3.yy",},
     {"name":"sp_cB1_cir","order":16,"path":"sprites/sp_cB1_cir/sp_cB1_cir.yy",},
     {"name":"sp_dok1_run","order":8,"path":"sprites/sp_dok1_run/sp_dok1_run.yy",},
     {"name":"sp_skillUi_141","order":18,"path":"sprites/sp_skillUi_141/sp_skillUi_141.yy",},

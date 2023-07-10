@@ -102,61 +102,92 @@ function sc_stage04DBCs2(){
 			
 		case 13:
 			sc_csBase(csvHor, 4, sp_chun_face_embar, dx, dy);
-			isTalk = 4;
 			break;
 			
 		case 14:
+			sc_csBase(csvHor, 5, sp_npc_blank, ix+30, iy);
+			isTalk = 4;
+			break;
+			
+		case 15:
 			ob_roomControl.isTalk = 4;
 			alarm[1] = 60;
 			break;
 			
-		case 15:
+		case 16:
 			ob_roomControl.isTalk = 8;
 			isTalk = 5;
 			sc_csBase2(ix, iy);
 			alarm[1] = 120;
 			break;
 			
-		case 16:
-			sc_csBase(csvHor, 5, sp_seon_face, ix, iy);
-			isTalk = 4;
-			break;
-			
 		case 17:
-			sc_csBase(csvHor, 6, sp_dokBoss_face, sx, sy);
+			sc_csBase(csvHor, 6, sp_seon_face, ix, iy);
 			break;
 			
 		case 18:
-			SE_Play(s_dokBossCs, global.vol);
-			ob_roomControl.isTalk = 4;
-			isTalk = 4;
-			alarm[1] = 210;
+			ob_roomControl.isTalk = 7;
+			isTalk = 5;
+			sc_csBase2(ix, iy);
+			alarm[1] = 120;
 			break;
 			
 		case 19:
-			isTalk = 4;
-			alarm[1] = 60;
+			sc_csBase(csvHor, 7, sp_seon_face, ix, iy);
 			break;
 			
 		case 20:
 			ob_roomControl.isTalk = 8;
-			sc_csBase2(sx-30, sy);
+			sc_csBase2(dx, dy);
 			isTalk = 5;
 			alarm[1] = 120;
 			break;
 			
 		case 21:
-			sc_csBase(csvHor, 7, sp_dokBoss_face2, sx-30, sy);
-			BGM_Play(s_mB04_2, global.volBgm, 0);
+			sc_csBase(csvHor, 8, sp_chun_face_embar, dx, dy);
 			break;
 			
 		case 22:
-			ob_roomControl.isTalk = 4;
-			isTalk = 4;
-			alarm[1] = 120;
+			sc_csBase(csvHor, 9, sp_chun_face_angry, dx, dy);
 			break;
 			
 		case 23:
+			ob_roomControl.isTalk = 7;
+			sc_csBase2(ix, iy);
+			isTalk = 5;
+			alarm[1] = 120;
+			break;
+			
+		case 24:
+			sc_csBase(csvHor, 10, sp_seon_face, ix, iy);
+			break;
+			
+		case 25:
+			sc_csBase(csvHor, 11, sp_chun_face_laugh, dx, dy);
+			break;
+			
+		case 26:
+			ob_roomControl.isTalk = 8;
+			isTalk = 5;
+			sc_csBase2(ix, iy);
+			alarm[1] = 120;
+			break;
+			
+		case 27:
+			sc_csBase(csvHor, 12, sp_seon_face, ix, iy);
+			break;
+			
+		case 28:
+			sc_csBase(csvHor, 13, sp_chun_face_silence, dx, dy);
+			break;
+			
+		case 29:
+			ob_roomControl.isTalk = 4;
+			isTalk = 4;
+			alarm[1] = 30;
+			break;
+			
+		case 30:
 			ob_roomControl.alarm[7] = 1;
 			break;
 		
