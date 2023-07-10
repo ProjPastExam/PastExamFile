@@ -8,16 +8,17 @@ var state = ob_roomControl.talkCnt;
 
 switch (state) {
 	
-case 3:
+case 5:
 	visible = true;
 	if (active) {
 		active = false;
 		sprite_index = sp_chun_appear;
 		image_index = 0;
+		SE_Play(s_chun_reward, global.vol);
 	}
 	break;
 	
-case 4:
+case 6:
 	sprite_index = sp_chun_stand;
 	active = true;
 	break;

@@ -8,38 +8,43 @@ var state = ob_roomControl.talkCnt;
 
 switch (state) {
 	
-case 3:
-	//if (active) {
-	//	active = false;
-	//	sprite_index = sp_chun_appear;
-	//	image_index = 0;
-	//}
-	break;
-	
-case 4:
-	//sprite_index = sp_chun_stand;
-	active = true;
-	break;
-	/*
-case 4:
+case 10:
+
 	if (active) {
 		active = false;
-		chunEf = instance_create_layer(x, y+50, "roomControl", ob_tutoChunCs1Ef);
+		sprite_index = sp_dbCs2Seon1;
+		image_index = 0;
 	}
+	
 	break;
 	
-case 5:
-	active = true;
-	break;
-	
-case 6:
-	sprite_index = sp_chun_spell;
-	if (active) {
-		active = false;
+case 11:
+
+	if (!active) {
+		active = true;
+		sprite_index = sp_dbCs2Seon2;
 		image_index = 0;
 	}
 	break;
-	*/
+
+case 14:
+
+	if (active) {
+		active = false;
+		sprite_index = sp_dbCs2Seon3;
+		image_index = 0;
+	}
+	
+	break;
+	
+case 15:
+
+	if (!active) {
+		active = true;
+		sprite_index = sp_dbCs2Seon4;
+		image_index = 0;
+	}
+	break;
 }
 	
 

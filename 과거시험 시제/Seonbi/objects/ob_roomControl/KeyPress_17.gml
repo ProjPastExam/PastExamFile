@@ -4,6 +4,7 @@
 //room_goto(nextRoom);
 //room_goto(r_tutorialBossCs2);
 room_goto(r_stage04BossCs2);
+//room_goto(r_stage04Cs);
 //room_goto(r_stage03Boss_2);
 //room_goto(r_stage02Village);
 //room_goto(r_stage06_1_1);

@@ -3,18 +3,18 @@
 function sc_stage04DBCs2(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
-	if (state == 12) x = x + 8;
+	if (state == 2) x = x + 4;
 	
-	var ii = 620;
-	var iy = 680;
+	var ix = 1350;
+	var iy = 600;
 	
-	var dx = 384;
+	var dx = 960;
 	var dy = 580;
 	
-	var sx = 1485;
-	var sy = 500;
+	var sx = 960;
+	var sy = 620;
 	
-	var csvHor = 16
+	var csvHor = 24;
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
@@ -27,102 +27,99 @@ function sc_stage04DBCs2(){
 			
 		case 1:
 			ob_roomControl.isTalk = 8;
-			sc_csBase2(sx, sy);
+			sc_csBase2(x, sy);
 			alarm[1] = 120;
 			break;
 			
 		case 2:
-			ob_roomControl.isTalk = 8;
-			isTalk = 5;
-			sc_csBase2(sx, sy);
+			ob_roomControl.isTalk = 4;
 			alarm[1] = 120;
+			isTalk = 4;
+			BGS_Play(s_foot, global.vol, 0);
+			sprite_index = sp_pl_walk;
 			break;
 			
 		case 3:
-			BGM_Play(s_mB04_1, global.volBgm, 0);
-			sc_csBase(csvHor, 1, sp_dokBoss_face, sx, sy);
+			BGS_Set(0, 0);
+			image_index = 0;
+			sprite_index = sp_cs02_plSit;
+			alarm[1] = 60;
 			break;
 			
 		case 4:
-			sc_csBase(csvHor, 2, sp_child2_face, ii, iy);
+			sprite_index = sp_cs02_plSitDown;
+			alarm[1] = 80;
 			break;
 			
 		case 5:
-			ob_roomControl.isTalk = 8;
 			isTalk = 5;
-			sc_csBase2(sx, sy);
-			alarm[1] = 120;
+			alarm[1] = 80;
 			break;
 		
 		case 6:
-			sc_csBase(csvHor, 3, sp_dokBoss_face, sx, sy);
-			isTalk = 4;
+			//ob_roomControl.isTalk = 5;
+			isTalk = 5;
+			sc_csBase(csvHor, 1, sp_chun_face_angry, dx, dy);
 			break;
 			
 		case 7:
 			ob_roomControl.isTalk = 8;
+			sc_csBase2(ix-20, iy+40);
+			isTalk = 5;
+			alarm[1] = 120;
+			break;
+			
+		case 8:
+			sc_csBase(csvHor, 2, sp_npc_blank, ix-20, iy+40);
+			break;
+		
+		case 9:
+			ob_roomControl.isTalk = 7;
 			sc_csBase2(dx, dy);
 			isTalk = 4;
 			alarm[1] = 120;
 			break;
 			
-		case 8:
-			BGS_Play(s_foot, global.vol, 0);
-			alarm[1] = 120;
+		case 10:
+			ob_roomControl.isTalk = 4;
+			image_index = 0;
+			sprite_index = sp_cs02_plStand;
+			alarm[1] = 60;
 			break;
 		
-		case 9:
-			BGS_Set(0, 0)
-			alarm[1] = 90;
-			isTalk = 6;
-			uc_shake(10, 0.2);
-			SE_Play(s_hitCritical, global.vol);
-			break;
-			
-		case 10:
-			isTalk = 5;
-			sc_csBase2(sx, sy);
-			alarm[1] = 120;
-			break;
-			
 		case 11:
-			sc_csBase(csvHor, 4, sp_dokBoss_face, sx, sy);
+			ob_roomControl.isTalk = 8;
+			sprite_index = sp_pl_standPeace;
+			isTalk = 5;
+			sc_csBase2(ix+30, iy);
+			alarm[1] = 120;
 			break;
 			
 		case 12:
-			BGS_Play(s_run, global.vol, 0);
-			ob_roomControl.isTalk = 4;
-			isTalk = 4;
-			alarm[1] = 115;
+			sc_csBase(csvHor, 3, sp_npc_blank, ix+30, iy);
+			isTalk = 5;
 			break;
 			
 		case 13:
-			BGS_Set(0, 0);
-			ob_roomControl.isTalk = 7;
-			isTalk = 5;
-			sc_csBase2(ii, iy);
-			sprite_index = sp_pl_stand;
-			alarm[1] = 120;
+			sc_csBase(csvHor, 4, sp_chun_face_embar, dx, dy);
+			isTalk = 4;
 			break;
 			
 		case 14:
-			sc_csBase(csvHor, 5, sp_child2_face, ii, iy);
+			ob_roomControl.isTalk = 4;
+			alarm[1] = 60;
 			break;
 			
 		case 15:
-			BGS_Play(s_run, global.vol, 0);
-			ob_roomControl.isTalk = 4;
+			ob_roomControl.isTalk = 8;
 			isTalk = 5;
-			alarm[1] = 150;
+			sc_csBase2(ix, iy);
+			alarm[1] = 120;
 			break;
 			
 		case 16:
-			BGS_Set(0, 60);
-			ob_roomControl.isTalk = 8;
-			sc_csBase2(sx, sy);
-			isTalk = 5;
-			BGM_Stop(120);
-			alarm[1] = 120;
+			sc_csBase(csvHor, 5, sp_seon_face, ix, iy);
+			isTalk = 4;
 			break;
 			
 		case 17:
