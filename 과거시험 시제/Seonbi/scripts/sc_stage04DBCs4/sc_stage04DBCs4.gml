@@ -1,6 +1,6 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_stage04DBCs2(){
+// v2.3.0에 대한 스크립트 어셋 변경됨 자세한 정보는
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
+function sc_stage04DBCs4(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
 	if (state == 2) x = x + 4;
@@ -14,7 +14,7 @@ function sc_stage04DBCs2(){
 	var sx = 960;
 	var sy = 620;
 	
-	var csvHor = 24;
+	var csvHor = 28;
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
@@ -27,38 +27,18 @@ function sc_stage04DBCs2(){
 			
 		case 1:
 			ob_roomControl.isTalk = 8;
-			sc_csBase2(x, sy);
-			alarm[1] = 120;
-			break;
-			
-		case 2:
-			ob_roomControl.isTalk = 4;
+			sc_csBase2(ix, iy);
 			alarm[1] = 120;
 			isTalk = 4;
-			BGS_Play(s_foot, global.vol, 0);
-			sprite_index = sp_pl_walk;
-			break;
-			
-		case 3:
-			BGS_Set(0, 0);
-			image_index = 0;
-			sprite_index = sp_cs02_plSit;
-			alarm[1] = 60;
-			break;
-			
-		case 4:
-			sprite_index = sp_cs02_plSitDown;
-			alarm[1] = 80;
-			break;
-			
-		case 5:
-			isTalk = 5;
-			alarm[1] = 80;
 			break;
 		
-		case 6:
-			//ob_roomControl.isTalk = 5;
+		case 2:
+			ob_roomControl.isTalk = 4;
+			alarm[1] = 60;
 			isTalk = 5;
+			break;
+		
+		case 3:
 			sc_csBase(csvHor, 1, sp_chun_face_angry, dx, dy);
 			break;
 			

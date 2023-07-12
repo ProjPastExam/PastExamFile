@@ -3,7 +3,11 @@
 
 var state = ob_roomControl.talkCnt;
 
-if (state == 11) image_xscale = -1;
+if (state == 11) 
+{
+	image_xscale = -1;
+	sprite_index = sp_ed2Sold_stand2;
+}
 if (state == 20 && isActive)
 {
 	isActive = false;
