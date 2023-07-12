@@ -15,7 +15,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		sprite_index = sp_dokBoss_die;
 		if ( process < 280 ) process++;
 		if ( process == 1 ) { 
-			sc_dieJp2();
+			SE_Play(s_dokBDie3, global.vol);
 			alarm[4] = 320;
 			BGM_Stop(90);
 			image_index = 0;

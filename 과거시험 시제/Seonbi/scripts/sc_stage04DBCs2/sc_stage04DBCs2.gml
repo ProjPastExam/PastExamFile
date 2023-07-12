@@ -70,7 +70,7 @@ function sc_stage04DBCs2(){
 			break;
 			
 		case 8:
-			sc_csBase(csvHor, 2, sp_npc_blank, ix-20, iy+40);
+			sc_csBase(csvHor, 2, sp_seon_face2, ix-20, iy+40);
 			break;
 		
 		case 9:
@@ -96,7 +96,7 @@ function sc_stage04DBCs2(){
 			break;
 			
 		case 12:
-			sc_csBase(csvHor, 3, sp_npc_blank, ix+30, iy);
+			sc_csBase(csvHor, 3, sp_seon_face2, ix+30, iy);
 			isTalk = 5;
 			break;
 			
@@ -105,7 +105,7 @@ function sc_stage04DBCs2(){
 			break;
 			
 		case 14:
-			sc_csBase(csvHor, 5, sp_npc_blank, ix+30, iy);
+			sc_csBase(csvHor, 5, sp_seon_face2, ix+30, iy);
 			isTalk = 4;
 			break;
 			

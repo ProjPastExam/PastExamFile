@@ -1,23 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ob_ending2CsPl",
+  "name": "ob_endTitle",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_csParent","path":"objects/ob_csParent/ob_csParent.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_csParent/ob_csParent.yy",},"value":"ending2.csv",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "endCs",
     "path": "folders/Objects/csOb/endCs.yy",
   },
-  "parentObjectId": {
-    "name": "ob_csParent",
-    "path": "objects/ob_csParent/ob_csParent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -34,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sp_pl_standPeace",
-    "path": "sprites/sp_pl_standPeace/sp_pl_standPeace.yy",
+    "name": "sp_endTitle",
+    "path": "sprites/sp_endTitle/sp_endTitle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

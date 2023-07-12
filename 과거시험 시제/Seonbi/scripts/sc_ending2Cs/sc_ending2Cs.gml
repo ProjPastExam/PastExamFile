@@ -4,14 +4,15 @@ function sc_ending2Cs(){
 	var state = ob_roomControl.talkCnt;
 	var isT = ob_roomControl.isTalk;
 	
-	var vstX	= 1749;
-	var vstY	= 420;
+	var vstX	= 1729;
+	var vstY	= 360;
 	
-	var ppX		= 960;
-	var ppY		= 600;
+	var ppX		= 980;
+	var ppY		= 660;
 	
-	if (state == 4) x += 9;
-	else if (state == 5) {
+	var csvHor = 0;
+	
+	if (state == 19) {
 		process++;
 		x += 30;
 		if ( process % 4 == 0 ) { 
@@ -20,7 +21,7 @@ function sc_ending2Cs(){
 			part_particles_create( global.hitEf2, x, y, global.dashEf, 1 );
 		}
 	}
-	else if (state == 6) {
+	else if (state == 20) {
 		process++;
 		if (process == 8) {
 			with (instance_create_layer(x, y, "effect", ob_csEffect)) {
@@ -29,26 +30,21 @@ function sc_ending2Cs(){
 			SE_Play(s_kick01, global.vol);
 		}
 		
+		if (process == 35) {
+			SE_Play(s_cloth2, global.vol);
+		}
+		
 		if (process < 3)		{ image_index = 0; x += 14; }
 		else if (process < 8)	{ image_index = 1; x += 16; }
 		else if (process < 14)	{ image_index = 2; x += 12; }
 		else if (process < 20)	{ image_index = 3; x += 8; }
-		else if (process < 25)	{ image_index = 3; x += 4; }
-	}
-	else if (state == 7) {
-		process++;
-		if (process == 14) {
-			with (instance_create_layer(x, y, "effect", ob_csEffect)) {
-				sprite_index = sp_pl_atkEf02;
-			}
-			SE_Play(s_arrow02, global.vol);
-		}
-		
-		else if (process < 7)	{ image_index = 1; }
-		else if (process < 14)	{ image_index = 2; }
-		else if (process < 21)	{ image_index = 3; }
-		else if (process < 28)	{ image_index = 4; }
-		else					{ image_index = 5; }
+		else if (process < 35)	{ image_index = 4; }
+		else if (process < 40)	{ image_index = 5; }
+		else if (process < 45)	{ image_index = 6; }
+		else if (process < 50)	{ image_index = 7; }
+		else if (process < 55)	{ image_index = 8; }
+		else if (process < 60)	{ image_index = 9; }
+		else if (process < 65)	{ image_index = 10; }
 	}
 
 	
@@ -57,276 +53,167 @@ function sc_ending2Cs(){
 		switch (state) {
 		case 0:
 			alarm[1] = 210;
-			isTalk = 5;
+			isTalk = 4;
 			break;
 			 
 		case 1:
-			BGM_Play(s_mB01_1, global.volBgm, 0);
-			sc_csBase(0, 1, sp_bandit_face, hang1, 580);
-			uc_shake(8, 0.1);
+			alarm[1] = 120;
+			ob_roomControl.isTalk = 8;
+			isTalk = 5;
+			sc_csBase2(vstX, vstY);
 			break;
 			
 		case 2:
-			sc_csBase(0, 2, sp_civil03Face, hang2, 580);
+			BGM_Play(s_mB04_1, global.volBgm, 0);
+			sc_csBase(csvHor, 1, sp_bst_face, vstX, vstY);
 			break;
 			
 		case 3:
-			ob_roomControl.isTalk = 4;
-			isTalk = 4;
-			alarm[1] = 30;
+			sc_csBase(csvHor, 2, sp_cs01_face2, ppX, ppY);
 			break;
 			
 		case 4:
-			sprite_index = sp_pl_run;
-			alarm[1] = 40;
+			sc_csBase(csvHor, 3, sp_bst_face, vstX, vstY);
 			break;
 			
 		case 5:
-			alarm[1] = 18;
+			sc_csBase(csvHor, 4, sp_bst_face, vstX, vstY);
+			break;
+			
+		case 6:
+			alarm[1] = 120;
+			ob_roomControl.isTalk = 7;
+			isTalk = 5;
+			sc_csBase2(ppX, ppY);
+			break;
+		
+		case 7:
+			sc_csBase(csvHor, 5, sp_cs01_face2, ppX, ppY);
+			break;
+			
+		case 8:
+			sc_csBase(csvHor, 6, sp_bst_face, vstX, vstY);
+			break;
+			
+		case 9:
+			alarm[1] = 120;
+			ob_roomControl.isTalk = 8;
+			isTalk = 5;
+			sc_csBase2(vstX, vstY);
+			BGM_Stop(120);
+			break;
+			
+		case 10:
+			sc_csBase(csvHor, 7, sp_bst_face, vstX, vstY);
+			break;
+			
+		case 11:
+			alarm[1] = 10;
+			ob_roomControl.isTalk = 4;
+			isTalk = 4;
+			uc_shake(3, 0.1);
+			SE_Play(s_hitCritical, global.vol);
+			break;
+		
+		case 12:
+			alarm[1] = 30;
+			uc_shake(3, 0.1);
+			SE_Play(s_hitCritical, global.vol);
+			break;
+		
+		case 13:
+			alarm[1] = 10;
+			uc_shake(6, 0.1);
+			SE_Play(s_hitCritical, global.vol);
+			SE_Play(s_bandit01die4, global.vol);
+			break;
+			
+		case 14:
+			alarm[1] = 120;
+			ob_roomControl.isTalk = 7;
+			isTalk = 5;
+			sc_csBase2(vstX, vstY);
+			break;
+			
+		case 15:
+			sc_csBase(csvHor, 8, sp_bst_face, vstX, vstY);
+			break;
+			
+		case 16:
+			alarm[1] = 60;
+			ob_roomControl.isTalk = 4;
+			isTalk = 4;
+			uc_shake(6, 0.1);
+			SE_Play(s_hitCritical, global.vol);
+			SE_Play(s_bandit01die1, global.vol);
+			break;
+		
+		case 17:
+			alarm[1] = 10;
+			uc_shake(3, 0.1);
+			SE_Play(s_hitCritical, global.vol);
+			break;
+		
+		case 18:
+			alarm[1] = 120;
+			uc_shake(6, 0.1);
+			SE_Play(s_hitCritical, global.vol);
+			SE_Play(s_bandit01die3, global.vol);
+			break;
+			
+		case 19:
+			alarm[1] = 12;
 			sprite_index = sp_pl_dash;
 			process = 0;
 			SE_Play(s_dash01, global.vol);
 			break;
 			
-		case 6:
-			alarm[1] = 25;
-			sprite_index = sp_pl_atkFront2;
-			process = 0;
-			break;
-			
-		case 7:
-			alarm[1] = 50;
-			sprite_index = sp_pl_atk2;
-			process = 0;
-			break;
-			
-		case 8:
-			isTalk = 7;
-			alarm[1] = 10;
-			sprite_index = sp_pl_stand;
-			break;
-			
-		case 9:
-			isTalk = 5;
-			sc_csBase2(hang2, 580);
-			alarm[1] = 120;
-			break;
-			
-		case 10:
-			sprite_index = sp_pl_standPeace;
-			image_xscale = -1;
-			sc_csBase(0, 3, sp_civil03Face, hang2, 580);
-			break;
-			
-		case 11:
-			ob_roomControl.isTalk = 4;
-			alarm[1] = 20;
-			isTalk = 4;
-			break;
-			
-		case 12:
-			alarm[1] = 60;
-			isTalk = 5;
-			break;
-			
-		case 13:
-			sc_csBase(0, 4, sp_civil01Face, 640, 580);
-			break;
-			
-		case 14:
-			ob_roomControl.isTalk = 4;
-			alarm[1] = 150;
-			isTalk = 8;
-			break;
-			
-		case 15:
-			alarm[1] = 120;
-			isTalk = 4;
-			sc_csBase2(x, 560);
-			break;
-			
-		case 16:
-			alarm[1] = 56;
-			break;
-			
-		case 17:
-			isTalk = 5;
-			image_xscale = 1;
-			alarm[1] = 80;
-			break;
-			
-		case 18:
-			sc_csBase(0, 5, sp_chun_face_silence, 1280, 560);
-			break;
-			
-		case 19:
-			sc_csBase(0, 6, sp_chun_face_angry, 1280, 560);
-			break;
-			
 		case 20:
-			sc_csBase(0, 7, sp_chun_face_angry, 1280, 560);
+			alarm[1] = 80;
+			sprite_index = sp_ending2Pl;
+			process = 0;
 			break;
 			
 		case 21:
-			sc_csBase(0, 8, sp_chun_face_silence, 1280, 560);
+			alarm[1] = 120;
+			ob_roomControl.isTalk = 7;
+			isTalk = 5;
+			sc_csBase2(vstX, vstY);
 			break;
 			
 		case 22:
-			alarm[1] = 120;
-			ob_roomControl.isTalk = 8;
-			isTalk = 5;
-			sc_csBase2(1280, 560);
+			sc_csBase(csvHor, 9, sp_bst_face, vstX, vstY);
 			break;
 			
 		case 23:
-			sc_csBase(0, 9, sp_chun_face_angry, 1280, 560);
+			alarm[1] = 120;
+			ob_roomControl.isTalk = 8;
+			isTalk = 4;
+			sc_csBase2(x, 580);
 			break;
 			
 		case 24:
-			sc_csBase(0, 10, sp_chun_face, 1280, 560);
+			alarm[1] = 60;
+			ob_roomControl.isTalk = 4;
+			isTalk = 5;
 			break;
 			
 		case 25:
-			sc_csBase(0, 11, sp_chun_face_smile, 1280, 560);
+			sc_csBase(csvHor, 10, sp_pl_faceEnd, x, 580);
 			break;
 			
 		case 26:
-			alarm[1] = 90;
+			SE_Play(s_talk, global.vol);
+			BGM_Play(s_mr03, global.volBgm, 0);
+			instance_create_layer(0, 0, "effect", ob_endTitle);
+			alarm[1] = 300;
 			ob_roomControl.isTalk = 4;
 			isTalk = 4;
-			BGM_Stop(60);
 			break;
 			
 		case 27:
 			ob_roomControl.alarm[7] = 1;
 			break;
-			
-			/*
-		case 2:
-			audio_play_sound(s_talk, 1, false);
-			sprite_index = sp_pl_standPeace;
-			var name = "???"
-			var text = "으아앙!";
-			sc_csBase(name, sp_npc_blank, text, -50, 540);
-			break;
-			
-			alarm[1] = 120;
-			ob_roomControl.isTalk = 8;
-			isTalk = 5;
-			sc_csBase2(1280, 560);
-			break;
-			
-		case 3:
-			ob_roomControl.isTalk = 7;
-			sc_csBase2(x, 560);
-			isTalk = 4;
-			alarm[1] = 120;
-			break;
-			
-		case 4:
-			isTalk = 4;
-			alarm[1] = 185;
-			break;
-			
-		case 5:
-			
-			isTalk = 5;
-			alarm[1] = 120;
-			break;
-		
-		case 6:
-			audio_play_sound(s_talk, 1, false);
-			var name = "어린아이"
-			var text = "제발..저좀 도와주세요.. 엉엉";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
-			break;
-			
-		case 7:
-			ob_roomControl.isTalk = 6;
-			sc_csBase2(x, 560);
-			isTalk = 4;
-			alarm[1] = 120;
-			break;
-			
-		case 8:
-			image_index = 0;
-			sprite_index = sp_cs02_plSit;
-			isTalk = 4;
-			alarm[1] = 60;
-			break;
-		
-		case 9:
-			sprite_index = sp_cs02_plSitDown;
-			isTalk = 5;
-			alarm[1] = 100;
-			break;
-		
-		case 10:
-			audio_play_sound(s_talk, 1, false);
-			var name = "어린아이"
-			var text = "저희 가족들이.. 다른 마을에 볼일이 있어.. \n백마산 길을 지나는데..";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
-			break;
-		
-		case 11:
-			audio_play_sound(s_talk, 1, false);
-			var name = "어린아이"
-			var text = "갑자기 왜놈들이 나타나서.. 가족과 일행을 다 잡아갔어요!..";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
-			break;
-			
-		case 12:
-			audio_play_sound(s_talk, 1, false);
-			var name = "어린아이"
-			var text = "어떻게 저만 간신히 도망쳤는데...";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
-			break;
-		
-		case 13:
-			ob_roomControl.isTalk = 8;
-			sc_csBase2(ii, iy);
-			isTalk = 5;
-			alarm[1] = 150;
-			break;
-		
-		case 14:
-			audio_play_sound(s_talk, 1, false);
-			var name = "어린아이"
-			var text = "저희 가족들좀 구해주세요!.. 엉엉..";
-			sc_csBase(name, sp_cs02_face, text, ii, iy);
-			break;
-			
-		case 15:
-			ob_roomControl.isTalk = 8;
-			sc_csBase2(x, 560);
-			isTalk = 4;
-			alarm[1] = 150;
-			break;
-			
-		case 16:
-			image_index = 0;
-			sprite_index = sp_cs02_plStand;
-			isTalk = 4;
-			alarm[1] = 60;
-			break;
-			
-		case 17:
-			image_index = 0;
-			sprite_index = sp_pl_standPeace;
-			isTalk = 4;
-			alarm[1] = 60;
-			break;
-			
-		case 18:
-			sprite_index = sp_pl_walk;
-			isTalk = 4;
-			alarm[1] = 210;
-			break;
-			
-		case 19:
-			ob_roomControl.alarm[7] = 1;
-			break;
-		*/
 		}
 	}
 }
