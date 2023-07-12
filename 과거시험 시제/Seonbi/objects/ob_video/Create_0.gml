@@ -8,3 +8,4 @@ sIndex = surface_create(1920, 1080);
 videoPlay = true;
 
 alarm[5] = playTime;
+alarm[1] = 30;

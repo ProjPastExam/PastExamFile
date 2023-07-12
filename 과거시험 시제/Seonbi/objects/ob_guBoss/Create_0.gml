@@ -21,7 +21,7 @@ nextState = 20;
 isCounter = false;
 
 spawnIndex	= irandom_range(0, 2);
-spawnIndex	= 3;
+//spawnIndex	= 3;
 nextState = 12;
 
 standSp		= sp_gu_stand;

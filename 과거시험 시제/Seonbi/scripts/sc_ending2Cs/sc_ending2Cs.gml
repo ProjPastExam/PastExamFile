@@ -175,6 +175,7 @@ function sc_ending2Cs(){
 			break;
 			
 		case 21:
+			sprite_index = sp_ending2Pl2;
 			alarm[1] = 120;
 			ob_roomControl.isTalk = 7;
 			isTalk = 5;
@@ -184,7 +185,7 @@ function sc_ending2Cs(){
 		case 22:
 			sc_csBase(csvHor, 9, sp_bst_face, vstX, vstY);
 			break;
-			
+			/*
 		case 23:
 			alarm[1] = 120;
 			ob_roomControl.isTalk = 8;
@@ -197,21 +198,21 @@ function sc_ending2Cs(){
 			ob_roomControl.isTalk = 4;
 			isTalk = 5;
 			break;
-			
-		case 25:
+			*/
+		case 23:
 			sc_csBase(csvHor, 10, sp_pl_faceEnd, x, 580);
 			break;
 			
-		case 26:
+		case 24:
 			SE_Play(s_talk, global.vol);
-			BGM_Play(s_mr03, global.volBgm, 0);
+			//BGM_Play(s_mr03, global.volBgm, 0);
 			instance_create_layer(0, 0, "effect", ob_endTitle);
-			alarm[1] = 300;
+			alarm[1] = 240;
 			ob_roomControl.isTalk = 4;
 			isTalk = 4;
 			break;
 			
-		case 27:
+		case 25:
 			ob_roomControl.alarm[7] = 1;
 			break;
 		}
