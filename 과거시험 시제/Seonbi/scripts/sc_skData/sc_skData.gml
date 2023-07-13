@@ -5,11 +5,16 @@ function sc_skData(){
 	global.skMp[0]		= 0;	//null	
 	global.skMp[101]	= 300;	//연속 사격
 	global.skMp[102]	= 300;	//다발 사격
+	global.skMp[103]	= 300;	//수노궁
 
 	global.skMp[111]	= 300;	//강화 연속 사격
 	global.skMp[112]	= 400;	//광역 사격
-	global.skMp[113]	= 200;	//강화 다발 사격
+	global.skMp[113]	= 300;	//강화 다발 사격
 	global.skMp[114]	= 300;	//화살비
+	global.skMp[115]	= 300;	//강화 수노궁
+	
+	global.skMp[126]	= 400;	//용
+	global.skMp[127]	= 300;	//철궁
 	
 	global.skMp[131]	= 200;	//창 찌르기
 	global.skMp[132]	= 100;	//환도
@@ -29,8 +34,12 @@ function sc_skData(){
 	global.skMp[171]	= 300;	//팔전총통
 	global.skMp[172]	= 400;	//승자총통
 	global.skMp[173]	= 300;	//쌍자총통
+	global.skMp[174]	= 400;	//이총통
+	global.skMp[175]	= 200;	//조총
+	global.skMp[176]	= 200;	//대완구
 	
 	global.skMp[186]	= 0	//일총통
+	global.skMp[187]	= 0	//비격진천뢰
 	
 	
 	global.skKulData = array_create(200, 0);
@@ -38,11 +47,16 @@ function sc_skData(){
 
 	global.skKulData[101]	= 180;
 	global.skKulData[102]	= 120;
+	global.skKulData[103]	= 120;
 	
 	global.skKulData[111]	= 240;
 	global.skKulData[112]	= 360;
 	global.skKulData[113]	= 180;
 	global.skKulData[114]	= 300;
+	global.skKulData[115]	= 180;
+	
+	global.skKulData[126]	= 480;
+	global.skKulData[127]	= 300;
 
 	global.skKulData[131]	= 180;
 	global.skKulData[132]	= 60;
@@ -62,6 +76,10 @@ function sc_skData(){
 	global.skKulData[171]	= 300;
 	global.skKulData[172]	= 300;
 	global.skKulData[173]	= 300;
+	global.skKulData[174]	= 480;
+	global.skKulData[175]	= 120;
+	global.skKulData[176]	= 120;
 	
 	global.skKulData[186]	= 10;
+	global.skKulData[187]	= 120;
 }

@@ -29,7 +29,7 @@ function sc_pl_sk113(){
 			SE_Play(s_item11_2, global.vol);
 		}
 		else {
-			sc_pl_atkEf(sc_pl_atkDmg()*4, sc_pl_atkPene(), sc_pl_atkShock()*1.2, 0, 
+			sc_pl_atkEf(sc_pl_atkDmg()*4, sc_pl_atkPene(), sc_pl_atkShock()*1.2, sc_pl_atkMana(), 
 			0, 0, 0, sp_pl_sk113Ef, dir);
 			SE_Play(s_arrow02, global.vol);
 		}

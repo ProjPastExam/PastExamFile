@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_mobSpawn(){
 	
+	dmgScale	= 1;
 	state		= 0;
 	hitAfter	= 0;
 	//hitAfter2	= 0;

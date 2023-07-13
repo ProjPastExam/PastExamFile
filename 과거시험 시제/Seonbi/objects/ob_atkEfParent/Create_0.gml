@@ -5,6 +5,7 @@ hitSum		= 0;
 isHit		= false;
 isCritic	= true;
 dotStack	= 0;
+dmgScale	= 1;
 
 alarm[0] = 1;
 alarm[1] = 2;

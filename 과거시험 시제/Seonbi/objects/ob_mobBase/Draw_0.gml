@@ -5,6 +5,11 @@
 draw_self();
 
 if (sk121Index > -1)	draw_sprite(sp_pl_sk126Ef3, int64(sk121Index/5), x, bbox_bottom-96);
+
+if (dmgScale > 1 && hp > 0)
+{
+	draw_sprite(sp_mobDBuf_defence, 0, x, bbox_top - 50);
+}
 /*
 if (!isDie) {
 	if (!isHpUI) {

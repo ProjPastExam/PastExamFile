@@ -19,6 +19,14 @@ if (global.item5 > 0)	global.comCtAlarm += 60 + global.item5 * 30;
 hitArray[hitSum] = hitId;
 var dir = image_xscale / abs(image_xscale);
 sc_mobHit(other, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance, dotStack);
+if (dmgScale > 1)
+{
+	with(other)
+	{
+		dmgScale = other.dmgScale;
+		alarm[6] = 120;
+	}
+}
 if (shake > 0) { uc_shake(shake, 0.1); }
 
 hitSum++;

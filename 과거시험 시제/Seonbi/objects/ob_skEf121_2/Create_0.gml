@@ -6,6 +6,7 @@ isHit		= false;
 isCritic	= true;
 dotStack	= 0;
 
+
 trackId		= -1;
 
 alarm[0] = 1;

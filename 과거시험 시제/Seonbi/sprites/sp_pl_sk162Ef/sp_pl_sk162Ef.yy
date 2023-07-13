@@ -4,7 +4,7 @@
   "name": "sp_pl_sk162Ef",
   "bbox_bottom": 92,
   "bbox_left": 0,
-  "bbox_right": 539,
+  "bbox_right": 494,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 4,

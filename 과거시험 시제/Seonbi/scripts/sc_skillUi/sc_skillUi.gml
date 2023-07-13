@@ -6,11 +6,13 @@ skUi[0] = sp_skillUi_0;
 
 skUi[101] = sp_skillUi_101;
 skUi[102] = sp_skillUi_102;
+skUi[103] = sp_skillUi_103;
 
 skUi[111] = sp_skillUi_111;
 skUi[112] = sp_skillUi_112;
 skUi[113] = sp_skillUi_113;
 skUi[114] = sp_skillUi_114;
+skUi[115] = sp_skillUi_115;
 
 skUi[126] = sp_skillUi_126;
 skUi[127] = sp_skillUi_127;
@@ -36,6 +38,9 @@ skUi[163] = sp_skillUi_163;
 skUi[171] = sp_skillUi_171;
 skUi[172] = sp_skillUi_172;
 skUi[173] = sp_skillUi_173;
+skUi[174] = sp_skillUi_174;
+skUi[175] = sp_skillUi_175;
+skUi[176] = sp_skillUi_176;
 
 skUi[186] = sp_skillUi_186;
 skUi[187] = sp_skillUi_187;

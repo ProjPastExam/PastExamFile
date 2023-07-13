@@ -14,12 +14,12 @@ function sc_pl_sk127(){
 	
 	if ( atkProcess == 30 ) 
 	{
-		sc_pl_atkEf(sc_pl_atkDmg()*1, sc_pl_atkPene(), sc_pl_atkShock()*1.2, 0, 
+		sc_pl_atkEf(sc_pl_atkDmg()*6, sc_pl_atkPene(), sc_pl_atkShock()*1.2, 0, 
 			0, 0, 0, sp_pl_sk127Ef1, dir);
-		sc_pl_atkEf(sc_pl_atkDmg()*1, sc_pl_atkPene(), sc_pl_atkShock()*1.2, 0, 
-			0, 0, 5, sp_pl_sk127Ef2, dir);
+		sc_pl_atkEf(sc_pl_atkDmg()*2, sc_pl_atkPene(), sc_pl_atkShock()*1.2, 0, 
+			0, 0, 6, sp_pl_sk127Ef2, dir);
 		SE_Play(s_pl_sk100, global.vol);
-		sc_pl_kulNMana(121);
+		sc_pl_kulNMana(127);
 		with (ob_roomControl) { pause = 20; }
 	}
 	

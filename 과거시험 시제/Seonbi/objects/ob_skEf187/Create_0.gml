@@ -7,6 +7,7 @@ hitSum		= 0;
 isHit		= false;
 isCritic	= true;
 dotStack	= 0;
+dmgScale	= 1;
 
 parEf = part_type_create();
 
