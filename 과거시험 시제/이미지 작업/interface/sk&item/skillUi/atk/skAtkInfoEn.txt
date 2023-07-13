@@ -39,6 +39,20 @@ Dmg per hit.
 Multi Shot+
 
 
+Sunogi
+
+With repeater 
+crossbow Sunogi,
+Fires 10 arrows, 
+deals x1 arrow Dmg.
+
+Player can move 
+or Jump
+while attacking.
+
+Sunogi+
+
+
 Barrage Shot
 
 Rapidly shoot 

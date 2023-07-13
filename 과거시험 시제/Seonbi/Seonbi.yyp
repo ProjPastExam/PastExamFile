@@ -2782,7 +2782,7 @@
     {"id":{"name":"sp_ItemInfo_41","path":"sprites/sp_ItemInfo_41/sp_ItemInfo_41.yy",},},
     {"id":{"name":"sc_pl_atkJumpUp","path":"scripts/sc_pl_atkJumpUp/sc_pl_atkJumpUp.yy",},},
     {"id":{"name":"sp_jpBoss_cs1","path":"sprites/sp_jpBoss_cs1/sp_jpBoss_cs1.yy",},},
-    {"id":{"name":"sp_skillUi_104Info","path":"sprites/sp_skillUi_104Info/sp_skillUi_104Info.yy",},},
+    {"id":{"name":"sp_skillUi_115Info","path":"sprites/sp_skillUi_115Info/sp_skillUi_115Info.yy",},},
     {"id":{"name":"ob_smithButton2","path":"objects/ob_smithButton2/ob_smithButton2.yy",},},
     {"id":{"name":"sp_key_d","path":"sprites/sp_key_d/sp_key_d.yy",},},
     {"id":{"name":"sp_jpMb_cir","path":"sprites/sp_jpMb_cir/sp_jpMb_cir.yy",},},

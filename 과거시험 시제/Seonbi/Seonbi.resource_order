@@ -2489,7 +2489,7 @@
     {"name":"sp_sinB_counterEf","order":11,"path":"sprites/sp_sinB_counterEf/sp_sinB_counterEf.yy",},
     {"name":"sp_ItemInfo_67","order":15,"path":"sprites/sp_ItemInfo_67/sp_ItemInfo_67.yy",},
     {"name":"sc_pl_atkJumpUp","order":8,"path":"scripts/sc_pl_atkJumpUp/sc_pl_atkJumpUp.yy",},
-    {"name":"sp_skillUi_104Info","order":4,"path":"sprites/sp_skillUi_104Info/sp_skillUi_104Info.yy",},
+    {"name":"sp_skillUi_115Info","order":4,"path":"sprites/sp_skillUi_115Info/sp_skillUi_115Info.yy",},
     {"name":"ob_smithButton2","order":8,"path":"objects/ob_smithButton2/ob_smithButton2.yy",},
     {"name":"sp_key_d","order":3,"path":"sprites/sp_key_d/sp_key_d.yy",},
     {"name":"sp_jpMb_cir","order":21,"path":"sprites/sp_jpMb_cir/sp_jpMb_cir.yy",},

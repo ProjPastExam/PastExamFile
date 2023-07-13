@@ -51,11 +51,13 @@ skInfo[0] = sp_skillUi_0Info;
 
 skInfo[101] = sp_skillUi_101Info;
 skInfo[102] = sp_skillUi_102Info;
+skInfo[103] = sp_skillUi_103Info;
 
 skInfo[111] = sp_skillUi_111Info;
 skInfo[112] = sp_skillUi_112Info;
 skInfo[113] = sp_skillUi_113Info;
 skInfo[114] = sp_skillUi_114Info;
+skInfo[115] = sp_skillUi_115Info;
 
 skInfo[131] = sp_skillUi_131Info;
 skInfo[132] = sp_skillUi_132Info;
