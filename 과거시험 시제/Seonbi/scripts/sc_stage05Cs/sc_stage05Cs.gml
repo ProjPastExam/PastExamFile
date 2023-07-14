@@ -9,6 +9,47 @@ function sc_stage05Cs(){
 	var iy = 520;
 	
 	var csvHor = 8;
+	
+	if (state == 11) {
+		sprite_index = sp_pl_dash;
+		process++
+		x += 30;
+		if ( process % 4 == 0 ) { 
+			part_type_sprite(global.dashEf, sp_pl_dash, true, true, false);
+			part_type_scale( global.dashEf, 1, 1 );
+			part_particles_create( global.hitEf2, x, y, global.dashEf, 1 );
+		}
+	}
+	else if (state == 12) {
+		sprite_index = sp_pl_atkFront2;
+		process++;
+		if (process == 8) {
+			sc_pl_atkEf(20, sc_pl_kickPene(), sc_pl_kickShock()+30, 0, 
+				0, 1, 0, sp_pl_atkEf03, 1);
+			SE_Play(s_kick01, global.vol);
+		}
+		
+		if (process < 3)		{ image_index = 0; x += 14; }
+		else if (process < 8)	{ image_index = 1; x += 16; }
+		else if (process < 14)	{ image_index = 2; x += 12; }
+		else if (process < 20)	{ image_index = 3; x += 8; }
+		else if (process < 25)	{ image_index = 3; x += 4; }
+	}
+	else if (state == 13) {
+		sprite_index = sp_pl_atk2;
+		process++;
+		if (process == 14) {
+			sc_pl_atkEf(25, sc_pl_atkPene(), sc_pl_atkShock()*1.2, 0, 
+				0, 0, 0, sp_pl_atkEf02, 1);
+			SE_Play(s_arrow02, global.vol);
+		}
+		
+		else if (process < 7)	{ image_index = 1; }
+		else if (process < 14)	{ image_index = 2; }
+		else if (process < 21)	{ image_index = 3; }
+		else if (process < 28)	{ image_index = 4; }
+		else					{ image_index = 5; }
+	}
 
 	
 	if (((isT == 4 || isT == 5 || isT == 6 || isT == 7) && active == true)) {
@@ -77,6 +118,20 @@ function sc_stage05Cs(){
 			layer_set_visible("Tiles_2", false);
 			layer_set_visible("Background2", false);
 			layer_set_visible("Background3", false);
+			
+			instance_create_layer(1000, 1450, "Instances", ob_guBandit02);
+			instance_create_layer(1100, 1450, "Instances", ob_gujpGun);
+			instance_create_layer(1200, 1450, "Instances", ob_guchang02);
+			
+			with (ob_mobBase)
+			{
+				hpFull	= 20;
+				hp		= 20;
+				state	= 10;
+				delay	= 50000
+				dir		= -1;
+				patrol	= false;
+			}
 			break;
 		
 		case 9:
@@ -91,57 +146,55 @@ function sc_stage05Cs(){
 			break;
 			
 		case 11:
-			sc_csBase(csvHor, 6, sp_chun_face_angry, ii, iy);
+			process = 0;
+			ob_roomControl.isTalk = 4;
+			isTalk = 4;
+			alarm[1] = 7;
 			break;
 			
 		case 12:
-			sc_csBase(csvHor, 7, sp_chun_face_angry, ii, iy);
+			process = 0;
+			alarm[1] = 25;
 			break;
 			
 		case 13:
-			//BGM_Stop(90);
+			process = 0;
+			alarm[1] = 50;
+			break;
+			
+		case 14:
+			sprite_index = sp_pl_stand;
+			isTalk = 5;
+			alarm[1] = 80;
+			break;
+			
+		case 15:
 			ob_roomControl.isTalk = 8;
 			sc_csBase2(ii, iy);
 			isTalk = 5;
 			alarm[1] = 120;
 			break;
 			
-		case 14:
-			sc_csBase(csvHor, 8, sp_chun_face_angry, ii, iy);
-			break;
-			
-		case 15:
-			BGM_Play(s_mB04_1, global.volBgm, 0);
-			sc_csBase(csvHor, 9, sp_chun_face_angry, ii, iy);
-			break;
-			
 		case 16:
-			sc_csBase(csvHor, 10, sp_chun_face_angry, ii, iy);
+			BGM_Play(s_mr05, global.volBgm, 0);
+			sc_csBase(csvHor, 3, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 17:
-			sc_csBase(csvHor, 11, sp_chun_face_angry, ii, iy);
+			sc_csBase(csvHor, 4, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 18:
-			sc_csBase(csvHor, 12, sp_chun_face_angry, ii, iy);
+			sc_csBase(csvHor, 5, sp_chun_face_angry, ii, iy);
 			break;
 			
 		case 19:
-			ob_roomControl.isTalk = 8;
-			sc_csBase2(x, 560);
+			ob_roomControl.isTalk = 4;
 			isTalk = 4;
-			alarm[1] = 120;
+			alarm[1] = 30;
 			break;
 			
 		case 20:
-			image_xscale = 1;
-			sprite_index = sp_pl_run;
-			BGS_Play(s_run, global.vol, 0);
-			alarm[1] = 80;
-			break;
-			
-		case 21:
 			ob_roomControl.alarm[7] = 1;
 			break;
 		
