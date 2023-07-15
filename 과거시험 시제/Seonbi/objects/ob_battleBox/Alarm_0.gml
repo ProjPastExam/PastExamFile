@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if ( sc_getRoomValue("pause") == 0 ) {
 	if (isActive) {
+		uc_set_target_position(x,bbox_bottom-176-global.camUp*100);
 		if (pace < paceMax) {
 			if (isTerm || remMob <= 0) {
 				if (isPace) {

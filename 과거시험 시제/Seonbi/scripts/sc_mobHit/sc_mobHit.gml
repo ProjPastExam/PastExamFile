@@ -75,7 +75,7 @@ function sc_mobHit(mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance,
 	if (isCt) {
 		if (indexStun) {
 			indexStun = false;
-			part_particles_create( global.hitEf, x, y+hitLot, global.mobCtEf, 1 );
+			//part_particles_create( global.hitEf, x, y+hitLot, global.mobCtEf, 1 );
 		}
 		SE_Play(s_hitCritical, global.vol);
 		part_particles_create( global.hitEf, x, y+hitLot, global.mobCtEf, 1 );

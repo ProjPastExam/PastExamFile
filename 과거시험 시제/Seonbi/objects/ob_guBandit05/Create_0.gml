@@ -16,9 +16,9 @@ alarm[0] = 1;
 alarm[5] = 5;
 isCounter = false;
 
-standSp = sp_bandit05_stand;
-stand2Sp = sp_bandit05_stand2;
-walkSp = sp_bandit05_walk;
-runSp = sp_bandit05_run;
-painSp = sp_bandit05_pain;
+standSp		= sp_bandit05_stand;
+stand2Sp	= sp_bandit05_stand2;
+walkSp		= sp_bandit05_walk;
+runSp		= sp_bandit05_run;
+painSp		= sp_bandit05_pain;
 shockSp		= sp_bandit05_shock;

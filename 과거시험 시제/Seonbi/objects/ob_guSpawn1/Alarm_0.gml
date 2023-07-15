@@ -14,15 +14,15 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		if ( process < 55 ) process++;
 		if ( process == 1 ) { 
 			//SE_Play(s_jpAdie1, global.vol);
-			with (ob_guBoss)
+			with (ob_mobBase)
 			{
 				if (state > 0)
 				{
-					isCounter	= 0;
-					state		= 6;
-					isStun		= true;
-					kbIndex		= 30;
+					//isCounter	= 0;
+					state		= 9;
+					process		= 80;
 					spawnIndex	= 1;
+					part_particles_create( global.hitEf, x, y+hitLot, global.mobCtEf, 1 );
 				}
 			}
 		}

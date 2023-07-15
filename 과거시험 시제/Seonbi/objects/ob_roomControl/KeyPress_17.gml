@@ -3,7 +3,7 @@
 
 //room_goto(nextRoom);
 //room_goto(r_tutorialBossCs2);
-room_goto(r_stage05_2_1);
+room_goto(r_stage05_2_2);
 //room_goto(r_stage05BossCs1);
 //room_goto(r_stage05Boss);
 //room_goto(r_stage02Village);

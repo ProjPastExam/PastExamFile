@@ -15,9 +15,9 @@ sc_mobSpawn();
 alarm[0] = 1;
 alarm[5] = 5;
 
-standSp = sp_jpSword_stand;
-stand2Sp = sp_jpSword_stand2;
-walkSp = sp_jpSword_walk;
-runSp = sp_jpSword_run;
-painSp = sp_jpSword_pain;
-shockSp		= sp_jpSword_pain;
+standSp		= sp_jpSword_stand;
+stand2Sp	= sp_jpSword_stand2;
+walkSp		= sp_jpSword_walk;
+runSp		= sp_jpSword_run;
+painSp		= sp_jpSword_pain;
+shockSp		= sp_jpSword_shock;

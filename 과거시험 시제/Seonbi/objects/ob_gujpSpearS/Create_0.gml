@@ -15,9 +15,9 @@ sc_mobSpawn();
 alarm[0] = 1;
 alarm[5] = 5;
 
-standSp = sp_jpSpearS_stand;
-stand2Sp = sp_jpSpearS_stand2;
-walkSp = sp_jpSpearS_walk;
-runSp = sp_jpSpearS_run;
-painSp = sp_jpSpearS_pain;
+standSp		= sp_jpSpearS_stand;
+stand2Sp	= sp_jpSpearS_stand2;
+walkSp		= sp_jpSpearS_walk;
+runSp		= sp_jpSpearS_run;
+painSp		= sp_jpSpearS_pain;
 shockSp		= sp_jpSpearS_shock;

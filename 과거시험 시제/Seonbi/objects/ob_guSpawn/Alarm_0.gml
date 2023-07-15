@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if ( sc_getRoomValue("pause") == 0 ) {
+if ( sc_getRoomValue("pause") == 0 && isActive ) {
 	process++;
 	if (isSpawn && image_index > 14)
 	{

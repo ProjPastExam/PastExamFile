@@ -12,7 +12,7 @@ function sc_skData(){
 	global.skMp[113]	= 300;	//강화 다발 사격
 	global.skMp[114]	= 300;	//화살비
 	global.skMp[115]	= 300;	//강화 수노궁
-	global.skMp[116]	= 300;	//갈고리 화살
+	global.skMp[116]	= 200;	//갈고리 화살
 	
 	global.skMp[126]	= 400;	//용
 	global.skMp[127]	= 300;	//철궁

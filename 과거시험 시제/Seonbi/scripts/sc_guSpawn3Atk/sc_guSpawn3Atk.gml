@@ -10,7 +10,7 @@ function sc_guSpawn3Atk(){
 	
 	if ( delay > 0 ) delay--;
 	else if ( delay < 0 ) delay = 0;
-	if ( state == 12 || state == 13 ) { isDA = true;	isDF = true; }
+	if ( state == 12 || state == 13 ) { isDA = true;	isDK = true; }
 	else { isDA = false;	isDK = false; }
 	//if ((state != 12) && (ob != NULL) ) { instance_destroy(ob); ob = NULL; }
 	

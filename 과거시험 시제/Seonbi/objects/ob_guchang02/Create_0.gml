@@ -15,9 +15,9 @@ sc_mobSpawn();
 alarm[0] = 1;
 alarm[5] = 5;
 
-standSp = sp_chang02_stand;
-stand2Sp = sp_chang02_stand2;
-walkSp = sp_chang02_walk;
-runSp = sp_chang02_run;
-painSp = sp_chang02_pain;
-shockSp = sp_chang02_shock;
+standSp		= sp_chang02_stand;
+stand2Sp	= sp_chang02_stand2;
+walkSp		= sp_chang02_walk;
+runSp		= sp_chang02_run;
+painSp		= sp_chang02_pain;
+shockSp		= sp_chang02_shock;
