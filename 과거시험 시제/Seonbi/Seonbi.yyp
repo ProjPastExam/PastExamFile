@@ -1848,6 +1848,7 @@
     {"id":{"name":"ob_stage02BossCs1Pl","path":"objects/ob_stage02BossCs1Pl/ob_stage02BossCs1Pl.yy",},},
     {"id":{"name":"atkCalculator","path":"scripts/atkCalculator/atkCalculator.yy",},},
     {"id":{"name":"r_stage03_3_4","path":"rooms/r_stage03_3_4/r_stage03_3_4.yy",},},
+    {"id":{"name":"r_stage05_3_1","path":"rooms/r_stage05_3_1/r_stage05_3_1.yy",},},
     {"id":{"name":"ob_UIControl","path":"objects/ob_UIControl/ob_UIControl.yy",},},
     {"id":{"name":"ob_mobAtkTrack","path":"objects/ob_mobAtkTrack/ob_mobAtkTrack.yy",},},
     {"id":{"name":"sp_pl_atkFront1","path":"sprites/sp_pl_atkFront1/sp_pl_atkFront1.yy",},},
@@ -3014,6 +3015,7 @@
     {"roomId":{"name":"r_stage05BossCs1","path":"rooms/r_stage05BossCs1/r_stage05BossCs1.yy",},},
     {"roomId":{"name":"r_stage05_2_2","path":"rooms/r_stage05_2_2/r_stage05_2_2.yy",},},
     {"roomId":{"name":"r_stage05_2_3","path":"rooms/r_stage05_2_3/r_stage05_2_3.yy",},},
+    {"roomId":{"name":"r_stage05_3_1","path":"rooms/r_stage05_3_1/r_stage05_3_1.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

@@ -73,7 +73,7 @@ function sc_guBandit04Atk(){
 	
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
-	isDA = false;	isDK = false;
+	isDA = false;	isDK = false;	isDF = false;
 	
 	var plX = sc_pl_get("x");
 	if ( state == 10 ) {

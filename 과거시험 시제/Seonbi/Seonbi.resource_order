@@ -1639,6 +1639,7 @@
     {"name":"r_stage01_1_3","order":4,"path":"rooms/r_stage01_1_3/r_stage01_1_3.yy",},
     {"name":"Room_Steam_Networking_Lobby","order":10,"path":"rooms/Room_Steam_Networking_Lobby/Room_Steam_Networking_Lobby.yy",},
     {"name":"r_stage03_3_4","order":26,"path":"rooms/r_stage03_3_4/r_stage03_3_4.yy",},
+    {"name":"r_stage05_3_1","order":11,"path":"rooms/r_stage05_3_1/r_stage05_3_1.yy",},
     {"name":"ob_mobAtkTrack","order":10,"path":"objects/ob_mobAtkTrack/ob_mobAtkTrack.yy",},
     {"name":"sp_pl_atkFront1","order":1,"path":"sprites/sp_pl_atkFront1/sp_pl_atkFront1.yy",},
     {"name":"sp_cB2_atk1","order":4,"path":"sprites/sp_cB2_atk1/sp_cB2_atk1.yy",},
