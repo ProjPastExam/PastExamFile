@@ -12,6 +12,8 @@ function sc_pl_sk126(){
 		sc_pl_skKey();
 	}
 	
+	sc_pl_skDir();
+	
 	if ( atkProcess == 24 ) 
 	{
 	sc_pl_atkEf(sc_pl_atkDmg()*1, sc_pl_atkPene(), sc_pl_atkShock()*1.2, 0, 

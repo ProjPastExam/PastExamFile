@@ -15,7 +15,6 @@ skUi[114] = sp_skillUi_114;
 skUi[115] = sp_skillUi_115;
 skUi[116] = sp_skillUi_116;
 
-
 skUi[126] = sp_skillUi_126;
 skUi[127] = sp_skillUi_127;
 

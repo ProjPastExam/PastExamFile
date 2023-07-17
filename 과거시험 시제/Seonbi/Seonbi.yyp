@@ -354,7 +354,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"tutoCs.csv","CopyToMask":-1,"filePath":"datafiles/dialogueData",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Steamworks_Extension_Documentation.html","CopyToMask":0,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"testVedio.mp4","CopyToMask":-1,"filePath":"datafiles",},
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"endingVideo.mp4","CopyToMask":-1,"filePath":"datafiles/videoFile",},
   ],
   "isEcma": false,
   "LibraryEmitters": [],
