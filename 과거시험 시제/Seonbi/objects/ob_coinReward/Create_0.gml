@@ -8,7 +8,7 @@ isDelete = false;
 levelIndex = 0;
 with (ob_roomControl) { other.levelIndex = stage; }
 
-coinIndex = irandom_range(20*levelIndex+40, 20*levelIndex + 60);
+coinIndex = irandom_range(12*levelIndex+30, 12*levelIndex + 50);
 
 alarm[2] = 30;
 alarm[0] = 1;
