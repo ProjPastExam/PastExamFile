@@ -39,10 +39,10 @@ function sc_guBossAtk(){
 		sprite_index = sp_gu_atk1;
 		xSpeed = 0;
 		
-		//if ( process == 1 ) { SE_Play(s_bandit01atk1, global.vol); }
+		//if ( process == 1 ) { SE_Play(s_guBoss_atk1_1, global.vol); }
 		if ( process == 36+lvDly ) { 
-			SE_Play(sp_gu_atk1Ef, global.vol);
-			//audio_play_sound(s_bandit01atk2, 8, false);
+			SE_Play(s_guBoss_atk3_2, global.vol);
+			
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_gu_atk1Ef;
@@ -69,9 +69,9 @@ function sc_guBossAtk(){
 		//isDF = true;
 		//isCounter = 1;
 		
-		//if ( process == 1 ) { SE_Play(s_bandit01atk1, global.vol); }
+		if ( process == 1 ) { SE_Play(s_guBoss_atk2_1, global.vol); }
 		if ( process == 40+lvDly ) { 
-			SE_Play(s_jpBoss_atk1_1, global.vol);
+			SE_Play(s_guBoss_atk2_2, global.vol);
 			//audio_play_sound(s_bandit01atk2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
@@ -104,9 +104,11 @@ function sc_guBossAtk(){
 		xSpeed = 0;
 		isDF = true;
 		isCounter = 1;
-
+		
+		if ( process == 1 ) { SE_Play(s_guBoss_atk3_1, global.vol); }
+		
 		if ( process == 36) { 
-			SE_Play(s_jpBoss_atk2, global.vol);
+			SE_Play(s_guBoss_atk3_2, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_gu_atk3Ef;
@@ -132,6 +134,7 @@ function sc_guBossAtk(){
 		sprite_index = sp_gu_dash;
 		var bSpd = 25;
 		//if (nextState == 12)	bSpd = 27;
+		if ( process == 1 ) { SE_Play(s_guBoss_atk4, global.vol); }
 		
 		isDK = true;
 		
@@ -158,11 +161,11 @@ function sc_guBossAtk(){
 		if (process == 1) {
 			if ( x > plX ) dir = -1;
 			else dir = 1;
-			//SE_Play(s_jp_dAtk, global.vol); 
+			//SE_Play(s_guBoss_atk1_1, global.vol);
 		}
 		
 		if ( process == 67+lvDly ) { 
-			SE_Play(s_jpBoss_atk2, global.vol);
+			SE_Play(s_guBoss_atk1_2, global.vol);
 			var ob = instance_create_layer(x, y-20, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_gu_atk4Ef;
@@ -195,7 +198,13 @@ function sc_guBossAtk(){
 		if (process == 1) {
 			if ( x > plX ) dir = -1;
 			else dir = 1;
-			//SE_Play(s_jp_dAtk, global.vol); 
+			switch (spawnIndex)
+			{
+			case 0:	SE_Play(s_guSpawn1, global.vol); 	break;
+			case 1:	SE_Play(s_guSpawn2, global.vol); 	break;
+			case 2:	SE_Play(s_guSpawn3, global.vol); 	break;
+			}
+			
 		}
 		
 		if ( process == 80+lvDly ) { 
@@ -285,8 +294,10 @@ function sc_guBossAtk(){
 		
 		isDK = true;
 		
+		//if ( process == 1 ) { SE_Play(s_guBoss_atk1_1, global.vol); }
+		
 		if (process == 48+lvDly) {
-			//SE_Play(s_swing_a2, global.vol);
+			SE_Play(s_guBoss_atk3_2, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_gu_counterEf;
@@ -312,7 +323,7 @@ function sc_guBossAtk(){
 		isDK = true;
 		
 		if (process == 65+lvDly) {
-			//SE_Play(s_swing_a2, global.vol);
+			SE_Play(s_guBoss_atk4, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_dokBoss_counter2Ef;

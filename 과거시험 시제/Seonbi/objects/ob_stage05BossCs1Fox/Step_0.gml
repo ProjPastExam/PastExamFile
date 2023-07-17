@@ -15,6 +15,15 @@ case 1:
 case 2:
 	sprite_index = sp_fox_stand;
 	break;
+	
+case 18:
+	sprite_index = sp_gu_stand;
+	if (active) {
+		y -= 128;
+		image_xscale = -1;
+		active = false;
+	}
+	break;
 	/*
 case 4:
 	if (active) {

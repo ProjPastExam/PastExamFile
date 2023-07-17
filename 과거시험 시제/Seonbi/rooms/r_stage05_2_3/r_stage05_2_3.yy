@@ -71,6 +71,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_guSpawn","path":"objects/ob_guSpawn/ob_guSpawn.yy",},"propertyId":{"name":"isActive","path":"objects/ob_guSpawn/ob_guSpawn.yy",},"value":"False",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_guSpawn","path":"objects/ob_guSpawn/ob_guSpawn.yy",},"propertyId":{"name":"obIndex","path":"objects/ob_guSpawn/ob_guSpawn.yy",},"value":"ob_guSpawn3",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_guSpawn","path":"objects/ob_guSpawn/ob_guSpawn.yy",},"propertyId":{"name":"spIndex","path":"objects/ob_guSpawn/ob_guSpawn.yy",},"value":"sp_guSpawn3_spawn",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_guSpawn","path":"objects/ob_guSpawn/ob_guSpawn.yy",},"propertyId":{"name":"soundIndex","path":"objects/ob_guSpawn/ob_guSpawn.yy",},"value":"s_guSpawn3_2",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":10048.0,"y":1152.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"effect2","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},

@@ -21,6 +21,32 @@ case 6:
 	sprite_index = sp_chun_stand;
 	active = true;
 	break;
+	
+	
+case 16:
+	sprite_index = sp_chun_stand2;
+	if (active) {
+		active = false;
+		chunEf = instance_create_layer(x, y+50, "effect", ob_tutoChunCs1Ef);
+	}
+	break;
+	
+case 17:
+	if (!active) {
+		active = true;
+		sprite_index = sp_chun_spell;
+		image_index = 4;
+	}
+	break;
+	
+case 18:
+	sprite_index = sp_chun_stand;
+	if (active) {
+		active = false;
+		instance_destroy(chunEf);
+	}
+	//SE_Play(s_chun_spell2, global.vol);
+	break;
 	/*
 case 4:
 	if (active) {

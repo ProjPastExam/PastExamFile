@@ -15,14 +15,11 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		sprite_index = sp_gu_die;
 		if ( process < 230 ) process++;
 		if ( process == 1 ) { 
-			sc_dieJp2();
-			alarm[4] = 230;
+			SE_Play(s_guBoss_die, global.vol);
+			alarm[4] = 280;
 			BGM_Stop(90);
 			image_index = 0;
-			if (global.clearStage == 11) {
-				global.clearStage = 15;
-				VSLS_SetAndSave("clearStage", 15, "saveFile");
-			}
+
 			with (ob_guSpawn1)	{ hp = 0; }
 			with (ob_guSpawn2)	{ hp = 0; }
 			with (ob_guSpawn3)	{ hp = 0; }

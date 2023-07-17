@@ -22,7 +22,7 @@ isCounter = false;
 
 spawnIndex	= irandom_range(0, 2);
 //spawnIndex	= 3;
-nextState = 12;
+//nextState = 12;
 
 standSp		= sp_gu_stand;
 stand2Sp	= sp_gu_stand;

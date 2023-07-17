@@ -34,11 +34,10 @@ function sc_guSpawn1Atk(){
 		sprite_index = sp_guSpawn1_atk1;
 		xSpeed = 0;
 		
-		//if ( process == 1 ) { SE_Play(s_jp_aAtk, global.vol); }
+		if ( process == 1+lvDly ) { SE_Play(s_guSpawn1_atkYell, global.vol); }
 		
 		if ( process == 42+lvDly ) { 
-			SE_Play(s_bandit01atk2, global.vol);
-			//audio_play_sound(s_bandit01atk2, 8, false);
+			SE_Play(s_guSpawn1_atk, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_guSpawn1_atk1Ef;

@@ -3,16 +3,14 @@
 function sc_guSmoke(procIndex, smokeIndex){
 	if (process == procIndex)
 	{
-		
+		SE_Play(s_smoke1, global.vol);
 		if (smokeIndex == 1)
 		{
 			smokeSp = sp_guSmoke1;
-			SE_Play(s_smoke1, global.vol);
 		}
 		else
 		{
 			smokeSp = sp_guSmoke2;
-			SE_Play(s_smoke2, global.vol);
 		}
 		with (instance_create_layer(x, bbox_bottom-50, "effect", ob_guSmoke)) {
 			ob = other.id;

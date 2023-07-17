@@ -46,7 +46,7 @@ function sc_tutoChunCs1(){
 		case 7:
 			alarm[1] = 120;
 			SE_Play(s_chun_spell2, global.vol);
-			instance_create_layer(uc_get_x(), uc_get_y(), "effect", ob_whiteOut);
+			instance_create_layer(uc_get_x(), uc_get_y(), "effect", ob_whiteIn);
 			break;
 		
 		case 8:

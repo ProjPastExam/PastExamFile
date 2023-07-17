@@ -34,10 +34,12 @@ function sc_guSpawn2Atk(){
 		sprite_index = sp_guSpawn2_atk1;
 		xSpeed = 0;
 		
-		//if ( process == 1 ) { SE_Play(s_jp_aAtk, global.vol); }
+		if ( process == 1 ) { 
+			SE_Play(s_guSpawn2_atk1Yell, global.vol);
+		}
 		
 		if ( process == 55+lvDly ) { 
-			SE_Play(s_bandit01atk2, global.vol);
+			SE_Play(s_guSpawn2_atk1, global.vol);
 			//audio_play_sound(s_bandit01atk2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtkTrack);
 			ob.image_xscale = dir;
@@ -64,8 +66,10 @@ function sc_guSpawn2Atk(){
 		process++;
 		sprite_index = sp_guSpawn2_atk2;
 		
+		
+		
 		if ( process == 36+lvDly ) { 
-			SE_Play(s_bandit01atk2, global.vol);
+			SE_Play(s_guSpawn2_atk2, global.vol);
 			//audio_play_sound(s_bandit01atk2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;

@@ -37,7 +37,7 @@ function sc_guSpawn3Atk(){
 		//if ( process == 1 ) { SE_Play(s_jp_aAtk, global.vol); }
 		
 		if ( process == 48+lvDly ) { 
-			SE_Play(s_bandit01atk2, global.vol);
+			SE_Play(s_guSpawn3_atk, global.vol);
 			//audio_play_sound(s_bandit01atk2, 8, false);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
