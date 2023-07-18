@@ -19,7 +19,7 @@ case 2:
 case 18:
 	sprite_index = sp_gu_stand;
 	if (active) {
-		y -= 128;
+		y -= 96;
 		image_xscale = -1;
 		active = false;
 	}

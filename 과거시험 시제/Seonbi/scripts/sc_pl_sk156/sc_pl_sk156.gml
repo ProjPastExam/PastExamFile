@@ -16,18 +16,19 @@ function sc_pl_sk156(){
 	}
 	sc_pl_skDir(61);
 	if ( atkProcess == 20 ) {
-		SE_Play(s_jpBoss_atk1_1, global.vol);
+		SE_Play(s_swing_a1, global.vol);
 		atk = sc_pl_atkEf(sc_pl_kickDmg()*3, sc_pl_kickPene(), sc_pl_kickShock(), 0, 
 			0, 1, 0, sp_pl_sk156Ef1, dir);
-		sc_pl_kulNMana(156, 2);
+		sc_pl_kulNMana(156);
 		atk.dmgScale = 1.5;
 	}
 	
 	if ( atkProcess == 76 ) {
-		SE_Play(s_jpBoss_atk1_2, global.vol);
-		atk = sc_pl_atkEf(sc_pl_kickDmg()*3, sc_pl_kickPene(), sc_pl_kickShock(), 0, 
+		SE_Play(s_swing_a2, global.vol);
+		SE_Play(s_cB1_atk1_1, global.vol);
+		atk = sc_pl_atkEf(sc_pl_kickDmg()*2.5, sc_pl_kickPene(), sc_pl_kickShock(), 0, 
 			0, 1, 4, sp_pl_sk156Ef2, dir);
-		sc_pl_kulNMana(156, 2);
+		sc_pl_kulNMana(156);
 	}
 	
 	//대쉬 제어

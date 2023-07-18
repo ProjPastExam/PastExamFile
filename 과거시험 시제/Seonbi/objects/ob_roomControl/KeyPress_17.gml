@@ -5,8 +5,8 @@
 //room_goto(r_tutorialBossCs2);
 //room_goto(r_stage05_4_3);
 //room_goto(r_stage05Cs);
-room_goto(r_stage05BossCs1);
-//room_goto(r_stage05VillageCs);
+//room_goto(r_stage05BossCs2);
+room_goto(r_stage06Village);
 //room_goto(r_stage06_1_1);
 //room_goto(r_stage04_pace2_3);
 //room_goto(r_stage04VillageCs);

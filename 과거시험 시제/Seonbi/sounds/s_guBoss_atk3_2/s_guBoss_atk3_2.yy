@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.579274,
+  "duration": 0.797914,
   "parent": {
     "name": "gu",
     "path": "folders/Sounds/mob/gu.yy",

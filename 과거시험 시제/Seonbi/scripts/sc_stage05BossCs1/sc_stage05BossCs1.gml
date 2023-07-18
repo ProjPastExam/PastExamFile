@@ -9,7 +9,7 @@ function sc_stage05BossCs1(){
 	var ii = 570;
 	var iy = 520;
 	
-	var sx = 680;
+	var sx = 1320;
 	var sy = 520;
 	
 	var csvHor = 16;
@@ -61,6 +61,7 @@ function sc_stage05BossCs1(){
 			break;
 			
 		case 8:
+			BGM_Play(s_mB05_1, global.volBgm, 0);
 			sc_csBase(csvHor, 1, sp_chun_face_angry, ii, iy);
 			break;
 		
@@ -136,10 +137,28 @@ function sc_stage05BossCs1(){
 			break;
 			
 		case 21:
+			
 			sc_csBase(csvHor, 4, sp_gu_face, sx, sy);
 			break;
 			
 		case 22:
+			sc_csBase(csvHor, 5, sp_gu_face, sx, sy);
+			break;
+			
+		case 23:
+			BGM_Stop(90);
+			ob_roomControl.isTalk = 8;
+			sc_csBase2(sx, sy);
+			isTalk = 5;
+			alarm[1] = 120;
+			break;
+			
+		case 24:
+			BGM_Play(s_mB05_2, global.volBgm, 0);
+			sc_csBase(csvHor, 6, sp_gu_face, sx, sy);
+			break;
+			
+		case 25:
 			ob_roomControl.alarm[7] = 1;
 			break;
 		

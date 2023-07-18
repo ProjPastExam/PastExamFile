@@ -28,6 +28,8 @@ function sc_skData(){
 	global.skMp[145]	= 200;	//언월도
 	global.skMp[146]	= 200;	//편곤
 	
+	global.skMp[156]	= 200;	//편곤
+	
 	global.skMp[161]	= 300;	//사전총통
 	global.skMp[162]	= 100;	//세총통
 	global.skMp[163]	= 400;	//삼총통
@@ -70,6 +72,8 @@ function sc_skData(){
 	global.skKulData[144]	= 480;
 	global.skKulData[145]	= 240;
 	global.skKulData[146]	= 240;
+	
+	global.skKulData[156]	= 240;
 	
 	global.skKulData[161]	= 240;
 	global.skKulData[162]	= 120;
