@@ -10,6 +10,8 @@ function sc_mask1Atk(){
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
 	
+	isDA = false;	isDF = false;
+	
 	
 	var plX = sc_pl_get("x");
 	if ( state == 10 ) {
@@ -26,13 +28,14 @@ function sc_mask1Atk(){
 		sc_mobRun(8, 650, 0, 12, 12, plX, left1, left2, right1, right2);		
 	}
 	else if ( state == 12 ) {
+		isDA = true;	isDF = true;
 		process++;
 		sprite_index = sp_mask1_atk;
 		xSpeed = 0;
 		
 		if ( process == 1 ) { SE_Play(s_mask1Atk, global.vol); }
 		if ( process == 55+lvDly ) { 
-			SE_Play(s_swing_b1, global.vol);
+			SE_Play(s_mask1AtkEf, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_mask1_atkEf;

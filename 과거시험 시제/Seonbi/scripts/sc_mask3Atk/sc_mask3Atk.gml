@@ -9,6 +9,7 @@ function sc_mask3Atk(){
 	
 	if ( delay > 0 ) delay--;
 	if ( delay < 0 ) delay = 0;
+	isDA = false;	isDK = false;
 	
 	
 	var plX = sc_pl_get("x");
@@ -25,13 +26,14 @@ function sc_mask3Atk(){
 		sc_mobRun(8, 650, 0, 12, 12, plX, left1, left2, right1, right2);		
 	}
 	else if ( state == 12 ) {
+		isDA = true;	isDK = true;
 		process++;
 		sprite_index = sp_mask3_atk;
 		xSpeed = 0;
 		
 		if ( process == 1 ) { SE_Play(s_mask3Atk, global.vol); }
 		if ( process == 40+lvDly || process == 76+lvDly ) { 
-			SE_Play(s_swing_b1, global.vol);
+			SE_Play(s_mask3AtkEf, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtkTrack);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_mask3_atkEf1;
@@ -40,7 +42,7 @@ function sc_mask3Atk(){
 		}
 		
 		if ( process == 132+lvDly ) { 
-			SE_Play(s_swing_b1, global.vol);
+			SE_Play(s_mask3AtkEf, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtkTrack);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_mask3_atkEf2;

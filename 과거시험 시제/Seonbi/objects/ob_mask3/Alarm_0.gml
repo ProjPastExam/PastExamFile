@@ -12,10 +12,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		sprite_index = sp_mask3_die;
 		process++;
 		if ( process == 1 ) { 
-			var han = irandom_range(0, 2);
-			if (han == 0) SE_Play(s_jpAdie1, global.vol);
-			else if (han == 1) SE_Play(s_jpAdie2, global.vol);
-			else SE_Play(s_jpAdie3, global.vol);
+			SE_Play(s_mask3Die, global.vol);
 		}
 		if ( process < 5 ) { image_index = 0; xSpeed = -1 * dir * 9; }
 		else if ( process < 10 ) { image_index = 1; xSpeed = -1 * dir * 6; }
