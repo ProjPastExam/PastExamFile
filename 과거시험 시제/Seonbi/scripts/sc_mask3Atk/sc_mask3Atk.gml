@@ -29,7 +29,7 @@ function sc_mask3Atk(){
 		sprite_index = sp_mask3_atk;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { SE_Play(s_jp_cAtk, global.vol); }
+		if ( process == 1 ) { SE_Play(s_mask3Atk, global.vol); }
 		if ( process == 40+lvDly || process == 76+lvDly ) { 
 			SE_Play(s_swing_b1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtkTrack);

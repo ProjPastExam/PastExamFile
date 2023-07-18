@@ -31,7 +31,7 @@ function sc_mask5Atk(){
 		sprite_index = sp_mask5_atk;
 		xSpeed = 0;
 		
-		if ( process == 1 ) { SE_Play(s_jp_cAtk, global.vol); }
+		if ( process == 1 ) { SE_Play(s_mask5Atk, global.vol); }
 		if ( process == 36+lvDly) { 
 			SE_Play(s_swing_b1, global.vol);
 			var ob = instance_create_layer(plX, plY, "effect", ob_mobAtkRdyGrav);
