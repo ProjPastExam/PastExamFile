@@ -22,7 +22,7 @@ function sc_sinSoAtk(){
 		sprite_index = sp_sinSo_atk;
 	}
 	else if ( state == 17 ) {
-		SE_Play(s_swing_b1, global.vol);
+		SE_Play(s_sin2_atk3_2, global.vol);
 		var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 		ob.image_xscale = dir;
 		ob.sprite_index = sp_sinSo_atkEf;

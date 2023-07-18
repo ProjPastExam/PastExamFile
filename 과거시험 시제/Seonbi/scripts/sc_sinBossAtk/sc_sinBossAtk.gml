@@ -47,18 +47,18 @@ function sc_sinBossAtk(){
 		if ( process == 1 ) 
 		{ 
 			sc_sinMode(0);
-			//SE_Play(s_bandit01atk1, global.vol); 
+			SE_Play(s_sin1_atk1_rdy, global.vol); 
 			if (isCounter == 0)	isCounter = 1;
 		}
 		if ( process == 36+lvDly ) { 
-			SE_Play(s_swing_c2, global.vol);
+			SE_Play(s_sin1_atk1_1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB_atk1Ef1;
 		}
 		
 		if ( process == 48+lvDly ) { 
-			SE_Play(s_swing_c2, global.vol);
+			SE_Play(s_sin1_atk1_2, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB_atk1Ef2;
@@ -91,14 +91,14 @@ function sc_sinBossAtk(){
 		
 		//if ( process == 1 ) { SE_Play(s_bandit01atk1, global.vol); }
 		if ( process == 24+lvDly ) { 
-			SE_Play(s_swing_c2, global.vol);
+			SE_Play(s_sin1_atk1_3, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB_atk1Ef3;
 		}
 		
 		if ( process == 36+lvDly ) { 
-			SE_Play(s_swing_c2, global.vol);
+			SE_Play(s_sin1_atk1_4, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB_atk1Ef4;
@@ -126,7 +126,7 @@ function sc_sinBossAtk(){
 		isDF = true;
 		
 		if ( process == 18+lvDly  ) { 
-			//SE_Play(s_jpBoss_atk2, global.vol);
+			SE_Play(s_sin1_atk2_rdy, global.vol);
 		}
 		
 		
@@ -149,8 +149,7 @@ function sc_sinBossAtk(){
 		}
 		
 		if ( process == 50 ) { 
-			SE_Play(s_jpBoss_atk2, global.vol);
-			//audio_play_sound(s_swing_a1, 8, false);
+			SE_Play(s_sin1_atk2, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB_atk2Ef;
@@ -189,7 +188,7 @@ function sc_sinBossAtk(){
 			sc_sinMode(1);
 			if ( x > plX ) dir = -1;
 			else dir = 1;
-			//SE_Play(s_jp_dAtk, global.vol); 
+			SE_Play(s_sin2_atk1_rdy, global.vol); 
 		}
 		
 		if ( process == 60+lvDly ) 
@@ -198,7 +197,7 @@ function sc_sinBossAtk(){
 			if (dir == -1 && x < xIndex)			{ xIndex = x-128; }
 			if (dir == 1 && x > room_width-xIndex)	{ xIndex = room_width-x-192; }
 			x += xIndex*dir;
-			SE_Play(s_jpBoss_atk2, global.vol);
+			SE_Play(s_sin2_atk1, global.vol);
 			var ob = instance_create_layer(x, y-20, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB2_atk1Ef;
@@ -237,7 +236,7 @@ function sc_sinBossAtk(){
 		
 		if ( process == 42+lvDly ) 
 		{ 
-			SE_Play(s_jpBoss_atk2, global.vol);
+			SE_Play(s_sin2_atk2_1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB2_atk2Ef1;
@@ -245,7 +244,7 @@ function sc_sinBossAtk(){
 		
 		if ( process == 78+lvDly ) 
 		{ 
-			SE_Play(s_jpBoss_atk2, global.vol);
+			SE_Play(s_sin2_atk2_2, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB2_atk2Ef2;
@@ -283,7 +282,7 @@ function sc_sinBossAtk(){
 		
 		if ( process == 1 ) 
 		{ 
-			//SE_Play(s_jpBoss_atk2, global.vol);
+			SE_Play(s_sin2_atk2_tele, global.vol);
 			var ob = instance_create_layer(x, y-20, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB2_warp1Ef;
@@ -327,7 +326,7 @@ function sc_sinBossAtk(){
 		
 		if ( process == 15 ) 
 		{ 
-			//SE_Play(s_jpBoss_atk2, global.vol);
+			SE_Play(s_sin2_atk3_1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtkRdy);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB3_atk1Ef1;
@@ -335,6 +334,7 @@ function sc_sinBossAtk(){
 			ob.obSprite		= sp_sinB3_atk1Ef2;
 			ob.soundEf		= s_cB1_atk1_1
 			ob.dmg			= 1;
+			//ob.soundEf		= s_sin2_atk3_2;
 			
 			instance_create_layer(x+600, y+50, "Instances", ob_sinSo);
 			instance_create_layer(x-600, y+50, "Instances", ob_sinSo);
@@ -371,7 +371,7 @@ function sc_sinBossAtk(){
 		
 		if ( process == 15 ) 
 		{ 
-			//SE_Play(s_jpBoss_atk2, global.vol);
+			SE_Play(s_sin2_atk4_1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtkRdy);
 			ob.image_xscale = dir;
 			ob.dir			= dir;
@@ -380,11 +380,12 @@ function sc_sinBossAtk(){
 			ob.obSprite		= sp_sinB3_atk2Ef2;
 			ob.soundEf		= s_cB1_atk1_1
 			ob.dmg			= 1;
+			
 		}
 		
 		if ( process == 200 ) 
 		{ 
-			//SE_Play(s_jpBoss_atk2, global.vol);
+			//SE_Play(s_sin2_atk4_2, global.vol);
 			var ob = instance_create_layer(x+400, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB3_atk2Ef3;
@@ -396,7 +397,7 @@ function sc_sinBossAtk(){
 		
 		if ( process == 230+lvDly ) 
 		{ 
-			//SE_Play(s_jpBoss_atk2, global.vol);
+			SE_Play(s_sin2_atk4_2, global.vol);
 			var ob = instance_create_layer(x+800, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB3_atk2Ef3;
@@ -408,7 +409,7 @@ function sc_sinBossAtk(){
 		
 		if ( process == 260+lvDly*2 ) 
 		{ 
-			//SE_Play(s_jpBoss_atk2, global.vol);
+			SE_Play(s_sin2_atk4_2, global.vol);
 			var ob = instance_create_layer(x+1200, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB3_atk2Ef3;
@@ -418,7 +419,12 @@ function sc_sinBossAtk(){
 			ob.sprite_index = sp_sinB3_atk2Ef3;
 		}
 		
-		if ( process < 300 )				{  }
+		if ( process == 290+lvDly*2 ) 
+		{ 
+			SE_Play(s_sin2_atk4_2, global.vol);
+		}
+		
+		if ( process < 300+lvDly*2 )				{  }
 		else { sc_sinBossNS();	state = 10;	delay = 0;	process = 0; }
 	}
 	
@@ -450,7 +456,7 @@ function sc_sinBossAtk(){
 		isDF = true;
 		
 		if (process == 54+lvDly) {
-			//SE_Play(s_swing_a2, global.vol);
+			SE_Play(s_sin1_atk1_4, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB_counterEf;
@@ -478,7 +484,7 @@ function sc_sinBossAtk(){
 		isDK = true;
 		
 		if (process == 69+lvDly) {
-			//SE_Play(s_swing_a2, global.vol);
+			SE_Play(s_sin2_atk2_2, global.vol);
 			var ob = instance_create_layer(x, y-50, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_sinB2_counterEf;
@@ -499,7 +505,7 @@ function sc_sinBossAtk(){
 		else if ( process < 150+lvDly ) { image_index = 10;	isDF = true; }
 		else if ( process < 156+lvDly ) { image_index = 11;	isDF = true; }
 		else if ( process < 162+lvDly ) { image_index = 12;	isDF = true; }
-		else { state = 10;	process = 0;	delay = 50; }
+		else {  sc_sinBossNS();	state = 10;	process = 0;	delay = 50; }
 	}
 	
 	else if ( state == 50 ) {

@@ -13,6 +13,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		process++;
 		if ( process == 1 ) { 
 			image_index = 0;
+			SE_Play(s_sin2_atk4_2, global.vol);
 		}
 		sprite_index = sp_sinSo_die;
 	}
