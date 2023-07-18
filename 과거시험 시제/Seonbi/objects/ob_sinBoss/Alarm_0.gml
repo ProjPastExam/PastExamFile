@@ -12,7 +12,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		sc_sinBossAtk();
 	}
 	else {
-		sprite_index = sp_gu_die;
+		sprite_index = sp_sinB_die;
 		if ( process < 230 ) process++;
 		if ( process == 1 ) { 
 			sc_dieJp2();
@@ -28,6 +28,8 @@ if ( sc_getRoomValue("pause") == 0 ) {
 		else if ( process < 16 ) { xSpeed = -1 * dir * 12; }
 		else if ( process < 24 ) { xSpeed = -1 * dir * 6; }
 		else { xSpeed = 0; }
+		
+		if (process > 160)	sprite_index = sp_sinBW_stand;
 	}
 	sc_mobfixlotation();
 	sc_obPhysics();

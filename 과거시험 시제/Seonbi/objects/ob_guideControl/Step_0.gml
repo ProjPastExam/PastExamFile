@@ -13,7 +13,7 @@ if (sc_getKey(global.btSk2, gp_shoulderl, 0)) {
 }
 
 if (sc_getKey(global.btSk3, gp_shoulderr, 0)) {
-	room_goto(r_itemInfo);
+	room_goto(r_setting);
 }
 
 if (sc_getKey(global.btUp, gp_padu, 0)) {

@@ -24,7 +24,7 @@ function sc_stage06BossCs(){
 		case 1:
 			BGS_Play(s_run, global.vol, 30);
 			isTalk = 4;
-			alarm[1] = 130;
+			alarm[1] = 60;
 			break;
 			
 		case 2:
@@ -43,6 +43,7 @@ function sc_stage06BossCs(){
 			
 		case 4:
 			alarm[1] = 60;
+			isTalk = 5;
 			break;
 			
 		case 5:
@@ -58,6 +59,7 @@ function sc_stage06BossCs(){
 			
 		case 7:
 			alarm[1] = 60;
+			isTalk = 5;
 			break;
 			
 		case 8:

@@ -16,7 +16,7 @@ if (sc_getKey(global.btTap, global.gpTap, 0)) {
 	
 }
 if (sc_getKey(global.btSk2, gp_shoulderl, 0)) {
-	if (nextIndex) room_goto(r_itemInfo);
+	if (nextIndex) room_goto(r_skInfo);
 }
 
 if (sc_getKey(global.btSk3, gp_shoulderr, 0)) {

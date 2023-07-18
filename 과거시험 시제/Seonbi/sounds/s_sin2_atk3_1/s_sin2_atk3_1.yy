@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.303515,
+  "duration": 4.004195,
   "parent": {
     "name": "sin",
     "path": "folders/Sounds/mob/sin.yy",
