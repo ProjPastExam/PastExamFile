@@ -1718,6 +1718,7 @@
     {"name":"sp_pl_frontKick","order":1,"path":"sprites/sp_pl_frontKick/sp_pl_frontKick.yy",},
     {"name":"sp_itemSpawnEf","order":9,"path":"sprites/sp_itemSpawnEf/sp_itemSpawnEf.yy",},
     {"name":"sc_pl_atkDnJ","order":11,"path":"scripts/sc_pl_atkDnJ/sc_pl_atkDnJ.yy",},
+    {"name":"ob_npc_jumo_4","order":17,"path":"objects/ob_npc_jumo_4/ob_npc_jumo_4.yy",},
     {"name":"r_tutorial2","order":11,"path":"rooms/r_tutorial2/r_tutorial2.yy",},
     {"name":"ob_volBgm","order":3,"path":"objects/ob_volBgm/ob_volBgm.yy",},
     {"name":"sp_skillUi_126Info","order":37,"path":"sprites/sp_skillUi_126Info/sp_skillUi_126Info.yy",},

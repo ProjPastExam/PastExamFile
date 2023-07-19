@@ -1937,6 +1937,7 @@
     {"id":{"name":"sp_pl_frontKick","path":"sprites/sp_pl_frontKick/sp_pl_frontKick.yy",},},
     {"id":{"name":"sp_itemSpawnEf","path":"sprites/sp_itemSpawnEf/sp_itemSpawnEf.yy",},},
     {"id":{"name":"sc_pl_atkDnJ","path":"scripts/sc_pl_atkDnJ/sc_pl_atkDnJ.yy",},},
+    {"id":{"name":"ob_npc_jumo_4","path":"objects/ob_npc_jumo_4/ob_npc_jumo_4.yy",},},
     {"id":{"name":"r_tutorial2","path":"rooms/r_tutorial2/r_tutorial2.yy",},},
     {"id":{"name":"ob_volBgm","path":"objects/ob_volBgm/ob_volBgm.yy",},},
     {"id":{"name":"sp_skillUi_126Info","path":"sprites/sp_skillUi_126Info/sp_skillUi_126Info.yy",},},

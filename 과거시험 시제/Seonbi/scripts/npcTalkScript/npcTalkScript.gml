@@ -114,6 +114,18 @@ function sc_npcJumo03()
 	talkIndex		= talk1;
 }
 
+function sc_npcJumo04()
+{
+	talk1		= array_create(4);
+	
+	talk1[@0]	= new talkStruct(6,73,2);
+	talk1[@1]	= new talkStruct(6,74,2);
+	talk1[@2]	= new talkStruct(6,75,2);
+	talk1[@3]	= new talkStruct(,,,,1 , talk1);
+							
+	talkIndex		= talk1;
+}
+
 function sc_npcSmith01()
 {
 	jumoTalk1		= array_create(3);
