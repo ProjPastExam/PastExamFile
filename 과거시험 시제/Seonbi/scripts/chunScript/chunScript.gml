@@ -3,6 +3,8 @@
 
 function sc_chunStart01()
 {
+	var _hor = 2;
+	if(global.clearStage > 40) _hor = 6;
 	talk1		= array_create(3);
 	talkq1		= array_create(5);
 	talkq2		= array_create(3);
@@ -11,32 +13,34 @@ function sc_chunStart01()
 	qst1		= array_create(3);
 	qst1Index	= array_create(3);
 	
-	qst1[@0]	= new questionStruct(2,3);
-	qst1[@1]	= new questionStruct(2,4);
-	qst1[@2]	= new questionStruct(2,5);
+	qst1[@0]	= new questionStruct(_hor,3);
+	qst1[@1]	= new questionStruct(_hor,4);
+	qst1[@2]	= new questionStruct(_hor,5);
 	qst1Index[@0]	= talkq1;
 	qst1Index[@1]	= talkq2;
 	qst1Index[@2]	= talkq3;
 	
 	
-	talk1[@0]	= new talkStruct(2,1);
+	
+	
+	talk1[@0]	= new talkStruct(_hor,1);
 	talk1[@1]	= new talkStruct(,,,,2,,3,qst1);
 	talk1[@2]	= new talkStruct(,,,,3,qst1Index);
 	
-	talkq1[@0]	= new talkStruct(2,9,,sp_chun_face_embar);
-	talkq1[@1]	= new talkStruct(2,10,,sp_chun_face_embar);
-	talkq1[@2]	= new talkStruct(2,11,,sp_chun_face_embar);
-	talkq1[@3]	= new talkStruct(2,12,,sp_chun_face_angry);
+	talkq1[@0]	= new talkStruct(_hor,9,,sp_chun_face_silence);
+	talkq1[@1]	= new talkStruct(_hor,10,,sp_chun_face_silence);
+	talkq1[@2]	= new talkStruct(_hor,11,,sp_chun_face_silence);
+	talkq1[@3]	= new talkStruct(_hor,12,,sp_chun_face_silence);
 	talkq1[@4]	= new talkStruct(,,,,1 , talk1);
 	
-	talkq2[@0]	= new talkStruct(2,17,,sp_chun_face_silence);
-	talkq2[@1]	= new talkStruct(2,18,,sp_chun_face_silence);
+	talkq2[@0]	= new talkStruct(_hor,17,,sp_chun_face_silence);
+	talkq2[@1]	= new talkStruct(_hor,18,,sp_chun_face_silence);
 	talkq2[@2]	= new talkStruct(,,,,1 , talk1);
 	
-	talkq3[@0]	= new talkStruct(2,25,,sp_chun_face_laugh);
-	talkq3[@1]	= new talkStruct(2,26,,sp_chun_face_smile);
-	talkq3[@2]	= new talkStruct(2,27,,sp_chun_face_silence);
-	talkq3[@3]	= new talkStruct(2,28,,sp_chun_face_silence);
+	talkq3[@0]	= new talkStruct(_hor,25,,sp_chun_face_silence);
+	talkq3[@1]	= new talkStruct(_hor,26,,sp_chun_face_silence);
+	talkq3[@2]	= new talkStruct(_hor,27,,sp_chun_face_silence);
+	talkq3[@3]	= new talkStruct(_hor,28,,sp_chun_face_silence);
 	talkq3[@4]	= new talkStruct(,,,,1 , talk1);
 								
 	talkIndex		= talk1;
