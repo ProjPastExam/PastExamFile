@@ -49,7 +49,7 @@ function sc_pl_sk176(){
 		{
 			sc_pl_atkEf(sc_pl_fireDmg(), sc_pl_firePene(), 250, 0, 
 				6, 2, 0, sp_pl_sk176Ef1, dir, 0);
-			var atk = sc_pl_atkEf(sc_pl_fireDmg()*5, sc_pl_firePene(), 200, 0, 
+			var atk = sc_pl_atkEf(sc_pl_fireDmg()*4, sc_pl_firePene(), 200, 0, 
 				0, 2, 0, sp_pl_sk176Ef2, dir, 0,,y+50,,,ob_skEf176);
 			sk176Index2	= (atkProcess)/4*dir;
 			sk176Index3	= (atkProcess)/4*-1;

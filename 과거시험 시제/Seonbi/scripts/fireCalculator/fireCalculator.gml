@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_fireDmg(mode = 0){
 	//기본 데미지 및 아이템 배율 적용
-	var dmg = global.fireDmg + sc_abScaleCalculator(7);
+	var dmg = global.fireDmg + sc_abScaleCalculator(9);
 	if (global.ranStage2 == 2) dmg += dmg/2;
 	if (mode == 1) return dmg;
 	
@@ -14,7 +14,7 @@ function sc_pl_fireDmg(mode = 0){
 
 
 function sc_pl_fireMana(mode = 0){
-	var mana = global.fireMana;
+	var mana = global.fireMana + sc_abScaleCalculator(10);
 	if (mode == 1) return mana;
 	
 	var manaItem = sc_itemScaleCalculator(2, 1)*3;
@@ -24,7 +24,7 @@ function sc_pl_fireMana(mode = 0){
 }
 
 function sc_pl_fireComb(mode = 0) {
-	var comb = global.fireComb + sc_abScaleCalculator(8);
+	var comb = global.fireComb + sc_abScaleCalculator(11);
 	if (mode == 1) return comb*100;
 	
 	var combItem = sc_itemScaleCalculator(2, 2)/10;
@@ -35,7 +35,7 @@ function sc_pl_fireComb(mode = 0) {
 }
 
 function sc_pl_fireCt(mode = 0) {
-	var ct = global.fireCt + sc_abScaleCalculator(9);
+	var ct = global.fireCt + sc_abScaleCalculator(12);
 	if (global.ranStage2 == 3) ct += 0.50;
 	var ctAdd = ct;
 	if (global.item10)	{ ctAdd += (global.item10) * ct * 0.5; }

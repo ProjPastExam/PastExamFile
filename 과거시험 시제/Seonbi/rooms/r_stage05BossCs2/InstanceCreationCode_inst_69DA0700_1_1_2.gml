@@ -1,1 +1,1 @@
-if (global.clearStage == 30) nextRoom = r_stage03Clear;
+if (global.clearStage == 50) nextRoom = r_stage05Clear;

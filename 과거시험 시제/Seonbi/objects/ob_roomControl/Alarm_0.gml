@@ -113,8 +113,8 @@ if (global.abSoulMax <= global.abSoul)
 {
 	var lIndex = true;
 	if (global.abPointMax >= 40 && global.clearStage < 25 )	lIndex = false;
-	if (global.abPointMax >= 50 && global.clearStage < 45 )	lIndex = false;
-	if (global.abPointMax >= 60)							lIndex = false;
+	if (global.abPointMax >= 65 && global.clearStage < 45 )	lIndex = false;
+	if (global.abPointMax >= 90)							lIndex = false;
 	
 	if (lIndex)	sc_abSoulLvUp();
 }

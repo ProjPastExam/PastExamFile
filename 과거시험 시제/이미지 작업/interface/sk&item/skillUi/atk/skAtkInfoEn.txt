@@ -80,3 +80,30 @@ arrows forward,
 deals x1.5 Arrow 
 Dmg per hit,
 up to 8 times.
+
+
+
+Grapple Arrow
+
+deals x1.5 Arrow 
+Dmg up to 2 times
+and increases dmg 
+taken by 20%.
+
+Pulls enemies closer.
+
+
+Dragon's Arrow
+
+deals x8 Arrow Dmg,
+slows down enemies.
+
+Performs attack
+deals x4 Arrow Dmg
+up to 4 times at the 
+initial hit location.
+
+
+Iron Bow
+deals x3 Arrow Dmg
+up to 5 times

@@ -73,6 +73,8 @@ global.abSoulMax	= 999;
 global.SM_BGM	= -1;
 global.SM_BGM_SOUND = NULL;
 
+global.seonBuff	= array_create(12, 0);
+
 //0. 데미지		1. 마나회복		2. 연타수치		3. 치명타 보정	4. 치명타 공격력
 global.itemScale = array_create(3);
 global.itemScale[0] = array_create(5, 0);

@@ -44,8 +44,8 @@ global.moneyBuffer = 0;
 var lIndex	= true;
 var lIndex2	= 40;
 if (global.abPointMax >= 40 && global.clearStage < 25 )	{ lIndex = false; }
-if (global.abPointMax >= 50 && global.clearStage < 45 )	{ lIndex = false;	lIndex2 = 50; }
-if (global.abPointMax >= 60)							{ lIndex = false;	lIndex2 = 60; }
+if (global.abPointMax >= 65 && global.clearStage < 45 )	{ lIndex = false;	lIndex2 = 65; }
+if (global.abPointMax >= 90)							{ lIndex = false;	lIndex2 = 90; }
 
 if (!lIndex) {
 	global.abSoul = 0;

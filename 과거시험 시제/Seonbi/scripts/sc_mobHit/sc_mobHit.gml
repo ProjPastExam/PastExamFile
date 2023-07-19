@@ -7,11 +7,11 @@ function sc_mobHit(mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance,
 		if ( state != 9 ) {
 			if ( state == 8 ) { kbIndex = 16; ySpeed = -11*(100-down/2)/100; }
 			else {
-				if (!isDA && (hitKind == 0 || hitKind == 10 || hitKind == 11))
+				if ((!isDA && (hitKind == 0 || hitKind == 10 || hitKind == 11)) || hitKind == 13)
 					{ state = 5 kbIndex = shVal; ySpeed = -1*hitUp*(100-down/2)/100;  }
-				else if (!isDK && hitKind == 1 ) 
+				else if ((!isDK && hitKind == 1 ) || hitKind == 13) 
 					{ state = 6; kbIndex = shVal; ySpeed = -1*hitUp*(100-down/2)/100;  }
-				else if (!isDF && (hitKind == 2 || hitKind == 12) ) 
+				else if ((!isDF && (hitKind == 2 || hitKind == 12)) || hitKind == 13 ) 
 					{ state = 7; kbIndex = shVal; ySpeed = -1*hitUp*(100-down/2)/100;  }
 			}
 		}
@@ -35,9 +35,14 @@ function sc_mobHit(mobId, dmg, pene, shock, mana, hitUp, hitKind, dir, ctChance,
 		indexStun = true;
 		part_particles_create( global.hitEf, x, y+hitLot, global.mobCounterEfF, 1 );
 	}
+	if (hitKind == 13) { 
+		isStun = true; 
+		indexStun = true;
+		part_particles_create( global.hitEf, x, y+hitLot, global.mobCounterEfF, 1 );
+	}
 	
 	if (hitKind == 10) hitKind = 1;
-	if (hitKind == 11 || hitKind == 12) hitKind = 2;
+	if (hitKind == 11 || hitKind == 12 || hitKind == 13) hitKind = 2;
 	
 	var isCt = false;
 	if (ctChance != -1)

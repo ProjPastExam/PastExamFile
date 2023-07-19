@@ -28,7 +28,7 @@ function sc_skData(){
 	global.skMp[145]	= 200;	//언월도
 	global.skMp[146]	= 200;	//편곤
 	
-	global.skMp[156]	= 200;	//편곤
+	global.skMp[156]	= 200;	//운검
 	
 	global.skMp[161]	= 300;	//사전총통
 	global.skMp[162]	= 100;	//세총통
@@ -39,10 +39,10 @@ function sc_skData(){
 	global.skMp[173]	= 300;	//쌍자총통
 	global.skMp[174]	= 400;	//이총통
 	global.skMp[175]	= 200;	//조총
-	global.skMp[176]	= 200;	//대완구
+	global.skMp[176]	= 400;	//대완구
 	
-	global.skMp[186]	= 0	//일총통
-	global.skMp[187]	= 0	//비격진천뢰
+	global.skMp[186]	= 500;	//일총통
+	global.skMp[187]	= 400	//비격진천뢰
 	
 	
 	global.skKulData = array_create(200, 0);
@@ -84,8 +84,8 @@ function sc_skData(){
 	global.skKulData[173]	= 300;
 	global.skKulData[174]	= 480;
 	global.skKulData[175]	= 120;
-	global.skKulData[176]	= 120;
+	global.skKulData[176]	= 360;
 	
-	global.skKulData[186]	= 10;
-	global.skKulData[187]	= 120;
+	global.skKulData[186]	= 600;
+	global.skKulData[187]	= 480;
 }

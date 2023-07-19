@@ -48,3 +48,17 @@ to closer enemy.
 
 Can be used 2 times 
 in succession.
+
+
+
+
+Fires a shell 
+deals x4 Fire Dmg.
+
+The shell explodes, 
+deals x4 Fire Dmg 
+up to 4 times.
+
+If the key is held, 
+launch the shell 
+farther.

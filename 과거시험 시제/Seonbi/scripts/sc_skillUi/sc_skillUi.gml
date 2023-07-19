@@ -59,6 +59,10 @@ skInfo[112] = sp_skillUi_112Info;
 skInfo[113] = sp_skillUi_113Info;
 skInfo[114] = sp_skillUi_114Info;
 skInfo[115] = sp_skillUi_115Info;
+skInfo[116] = sp_skillUi_116Info;
+
+skInfo[126] = sp_skillUi_126Info;
+skInfo[127] = sp_skillUi_127Info;
 
 skInfo[131] = sp_skillUi_131Info;
 skInfo[132] = sp_skillUi_132Info;
@@ -71,6 +75,8 @@ skInfo[144] = sp_skillUi_144Info;
 skInfo[145] = sp_skillUi_145Info;
 skInfo[146] = sp_skillUi_146Info;
 
+skInfo[156] = sp_skillUi_156Info;
+
 skInfo[161] = sp_skillUi_161Info;
 skInfo[162] = sp_skillUi_162Info;
 skInfo[163] = sp_skillUi_163Info;
@@ -78,4 +84,10 @@ skInfo[163] = sp_skillUi_163Info;
 skInfo[171] = sp_skillUi_171Info;
 skInfo[172] = sp_skillUi_172Info;
 skInfo[173] = sp_skillUi_173Info;
+skInfo[174] = sp_skillUi_174Info;
+skInfo[175] = sp_skillUi_175Info;
+skInfo[176] = sp_skillUi_176Info;
+
+skInfo[186] = sp_skillUi_186Info;
+skInfo[187] = sp_skillUi_187Info;
 }

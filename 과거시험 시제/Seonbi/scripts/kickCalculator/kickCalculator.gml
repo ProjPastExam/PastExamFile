@@ -2,8 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_kickDmg(mode = 0){
 	//기본 데미지 및 아이템 배율 적용
-	var dmg = global.kickDmg + sc_abScaleCalculator(4);
-	if (global.ranStage2 == 2) dmg += dmg/2;
+	var dmg = global.kickDmg + sc_abScaleCalculator(5);
 	if (mode == 1) return dmg;
 	
 	var dmgItem = sc_itemScaleCalculator(1, 0);
@@ -14,7 +13,7 @@ function sc_pl_kickDmg(mode = 0){
 
 
 function sc_pl_kickMana(mode = 0){
-	var mana = global.kickMana + sc_abScaleCalculator(5);
+	var mana = global.kickMana + sc_abScaleCalculator(6);
 	if (mode == 1) return mana;
 	
 	var manaItem = sc_itemScaleCalculator(1, 1)*3;
@@ -24,7 +23,7 @@ function sc_pl_kickMana(mode = 0){
 }
 
 function sc_pl_kickComb(mode = 0) {
-	var comb = global.kickComb + sc_abScaleCalculator(6);
+	var comb = global.kickComb + sc_abScaleCalculator(7);
 	if (mode == 1) return comb*100;
 	
 	var combItem = sc_itemScaleCalculator(1, 2)/10;
@@ -35,8 +34,7 @@ function sc_pl_kickComb(mode = 0) {
 }
 
 function sc_pl_kickCt(mode = 0) {
-	var ct = global.kickCt;
-	if (global.ranStage2 == 3) ct += 0.50;
+	var ct = global.kickCt + sc_abScaleCalculator(8);
 	var ctAdd = ct;
 	if (global.item10)	{ ctAdd += (global.item10) * ct * 0.5; }
 	if (global.item66)	{ ctAdd += (global.item66) * ct * 0.5 * global.comCt/100; }

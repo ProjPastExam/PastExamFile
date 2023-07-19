@@ -24,6 +24,9 @@ if ( sc_getRoomValue("pause") == 0 ) {
 				VSLS_SetAndSave("clearStage", 15, "saveFile");
 			}
 		}
+		if ( process == 15 ) { 
+			SE_Play(s_jpBoss_tele, global.vol);
+		}
 		if ( process < 8 ) { xSpeed = -1 * dir * 18; }
 		else if ( process < 16 ) { xSpeed = -1 * dir * 12; }
 		else if ( process < 24 ) { xSpeed = -1 * dir * 6; }

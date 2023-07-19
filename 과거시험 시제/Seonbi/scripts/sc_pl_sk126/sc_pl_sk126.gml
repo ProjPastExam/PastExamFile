@@ -16,7 +16,7 @@ function sc_pl_sk126(){
 	
 	if ( atkProcess == 24 ) 
 	{
-	sc_pl_atkEf(sc_pl_atkDmg()*1, sc_pl_atkPene(), sc_pl_atkShock()*1.2, 0, 
+	sc_pl_atkEf(sc_pl_atkDmg()*8, sc_pl_atkPene(), sc_pl_atkShock()*1.2, 0, 
 		0, 0, 0, sp_pl_sk126Ef1, dir,,,,,,ob_skEf121_1);
 	SE_Play(s_pl_sk100, global.vol);
 	sc_pl_kulNMana(126);

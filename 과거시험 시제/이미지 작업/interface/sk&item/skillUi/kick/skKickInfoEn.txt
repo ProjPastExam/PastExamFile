@@ -93,3 +93,14 @@ hit by weapon's tip.
 Can be used 2 times 
 in succession.
 
+
+
+deals x3 Melee Dmg 
+and increases dmg 
+taken by 50%.
+
+If the key is
+pressed once more, 
+deals x3 Melee Dmg 
+up to 4 times.
+

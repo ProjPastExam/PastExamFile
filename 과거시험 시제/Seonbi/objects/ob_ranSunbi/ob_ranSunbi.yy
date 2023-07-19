@@ -2,13 +2,12 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "ob_ranSunbi",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcScript","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"sc_npc_ranSunbi",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"sp_gh_face",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"sp_seon_face",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_npcBase/ob_npcBase.yy",},"value":"ranSeonbi.csv",},
   ],
   "parent": {
     "name": "NPC",
@@ -37,8 +36,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sp_st02Cs_npc4_1",
-    "path": "sprites/sp_st02Cs_npc4_1/sp_st02Cs_npc4_1.yy",
+    "name": "sp_ranSeonbi",
+    "path": "sprites/sp_ranSeonbi/sp_ranSeonbi.yy",
   },
   "spriteMaskId": null,
   "visible": true,
