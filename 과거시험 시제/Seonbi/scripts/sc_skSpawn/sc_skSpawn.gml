@@ -18,9 +18,9 @@ function sc_skSpawn(stage = 0){
 		}
 		else if (grade == 1) 
 		{
-			if		(atk == 0)	{ skNum = irandom_range(111, 115); }
+			if		(atk == 0)	{ skNum = irandom_range(111, 116); }
 			else if	(atk == 1)	{ skNum = irandom_range(141, 146); }
-			else				{ skNum = irandom_range(171, 173); }
+			else				{ skNum = irandom_range(171, 176); }
 		}
 		else 
 		{

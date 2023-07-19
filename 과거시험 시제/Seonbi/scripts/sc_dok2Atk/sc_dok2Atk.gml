@@ -30,9 +30,9 @@ function sc_dok2Atk(){
 		sprite_index = sp_dok2_atk;
 		xSpeed = 0;
 		
-		//if ( process == 1 ) { SE_Play(s_jp_cAtk, global.vol); }
+		if ( process == 1 ) { SE_Play(s_dok1Atk, global.vol); }
 		if ( process == 55+lvDly ) { 
-			SE_Play(s_swing_b1, global.vol);
+			SE_Play(s_bandit02atk2, global.vol);
 			var ob = instance_create_layer(x, y+20, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
 			ob.sprite_index = sp_dok2_atkEf;

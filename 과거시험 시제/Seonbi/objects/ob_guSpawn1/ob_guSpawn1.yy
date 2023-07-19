@@ -12,7 +12,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"adDistance","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"2400",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"down","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"30",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"adHeight","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"1000",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"hitDelay","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"30",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"hitDelay","path":"objects/ob_mobBase/ob_mobBase.yy",},"value":"60",},
   ],
   "parent": {
     "name": "gu",
