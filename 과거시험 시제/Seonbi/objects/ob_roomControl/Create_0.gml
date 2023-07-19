@@ -74,10 +74,10 @@ sc_skillUi();
 global.ranStage1 = 0;
 global.ranStage2 = 0;
 
-if (isRanStage) {
+if (isRanStage && global.clearStage > 35) {
 	var ranIndex = irandom_range(0, 99);
 	if (ranIndex < 30) {
-		//instance_create_layer(x, y, "effect2", ob_ranSunbi);
+		instance_create_layer(x, y, "effect2", ob_ranSunbi);
 	}
 }
 
