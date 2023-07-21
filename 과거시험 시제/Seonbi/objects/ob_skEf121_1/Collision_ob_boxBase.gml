@@ -14,6 +14,7 @@ if (isActive)
 			0, 0, 5, sp_pl_sk126Ef2, image_xscale,, other.x, other.bbox_bottom,,,ob_skEf121_2);
 	atk.trackId = other.id;
 	isActive = false;
+	SE_Play(s_sk126_2, global.vol);
 }
 
 if (global.comCt < 100) {

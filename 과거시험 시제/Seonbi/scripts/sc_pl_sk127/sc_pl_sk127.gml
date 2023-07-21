@@ -21,6 +21,7 @@ function sc_pl_sk127(){
 		sc_pl_atkEf(sc_pl_atkDmg()*3, sc_pl_atkPene(), sc_pl_atkShock()*1.2, 0, 
 			0, 0, 6, sp_pl_sk127Ef2, dir);
 		SE_Play(s_pl_sk100, global.vol);
+		SE_Play(s_sk127, global.vol);
 		sc_pl_kulNMana(127);
 		with (ob_roomControl) { pause = 20; }
 	}

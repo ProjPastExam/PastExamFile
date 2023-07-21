@@ -22,7 +22,7 @@ function sc_pl_atk(){
 			else															nextAtk = 2;
 		}
 	}
-	
+	/*
 	if ( atkProcess == 12 ) {
 		if (item7 && global.comCt <= 0) {
 			sc_pl_atkEf(sc_pl_atkDmg(), sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana(), 
@@ -54,6 +54,11 @@ function sc_pl_atk(){
 				0, 0, 0, sp_pl_atkEf01, dir);
 			SE_Play(s_arrow01, global.vol);
 		}
+	}
+	*/
+	if ( atkProcess == 12 || atkProcess == 30 ) 
+	{
+		sc_pl_arrowAtk(1,1);
 	}
 	/*
 	if ( atkProcess == 20 && isAtk3 == 20 ) {

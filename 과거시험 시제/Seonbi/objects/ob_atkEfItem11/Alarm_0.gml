@@ -3,6 +3,7 @@
 
 if (spIndex < image_index) {
 	spIndex = image_index;
-	dmg = dmg * 9 / 10;
+	dmg = dmg * 7 / 10;
+	shock -= 10;
 }
 alarm[0] = 1;

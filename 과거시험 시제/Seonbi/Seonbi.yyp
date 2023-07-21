@@ -365,7 +365,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.89",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"ob_trapL","path":"objects/ob_trapL/ob_trapL.yy",},},
@@ -637,6 +637,7 @@
     {"id":{"name":"sc_pl_dash","path":"scripts/sc_pl_dash/sc_pl_dash.yy",},},
     {"id":{"name":"sp_jpMb_atk4","path":"sprites/sp_jpMb_atk4/sp_jpMb_atk4.yy",},},
     {"id":{"name":"s_mask3Die","path":"sounds/s_mask3Die/s_mask3Die.yy",},},
+    {"id":{"name":"s_sk127","path":"sounds/s_sk127/s_sk127.yy",},},
     {"id":{"name":"sp_skillUi_171","path":"sprites/sp_skillUi_171/sp_skillUi_171.yy",},},
     {"id":{"name":"sc_ending2Cs","path":"scripts/sc_ending2Cs/sc_ending2Cs.yy",},},
     {"id":{"name":"sp_blackF","path":"sprites/sp_blackF/sp_blackF.yy",},},
@@ -2404,6 +2405,7 @@
     {"id":{"name":"sp_money1","path":"sprites/sp_money1/sp_money1.yy",},},
     {"id":{"name":"r_stage06BossCs2","path":"rooms/r_stage06BossCs2/r_stage06BossCs2.yy",},},
     {"id":{"name":"s_dokADie1","path":"sounds/s_dokADie1/s_dokADie1.yy",},},
+    {"id":{"name":"s_sk126_2","path":"sounds/s_sk126_2/s_sk126_2.yy",},},
     {"id":{"name":"Scr_VSLS","path":"scripts/Scr_VSLS/Scr_VSLS.yy",},},
     {"id":{"name":"sp_tile_stage2","path":"sprites/sp_tile_stage2/sp_tile_stage2.yy",},},
     {"id":{"name":"s_sin1_atk2","path":"sounds/s_sin1_atk2/s_sin1_atk2.yy",},},
@@ -2844,6 +2846,7 @@
     {"id":{"name":"s_jpBoss_yell1","path":"sounds/s_jpBoss_yell1/s_jpBoss_yell1.yy",},},
     {"id":{"name":"ob_tutoChunCs2Chun","path":"objects/ob_tutoChunCs2Chun/ob_tutoChunCs2Chun.yy",},},
     {"id":{"name":"sp_pl_sk132Ef3","path":"sprites/sp_pl_sk132Ef3/sp_pl_sk132Ef3.yy",},},
+    {"id":{"name":"arrowAtk","path":"scripts/arrowAtk/arrowAtk.yy",},},
     {"id":{"name":"sp_box_die","path":"sprites/sp_box_die/sp_box_die.yy",},},
     {"id":{"name":"s_jp_eAtk","path":"sounds/s_jp_eAtk/s_jp_eAtk.yy",},},
     {"id":{"name":"sp_tabDeleteItemText","path":"sprites/sp_tabDeleteItemText/sp_tabDeleteItemText.yy",},},
