@@ -46,7 +46,7 @@ function sc_pl_fireCt(mode = 0) {
 	var ctItem = sc_itemScaleCalculator(2, 3)/100;
 	if (mode == 2) return ctItem*100;
 	
-	ct = global.fireCt + sc_abScaleCalculator(9);
+	ct = global.fireCt + sc_abScaleCalculator(12);
 	if (global.ranStage2 == 3) ct += 0.50;
 	if (mode == 0) return ct;
 }

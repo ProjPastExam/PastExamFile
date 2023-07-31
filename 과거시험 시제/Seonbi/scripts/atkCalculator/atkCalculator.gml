@@ -44,8 +44,8 @@ function sc_pl_atkCt(mode = 0) {
 	var ctItem = sc_itemScaleCalculator(0, 3)/20;
 	if (mode == 2) return ctItem*100;
 	
-	ct = global.atkCt + sc_abScaleCalculator(3);
-	if (global.ranStage2 == 3) ct += 0.50;
+	ct = global.atkCt + sc_abScaleCalculator(4);
+	//if (global.ranStage2 == 3) ct += 0.50;
 	if (mode == 0) return ct;
 }
 

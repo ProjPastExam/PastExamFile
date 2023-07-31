@@ -44,7 +44,7 @@ function sc_pl_kickCt(mode = 0) {
 	var ctItem = sc_itemScaleCalculator(1, 3)/100;
 	if (mode == 2) return ctItem*100;
 	
-	ct = global.kickCt;
+	ct = global.kickCt + sc_abScaleCalculator(8);
 	if (global.ranStage2 == 3) ct += 0.50;
 	if (mode == 0) return ct;
 }

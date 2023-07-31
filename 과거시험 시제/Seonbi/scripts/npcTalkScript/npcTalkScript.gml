@@ -15,6 +15,36 @@ function sc_npcBobu01(){
 }
 
 
+function sc_npcBobu02(){
+	isRest = false;
+
+	jumoTalk1		= array_create(3);
+	jumoTalk2		= array_create(3);
+	
+	jumoTalk1[@0]	= new talkStruct(2,1);
+	jumoTalk1[@1]	= new talkStruct(2,2);
+	jumoTalk1[@2]	= new talkStruct(,,,,1 , jumoTalk1)
+								
+	talkIndex		= jumoTalk1;
+	
+	with (instance_create_depth(x+180, y, depth+1, ob_item_sell))
+	{
+		costIndex += 50;
+	}
+	
+	with (instance_create_depth(x+340, y, depth+2, ob_sk_sell))
+	{
+		costIndex += 50;
+	}
+	
+	with (instance_create_depth(x+500, y, depth+2, ob_hp_sell))
+	{
+		//costIndex += 50;
+	}
+
+}
+
+
 function sc_npcJumo01()
 {
 	talk1		= array_create(3);
