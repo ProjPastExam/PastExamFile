@@ -63,3 +63,17 @@ proportionally
 to the Combo,
 up to 25%.
 
+
+Executioner's Blade
+
+When Hp is low,
+All Dmg increases
+up to 33%.
+
+
+Telescope
+
+When you kill a 
+distant enemy, 
+reset skill cooldown 
+and gain 100 Focus.

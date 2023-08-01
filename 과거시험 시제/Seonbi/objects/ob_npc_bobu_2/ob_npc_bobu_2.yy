@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sp_bobu_stand",
-    "path": "sprites/sp_bobu_stand/sp_bobu_stand.yy",
+    "name": "sp_bobu2_stand",
+    "path": "sprites/sp_bobu2_stand/sp_bobu2_stand.yy",
   },
   "spriteMaskId": null,
   "visible": true,

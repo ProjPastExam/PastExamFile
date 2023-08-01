@@ -22,6 +22,7 @@ function sc_initMinimap() {
 	surfMinimapBg	= surface_create(mww, mwh);
 	
 	for (var i = 0; i < 4; i++) {
+		draw_set_alpha(1);
 		surfTemp	= surface_create(10000, 4000);
 		surface_set_target(surfTemp);
 			draw_clear_alpha(c_black, 0.0);
@@ -38,6 +39,7 @@ function sc_initMinimap() {
 		surface_reset_target();
 		surface_free(surfTemp);
 		surface_free(surfTemp2);
+		draw_set_alpha(uiAlpIndex);
 	}
 }
 

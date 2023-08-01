@@ -25,6 +25,7 @@
     {"name":"inst_574328DD","path":"rooms/r_stage03_1_3/r_stage03_1_3.yy",},
     {"name":"inst_5F99E394","path":"rooms/r_stage03_1_3/r_stage03_1_3.yy",},
     {"name":"inst_4E209A7F","path":"rooms/r_stage03_1_3/r_stage03_1_3.yy",},
+    {"name":"inst_41EAC6F4","path":"rooms/r_stage03_1_3/r_stage03_1_3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -46,6 +47,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_46BBBD7_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_rewardBox","path":"objects/ob_rewardBox/ob_rewardBox.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_rewardBox","path":"objects/ob_rewardBox/ob_rewardBox.yy",},"propertyId":{"name":"chunSpawn","path":"objects/ob_rewardBox/ob_rewardBox.yy",},"value":"ob_chun_stage03",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6592.0,"y":1120.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_41EAC6F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_stageName","path":"objects/ob_stageName/ob_stageName.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_stageName","path":"objects/ob_stageName/ob_stageName.yy",},"propertyId":{"name":"spIndex","path":"objects/ob_stageName/ob_stageName.yy",},"value":"sp_stageName_st3",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":608.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E577C90_6_1_2_3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":1632.0,},

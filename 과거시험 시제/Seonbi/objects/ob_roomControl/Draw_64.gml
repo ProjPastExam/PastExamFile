@@ -11,6 +11,7 @@ if (isCt) {
 }
 
 if (isGUI) {
+	draw_set_alpha(uiAlpIndex);
 	if (ctIndex < global.comCt) {
 		alarm[2] = 10;
 	}
@@ -26,6 +27,7 @@ if (isGUI) {
 	sc_gameGUI();
 	
 	sc_printMoney();
+	draw_set_alpha(1);
 }
 draw_sprite_stretched_ext(sp_black, 0, 0, 0, 2400, 1500, 0 ,dark/30);
 /*

@@ -4,7 +4,7 @@ function sc_npcBobu01(){
 	isRest = false;
 
 	jumoTalk1		= array_create(3);
-	jumoTalk2		= array_create(3);
+	//jumoTalk2		= array_create(3);
 	
 	jumoTalk1[@0]	= new talkStruct(2,1);
 	jumoTalk1[@1]	= new talkStruct(2,2);
@@ -19,25 +19,31 @@ function sc_npcBobu02(){
 	isRest = false;
 
 	jumoTalk1		= array_create(3);
-	jumoTalk2		= array_create(3);
+	//jumoTalk2		= array_create(3);
 	
-	jumoTalk1[@0]	= new talkStruct(2,1);
-	jumoTalk1[@1]	= new talkStruct(2,2);
+	jumoTalk1[@0]	= new talkStruct(2,5);
+	jumoTalk1[@1]	= new talkStruct(2,6);
 	jumoTalk1[@2]	= new talkStruct(,,,,1 , jumoTalk1)
 								
 	talkIndex		= jumoTalk1;
 	
-	with (instance_create_depth(x+180, y, depth+1, ob_item_sell))
+	var index = irandom_range(0, 1);
+	if (index == 0)
 	{
-		costIndex += 50;
+		with (instance_create_depth(x+220, y, depth+1, ob_item_sell))
+		{
+			costIndex += 50;
+		}
+	}
+	else if (index == 1)
+	{
+		with (instance_create_depth(x+220, y, depth+1, ob_sk_sell))
+		{
+			costIndex += 50;
+		}
 	}
 	
-	with (instance_create_depth(x+340, y, depth+2, ob_sk_sell))
-	{
-		costIndex += 50;
-	}
-	
-	with (instance_create_depth(x+500, y, depth+2, ob_hp_sell))
+	with (instance_create_depth(x+380, y, depth+2, ob_hp_sell))
 	{
 		//costIndex += 50;
 	}

@@ -13,6 +13,18 @@ function sc_mobMain(){
 		state = -1; process = 0; hitAfter = -1;
 
 		if (!isDie) {
+			if (global.item69 > 0)
+			{
+				var plX = sc_pl_get("x");
+				if (abs(plX - x) > 640)
+				{
+					global.mp += global.item69*100;
+					global.skKul[0] = 0;
+					global.skKul[1] = 0;
+					global.skKul[2] = 0;
+				}
+			}
+			
 			with (ob_battleBox)
 			{
 				remMob--;

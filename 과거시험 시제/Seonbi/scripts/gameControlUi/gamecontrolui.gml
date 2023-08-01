@@ -82,6 +82,7 @@ function sc_gameControlCreate() {
 	surf	= -1;
 	mapSurf	= -1;
 	isMap = true;
+	uiAlpIndex = 1;
 }
 
 function sc_set_abSoulMax() {

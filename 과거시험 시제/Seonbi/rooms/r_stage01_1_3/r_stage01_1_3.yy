@@ -19,6 +19,7 @@
     {"name":"inst_134DD18E","path":"rooms/r_stage01_1_3/r_stage01_1_3.yy",},
     {"name":"inst_79BEA4CF","path":"rooms/r_stage01_1_3/r_stage01_1_3.yy",},
     {"name":"inst_716BDF4F","path":"rooms/r_stage01_1_3/r_stage01_1_3.yy",},
+    {"name":"inst_C0A326A","path":"rooms/r_stage01_1_3/r_stage01_1_3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -36,6 +37,9 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_roomControl","path":"objects/ob_roomControl/ob_roomControl.yy",},"propertyId":{"name":"isRanStage","path":"objects/ob_roomControl/ob_roomControl.yy",},"value":"True",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":1696.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2EB4B759_1_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_rewardBox","path":"objects/ob_rewardBox/ob_rewardBox.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":8160.0,"y":800.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C0A326A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_stageName","path":"objects/ob_stageName/ob_stageName.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_stageName","path":"objects/ob_stageName/ob_stageName.yy",},"propertyId":{"name":"spIndex","path":"objects/ob_stageName/ob_stageName.yy",},"value":"sp_stageName_st1",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":608.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_49FF2D29_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_mobBandit02","path":"objects/ob_mobBandit02/ob_mobBandit02.yy",},"properties":[],"rotation":-0.16312942,"scaleX":1.0,"scaleY":1.0,"x":4352.0,"y":1696.0,},

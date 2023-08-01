@@ -76,5 +76,13 @@ function sc_itemData(){
 	//광다회
 	global.itemData[67]	= new itemStruct ( 67, sp_Item_67, sp_ItemInfo_67, 3,
 		function(grade) { global.item67 = grade; })
+		
+	//망나니칼
+	global.itemData[68]	= new itemStruct ( 68, sp_Item_68, sp_ItemInfo_68, 3,
+		function(grade) { global.item68 = grade; })
+		
+	//천리경
+	global.itemData[69]	= new itemStruct ( 69, sp_Item_69, sp_ItemInfo_69, 3,
+		function(grade) { global.item69 = grade; })
 	
 }

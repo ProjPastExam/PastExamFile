@@ -36,6 +36,7 @@ isSmith	= false;
 hpProcess = 0;
 dark = 45;
 npcFace = sp_npc_blank;
+uiAlpIndex = 1; 
 
 moneyPrint	= global.money;
 abSoulPrint	= global.abSoul;

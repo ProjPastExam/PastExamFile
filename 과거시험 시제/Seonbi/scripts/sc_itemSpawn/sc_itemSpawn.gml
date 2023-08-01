@@ -9,7 +9,7 @@ function sc_itemSpawn(){
 		if		(kind == 0) { itemNum = irandom_range(1, 3); }
 		else if (kind == 1)	{ itemNum = irandom_range(21, 23); }
 		else if (kind == 2)	{ itemNum = irandom_range(41, 43); }
-		else				{ itemNum = irandom_range(61, 67); }
+		else				{ itemNum = irandom_range(61, 69); }
 		
 		if (sc_itemCheck(itemNum)) { i = false; }
 		var j = 0;
