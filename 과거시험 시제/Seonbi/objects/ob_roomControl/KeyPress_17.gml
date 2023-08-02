@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-room_goto(nextRoom);
+//room_goto(nextRoom);
 //room_goto(r_tutorial);
 //room_goto(r_stage05_4_3);
 //room_goto(r_stage05Cs);

@@ -27,26 +27,7 @@ function sc_npcBobu02(){
 								
 	talkIndex		= jumoTalk1;
 	
-	var index = irandom_range(0, 1);
-	if (index == 0)
-	{
-		with (instance_create_depth(x+220, y, depth+1, ob_item_sell))
-		{
-			costIndex += 50;
-		}
-	}
-	else if (index == 1)
-	{
-		with (instance_create_depth(x+220, y, depth+1, ob_sk_sell))
-		{
-			costIndex += 50;
-		}
-	}
-	
-	with (instance_create_depth(x+380, y, depth+2, ob_hp_sell))
-	{
-		//costIndex += 50;
-	}
+	alarm[3] = 1;
 
 }
 

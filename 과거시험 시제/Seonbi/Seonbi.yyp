@@ -249,6 +249,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"icon","folderPath":"folders/Sprites/interface/skillUi/icon.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"info","folderPath":"folders/Sprites/interface/skillUi/info.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"smith","folderPath":"folders/Sprites/interface/smith.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"stageName","folderPath":"folders/Sprites/interface/stageName.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"talk","folderPath":"folders/Sprites/interface/talk.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tapInfo","folderPath":"folders/Sprites/interface/tapInfo.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"text","folderPath":"folders/Sprites/interface/text.yy",},
@@ -342,7 +343,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tileSprite","folderPath":"folders/Tile Sets/tileSprite.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"stageName","folderPath":"folders/Sprites/interface/stageName.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"adCs.csv","CopyToMask":-1,"filePath":"datafiles/dialogueData",},
@@ -763,6 +763,7 @@
     {"id":{"name":"sp_bandit05_die","path":"sprites/sp_bandit05_die/sp_bandit05_die.yy",},},
     {"id":{"name":"sp_mask1_die","path":"sprites/sp_mask1_die/sp_mask1_die.yy",},},
     {"id":{"name":"sp_pl_skEf104","path":"sprites/sp_pl_skEf104/sp_pl_skEf104.yy",},},
+    {"id":{"name":"sp_mask5_shock","path":"sprites/sp_mask5_shock/sp_mask5_shock.yy",},},
     {"id":{"name":"sp_ItemInfo_02","path":"sprites/sp_ItemInfo_02/sp_ItemInfo_02.yy",},},
     {"id":{"name":"sp_cB2_atk5","path":"sprites/sp_cB2_atk5/sp_cB2_atk5.yy",},},
     {"id":{"name":"sp_chun_enhanceEf","path":"sprites/sp_chun_enhanceEf/sp_chun_enhanceEf.yy",},},

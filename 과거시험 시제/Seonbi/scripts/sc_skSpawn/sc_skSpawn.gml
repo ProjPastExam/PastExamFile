@@ -40,7 +40,11 @@ function sc_skSpawn(stage = 0){
 			}
 		}
 		if (j > 1) { check = false; }
-		if (check) break;
+		if (check) 
+		{
+			costIndex += grade * 30;
+			break;
+		}
 		//i++;
 		//if (i > 60) break;
 	}

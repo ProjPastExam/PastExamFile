@@ -223,6 +223,7 @@
     {"name":"icon","order":19,"path":"folders/Sprites/interface/skillUi/icon.yy",},
     {"name":"info","order":18,"path":"folders/Sprites/interface/skillUi/info.yy",},
     {"name":"smith","order":26,"path":"folders/Sprites/interface/smith.yy",},
+    {"name":"stageName","order":28,"path":"folders/Sprites/interface/stageName.yy",},
     {"name":"talk","order":23,"path":"folders/Sprites/interface/talk.yy",},
     {"name":"tapInfo","order":8,"path":"folders/Sprites/interface/tapInfo.yy",},
     {"name":"text","order":10,"path":"folders/Sprites/interface/text.yy",},
@@ -312,7 +313,6 @@
     {"name":"Tile Sets","order":28,"path":"folders/Tile Sets.yy",},
     {"name":"tileSprite","order":2,"path":"folders/Tile Sets/tileSprite.yy",},
     {"name":"Timelines","order":21,"path":"folders/Timelines.yy",},
-    {"name":"stageName","order":28,"path":"folders/Sprites/interface/stageName.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"ob_trapL","order":3,"path":"objects/ob_trapL/ob_trapL.yy",},
@@ -668,6 +668,7 @@
     {"name":"sp_bandit05_die","order":6,"path":"sprites/sp_bandit05_die/sp_bandit05_die.yy",},
     {"name":"sp_mask1_die","order":6,"path":"sprites/sp_mask1_die/sp_mask1_die.yy",},
     {"name":"sp_pl_skEf104","order":12,"path":"sprites/sp_pl_skEf104/sp_pl_skEf104.yy",},
+    {"name":"sp_mask5_shock","order":9,"path":"sprites/sp_mask5_shock/sp_mask5_shock.yy",},
     {"name":"sp_ItemInfo_02","order":7,"path":"sprites/sp_ItemInfo_02/sp_ItemInfo_02.yy",},
     {"name":"sp_cB2_atk5","order":17,"path":"sprites/sp_cB2_atk5/sp_cB2_atk5.yy",},
     {"name":"sp_chun_enhanceEf","order":7,"path":"sprites/sp_chun_enhanceEf/sp_chun_enhanceEf.yy",},

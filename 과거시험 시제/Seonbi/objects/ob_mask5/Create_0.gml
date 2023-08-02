@@ -20,4 +20,4 @@ stand2Sp	= sp_mask5_stand2;
 walkSp		= sp_mask5_walk;
 runSp		= sp_mask5_run;
 painSp		= sp_mask5_hit;
-shockSp		= sp_mask3_shock;
+shockSp		= sp_mask5_shock;
