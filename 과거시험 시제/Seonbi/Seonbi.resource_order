@@ -2236,6 +2236,7 @@
     {"name":"sp_dok3_pain","order":4,"path":"sprites/sp_dok3_pain/sp_dok3_pain.yy",},
     {"name":"r_stage06Village","order":3,"path":"rooms/r_stage06Village/r_stage06Village.yy",},
     {"name":"sc_jpMbAtk","order":10,"path":"scripts/sc_jpMbAtk/sc_jpMbAtk.yy",},
+    {"name":"steam_achievement","order":19,"path":"scripts/steam_achievement/steam_achievement.yy",},
     {"name":"r_stage02Village","order":15,"path":"rooms/r_stage02Village/r_stage02Village.yy",},
     {"name":"sp_chang02_pain","order":4,"path":"sprites/sp_chang02_pain/sp_chang02_pain.yy",},
     {"name":"r_stage06BossCs","order":8,"path":"rooms/r_stage06BossCs/r_stage06BossCs.yy",},
