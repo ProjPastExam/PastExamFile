@@ -1,0 +1,106 @@
+게임 시작
+튜토리얼을 클리어했다.
+Game Start
+Clear the Tutorial.
+
+산적 두목
+스테이지 1의 산적 두목을 처치했다.
+Bandit Boss
+Defeat the Bandit Boss on Stage 1.
+
+사무라이
+스테이지 2의 사무라이를 처치했다.
+Samurai
+Defeat the Samurai on Stage 2.
+
+호랑이 악령
+스테이지 3의 호랑이 악령을 처치했다.
+Evil Spirit
+Defeat the Evil Spirit on Stage 3.
+
+도깨비 두목
+스테이지 4의 도깨비 두목을 처치했다.
+Dokkaebi Boss
+Defeat the Dokkaebi Boss on Stage 4.
+
+구미호
+스테이지 5의 구미호를 처치했다.
+Gumiho
+Defeat the Gumiho on Stage 5.
+
+수호신
+마지막 스테이지의 수호신을 처치했다.
+Guardian
+Defeat the Guardian on Final Stage.
+
+탐화랑
+쉬움 난이도 이상으로 게임을 클리어했다.
+Easy Clear
+Clear the game with Easy difficulty.
+
+아원
+보통 난이도 이상으로 게임을 클리어했다.
+Normal Clear
+Clear the game with Normal difficulty.
+
+장원
+어려움 난이도로 게임을 클리어했다.
+Hard Clear
+Clear the game with Hard difficulty.
+
+감사합니다
+엔딩을 끝까지 보았다.
+Thank you
+Watch the ending to the end.
+
+훌륭한 대화수단
+처음으로 기술을 획득했다.
+Great Communicator
+Get Skill for the first time.
+
+웨펀마스터
+기술 칸 3개를 다 채웠다.
+Weapon Master
+Filled all 3 Skill slots.
+
+더블배럴 승자총통
+쌍자총통 기술을 획득했다.
+Double Barrel
+Get "Ssang-Ja Gun" Skill
+
+이 소지품은 이제 제 겁니다
+처음으로 소지품을 획득했다.
+This Item is mine
+Get Item for the first time.
+
+다내꺼
+소지품 칸 6개를 다 채웠다.
+All mine
+Fill all 6 Item slots.
+
+소지품 풀강
+소지품 1개를 최대 강화했다.
+Full Upgrade
+Upgrade 1 Item to the maximum.
+
+소지품 풀셋
+소지품 6개를 최대 강화했다.
+Full Set
+Upgrade 6 Item to the maximum.
+
+조선을 바로잡고자 합니다.
+적 100명을 처치했다.
+I will fix Joseon
+Defeat 100 Enemy
+
+조선을 바로잡는 중입니다.
+적 1000명을 처치했다.
+I am fixing Joseon
+Defeat 1000 Enemy
+
+조선을 바로잡았습니다.
+적 10000명을 처치했다.
+I fixed Joseon
+Defeat 10000 Enemy
+
+
