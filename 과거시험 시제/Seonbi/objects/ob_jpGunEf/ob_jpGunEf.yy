@@ -2,17 +2,17 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "ob_jpGunEf",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "jpob",
     "path": "folders/Objects/mob/jpob.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "ob_mobAtk2",
+    "path": "objects/ob_mobAtk2/ob_mobAtk2.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
