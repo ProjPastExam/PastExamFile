@@ -16,6 +16,7 @@ function sc_skData(){
 	
 	global.skMp[126]	= 400;	//용
 	global.skMp[127]	= 300;	//철궁
+	global.skMp[128]	= 100;	//손도끼
 	
 	global.skMp[131]	= 200;	//창 찌르기
 	global.skMp[132]	= 100;	//환도
@@ -29,6 +30,9 @@ function sc_skData(){
 	global.skMp[146]	= 200;	//편곤
 	
 	global.skMp[156]	= 200;	//운검
+	global.skMp[157]	= 300;	//장방패
+	global.skMp[158]	= 200;	//악령의 강타
+	
 	
 	global.skMp[161]	= 300;	//사전총통
 	global.skMp[162]	= 100;	//세총통
@@ -43,6 +47,7 @@ function sc_skData(){
 	
 	global.skMp[186]	= 500;	//일총통
 	global.skMp[187]	= 400	//비격진천뢰
+	global.skMp[188]	= 400	//오니의 검
 	
 	
 	global.skKulData = array_create(200, 0);
@@ -61,6 +66,7 @@ function sc_skData(){
 	
 	global.skKulData[126]	= 480;
 	global.skKulData[127]	= 300;
+	global.skKulData[128]	= 0;
 
 	global.skKulData[131]	= 180;
 	global.skKulData[132]	= 60;
@@ -74,6 +80,8 @@ function sc_skData(){
 	global.skKulData[146]	= 240;
 	
 	global.skKulData[156]	= 240;
+	global.skKulData[157]	= 360;
+	global.skKulData[158]	= 240;
 	
 	global.skKulData[161]	= 240;
 	global.skKulData[162]	= 120;
@@ -88,4 +96,5 @@ function sc_skData(){
 	
 	global.skKulData[186]	= 600;
 	global.skKulData[187]	= 480;
+	global.skKulData[188]	= 480;
 }

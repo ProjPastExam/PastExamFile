@@ -49,7 +49,7 @@ function sc_pl_sk157(){
 		uc_shake(8, 0.1);
 	}
 	
-	if ( atkProcess == 40 || atkProcess == 40 ) {
+	if ( atkProcess == 40 || atkProcess == 70 ) {
 		sc_hitAfter(40);
 	}
 	

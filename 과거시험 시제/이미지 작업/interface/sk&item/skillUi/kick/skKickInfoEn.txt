@@ -94,6 +94,7 @@ Can be used 2 times
 in succession.
 
 
+Guard's Sword
 
 deals x3 Melee Dmg 
 and increases dmg 
@@ -104,3 +105,22 @@ pressed once more,
 deals x3 Melee Dmg 
 up to 4 times.
 
+
+Pavise
+
+Strike down shield, 
+deals x4 Melee Dmg 
+and blocking attacks.
+
+After a short delay,
+deals x2 Melee Dmg 
+up to 4 times.
+
+
+Spirit's Strike
+
+Leap forward shortly 
+and slam the ground, 
+deals x8 Melee Dmg
+and launch enemies 
+into the air.

@@ -68,7 +68,50 @@ function sc_pl_sk144_atk() {
 	atkProcess++;
 	if (!isJump) xSpeed = 0;
 	image_xscale = dir;
-	sprite_index = sp_pl_sk144_atk;
+	if (spAtk == 1)
+	{
+		sprite_index = sp_pl_sk144_atk;
+		if (atkProcess == 16) {
+			SE_Play(s_swing_c1, global.vol);
+			atk = sc_pl_atkEf(sc_pl_kickDmg()*3, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
+				0, 1, 0, sp_pl_sk144_atkEf1, dir);
+			alarm[6] = 600;
+		}
+		else if (atkProcess == 60) {
+			SE_Play(s_swing_c1, global.vol);
+			atk = sc_pl_atkEf(sc_pl_kickDmg()*3, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
+				0, 1, 0, sp_pl_sk144_atkEf2, dir);
+			alarm[6] = 600;
+		}
+		else if (atkProcess == 110) {
+			SE_Play(s_swing_c1, global.vol);
+			atk = sc_pl_atkEf(sc_pl_kickDmg()*3, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
+				0, 1, 0, sp_pl_sk144_atkEf3, dir);
+			alarm[6] = 600;
+		}
+	}
+	else if (spAtk == 2)
+	{
+		sprite_index = sp_pl_sk188_atk;
+		if (atkProcess == 16) {
+			SE_Play(s_jpBoss_atk1_1, global.vol);
+			atk = sc_pl_atkEf(sc_pl_fireDmg()*4, sc_pl_firePene(), sc_pl_fireShock(), sc_pl_fireMana(), 
+				0, 2, 0, sp_pl_sk188_atkEf1, dir);
+			alarm[6] = 600;
+		}
+		else if (atkProcess == 60) {
+			SE_Play(s_jpBoss_atk1_1, global.vol);
+			atk = sc_pl_atkEf(sc_pl_fireDmg()*4, sc_pl_firePene(), sc_pl_fireShock(), sc_pl_fireMana(), 
+				0, 2, 0, sp_pl_sk188_atkEf2, dir);
+			alarm[6] = 600;
+		}
+		else if (atkProcess == 110) {
+			SE_Play(s_jpBoss_atk1_2, global.vol);
+			atk = sc_pl_atkEf(sc_pl_fireDmg()*4, sc_pl_firePene(), sc_pl_fireShock(), sc_pl_fireMana(), 
+				0, 2, 0, sp_pl_sk188_atkEf3, dir);
+			alarm[6] = 600;
+		}
+	}
 	var atk;
 	
 	if ( atkProcess > 10 ) {
@@ -77,30 +120,6 @@ function sc_pl_sk144_atk() {
 		if ( keyDash ) nextAtk = 10;
 		if ( keyJump ) nextAtk = 9;
 	}
-
-	if (atkProcess == 16) {
-		SE_Play(s_swing_c1, global.vol);
-		atk = sc_pl_atkEf(sc_pl_kickDmg()*3, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
-			0, 1, 0, sp_pl_sk144_atkEf1, dir);
-		spAtk = 1;
-		alarm[6] = 600;
-	}
-	else if (atkProcess == 60) {
-		SE_Play(s_swing_c1, global.vol);
-		atk = sc_pl_atkEf(sc_pl_kickDmg()*3, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
-			0, 1, 0, sp_pl_sk144_atkEf2, dir);
-		spAtk = 1;
-		alarm[6] = 600;
-	}
-	else if (atkProcess == 110) {
-		SE_Play(s_swing_c1, global.vol);
-		atk = sc_pl_atkEf(sc_pl_kickDmg()*3, sc_pl_kickPene(), sc_pl_kickShock(), sc_pl_kickMana(), 
-			0, 1, 0, sp_pl_sk144_atkEf3, dir);
-		spAtk = 1;
-		alarm[6] = 600;
-	}
-
-
 		
 	if ( (atkProcess > 16 ) ) {
 		sc_pl_atkDnJ();
@@ -150,6 +169,7 @@ function sc_pl_sk144_up(){
 	atkProcess++;
 	image_xscale = dir;
 	sprite_index = sp_pl_sk144_atkUp;
+	if (spAtk == 2)	sprite_index = sp_pl_sk188_atkUp;
 	var atk;
 	
 	if ( atkProcess > 4 ) {

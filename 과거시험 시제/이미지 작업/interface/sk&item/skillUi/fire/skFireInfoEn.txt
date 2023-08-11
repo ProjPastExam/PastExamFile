@@ -62,3 +62,16 @@ up to 4 times.
 If the key is held, 
 launch the shell 
 farther.
+
+
+Oni's Sword
+
+Charges forward 
+with a sword and 
+deals x3 Fire Dmg
+up to 5 times.
+
+After using the skill,
+Basic attacks
+become sword strike
+deals 4x Fire Dmg.

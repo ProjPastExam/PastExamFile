@@ -114,7 +114,7 @@ function sc_pl_move() {
 		}
 	}
 	
-	if (spAtk == 1) {
+	if (spAtk != 0) {
 		if (canMove==1||canMove==2||canMove==3||canMove==4||canMove==7)	canMove = 50;
 		if (canMove==6||canMove==8)	canMove = 51;
 	}
@@ -173,6 +173,7 @@ function sc_pl_move() {
 		
 		case 156:	sc_pl_sk156();			break;
 		case 157:	sc_pl_sk157();			break;
+		case 158:	sc_pl_sk158();			break;
 		
 		case 161:	sc_pl_sk161();			break;
 		case 162:	sc_pl_sk162();			break;
@@ -187,6 +188,7 @@ function sc_pl_move() {
 		
 		case 186:	sc_pl_sk186();			break;
 		case 187:	sc_pl_sk187();			break;
+		case 188:	sc_pl_sk188();			break;
 		}
 	}
 	if (dProcess > -1 && canMove == 10) sc_pl_dash();

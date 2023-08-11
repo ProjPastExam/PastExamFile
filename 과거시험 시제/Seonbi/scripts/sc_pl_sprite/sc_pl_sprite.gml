@@ -8,11 +8,13 @@ function sc_pl_sprite(argument0) {
 		case 0:
 			sprite_index = sp_pl_stand;
 			if (spAtk == 1) { sprite_index = sp_pl_sk144_stand; }
+			else if (spAtk == 2) { sprite_index = sp_pl_sk188_stand; }
 			break;
 	
 		case 1:
 			sprite_index = sp_pl_run;
 			if (spAtk == 1) { sprite_index = sp_pl_sk144_run; }
+			else if (spAtk == 2) { sprite_index = sp_pl_sk188_run; }
 			break;
 		
 		case 2:
@@ -24,6 +26,11 @@ function sc_pl_sprite(argument0) {
 				sp1 = sp_pl_sk144_jump1;
 				sp2 = sp_pl_sk144_jump2;
 				sp3 = sp_pl_sk144_jump3;
+			}
+			else if (spAtk == 2) {	//왜검 발도
+				sp1 = sp_pl_sk188_jump1;
+				sp2 = sp_pl_sk188_jump2;
+				sp3 = sp_pl_sk188_jump3;
 			}
 			
 			sprite_index = sp2;

@@ -17,6 +17,7 @@ skUi[116] = sp_skillUi_116;
 
 skUi[126] = sp_skillUi_126;
 skUi[127] = sp_skillUi_127;
+skUi[128] = sp_skillUi_128;
 
 skUi[131] = sp_skillUi_131;
 skUi[132] = sp_skillUi_132;
@@ -31,6 +32,7 @@ skUi[146] = sp_skillUi_146;
 
 skUi[156] = sp_skillUi_156;
 skUi[157] = sp_skillUi_157;
+skUi[158] = sp_skillUi_158;
 
 skUi[161] = sp_skillUi_161;
 skUi[162] = sp_skillUi_162;
@@ -45,6 +47,7 @@ skUi[176] = sp_skillUi_176;
 
 skUi[186] = sp_skillUi_186;
 skUi[187] = sp_skillUi_187;
+skUi[188] = sp_skillUi_188;
 
 
 skInfo = array_create(200, sp_skillUi_0);
@@ -63,6 +66,7 @@ skInfo[116] = sp_skillUi_116Info;
 
 skInfo[126] = sp_skillUi_126Info;
 skInfo[127] = sp_skillUi_127Info;
+skInfo[128] = sp_skillUi_128Info;
 
 skInfo[131] = sp_skillUi_131Info;
 skInfo[132] = sp_skillUi_132Info;
@@ -76,6 +80,8 @@ skInfo[145] = sp_skillUi_145Info;
 skInfo[146] = sp_skillUi_146Info;
 
 skInfo[156] = sp_skillUi_156Info;
+skInfo[157] = sp_skillUi_157Info;
+skInfo[158] = sp_skillUi_158Info;
 
 skInfo[161] = sp_skillUi_161Info;
 skInfo[162] = sp_skillUi_162Info;
@@ -90,4 +96,5 @@ skInfo[176] = sp_skillUi_176Info;
 
 skInfo[186] = sp_skillUi_186Info;
 skInfo[187] = sp_skillUi_187Info;
+skInfo[188] = sp_skillUi_188Info;
 }

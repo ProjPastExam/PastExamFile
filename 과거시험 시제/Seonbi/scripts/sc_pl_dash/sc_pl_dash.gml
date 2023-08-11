@@ -31,6 +31,7 @@ function sc_pl_dash(){
 	
 	if (global.item12)		sprite_index = sp_pl_item12;
 	else if (spAtk == 1)	sprite_index = sp_pl_sk144_dash; 
+	else if (spAtk == 2)	sprite_index = sp_pl_sk188_dash; 
 	else					sprite_index = sp_pl_dash;
 	image_xscale = dir;
 	

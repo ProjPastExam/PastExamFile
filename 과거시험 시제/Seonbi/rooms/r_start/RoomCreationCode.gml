@@ -17,3 +17,5 @@ global.money = 0;
 with (ob_player) {
 	itemCheck = true;
 }
+
+//texturegroup_load()

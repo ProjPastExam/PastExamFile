@@ -19,9 +19,9 @@ if ( sc_getRoomValue("pause") == 0 ) {
 			alarm[4] = 230;
 			BGM_Stop(90);
 			image_index = 0;
-			if (global.clearStage == 11) {
-				global.clearStage = 15;
-				VSLS_SetAndSave("clearStage", 15, "saveFile");
+			if (global.clearStage < 56) {
+				global.clearStage = 56;
+				VSLS_SetAndSave("clearStage", 56, "saveFile");
 			}
 		}
 		if ( process == 15 ) { 

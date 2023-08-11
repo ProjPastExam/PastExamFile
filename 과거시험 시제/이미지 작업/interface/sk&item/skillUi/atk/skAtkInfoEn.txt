@@ -107,3 +107,12 @@ initial hit location.
 Iron Bow
 deals x3 Arrow Dmg
 up to 5 times
+
+
+Hand Axe
+
+Throw 3 axes
+deals x3 Arrow Dmg.
+
+This skill have
+no cooldown.
