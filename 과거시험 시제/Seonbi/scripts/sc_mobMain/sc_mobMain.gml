@@ -13,6 +13,7 @@ function sc_mobMain(){
 		state = -1; process = 0; hitAfter = -1;
 
 		if (!isDie) {
+			sc_steam_killCount();
 			if (global.item69 > 0)
 			{
 				var plX = sc_pl_get("x");

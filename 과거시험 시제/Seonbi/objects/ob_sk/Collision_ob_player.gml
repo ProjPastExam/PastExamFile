@@ -8,7 +8,9 @@ if (sc_getKey(global.btInter, global.gpInter, 0)) {
 		uc_shake(4, 0.2);
 	}
 	else {
-		if (sc_getSk()) {
+		if (sc_getSk()) 
+		{
+			sc_steam_skill();
 			if (isChun) {
 			with (ob_item_chun)		{ alarm[3] = 1; }
 			with (ob_sk_chun)		{ alarm[3] = 1; }

@@ -9,6 +9,7 @@ if (sc_getKey(global.btInter, global.gpInter, 0)) {
 	}
 	else {
 		if (sc_getItem()) {
+			sc_steam_item();
 			if (isChun) {
 				with (ob_item_chun)		{ alarm[3] = 1; }
 				with (ob_sk_chun)		{ alarm[3] = 1; }

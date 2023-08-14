@@ -23,6 +23,8 @@ if ( sc_getRoomValue("pause") == 0 ) {
 			with (ob_guSpawn1)	{ hp = 0; }
 			with (ob_guSpawn2)	{ hp = 0; }
 			with (ob_guSpawn3)	{ hp = 0; }
+			
+			sc_steam_achievement("AC_BOSS5");
 		}
 		if ( process < 8 ) { xSpeed = -1 * dir * 18; }
 		else if ( process < 16 ) { xSpeed = -1 * dir * 12; }

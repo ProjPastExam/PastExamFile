@@ -23,6 +23,8 @@ if ( sc_getRoomValue("pause") == 0 ) {
 				//global.clearStage = 5;
 				//VSLS_SetAndSave("clearStage", 5, "saveFile");
 			//}
+			
+			sc_steam_achievement("AC_BOSS1");
 		}
 		if ( process < 8 ) { image_index = 0; xSpeed = -1 * dir * 15; }
 		else if ( process < 16 ) { image_index = 1; xSpeed = -1 * dir * 13; }

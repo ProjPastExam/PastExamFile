@@ -9,3 +9,7 @@ videoPlay = true;
 
 alarm[5] = playTime;
 alarm[1] = 30;
+
+if (global.level == 0)	sc_steam_achievement("AC_CLEAR1");
+if (global.level == 1)	sc_steam_achievement("AC_CLEAR2");
+if (global.level == 2)	sc_steam_achievement("AC_CLEAR3");

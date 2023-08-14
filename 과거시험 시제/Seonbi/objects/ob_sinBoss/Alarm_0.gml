@@ -23,6 +23,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 				global.clearStage = 56;
 				VSLS_SetAndSave("clearStage", 56, "saveFile");
 			}
+			sc_steam_achievement("AC_BOSS6");
 		}
 		if ( process == 15 ) { 
 			SE_Play(s_jpBoss_tele, global.vol);

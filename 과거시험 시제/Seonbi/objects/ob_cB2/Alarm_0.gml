@@ -20,6 +20,8 @@ if ( sc_getRoomValue("pause") == 0 ) {
 			SE_Play(s_cB2_die, global.vol);
 			alarm[4] = 330;
 			BGM_Stop(90);
+			
+			sc_steam_achievement("AC_BOSS3");
 		}
 		xSpeed = 0
 		if ( process < 8 ) { image_index = 0; }

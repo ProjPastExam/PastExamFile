@@ -289,6 +289,7 @@
     {"name":"atk","order":9,"path":"folders/Sprites/player/skillSprite/atk.yy",},
     {"name":"fire","order":7,"path":"folders/Sprites/player/skillSprite/fire.yy",},
     {"name":"kick","order":8,"path":"folders/Sprites/player/skillSprite/kick.yy",},
+    {"name":"sk188","order":29,"path":"folders/Sprites/player/skillSprite/kick/sk188.yy",},
     {"name":"tutorial","order":11,"path":"folders/Sprites/tutorial.yy",},
     {"name":"tutotext","order":4,"path":"folders/Sprites/tutorial/tutotext.yy",},
     {"name":"Ultimate Camera","order":1,"path":"folders/Sprites/Ultimate Camera.yy",},
@@ -313,7 +314,6 @@
     {"name":"Tile Sets","order":28,"path":"folders/Tile Sets.yy",},
     {"name":"tileSprite","order":2,"path":"folders/Tile Sets/tileSprite.yy",},
     {"name":"Timelines","order":21,"path":"folders/Timelines.yy",},
-    {"name":"sk188","order":29,"path":"folders/Sprites/player/skillSprite/kick/sk188.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"ob_trapL","order":3,"path":"objects/ob_trapL/ob_trapL.yy",},

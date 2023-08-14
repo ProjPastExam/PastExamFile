@@ -318,6 +318,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"fire","folderPath":"folders/Sprites/player/skillSprite/fire.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"kick","folderPath":"folders/Sprites/player/skillSprite/kick.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sk144","folderPath":"folders/Sprites/player/skillSprite/kick/sk144.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sk188","folderPath":"folders/Sprites/player/skillSprite/kick/sk188.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tile","folderPath":"folders/Sprites/tile.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tutorial","folderPath":"folders/Sprites/tutorial.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tutotext","folderPath":"folders/Sprites/tutorial/tutotext.yy",},
@@ -343,7 +344,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tileSprite","folderPath":"folders/Tile Sets/tileSprite.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sk188","folderPath":"folders/Sprites/player/skillSprite/kick/sk188.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"adCs.csv","CopyToMask":-1,"filePath":"datafiles/dialogueData",},
