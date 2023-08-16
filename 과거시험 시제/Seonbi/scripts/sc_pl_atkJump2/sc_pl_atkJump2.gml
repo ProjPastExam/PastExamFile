@@ -30,6 +30,8 @@ function sc_pl_atkJump2(){
 	}
 	
 	if ( atkProcess == 24 ) {
+		sc_pl_arrowAtk2();
+		/*
 		if (isSin) {
 			atk = instance_create_layer(x, y, "effect", ob_sinEf01);
 			atk.grade = isSin;
@@ -49,6 +51,7 @@ function sc_pl_atkJump2(){
 				0, 0, 0, sp_pl_atkEf02, dir);
 			SE_Play(s_arrow02, global.vol);
 		}
+		*/
 	}
 	
 	//대쉬 제어

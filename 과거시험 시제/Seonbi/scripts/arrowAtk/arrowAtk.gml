@@ -14,8 +14,27 @@ function sc_pl_arrowAtk(_dmgScale = 1, _mana = 1){
 		SE_Play(s_item11_1, global.vol);
 	}
 	else {
-		inst = sc_pl_atkEf(sc_pl_atkDmg()*_dmgScale, sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana()*_mana, 
-			0, 0, 0, sp_pl_atkEf01, dir);
+		var _spIndex = sp_pl_atkEf01;
+		if (global.aItem4 > 0)
+		{
+			_spIndex = sp_pl_atkEf01_long;
+			_mana -= _mana*(5-global.aItem4)/10;
+		}
+		var _comDmg = 0;
+		if (global.aItem5 > 0)
+		{
+			_comDmg = -1;
+			_dmgScale += (global.aItem5+1)/10;
+		}
+		var _ctChance = 0;
+		var _shockIndex = 1;
+		if (global.aItem6 > 0)
+		{
+			_ctChance += global.aItem6*10;
+			_shockIndex -= _shockIndex*(4-global.aItem6)/10;
+		}
+		inst = sc_pl_atkEf(sc_pl_atkDmg()*_dmgScale, sc_pl_atkPene(), sc_pl_atkShock()*_shockIndex, 
+			sc_pl_atkMana()*_mana, 0, 0, 0, _spIndex, dir,,,, _ctChance,,,_comDmg);
 		SE_Play(s_arrow01, global.vol);
 	}
 	
@@ -62,8 +81,27 @@ function sc_pl_arrowAtk2(_dmgScale = 1, _mana = 1){
 		SE_Play(s_item11_2, global.vol);
 	}
 	else {
-		inst = sc_pl_atkEf(sc_pl_atkDmg()*2.5*_dmgScale = 1, sc_pl_atkPene(), sc_pl_atkShock()*1.2, sc_pl_atkMana()*_mana, 
-			0, 0, 0, sp_pl_atkEf02, dir);
+		var _spIndex = sp_pl_atkEf02;
+		if (global.aItem4 > 0)
+		{
+			_spIndex = sp_pl_atkEf02_long;
+			_mana -= _mana*(5-global.aItem4)/10;
+		}
+		var _comDmg = 0;
+		if (global.aItem5 > 0)
+		{
+			_comDmg = -1;
+			_dmgScale += (global.aItem5+1)/10;
+		}
+		var _ctChance = 0;
+		var _shockIndex = 1;
+		if (global.aItem6 > 0)
+		{
+			_ctChance += global.aItem6*10;
+			_shockIndex -= _shockIndex*(4-global.aItem6)/10;
+		}
+		inst = sc_pl_atkEf(sc_pl_atkDmg()*2.5*_dmgScale, sc_pl_atkPene(), sc_pl_atkShock()*1.2*_shockIndex, 
+			sc_pl_atkMana()*_mana, 0, 0, 0, _spIndex, dir,,,,_ctChance,,,_comDmg);
 		SE_Play(s_arrow02, global.vol);
 	}
 	
@@ -89,8 +127,25 @@ function sc_pl_arrowAtkB2(_dmgScale = 1, _mana = 1){
 		SE_Play(s_item11_2, global.vol);
 	}
 	else {
-		sc_pl_atkEf(sc_pl_atkDmg()*4, sc_pl_atkPene(), sc_pl_atkShock()*1.2, sc_pl_atkMana()*_mana, 
-		0, 0, 0, sp_pl_sk113Ef, dir);
+		if (global.aItem4 > 0)
+		{
+			_mana -= _mana*(5-global.aItem4)/10;
+		}
+		var _comDmg = 0;
+		if (global.aItem5 > 0)
+		{
+			_comDmg = -1;
+			_dmgScale += (global.aItem5+1)/10;
+		}
+		var _ctChance = 0;
+		var _shockIndex = 1;
+		if (global.aItem6 > 0)
+		{
+			_ctChance += global.aItem6*10;
+			_shockIndex -= _shockIndex*(4-global.aItem6)/10;
+		}
+		sc_pl_atkEf(sc_pl_atkDmg()*4*_dmgScale, sc_pl_atkPene(), sc_pl_atkShock()*1.2*_shockIndex, 
+			sc_pl_atkMana()*_mana, 0, 0, 0, sp_pl_sk113Ef, dir,,,,_ctChance,,,_comDmg);
 		SE_Play(s_arrow02, global.vol);
 	}
 	

@@ -18,17 +18,7 @@ atkProcess++;
 	}
 	
 	if ( atkProcess == 21 ) {
-		if (global.item11) {
-			var fDmg = sc_pl_fireDmg() * (1+global.item11)/2;
-			sc_pl_atkEf(fDmg, sc_pl_firePene(), sc_pl_fireShock(), sc_pl_fireMana(), 
-				0, 11, 0, sp_pl_itemEf11_1, dir,,,,,,ob_atkEfItem11);
-			SE_Play(s_item11_1, global.vol);
-		}
-		else {
-			sc_pl_atkEf(sc_pl_atkDmg(), sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana(), 
-				0, 0, 0, sp_pl_atkEf01, dir);
-			SE_Play(s_arrow01, global.vol);
-		}
+		sc_pl_arrowAtk(1,1);
 	}
 	
 	//대쉬 제어

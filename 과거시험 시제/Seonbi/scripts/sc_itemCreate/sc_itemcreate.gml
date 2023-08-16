@@ -16,6 +16,18 @@ function sc_itemData(){
 	global.itemData[3]	= new itemStruct ( 3, sp_Item_03, sp_ItemInfo_03, 0,
 		function(grade) { global.item9 = grade; })
 		
+	//유엽전
+	global.itemData[4]	= new itemStruct ( 4, sp_Item_01, sp_ItemInfo_01, 0,
+		function(grade) { global.aItem4 = grade; })
+	
+	//대우전
+	global.itemData[5]	= new itemStruct ( 5, sp_Item_02, sp_ItemInfo_02, 0,
+		function(grade) { global.aItem5 = grade; })
+		
+	//착전
+	global.itemData[6]	= new itemStruct ( 6, sp_Item_03, sp_ItemInfo_03, 0,
+		function(grade) { global.aItem6 = grade; })
+		
 		
 	//충격 속성 소지품
 		

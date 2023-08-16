@@ -25,6 +25,8 @@ function sc_pl_atk2(){
 	sc_pl_skKey();
 	
 	if ( atkProcess == 26 ) {
+		sc_pl_arrowAtk2();
+		/*
 		if (global.item11) {
 			var fDmg = 2.5*sc_pl_fireDmg() * (1+global.item11)/2;
 			sc_pl_atkEf(fDmg, sc_pl_firePene(), sc_pl_fireShock()*1.2, sc_pl_fireMana(), 
@@ -36,6 +38,7 @@ function sc_pl_atk2(){
 				0, 0, 0, sp_pl_atkEf02, dir);
 			SE_Play(s_arrow02, global.vol);
 		}
+		*/
 	}
 	
 	//대쉬 제어

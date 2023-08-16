@@ -217,6 +217,7 @@ function sc_jpMbAtk(){
 		process++;
 		sprite_index = sp_jpMb_atk3_1;
 		xSpeed = 0;
+		isDF = true;
 		
 		if ( process == 1 ) { SE_Play(s_jp_dAtk, global.vol); }
 		
@@ -242,6 +243,7 @@ function sc_jpMbAtk(){
 		process++;
 		sprite_index = sp_jpMb_atk3_2;
 		xSpeed = 0;
+		isDF = true;
 		
 		//if ( process == 1 ) { audio_play_sound(s_jp_dAtk, 8, false); }
 		
