@@ -1,19 +1,17 @@
 
 여우의 활
 
-Bow of Illusion
+Illusion bow
 
 When Player use
-Focus, an illusion 
-appears and shoot 
-an arrow that deals
+Focus, shoot an 
+arrow that deals
 x0.5 Arrow Dmg.
 
 집중을 소모할 때마다
 선비의 환영이 나타나
-0.5배율의 화살 피해와
-집중 회복량을 가진
-화살을 발사한다.
+0.5배율의 화살 피해를
+준다.
 
 
 효시
@@ -40,7 +38,7 @@ will add an
 이 공격은 50%의 추가
 연타 공격력을 가진다.
 
-Pyeonjeon 
+Pyeon-Jeon 
 
 Holding attack key, 
 launches an arrow 
@@ -52,5 +50,61 @@ an additional
 50% combo Dmg.
 
 
+유엽전
+
+화살 속성 일반 공격의
+사거리가 25% 증가하고,
+집중 회복량이 40%
+감소한다.
+
+Range Arrow
+
+Increases the range 
+of Arrow Basic Atk
+by 25% and reduces 
+Focus gain by 40%.
 
 
+대우전
+
+화살 속성 일반 공격의
+공격력이 20% 증가하고,
+연타 공격력이
+적용되지 않는다.
+
+Large Arrow
+
+Increases the Dmg 
+of Arrow Basic Atk
+by 20% and remove
+Combo Dmg.
+
+
+착전
+
+화살 속성 일반 공격의
+치명타 확률이 10%
+증가하고, 경직 수치가
+30% 감소한다.
+
+Sharp Arrow
+
+Increases the
+Critical Chance
+of Arrow Basic Atk
+by 10% and reduces 
+knockback by 30%.
+
+
+교자궁
+
+연타 수치를 5 소모해
+0.5배율의 화살 피해를
+준다.
+
+Spare bow
+
+Consuming 20
+combo, shoot an 
+arrow that deals
+x0.5 Arrow Dmg.

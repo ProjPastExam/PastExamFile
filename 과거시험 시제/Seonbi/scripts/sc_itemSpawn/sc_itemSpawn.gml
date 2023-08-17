@@ -6,7 +6,7 @@ function sc_itemSpawn(){
 		randomize();
 		var kind	= irandom_range(0, 4);
 		
-		if		(kind == 0) { itemNum = irandom_range(1, 3); }
+		if		(kind == 0) { itemNum = irandom_range(1, 7); }
 		else if (kind == 1)	{ itemNum = irandom_range(21, 23); }
 		else if (kind == 2)	{ itemNum = irandom_range(41, 43); }
 		else				{ itemNum = irandom_range(61, 69); }

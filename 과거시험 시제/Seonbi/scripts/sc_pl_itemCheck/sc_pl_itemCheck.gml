@@ -20,6 +20,8 @@ function sc_pl_itemCheck(){
 	global.item5	= 0;
 	global.item6	= 0;
 	item7			= 0;
+	aItem7			= 0;
+	aItem7Index		= 0;
 	global.item8	= 0;
 	global.item9	= 0;
 	global.item10	= 0;

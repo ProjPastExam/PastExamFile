@@ -17,16 +17,20 @@ function sc_itemData(){
 		function(grade) { global.item9 = grade; })
 		
 	//유엽전
-	global.itemData[4]	= new itemStruct ( 4, sp_Item_01, sp_ItemInfo_01, 0,
+	global.itemData[4]	= new itemStruct ( 4, sp_Item_04, sp_ItemInfo_04, 0,
 		function(grade) { global.aItem4 = grade; })
 	
 	//대우전
-	global.itemData[5]	= new itemStruct ( 5, sp_Item_02, sp_ItemInfo_02, 0,
+	global.itemData[5]	= new itemStruct ( 5, sp_Item_05, sp_ItemInfo_05, 0,
 		function(grade) { global.aItem5 = grade; })
 		
 	//착전
-	global.itemData[6]	= new itemStruct ( 6, sp_Item_03, sp_ItemInfo_03, 0,
+	global.itemData[6]	= new itemStruct ( 6, sp_Item_06, sp_ItemInfo_06, 0,
 		function(grade) { global.aItem6 = grade; })
+		
+	//교자궁
+	global.itemData[7]	= new itemStruct ( 7, sp_Item_07, sp_ItemInfo_07, 0,
+		function(grade) { other.aItem7 = grade;	other.aItem7Index = 0;	})
 		
 		
 	//충격 속성 소지품

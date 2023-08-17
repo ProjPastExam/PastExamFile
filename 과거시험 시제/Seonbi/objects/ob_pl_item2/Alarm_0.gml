@@ -7,7 +7,7 @@ if ( sc_getRoomValue("pause") == 0 ) {
 	image_xscale = dir;
 	
 	if ((state == 1 && process == 12) || ((state == 0 || state == 2)&&process==18)) {
-		sc_pl_atkEf(sc_pl_atkDmg()*cal, sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana()*cal, 
+		sc_pl_atkEf(sc_pl_atkDmg()*cal, sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana()*0.5, 
 			0, 0, 0, sp_pl_atkEf01, dir);
 		SE_Play(s_arrow01, global.vol);
 	}
