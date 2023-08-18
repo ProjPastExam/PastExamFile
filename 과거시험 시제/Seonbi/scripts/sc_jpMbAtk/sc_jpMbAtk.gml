@@ -230,10 +230,10 @@ function sc_jpMbAtk(){
 		}
 		
 		
-		if ( process < 70 ) { image_index = 0; isDF = false; isDK = false; }
-		else if ( process < 74 ) { image_index = 1; xSpeed = dir*12; isDF = false; isDK = false; }
-		else if ( process < 79 ) { image_index = 1; xSpeed = dir*15 isDF = false; isDK = false;; }
-		else if ( process < 82 ) { image_index = 1; xSpeed = dir*20; isDF = false; isDK = false; }
+		if ( process < 70 ) { image_index = 0; }
+		else if ( process < 74 ) { image_index = 1; xSpeed = dir*12;}
+		else if ( process < 79 ) { image_index = 1; xSpeed = dir*15; }
+		else if ( process < 82 ) { image_index = 1; xSpeed = dir*20; }
 		else if ( process < 86 ) { image_index = 2; xSpeed = dir*12; }
 		else if ( process < 89 ) { image_index = 3; xSpeed = dir*6; }
 		else { state = 19;	process = 0; }

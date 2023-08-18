@@ -90,3 +90,17 @@ but can be staggered by Melee and Fire attacks.
 
 Some enemies, including bosses, also use
 an unbreakable purple SuperArmor
+
+
+Difficulty
+
+At the starting point, 
+Player can adjust the difficulty in the game settings.
+
+Easy difficulty reduces enemy's attack speed and health
+
+Normal difficulty slightly reduces enemy's attack speed, 
+and slightly increases reward.
+
+Hard difficulty increases enemy's health, 
+and increases reward.
