@@ -1912,7 +1912,7 @@
     {"name":"sp_skillUi_187","order":32,"path":"sprites/sp_skillUi_187/sp_skillUi_187.yy",},
     {"name":"sp_startCs_4","order":3,"path":"sprites/sp_startCs_4/sp_startCs_4.yy",},
     {"name":"sp_pl_sk142Ef1","order":17,"path":"sprites/sp_pl_sk142Ef1/sp_pl_sk142Ef1.yy",},
-    {"name":"sp_tuto_boss1440","order":12,"path":"sprites/sp_tuto_boss1440/sp_tuto_boss1440.yy",},
+    {"name":"sp_tuto_difficulty","order":12,"path":"sprites/sp_tuto_difficulty/sp_tuto_difficulty.yy",},
     {"name":"sp_chang03_shock","order":8,"path":"sprites/sp_chang03_shock/sp_chang03_shock.yy",},
     {"name":"r_stage02_pace2","order":11,"path":"rooms/r_stage02_pace2/r_stage02_pace2.yy",},
     {"name":"sp_talk2","order":1,"path":"sprites/sp_talk2/sp_talk2.yy",},

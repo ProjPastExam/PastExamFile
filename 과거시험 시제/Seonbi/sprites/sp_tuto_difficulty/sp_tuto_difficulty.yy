@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sp_tuto_boss1440",
+  "name": "sp_tuto_difficulty",
   "bbox_bottom": 671,
   "bbox_left": 213,
   "bbox_right": 1706,
@@ -33,7 +33,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sp_tuto_boss1440",
+    "name": "sp_tuto_difficulty",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c7fd2eec-3ecd-4c18-84c0-2fe8b18efd58","path":"sprites/sp_tuto_boss1440/sp_tuto_boss1440.yy",},},},"Disabled":false,"id":"aba71501-229e-4e32-9ddf-659891dc5a82","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1d02aa13-ec36-465d-a470-367d7a0d284c","path":"sprites/sp_tuto_boss1440/sp_tuto_boss1440.yy",},},},"Disabled":false,"id":"12365fd3-aa75-4695-a1b0-4b2d40ce6c8f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c7fd2eec-3ecd-4c18-84c0-2fe8b18efd58","path":"sprites/sp_tuto_difficulty/sp_tuto_difficulty.yy",},},},"Disabled":false,"id":"aba71501-229e-4e32-9ddf-659891dc5a82","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1d02aa13-ec36-465d-a470-367d7a0d284c","path":"sprites/sp_tuto_difficulty/sp_tuto_difficulty.yy",},},},"Disabled":false,"id":"12365fd3-aa75-4695-a1b0-4b2d40ce6c8f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
