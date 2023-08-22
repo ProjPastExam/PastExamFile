@@ -50,14 +50,11 @@ function sc_mask3Atk(){
 			ob.life = 15;
 		}
 		
-		if (process == 108) 
+		if (process == 118+lvDly) 
 		{
 			if ( x > plX ) dir = -1;
 			else dir = 1;
-		}
-		
-		if (process == 108)
-		{
+			
 			if ( !isJump && dir == -1 && (( left1 == 3 || left2 == 3)))	
 				{ ySpeed = -16; }
 			if ( !isJump && dir == 1 && (( right1 == 3 || right2 == 3 )))

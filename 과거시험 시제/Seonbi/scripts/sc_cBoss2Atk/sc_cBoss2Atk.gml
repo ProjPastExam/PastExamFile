@@ -59,7 +59,7 @@ function sc_cBoss2Atk(){
 		isCounter = true;
 		
 		if ( process == 1 ) { SE_Play(s_cB1_atk1_1, global.vol); }
-		if ( process == 108+lvDly ) {
+		if ( process == 104+lvDly ) {
 			var plX = sc_pl_get("x");
 			if (plX > x)	dir = 1;
 			else			dir = -1;

@@ -123,7 +123,7 @@ function sc_sinBossAtk(){
 		process++;
 		sprite_index = sp_sinB_atk2;
 		xSpeed = 0;
-		isDF = true;
+		isDK = true;	isDF = true;
 		
 		if ( process == 18+lvDly  ) { 
 			SE_Play(s_sin1_atk2_rdy, global.vol);
@@ -134,7 +134,7 @@ function sc_sinBossAtk(){
 		else if ( process < 18+lvDly )	{ image_index = 1; }
 		else if ( process < 24+lvDly )	{ image_index = 2; }
 		else if ( process < 30+lvDly )	{ image_index = 3; }
-		else if ( process < 36+lvDly )	{ image_index = 4; }
+		else if ( process < 45+lvDly )	{ image_index = 4; }
 		else { sc_sinBossNS();	process = 0;	state = 15; }
 	}
 	
@@ -142,7 +142,7 @@ function sc_sinBossAtk(){
 		process++;
 		sprite_index = sp_sinB_atk2;
 		xSpeed = 0;
-		isDF = true;
+		isDK = true;	isDF = true;
 		
 		if ( process == 1 ) { 
 			//SE_Play(s_jp_dAtk, global.vol); 
