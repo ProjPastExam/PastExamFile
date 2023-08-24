@@ -41,9 +41,9 @@ function sc_chang02Atk(){
 			axe.stopSprite		= sp_chang02_atkEf2;
 			if ( x > plX ) axe.dir = -1; else axe.dir = 1;
 			var xs = (plX-x)/80;
-			if (xs*dir > 0) axe.xSpeed = xs;
-			else axe.xSpeed = 5 * dir;
-			axe.ySpeed = abs(xs) - 30 + (plY - y)/80;
+			if (xs*dir < 4) xs = 5*dir;
+			axe.xSpeed = xs;
+			axe.ySpeed = abs(xs) - 30;// + (plY - y)/120;
 		}
 		
 		
