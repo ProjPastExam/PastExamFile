@@ -107,8 +107,8 @@
   "swatchColours": null,
   "swfPrecision": 2.525,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "mob_chang",
+    "path": "texturegroups/mob_chang",
   },
   "type": 0,
   "VTile": false,

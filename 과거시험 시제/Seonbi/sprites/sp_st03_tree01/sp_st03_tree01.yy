@@ -131,8 +131,8 @@
   "swatchColours": null,
   "swfPrecision": 2.525,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "stageBg",
+    "path": "texturegroups/stageBg",
   },
   "type": 0,
   "VTile": false,

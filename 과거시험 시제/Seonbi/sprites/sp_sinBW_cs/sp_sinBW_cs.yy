@@ -135,8 +135,8 @@
   "swatchColours": null,
   "swfPrecision": 2.525,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "mob_sin",
+    "path": "texturegroups/mob_sin",
   },
   "type": 0,
   "VTile": false,

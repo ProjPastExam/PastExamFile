@@ -87,8 +87,8 @@
   "swatchColours": null,
   "swfPrecision": 2.525,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "mob_bandit",
+    "path": "texturegroups/mob_bandit",
   },
   "type": 0,
   "VTile": false,

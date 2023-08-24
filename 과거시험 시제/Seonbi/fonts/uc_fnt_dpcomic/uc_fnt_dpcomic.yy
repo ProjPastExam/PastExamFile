@@ -133,8 +133,8 @@
   "size": 16.0,
   "styleName": "Regular",
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "font",
+    "path": "texturegroups/font",
   },
   "TTFName": "",
   "usesSDF": false,

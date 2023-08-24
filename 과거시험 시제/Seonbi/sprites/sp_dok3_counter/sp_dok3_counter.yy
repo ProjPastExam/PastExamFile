@@ -91,8 +91,8 @@
   "swatchColours": null,
   "swfPrecision": 2.525,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "mob_dok",
+    "path": "texturegroups/mob_dok",
   },
   "type": 0,
   "VTile": false,

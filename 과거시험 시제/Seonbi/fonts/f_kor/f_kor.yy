@@ -8940,8 +8940,8 @@
   "size": 32.0,
   "styleName": "Medium",
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "font",
+    "path": "texturegroups/font",
   },
   "TTFName": "",
   "usesSDF": false,

@@ -8940,8 +8940,8 @@
   "size": 20.0,
   "styleName": "Bold",
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "font",
+    "path": "texturegroups/font",
   },
   "TTFName": "",
   "usesSDF": false,
