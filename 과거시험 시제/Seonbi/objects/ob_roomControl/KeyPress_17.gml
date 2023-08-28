@@ -11,4 +11,4 @@
 //room_goto(r_stage04_pace2_3);
 //room_goto(r_stage04VillageCs);
 //room_goto(r_endingCs1);
-//room_goto(r_testVedio);
+room_goto(r_endingCs1);
