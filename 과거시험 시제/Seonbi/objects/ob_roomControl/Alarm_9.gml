@@ -15,14 +15,22 @@ else {
 		room_goto(room);
 	}
 	else {
-		sc_itemSet();
-		global.sk1 = 0;
-		global.sk2 = 0;
-		global.sk3 = 0;
-		
 		part_system_destroy(global.hitEf);
 		part_system_destroy(global.hitEf2);
-		room_goto(r_start);
+		
+		if (global.checkUse == 1)
+		{
+			global.checkUse = 2;
+			room_goto(global.checkPoint);
+		}
+		else
+		{
+			sc_itemSet();
+			global.sk1 = 0;
+			global.sk2 = 0;
+			global.sk3 = 0;
+			room_goto(r_start);
+		}
 	}
 }
 

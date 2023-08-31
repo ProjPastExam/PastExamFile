@@ -1,0 +1,1 @@
+global.hp = global.hpMax;

@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "r_stage02Village",
-  "creationCodeFile": "${project_dir}/rooms/r_stage02Village/RoomCreationCode.gml",
+  "creationCodeFile": "rooms/r_stage02Village/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

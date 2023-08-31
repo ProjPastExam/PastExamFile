@@ -18,4 +18,7 @@ with (ob_player) {
 	itemCheck = true;
 }
 
+global.checkPoint	= r_start;
+global.checkUse		= 0;
+
 //texturegroup_load()
