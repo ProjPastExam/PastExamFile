@@ -48,6 +48,7 @@ function sc_skData(){
 	global.skMp[186]	= 500;	//일총통
 	global.skMp[187]	= 400	//비격진천뢰
 	global.skMp[188]	= 400	//오니의 검
+	global.skMp[189]	= 200	//화염 돌진
 	
 	
 	global.skKulData = array_create(200, 0);
@@ -97,4 +98,5 @@ function sc_skData(){
 	global.skKulData[186]	= 600;
 	global.skKulData[187]	= 480;
 	global.skKulData[188]	= 480;
+	global.skKulData[189]	= 240;
 }

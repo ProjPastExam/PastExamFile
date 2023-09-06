@@ -75,3 +75,13 @@ After using the skill,
 Basic attacks
 become sword strike
 deals 4x Fire Dmg.
+
+
+Flame Rush
+
+Charge forward, 
+deals x8 Fire Dmg.
+
+Does not collide 
+with enemies 
+during the charge.

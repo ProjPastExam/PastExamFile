@@ -49,7 +49,7 @@ function sc_pl_atkFront2(){
 	else if ( atkProcess < 20 )	{ image_index = 3; xSpeed = 8*dir; }
 	else if ( atkProcess < 25 )	{ image_index = 4; xSpeed = 4*dir; }
 	else if ( atkProcess < 35 ) { image_index = 4; xSpeed = 0;
-		{ canMove = 2;	atkProcess = 8; }
+		{ canMove = 2;	atkProcess = 18; }
 		if ( nextAtk == 5 )	{ canMove = 5;	atkProcess = 0; }
 		else if ( nextAtk == 6 )	{ canMove = 6;	atkProcess = 0; }
 		else if ( nextAtk == 4 )	{ canMove = 4;	atkProcess = 0; }

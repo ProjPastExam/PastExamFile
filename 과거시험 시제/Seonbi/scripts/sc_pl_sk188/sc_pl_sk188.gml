@@ -18,7 +18,7 @@ function sc_pl_sk188(){
 
 	if ( atkProcess == 24 ) {
 		SE_Play(s_jpBoss_atk2, global.vol);
-		atk = sc_pl_atkEf(sc_pl_kickDmg()*3, sc_pl_kickPene(), sc_pl_kickShock(), 0, 
+		atk = sc_pl_atkEf(sc_pl_fireDmg()*3, sc_pl_firePene(), sc_pl_fireShock(), 0, 
 			0, 2, 4, sp_pl_sk188Ef, dir);
 		sc_pl_kulNMana(188);
 		

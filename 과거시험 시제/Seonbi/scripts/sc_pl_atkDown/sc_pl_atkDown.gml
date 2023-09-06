@@ -44,7 +44,7 @@ function sc_pl_atkDown(){
 		if ( keyJump ) nextAtk = 9;
 	}
 		
-	if ( atkProcess > 27 ) {
+	if ( atkProcess > 33 ) {
 		sc_pl_atkDnJ();
 	}
 	
