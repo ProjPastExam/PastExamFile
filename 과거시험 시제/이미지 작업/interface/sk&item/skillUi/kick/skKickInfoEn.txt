@@ -124,3 +124,13 @@ and slam the ground,
 deals x8 Melee Dmg
 and launch enemies 
 into the air.
+
+
+Guardian's Sword
+
+deals x20 Melee
+Dmg.
+
+This attack has 
+an additional 
+100% combo Dmg.

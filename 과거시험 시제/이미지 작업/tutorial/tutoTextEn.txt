@@ -104,3 +104,11 @@ and slightly increases reward.
 
 Hard difficulty increases enemy's health, 
 and increases reward.
+
+
+Boss Skill
+
+Boss skill has been unlocked!
+
+Now during the game, 
+six powerful additional skills can appear.

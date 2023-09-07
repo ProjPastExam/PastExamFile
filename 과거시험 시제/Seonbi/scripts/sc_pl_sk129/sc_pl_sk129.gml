@@ -15,8 +15,8 @@ function sc_pl_sk129(){
 	
 	if ( atkProcess == 15 ) {
 
-		sc_pl_atkEf(sc_pl_atkDmg()*1.5, sc_pl_atkPene(), sc_pl_atkShock()*0.6, 0, 
-			0, 0, 10, sp_pl_sk129Ef, dir);
+		sc_pl_atkEf(sc_pl_atkDmg()*3.5, sc_pl_atkPene(), sc_pl_atkShock()*0.6, 0, 
+			0, 0, 15, sp_pl_sk129Ef, dir);
 			
 		SE_Play(s_guBoss_atk2_1, global.vol);
 		

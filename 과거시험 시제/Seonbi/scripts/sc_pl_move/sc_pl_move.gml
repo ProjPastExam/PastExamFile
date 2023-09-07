@@ -175,6 +175,7 @@ function sc_pl_move() {
 		case 156:	sc_pl_sk156();			break;
 		case 157:	sc_pl_sk157();			break;
 		case 158:	sc_pl_sk158();			break;
+		case 159:	sc_pl_sk159();			break;
 		
 		case 161:	sc_pl_sk161();			break;
 		case 162:	sc_pl_sk162();			break;

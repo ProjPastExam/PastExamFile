@@ -116,3 +116,10 @@ deals x3 Arrow Dmg.
 
 This skill have
 no cooldown.
+
+
+Illusion fire
+
+Summon Illusion fire,
+continuously deals
+x3 Arrow Dmg.
