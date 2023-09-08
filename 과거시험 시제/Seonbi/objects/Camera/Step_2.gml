@@ -1,7 +1,8 @@
 /// @description - - CAMERA SIZE AND MOVEMENT
 
 // Calculate the time factor
-time_factor = delta_time * BASE_FPS / 1000000;
+//time_factor = delta_time * BASE_FPS / 1000000;
+time_factor = 1;
 
 // ==============================================================
 // -------------------------------------------	CAMERA TARGET	-----------------------------------------

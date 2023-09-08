@@ -49,7 +49,8 @@ view_y = primitive_view_y;
 // Here we are saying all the values we are setting in this code
 // are thought for a 60FPS running game, other frequencies will
 // be adapted with time factor using delta time.
-time_factor = delta_time * BASE_FPS / 1000000;
+//time_factor = delta_time * BASE_FPS / 1000000;
+time_factor = 60;
 
 #endregion
 

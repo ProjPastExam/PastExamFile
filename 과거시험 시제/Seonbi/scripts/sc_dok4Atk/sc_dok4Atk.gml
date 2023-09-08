@@ -33,7 +33,7 @@ function sc_dok4Atk(){
 		isDA = true;	isDK = true;
 		
 		if ( process == 1 ) { SE_Play(s_dok4Atk, global.vol); }
-		if ( process == 44+lvDly ) { 
+		if ( process == 52+lvDly ) { 
 			SE_Play(s_swing_b1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtkTrack);
 			ob.image_xscale = dir;
@@ -42,7 +42,7 @@ function sc_dok4Atk(){
 			ob.ob = id;
 		}
 		
-		if ( process == 100+lvDly ) { 
+		if ( process == 108+lvDly ) { 
 			SE_Play(s_swing_b1, global.vol);
 			var ob = instance_create_layer(x, y, "effect", ob_mobAtk2);
 			ob.image_xscale = dir;
@@ -52,21 +52,21 @@ function sc_dok4Atk(){
 		
 		if ( process < 6 ) { image_index = 0; }
 		else if ( process < 12 ) { image_index = 1; }
-		else if ( process < 40+lvDly ) { image_index = 2; }
-		else if ( process < 44+lvDly ) { image_index = 3; xSpeed = dir*30; }
-		else if ( process < 48+lvDly ) { image_index = 4; xSpeed = dir*27; }
-		else if ( process < 52+lvDly ) { image_index = 5; xSpeed = dir*24; }
-		else if ( process < 56+lvDly ) { image_index = 6; xSpeed = dir*21; }
-		else if ( process < 60+lvDly ) { image_index = 7; xSpeed = dir*18; }
-		else if ( process < 65+lvDly ) { image_index = 8; }
-		else if ( process < 70+lvDly ) { image_index = 9; xSpeed = dir*6; }
-		else if ( process < 75+lvDly ) { image_index = 10; xSpeed = dir*12; }
-		else if ( process < 85+lvDly ) { image_index = 11; }
-		else if ( process < 100+lvDly ) { image_index = 11; xSpeed = dir*24; }
-		else if ( process < 105+lvDly ) { image_index = 12; }
-		else if ( process < 110+lvDly ) { image_index = 13; }
-		else if ( process < 115+lvDly ) { image_index = 14; }
-		else if ( process < 130+lvDly ) { image_index = 15; }
+		else if ( process < 48+lvDly ) { image_index = 2; }
+		else if ( process < 52+lvDly ) { image_index = 3; xSpeed = dir*30; }
+		else if ( process < 56+lvDly ) { image_index = 4; xSpeed = dir*27; }
+		else if ( process < 60+lvDly ) { image_index = 5; xSpeed = dir*24; }
+		else if ( process < 66+lvDly ) { image_index = 6; xSpeed = dir*21; }
+		else if ( process < 68+lvDly ) { image_index = 7; xSpeed = dir*18; }
+		else if ( process < 73+lvDly ) { image_index = 8; }
+		else if ( process < 78+lvDly ) { image_index = 9; xSpeed = dir*6; }
+		else if ( process < 83+lvDly ) { image_index = 10; xSpeed = dir*12; }
+		else if ( process < 93+lvDly ) { image_index = 11; }
+		else if ( process < 108+lvDly ) { image_index = 11; xSpeed = dir*24; }
+		else if ( process < 113+lvDly ) { image_index = 12; }
+		else if ( process < 118+lvDly ) { image_index = 13; }
+		else if ( process < 123+lvDly ) { image_index = 14; }
+		else if ( process < 138+lvDly ) { image_index = 15; }
 		else { state = 10;	process = 0;	delay = random_range(50, 70); }
 	}
 	

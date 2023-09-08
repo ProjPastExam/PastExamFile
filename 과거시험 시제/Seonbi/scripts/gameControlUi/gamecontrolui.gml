@@ -86,8 +86,8 @@ function sc_gameControlCreate() {
 }
 
 function sc_set_abSoulMax() {
-	global.abSoulMax = (global.abPointMax * 12);
-	if (global.abSoulMax > 250) global.abSoulMax = 250;
+	global.abSoulMax = (global.abPointMax * 10);
+	if (global.abSoulMax > 200) global.abSoulMax = 200;
 }
 
 function sc_abSoulLvUp()

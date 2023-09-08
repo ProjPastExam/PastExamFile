@@ -26,7 +26,7 @@ display_mouse_set(0, 0);
 
 //정적
 {
-global.isSteam		= true;
+global.isSteam		= false;
 global.gameEnd		= false;
 //global.lan			= 0;
 global.lanChange	= false;
@@ -34,6 +34,7 @@ global.stage		= 0;
 
 global.checkPoint	= r_start;
 global.checkUse		= 0;
+global.checkNum		= 0;
 	
 //공격 관련 변수
 global.atkDmg		= 10;

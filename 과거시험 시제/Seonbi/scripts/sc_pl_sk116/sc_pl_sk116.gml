@@ -26,7 +26,7 @@ function sc_pl_sk116(){
 		SE_Play(s_arrow01, global.vol);
 		atk = sc_pl_atkEf(sc_pl_atkDmg()*1.5, sc_pl_atkPene(), sc_pl_atkShock()*3, 0, 
 			0, 0, 0, sp_pl_sk116Ef2, dir*-1,,,,,,ob_atkEfTrack);
-		atk.dmgScale = 1.2;
+		atk.dmgScale = 1.3;
 		sc_pl_kulNMana(116, 2);
 	}
 	

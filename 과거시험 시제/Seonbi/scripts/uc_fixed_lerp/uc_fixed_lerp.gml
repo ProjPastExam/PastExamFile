@@ -23,8 +23,10 @@ function uc_fixed_lerp() {
 
 
 	// Calculate the fixed lerp
-	var fixed_amount = 1-power(1-amount, Camera.time_factor);
-	return lerp( value, target, fixed_amount);
+	//var fixed_amount = 1-power(1-amount, Camera.time_factor);
+	//return lerp( value, target, fixed_amount);
+	
+	return lerp( value, target, amount);
 
 
 }

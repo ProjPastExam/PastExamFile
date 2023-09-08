@@ -7,11 +7,11 @@ else {
 	room_speed = 60;
 	global.hp = global.hpMax;
 	global.mp = 0;
-	global.money = 0;
 	
 	if (isTuto) {
 		part_system_destroy(global.hitEf);
 		part_system_destroy(global.hitEf2);
+		global.money = 0;
 		room_goto(room);
 	}
 	else {
@@ -20,7 +20,8 @@ else {
 		
 		if (global.checkUse == 1)
 		{
-			global.checkUse = 2;
+			global.checkUse = 0;
+			global.checkNum++;
 			room_goto(global.checkPoint);
 		}
 		else
@@ -29,6 +30,9 @@ else {
 			global.sk1 = 0;
 			global.sk2 = 0;
 			global.sk3 = 0;
+			global.money = 0;
+			global.checkUse = 0;
+			global.checkNum = 0;
 			room_goto(r_start);
 		}
 	}

@@ -3,8 +3,27 @@
 function sc_pl_arrowAtk(_dmgScale = 1, _mana = 1){
 	var inst = 0;
 	if (item7 && global.comCt <= 0) {
-		inst = sc_pl_atkEf(sc_pl_atkDmg()*_dmgScale, sc_pl_atkPene(), sc_pl_atkShock(), sc_pl_atkMana()*_mana, 
-			0, 0, 0, sp_pl_atkEf01, dir,,,,,10 + item7*5);
+		var _spIndex = sp_pl_atkEf01;
+		if (global.aItem4 > 0)
+		{
+			_spIndex = sp_pl_atkEf01_long;
+			_mana -= _mana*(5-global.aItem4)/10;
+		}
+		var _comDmg = 0;
+		if (global.aItem5 > 0)
+		{
+			_comDmg = -1;
+			_dmgScale += (global.aItem5+1)/10;
+		}
+		var _ctChance = 0;
+		var _shockIndex = 1;
+		if (global.aItem6 > 0)
+		{
+			_ctChance += global.aItem6*10;
+			_shockIndex -= _shockIndex*(4-global.aItem6)/10;
+		}
+		inst = sc_pl_atkEf(sc_pl_atkDmg()*_dmgScale, sc_pl_atkPene(), sc_pl_atkShock()*_shockIndex, 
+			sc_pl_atkMana()*_mana, 0, 0, 0, _spIndex, dir,,,,_ctChance,10 + item7*5,,_comDmg);
 		SE_Play(s_pl_item7, global.vol);
 	}
 	else if (global.item11) {

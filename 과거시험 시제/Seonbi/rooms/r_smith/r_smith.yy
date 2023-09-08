@@ -23,6 +23,8 @@
     {"name":"inst_3594312D","path":"rooms/r_smith/r_smith.yy",},
     {"name":"inst_62673F6","path":"rooms/r_smith/r_smith.yy",},
     {"name":"inst_5B2A0134","path":"rooms/r_smith/r_smith.yy",},
+    {"name":"inst_73DC7E4A","path":"rooms/r_smith/r_smith.yy",},
+    {"name":"inst_39149F28","path":"rooms/r_smith/r_smith.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -54,6 +56,11 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3594312D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_smithButton1","path":"objects/ob_smithButton1/ob_smithButton1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":213.0,"y":588.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62673F6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_smithCoin","path":"objects/ob_smithCoin/ob_smithCoin.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":636.0,"y":848.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B2A0134","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_smithButton2","path":"objects/ob_smithButton2/ob_smithButton2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":213.0,"y":696.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_73DC7E4A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"propertyId":{"name":"keyIndex","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"value":"btEsc",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"propertyId":{"name":"gpIndex","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"value":"inter",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":648.0,"y":948.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_39149F28","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_textEsc","path":"objects/ob_textEsc/ob_textEsc.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":684.0,"y":948.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6EF806E1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_smithBox","path":"objects/ob_smithBox/ob_smithBox.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":544.0,},
