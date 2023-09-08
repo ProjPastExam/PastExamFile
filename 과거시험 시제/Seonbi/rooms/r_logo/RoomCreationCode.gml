@@ -26,7 +26,7 @@ display_mouse_set(0, 0);
 
 //정적
 {
-global.isSteam		= false;
+global.isSteam		= true;
 global.gameEnd		= false;
 //global.lan			= 0;
 global.lanChange	= false;
@@ -157,4 +157,6 @@ global.smith1	= 120;
 global.smith2	= 50;
 global.smith3	= 50;
 
+texturegroup_load("illustration");
+texturegroup_load("mob_gu");
 }

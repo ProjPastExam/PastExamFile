@@ -2135,6 +2135,7 @@
     {"id":{"name":"sp_start_tree05","path":"sprites/sp_start_tree05/sp_start_tree05.yy",},},
     {"id":{"name":"sp_start_tree01","path":"sprites/sp_start_tree01/sp_start_tree01.yy",},},
     {"id":{"name":"sp_bandit03_die","path":"sprites/sp_bandit03_die/sp_bandit03_die.yy",},},
+    {"id":{"name":"sc_steam_update","path":"scripts/sc_steam_update/sc_steam_update.yy",},},
     {"id":{"name":"sp_Item_42","path":"sprites/sp_Item_42/sp_Item_42.yy",},},
     {"id":{"name":"sp_dok2_walk","path":"sprites/sp_dok2_walk/sp_dok2_walk.yy",},},
     {"id":{"name":"sp_mask3_hit","path":"sprites/sp_mask3_hit/sp_mask3_hit.yy",},},

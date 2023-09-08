@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+sc_steam_update();
 
 if (sc_getKey(global.btTap, global.gpTap, 0) ) {
 	room_goto(global.roomBuffer);

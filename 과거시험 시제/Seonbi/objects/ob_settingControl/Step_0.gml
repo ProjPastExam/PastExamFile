@@ -151,3 +151,5 @@ if (sc_getKey(global.btUp, gp_padu, 0)) {
 		settingIndex--;
 	}
 }
+
+sc_steam_update();

@@ -119,5 +119,7 @@ if (global.abSoulMax <= global.abSoul)
 	if (lIndex)	sc_abSoulLvUp();
 }
 
+sc_steam_update();
+
 //if ((isTalk < 4 || isTalk > 7) && !isCt ) alarm[7] = 1;
 alarm[0] = 1;

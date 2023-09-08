@@ -1900,6 +1900,7 @@
     {"name":"sp_start_tree05","order":10,"path":"sprites/sp_start_tree05/sp_start_tree05.yy",},
     {"name":"sp_start_tree01","order":6,"path":"sprites/sp_start_tree01/sp_start_tree01.yy",},
     {"name":"sp_bandit03_die","order":12,"path":"sprites/sp_bandit03_die/sp_bandit03_die.yy",},
+    {"name":"sc_steam_update","order":20,"path":"scripts/sc_steam_update/sc_steam_update.yy",},
     {"name":"sp_Item_42","order":6,"path":"sprites/sp_Item_42/sp_Item_42.yy",},
     {"name":"sp_dok2_walk","order":3,"path":"sprites/sp_dok2_walk/sp_dok2_walk.yy",},
     {"name":"sp_mask3_hit","order":4,"path":"sprites/sp_mask3_hit/sp_mask3_hit.yy",},

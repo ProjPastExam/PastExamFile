@@ -353,8 +353,9 @@ if (layer_exists("Background3")) {
 #region Manage the debug mode
 
 // Enabel and unable the debug mode
+/*
 if keyboard_check_pressed(vk_f12) {
 	uc_set_debug_mode(!uc_get_debug_mode());
 }
-
+*/
 #endregion

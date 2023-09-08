@@ -103,3 +103,5 @@ with (ob_smithButton2) {
 	select	= other.select;
 	select2	= other.select2;
 }
+
+sc_steam_update();
