@@ -124,8 +124,6 @@ function sc_jpBossatk(){
 		}
 		if ( process == 30 ) { SE_Play(s_jpBoss_yell1, global.vol); }
 		
-		isDK = true;	isDF = true;
-		
 		if ( process < 12 ) { image_index = 0; }
 		else if ( process < 18 ) { image_index = 1; }
 		else if ( process < 24 ) { image_index = 2; }
@@ -148,8 +146,6 @@ function sc_jpBossatk(){
 		if ( process == 12 ) { 
 			SE_Play(s_jpBoss_rdy, global.vol);
 		}
-		
-		isDK = true;	isDF = true;
 		
 		if ( process < 12 ) { image_index = 0; }
 		else if ( process < 18 ) { image_index = 1; }

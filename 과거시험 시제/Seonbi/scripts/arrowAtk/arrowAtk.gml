@@ -95,7 +95,7 @@ function sc_pl_arrowAtk2(_dmgScale = 1, _mana = 1){
 	}
 	else if (global.item11) {
 		var fDmg = 2.5*sc_pl_fireDmg() * (1+global.item11)/2;
-		inst = sc_pl_atkEf(fDmg*_dmgScale = 1, sc_pl_firePene(), sc_pl_fireShock()*1.2, sc_pl_fireMana()*_mana, 
+		inst = sc_pl_atkEf(fDmg*_dmgScale, sc_pl_firePene(), sc_pl_fireShock()*1.2, sc_pl_fireMana()*_mana, 
 			0, 11, 0, sp_pl_itemEf11_2, dir,,,,,,ob_atkEfItem11);
 		SE_Play(s_item11_2, global.vol);
 	}

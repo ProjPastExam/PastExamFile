@@ -10,6 +10,10 @@ function sc_pl_sk189(){
 	sprite_index = sp_pl_sk189;
 	var atk;
 	
+	if ( atkProcess == 1 ) {	
+		sc_hitAfter(50);
+	}
+	
 	if ( atkProcess > 6 ) {
 		sc_pl_comInter();
 		sc_pl_skKey();
@@ -21,7 +25,7 @@ function sc_pl_sk189(){
 		SE_Play(s_dokBossAtk1, global.vol);
 		atk = sc_pl_atkEf(sc_pl_fireDmg()*10, sc_pl_firePene(), sc_pl_fireShock(), 0, 
 			0, 2, 0, sp_pl_sk189Ef, dir,,,,,,ob_atkEfTrack);
-		
+			
 		sc_pl_kulNMana(189);
 	}
 
