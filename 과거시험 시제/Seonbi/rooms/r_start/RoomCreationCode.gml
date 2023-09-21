@@ -21,5 +21,4 @@ with (ob_player) {
 global.checkPoint	= r_start;
 global.checkUse		= 0;
 global.checkNum		= 0;
-
 //texturegroup_load()

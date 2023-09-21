@@ -15,15 +15,13 @@ function sc_pl_atkDn2(){
 		if (!isJump)		canMove = 0;
 	}
 	
-	if ( atkProcess > 9 ) {
-		if (keyAttack) {
-			if ( keyTop ) 													nextAtk = 6;
-			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
-			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
-			else															nextAtk = 2;
-		}
-		sc_pl_skKey();
+	if (keyAttack) {
+		if ( keyTop ) 													nextAtk = 6;
+		else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 3;
+		else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
+		else															nextAtk = 2;
 	}
+	sc_pl_skKey();
 	
 	
 	if ( atkProcess == 6 ) {
@@ -41,6 +39,7 @@ function sc_pl_atkDn2(){
 		
 	if ( atkProcess > 205 ) {
 		sc_pl_atkDnJ();
+		sc_pl_skComb();
 	}
 	
 	if ( atkProcess < 6 )			{ image_index = 0; ySpeed = 0; xSpeed = 0; }
@@ -58,7 +57,7 @@ function sc_pl_atkDn2(){
 	else if ( atkProcess < 205 )	{ image_index = 2; }
 	else if ( atkProcess < 225 )	{ 
 		image_index = 3;
-		sc_pl_skComb();
+		
 		if ( nextAtk == 2 ) { nextAtk = 0; atkProcess = 0; canMove = 2; }
 		else if ( nextAtk == 3 ) { nextAtk = 0; atkProcess = 0; canMove = 3; }
 		else if ( nextAtk == 4 ) { nextAtk = 0; atkProcess = 0; canMove = 1;	dir = dir*-1; }

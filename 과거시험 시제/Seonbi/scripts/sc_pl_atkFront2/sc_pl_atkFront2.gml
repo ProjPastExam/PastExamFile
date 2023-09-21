@@ -14,15 +14,13 @@ function sc_pl_atkFront2(){
 		atkProcess = 0;
 	}
 	
-	if ( atkProcess > 4 ) {
-		if (keyAttack) {
-			if ( keyDown && isJump )		nextAtk = 5;
-			else if ( keyTop ) 	nextAtk = 6;
-			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
-			else				nextAtk = 2;
-		}
-		sc_pl_skKey();
+	if (keyAttack) {
+		if ( keyDown && isJump )		nextAtk = 5;
+		else if ( keyTop ) 	nextAtk = 6;
+		else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
+		else				nextAtk = 2;
 	}
+	sc_pl_skKey();
 	
 	
 	if ( atkProcess == 8 ) {
@@ -33,10 +31,8 @@ function sc_pl_atkFront2(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 4) ) {
-		if ( keyDash ) nextAtk = 10;
-		if ( keyJump ) nextAtk = 9;
-	}
+	if ( keyDash ) nextAtk = 10;
+	if ( keyJump ) nextAtk = 9;
 		
 	if ( atkProcess > 8 ) {
 		sc_pl_atkDnJ();

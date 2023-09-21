@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_sk143(){
 	sc_pl_skDir();
+	sc_pl_skDir(80);
 	var dmg = sc_pl_kickDmg()*6;
 	
 	atkProcess++;

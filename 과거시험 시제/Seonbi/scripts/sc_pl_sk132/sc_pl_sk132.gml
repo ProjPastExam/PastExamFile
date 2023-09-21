@@ -2,6 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_sk132(){
 	sc_pl_skDir();
+	sc_pl_skDir(40);
+	sc_pl_skDir(80);
 	
 	atkProcess++;
 	if (!isJump) xSpeed = 0;

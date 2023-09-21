@@ -6,12 +6,10 @@ function sc_pl_atkJumpUp(){
 	sprite_index = sp_pl_jumpAtkUp;
 	var atk;
 	
-	if ( atkProcess > 4 ) {
-		if (keyAttack) {
-			if ( keyDown && isJump )		nextAtk = 5;
-			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
-			else nextAtk = 2;
-		}
+	if (keyAttack) {
+		if ( keyDown && isJump )		nextAtk = 5;
+		else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
+		else nextAtk = 2;
 	}
 	
 	
@@ -23,10 +21,8 @@ function sc_pl_atkJumpUp(){
 	}
 	
 	//대쉬 제어
-	if ( (atkProcess > 4) ) {
-		if ( keyDash && isDash ) nextAtk = 10;
-		sc_pl_skKey();
-	}
+	if ( keyDash && isDash ) nextAtk = 10;
+	sc_pl_skKey();
 		
 	if ( (atkProcess > 8) ) {
 		sc_pl_atkDnJ(2);

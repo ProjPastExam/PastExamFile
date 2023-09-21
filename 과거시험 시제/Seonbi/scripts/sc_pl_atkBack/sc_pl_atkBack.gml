@@ -7,27 +7,23 @@ atkProcess++;
 	sprite_index = sp_pl_atkBack;
 	var atk;
 	
-	if ( atkProcess > 9 ) {
-		if (keyAttack) {
-			if ( keyDown && isJump )										nextAtk = 5;
-			else if ( keyTop ) 												nextAtk = 6;
-			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
-			else															nextAtk = 2;
-		}
-		sc_pl_skKey();
+	if (keyAttack) {
+		if ( keyDown && isJump )										nextAtk = 5;
+		else if ( keyTop ) 												nextAtk = 6;
+		else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
+		else															nextAtk = 2;
 	}
+	sc_pl_skKey();
 	
 	if ( atkProcess == 21 ) {
 		sc_pl_arrowAtk(1,1);
 	}
 	
 	//대쉬 제어
-	if ( atkProcess > 9 ) {
-		if ( keyDash ) nextAtk = 10;
-		if ( keyJump ) nextAtk = 9;
-	}
+	if ( keyDash ) nextAtk = 10;
+	if ( keyJump ) nextAtk = 9;
 		
-	if ( atkProcess > 21 ) {
+	if ( atkProcess > 6 ) {
 		sc_pl_atkDnJ();
 		sc_pl_skComb();
 	}

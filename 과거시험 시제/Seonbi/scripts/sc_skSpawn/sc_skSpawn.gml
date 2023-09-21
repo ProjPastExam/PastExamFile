@@ -10,7 +10,7 @@ function sc_skSpawn(stage = 0){
 		var bossIndex = 0;
 		if (global.clearStage > 55)	bossIndex = 2;
 		
-		if (index < stage*sqrt(stage+1)*8 + 10)	grade = 1;
+		if (index < stage*sqrt(stage+1)*8 + 20)	grade = 1;
 		if (index < stage*sqrt(stage+1)*2)		grade = 2;
 		
 		if (grade == 0) 

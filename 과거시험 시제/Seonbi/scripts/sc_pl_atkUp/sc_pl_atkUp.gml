@@ -7,7 +7,7 @@ function sc_pl_atkUp(){
 	sprite_index = sp_pl_atkUp;
 	var atk;
 	
-	if ( atkProcess > 38 && keyAttack ) {
+	if ( keyAttack ) {
 		if ( keyDown && isJump ) 	nextAtk = 5;
 	}
 	

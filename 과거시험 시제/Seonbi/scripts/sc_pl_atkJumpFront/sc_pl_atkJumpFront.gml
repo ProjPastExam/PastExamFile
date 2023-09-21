@@ -26,12 +26,10 @@ function sc_pl_atkJumpFront(){
 		audio_play_sound(s_arrow02, 5, false);
 	}
 	*/
-	if ( (atkProcess > 4) ) {
-		if ( keyDash ) nextAtk = 10;
-		if ( keyJump ) nextAtk = 9;
-		sc_pl_skKey();
-	}
-		
+	if ( keyDash ) nextAtk = 10;
+	if ( keyJump ) nextAtk = 9;
+	sc_pl_skKey();
+
 	if ( atkProcess > 8 ) {
 		sc_pl_atkDnJ();
 		sc_pl_skComb();

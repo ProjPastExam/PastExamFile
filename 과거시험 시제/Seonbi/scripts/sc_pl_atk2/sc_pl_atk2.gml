@@ -11,16 +11,11 @@ function sc_pl_atk2(){
 
 	if ( isJump ) sprite_index = sp_pl_jumpAtk2;
 	else sprite_index = sp_pl_atk2;
-
 	
-
-	
-	if ( atkProcess > 9 ) {
-		if (keyAttack) {
-			if ( keyDown && isJump )	nextAtk = 5;
-			else if ( keyTop )		 	nextAtk = 6;
-			else						nextAtk = 1;
-		}
+	if (keyAttack) {
+		if ( keyDown && isJump )	nextAtk = 5;
+		else if ( keyTop )		 	nextAtk = 6;
+		else						nextAtk = 1;
 	}
 	sc_pl_skKey();
 	
@@ -46,7 +41,7 @@ function sc_pl_atk2(){
 	if ( keyDash ) nextAtk = 10;
 	if ( keyJump ) nextAtk = 9;
 	sc_pl_atkDnJ();
-
+	sc_pl_skComb();
 	
 	if ( atkProcess < 8 )		{ image_index = 0; nextAtk = 0; }
 	else if ( atkProcess < 18 )	{ image_index = 1; }
@@ -67,5 +62,4 @@ function sc_pl_atk2(){
 		}
 	}
 	else { canMove = 0;	atkProcess = -5; }
-	sc_pl_skComb();
 }

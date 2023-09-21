@@ -17,7 +17,7 @@ function sc_pl_atkJump2(){
 	
 
 	
-	if ( atkProcess > 9 && keyAttack) {
+	if ( keyAttack) {
 		if ( keyDown )		nextAtk = 5;
 		else				nextAtk = 1;
 	}

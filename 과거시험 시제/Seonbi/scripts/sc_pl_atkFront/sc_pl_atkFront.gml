@@ -7,14 +7,12 @@ function sc_pl_atkFront(){
 	sprite_index = sp_pl_atkFront1;
 	var atk;
 	
-	if ( atkProcess > 12 ) {
-		if (keyAttack) {
-			if ( keyDown && isJump )										nextAtk = 5;
-			else if ( keyTop ) 	nextAtk = 6;
-			else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
-			else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
-			else nextAtk = 2;
-		}
+	if (keyAttack) {
+		if ( keyDown && isJump )										nextAtk = 5;
+		else if ( keyTop ) 	nextAtk = 6;
+		else if ( (dir == 1 && keyRight) || (dir == -1 && keyLeft) )	nextAtk = 7;
+		else if ( (dir == -1 && keyRight) || (dir == 1 && keyLeft) )	nextAtk = 4;
+		else nextAtk = 2;
 	}
 	
 	if ( atkProcess == 6 ) {
@@ -29,13 +27,11 @@ function sc_pl_atkFront(){
 	}
 	
 	//대쉬 제어
-	//if ( atkProcess > 16 ) {
-		if ( keyDash ) nextAtk = 10;
-		if ( keyJump ) nextAtk = 9;
-	//}
+	if ( keyDash ) nextAtk = 10;
+	if ( keyJump ) nextAtk = 9;
 	sc_pl_skKey();
 		
-	if ( atkProcess > 33 ) {
+	if ( atkProcess > 8 ) {
 		sc_pl_atkDnJ();
 		sc_pl_skComb();
 	}
