@@ -306,6 +306,8 @@
     {"name":"Tile Sets","order":28,"path":"folders/Tile Sets.yy",},
     {"name":"tileSprite","order":2,"path":"folders/Tile Sets/tileSprite.yy",},
     {"name":"Timelines","order":21,"path":"folders/Timelines.yy",},
+    {"name":"mobile","order":29,"path":"folders/Sprites/interface/mobile.yy",},
+    {"name":"mobile","order":12,"path":"folders/Objects/gameControl/mobile.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"ob_trapL","order":3,"path":"objects/ob_trapL/ob_trapL.yy",},
@@ -770,6 +772,7 @@
     {"name":"ob_chun_stage04","order":9,"path":"objects/ob_chun_stage04/ob_chun_stage04.yy",},
     {"name":"sp_st03_tree01","order":2,"path":"sprites/sp_st03_tree01/sp_st03_tree01.yy",},
     {"name":"sp_pl_atkEf100","order":5,"path":"sprites/sp_pl_atkEf100/sp_pl_atkEf100.yy",},
+    {"name":"sp_mb_stick2","order":1,"path":"sprites/sp_mb_stick2/sp_mb_stick2.yy",},
     {"name":"sp_talkMul","order":2,"path":"sprites/sp_talkMul/sp_talkMul.yy",},
     {"name":"sc_mask3Atk","order":3,"path":"scripts/sc_mask3Atk/sc_mask3Atk.yy",},
     {"name":"r_stage05_2_3","order":10,"path":"rooms/r_stage05_2_3/r_stage05_2_3.yy",},

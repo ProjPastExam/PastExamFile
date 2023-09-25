@@ -5,6 +5,11 @@ BGS_Set(0, 0);
 instance_create_depth(0, 0, 0, ob_gamepadSlot);
 randomize();
 
+if (global.isMobile)
+{
+	instance_create_depth(200, 700, 0, ob_mb_stick);
+}
+
 isTalk	= 0;
 pause	= 0;
 slow	= 0;

@@ -7,6 +7,9 @@ function sc_gameGUI(){
 	var GUIY = global.UIY;
 	var GUISX = global.UISkX;
 	var GUISY = global.UISkY;
+	
+	var _mobile_index = 0;
+	if (global.isMobile) _mobile_index = -97;
 	//draw_set_alpha(1);
 	var i = 1;
 	draw_sprite_stretched(sp_mpbar, 0, GUIX-10, GUIY+100, 720, 96);
@@ -44,40 +47,42 @@ function sc_gameGUI(){
 	}
 	
 	//스킬 UI 표시
+	if (!global.isMobile)
 	{
-	var en = c_white;
-	if (global.skMp[global.sk1] > global.mp) en = c_gray;
-	draw_sprite_ext(skUi[global.sk1], 0, GUISX, GUISY+37, 1, 1, 0, en, uiAlpIndex);
-	
-	en = c_white;
-	if (global.skMp[global.sk2] > global.mp) en = c_gray;
-	draw_sprite_ext(skUi[global.sk2], 0, GUISX+110, GUISY+37, 1, 1, 0, en, uiAlpIndex);
-	
-	en = c_white;
-	if (global.skMp[global.sk3] > global.mp) en = c_gray;
-	draw_sprite_ext(skUi[global.sk3], 0, GUISX+220, GUISY+37, 1, 1, 0, en, uiAlpIndex);
-	
-	
-	draw_sprite_ext(sp_skillUi_black, 0, GUISX, GUISY, 1, global.skKul[0]/global.skKulData[global.sk1], 0, c_white, 0.5);
-	draw_sprite_ext(sp_skillUi_black, 0, GUISX+110, GUISY, 1, global.skKul[1]/global.skKulData[global.sk2], 0, c_white, 0.5);
-	draw_sprite_ext(sp_skillUi_black, 0, GUISX+220, GUISY, 1, global.skKul[2]/global.skKulData[global.sk3], 0, c_white, 0.5);
-	
-	
-	
-	
-	var skMpVar = 0;
-	
-	skMpVar = (global.skMp[global.sk1]/100);
-	draw_sprite(sp_skillBox, skMpVar, GUISX, GUISY+37);
-	
-	skMpVar = (global.skMp[global.sk2]/100);
-	draw_sprite(sp_skillBox, skMpVar, GUISX+110, GUISY+37);
-	
-	skMpVar = (global.skMp[global.sk3]/100);
-	draw_sprite(sp_skillBox, skMpVar, GUISX+220, GUISY+37);
-	
-	draw_sprite_ext(sp_uiLowHp, 0, 0, 0, 1, 1, 0, c_white, (4-global.hp)/6);
+		var en = c_white;
+		if (global.skMp[global.sk1] > global.mp) en = c_gray;
+		draw_sprite_ext(skUi[global.sk1], 0, GUISX, GUISY+37, 1, 1, 0, en, uiAlpIndex);
+		
+		en = c_white;
+		if (global.skMp[global.sk2] > global.mp) en = c_gray;
+		draw_sprite_ext(skUi[global.sk2], 0, GUISX+110, GUISY+37, 1, 1, 0, en, uiAlpIndex);
+		
+		en = c_white;
+		if (global.skMp[global.sk3] > global.mp) en = c_gray;
+		draw_sprite_ext(skUi[global.sk3], 0, GUISX+220, GUISY+37, 1, 1, 0, en, uiAlpIndex);
+		
+		
+		draw_sprite_ext(sp_skillUi_black, 0, GUISX, GUISY, 1, global.skKul[0]/global.skKulData[global.sk1], 0, c_white, 0.5);
+		draw_sprite_ext(sp_skillUi_black, 0, GUISX+110, GUISY, 1, global.skKul[1]/global.skKulData[global.sk2], 0, c_white, 0.5);
+		draw_sprite_ext(sp_skillUi_black, 0, GUISX+220, GUISY, 1, global.skKul[2]/global.skKulData[global.sk3], 0, c_white, 0.5);
+		
+		
+		
+		
+		var skMpVar = 0;
+		
+		skMpVar = (global.skMp[global.sk1]/100);
+		draw_sprite(sp_skillBox, skMpVar, GUISX, GUISY+37);
+		
+		skMpVar = (global.skMp[global.sk2]/100);
+		draw_sprite(sp_skillBox, skMpVar, GUISX+110, GUISY+37);
+		
+		skMpVar = (global.skMp[global.sk3]/100);
+		draw_sprite(sp_skillBox, skMpVar, GUISX+220, GUISY+37);
+		
+		
 	}
+	draw_sprite_ext(sp_uiLowHp, 0, 0, 0+_mobile_index, 1, 1, 0, c_white, (4-global.hp)/6);
 }
 
 

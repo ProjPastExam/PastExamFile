@@ -5,5 +5,10 @@ printText = "";
 state = 0;
 sc_dialogueDataLoad();
 
+if (global.isMobile)
+{
+	y -= 97;
+}
+
 //printText = sc_csvToString(textFile, csvVer + global.lan, imageNum+1);
 
