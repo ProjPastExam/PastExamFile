@@ -1,4 +1,6 @@
- VSLS_Init();
+global.isSteam		= false;
+global.isMobile		= true;
+VSLS_Init();
 
 //window_set_fullscreen(true);
 sc_gameLoad();
@@ -14,19 +16,22 @@ instance_create_depth(0, 0, 0, Camera);
 }
 //global.fullScreen = false;
 window_set_fullscreen(global.fullScreen);
-if (global.fullScreen)
+if (global.isMobile) 
 {
-	//window_set_showborder(!global.fullScreen);
-	//window_set_size(global.screenX, global.screenY);
-	//window_set_position(0, 0);
+	os_set_orientation_lock(true, false);
+	surface_resize(application_surface, 1920, 886);
 }
-surface_resize(application_surface, 1920, 1080);
+else
+{
+	surface_resize(application_surface, 1920, 1080);
+}
+
 
 display_mouse_set(0, 0);
 
 //정적
 {
-global.isSteam		= true;
+
 global.gameEnd		= false;
 //global.lan			= 0;
 global.lanChange	= false;

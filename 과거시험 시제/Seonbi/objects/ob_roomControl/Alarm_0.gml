@@ -71,7 +71,8 @@ else if ( isTalk == 4 ) {
 }
 else if ( isTalk == 5) {
 	isGUI = false;
-	if ( sc_getKey(global.btAtk, global.gpAtk, 0) || sc_getKey(global.btInter, global.gpInter, 0) ) {
+	if ( sc_getKey(global.btAtk, global.gpAtk, 0) || sc_getKey(global.btInter, global.gpInter, 0)
+		|| mouse_check_button_pressed(mb_left)) {
 		talkCnt++;
 		with (ob_csParent) {
 			active = true;

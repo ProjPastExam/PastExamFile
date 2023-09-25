@@ -4,6 +4,14 @@
 // ------------------------------------	CAMERA MAIN PARAMETERS	-------------------------------
 // ==============================================================
 #region Set all the camera main parameters
+display_set_gui_size(1920, 1080);
+
+if (global.isMobile)
+{
+	view_height = 886;
+	display_set_gui_size(1920, 886);
+}
+
 var get_height = window_get_height();
 var get_width = window_get_width();
 
@@ -31,10 +39,15 @@ else {
 // port_height --> Height of the window where the game will be drawn
 
 //display_set_gui_size(port_width, port_height); //  < ------------------------ THIS LINE IS TOTALLY OPTIONAL
-display_set_gui_size(1920, 1080);
+
 
 x = view_width/2; // Adjust the camera to the top left corner
 y = view_height/2;
+
+if (global.isMobile)
+{
+	y += 97;
+}
 
 primitive_view_x = x-view_width/2; // Calculate the x position of the view relative to the camera object position
 primitive_view_y = y-view_height/2; // Calculate the y position of the view relative to the camera object position
