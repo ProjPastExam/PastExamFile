@@ -9,7 +9,7 @@
   "option_windows_copyright_info": "Team Ettu",
   "option_windows_description_info": "Side Scrolling Action Game",
   "option_windows_disable_sandbox": true,
-  "option_windows_display_cursor": false,
+  "option_windows_display_cursor": true,
   "option_windows_display_name": "Seonbi : Scholar of Joseon",
   "option_windows_enable_steam": false,
   "option_windows_executable_name": "Seonbi.exe",

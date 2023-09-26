@@ -95,6 +95,7 @@ function sc_globalLoad(){
 	global.gpInter		= VSLS_Get("gpInter");
 	global.gpEsc		= VSLS_Get("gpEsc");
 	global.gpTap		= VSLS_Get("gpTap");
+
 	
 	global.UIX		= VSLS_Get("UIX");
 	global.UIY		= VSLS_Get("UIY");

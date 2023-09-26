@@ -7,7 +7,12 @@ randomize();
 
 if (global.isMobile)
 {
-	instance_create_depth(200, 700, 0, ob_mb_stick);
+	if (isGUI && !isCt)
+	{
+		instance_create_depth(200, 700, 0, ob_mb_stick);
+		instance_create_depth(1850, 50, 0, ob_mb_tab);
+		instance_create_depth(1750, 700, 0, ob_mb_atk);
+	}
 }
 
 isTalk	= 0;

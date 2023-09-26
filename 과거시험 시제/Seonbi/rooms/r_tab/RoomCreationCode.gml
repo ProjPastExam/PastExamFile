@@ -1,0 +1,1 @@
+if (global.isMobile) room_goto(r_tab_mobile);

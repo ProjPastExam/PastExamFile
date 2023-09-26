@@ -15,7 +15,6 @@
     {"name":"inst_6F54431","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
     {"name":"inst_4406DC8E","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
     {"name":"inst_370DF0F7","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
-    {"name":"inst_65C69552","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
     {"name":"inst_5369B2FF","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
     {"name":"inst_2DC795D7","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
     {"name":"inst_7F2B0428","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
@@ -28,9 +27,9 @@
     {"name":"inst_1EF4C595","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
     {"name":"inst_2F0E405","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
     {"name":"inst_E7C17FC","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
-    {"name":"inst_50EE9C10","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
     {"name":"inst_5331DEC0","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
     {"name":"inst_1A71B97","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
+    {"name":"inst_65C69552","path":"rooms/r_tabDeleteSk/r_tabDeleteSk.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -79,7 +78,6 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_tabMenu","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"propertyId":{"name":"isActive","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"value":"False",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":828.0,"y":175.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E7C17FC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_tabState","path":"objects/ob_tabState/ob_tabState.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1344.0,"y":400.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50EE9C10","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Camera","path":"objects/Camera/Camera.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":944.0,"y":448.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5331DEC0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"propertyId":{"name":"keyIndex","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"value":"btEsc",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"propertyId":{"name":"gpIndex","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"value":"inter",},

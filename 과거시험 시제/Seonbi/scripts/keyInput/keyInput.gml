@@ -26,3 +26,9 @@ function sc_getPadSlot() {
 	}
 
 }
+
+function sc_mobileKey(_index)
+{
+
+	
+}

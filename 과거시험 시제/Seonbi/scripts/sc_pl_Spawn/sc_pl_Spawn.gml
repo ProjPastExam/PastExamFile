@@ -19,6 +19,13 @@ function sc_pl_Spawn() {
 	}
 	
 	//기본 변수
+	mbLeft	= false;
+	mbRight	= false;
+	mbUp	= false;
+	mbDown	= false;
+	mbAtk	= false;
+	mbAtk2	= false;
+	
 	canJump = true;
 	mobAcc	= 0;
 	
