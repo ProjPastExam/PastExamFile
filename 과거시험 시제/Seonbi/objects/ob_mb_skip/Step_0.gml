@@ -5,9 +5,10 @@ if (sc_mobileMouse() != -1)
 {
 	with (ob_roomControl)
 	{
-		if ( isTalk == 0 && dark == 0) 
+		if (isCt) 
 		{
-			sc_gameRoom(r_tab);
+			alarm[7] = 1;
+			BGS_Set(0, 0);
 		}
 	}
 }

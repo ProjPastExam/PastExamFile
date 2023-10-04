@@ -1,13 +1,24 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
+
+with (ob_player)	
+{ 
+	mbDash	= false; 
+}
+
 if (sc_mobileMouse() != -1)
 {
-	with (ob_roomControl)
+	with (ob_player)
 	{
-		if ( isTalk == 0 && dark == 0) 
+		if (other.isAc)
 		{
-			sc_gameRoom(r_tab);
+			other.isAc = false;
+			mbDash = true;
 		}
 	}
+}
+else
+{
+	isAc = true;
 }

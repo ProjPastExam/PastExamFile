@@ -11,7 +11,14 @@ if (global.isMobile)
 	{
 		instance_create_depth(200, 700, 0, ob_mb_stick);
 		instance_create_depth(1850, 50, 0, ob_mb_tab);
-		instance_create_depth(1750, 700, 0, ob_mb_atk);
+		instance_create_depth(1750, 750, 0, ob_mb_dash);
+		instance_create_depth(1550, 750, 0, ob_mb_atk);
+		instance_create_depth(1350, 750, 0, ob_mb_jump);
+	}
+	
+	if (isCt)
+	{
+		instance_create_depth(1830, 50, 0, ob_mb_skip);
 	}
 }
 

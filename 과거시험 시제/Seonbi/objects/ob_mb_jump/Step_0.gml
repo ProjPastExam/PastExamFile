@@ -4,8 +4,8 @@
 
 with (ob_player)	
 { 
-	mbAtk	= false; 
-	mbAtk2	= false; 
+	mbJump	= false; 
+	mbJump2	= true; 
 }
 
 if (sc_mobileMouse() != -1)
@@ -15,9 +15,9 @@ if (sc_mobileMouse() != -1)
 		if (other.isAc)
 		{
 			other.isAc = false;
-			mbAtk = true;
+			mbJump = true;
 		}
-		mbAtk2 = true;
+		//mbJump2 = true;
 	}
 }
 else

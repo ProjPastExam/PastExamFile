@@ -1,23 +1,8 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
-var _mouse_x = device_mouse_x_to_gui(0)
-var _mouse_y = device_mouse_y_to_gui(0)
 
-if (mouse_check_button_pressed(mb_left))
-{
-	if (position_meeting(_mouse_x, _mouse_y, id))
-	{
-		isActive = true;
-	}
-}
-
-
-if (!mouse_check_button(mb_left))
-{
-	isActive = false;
-	point_x = x;
-	point_y = y;
-}
+point_x = x;
+point_y = y;
 with (ob_player)	
 { 
 	mbRight	= false; 
@@ -25,9 +10,23 @@ with (ob_player)
 	mbUp	= false; 
 	mbDown	= false; 
 }
+if (!isActive)
+{
+	mIndex = sc_mobileMouse();
+	if (mIndex != -1)
+	{
+		isActive = true;
+	}
+}
+if (!device_mouse_check_button(mIndex, mb_left))
+{
+	isActive = false;
+}
 
 if (isActive)
 {
+	var _mouse_x = device_mouse_x_to_gui(mIndex);
+	var _mouse_y = device_mouse_y_to_gui(mIndex);
 	var _angle	= point_direction(x, y, _mouse_x, _mouse_y);
 	var _dist	= point_distance(x, y, _mouse_x, _mouse_y);
 	

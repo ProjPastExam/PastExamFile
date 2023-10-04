@@ -25,6 +25,9 @@ function sc_pl_Spawn() {
 	mbDown	= false;
 	mbAtk	= false;
 	mbAtk2	= false;
+	mbJump	= false;
+	mbJump2	= false;
+	mbDash	= false;
 	
 	canJump = true;
 	mobAcc	= 0;
