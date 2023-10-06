@@ -1,6 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_getKey(_keyboard, _gamepad, _mode = 0){
+	if (global.isMobile && _keyboard == global.btInter && global.mbInter)
+	{
+		return true;
+	}
 	var slot = global.gamepadSlot;
 	if (_mode == 0) {
 		if (keyboard_check_pressed(_keyboard))				return true;

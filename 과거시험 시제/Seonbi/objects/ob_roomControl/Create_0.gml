@@ -10,10 +10,15 @@ if (global.isMobile)
 	if (isGUI && !isCt)
 	{
 		instance_create_depth(200, 700, 0, ob_mb_stick);
+		
 		instance_create_depth(1850, 50, 0, ob_mb_tab);
-		instance_create_depth(1350, 750, 0, ob_mb_dash);
-		instance_create_depth(1550, 750, 0, ob_mb_atk);
-		instance_create_depth(1750, 750, 0, ob_mb_jump);
+		
+		instance_create_depth(1400, 800, 0, ob_mb_inter);
+		instance_create_depth(1575, 800, 0, ob_mb_jump);
+		instance_create_depth(1750, 725, 0, ob_mb_atk);
+		instance_create_depth(1825, 550, 0, ob_mb_dash);
+		
+		instance_create_depth(1500, 650, 0, ob_mb_sk1);
 	}
 	
 	if (isCt)

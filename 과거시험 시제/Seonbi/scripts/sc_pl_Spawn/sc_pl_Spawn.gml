@@ -28,6 +28,12 @@ function sc_pl_Spawn() {
 	mbJump	= false;
 	mbJump2	= false;
 	mbDash	= false;
+	mbSk1	= false;
+	mbSk2	= false;
+	mbSk3	= false;
+	mbSk12	= false;
+	mbSk22	= false;
+	mbSk32	= false;
 	
 	canJump = true;
 	mobAcc	= 0;

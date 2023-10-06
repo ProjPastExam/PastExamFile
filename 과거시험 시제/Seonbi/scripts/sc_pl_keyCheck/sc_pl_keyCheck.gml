@@ -30,12 +30,12 @@ function sc_pl_keyCheck() {
 	if ( sc_getKey(global.btAtk, global.gpAtk, 0) || mbAtk)		{ keyAttack = true; }
 	if ( sc_getKey(global.btAtk, global.gpAtk, 1) || mbAtk2)	{ keyAttack2 = true; }
 	if ( sc_getKey(global.btDash, global.gpDash, 0) || mbDash)	{ keyDash	= true; }
-	if ( sc_getKey(global.btSk1, global.gpSk1, 0) )		{ keySk1	= true; }
-	if ( sc_getKey(global.btSk2, global.gpSk2, 0) )		{ keySk2	= true; }
-	if ( sc_getKey(global.btSk3, global.gpSk3, 0) )		{ keySk3	= true; }
-	if ( sc_getKey(global.btSk1, global.gpSk1, 1) )		{ keySkDown	= true; }
-	if ( sc_getKey(global.btSk2, global.gpSk2, 1) )		{ keySkDown	= true; }
-	if ( sc_getKey(global.btSk3, global.gpSk3, 1) )		{ keySkDown	= true; }
+	if ( sc_getKey(global.btSk1, global.gpSk1, 0) || mbSk1)		{ keySk1	= true; }
+	if ( sc_getKey(global.btSk2, global.gpSk2, 0) || mbSk2)		{ keySk2	= true; }
+	if ( sc_getKey(global.btSk3, global.gpSk3, 0) || mbSk3)		{ keySk3	= true; }
+	if ( sc_getKey(global.btSk1, global.gpSk1, 1) || mbSk12)	{ keySkDown	= true; }
+	if ( sc_getKey(global.btSk2, global.gpSk2, 1) || mbSk22)	{ keySkDown	= true; }
+	if ( sc_getKey(global.btSk3, global.gpSk3, 1) || mbSk32)	{ keySkDown	= true; }
 	
 	
 }

@@ -127,6 +127,8 @@ global.sk1		= 0;
 global.sk2		= 0;
 global.sk3		= 0;
 
+global.mbInter	= false;
+
 global.roomBuffer	= NULL;
 global.screenBuffer	= NULL;
 global.camBufferX	= NULL;
