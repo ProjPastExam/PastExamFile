@@ -1,5 +1,5 @@
-global.isSteam		= false;
-global.isMobile		= true;
+global.isSteam		= true;
+global.isMobile		= false;
 VSLS_Init();
 
 //window_set_fullscreen(true);
