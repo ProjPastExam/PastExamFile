@@ -51,6 +51,7 @@
     {"name":"inst_652CB08B","path":"rooms/r_setting/r_setting.yy",},
     {"name":"inst_563640A2","path":"rooms/r_setting/r_setting.yy",},
     {"name":"inst_13B6DC22","path":"rooms/r_setting/r_setting.yy",},
+    {"name":"inst_7A142232","path":"rooms/r_setting/r_setting.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -77,6 +78,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"propertyId":{"name":"gpIndex","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"value":"inter",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":696.0,"y":996.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_13B6DC22","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_textEsc","path":"objects/ob_textEsc/ob_textEsc.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":732.0,"y":996.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A142232","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Camera","path":"objects/Camera/Camera.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":216.0,"y":108.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":4,"gridY":4,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_334DB327","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_keySet","path":"objects/ob_keySet/ob_keySet.yy",},"properties":[

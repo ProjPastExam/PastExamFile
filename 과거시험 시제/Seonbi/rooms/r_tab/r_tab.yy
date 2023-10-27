@@ -31,6 +31,7 @@
     {"name":"inst_2EB89A3B","path":"rooms/r_tab/r_tab.yy",},
     {"name":"inst_6566A04A","path":"rooms/r_tab/r_tab.yy",},
     {"name":"inst_56591207","path":"rooms/r_tab/r_tab.yy",},
+    {"name":"inst_CD81712","path":"rooms/r_tab/r_tab.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -89,6 +90,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"propertyId":{"name":"gpIndex","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"value":"inter",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":996.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_56591207","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_textEsc","path":"objects/ob_textEsc/ob_textEsc.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":324.0,"y":996.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_CD81712","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Camera","path":"objects/Camera/Camera.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":228.0,"y":132.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_7BF0F175","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sp_menu_left","path":"sprites/sp_menu_left/sp_menu_left.yy",},"x":1332.0,"y":180.0,},

@@ -2,7 +2,7 @@
 // You can write your code in this editor
 //draw_text(50, 50, mobNum);
 var _mobile_index = 0;
-if (global.isMobile) _mobile_index = -97;
+if (global.isMobile) _mobile_index = (1080 - window_get_height())/2;
 if (isCt) {
 	draw_sprite_stretched_ext(sp_black, 0, 0, 0+_mobile_index, 2400, 150, 0, 1);
 	draw_sprite_stretched_ext(sp_black, 0, 0, 930+_mobile_index, 2400, 150, 0, 1);

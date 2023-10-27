@@ -4,6 +4,7 @@
 // ------------------------------------	CAMERA MAIN PARAMETERS	-------------------------------
 // ==============================================================
 #region Set all the camera main parameters
+/*
 display_set_gui_size(1920, 1080);
 
 if (global.isMobile)
@@ -11,12 +12,17 @@ if (global.isMobile)
 	view_height = 886;
 	display_set_gui_size(1920, 886);
 }
-
+*/
 var get_height = window_get_height();
 var get_width = window_get_width();
 
-aspect_ratio = view_width/view_height; // Relation between the windows size and screen size
+//aspect_ratio = view_width/view_height; // Relation between the windows size and screen size
+aspect_ratio = display_get_height()/display_get_width();
+if (aspect_ratio < 0.45)	aspect_ratio = 0.45;
 
+port_height = port_width*aspect_ratio;
+view_height = view_width*aspect_ratio;
+/*
 var screen_scale = get_width/16 - get_height/9;
 
 if (screen_scale < 0) {
@@ -27,6 +33,8 @@ else {
 	port_height = get_height;
 	port_width = get_width;
 }
+*/
+display_set_gui_size(port_width, port_height);
 
 //port_height = window_get_height();
 
@@ -46,7 +54,8 @@ y = view_height/2;
 
 if (global.isMobile)
 {
-	y += 97;
+	var _i	= 1080 - view_height;
+	y += _i/2;
 }
 
 primitive_view_x = x-view_width/2; // Calculate the x position of the view relative to the camera object position
@@ -56,8 +65,8 @@ view_y = primitive_view_y;
 
 // Here we apply the size of the window and the surface where we will be drawing the game.
 //window_set_size(port_width, port_height);
-//surface_resize(application_surface, port_width, port_height);
-//uc_window_center();
+surface_resize(application_surface, port_width, port_height);
+uc_window_center();
 
 // Here we are saying all the values we are setting in this code
 // are thought for a 60FPS running game, other frequencies will

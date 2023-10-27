@@ -1,5 +1,5 @@
-global.isSteam		= true;
-global.isMobile		= false;
+global.isSteam		= false;
+global.isMobile		= true;
 VSLS_Init();
 
 //window_set_fullscreen(true);
@@ -19,13 +19,13 @@ window_set_fullscreen(global.fullScreen);
 if (global.isMobile) 
 {
 	os_set_orientation_lock(true, false);
-	surface_resize(application_surface, 1920, 886);
+	//surface_resize(application_surface, 1920, 886);
 }
 else
 {
-	surface_resize(application_surface, 1920, 1080);
+	//surface_resize(application_surface, 1920, 1080);
 }
-
+surface_resize(application_surface, 1920, 1080);
 
 display_mouse_set(0, 0);
 

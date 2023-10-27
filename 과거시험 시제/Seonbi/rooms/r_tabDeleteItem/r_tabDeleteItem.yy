@@ -29,6 +29,7 @@
     {"name":"inst_72863911","path":"rooms/r_tabDeleteItem/r_tabDeleteItem.yy",},
     {"name":"inst_8A2DF6A","path":"rooms/r_tabDeleteItem/r_tabDeleteItem.yy",},
     {"name":"inst_6C40B48A","path":"rooms/r_tabDeleteItem/r_tabDeleteItem.yy",},
+    {"name":"inst_5679A0F1","path":"rooms/r_tabDeleteItem/r_tabDeleteItem.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -86,6 +87,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_buttonPrint","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"propertyId":{"name":"gpIndex","path":"objects/ob_buttonPrint/ob_buttonPrint.yy",},"value":"inter",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":996.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6C40B48A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_textEsc","path":"objects/ob_textEsc/ob_textEsc.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":324.0,"y":996.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5679A0F1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Camera","path":"objects/Camera/Camera.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":204.0,"y":204.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
