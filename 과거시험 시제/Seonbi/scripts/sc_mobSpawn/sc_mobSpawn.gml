@@ -40,16 +40,19 @@ function sc_mobSpawn(){
 	lvDly		= 0;
 	if (global.level == 0)
 	{
-		lvDly = 12;
+		lvDly = 15;
+		if (global.isMobile)	lvDly = 20;
 		hpFull -= hpFull/5;
 	}
 	else if (global.level == 1)	
 	{
-		lvDly = 6;
+		lvDly = 8;
+		if (global.isMobile)	lvDly = 12;
 	}
 	else
 	{
 		hpFull += hpFull/5;
+		if (global.isMobile)	lvDly = 6;
 	}
 	
 	hp			= hpFull;

@@ -16,12 +16,10 @@ mobNum[3] = 5;
 mobStack[3][3] = ob_guBandit01;
 mobStack[3][4] = ob_guchang04;
 
-mobNum[4] = 3;
+mobNum[4] = 2;
 mobStack[4][0] = ob_guBandit02;
 mobStack[4][1] = ob_guBandit03;
-mobStack[4][2] = ob_guDok4;
 
-mobNum[5] = 6;
+mobNum[5] = 5;
 mobStack[5][3] = ob_gujpGun;
 mobStack[5][4] = ob_gujpSwordS;
-mobStack[5][5] = ob_guchang04;
