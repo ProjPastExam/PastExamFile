@@ -445,7 +445,7 @@ function sc_sinBossAtk(){
 		if ( process < 4 ) { image_index = 2; }
 		else if ( process < 18 ) { image_index = 3; xSpeed = dir*bSpd*-1; }
 		else if ( process < 24 ) { image_index = 4; xSpeed = dir*bSpd*-1/2; }
-		else if ( process < 28 ) { image_index = 5; }
+		else if ( process < 32 ) { image_index = 5; }
 		else { state = nextState;	process = 0;	delay = 0; }
 	}
 	
@@ -453,7 +453,7 @@ function sc_sinBossAtk(){
 		process++;
 		sprite_index = sp_sinB_counter;
 		
-		isDF = true;
+		isDK = true;
 		
 		if (process == 54+lvDly) {
 			SE_Play(s_sin1_atk1_4, global.vol);
