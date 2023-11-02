@@ -6,10 +6,12 @@ function sc_gameRoom(roomIndex){
 	global.camBufferX = uc_get_x();
 	global.camBufferY = uc_get_y();
 	
+	var _height = 1920*display_get_height()/display_get_width();
+	
 	buffer_delete(global.screenBuffer);
-	var tempSurface = surface_create(1920, 1080);
+	var tempSurface = surface_create(1920, _height);
 	surface_copy(tempSurface,0,0,application_surface);
-	global.screenBuffer = buffer_create(1920 * 1080 * 4, buffer_grow, 1);
+	global.screenBuffer = buffer_create(1920 * _height * 4, buffer_grow, 1);
 	
 	buffer_get_surface(global.screenBuffer, tempSurface, 0);
 	surface_free(tempSurface);
@@ -40,9 +42,11 @@ function sc_gameRoom(roomIndex){
 
 
 function sc_gameControlUI() {
+	var _height = 1920*display_get_height()/display_get_width();
+	
 	if (!surface_exists(surf)) {
 		//surf = surface_create(window_get_width(), window_get_height());
-		surf = surface_create(1920, 1080);
+		surf = surface_create(1920, _height);
 		buffer_set_surface(global.screenBuffer, surf, 0);
 	}
 	
@@ -60,15 +64,15 @@ function sc_gameControlUI() {
 		}
 	}
 	
-	draw_surface(surf,0, 0);
+	draw_surface(surf,0, (1080-_height)/2);
 	
 	if (isMap) {
-		draw_sprite(sp_minimapBox, 0, global.MapX, global.MapY);
-		draw_surface(mapSurf,global.MapX, global.MapY);
+		draw_sprite(sp_minimapBox, 0, global.MapX, global.MapY+(1080-_height)/2);
+		draw_surface(mapSurf,global.MapX, global.MapY+(1080-_height)/2);
 	}
 	//sc_printMoney(1);
-	sc_gameGUI();
-	draw_sprite(sp_black2, 0, 0, 0);
+	sc_gameGUI((1080-_height)/2);
+	draw_sprite(sp_black2, 0, 0, (1080-_height)/2);
 	
 	
 

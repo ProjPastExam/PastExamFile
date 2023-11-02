@@ -1,15 +1,15 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_gameGUI(){
+function sc_gameGUI(_ind = 0){
 	draw_sprite(sp_uiOutline, 0, 0, 0);
 	
 	var GUIX = global.UIX;
-	var GUIY = global.UIY;
+	var GUIY = global.UIY+_ind;
 	var GUISX = global.UISkX;
-	var GUISY = global.UISkY;
+	var GUISY = global.UISkY+_ind;
 	
 	var _mobile_index = 0;
-	if (global.isMobile) _mobile_index = -97;
+	if (global.isMobile) _mobile_index = (1080 - window_get_height())/2;
 	//draw_set_alpha(1);
 	var i = 1;
 	draw_sprite_stretched(sp_mpbar, 0, GUIX-10, GUIY+100, 720, 96);
@@ -82,7 +82,7 @@ function sc_gameGUI(){
 		
 		
 	}
-	draw_sprite_ext(sp_uiLowHp, 0, 0, 0+_mobile_index, 1, 1, 0, c_white, (4-global.hp)/6);
+	draw_sprite_ext(sp_uiLowHp, 0, 0, 0+_mobile_index+_ind, 1, 1, 0, c_white, (4-global.hp)/6);
 }
 
 

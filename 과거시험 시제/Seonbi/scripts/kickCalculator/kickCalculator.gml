@@ -3,6 +3,7 @@
 function sc_pl_kickDmg(mode = 0){
 	//기본 데미지 및 아이템 배율 적용
 	var dmg = global.kickDmg + sc_abScaleCalculator(5);
+	if (global.item24 > 0)	{ dmg += (global.item24 - 2)*2; }
 	if (global.item68 > 0)
 	{
 		if (global.hp == 1)			{ dmg += round(dmg*global.item68/3); }

@@ -47,6 +47,10 @@ function sc_itemData(){
 	global.itemData[23]	= new itemStruct ( 23, sp_Item_23, sp_ItemInfo_23, 1,
 		function(grade) { global.item12 = grade; })
 		
+	//은장도
+	global.itemData[24]	= new itemStruct ( 24, sp_Item_24, sp_ItemInfo_24, 1,
+		function(grade) { global.item24 = grade; })
+		
 		
 	//화약 속성 소지품
 	
