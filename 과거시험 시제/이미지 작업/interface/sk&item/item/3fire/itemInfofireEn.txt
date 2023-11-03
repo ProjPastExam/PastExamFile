@@ -34,8 +34,9 @@ break SuperArmor.
 
 Fuse
 
-Reduces the pre-delay 
-of Fire skills.
+Reduces the delay 
+of Fire skills's
+MoveSet.
 
 Increases Fire Dmg
 by 2.
