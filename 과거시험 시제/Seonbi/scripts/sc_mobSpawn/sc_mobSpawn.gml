@@ -43,11 +43,13 @@ function sc_mobSpawn(){
 		lvDly = 15;
 		if (global.isMobile)	lvDly = 20;
 		hpFull -= hpFull/5;
+		hitDelay += 15;
 	}
 	else if (global.level == 1)	
 	{
 		lvDly = 8;
 		if (global.isMobile)	lvDly = 12;
+		hitDelay += 8;
 	}
 	else
 	{

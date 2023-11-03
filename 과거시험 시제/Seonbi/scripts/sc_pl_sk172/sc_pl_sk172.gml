@@ -30,7 +30,11 @@ function sc_pl_sk172(){
 		sc_pl_atkDnJ();
 	}
 	
-	if ( atkProcess < 8 )		{ image_index = 0; nextAtk = 0; }
+	if ( atkProcess < 8 )		
+	{ 
+		if (global.item44 > 0)	atkProcess = 12;
+		image_index = 0; nextAtk = 0; 
+	}
 	else if ( atkProcess < 24 )	{ image_index = 1; }
 	else if ( atkProcess < 27 )	{ image_index = 2; xSpeed = dir * -16; }
 	else if ( atkProcess < 32 )	{ image_index = 3; xSpeed = dir * -10; }

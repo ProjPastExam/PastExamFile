@@ -33,10 +33,13 @@ This attack can't
 break enemy's
 SuperArmor.
 
-회피 시 은장도를 휘둘러
-0.5배율의 충격 피해와
-집중 회복량을 가진
-공격을 최대 1회 가한다.
 
-이 공격은 적의
-경직 저항을 깰 수 없다.
+Clog
+
+Reduces 2 Melee Dmg,
+but does not take 
+damage from traps.
+
+Increase 2 Melee 
+Dmg, does not take 
+damage from traps.

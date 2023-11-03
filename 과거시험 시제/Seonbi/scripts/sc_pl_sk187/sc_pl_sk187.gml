@@ -27,7 +27,11 @@ function sc_pl_sk187(){
 		sc_pl_skComb();
 	}
 	
-	if ( atkProcess < 5 )			{ image_index = 0; nextAtk = 0; }
+	if ( atkProcess < 5 )			
+	{ 
+		if (global.item44 > 0)	atkProcess = 15;
+		image_index = 0; nextAtk = 0; 
+	}
 	else if ( atkProcess < 10 )		{ image_index = 1; }
 	else if ( atkProcess < 15 )		{ image_index = 2; }
 	else if ( atkProcess < 20 )		{ image_index = 3; }

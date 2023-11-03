@@ -47,7 +47,7 @@ function sc_itemData(){
 	global.itemData[23]	= new itemStruct ( 23, sp_Item_23, sp_ItemInfo_23, 1,
 		function(grade) { global.item12 = grade; })
 		
-	//은장도
+	//나막신
 	global.itemData[24]	= new itemStruct ( 24, sp_Item_24, sp_ItemInfo_24, 1,
 		function(grade) { global.item24 = grade; })
 		
@@ -65,6 +65,10 @@ function sc_itemData(){
 	//불화살
 	global.itemData[43]	= new itemStruct ( 43, sp_Item_43, sp_ItemInfo_43, 2,
 		function(grade) { global.item11 = grade; })
+		
+	//
+	global.itemData[44]	= new itemStruct ( 44, sp_Item_44, sp_ItemInfo_44, 2,
+		function(grade) { global.item44 = grade; })
 
 	
 	//중립 속성 소지품

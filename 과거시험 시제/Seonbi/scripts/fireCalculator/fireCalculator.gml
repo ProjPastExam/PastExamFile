@@ -3,6 +3,7 @@
 function sc_pl_fireDmg(mode = 0){
 	//기본 데미지 및 아이템 배율 적용
 	var dmg = global.fireDmg + sc_abScaleCalculator(9);
+	if (global.item44 > 0)	{ dmg += (global.item44 - 1)*2; }
 	if (global.item68 > 0)
 	{
 		if (global.hp == 1)			{ dmg += round(dmg*global.item68/3); }

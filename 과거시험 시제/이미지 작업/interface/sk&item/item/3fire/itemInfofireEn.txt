@@ -29,3 +29,13 @@ This attack's Dmg
 decrease as the 
 distance, and can't 
 break SuperArmor.
+
+
+
+Fuse
+
+Reduces the pre-delay 
+of Fire skills.
+
+Increases Fire Dmg
+by 2.
