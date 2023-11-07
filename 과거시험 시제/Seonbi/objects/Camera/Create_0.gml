@@ -17,8 +17,12 @@ var get_height = window_get_height();
 var get_width = window_get_width();
 
 //aspect_ratio = view_width/view_height; // Relation between the windows size and screen size
-aspect_ratio = display_get_height()/display_get_width();
-if (aspect_ratio < 0.45)	aspect_ratio = 0.45;
+aspect_ratio = 1080/1920;
+if (global.isMobile)	
+{
+	aspect_ratio = display_get_height()/display_get_width();
+	if (aspect_ratio < 0.45)	aspect_ratio = 0.45;
+}
 
 port_height = port_width*aspect_ratio;
 view_height = view_width*aspect_ratio;
