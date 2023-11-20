@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sc_pl_hit(argument0){
+function sc_pl_hit(argument0, argument1 = 0){
 	//return;
 	//if (!isAtk) return;
 	//var mor = ob_player.isImort;
@@ -13,7 +13,7 @@ function sc_pl_hit(argument0){
 			
 			with (ob_player)
 			{
-				sc_hitAfter(60, false);
+				sc_hitAfter(60, false, argument1);
 			}
 			
 			return;
@@ -29,7 +29,7 @@ function sc_pl_hit(argument0){
 			SE_Play(s_plHit, global.vol);
 
 			with (ob_player) {
-				sc_hitAfter(90, false);
+				sc_hitAfter(90, false, argument1);
 				
 				if (global.item13 == 0) {
 					canMove = 0;

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (global.gamepadSlot == -1) {
+if (global.keyGp == 0) {
 	switch (keyIndex) {
 		case "btUp":	selfIndex = global.btUp;	break;
 		case "btDown":	selfIndex = global.btDown;	break;

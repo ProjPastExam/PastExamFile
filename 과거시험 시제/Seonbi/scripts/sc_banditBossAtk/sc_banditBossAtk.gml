@@ -79,7 +79,7 @@ function sc_banditBossAtk(){
 			if (state == 14) process = 20;
 		}
 		
-		if ( process == 30+lvDly/2 ) { 
+		if ( process == 30 + round(lvDly/2) ) { 
 			SE_Play(s_bandit02atk2, global.vol);
 			//audio_play_sound(s_bandit02atk2, 8, false);
 			var axe = array_create(4);

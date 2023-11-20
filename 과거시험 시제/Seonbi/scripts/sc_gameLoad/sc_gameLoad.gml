@@ -19,6 +19,7 @@ function sc_gameLoad(){
 	if (VSLS_Get("reStory")== undefined)	VSLS_Set("reStory", false);
 	if (VSLS_Get("level")== undefined)		VSLS_Set("level", 0); 
 	if (VSLS_Get("lan")== undefined)		VSLS_Set("lan", -1); 
+	if (VSLS_Get("keyGp")== undefined)		VSLS_Set("keyGp", -1); 
 	if (VSLS_Get("camUp")== undefined)		VSLS_Set("camUp", 1); 
 	if (global.isMobile)					VSLS_Set("camUp", 0); 
 	if (VSLS_Get("isShake")== undefined)	VSLS_Set("isShake", true); 

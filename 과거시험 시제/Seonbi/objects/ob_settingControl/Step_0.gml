@@ -12,7 +12,7 @@ if (sc_getKey(global.btLeft, gp_padl, 0)) {
 	if (settingIndex < 7) {
 		settingIndex = 22;
 	}
-	else if (settingIndex < 13) {
+	else if (settingIndex <= 13) {
 		settingIndex -= 7;
 	}
 	else if (settingIndex > 13 && settingIndex < 17) {
@@ -45,11 +45,8 @@ if (sc_getKey(global.btLeft, gp_padl, 0)) {
 }
 
 if (sc_getKey(global.btRight, gp_padr, 0)) {
-	if (settingIndex < 6) {
+	if (settingIndex < 7) {
 		settingIndex += 7;
-	}
-	else if (settingIndex == 6) {
-		settingIndex = 12;
 	}
 	else if (settingIndex < 14) {
 		settingIndex = 14;
@@ -81,13 +78,13 @@ if (sc_getKey(global.btDown, gp_padd, 0)) {
 	if (settingIndex < 6) {
 		settingIndex++;
 	}
-	else if (settingIndex > 6 && settingIndex < 12) {
+	else if (settingIndex > 6 && settingIndex < 13) {
 		settingIndex++;
 	}
 	else if (settingIndex == 6) {
 		settingIndex = 0;
 	}
-	else if (settingIndex == 12) {
+	else if (settingIndex == 13) {
 		settingIndex = 7;
 	}
 	else if (settingIndex == 14 || settingIndex == 15) {
@@ -117,14 +114,14 @@ if (sc_getKey(global.btUp, gp_padu, 0)) {
 	if (settingIndex < 7 && settingIndex > 0) {
 		settingIndex--;
 	}
-	else if (settingIndex > 7 && settingIndex < 13) {
+	else if (settingIndex > 7 && settingIndex <= 13) {
 		settingIndex--;
 	}
 	else if (settingIndex == 0) {
 		settingIndex = 6;
 	}
 	else if (settingIndex == 7) {
-		settingIndex = 12;
+		settingIndex = 13;
 	}
 	else if (settingIndex == 14) {
 		settingIndex = 18;

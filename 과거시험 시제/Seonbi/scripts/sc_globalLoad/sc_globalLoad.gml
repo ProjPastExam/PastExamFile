@@ -5,6 +5,7 @@ function sc_globalLoad(){
 	global.volBgm	= VSLS_Get("volBgm");
 	
 	global.lan		= VSLS_Get("lan");
+	global.keyGp	= VSLS_Get("keyGp");
 	global.camUp	= VSLS_Get("camUp");
 	global.isShake	= VSLS_Get("isShake");
 	
