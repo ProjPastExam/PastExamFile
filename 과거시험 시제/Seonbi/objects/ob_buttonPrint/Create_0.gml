@@ -35,6 +35,7 @@ else {
 		case "btInter":	selfIndex = global.gpInter;	break;
 	}
 	if (gpIndex == "inter") selfIndex = gp_face4;
+	else if (gpIndex == "inter") selfIndex = gp_face4;
 	else if (gpIndex == "l") selfIndex = gp_shoulderl;
 	else if (gpIndex == "r") selfIndex = gp_shoulderr;
 	sprite_index = sc_gpSprite(selfIndex);
