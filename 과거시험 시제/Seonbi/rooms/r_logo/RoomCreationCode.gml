@@ -1,4 +1,4 @@
-global.isSteam		= false;
+global.isSteam		= true;
 global.isMobile		= false;
 VSLS_Init();
 

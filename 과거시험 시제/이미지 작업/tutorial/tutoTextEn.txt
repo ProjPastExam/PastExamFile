@@ -112,3 +112,14 @@ Boss skill has been unlocked!
 
 Now during the game, 
 six powerful additional skills can appear.
+
+
+
+Enemies and Rewards
+
+Defeating all the enemies in the area will summon 
+Chunhyang at the end of the map,
+allowing you to obtain skills or items.
+
+On Easy and Normal difficulty, you also
+recover health additionally.

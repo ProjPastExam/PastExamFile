@@ -8,7 +8,7 @@ function sc_gameRoom(roomIndex){
 	
 	var _height = 1920*display_get_height()/display_get_width();
 	
-	if (global.screenBuffer != NULL) buffer_delete(global.screenBuffer);
+	if (buffer_exists(global.screenBuffer)) buffer_delete(global.screenBuffer);
 	var tempSurface = surface_create(1920, _height);
 	surface_copy(tempSurface,0,0,application_surface);
 	global.screenBuffer = buffer_create(1920 * _height * 4, buffer_grow, 1);
@@ -16,7 +16,7 @@ function sc_gameRoom(roomIndex){
 	buffer_get_surface(global.screenBuffer, tempSurface, 0);
 	surface_free(tempSurface);
 	
-	if (global.mapBuffer != -1) buffer_delete(global.mapBuffer);
+	if (buffer_exists(global.mapBuffer)) buffer_delete(global.mapBuffer);
 	global.mapBuffer = buffer_create(480 * 210 * 4, buffer_grow, 1);
 	
 	if (isMinimap) {

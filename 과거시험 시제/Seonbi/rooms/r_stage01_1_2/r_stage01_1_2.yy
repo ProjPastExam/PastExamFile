@@ -30,6 +30,7 @@
     {"name":"inst_3AEFDF1F","path":"rooms/r_stage01_1_2/r_stage01_1_2.yy",},
     {"name":"inst_76375DE","path":"rooms/r_stage01_1_2/r_stage01_1_2.yy",},
     {"name":"inst_19EE7C5D","path":"rooms/r_stage01_1_2/r_stage01_1_2.yy",},
+    {"name":"inst_4F86F7D9","path":"rooms/r_stage01_1_2/r_stage01_1_2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -49,6 +50,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_19EE7C5D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_stageName","path":"objects/ob_stageName/ob_stageName.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_stageName","path":"objects/ob_stageName/ob_stageName.yy",},"propertyId":{"name":"spIndex","path":"objects/ob_stageName/ob_stageName.yy",},"value":"sp_stageName_st1",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":608.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4F86F7D9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_rewardTuto","path":"objects/ob_rewardTuto/ob_rewardTuto.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":224.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E577C90_8_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":1568.0,},

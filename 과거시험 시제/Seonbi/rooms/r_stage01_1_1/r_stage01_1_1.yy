@@ -26,6 +26,7 @@
     {"name":"inst_E81ED77","path":"rooms/r_stage01_1_1/r_stage01_1_1.yy",},
     {"name":"inst_4079C9DA","path":"rooms/r_stage01_1_1/r_stage01_1_1.yy",},
     {"name":"inst_53780BCB","path":"rooms/r_stage01_1_1/r_stage01_1_1.yy",},
+    {"name":"inst_2C81FCBA","path":"rooms/r_stage01_1_1/r_stage01_1_1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -46,6 +47,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53780BCB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_stageName","path":"objects/ob_stageName/ob_stageName.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ob_stageName","path":"objects/ob_stageName/ob_stageName.yy",},"propertyId":{"name":"spIndex","path":"objects/ob_stageName/ob_stageName.yy",},"value":"sp_stageName_st1",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":608.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C81FCBA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_rewardTuto","path":"objects/ob_rewardTuto/ob_rewardTuto.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":192.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_49FF2D29_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ob_mobBandit02","path":"objects/ob_mobBandit02/ob_mobBandit02.yy",},"properties":[],"rotation":-0.16312942,"scaleX":1.0,"scaleY":1.0,"x":4672.0,"y":1440.0,},
