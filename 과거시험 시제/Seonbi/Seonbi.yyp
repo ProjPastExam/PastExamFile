@@ -360,7 +360,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.0.121",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"ob_trapL","path":"objects/ob_trapL/ob_trapL.yy",},},
