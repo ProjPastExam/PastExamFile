@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_pl_atkUp",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "atkScript",
-    "path": "folders/Scripts/player Script/atkScript.yy",
+  "$GMScript":"",
+  "%Name":"sc_pl_atkUp",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_pl_atkUp",
+  "parent":{
+    "name":"atkScript",
+    "path":"folders/Scripts/player Script/atkScript.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scr_light_animation",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Customizable",
-    "path": "folders/Scripts/Ultimate Light System/_internal/Customizable.yy",
+  "$GMScript":"",
+  "%Name":"scr_light_animation",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_light_animation",
+  "parent":{
+    "name":"Customizable",
+    "path":"folders/Scripts/Ultimate Light System/_internal/Customizable.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

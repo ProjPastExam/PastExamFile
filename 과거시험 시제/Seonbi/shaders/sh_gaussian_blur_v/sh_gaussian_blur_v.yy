@@ -1,10 +1,12 @@
 {
-  "resourceType": "GMShader",
-  "resourceVersion": "1.0",
-  "name": "sh_gaussian_blur_v",
-  "parent": {
-    "name": "GaussianBlur",
-    "path": "folders/Shaders/UltimateLightSystem/GaussianBlur.yy",
+  "$GMShader":"",
+  "%Name":"sh_gaussian_blur_v",
+  "name":"sh_gaussian_blur_v",
+  "parent":{
+    "name":"GaussianBlur",
+    "path":"folders/Shaders/UltimateLightSystem/GaussianBlur.yy",
   },
-  "type": 1,
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
 }

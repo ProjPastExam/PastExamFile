@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "keyInput",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "game Script",
-    "path": "folders/Scripts/game Script.yy",
+  "$GMScript":"",
+  "%Name":"keyInput",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"keyInput",
+  "parent":{
+    "name":"game Script",
+    "path":"folders/Scripts/game Script.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

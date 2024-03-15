@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "gameGUI",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "game Script",
-    "path": "folders/Scripts/game Script.yy",
+  "$GMScript":"",
+  "%Name":"gameGUI",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gameGUI",
+  "parent":{
+    "name":"game Script",
+    "path":"folders/Scripts/game Script.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

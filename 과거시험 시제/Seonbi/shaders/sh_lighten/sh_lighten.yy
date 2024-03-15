@@ -1,10 +1,12 @@
 {
-  "resourceType": "GMShader",
-  "resourceVersion": "1.0",
-  "name": "sh_lighten",
-  "parent": {
-    "name": "UltimateLightSystem",
-    "path": "folders/Shaders/UltimateLightSystem.yy",
+  "$GMShader":"",
+  "%Name":"sh_lighten",
+  "name":"sh_lighten",
+  "parent":{
+    "name":"UltimateLightSystem",
+    "path":"folders/Shaders/UltimateLightSystem.yy",
   },
-  "type": 1,
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
 }

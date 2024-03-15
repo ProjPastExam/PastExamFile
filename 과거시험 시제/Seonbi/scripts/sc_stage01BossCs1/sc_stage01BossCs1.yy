@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_stage01BossCs1",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "stage01Cs",
-    "path": "folders/Scripts/csScript/stage01Cs.yy",
+  "$GMScript":"",
+  "%Name":"sc_stage01BossCs1",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_stage01BossCs1",
+  "parent":{
+    "name":"stage01Cs",
+    "path":"folders/Scripts/csScript/stage01Cs.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

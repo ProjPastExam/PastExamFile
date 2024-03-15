@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "uc_shake",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Shake",
-    "path": "folders/Scripts/Ultimate Camera/Camera Effects/Shake.yy",
+  "$GMScript":"",
+  "%Name":"uc_shake",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"uc_shake",
+  "parent":{
+    "name":"Shake",
+    "path":"folders/Scripts/Ultimate Camera/Camera Effects/Shake.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

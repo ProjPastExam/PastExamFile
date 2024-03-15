@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_banditBossAtk",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "bandit",
-    "path": "folders/Scripts/mob/bandit.yy",
+  "$GMScript":"",
+  "%Name":"sc_banditBossAtk",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_banditBossAtk",
+  "parent":{
+    "name":"bandit",
+    "path":"folders/Scripts/mob/bandit.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

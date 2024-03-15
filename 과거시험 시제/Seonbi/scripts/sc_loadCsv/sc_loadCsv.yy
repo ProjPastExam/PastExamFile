@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_loadCsv",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "npc Script",
-    "path": "folders/Scripts/npc Script.yy",
+  "$GMScript":"",
+  "%Name":"sc_loadCsv",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_loadCsv",
+  "parent":{
+    "name":"npc Script",
+    "path":"folders/Scripts/npc Script.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

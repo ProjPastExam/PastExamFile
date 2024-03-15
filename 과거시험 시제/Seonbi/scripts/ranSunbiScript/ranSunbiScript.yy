@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "ranSunbiScript",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "npc Script",
-    "path": "folders/Scripts/npc Script.yy",
+  "$GMScript":"",
+  "%Name":"ranSunbiScript",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ranSunbiScript",
+  "parent":{
+    "name":"npc Script",
+    "path":"folders/Scripts/npc Script.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

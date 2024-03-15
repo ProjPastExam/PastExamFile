@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_csBase2",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "csScript",
-    "path": "folders/Scripts/csScript.yy",
+  "$GMScript":"",
+  "%Name":"sc_csBase2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_csBase2",
+  "parent":{
+    "name":"csScript",
+    "path":"folders/Scripts/csScript.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

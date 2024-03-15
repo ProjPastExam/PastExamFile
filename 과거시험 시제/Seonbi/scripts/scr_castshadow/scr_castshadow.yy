@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scr_castshadow",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "_internal",
-    "path": "folders/Scripts/Ultimate Light System/_internal.yy",
+  "$GMScript":"",
+  "%Name":"scr_castshadow",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_castshadow",
+  "parent":{
+    "name":"_internal",
+    "path":"folders/Scripts/Ultimate Light System/_internal.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

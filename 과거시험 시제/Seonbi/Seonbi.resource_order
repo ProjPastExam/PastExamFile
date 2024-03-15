@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Animation Curves","order":25,"path":"folders/Animation Curves.yy",},
     {"name":"Fonts","order":20,"path":"folders/Fonts.yy",},
     {"name":"Extensions","order":3,"path":"folders/Fonts/Extensions.yy",},
@@ -310,7 +310,7 @@
     {"name":"tileSprite","order":2,"path":"folders/Tile Sets/tileSprite.yy",},
     {"name":"Timelines","order":21,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
     {"name":"ob_trapL","order":3,"path":"objects/ob_trapL/ob_trapL.yy",},
     {"name":"uc_set_window_size","order":3,"path":"scripts/uc_set_window_size/uc_set_window_size.yy",},
     {"name":"sp_pl_itemEf8_2","order":27,"path":"sprites/sp_pl_itemEf8_2/sp_pl_itemEf8_2.yy",},

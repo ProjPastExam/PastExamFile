@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_sinBossAtk",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "sin",
-    "path": "folders/Scripts/mob/sin.yy",
+  "$GMScript":"",
+  "%Name":"sc_sinBossAtk",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_sinBossAtk",
+  "parent":{
+    "name":"sin",
+    "path":"folders/Scripts/mob/sin.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

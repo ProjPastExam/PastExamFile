@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_jpGunAtk",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "jpSc",
-    "path": "folders/Scripts/mob/jpSc.yy",
+  "$GMScript":"",
+  "%Name":"sc_jpGunAtk",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_jpGunAtk",
+  "parent":{
+    "name":"jpSc",
+    "path":"folders/Scripts/mob/jpSc.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

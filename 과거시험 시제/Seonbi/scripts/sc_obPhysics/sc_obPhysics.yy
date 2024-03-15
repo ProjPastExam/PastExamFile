@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_obPhysics",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "obPhysics",
-    "path": "folders/Scripts/obPhysics.yy",
+  "$GMScript":"",
+  "%Name":"sc_obPhysics",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_obPhysics",
+  "parent":{
+    "name":"obPhysics",
+    "path":"folders/Scripts/obPhysics.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

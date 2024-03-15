@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "uls_get_light_alpha",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Get Light",
-    "path": "folders/Scripts/Ultimate Light System/Scripts/Get Light.yy",
+  "$GMScript":"",
+  "%Name":"uls_get_light_alpha",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"uls_get_light_alpha",
+  "parent":{
+    "name":"Get Light",
+    "path":"folders/Scripts/Ultimate Light System/Scripts/Get Light.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

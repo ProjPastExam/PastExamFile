@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_getRoomValue",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "game Script",
-    "path": "folders/Scripts/game Script.yy",
+  "$GMScript":"",
+  "%Name":"sc_getRoomValue",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_getRoomValue",
+  "parent":{
+    "name":"game Script",
+    "path":"folders/Scripts/game Script.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

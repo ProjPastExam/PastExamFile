@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "uc_set_view_inclination",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Inclination",
-    "path": "folders/Scripts/Ultimate Camera/Camera General Settings/Inclination.yy",
+  "$GMScript":"",
+  "%Name":"uc_set_view_inclination",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"uc_set_view_inclination",
+  "parent":{
+    "name":"Inclination",
+    "path":"folders/Scripts/Ultimate Camera/Camera General Settings/Inclination.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

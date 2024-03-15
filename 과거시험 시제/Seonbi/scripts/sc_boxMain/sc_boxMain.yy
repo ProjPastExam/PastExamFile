@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_boxMain",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "box",
-    "path": "folders/Scripts/mob/box.yy",
+  "$GMScript":"",
+  "%Name":"sc_boxMain",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_boxMain",
+  "parent":{
+    "name":"box",
+    "path":"folders/Scripts/mob/box.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

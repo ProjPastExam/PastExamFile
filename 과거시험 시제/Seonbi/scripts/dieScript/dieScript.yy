@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "dieScript",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "parent",
-    "path": "folders/Scripts/mob/parent.yy",
+  "$GMScript":"",
+  "%Name":"dieScript",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"dieScript",
+  "parent":{
+    "name":"parent",
+    "path":"folders/Scripts/mob/parent.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

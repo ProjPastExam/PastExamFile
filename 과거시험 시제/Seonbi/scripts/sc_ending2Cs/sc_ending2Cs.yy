@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_ending2Cs",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "endingCs",
-    "path": "folders/Scripts/csScript/endingCs.yy",
+  "$GMScript":"",
+  "%Name":"sc_ending2Cs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_ending2Cs",
+  "parent":{
+    "name":"endingCs",
+    "path":"folders/Scripts/csScript/endingCs.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

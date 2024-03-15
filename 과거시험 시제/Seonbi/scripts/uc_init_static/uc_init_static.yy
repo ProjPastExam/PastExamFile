@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "uc_init_static",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Static Mode",
-    "path": "folders/Scripts/Ultimate Camera/Camera Modes/Static Mode.yy",
+  "$GMScript":"",
+  "%Name":"uc_init_static",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"uc_init_static",
+  "parent":{
+    "name":"Static Mode",
+    "path":"folders/Scripts/Ultimate Camera/Camera Modes/Static Mode.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

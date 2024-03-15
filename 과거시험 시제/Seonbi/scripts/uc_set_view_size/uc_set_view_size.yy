@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "uc_set_view_size",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "View and Window Size",
-    "path": "folders/Scripts/Ultimate Camera/Camera General Settings/View and Window Size.yy",
+  "$GMScript":"",
+  "%Name":"uc_set_view_size",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"uc_set_view_size",
+  "parent":{
+    "name":"View and Window Size",
+    "path":"folders/Scripts/Ultimate Camera/Camera General Settings/View and Window Size.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

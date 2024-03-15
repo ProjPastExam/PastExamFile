@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_pl_atkFrontKick",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "itemMotion",
-    "path": "folders/Scripts/player Script/itemMotion.yy",
+  "$GMScript":"",
+  "%Name":"sc_pl_atkFrontKick",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_pl_atkFrontKick",
+  "parent":{
+    "name":"itemMotion",
+    "path":"folders/Scripts/player Script/itemMotion.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

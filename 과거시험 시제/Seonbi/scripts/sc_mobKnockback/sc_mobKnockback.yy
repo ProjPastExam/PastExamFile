@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_mobKnockback",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "parent",
-    "path": "folders/Scripts/mob/parent.yy",
+  "$GMScript":"",
+  "%Name":"sc_mobKnockback",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_mobKnockback",
+  "parent":{
+    "name":"parent",
+    "path":"folders/Scripts/mob/parent.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

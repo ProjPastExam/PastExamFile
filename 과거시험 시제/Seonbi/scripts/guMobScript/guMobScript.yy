@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "guMobScript",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "gumi",
-    "path": "folders/Scripts/mob/gumi.yy",
+  "$GMScript":"",
+  "%Name":"guMobScript",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"guMobScript",
+  "parent":{
+    "name":"gumi",
+    "path":"folders/Scripts/mob/gumi.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

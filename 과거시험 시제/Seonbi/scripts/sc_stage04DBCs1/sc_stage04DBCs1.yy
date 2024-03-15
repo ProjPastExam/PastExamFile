@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_stage04DBCs1",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "stage04Cs",
-    "path": "folders/Scripts/csScript/stage04Cs.yy",
+  "$GMScript":"",
+  "%Name":"sc_stage04DBCs1",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_stage04DBCs1",
+  "parent":{
+    "name":"stage04Cs",
+    "path":"folders/Scripts/csScript/stage04Cs.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
