@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 if (touch) {
+	draw_set_alpha(1);
 	draw_sprite(sp_skillUi_InfoBox, global.lan, x+280, y-100);
 	draw_sprite_ext(skInfo[skNum], global.lan, x+280, y-100, 0.75, 0.75, 0, c_white, 1);
 	

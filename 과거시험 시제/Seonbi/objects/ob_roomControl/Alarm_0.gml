@@ -18,6 +18,7 @@ if ( global.gameEnd ) {
 if (room_persistent) {
 	//with (ob_npcBase) { isLan = true; }
 	room_persistent = false;
+	draw_set_alpha(1);
 	//application_surface_draw_enable(true);
 	BGM_Set(global.volBgm, 0);
 	if (global.camBufferX != NULL) {
