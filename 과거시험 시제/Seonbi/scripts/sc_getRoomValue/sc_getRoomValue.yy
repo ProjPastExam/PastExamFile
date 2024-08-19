@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_getRoomValue",
   "isCompatibility":false,
   "isDnD":false,

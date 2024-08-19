@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_globalLoad",
   "isCompatibility":false,
   "isDnD":false,

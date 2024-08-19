@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_init_mouse_borders",
   "isCompatibility":false,
   "isDnD":false,

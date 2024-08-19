@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uls_collider_set_angle",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_cBoss1Command",
   "isCompatibility":false,
   "isDnD":false,

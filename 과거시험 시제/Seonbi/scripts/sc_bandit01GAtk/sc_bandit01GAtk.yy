@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_bandit01GAtk",
   "isCompatibility":false,
   "isDnD":false,

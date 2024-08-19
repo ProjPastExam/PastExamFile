@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uls_set_shadow_color",
   "isCompatibility":false,
   "isDnD":false,

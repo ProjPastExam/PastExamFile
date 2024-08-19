@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"talkStruct",
   "isCompatibility":false,
   "isDnD":false,

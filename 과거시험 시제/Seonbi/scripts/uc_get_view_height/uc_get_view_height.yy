@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_get_view_height",
   "isCompatibility":false,
   "isDnD":false,

@@ -5,11 +5,11 @@
   "managed":true,
   "name":"ob_box2",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"moneyIndex","path":"objects/ob_boxBase/ob_boxBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"maxHp","path":"objects/ob_boxBase/ob_boxBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"standSp","path":"objects/ob_boxBase/ob_boxBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_box2",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"hitSp","path":"objects/ob_boxBase/ob_boxBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_box2_hit",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"dieSp","path":"objects/ob_boxBase/ob_boxBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_box2_die",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"moneyIndex","path":"objects/ob_boxBase/ob_boxBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"maxHp","path":"objects/ob_boxBase/ob_boxBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"standSp","path":"objects/ob_boxBase/ob_boxBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_box2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"hitSp","path":"objects/ob_boxBase/ob_boxBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_box2_hit",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_boxBase","path":"objects/ob_boxBase/ob_boxBase.yy",},"propertyId":{"name":"dieSp","path":"objects/ob_boxBase/ob_boxBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_box2_die",},
   ],
   "parent":{
     "name":"box",

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_get_mouse_shooter_percentage",
   "isCompatibility":false,
   "isDnD":false,

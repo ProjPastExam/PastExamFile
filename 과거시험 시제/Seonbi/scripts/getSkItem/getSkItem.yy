@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"getSkItem",
   "isCompatibility":false,
   "isDnD":false,

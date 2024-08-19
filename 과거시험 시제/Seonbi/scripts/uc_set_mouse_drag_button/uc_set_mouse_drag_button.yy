@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_set_mouse_drag_button",
   "isCompatibility":false,
   "isDnD":false,

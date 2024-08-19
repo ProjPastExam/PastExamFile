@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_error_message",
   "isCompatibility":false,
   "isDnD":false,

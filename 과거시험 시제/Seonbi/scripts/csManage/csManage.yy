@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"csManage",
   "isCompatibility":false,
   "isDnD":false,

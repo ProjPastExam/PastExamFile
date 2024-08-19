@@ -2,16 +2,16 @@
   "$GMObject":"",
   "%Name":"ob_guSpawn3",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"ob_guSpawn3",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"hpFull","path":"objects/ob_mobBase/ob_mobBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1200",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"adDistance","path":"objects/ob_mobBase/ob_mobBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2400",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"down","path":"objects/ob_mobBase/ob_mobBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"adHeight","path":"objects/ob_mobBase/ob_mobBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1000",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"hpFull","path":"objects/ob_mobBase/ob_mobBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1200",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"adDistance","path":"objects/ob_mobBase/ob_mobBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2400",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"down","path":"objects/ob_mobBase/ob_mobBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"adHeight","path":"objects/ob_mobBase/ob_mobBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1000",},
   ],
   "parent":{
     "name":"gu",

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_get_flash_speed",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_bars",
   "isCompatibility":false,
   "isDnD":false,

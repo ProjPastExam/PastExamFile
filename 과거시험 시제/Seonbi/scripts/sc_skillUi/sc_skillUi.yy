@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_skillUi",
   "isCompatibility":false,
   "isDnD":false,

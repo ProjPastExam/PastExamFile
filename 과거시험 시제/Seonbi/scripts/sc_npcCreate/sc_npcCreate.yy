@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_npcCreate",
   "isCompatibility":false,
   "isDnD":false,

@@ -5,7 +5,7 @@
   "managed":true,
   "name":"ob_tabMenu_status",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_tabMenu","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"propertyId":{"name":"roomIndex","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"r_tab",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_tabMenu","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"propertyId":{"name":"roomIndex","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"r_tab",},
   ],
   "parent":{
     "name":"tabMenu",

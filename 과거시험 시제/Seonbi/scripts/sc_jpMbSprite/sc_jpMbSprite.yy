@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_jpMbSprite",
   "isCompatibility":false,
   "isDnD":false,

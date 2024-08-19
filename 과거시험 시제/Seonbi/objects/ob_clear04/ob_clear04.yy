@@ -5,7 +5,7 @@
   "managed":true,
   "name":"ob_clear04",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_clearParent","path":"objects/ob_clearParent/ob_clearParent.yy",},"propertyId":{"name":"nextRoom","path":"objects/ob_clearParent/ob_clearParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"r_stage05VillageCs",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_clearParent","path":"objects/ob_clearParent/ob_clearParent.yy",},"propertyId":{"name":"nextRoom","path":"objects/ob_clearParent/ob_clearParent.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"r_stage05VillageCs",},
   ],
   "parent":{
     "name":"clear",

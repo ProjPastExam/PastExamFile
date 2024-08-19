@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_initialize_particle_system",
   "isCompatibility":false,
   "isDnD":false,

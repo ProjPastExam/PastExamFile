@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_set_auto_scale_enabled",
   "isCompatibility":false,
   "isDnD":false,

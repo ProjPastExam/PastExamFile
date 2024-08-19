@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_jpBossAtk",
   "isCompatibility":false,
   "isDnD":false,

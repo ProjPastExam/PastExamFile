@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"ob_atkEfDf",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"ob_mobAtk","path":"objects/ob_mobAtk/ob_mobAtk.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"ob_mobAtk","path":"objects/ob_mobAtk/ob_mobAtk.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"ob_atkEfDf",

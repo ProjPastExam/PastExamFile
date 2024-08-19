@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_steam_update",
   "isCompatibility":false,
   "isDnD":false,

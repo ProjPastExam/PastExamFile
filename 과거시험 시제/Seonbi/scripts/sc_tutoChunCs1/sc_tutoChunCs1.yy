@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_tutoChunCs1",
   "isCompatibility":false,
   "isDnD":false,

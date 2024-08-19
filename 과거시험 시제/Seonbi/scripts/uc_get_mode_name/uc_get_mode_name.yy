@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_get_mode_name",
   "isCompatibility":false,
   "isDnD":false,

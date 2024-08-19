@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_set_window_size",
   "isCompatibility":false,
   "isDnD":false,

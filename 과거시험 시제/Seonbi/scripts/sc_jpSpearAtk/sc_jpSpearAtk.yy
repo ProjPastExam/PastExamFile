@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_jpSpearAtk",
   "isCompatibility":false,
   "isDnD":false,

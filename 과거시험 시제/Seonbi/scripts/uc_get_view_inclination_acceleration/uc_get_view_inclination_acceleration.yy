@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_get_view_inclination_acceleration",
   "isCompatibility":false,
   "isDnD":false,

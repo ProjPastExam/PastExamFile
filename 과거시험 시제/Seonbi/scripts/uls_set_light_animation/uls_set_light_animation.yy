@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uls_set_light_animation",
   "isCompatibility":false,
   "isDnD":false,

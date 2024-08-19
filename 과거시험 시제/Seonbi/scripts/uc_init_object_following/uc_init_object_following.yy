@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_init_object_following",
   "isCompatibility":false,
   "isDnD":false,

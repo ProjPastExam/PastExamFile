@@ -2,13 +2,13 @@
   "$GMObject":"",
   "%Name":"ob_bossBase",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"ob_bossBase",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"knockback","path":"objects/ob_mobBase/ob_mobBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"patrol","path":"objects/ob_mobBase/ob_mobBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"knockback","path":"objects/ob_mobBase/ob_mobBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_mobBase","path":"objects/ob_mobBase/ob_mobBase.yy",},"propertyId":{"name":"patrol","path":"objects/ob_mobBase/ob_mobBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{
     "name":"mob",

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uls_set_light_range",
   "isCompatibility":false,
   "isDnD":false,

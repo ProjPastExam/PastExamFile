@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_guSmoke",
   "isCompatibility":false,
   "isDnD":false,

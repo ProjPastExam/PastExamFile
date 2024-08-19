@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_set_hit_recovery",
   "isCompatibility":false,
   "isDnD":false,

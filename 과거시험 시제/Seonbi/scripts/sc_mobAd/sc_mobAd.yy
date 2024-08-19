@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_mobAd",
   "isCompatibility":false,
   "isDnD":false,

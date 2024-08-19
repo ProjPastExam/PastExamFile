@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_mask2Atk",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_get_view_width",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_enable_room_bounds_enabled",
   "isCompatibility":false,
   "isDnD":false,

@@ -5,7 +5,7 @@
   "managed":true,
   "name":"ob_trapRSt03",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_trap","path":"objects/ob_trap/ob_trap.yy",},"propertyId":{"name":"isHor","path":"objects/ob_trap/ob_trap.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_trap","path":"objects/ob_trap/ob_trap.yy",},"propertyId":{"name":"isHor","path":"objects/ob_trap/ob_trap.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
     "name":"terran",

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_get_target_x",
   "isCompatibility":false,
   "isDnD":false,

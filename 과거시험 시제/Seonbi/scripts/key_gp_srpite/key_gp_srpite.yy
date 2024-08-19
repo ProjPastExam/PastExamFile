@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"key_gp_srpite",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_get_object_following_acceleration",
   "isCompatibility":false,
   "isDnD":false,

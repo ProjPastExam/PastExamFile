@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_get_aspect_ratio",
   "isCompatibility":false,
   "isDnD":false,

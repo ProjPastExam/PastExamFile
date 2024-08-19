@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uls_collider_define_shape_custom",
   "isCompatibility":false,
   "isDnD":false,

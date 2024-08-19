@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_boxHit",
   "isCompatibility":false,
   "isDnD":false,

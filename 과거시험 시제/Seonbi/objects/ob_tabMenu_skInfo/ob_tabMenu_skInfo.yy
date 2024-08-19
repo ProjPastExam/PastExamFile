@@ -5,8 +5,8 @@
   "managed":true,
   "name":"ob_tabMenu_skInfo",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_tabMenu","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"propertyId":{"name":"isActive","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_tabMenu","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"propertyId":{"name":"roomIndex","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"r_skInfo",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_tabMenu","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"propertyId":{"name":"isActive","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_tabMenu","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"propertyId":{"name":"roomIndex","path":"objects/ob_tabMenu/ob_tabMenu.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"r_skInfo",},
   ],
   "parent":{
     "name":"tabMenu",

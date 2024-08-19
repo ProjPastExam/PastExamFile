@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_delete_instance_following_list",
   "isCompatibility":false,
   "isDnD":false,

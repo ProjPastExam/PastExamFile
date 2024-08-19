@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uls_get_light_color",
   "isCompatibility":false,
   "isDnD":false,

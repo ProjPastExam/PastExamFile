@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_skData",
   "isCompatibility":false,
   "isDnD":false,

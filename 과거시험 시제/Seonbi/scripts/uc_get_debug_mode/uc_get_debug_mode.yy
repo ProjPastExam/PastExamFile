@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_get_debug_mode",
   "isCompatibility":false,
   "isDnD":false,

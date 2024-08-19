@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"gameControlUi",
   "isCompatibility":false,
   "isDnD":false,

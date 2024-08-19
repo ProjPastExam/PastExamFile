@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_add_instance_following_list",
   "isCompatibility":false,
   "isDnD":false,

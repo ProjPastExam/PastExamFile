@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"ranSunbiScript",
   "isCompatibility":false,
   "isDnD":false,

@@ -5,9 +5,9 @@
   "managed":true,
   "name":"ob_npc_gab01",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_sold1_face",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcScript","path":"objects/ob_npcBase/ob_npcBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_npcGab",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_npcBase/ob_npcBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"npcTalk.csv",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_sold1_face",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcScript","path":"objects/ob_npcBase/ob_npcBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_npcGab",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_npcBase/ob_npcBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"npcTalk.csv",},
   ],
   "parent":{
     "name":"NPC",

@@ -5,10 +5,10 @@
   "managed":true,
   "name":"ob_npc_jumo_1",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"talkNum","path":"objects/ob_npcBase/ob_npcBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_jumo_face",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcScript","path":"objects/ob_npcBase/ob_npcBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_npcJumo01",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_npcBase/ob_npcBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"npcTalk.csv",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"talkNum","path":"objects/ob_npcBase/ob_npcBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_jumo_face",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcScript","path":"objects/ob_npcBase/ob_npcBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_npcJumo01",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_npcBase/ob_npcBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"npcTalk.csv",},
   ],
   "parent":{
     "name":"NPC",

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_get_object_borders_horizontal_size",
   "isCompatibility":false,
   "isDnD":false,

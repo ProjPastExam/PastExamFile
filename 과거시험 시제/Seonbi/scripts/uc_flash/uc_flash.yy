@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_flash",
   "isCompatibility":false,
   "isDnD":false,

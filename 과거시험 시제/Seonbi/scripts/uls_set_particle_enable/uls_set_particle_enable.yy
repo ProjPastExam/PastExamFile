@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uls_set_particle_enable",
   "isCompatibility":false,
   "isDnD":false,

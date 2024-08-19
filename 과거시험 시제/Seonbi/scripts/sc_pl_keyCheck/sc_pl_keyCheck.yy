@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sc_pl_keyCheck",
   "isCompatibility":false,
   "isDnD":false,

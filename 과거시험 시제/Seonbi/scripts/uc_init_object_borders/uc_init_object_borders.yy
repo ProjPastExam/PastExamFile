@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_init_object_borders",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_get_view_auto_scale_factor",
   "isCompatibility":false,
   "isDnD":false,

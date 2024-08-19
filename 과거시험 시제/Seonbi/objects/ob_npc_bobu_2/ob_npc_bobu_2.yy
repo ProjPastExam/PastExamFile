@@ -2,15 +2,15 @@
   "$GMObject":"",
   "%Name":"ob_npc_bobu_2",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":3,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":3,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"ob_npc_bobu_2",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"talkNum","path":"objects/ob_npcBase/ob_npcBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_bobu1_face",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_npcBase/ob_npcBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"npcTalk.csv",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcScript","path":"objects/ob_npcBase/ob_npcBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_npcBobu02",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"talkNum","path":"objects/ob_npcBase/ob_npcBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcFace","path":"objects/ob_npcBase/ob_npcBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_bobu1_face",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_npcBase/ob_npcBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"npcTalk.csv",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_npcBase","path":"objects/ob_npcBase/ob_npcBase.yy",},"propertyId":{"name":"npcScript","path":"objects/ob_npcBase/ob_npcBase.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_npcBobu02",},
   ],
   "parent":{
     "name":"NPC",

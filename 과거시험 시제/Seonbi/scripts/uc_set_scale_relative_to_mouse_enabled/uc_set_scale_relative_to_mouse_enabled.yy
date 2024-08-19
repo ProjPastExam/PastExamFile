@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_set_scale_relative_to_mouse_enabled",
   "isCompatibility":false,
   "isDnD":false,

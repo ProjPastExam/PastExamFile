@@ -2,14 +2,14 @@
   "$GMObject":"",
   "%Name":"ob_endCredPl",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"ob_endCredPl",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"ob_csParent","path":"objects/ob_csParent/ob_csParent.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_csParent/ob_csParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"adCs.csv",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_csParent","path":"objects/ob_csParent/ob_csParent.yy",},"propertyId":{"name":"csvFile","path":"objects/ob_csParent/ob_csParent.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"adCs.csv",},
   ],
   "parent":{
     "name":"endCs",

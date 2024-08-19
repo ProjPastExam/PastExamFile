@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uls_set_light_alpha",
   "isCompatibility":false,
   "isDnD":false,

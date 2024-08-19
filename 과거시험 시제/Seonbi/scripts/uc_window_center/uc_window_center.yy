@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"uc_window_center",
   "isCompatibility":false,
   "isDnD":false,
